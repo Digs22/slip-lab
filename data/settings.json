@@ -1,13 +1,13 @@
 {
   "key": "settings",
-  "updated": "2026-10-14T21:01:13.850Z",
+  "updated": "2026-10-14T23:20:23.000Z",
   "prefs": {
     "unit": 2,
     "split": {
-      "straight": 40,
-      "safer": 30,
-      "best": 20,
-      "longshot": 10
+      "straight": 60,
+      "safer": 25,
+      "best": 10,
+      "longshot": 5
     },
     "games": 3,
     "kelly": 0,

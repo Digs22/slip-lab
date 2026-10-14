@@ -20,11 +20,11 @@ POTD_UNITS = 4  # Pick of the Day: one straight bet per league, sized like a str
 MIN_GAME_SCORE = 0.02  # sum of edge x win chance over a game's best 4 legs
 
 UNIT = 3.0  # dollars
-PLAYS = {  # play -> units (40/30/20/10 of a 10u, $30 game)
-    "straight": 4,
-    "safer": 3,
-    "best": 2,
-    "longshot": 1,
+PLAYS = {  # play -> units (60/25/10/5 of a 10u game; user 2026-10-14: mostly straights, longshot only with an edge)
+    "straight": 6,
+    "safer": 2.5,
+    "best": 1,
+    "longshot": 0.5,
 }
 LONGSHOT_MIN = 1000  # American odds
 TRAD_MAX_PER_GAME = 2  # a Traditional slip may take up to 2 legs from one game when they price well
