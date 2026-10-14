@@ -1,6 +1,6 @@
 # Sigma Locks
 
-Daily picks app: four plays per game (Straight, Safer parlay, Best parlay, Longshot at +1000 or longer) on the top 3 games a day across MLB, NFL, NBA, NHL, soccer and college. Every pick is logged as if placed, graded when the game ends, and fed back into the model.
+Daily picks app: four plays per game (Straight, Safer parlay, Best parlay, Longshot at +1000 or longer) on up to 8 ranked games a day (only games scoring at least `MIN_GAME_SCORE`, plus the best game in a league with just one or two games that day; the app's Games per day slider, default 3, sets how many you bet) across MLB, NFL, NBA, NHL, soccer and college. Every pick is logged as if placed, graded when the game ends, and fed back into the model.
 
 - Private preview: https://claude.ai/artifact/KAA7s28w1RzxqF4ThgPqx1
 - Plan: https://claude.ai/code/artifact/7ac6608b-19be-41c8-8069-32876b3605fb
@@ -51,7 +51,7 @@ python3 -m unittest tests.test_core
 
 Keyless: ESPN site API (all leagues, scores, box scores, injuries), MLB Stats API (probables, lineups, splits, batter vs pitcher), NHL API, Open-Meteo (weather). Free key: The Odds API (stored), College Football Data (`CFBD_API_KEY`), football-data.org (`FOOTBALL_DATA_KEY`). Sports-Reference pages are pulled at most once every 4 seconds and cached for 6 hours.
 
-On 2026-10-14 the project's new default cloud environment reached ESPN, MLB Stats, NHL, The Odds API and Sports-Reference. Open-Meteo was still blocked, so weather comes from web search. Without data/analyst files the model finds no edges, so the daily run researches candidate games and writes those files before re-running `daily`.
+On 2026-10-14 the project's new default cloud environment reached ESPN, MLB Stats, NHL, The Odds API and Sports-Reference. Open-Meteo was added later the same day: outdoor NFL and MLB games get wind, rain and temperature from it using `pipeline/venues.py` stadium coordinates. Without data/analyst files the model finds no edges, so the daily run researches candidate games and writes those files before re-running `daily`.
 
 ## Analyst file format
 
@@ -65,6 +65,8 @@ On 2026-10-14 the project's new default cloud environment reached ESPN, MLB Stat
                   "signals": {"recent_form": 0.62, "matchup": 0.58}}]
 }
 ```
+
+Every leg should carry a `note` (one or two plain sentences on why it's recommended) and, for player props, a `status` (injury or practice status, for example "Ankle, limited at practice" or "Healthy"). The app shows both under "Why this pick". Without a note it falls back to the strongest signals. `status` is filled from ESPN's injury report when the analyst file leaves it out.
 
 Signals are probabilities that the leg wins, from one factor: recent_form, season, matchup, home_away, rest_travel, weather, injuries, coaching, postseason, news, line_move.
 
