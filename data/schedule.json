@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T01:48-04:00",
+ "generated": "2026-10-14T01:55-04:00",
  "games": [
   {
    "id": "401915416",
@@ -46,10 +46,10 @@
    "away_score": 0.0,
    "home_score": 0.0,
    "odds": {
-    "spread": "LIV -270",
+    "spread": "LIV -260",
     "total": 3.5,
     "home_ml": 650,
-    "away_ml": -270,
+    "away_ml": -260,
     "book": "DraftKings"
    }
   },
@@ -722,10 +722,10 @@
    "away_score": 0.0,
    "home_score": 0.0,
    "odds": {
-    "spread": "DAL -125",
+    "spread": "DAL -130",
     "total": 3.5,
-    "home_ml": -125,
-    "away_ml": 270,
+    "home_ml": -130,
+    "away_ml": 275,
     "book": "DraftKings"
    }
   },
@@ -1242,32 +1242,6 @@
    }
   },
   {
-   "id": "401872995",
-   "league": "NFL",
-   "date": "2026-10-15",
-   "start": "2026-10-16T00:15Z",
-   "status": "pre",
-   "game": "SEA @ DEN",
-   "away": "SEA",
-   "home": "DEN",
-   "away_name": "Seattle Seahawks",
-   "home_name": "Denver Broncos",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-   "venue": "Empower Field at Mile High",
-   "city": "Denver, CO",
-   "detail": "10/15 - 8:15 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "SEA -2.5",
-    "total": 40.5,
-    "home_ml": 120,
-    "away_ml": -142,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "401908622",
    "league": "NBA",
    "date": "2026-10-15",
@@ -1346,110 +1320,6 @@
    "away_score": 0.0,
    "home_score": 0.0,
    "odds": {}
-  },
-  {
-   "id": "401884770",
-   "league": "SOCCER",
-   "date": "2026-10-16",
-   "start": "2026-10-16T18:30Z",
-   "status": "pre",
-   "game": "KOE @ SGE",
-   "away": "KOE",
-   "home": "SGE",
-   "away_name": "FC Cologne",
-   "home_name": "Eintracht Frankfurt",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
-   "venue": "Deutsche Bank Park",
-   "city": "Frankfurt",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "SGE -110",
-    "total": 3.5,
-    "home_ml": -110,
-    "away_ml": 220,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874959",
-   "league": "SOCCER",
-   "date": "2026-10-16",
-   "start": "2026-10-16T18:45Z",
-   "status": "pre",
-   "game": "SAS @ FRO",
-   "away": "SAS",
-   "home": "FRO",
-   "away_name": "Sassuolo",
-   "home_name": "Frosinone",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-   "venue": "Stadio Benito Stirpe",
-   "city": "Frosinone",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "FRO +145",
-    "total": 3.5,
-    "home_ml": 145,
-    "away_ml": 160,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876437",
-   "league": "SOCCER",
-   "date": "2026-10-16",
-   "start": "2026-10-16T18:45Z",
-   "status": "pre",
-   "game": "TOU @ MNS",
-   "away": "TOU",
-   "home": "MNS",
-   "away_name": "Toulouse",
-   "home_name": "Le Mans",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-   "venue": "Stade Marie-Marvingt",
-   "city": "Le Mans",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "TOU +130",
-    "total": 2.5,
-    "home_ml": 195,
-    "away_ml": 130,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882844",
-   "league": "SOCCER",
-   "date": "2026-10-16",
-   "start": "2026-10-16T19:00Z",
-   "status": "pre",
-   "game": "LEV @ DEP",
-   "away": "LEV",
-   "home": "DEP",
-   "away_name": "Levante",
-   "home_name": "Deportivo",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-   "venue": "Riazor",
-   "city": "La Coru\u00f1a",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "DEP +110",
-    "total": 2.5,
-    "home_ml": 110,
-    "away_ml": 245,
-    "book": "DraftKings"
-   }
   },
   {
    "id": "401908026",
@@ -5995,6 +5865,7 @@
   }
  ],
  "problems": [
-  "NCAAF 2026-10-19: https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+  "NFL 2026-10-15: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+  "SOCCER 2026-10-16: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
  ]
 }
