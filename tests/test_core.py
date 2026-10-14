@@ -183,5 +183,24 @@ class Rerun(unittest.TestCase):
         self.assertEqual(list(builder.pick_of_day(games)), ["MLB"])
 
 
+class Retrain(unittest.TestCase):
+    def test_learns_a_real_signal_and_rejects_noise(self):
+        import random
+        from pipeline import learn
+        rng = random.Random(1)
+        rows = []
+        for i in range(1200):
+            fair = 0.5
+            truth = rng.choice([0.4, 0.6])  # the "matchup" factor knows the true chance
+            noise = rng.uniform(0.3, 0.7)   # "news" is random
+            rows.append({"start": f"2026-01-01T{i:05d}", "fair": fair, "signals": {"matchup": truth, "news": noise},
+                         "result": "win" if rng.random() < truth else "loss"})
+        out = learn.fit_weights(rows, {"matchup": 0.5, "news": 0.5})
+        self.assertTrue(out["accepted"])
+        self.assertGreater(out["weights"]["matchup"], 0.5)
+        self.assertLess(out["weights"]["news"], 0.5)
+        self.assertFalse(learn.fit_weights(rows[:100], {})["accepted"])  # too few rows
+
+
 if __name__ == "__main__":
     unittest.main()

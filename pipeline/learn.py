@@ -92,3 +92,82 @@ def load_lessons() -> dict:
         return json.loads(config.LESSONS_FILE.read_text())
     except FileNotFoundError:
         return {"rules": [], "flags": [], "loss_causes": {}}
+
+
+# ---------- retraining on every graded leg (data/candidates) ----------
+
+MIN_TRAIN = 300      # graded legs before any retrain is trusted
+MIN_FACTOR_ROWS = 30  # a factor needs this many rows with a real signal to be refit
+
+
+def _features(row, factors):
+    from .analyze import logit
+    base = logit(row["fair"])
+    sig = row.get("signals") or {}
+    return base, [(logit(sig[f]) - base) / 4 if sig.get(f) is not None else 0.0 for f in factors]
+
+
+def _loss(rows, factors, w):
+    import math
+    total = 0.0
+    for base, x, y in rows:
+        z = base + sum(wi * xi for wi, xi in zip(w, x))
+        p = min(max(1 / (1 + math.exp(-z)), 1e-4), 1 - 1e-4)
+        total -= y * math.log(p) + (1 - y) * math.log(1 - p)
+    return total / max(len(rows), 1)
+
+
+def fit_weights(rows: list[dict], current: dict, epochs: int = 300, lr: float = 0.5, l2: float = 0.02) -> dict:
+    """Fit factor weights by minimizing log loss on graded legs, oldest 70% as training and newest 30%
+    held out. The new weights are kept only if they beat both the current weights and the market's own
+    price on the held-out games, so the model never trusts a change that just memorized the past."""
+    import math
+    rows = sorted((r for r in rows if r.get("fair") is not None and r.get("result") in ("win", "loss")), key=lambda r: r["start"])
+    out = {"n": len(rows), "accepted": False}
+    if len(rows) < MIN_TRAIN:
+        out["reason"] = f"waiting for {MIN_TRAIN} graded legs"
+        return out
+    counts = {}
+    for r in rows:
+        for f, p in (r.get("signals") or {}).items():
+            if p is not None and abs(p - r["fair"]) >= 0.01:
+                counts[f] = counts.get(f, 0) + 1
+    factors = sorted(f for f, n in counts.items() if n >= MIN_FACTOR_ROWS)
+    if not factors:
+        out["reason"] = "no factor has enough signal rows yet"
+        return out
+    data = [(*_features(r, factors), 1 if r["result"] == "win" else 0) for r in rows]
+    cut = int(len(data) * 0.7)
+    train, test = data[:cut], data[cut:]
+    w0 = [current.get(f, 0.5) for f in factors]
+    w = list(w0)
+    for _ in range(epochs):  # plain gradient descent with a pull back toward the current weights
+        g = [0.0] * len(w)
+        for base, x, y in train:
+            z = base + sum(wi * xi for wi, xi in zip(w, x))
+            err = 1 / (1 + math.exp(-z)) - y
+            for i, xi in enumerate(x):
+                g[i] += err * xi
+        w = [min(MAX_W, max(MIN_W, wi - lr * (gi / len(train) + l2 * (wi - w0i)))) for wi, gi, w0i in zip(w, g, w0)]
+    new, old, market = _loss(test, factors, w), _loss(test, factors, w0), _loss(test, factors, [0.0] * len(w))
+    out |= {"factors": factors, "held_out": len(test), "logloss_new": round(new, 4), "logloss_current": round(old, 4),
+            "logloss_market": round(market, 4), "weights": {f: round(x, 3) for f, x in zip(factors, w)}}
+    if new < old and new < market:
+        out["accepted"] = True
+    else:
+        out["reason"] = "new weights did not beat the current weights and the market on held-out games"
+    return out
+
+
+def retrain() -> dict:
+    """Refit on every graded leg; save the weights only when they win out of sample."""
+    from . import candidates
+    from .analyze import load_weights
+    current = load_weights()
+    result = fit_weights(candidates.graded(), current)
+    if result.get("accepted"):
+        config.WEIGHTS_FILE.write_text(json.dumps(current | result["weights"], indent=2) + "\n")
+    lessons = load_lessons()
+    lessons["retrain"] = result | {"market_check": candidates.report()}
+    config.LESSONS_FILE.write_text(json.dumps(lessons, indent=2) + "\n")
+    return result

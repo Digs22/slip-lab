@@ -269,6 +269,7 @@ def _grade_candidates():
         n = candidates.grade_all()
         if n:
             log(f"graded {n} logged legs; model vs market: {candidates.report()}")
+            log(f"retrain: {learn.retrain()}")
     except Exception as e:
         log(f"candidates grading skipped: {e}")
 
@@ -365,4 +366,4 @@ def status():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
     {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status,
-     "candidates": lambda: print(candidates.report())}[cmd]()
+     "candidates": lambda: print(candidates.report()), "retrain": lambda: print(learn.retrain())}[cmd]()
