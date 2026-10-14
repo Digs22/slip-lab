@@ -299,7 +299,8 @@
           "note": null,
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "closing_odds": 104
         }
       ],
       "status": "pending",
@@ -351,7 +352,8 @@
           "note": null,
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "closing_odds": 104
         },
         {
           "desc": "Gasser u11.5 outs",
@@ -442,7 +444,8 @@
           "note": null,
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "closing_odds": 104
         }
       ],
       "status": "pending",
