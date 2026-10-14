@@ -12,7 +12,7 @@ import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import analyze, builder, config, grade, learn, ledger, sources
+from . import analyze, builder, candidates, config, grade, learn, ledger, sources
 
 
 def today() -> str:
@@ -156,12 +156,17 @@ def daily(date: str | None = None, only_ids: set | None = None):
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
+    _grade_candidates()
     # Picks cover today and tomorrow: a game gets its plays the day before and they update until game-day lock.
     from datetime import timedelta
     tomorrow = (datetime.fromisoformat(date) + timedelta(days=1)).strftime("%Y-%m-%d")
     scored, problems, picks, added = [], [], [], []
     for d in (date, tomorrow):
         sc, pr = scan(d, only_ids)
+        try:
+            log(f"{d}: logged {candidates.log(sc)} priced legs for training")
+        except Exception as e:  # training data must never block picks
+            pr.append(f"candidates: {e}")
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
@@ -259,11 +264,21 @@ def recheck(date: str | None = None):
     daily(date, waiting)
 
 
+def _grade_candidates():
+    try:
+        n = candidates.grade_all()
+        if n:
+            log(f"graded {n} logged legs; model vs market: {candidates.report()}")
+    except Exception as e:
+        log(f"candidates grading skipped: {e}")
+
+
 def grade_cmd():
     bets = ledger.load()
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
+    _grade_candidates()
     ledger.save(bets)
     export()
     log(f"graded {len(changed)} bets")
@@ -349,4 +364,5 @@ def status():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
-    {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status}[cmd]()
+    {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status,
+     "candidates": lambda: print(candidates.report())}[cmd]()

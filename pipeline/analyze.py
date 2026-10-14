@@ -188,7 +188,7 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
     analyst = analyst_file(date, game)
     legs += analyst.get("extra_legs", [])  # props priced by hand from public odds pages
     overrides = {a["desc"]: a for a in analyst.get("legs", [])}
-    scored = []
+    scored, evaluated = [], []
     for leg in legs:
         sig = {}
         if leg["market"] == "total":
@@ -203,12 +203,14 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
         leg = leg | {"game": game["id"], "signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
                      "note": ov.get("note", leg.get("note")),
                      "status": ov.get("status", leg.get("status")) or injury_status(leg, injuries)}
+        evaluated.append(leg)
         if leg["edge"] >= config.MIN_EDGE:
             scored.append(leg)
     scored.sort(key=lambda l: l["edge"], reverse=True)
     return {"game": game, "legs": scored, "provisional": not analyst.get("lineups_confirmed", False),
             "low_total": any(l["market"] == "total" and l["line"] and l["line"] <= _low(game["league"]) for l in legs),
-            "score": round(sum(l["edge"] * l["prob"] for l in scored[:4]), 4), "analyst": analyst.get("summary")}
+            "score": round(sum(l["edge"] * l["prob"] for l in scored[:4]), 4), "analyst": analyst.get("summary"),
+            "evaluated": evaluated}  # every leg priced, picked or not: training data for the learning loop
 
 
 def _low(league):
