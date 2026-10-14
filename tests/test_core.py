@@ -222,3 +222,28 @@ class NoDuplicates(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Audit(unittest.TestCase):
+    def test_audit_fixes_status_net_and_stale_note(self):
+        from pipeline import grade
+        bet = {"id": "x", "date": "2020-01-01", "league": "MLB", "game": "A @ B", "units": 2, "stake": 5.0, "odds": 150,
+               "to_win": 9.0, "status": "loss", "net": -5.0, "note": "Waiting on box score (likely loss)",
+               "legs": [{"desc": "Over 7", "market": "total", "odds": -110, "result": "win"},
+                        {"desc": "A ML", "market": "ml", "odds": 120, "result": "win"}]}
+        fixes = grade.audit([bet], refetch=False)
+        self.assertEqual(bet["status"], "win")
+        self.assertEqual(bet["stake"], 6.0)
+        self.assertEqual(bet["net"], 9.0)
+        self.assertNotIn("Waiting", bet["note"])
+        self.assertTrue(fixes)
+        self.assertEqual(grade.audit([bet], refetch=False), [])  # a clean record stays untouched
+
+    def test_audit_keeps_loss_with_unknown_leg(self):
+        from pipeline import grade
+        bet = {"id": "y", "date": "2020-01-01", "league": "MLB", "game": "A @ B", "units": 1, "stake": 3.0, "odds": 300,
+               "to_win": 9.0, "status": "loss", "net": -3.0,
+               "legs": [{"desc": "A ML", "market": "ml", "odds": 120, "result": "loss"},
+                        {"desc": "X to homer", "market": "prop", "odds": 400, "result": "unknown"}]}
+        self.assertEqual(grade.audit([bet], refetch=False), [])
+        self.assertEqual(bet["net"], -3.0)

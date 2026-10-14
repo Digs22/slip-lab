@@ -177,6 +177,7 @@ def daily(date: str | None = None, only_ids: set | None = None):
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
+    _audit(bets)
     _grade_candidates()
     # Picks cover today and tomorrow: a game gets its plays the day before and they update until game-day lock.
     from datetime import timedelta
@@ -297,11 +298,24 @@ def _grade_candidates():
         log(f"candidates grading skipped: {e}")
 
 
+def _audit(bets: list[dict], refetch: bool = True) -> list[str]:
+    """Re-verify every settled bet against its legs and odds so the Record tab is exact."""
+    try:
+        fixes = grade.audit(bets, refetch=refetch)
+    except Exception as e:  # the audit must never block grading or picks
+        log(f"audit skipped: {e}")
+        return []
+    for f in fixes:
+        log(f"audit fix: {f}")
+    return fixes
+
+
 def grade_cmd():
     bets = ledger.load()
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
+    _audit(bets)
     _grade_candidates()
     ledger.save(bets)
     export()
@@ -340,6 +354,8 @@ def close():
 
 def export():
     bets = ledger.load()
+    if _audit(bets, refetch=False):
+        ledger.save(bets)
     data = {"generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
             "settings": {"unit": config.UNIT, "plays": config.PLAYS, "games_per_day": config.GAMES_PER_DAY,
                          "timezone": config.TIMEZONE, "refresh": config.REFRESH_TIME},

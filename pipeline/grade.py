@@ -159,3 +159,72 @@ def _num(x):
         return float(str(x).split("/")[0].split("-")[0])
     except ValueError:
         return None
+
+
+STALE_NOTES = ("waiting on box score", "likely loss", "likely win", "pending")
+
+
+def audit(bets: list[dict], refetch: bool = True, days: int = 3) -> list[str]:
+    """Re-check every settled bet so the Record tab is exact. Runs after every grade, daily run and export.
+
+    1. Recent bets with an ungraded leg ("unknown") re-read the final box score and fill it in.
+    2. Stake and payout are recomputed from units and odds.
+    3. The status is recomputed from the legs, and the net from the status.
+    4. Notes that still say the result is pending are cleared.
+    Returns one line per fix."""
+    from datetime import datetime, timedelta
+    from . import config
+    from .odds import to_win
+    fixes, cache = [], {}
+    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    for bet in bets:
+        if bet["status"] not in ledger.SETTLED:
+            continue
+        if refetch and bet["date"] >= cutoff and any(l.get("result") in (None, "unknown") for l in bet["legs"]):
+            for leg in bet["legs"]:
+                if leg.get("result") not in (None, "unknown"):
+                    continue
+                probe = {"league": leg.get("league") or bet["league"], "date": leg.get("date") or bet["date"],
+                         "event_id": leg.get("event_id") or bet.get("event_id"), "game": leg.get("matchup") or bet["game"]}
+                try:
+                    key = probe["event_id"] or f"{probe['league']}|{probe['date']}|{probe['game']}"
+                    if key not in cache:
+                        g = find_game(probe)
+                        if g and g.get("completed"):
+                            g["_stats"] = box_stats(g)
+                        cache[key] = g if g and g.get("completed") else None
+                    g = cache[key]
+                    r = leg_result(leg, g, g["_stats"]) if g else "unknown"
+                except (sources.SourceError, KeyError, TypeError) as e:
+                    print(f"audit: can't re-check {bet['id']} {leg['desc']}: {e}")
+                    continue
+                if r != "unknown":
+                    leg["result"] = r
+                    fixes.append(f"{bet['id']}: {leg['desc']} graded {r}")
+        stake = round(bet["units"] * config.UNIT, 2)
+        if bet.get("stake") != stake:
+            fixes.append(f"{bet['id']}: stake {bet.get('stake')} -> {stake}")
+            bet["stake"] = stake
+        status = bet_result(bet)  # also re-prices a parlay whose legs pushed
+        if status is None:
+            status = bet["status"]  # a leg is still unknown and none lost: keep the recorded result
+        elif status != bet["status"]:
+            fixes.append(f"{bet['id']}: status {bet['status']} -> {status}")
+        if not any(l.get("result") == "push" for l in bet["legs"]):
+            tw = to_win(bet["stake"], bet["odds"])
+            if bet.get("to_win") != tw:
+                fixes.append(f"{bet['id']}: to_win {bet.get('to_win')} -> {tw}")
+                bet["to_win"] = tw
+        old = bet.get("net")
+        ledger.settle(bet, status)
+        if old != bet["net"]:
+            fixes.append(f"{bet['id']}: net {old} -> {bet['net']}")
+        if any(s in (bet.get("note") or "").lower() for s in STALE_NOTES):
+            fixes.append(f"{bet['id']}: cleared note '{bet['note']}'")
+            bet["note"] = _result_note(bet)
+    return fixes
+
+
+def _result_note(bet: dict) -> str:
+    won = sum(l.get("result") == "win" for l in bet["legs"])
+    return f"{won} of {len(bet['legs'])} legs hit"

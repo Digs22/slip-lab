@@ -27,7 +27,8 @@
       "venue": "Tropicana Field",
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
-      "placed": true
+      "placed": true,
+      "final": "CLE 1, TB 3"
     },
     {
       "id": "2026-10-13-CLETB-safer",
@@ -59,7 +60,8 @@
           "side": "over",
           "line": 0.5,
           "odds": -160,
-          "result": "unknown"
+          "result": "win",
+          "actual": 1
         }
       ],
       "note": "Lost by 2",
@@ -67,7 +69,8 @@
       "venue": "Tropicana Field",
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
-      "placed": true
+      "placed": true,
+      "final": "CLE 1, TB 3"
     },
     {
       "id": "2026-10-13-CLETB-best",
@@ -100,7 +103,8 @@
           "line": 1.5,
           "odds": -102,
           "result": "loss",
-          "cause": "bad read"
+          "cause": "bad read",
+          "actual": 1
         },
         {
           "desc": "D\u00edaz u1.5 total bases",
@@ -110,10 +114,11 @@
           "side": "under",
           "line": 1.5,
           "odds": -145,
-          "result": "win"
+          "result": "win",
+          "actual": 0
         }
       ],
-      "note": "Waiting on box score (likely loss)",
+      "note": "Ram\u00edrez 1 H, 0 R, 0 RBI",
       "venue": "Tropicana Field",
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
@@ -150,14 +155,16 @@
           "side": "over",
           "line": 0.5,
           "odds": 476,
-          "result": "unknown"
+          "result": "loss",
+          "actual": 0
         }
       ],
       "cause": "bad read: faded Peralta on old postseason sample; he threw 6 scoreless",
       "venue": "Tropicana Field",
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
-      "placed": true
+      "placed": true,
+      "final": "CLE 1, TB 3"
     },
     {
       "id": "2026-10-14-MILLAD-straight",
