@@ -1,0 +1,30 @@
+# Live bet tracking and phone alerts. Every 10 minutes during game hours (noon to 3 AM Eastern), and
+# whenever new picks are pushed: sends ntfy alerts for new picks, legs falling behind or lost, and graded bets.
+# Needs one repo secret: NTFY_TOPIC (your private ntfy topic name).
+name: Live alerts
+on:
+  schedule:
+    - cron: "*/10 16-23,0-7 * * *"
+  push:
+    branches: [main]
+    paths: ["data/bets.json"]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency: { group: live, cancel-in-progress: false }
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Restore what was already sent
+        uses: actions/cache/restore@v4
+        with: { path: data/live_state.json, key: "live-state-${{ github.run_id }}", restore-keys: "live-state-" }
+      - name: Check open bets and send alerts
+        env: { NTFY_TOPIC: "${{ secrets.NTFY_TOPIC }}" }
+        run: python3 -m pipeline.live
+      - name: Remember what was sent
+        uses: actions/cache/save@v4
+        with: { path: data/live_state.json, key: "live-state-${{ github.run_id }}" }

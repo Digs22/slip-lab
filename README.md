@@ -23,6 +23,18 @@ Daily picks app: four plays per game (Straight, Safer parlay, Best parlay, Longs
 
 Tapping "I placed this" (or "I placed all") in the app saves a doc in the artifact's database, collection `placed`, doc id = bet id. The Record tab's "My bets" view uses those for your personal record, units and ROI. Claude can read them with ArtifactData `list` on collection `placed`. In a self-hosted copy without that database, marks are kept in the browser.
 
+## Live tracking and phone alerts
+
+- In the app (website), each leg on a game in progress shows Hit, Lost, On track or Behind, with the current number and its pace to the final. It reads ESPN's live scoreboard and box score from the phone every minute.
+- `python3 -m pipeline.live` sends ntfy alerts: new picks posted, a leg falls behind or is lost, a leg hits, a bet is graded. The topic name is in `.secrets/ntfy_topic` (and the repo secret `NTFY_TOPIC`). GitHub Actions runs it every 10 minutes from noon to 3 AM Eastern (`.github/workflows/live.yml`).
+
+## Statistical model
+
+- `pipeline/project.py` projects each prop's stat (Poisson for counts, normal for yardage) and prices the line from that distribution, as the `projection` signal. Inputs come from the analyst file (`projection: {mu, sd}`, `{log: [...]}`, or `{pitcher_k, opp_k, batters_faced}`) or automatically from nflverse (NFL) and Baseball Savant (MLB strikeouts).
+- Parlays are re-priced with a 20,000-run simulation that accounts for same-game correlation (an Under with a QB passing under, teammates' overs, a side with its players' overs).
+- `python3 -m pipeline.run close` saves the closing line 10 to 45 minutes before each game. The Lessons tab shows closing line value and a calibration chart with a Brier score.
+- `pipeline/stats_feeds.py`: Baseball Savant, nflverse, MoneyPuck.
+
 ## Commands
 
 ```

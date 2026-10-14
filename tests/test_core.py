@@ -85,9 +85,46 @@ class Learn(unittest.TestCase):
         p = model_prob(0.5, {"recent_form": 0.9}, {"recent_form": 0.8})
         self.assertTrue(0.5 < p < 0.75)
 
+    def test_calibration(self):
+        bets = [{"legs": [{"prob": 0.6, "result": "win"}, {"prob": 0.65, "result": "loss"}]}]
+        c = ledger.calibration(bets)
+        self.assertEqual(c["legs"], 2)
+        self.assertEqual(c["bins"][0]["hit"], 0.5)
+
     def test_cause(self):
         self.assertEqual(learn.tag_cause({"odds": -110, "closing_odds": -130}), "variance")
         self.assertEqual(learn.tag_cause({"odds": -110}), "bad read")
+
+
+class Projection(unittest.TestCase):
+    def test_poisson_and_log5(self):
+        from pipeline import project
+        self.assertAlmostEqual(project.poisson_over(5.0, 4.5), 0.5595, 3)
+        self.assertAlmostEqual(project.log5_k_rate(0.225, 0.225), 0.225, 6)
+        self.assertGreater(project.project_pitcher_ks(0.30, 0.25, 24), 24 * 0.30)
+
+    def test_simulation_matches_product_when_independent(self):
+        from pipeline import project
+        legs = [{"market": "total", "side": "under", "prob": 0.6, "game": "a"},
+                {"market": "prop", "stat": "strikeouts", "side": "over", "prob": 0.5, "game": "b"}]
+        self.assertAlmostEqual(project.simulate_parlay(legs), 0.30, delta=0.015)
+        corr = [{"market": "total", "side": "under", "prob": 0.6, "game": "a"},
+                {"market": "prop", "stat": "pass_yds", "side": "under", "prob": 0.6, "game": "a"}]
+        self.assertGreater(project.simulate_parlay(corr), 0.36 + 0.03)
+
+
+class Live(unittest.TestCase):
+    def test_pace_and_decided(self):
+        from pipeline import live
+        g = {"league": "NFL", "status": "in", "period": 3, "clock": "7:30", "home": "DEN", "away": "SEA",
+             "home_score": 10.0, "away_score": 14.0, "completed": False}
+        self.assertAlmostEqual(live.elapsed(g), 0.625)
+        under = live.leg_status({"market": "total", "side": "under", "line": 40.5}, g, {})
+        self.assertEqual(under["state"], "on_track")  # 24 now, pace 38.4
+        self.assertEqual(live.leg_status({"market": "spread", "team": "SEA", "line": -8.5}, g, {})["state"], "behind")
+        prop = {"market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5}
+        self.assertEqual(live.leg_status(prop, g, {"Bo Nix": {"pass_yds": 150}})["state"], "behind")
+        self.assertEqual(live.leg_status(prop, g, {"Bo Nix": {"pass_yds": 212}})["state"], "lost")
 
 
 if __name__ == "__main__":

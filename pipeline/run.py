@@ -3,6 +3,7 @@
     python3 -m pipeline.run daily     # 7:59 AM ET: slate, lines, analysis, top games, four plays each
     python3 -m pipeline.run recheck   # every 30 min: re-run games still waiting on lineups or news
     python3 -m pipeline.run grade     # after games end: grade, update P&L, learn
+    python3 -m pipeline.run close     # 10-30 min before games: save closing lines (for CLV)
     python3 -m pipeline.run export    # write the app's data file
     python3 -m pipeline.run status    # print the record
 """
@@ -120,6 +121,35 @@ def grade_cmd():
     status()
 
 
+def close():
+    """Save the closing line for every game-line leg on bets whose games start within 45 minutes."""
+    from datetime import timezone
+    bets = ledger.load()
+    now = datetime.now(timezone.utc)
+    soon = [b for b in bets if b["status"] == "pending" and b.get("start")
+            and 0 <= (datetime.fromisoformat(b["start"].replace("Z", "+00:00")) - now).total_seconds() <= 2700]
+    saved = 0
+    for league in {b["league"] for b in soon}:
+        try:
+            events = sources.odds(league)
+        except sources.SourceError as e:
+            log(f"close: {e}")
+            continue
+        for b in [b for b in soon if b["league"] == league]:
+            g = grade.find_game(b)
+            if not g:
+                continue
+            lines = {l["desc"]: l for l in analyze.best_lines(events, g["home_name"], g["away_name"])}
+            for leg in b["legs"]:
+                match = next((l for l in lines.values() if l["market"] == leg["market"] and l.get("line") == leg.get("line")
+                              and (l.get("side") == leg.get("side") or (l.get("team") or "").endswith(leg.get("team") or "~"))), None)
+                if match:
+                    leg["closing_odds"] = match["consensus"]
+                    saved += 1
+    ledger.save(bets)
+    log(f"close: saved {saved} closing lines")
+
+
 def export():
     bets = ledger.load()
     data = {"generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
@@ -169,4 +199,4 @@ def status():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
-    {"daily": daily, "recheck": recheck, "grade": grade_cmd, "export": export, "status": status}[cmd]()
+    {"daily": daily, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status}[cmd]()

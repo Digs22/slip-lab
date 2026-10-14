@@ -64,7 +64,36 @@ def summary(bets: list[dict]) -> dict:
         run += b["net"]
         curve.append({"date": b["date"], "id": b["id"], "net": round(run, 2)})
     out["curve"] = curve
+    out["calibration"] = calibration(bets)
+    out["clv"] = clv(bets)
     return out
+
+
+def calibration(bets: list[dict]) -> dict:
+    """Do our win chances come true? Legs grouped by the probability we gave them, plus a Brier score
+    (0 = perfect, 0.25 = coin-flip guessing)."""
+    pts = [(l["prob"], l["result"] == "win") for b in bets for l in b["legs"]
+           if l.get("prob") is not None and l.get("result") in ("win", "loss")]
+    bins = []
+    for lo in (0.3, 0.4, 0.5, 0.6, 0.7):
+        grp = [(p, w) for p, w in pts if lo <= p < lo + 0.1 or (lo == 0.3 and p < 0.3) or (lo == 0.7 and p >= 0.8)]
+        if grp:
+            bins.append({"from": lo, "to": lo + 0.1, "n": len(grp), "said": round(sum(p for p, _ in grp) / len(grp), 3),
+                         "hit": round(sum(w for _, w in grp) / len(grp), 3)})
+    brier = round(sum((p - w) ** 2 for p, w in pts) / len(pts), 4) if pts else None
+    return {"legs": len(pts), "brier": brier, "bins": bins}
+
+
+def clv(bets: list[dict]) -> dict:
+    """Closing line value: how much better our price was than the last line before the game.
+    Positive on average = we're beating the market, the best early sign of a real edge."""
+    from .odds import implied
+    diffs = [implied(l["closing_odds"]) - implied(l["odds"]) for b in bets for l in b["legs"]
+             if l.get("closing_odds") is not None and l.get("odds") is not None]
+    if not diffs:
+        return {"legs": 0, "avg_pct": None, "beat_close": None}
+    return {"legs": len(diffs), "avg_pct": round(100 * sum(diffs) / len(diffs), 2),
+            "beat_close": round(sum(d > 0 for d in diffs) / len(diffs), 3)}
 
 
 def _market(b):

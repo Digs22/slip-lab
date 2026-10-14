@@ -15,9 +15,9 @@ from statistics import mean
 from . import config, sources
 from .odds import edge, implied, no_vig
 
-FACTORS = ["recent_form", "season", "matchup", "home_away", "rest_travel", "weather",
+FACTORS = ["projection", "recent_form", "season", "matchup", "home_away", "rest_travel", "weather",
            "injuries", "coaching", "postseason", "news", "line_move"]
-DEFAULT_WEIGHTS = {f: 0.5 for f in FACTORS} | {"recent_form": 0.8, "injuries": 0.7, "postseason": 0.3}
+DEFAULT_WEIGHTS = {f: 0.5 for f in FACTORS} | {"projection": 1.0, "recent_form": 0.8, "injuries": 0.7, "postseason": 0.3}
 
 
 def load_weights() -> dict:
@@ -126,6 +126,39 @@ def injury_signals(game: dict, leg: dict, injuries: list[dict]) -> dict:
     return {"injuries": 0.5} if not out else {}
 
 
+NFL_COLS = {"pass_yds": "passing_yards", "rec_yds": "receiving_yards", "rush_yds": "rushing_yards",
+            "receptions": "receptions", "pass_td": "passing_tds"}
+
+
+def projection_signal(game: dict, leg: dict) -> dict:
+    """Project the stat itself and price the line from that distribution.
+    Inputs, in order of preference: the analyst file's projection {mu, sd}, its game log, pitcher K
+    inputs, then automatic feeds (nflverse game logs for NFL, Savant K% for MLB strikeouts)."""
+    from . import project, stats_feeds
+    pj = leg.get("projection") or {}
+    try:
+        if "mu" in pj:
+            return {"projection": project.prop_prob(leg["stat"], leg["side"], leg["line"], pj["mu"], pj.get("sd"))}
+        if pj.get("log"):
+            return {"projection": project.from_game_log(leg["stat"], leg["side"], leg["line"], pj["log"], pj.get("season_avg"))}
+        if {"pitcher_k", "opp_k", "batters_faced"} <= pj.keys():
+            mu = project.project_pitcher_ks(pj["pitcher_k"], pj["opp_k"], pj["batters_faced"])
+            return {"projection": project.prop_prob("strikeouts", leg["side"], leg["line"], mu)}
+        season = int(game["start"][:4])
+        if game["league"] == "NFL" and leg.get("stat") in NFL_COLS:
+            log = [float(r[NFL_COLS[leg["stat"]]] or 0) for r in stats_feeds.nfl_player_log(season, leg["player"])]
+            p = project.from_game_log(leg["stat"], leg["side"], leg["line"], log)
+            return {"projection": p} if p is not None else {}
+        if game["league"] == "MLB" and leg.get("stat") == "strikeouts" and pj.get("opp_k"):
+            sv = stats_feeds.savant(season, "pitcher").get(leg["player"])
+            if sv and isinstance(sv.get("k_percent"), float):
+                mu = project.project_pitcher_ks(sv["k_percent"] / 100, pj["opp_k"], pj.get("batters_faced", 22))
+                return {"projection": project.prop_prob("strikeouts", leg["side"], leg["line"], mu)}
+    except (sources.SourceError, KeyError, ValueError, ZeroDivisionError):
+        pass
+    return {}
+
+
 def analyst_file(date: str, game: dict) -> dict:
     p = config.DATA / "analyst" / f"{date}-{game['id']}.json"
     try:
@@ -149,10 +182,12 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
         if leg["market"] == "total":
             sig |= total_signals(game, leg, summary)
         sig |= injury_signals(game, leg, injuries)
+        if leg["market"] == "prop":
+            sig |= projection_signal(game, leg)
         sig |= overrides.get(leg["desc"], {}).get("signals", {})
         sig |= leg.get("signals", {})
         p = model_prob(leg["fair"], sig, weights)
-        leg = leg | {"signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
+        leg = leg | {"game": game["id"], "signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
                      "note": overrides.get(leg["desc"], {}).get("note", leg.get("note"))}
         if leg["edge"] >= config.MIN_EDGE:
             scored.append(leg)

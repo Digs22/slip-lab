@@ -13,6 +13,7 @@ from math import prod
 
 from . import config
 from .odds import parlay_american, to_decimal
+from .project import simulate_parlay
 
 COIN_FLIP = 0.06  # |fair - 0.5| below this is a coin flip
 
@@ -84,6 +85,10 @@ def build_plays(scored: dict) -> dict | None:
         take(plays["longshot"]["legs"])
 
     for name, play in plays.items():
+        if len(play["legs"]) > 1:  # correlated same-game legs: simulate instead of multiplying
+            p = simulate_parlay(play["legs"])
+            play["prob"] = round(p, 4)
+            play["ev"] = round(p * to_decimal(play["odds"]) - 1, 4)
         play["units"] = config.PLAYS[name]
         play["stake"] = play["units"] * config.UNIT
     return plays
