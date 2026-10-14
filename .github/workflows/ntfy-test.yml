@@ -7,11 +7,15 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Send a test alert
+      - name: Check the secret and send a test alert
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           if [ -z "$NTFY_TOPIC" ]; then echo "NTFY_TOPIC secret is missing"; exit 1; fi
-          curl -fsS -H "Title: Slip Lab test" -H "Tags: white_check_mark" \
-            -d "Phone alerts are working. You'll get pings for new picks, live legs and graded bets." \
-            "https://ntfy.sh/$NTFY_TOPIC" > /dev/null
+          echo "secret length: ${#NTFY_TOPIC}"
+          got=$(printf %s "$NTFY_TOPIC" | sha256sum | cut -c1-16)
+          if [ "$got" = "dadefc0d161c1596" ]; then echo "SECRET MATCHES"; else echo "SECRET DIFFERS"; fi
+          curl -fsS -H "Title: Slip Lab test 2" -H "Priority: high" -d "Second test. If you see this, alerts work." "https://ntfy.sh/$NTFY_TOPIC"
+          echo
+          echo "messages cached on the topic:"
+          curl -fsS "https://ntfy.sh/$NTFY_TOPIC/json?poll=1&since=1h" | wc -l
