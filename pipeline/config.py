@@ -27,6 +27,7 @@ PLAYS = {  # play -> units (40/30/20/10 of a 10u, $30 game)
     "longshot": 1,
 }
 LONGSHOT_MIN = 1000  # American odds
+TRAD_MAX_PER_GAME = 2  # a Traditional slip may take up to 2 legs from one game when they price well
 MAX_LEG_REUSE = 2  # a leg may appear in at most 2 of a game's 4 plays
 MIN_EDGE = 0.02  # drop legs with less than 2% expected value
 

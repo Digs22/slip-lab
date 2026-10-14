@@ -118,9 +118,12 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
 
 
 def build_traditional(scored_games: list[dict], sgp_straights: set | None = None) -> dict | None:
-    """The same four plays, but every leg from a different game: the day's strongest legs across the
-    whole slate. Legs from different games are independent, so parlay odds multiply cleanly.
-    The straight skips any leg that is already a game's SGP straight, so the two slips don't double up."""
+    """The same four plays across the whole slate: the day's strongest researched legs, at most
+    config.TRAD_MAX_PER_GAME (2) from any one game and always spanning at least 2 games. A same-game
+    pair must be on different markets and players, and is only taken when it prices better: parlays
+    are ranked on multiplied odds, then the leaders are re-priced with the correlation simulation
+    (legs from different games stay independent). The straight skips any leg that is already a
+    game's SGP straight, so the two slips don't double up."""
     pool = []
     for g in scored_games:
         meta = {"event_id": g["game"]["id"], "league": g["game"]["league"], "start": g["game"].get("start"),
@@ -134,11 +137,30 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     used = Counter()
 
     def ok(combo):
-        return len({l["event_id"] for l in combo}) == len(combo) and all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+        per = Counter(l["event_id"] for l in combo)
+        if len(combo) > 1 and len(per) < 2:
+            return False  # a Traditional slip always spans at least 2 games
+        if max(per.values()) > config.TRAD_MAX_PER_GAME:
+            return False
+        for eid, n in per.items():
+            if n > 1 and not _independent([l for l in combo if l["event_id"] == eid]):
+                return False
+        return all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
 
     def take(combo):
         for l in combo:
             used[_key(l)] += 1
+
+    def priced(c, n=4000):
+        """Re-price a parlay with same-game legs through the correlation simulation."""
+        if len({l["event_id"] for l in c["legs"]}) == len(c["legs"]):
+            return c
+        p = simulate_parlay(c["legs"], n=n)
+        return c | {"prob": round(p, 4), "ev": round(p * prod(to_decimal(l["odds"]) for l in c["legs"]) - 1, 4)}
+
+    def best_of(cands, key, top=25):
+        cands = sorted(cands, key=key, reverse=True)[:top]
+        return max((priced(c) for c in cands), key=key, default=None)
 
     plays = {}
     singles = [l for l in pool if l["prob"] >= 0.5 and _key(l) not in (sgp_straights or set())]
@@ -149,18 +171,21 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     safer_pool = [l for l in pool if l["prob"] >= 0.55 and not _coin_flip_side(l)]
     cands = [_parlay(c) for c in combinations(safer_pool, 2) if ok(c)]
     cands = [c for c in cands if c["ev"] > 0] or cands
-    if cands:
-        plays["safer"] = max(cands, key=lambda c: (c["prob"], c["ev"]))
-        take(plays["safer"]["legs"])
-    cands = [_parlay(c) for c in combinations(pool, 3) if ok(c)]
-    if cands:
-        plays["best"] = max(cands, key=lambda c: c["ev"])
-        take(plays["best"]["legs"])
+    pick = best_of(cands, lambda c: (c["prob"], c["ev"]))
+    if pick:
+        plays["safer"] = pick
+        take(pick["legs"])
+    pick = best_of([_parlay(c) for c in combinations(pool, 3) if ok(c)], lambda c: c["ev"])
+    if pick:
+        plays["best"] = pick
+        take(pick["legs"])
     cands = [_parlay(c) for n in (3, 4, 5) for c in combinations(pool[:14], n) if ok(c)]
-    cands = [c for c in cands if c["odds"] >= config.LONGSHOT_MIN]
-    if cands:
-        plays["longshot"] = max(cands, key=lambda c: (c["prob"], c["ev"]))
+    pick = best_of([c for c in cands if c["odds"] >= config.LONGSHOT_MIN], lambda c: (c["prob"], c["ev"]))
+    if pick:
+        plays["longshot"] = pick
     for name, play in plays.items():
+        if len({l["event_id"] for l in play["legs"]}) < len(play["legs"]):
+            play.update(priced(play, n=20000))  # final price at full precision
         play["units"] = config.PLAYS[name]
         play["stake"] = play["units"] * config.UNIT
     return plays or None

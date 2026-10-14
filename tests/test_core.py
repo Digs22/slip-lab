@@ -147,7 +147,7 @@ class Schedule(unittest.TestCase):
 
 
 class Traditional(unittest.TestCase):
-    def test_one_leg_per_game(self):
+    def test_at_most_two_legs_per_game(self):
         from pipeline import builder
         def leg(gid, d, prob, odds, mk="total"):
             return {"desc": f"{gid} {d}", "market": mk, "side": "under", "odds": odds, "fair": 0.5, "prob": prob,
@@ -157,7 +157,9 @@ class Traditional(unittest.TestCase):
         plays = builder.build_traditional(games)
         for play in plays.values():
             ids = [l["event_id"] for l in play["legs"]]
-            self.assertEqual(len(ids), len(set(ids)))
+            self.assertLessEqual(max(ids.count(i) for i in ids), 2)
+            if len(ids) > 1:
+                self.assertGreaterEqual(len(set(ids)), 2)
         self.assertIn("safer", plays)
 
 

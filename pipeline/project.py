@@ -68,6 +68,8 @@ def correlation(a: dict, b: dict) -> float:
     """Rough same-game correlation between two legs' outcomes. 0 for different games or unknown pairs."""
     if a.get("game") and b.get("game") and a["game"] != b["game"]:
         return 0.0
+    if a.get("event_id") and b.get("event_id") and a["event_id"] != b["event_id"]:
+        return 0.0
     kinds = {a["market"], b["market"]}
     sides = (a.get("side"), b.get("side"))
     if kinds == {"total", "prop"}:

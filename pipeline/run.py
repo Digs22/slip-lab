@@ -114,7 +114,7 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
         if existing:
             bets.remove(existing)
         bet = {"id": bid, "kind": "traditional", "date": date, "league": "MULTI",
-               "game": f"Multi-game · {len(data['legs'])} game{'s' if len(data['legs']) > 1 else ''}", "start": first, "play": play,
+               "game": f"Multi-game · {len({l.get('event_id') for l in data['legs']})} game{'s' if len({l.get('event_id') for l in data['legs']}) > 1 else ''}", "start": first, "play": play,
                "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
                "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
                                                 "prob", "edge", "signals", "note", "status", "alt", "main_line",
