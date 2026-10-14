@@ -1112,6 +1112,10 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     const all = (data.bets || []).filter(b => recKind === "all" || kindOf(b) === recKind);
     const bets = scope === "mine" ? all.filter(b => placed.has(b.id)) : all;
     const t = totals(bets);
+    // The dollar headline, curve and risked line only count bets you placed, at the units and $/unit
+    // locked in when you tapped, so the Bankroll slider never moves them. Record, units and ROI above
+    // still follow the All picks / My bets switch.
+    const mineBets = all.filter(b => lockOf(b)), mt = totals(mineBets);
     const list = all.filter(b => placed.has(b.id)).filter(b => betFilter === "all" || b.status === betFilter || (betFilter === "settled" && b.status !== "pending"))
       .sort((a, b) => b.date.localeCompare(a.date) || PLAY_ORDER.indexOf(a.play) - PLAY_ORDER.indexOf(b.play));
     const toGreen = t.units < 0 ? `${(-t.units + 0.01).toFixed(2)}u to get back to green` : t.units > 0 ? `${t.units.toFixed(2)}u of cushion before red` : "Right at even";
@@ -1120,7 +1124,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
       <div class="chips" role="toolbar" aria-label="Slip type">${[["all", "All slips"], ["sgp", "SGP"], ["traditional", "Traditional"], ["potd", "Pick of the Day"]].map(([k, n]) => `<button class="chip" data-rec-kind="${k}" aria-pressed="${recKind === k}">${n}</button>`).join("")}</div>
       ${scope === "mine" && !bets.length ? `<div class="empty glass"><b>No placed bets yet</b>Tap "I placed this" on any play in Today, or "I placed all" on a game, and your own record shows up here.</div>` : ""}
       <section class="hero glass"><div class="hero-grid"><div class="hero-main">
-        <div><div class="eyebrow">${scope === "mine" ? "Your net on the bets you placed" : "All-time net, assuming every pick placed"}</div><div class="big ${cls(t.net)}">${sign$(t.net)}</div><div class="note">${toGreen}</div></div>
+        <div><div class="eyebrow">All-time net on the bets you placed</div><div class="big ${cls(mt.net)}">${sign$(mt.net)}</div><div class="note">${toGreen}</div></div>
         <div class="stats">
           <div class="stat"><b>${t.w}-${t.l}-${t.p}</b><span>Record</span></div>
           <div class="stat"><b class="${cls(t.units)}">${t.units >= 0 ? "+" : ""}${t.units.toFixed(2)}u</b><span>Units</span></div>
@@ -1128,8 +1132,8 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
           <div class="stat"><b>${t.pending}</b><span>Pending</span></div>
         </div>
         </div><div class="meter"><span class="lab">Units</span>${meterSVG(t.units)}<b class="${cls(t.units)}" style="font-family:var(--display);font-size:18px">${t.units >= 0 ? "+" : ""}${t.units.toFixed(1)}u</b></div></div>
-        ${curveSVG(bets)}
-        <p class="note">${fmt$(t.risked)} risked on settled bets. Bets you placed count at the units and unit size locked in when you tapped "I placed this"${scope === "mine" ? "" : `; the rest use ${fmt$(prefs.unit)} a unit from the Bankroll tab`}.</p>
+        ${curveSVG(mineBets)}
+        <p class="note">${fmt$(mt.risked)} risked on your settled bets, each at the units and unit size locked in when you tapped "I placed this". Moving the Bankroll slider never changes these dollars.</p>
       </section>
       ${recKind === "all" ? splitTable("By slip type", "kind", ["sgp", "traditional", "potd"]) : ""}
       ${splitTable("By play", "play", PLAY_ORDER)}
