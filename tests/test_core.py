@@ -211,12 +211,14 @@ class NoDuplicates(unittest.TestCase):
         self.assertTrue(run._duplicate([a], b))
         self.assertFalse(run._duplicate([a], c))  # same leg inside a different bet is fine
 
-    def test_potd_skips_existing_straight(self):
-        from pipeline import builder
+    def test_potd_is_highest_hit_rate_and_may_repeat(self):
+        from pipeline import builder, run
         g = {"game": {"id": "1", "league": "MLB", "away": "A", "home": "B"}, "analyst": {"s": 1},
-             "legs": [{"desc": "K o6.5", "prob": 0.6, "edge": 0.1}, {"desc": "Under 7", "prob": 0.56, "edge": 0.05}]}
-        self.assertEqual(builder.pick_of_day([g], {("1", "K o6.5")})["MLB"]["desc"], "Under 7")
-
+             "legs": [{"desc": "K o6.5", "prob": 0.58, "edge": 0.12}, {"desc": "Under 7", "prob": 0.64, "edge": 0.03}]}
+        self.assertEqual(builder.pick_of_day([g])["MLB"]["desc"], "Under 7")
+        sgp = {"id": "s", "status": "pending", "event_id": "1", "legs": [{"desc": "Under 7"}]}
+        potd = {"id": "p", "kind": "potd", "status": "pending", "event_id": "1", "legs": [{"desc": "Under 7"}]}
+        self.assertFalse(run._duplicate([sgp], potd))
 
 if __name__ == "__main__":
     unittest.main()

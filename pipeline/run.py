@@ -67,10 +67,13 @@ def _legset(b: dict) -> tuple:
 
 
 def _duplicate(bets: list[dict], bet: dict) -> bool:
-    """User rule: never post two bets with exactly the same legs. A leg may repeat inside different
-    bets (a straight and a parlay), but an identical bet is skipped."""
+    """User rule: never post two SGP or Traditional bets with exactly the same legs. A leg may repeat
+    inside different bets (a straight and a parlay). Pick of the Day is exempt: it is the day's highest
+    hit-rate pick even when an SGP or Traditional straight already has it."""
+    if bet.get("kind") == "potd":
+        return False
     key = _legset(bet)
-    return any(b["id"] != bet["id"] and b["status"] == "pending" and _legset(b) == key for b in bets)
+    return any(b["id"] != bet["id"] and b["status"] == "pending" and b.get("kind") != "potd" and _legset(b) == key for b in bets)
 
 
 def _prune(bets: list[dict], prefix: str, keep: set) -> None:
@@ -189,11 +192,7 @@ def daily(date: str | None = None, only_ids: set | None = None):
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
         trad = builder.build_traditional(sc, sgp_straights)
         added += record_traditional(d, trad, bets, prune=not only_ids)
-        # Pick of the Day never repeats a straight already posted today (SGP or Traditional).
-        taken = {(b.get("event_id"), b["legs"][0]["desc"]) for b in bets
-                 if b["status"] == "pending" and b.get("kind") != "potd" and len(b["legs"]) == 1 and b.get("event_id")}
-        taken |= {(l["event_id"], l["desc"]) for p in (trad or {}).values() if len(p["legs"]) == 1 for l in p["legs"]}
-        added += record_potd(d, builder.pick_of_day(sc, taken), bets, prune=not only_ids)
+        added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()
