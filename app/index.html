@@ -1081,7 +1081,9 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     </svg>`;
   }
 
-  const recBets = () => (data.bets || []).filter(b => (scope !== "mine" || placed.has(b.id)) && (recKind === "all" || kindOf(b) === recKind));
+  // Guests (no owner topic) only ever see their own placed bets in Stats; the All picks view is the owner's.
+  const scopeNow = () => owner ? scope : "mine";
+  const recBets = () => (data.bets || []).filter(b => (scopeNow() !== "mine" || placed.has(b.id)) && (recKind === "all" || kindOf(b) === recKind));
   function splitTable(title, key, names) {
     const bets = recBets().map(b => key === "kind" ? { ...b, kind: kindOf(b) } : b);
     const keys = names || [...new Set(bets.map(b => b[key]))];
@@ -1110,6 +1112,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
 
   function viewRecord() {
     const all = (data.bets || []).filter(b => recKind === "all" || kindOf(b) === recKind);
+    const scope = scopeNow();
     const bets = scope === "mine" ? all.filter(b => placed.has(b.id)) : all;
     const t = totals(bets);
     // The dollar headline, curve and risked line only count bets you placed, at the units and $/unit
@@ -1120,7 +1123,8 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
       .sort((a, b) => b.date.localeCompare(a.date) || PLAY_ORDER.indexOf(a.play) - PLAY_ORDER.indexOf(b.play));
     const toGreen = t.units < 0 ? `${(-t.units + 0.01).toFixed(2)}u to get back to green` : t.units > 0 ? `${t.units.toFixed(2)}u of cushion before red` : "Right at even";
     return `
-      <div class="seg glass" role="group" aria-label="Whose bets"><button data-scope="all" aria-pressed="${scope === "all"}">All picks</button><button data-scope="mine" aria-pressed="${scope === "mine"}">My bets${placed.size ? " · " + all.filter(b => placed.has(b.id)).length : ""}</button></div>
+      ${owner ? "" : `<p class="note" style="margin:0 0 4px">Your stats: only the bets you mark "I placed this" on this phone.</p>`}
+      <div class="seg glass" role="group" aria-label="Whose bets"${owner ? "" : ' style="display:none"'}><button data-scope="all" aria-pressed="${scope === "all"}">All picks</button><button data-scope="mine" aria-pressed="${scope === "mine"}">My bets${placed.size ? " · " + all.filter(b => placed.has(b.id)).length : ""}</button></div>
       <div class="chips" role="toolbar" aria-label="Slip type">${[["all", "All slips"], ["sgp", "SGP"], ["traditional", "Traditional"], ["potd", "Pick of the Day"]].map(([k, n]) => `<button class="chip" data-rec-kind="${k}" aria-pressed="${recKind === k}">${n}</button>`).join("")}</div>
       ${scope === "mine" && !bets.length ? `<div class="empty glass"><b>No placed bets yet</b>Tap "I placed this" on any play in Today, or "I placed all" on a game, and your own record shows up here.</div>` : ""}
       <section class="hero glass"><div class="hero-grid"><div class="hero-main">
