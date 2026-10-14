@@ -109,7 +109,8 @@ def upcoming(scored: list[dict], picks: list[dict], n: int = 12) -> list[dict]:
     rest = sorted((s for s in scored if s["game"]["id"] not in taken), key=lambda s: s["score"], reverse=True)[:n]
     return [{"id": s["game"]["id"], "league": s["game"]["league"], "game": f"{s['game']['away']} @ {s['game']['home']}",
              "start": s["game"]["start"], "venue": s["game"].get("venue"), "city": s["game"].get("city"),
-             "score": s["score"], "edges": len(s["legs"])} for s in rest]
+             "score": s["score"], "edges": len(s["legs"]),
+             "home_logo": s["game"].get("home_logo"), "away_logo": s["game"].get("away_logo")} for s in rest]
 
 
 def recheck(date: str | None = None):
