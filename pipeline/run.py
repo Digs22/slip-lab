@@ -102,6 +102,7 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
                 "game": f"{g['away']} @ {g['home']}", "start": g["start"], "play": play,
                 "venue": g.get("venue"), "city": g.get("city"),
                 "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
+                "home_conf": g.get("home_conf"), "away_conf": g.get("away_conf"),
                 "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
                 "provisional": p["provisional"], "score": p.get("score"), "rank": rank,
                 "summary": p.get("analyst"), "weather": g.get("weather"),
@@ -254,6 +255,7 @@ def schedule(days: int = 7):
                             "away_logo": g.get("away_logo"), "home_logo": g.get("home_logo"),
                             "venue": g.get("venue"), "city": g.get("city"), "detail": g.get("detail"),
                             "away_score": g.get("away_score"), "home_score": g.get("home_score"),
+                            "home_conf": g.get("home_conf"), "away_conf": g.get("away_conf"),
                             "odds": _preview_odds(g.get("odds") or {})})
     seen, uniq = set(), []
     for g in sorted(out, key=lambda g: g["start"]):

@@ -95,8 +95,17 @@ def espn_scoreboard(league: str, date: str) -> list[dict]:
                 "venue": venue.get("fullName"), "indoor": venue.get("indoor"),
                 "city": ", ".join(x for x in (venue.get("address", {}).get("city"), venue.get("address", {}).get("state")) if x),
                 "odds": comp.get("odds", [{}])[0] if comp.get("odds") else {},
+                "home_conf": _conf(league, teams["home"]["team"]), "away_conf": _conf(league, teams["away"]["team"]),
             })
     return games
+
+
+def _conf(league: str, team: dict) -> str | None:
+    """College football conference name for the CFB tab's grouping; None elsewhere."""
+    if league != "NCAAF":
+        return None
+    cid = str(team.get("conferenceId") or "")
+    return config.CFB_CONFERENCES.get(cid) or ("FCS / other" if cid else None)
 
 
 def espn_summary(game: dict) -> dict:
