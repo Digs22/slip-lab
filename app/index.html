@@ -669,8 +669,8 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   function render() {
     const t = totals(data.bets || []);
     $("#pill").textContent = sign$(t.net); $("#pill").className = "pnl-pill " + cls(t.net);
-    const upd = data.generated ? " · updated " + new Date(data.generated).toLocaleString("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "2-digit" }) : "";
-    $("#updated").textContent = { today: "Today's slips" + upd, record: "Record", bankroll: "Bankroll", lessons: "Lessons", settings: "Settings" }[tab];
+    const upd = data.generated ? "Updated " + new Date(data.generated).toLocaleString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" }) : "Today's slips";
+    $("#updated").textContent = { today: upd, record: "Record", bankroll: "Bankroll", lessons: "Lessons", settings: "Settings" }[tab];
     $("#view").innerHTML = ({ today: viewToday, record: viewRecord, bankroll: viewBankroll, lessons: viewLessons, settings: viewSettings }[tab] || viewToday)();
     document.querySelectorAll("nav.tabs button").forEach(b => b.dataset.tab === tab ? b.setAttribute("aria-current", "page") : b.removeAttribute("aria-current"));
   }
