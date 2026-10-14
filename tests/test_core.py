@@ -140,6 +140,10 @@ class Schedule(unittest.TestCase):
         self.assertEqual(run.et_date("2026-10-16T00:15:00Z"), "2026-10-15")
         self.assertTrue(run.locked("2020-01-01T18:00:00Z"))
         self.assertFalse(run.locked("2099-01-01T18:00:00Z"))
+        from datetime import datetime, timedelta, timezone
+        soon = lambda m: (datetime.now(timezone.utc) + timedelta(minutes=m)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        self.assertTrue(run.locked(soon(45)))   # inside the final hour
+        self.assertFalse(run.locked(soon(90)))  # still updating
 
 
 class Traditional(unittest.TestCase):

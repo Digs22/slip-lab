@@ -37,7 +37,7 @@ Tapping "I placed this" (or "I placed all") in the app saves a doc in the artifa
 
 ## Games tab and pick timing
 
-The Games tab has a 7-day strip. `python3 -m pipeline.run schedule` (also run by `daily`) writes data/schedule.json: every game in every league for the next 7 Eastern days with ESPN's consensus spread, total and moneylines, shown as a preview. `daily` now picks today's and tomorrow's games, so picks post the day before and keep updating with the odds and news until the 7:59 AM run on game day, when they lock. A slip leaves the Games tab once every bet in it is settled; its results stay on the Record tab.
+The Games tab has a 7-day strip. `python3 -m pipeline.run schedule` (also run by `daily`) writes data/schedule.json: every game in every league for the next 7 Eastern days with ESPN's consensus spread, total and moneylines, shown as a preview. `daily` now picks today's and tomorrow's games, so picks post the day before and keep updating with the odds and news until one hour before the game starts (`LOCK_BEFORE_MIN` in config.py), when they're final. A Traditional slip locks an hour before its first game. A slip leaves the Games tab once every bet in it is settled; its results stay on the Record tab.
 
 ## Commands
 

@@ -9,7 +9,7 @@
 """
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from . import analyze, builder, config, grade, learn, ledger, sources
@@ -25,11 +25,10 @@ def et_date(iso: str) -> str:
 
 
 def locked(game_start: str) -> bool:
-    """Picks post the day before and can change with the odds or new research until the 7:59 AM
-    run on game day, when the user bets. After that they stay as posted."""
-    now = datetime.now(ZoneInfo(config.TIMEZONE))
-    day = et_date(game_start)
-    return day < now.strftime("%Y-%m-%d") or (day == now.strftime("%Y-%m-%d") and now.strftime("%H:%M") >= config.REFRESH_TIME)
+    """Picks post the day before and can change with the odds or new research until one hour
+    before the game starts (config.LOCK_BEFORE_MIN). After that they stay as posted."""
+    start = datetime.fromisoformat(game_start.replace("Z", "+00:00"))
+    return datetime.now(ZoneInfo(config.TIMEZONE)) >= start - timedelta(minutes=config.LOCK_BEFORE_MIN)
 
 
 def log(msg):
