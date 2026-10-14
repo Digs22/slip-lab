@@ -281,3 +281,25 @@ class Filters(unittest.TestCase):
             post, alive = teams.postseason("MLB", "2026-10-14")
         self.assertTrue(post)
         self.assertEqual(alive, {"1", "3"})  # team 2 lost its series; teams that never played aren't alive
+
+
+class DeviceSync(unittest.TestCase):
+    def test_newest_settings_and_placed_taps_win(self):
+        import tempfile, pathlib
+        from unittest import mock
+        from pipeline import sync, teams
+        d = pathlib.Path(tempfile.mkdtemp())
+        bets = [{"id": "a", "units": 4, "stake": 12.0}]
+        msgs = [{"key": "settings", "updated": "2026-10-14T01:00Z", "prefs": {"unit": 5}},
+                {"key": "settings", "updated": "2026-10-14T00:00Z", "prefs": {"unit": 9}},
+                {"key": "placed", "id": "a", "on": True, "at": "2026-10-14T01:00Z", "units": 4, "unit": 5},
+                {"key": "placed", "id": "a", "on": True, "at": "2026-10-14T00:30Z", "units": 4, "unit": 9},
+                {"key": "filters", "updated": "2026-10-14T01:00Z", "off_leagues": ["NBA"]}]
+        with mock.patch.object(sync, "SETTINGS_FILE", d / "s.json"), mock.patch.object(sync, "PLACED_FILE", d / "p.json"), \
+             mock.patch.object(teams, "FILTERS_FILE", d / "f.json"):
+            sync.apply(msgs, bets)
+            self.assertEqual(sync.load_settings()["prefs"]["unit"], 5)
+            self.assertEqual((bets[0]["placed"], bets[0]["placed_unit"]), (True, 5))
+            self.assertEqual(teams.load_filters(remote=False)["off_leagues"], ["NBA"])
+            sync.apply([{"key": "placed", "id": "a", "on": False, "at": "2026-10-14T02:00Z"}], bets)
+            self.assertNotIn("placed", bets[0])

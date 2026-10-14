@@ -13,7 +13,7 @@ import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import analyze, builder, candidates, config, grade, learn, ledger, sources, teams
+from . import analyze, builder, candidates, config, grade, learn, ledger, sources, sync, teams
 
 
 def today() -> str:
@@ -178,6 +178,7 @@ def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) ->
 def daily(date: str | None = None, only_ids: set | None = None):
     date = date or today()
     bets = ledger.load()
+    _sync(bets)
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
@@ -321,8 +322,19 @@ def _audit(bets: list[dict], refetch: bool = True) -> list[str]:
     return fixes
 
 
+def _sync(bets: list[dict]) -> None:
+    """Settings, pick toggles and placed taps from the website (see sync.py)."""
+    try:
+        n = sync.pull(bets)
+        if any(n.values()):
+            log(f"device sync: {n}")
+    except Exception as e:  # never block picks on it
+        log(f"device sync skipped: {e}")
+
+
 def grade_cmd():
     bets = ledger.load()
+    _sync(bets)
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
@@ -373,7 +385,8 @@ def export():
             "bets": bets, "summary": ledger.summary(bets), "lessons": learn.load_lessons(),
             "slate": json.loads(config.SLATE_FILE.read_text()) if config.SLATE_FILE.exists() else None,
             "schedule": json.loads((config.DATA / "schedule.json").read_text()) if (config.DATA / "schedule.json").exists() else None,
-            "teams": teams.load_teams(), "filters": teams.load_filters(remote=False)}
+            "teams": teams.load_teams(), "filters": teams.load_filters(remote=False),
+            "settings": sync.load_settings(), "placed_events": sync.load_placed_events()}
     data["logos"] = logos(bets)
     blob = json.dumps(data, ensure_ascii=False)
     (config.APP_DIR / "data.json").write_text(blob)

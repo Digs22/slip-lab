@@ -147,20 +147,21 @@ def _clean(f: dict) -> dict:
                           if k in config.LEAGUES and v}}
 
 
-def _ntfy_latest() -> dict | None:
+def ntfy_messages() -> list[dict]:
+    """Every app message on "<topic>-prefs" (about the last 12 hours), oldest first."""
     from .live import notify_topic
     topic = notify_topic()
     if not topic:
-        return None
+        return []
     try:
         with urllib.request.urlopen(urllib.request.Request(f"https://ntfy.sh/{topic}-prefs/json?poll=1&since=all",
                                                            headers=sources.UA), timeout=15) as r:
             msgs = [json.loads(x) for x in r.read().decode().splitlines() if x.strip()]
     except Exception as e:
-        print(f"filters: {e}")
-        return None
-    best = None
-    for m in msgs:
+        print(f"prefs channel: {e}")
+        return []
+    out = []
+    for m in sorted((m for m in msgs if m.get("event") == "message"), key=lambda m: m.get("time", 0)):
         try:
             body = m.get("message") or "{}"
             if m.get("attachment", {}).get("url"):  # ntfy turns messages over 4 KB into a file
@@ -169,7 +170,15 @@ def _ntfy_latest() -> dict | None:
             f = json.loads(body)
         except Exception:
             continue
-        if isinstance(f, dict) and f.get("key") == "filters" and (best is None or str(f.get("updated")) > str(best.get("updated"))):
+        if isinstance(f, dict):
+            out.append(f)
+    return out
+
+
+def _ntfy_latest() -> dict | None:
+    best = None
+    for f in ntfy_messages():
+        if f.get("key") == "filters" and (best is None or str(f.get("updated")) > str(best.get("updated"))):
             best = f
     return best
 
