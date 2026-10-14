@@ -1,0 +1,130 @@
+"""Grade pending bets once their games are final. Every leg is graded, so the learning loop knows
+which leg sank a slip."""
+from . import ledger, sources
+from .odds import parlay_american
+
+# Prop stat -> how to read it from a box score. ESPN labels per league; MLB uses the Stats API.
+ESPN_STATS = {
+    "rec_yds": ("receiving", "YDS"), "receptions": ("receiving", "REC"),
+    "rush_yds": ("rushing", "YDS"), "pass_yds": ("passing", "YDS"), "pass_td": ("passing", "TD"),
+    "points": (None, "PTS"), "rebounds": (None, "REB"), "assists": (None, "AST"), "threes": (None, "3PT"),
+    "shots": (None, "S"), "saves": (None, "SV"), "goals": (None, "G"),
+}
+MLB_BATTING = {"hits": "hits", "total_bases": "totalBases", "hr": "homeRuns", "rbi": "rbi", "runs": "runs"}
+
+
+def leg_result(leg: dict, game: dict, stats: dict | None) -> str:
+    h, a = game["home_score"], game["away_score"]
+    if leg["market"] == "total":
+        t = h + a
+        return "push" if t == leg["line"] else ("win" if (t > leg["line"]) == (leg["side"] == "over") else "loss")
+    if leg["market"] in ("ml", "spread"):
+        mine, theirs = (h, a) if _is_home(leg["team"], game) else (a, h)
+        margin = mine - theirs + (leg.get("line") or 0)
+        return "push" if margin == 0 else ("win" if margin > 0 else "loss")
+    if leg["market"] == "prop":
+        val = (stats or {}).get(leg["player"], {}).get(leg["stat"])
+        if val is None:
+            return "unknown"
+        return "push" if val == leg["line"] else ("win" if (val > leg["line"]) == (leg["side"] == "over") else "loss")
+    return "unknown"
+
+
+def bet_result(bet: dict) -> str | None:
+    rs = [l.get("result") for l in bet["legs"]]
+    if "loss" in rs:
+        return "loss"
+    if any(r in (None, "unknown") for r in rs):
+        return None  # wait for the box score
+    live = [l for l in bet["legs"] if l["result"] == "win"]
+    if not live:
+        return "push"
+    if len(live) < len(bet["legs"]):  # pushed legs drop out of a parlay
+        bet["odds"] = parlay_american([l["odds"] for l in live])
+        bet["to_win"] = round(bet["stake"] * (_dec(bet["odds"]) - 1), 2)
+    return "win"
+
+
+def box_stats(game: dict) -> dict:
+    """player name -> {stat: value} for every stat we grade."""
+    out = {}
+    if game["league"] == "MLB" and game.get("mlb_pk"):
+        box = sources.mlb_boxscore(game["mlb_pk"])
+        for side in ("home", "away"):
+            for p in box["teams"][side]["players"].values():
+                b = p.get("stats", {}).get("batting", {})
+                pit = p.get("stats", {}).get("pitching", {})
+                row = {k: b.get(v) for k, v in MLB_BATTING.items() if b.get(v) is not None}
+                if b:
+                    row["h_r_rbi"] = b.get("hits", 0) + b.get("runs", 0) + b.get("rbi", 0)
+                if pit:
+                    row["strikeouts"] = pit.get("strikeOuts")
+                    row["outs"] = pit.get("outs")
+                out[p["person"]["fullName"]] = row
+        return out
+    summary = sources.espn_summary(game)
+    for team in summary.get("boxscore", {}).get("players", []):
+        for group in team.get("statistics", []):
+            labels = group.get("labels", [])
+            for ath in group.get("athletes", []):
+                name = ath["athlete"]["displayName"]
+                row = out.setdefault(name, {})
+                for stat, (grp, label) in ESPN_STATS.items():
+                    if (grp is None or group.get("name") == grp) and label in labels:
+                        row[stat] = _num(ath["stats"][labels.index(label)])
+                if group.get("name") in ("rushing", "receiving") and "TD" in labels:
+                    row["anytime_td"] = row.get("anytime_td", 0) + (_num(ath["stats"][labels.index("TD")]) or 0)
+    return out
+
+
+def find_game(bet: dict) -> dict | None:
+    abbrs = [x.strip().split(",")[0].split()[0] for x in bet["game"].split("@")]
+    for g in sources.espn_scoreboard(bet["league"], bet["date"]):
+        if bet.get("event_id") == g["id"] or {g["away"], g["home"]} == set(abbrs):
+            if g["league"] == "MLB":  # MLB props grade from the Stats API box score
+                for m in sources.mlb_schedule(bet["date"]):
+                    t = {m["teams"][s]["team"].get("abbreviation") for s in ("home", "away")}
+                    if t == {g["away"], g["home"]}:
+                        g["mlb_pk"] = m["gamePk"]
+            return g
+    return None
+
+
+def grade_all(bets: list[dict]) -> list[dict]:
+    """Settle every pending bet whose game is final. Returns the bets that changed."""
+    changed, cache = [], {}
+    for bet in [b for b in bets if b["status"] == "pending"]:
+        try:
+            game = find_game(bet)
+            if game and game["completed"] and game["id"] not in cache:
+                cache[game["id"]] = box_stats(game) if any(l["market"] == "prop" for l in bet["legs"]) else {}
+        except sources.SourceError as e:
+            print(f"grade: can't reach the feed for {bet['game']}: {e}")
+            continue
+        if not game or not game["completed"]:
+            continue
+        for leg in bet["legs"]:
+            if leg.get("result") in (None, "unknown"):
+                leg["result"] = leg_result(leg, game, cache[game["id"]])
+        status = bet_result(bet)
+        if status:
+            ledger.settle(bet, status)
+            bet["final"] = f"{game['away']} {game['away_score']:g}, {game['home']} {game['home_score']:g}"
+            changed.append(bet)
+    return changed
+
+
+def _is_home(team, game):
+    t = (team or "").lower()
+    return t in (game["home"].lower(), game.get("home_name", "").lower())
+
+
+def _dec(a):
+    return 1 + a / 100 if a > 0 else 1 + 100 / abs(a)
+
+
+def _num(x):
+    try:
+        return float(str(x).split("/")[0].split("-")[0])
+    except ValueError:
+        return None

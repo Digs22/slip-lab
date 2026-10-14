@@ -1,0 +1,171 @@
+"""Steps 2-7: price every market, gather factor signals, and score each leg's edge.
+
+A signal is a probability (0-1) that the leg wins, from one factor. The model starts from the
+no-vig market price and moves toward each signal in log-odds space, by that factor's weight.
+Weights live in data/weights.json and the learning loop adjusts them after every graded game.
+
+Quant signals come from the free feeds. Qualitative ones (coaching, scheme, news, postseason
+history, matchup history from Sports-Reference) come from the analyst file Claude writes for each
+game at data/analyst/<date>-<game id>.json, following the betting-analysis skill.
+"""
+import json
+import math
+from statistics import mean
+
+from . import config, sources
+from .odds import edge, implied, no_vig
+
+FACTORS = ["recent_form", "season", "matchup", "home_away", "rest_travel", "weather",
+           "injuries", "coaching", "postseason", "news", "line_move"]
+DEFAULT_WEIGHTS = {f: 0.5 for f in FACTORS} | {"recent_form": 0.8, "injuries": 0.7, "postseason": 0.3}
+
+
+def load_weights() -> dict:
+    try:
+        return DEFAULT_WEIGHTS | json.loads(config.WEIGHTS_FILE.read_text())
+    except FileNotFoundError:
+        return dict(DEFAULT_WEIGHTS)
+
+
+def logit(p):
+    p = min(max(p, 1e-4), 1 - 1e-4)
+    return math.log(p / (1 - p))
+
+
+def model_prob(fair: float, signals: dict, weights: dict) -> float:
+    """Blend the fair market price with factor signals. Each signal's pull is capped by its weight / 4,
+    so no one factor can move the price more than a fraction of the gap."""
+    base = logit(fair)
+    shift = sum(weights.get(f, 0) / 4 * (logit(p) - base) for f, p in signals.items() if p is not None)
+    return 1 / (1 + math.exp(-(base + shift)))
+
+
+def shrunk_rate(hits: int, n: int, prior: float = 0.5, k: int = 5) -> float:
+    """Hit rate pulled toward the prior so a 3-for-3 sample doesn't read as 100%."""
+    return (hits + prior * k) / (n + k)
+
+
+# ---------- markets ----------
+
+def best_lines(odds_events: list[dict], home: str, away: str) -> list[dict]:
+    """Best price per side across every book, plus the no-vig consensus probability."""
+    ev = next((e for e in odds_events if _match(e, home, away)), None)
+    if not ev:
+        return []
+    book = {}
+    for bm in ev.get("bookmakers", []):
+        for m in bm["markets"]:
+            for o in m["outcomes"]:
+                k = (m["key"], o["name"], o.get("point"))
+                book.setdefault(k, []).append((o["price"], bm["title"]))
+    legs = []
+    for (mkt, name, point), prices in book.items():
+        other = [v for (m2, n2, p2), v in book.items() if m2 == mkt and n2 != name
+                 and (p2 == point or (mkt == "spreads" and p2 == -(point or 0)))]
+        if not other:
+            continue
+        a = mean(p for p, _ in prices)
+        b = mean(p for p, _ in other[0])
+        fair = no_vig(a, b)[0]
+        price, title = max(prices, key=lambda x: x[0])
+        legs.append({
+            "market": {"h2h": "ml", "spreads": "spread", "totals": "total"}[mkt],
+            "side": name.lower() if mkt == "totals" else None,
+            "team": None if mkt == "totals" else name, "line": point,
+            "odds": price, "book": title, "consensus": round(a), "fair": round(fair, 4),
+            "books": len(prices),
+            "desc": f"{name} {point:+g}" if mkt == "spreads" else (f"{name} {point:g}" if mkt == "totals" else f"{name} ML"),
+        })
+    return legs
+
+
+def espn_consensus(game: dict) -> list[dict]:
+    """Fallback when there is no Odds API key: ESPN's one posted line, no best-price check."""
+    o = game.get("odds") or {}
+    legs = []
+    if o.get("overUnder"):
+        ou = o["overUnder"]
+        for side, key in (("over", "overOdds"), ("under", "underOdds")):
+            price = o.get(key) or -110
+            legs.append({"market": "total", "side": side, "line": ou, "odds": price, "book": "ESPN consensus",
+                         "fair": round(implied(price) / (implied(o.get("overOdds") or -110) + implied(o.get("underOdds") or -110)), 4),
+                         "desc": f"{side.title()} {ou:g}", "books": 1})
+    return legs
+
+
+# ---------- signals ----------
+
+def total_signals(game: dict, leg: dict, summary: dict) -> dict:
+    """Recent scoring of both teams vs the posted total, and weather for outdoor games."""
+    sig = {}
+    try:
+        recent = []
+        for side in summary.get("lastFiveGames", []):
+            for e in side.get("events", []):
+                s = e.get("score", "")
+                if "-" in s:
+                    recent.append(sum(float(x) for x in s.split("-")))
+        if recent:
+            over_hits = sum(t > leg["line"] for t in recent)
+            p_over = shrunk_rate(over_hits, len(recent))
+            sig["recent_form"] = p_over if leg["side"] == "over" else 1 - p_over
+    except (TypeError, ValueError):
+        pass
+    if game.get("indoor") is False and game.get("lat"):
+        w = sources.weather(game["lat"], game["lon"], game["start"])
+        wind = w.get("wind_speed_10m") or 0
+        if game["league"] in ("MLB", "NFL", "NCAAF") and wind >= 15:
+            sig["weather"] = 0.56 if leg["side"] == "under" else 0.44
+    return sig
+
+
+def injury_signals(game: dict, leg: dict, injuries: list[dict]) -> dict:
+    out = [i for i in injuries if (i.get("status") or "").lower() in ("out", "doubtful")]
+    if leg.get("player") and any(i["player"] == leg["player"] for i in injuries):
+        return {"injuries": 0.35 if leg.get("side") == "over" else 0.6}
+    return {"injuries": 0.5} if not out else {}
+
+
+def analyst_file(date: str, game: dict) -> dict:
+    p = config.DATA / "analyst" / f"{date}-{game['id']}.json"
+    try:
+        return json.loads(p.read_text())
+    except FileNotFoundError:
+        return {}
+
+
+def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: list[dict], weights: dict) -> dict:
+    legs = best_lines(odds_events or [], game["home_name"], game["away_name"]) if odds_events else espn_consensus(game)
+    try:
+        summary = sources.espn_summary(game)
+    except sources.SourceError:
+        summary = {}
+    analyst = analyst_file(date, game)
+    legs += analyst.get("extra_legs", [])  # props priced by hand from public odds pages
+    overrides = {a["desc"]: a for a in analyst.get("legs", [])}
+    scored = []
+    for leg in legs:
+        sig = {}
+        if leg["market"] == "total":
+            sig |= total_signals(game, leg, summary)
+        sig |= injury_signals(game, leg, injuries)
+        sig |= overrides.get(leg["desc"], {}).get("signals", {})
+        sig |= leg.get("signals", {})
+        p = model_prob(leg["fair"], sig, weights)
+        leg = leg | {"signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
+                     "note": overrides.get(leg["desc"], {}).get("note", leg.get("note"))}
+        if leg["edge"] >= config.MIN_EDGE:
+            scored.append(leg)
+    scored.sort(key=lambda l: l["edge"], reverse=True)
+    return {"game": game, "legs": scored, "provisional": not analyst.get("lineups_confirmed", False),
+            "low_total": any(l["market"] == "total" and l["line"] and l["line"] <= _low(game["league"]) for l in legs),
+            "score": round(sum(l["edge"] * l["prob"] for l in scored[:4]), 4), "analyst": analyst.get("summary")}
+
+
+def _low(league):
+    return {"MLB": 7.5, "NFL": 41.5, "NHL": 5.5, "NBA": 215, "SOCCER": 2.5, "NCAAF": 44.5, "NCAAB": 135}[league]
+
+
+def _match(ev, home, away):
+    """Odds API uses full names ("Seattle Seahawks"), the same as ESPN's displayName."""
+    return ev.get("home_team", "").lower() == home.lower() and ev.get("away_team", "").lower() == away.lower()

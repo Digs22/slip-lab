@@ -1,0 +1,311 @@
+{
+ "bets": [
+  {
+   "id": "2026-10-13-CLETB-straight",
+   "date": "2026-10-13",
+   "league": "MLB",
+   "game": "CLE @ TB, ALCS G2",
+   "play": "straight",
+   "market": "total",
+   "odds": -115,
+   "units": 4,
+   "stake": 12.0,
+   "to_win": 10.43,
+   "status": "win",
+   "net": 10.43,
+   "legs": [
+    {
+     "desc": "Under 7 runs",
+     "market": "total",
+     "side": "under",
+     "line": 7,
+     "odds": -115,
+     "result": "win"
+    }
+   ],
+   "note": "4 runs",
+   "venue": "Tropicana Field",
+   "city": "St. Petersburg, FL",
+   "start": "2026-10-14T00:08:00Z"
+  },
+  {
+   "id": "2026-10-13-CLETB-safer",
+   "date": "2026-10-13",
+   "league": "MLB",
+   "game": "CLE @ TB, ALCS G2",
+   "play": "safer",
+   "market": "mixed",
+   "odds": 145,
+   "units": 3,
+   "stake": 9.0,
+   "to_win": 13.05,
+   "status": "loss",
+   "net": -9.0,
+   "legs": [
+    {
+     "desc": "Guardians +1.5",
+     "market": "spread",
+     "team": "CLE",
+     "line": 1.5,
+     "odds": -200,
+     "result": "loss"
+    },
+    {
+     "desc": "Ramírez 1+ hit",
+     "market": "prop",
+     "player": "José Ramírez",
+     "stat": "hits",
+     "side": "over",
+     "line": 0.5,
+     "odds": -160,
+     "result": "unknown"
+    }
+   ],
+   "note": "Lost by 2",
+   "cause": "variance: one error decided a coin-flip side",
+   "venue": "Tropicana Field",
+   "city": "St. Petersburg, FL",
+   "start": "2026-10-14T00:08:00Z"
+  },
+  {
+   "id": "2026-10-13-CLETB-best",
+   "date": "2026-10-13",
+   "league": "MLB",
+   "game": "CLE @ TB, ALCS G2",
+   "play": "best",
+   "market": "mixed",
+   "odds": 526,
+   "units": 2,
+   "stake": 6.0,
+   "to_win": 31.56,
+   "status": "pending",
+   "net": null,
+   "legs": [
+    {
+     "desc": "Under 7 runs",
+     "market": "total",
+     "side": "under",
+     "line": 7,
+     "odds": -115,
+     "result": "win"
+    },
+    {
+     "desc": "Ramírez o1.5 H+R+RBI",
+     "market": "prop",
+     "player": "José Ramírez",
+     "stat": "h_r_rbi",
+     "side": "over",
+     "line": 1.5,
+     "odds": -102,
+     "result": "unknown"
+    },
+    {
+     "desc": "Díaz u1.5 total bases",
+     "market": "prop",
+     "player": "Yandy Díaz",
+     "stat": "total_bases",
+     "side": "under",
+     "line": 1.5,
+     "odds": -145,
+     "result": "unknown"
+    }
+   ],
+   "note": "Waiting on box score (likely loss)",
+   "venue": "Tropicana Field",
+   "city": "St. Petersburg, FL",
+   "start": "2026-10-14T00:08:00Z"
+  },
+  {
+   "id": "2026-10-13-CLETB-longshot",
+   "date": "2026-10-13",
+   "league": "MLB",
+   "game": "CLE @ TB, ALCS G2",
+   "play": "longshot",
+   "market": "mixed",
+   "odds": 1127,
+   "units": 1,
+   "stake": 3.0,
+   "to_win": 33.81,
+   "status": "loss",
+   "net": -3.0,
+   "legs": [
+    {
+     "desc": "Guardians ML",
+     "market": "ml",
+     "team": "CLE",
+     "odds": 113,
+     "result": "loss"
+    },
+    {
+     "desc": "Ramírez to homer",
+     "market": "prop",
+     "player": "José Ramírez",
+     "stat": "hr",
+     "side": "over",
+     "line": 0.5,
+     "odds": 476,
+     "result": "unknown"
+    }
+   ],
+   "cause": "bad read: faded Peralta on old postseason sample; he threw 6 scoreless",
+   "venue": "Tropicana Field",
+   "city": "St. Petersburg, FL",
+   "start": "2026-10-14T00:08:00Z"
+  },
+  {
+   "id": "2026-10-15-SEADEN-straight",
+   "date": "2026-10-15",
+   "league": "NFL",
+   "game": "SEA @ DEN, TNF Wk 6",
+   "start": "2026-10-16T00:15:00Z",
+   "play": "straight",
+   "market": "total",
+   "odds": -108,
+   "units": 4,
+   "stake": 12.0,
+   "to_win": 11.11,
+   "status": "pending",
+   "net": null,
+   "confidence": 3,
+   "legs": [
+    {
+     "desc": "Under 40.5",
+     "market": "total",
+     "side": "under",
+     "line": 40.5,
+     "odds": -108
+    }
+   ],
+   "venue": "Empower Field at Mile High",
+   "city": "Denver, CO"
+  },
+  {
+   "id": "2026-10-15-SEADEN-safer",
+   "date": "2026-10-15",
+   "league": "NFL",
+   "game": "SEA @ DEN, TNF Wk 6",
+   "start": "2026-10-16T00:15:00Z",
+   "play": "safer",
+   "market": "prop",
+   "odds": 250,
+   "units": 3,
+   "stake": 9.0,
+   "to_win": 22.5,
+   "status": "pending",
+   "net": null,
+   "confidence": 2,
+   "legs": [
+    {
+     "desc": "Smith-Njigba o75.5 rec yds",
+     "market": "prop",
+     "player": "Jaxon Smith-Njigba",
+     "stat": "rec_yds",
+     "side": "over",
+     "line": 75.5,
+     "odds": -115
+    },
+    {
+     "desc": "Nix u209.5 pass yds",
+     "market": "prop",
+     "player": "Bo Nix",
+     "stat": "pass_yds",
+     "side": "under",
+     "line": 209.5,
+     "odds": -115
+    }
+   ],
+   "venue": "Empower Field at Mile High",
+   "city": "Denver, CO"
+  },
+  {
+   "id": "2026-10-15-SEADEN-best",
+   "date": "2026-10-15",
+   "league": "NFL",
+   "game": "SEA @ DEN, TNF Wk 6",
+   "start": "2026-10-16T00:15:00Z",
+   "play": "best",
+   "market": "mixed",
+   "odds": 620,
+   "units": 2,
+   "stake": 6.0,
+   "to_win": 37.2,
+   "status": "pending",
+   "net": null,
+   "confidence": 2,
+   "legs": [
+    {
+     "desc": "Under 40.5",
+     "market": "total",
+     "side": "under",
+     "line": 40.5,
+     "odds": -108
+    },
+    {
+     "desc": "Smith-Njigba anytime TD",
+     "market": "prop",
+     "player": "Jaxon Smith-Njigba",
+     "stat": "anytime_td",
+     "side": "over",
+     "line": 0.5,
+     "odds": 100
+    },
+    {
+     "desc": "Nix u209.5 pass yds",
+     "market": "prop",
+     "player": "Bo Nix",
+     "stat": "pass_yds",
+     "side": "under",
+     "line": 209.5,
+     "odds": -115
+    }
+   ],
+   "venue": "Empower Field at Mile High",
+   "city": "Denver, CO"
+  },
+  {
+   "id": "2026-10-15-SEADEN-longshot",
+   "date": "2026-10-15",
+   "league": "NFL",
+   "game": "SEA @ DEN, TNF Wk 6",
+   "start": "2026-10-16T00:15:00Z",
+   "play": "longshot",
+   "market": "mixed",
+   "odds": 1103,
+   "units": 1,
+   "stake": 3.0,
+   "to_win": 33.09,
+   "status": "pending",
+   "net": null,
+   "confidence": 1,
+   "legs": [
+    {
+     "desc": "Seahawks -8.5",
+     "market": "spread",
+     "team": "SEA",
+     "line": -8.5,
+     "odds": 215
+    },
+    {
+     "desc": "Smith-Njigba anytime TD",
+     "market": "prop",
+     "player": "Jaxon Smith-Njigba",
+     "stat": "anytime_td",
+     "side": "over",
+     "line": 0.5,
+     "odds": 100
+    },
+    {
+     "desc": "E. Wilson anytime TD",
+     "market": "prop",
+     "player": "Emanuel Wilson",
+     "stat": "anytime_td",
+     "side": "over",
+     "line": 0.5,
+     "odds": -110
+    }
+   ],
+   "venue": "Empower Field at Mile High",
+   "city": "Denver, CO"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+# Optional: runs the pipeline on GitHub instead of in Claude. Manual-only for now, because Claude's
+# daily 7:59 AM run already makes the picks and pushes them here; running both would log picks twice.
+# To switch it on: add a repo secret named ODDS_API_KEY and uncomment the schedule below. GitHub cron is UTC, so both 11:59 and 12:59 UTC
+# are listed and the job only runs the one that is 7:59 AM in New York.
+name: Slip Lab
+on:
+  # schedule:
+  #   - cron: "59 11 * * *"
+  #   - cron: "59 12 * * *"
+  #   - cron: "*/30 16-23,0-5 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pick the step for this time
+        id: step
+        run: |
+          H=$(TZ=America/New_York date +%H); M=$(TZ=America/New_York date +%M)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" = "07" ] && [ "$M" -ge 50 ]; }; then echo cmd=daily >> $GITHUB_OUTPUT
+          elif [ "$H" -ge 12 ] || [ "$H" -lt 2 ]; then echo cmd=grade >> $GITHUB_OUTPUT
+          else echo cmd=skip >> $GITHUB_OUTPUT; fi
+      - name: Run pipeline
+        if: steps.step.outputs.cmd != 'skip'
+        env: { ODDS_API_KEY: "${{ secrets.ODDS_API_KEY }}" }
+        run: |
+          python3 -m pipeline.run ${{ steps.step.outputs.cmd }}
+          [ "${{ steps.step.outputs.cmd }}" = grade ] && python3 -m pipeline.run recheck || true
+      - name: Save results
+        run: |
+          git config user.name "slip-lab-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data app/data.json app/index.html && git commit -m "Slip Lab update $(date -u +%F' '%H:%M)" && git push || echo "no changes"

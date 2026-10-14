@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {"rule": "Weight a pitcher's recent form over old, small postseason samples.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Faded Peralta for never passing 5.2 IP in a playoff start; he threw 6 scoreless. His 0.93 ERA over 7 starts and a velocity jump were the real signal."},
+    {"rule": "Safer parlays use two strong, independent props, not a team side in a coin-flip game.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Guardians +1.5 lost 3-1 after one error."},
+    {"rule": "In low-total games, anchor on the Under or pitcher props, not sides.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Under 7 won while every side-based bet lost."},
+    {"rule": "Unearned runs and single defensive plays swing sides. Totals and props absorb that variance better.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "One error decided the run line."}
+  ],
+  "flags": [],
+  "loss_causes": {"bad read": 1, "variance": 1}
+}

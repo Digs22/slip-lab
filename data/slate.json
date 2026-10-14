@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "generated": "2026-10-13T23:34-04:00",
+  "games_scanned": 0,
+  "problems": [
+    "MLB schedule: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "NFL schedule: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "NBA schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "NHL schedule: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "NCAAF schedule: https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "NCAAB schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  ],
+  "games": []
+}
