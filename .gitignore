@@ -2,4 +2,4 @@
 data/cache/
 __pycache__/
 *.pyc
-data/live_state.json
+data/live_state*.json
