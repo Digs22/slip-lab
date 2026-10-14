@@ -1,0 +1,14 @@
+{
+  "projection": 1.0,
+  "recent_form": 0.8,
+  "season": 0.5,
+  "matchup": 0.5,
+  "home_away": 0.5,
+  "rest_travel": 0.5,
+  "weather": 0.5,
+  "injuries": 0.7,
+  "coaching": 0.5,
+  "postseason": 0.3,
+  "news": 0.5,
+  "line_move": 0.5
+}
