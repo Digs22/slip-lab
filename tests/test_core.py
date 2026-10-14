@@ -149,7 +149,7 @@ class Traditional(unittest.TestCase):
             return {"desc": f"{gid} {d}", "market": mk, "side": "under", "odds": odds, "fair": 0.5, "prob": prob,
                     "edge": prob * (1 + 100 / abs(odds) if odds < 0 else 1 + odds / 100) - 1}
         games = [{"game": {"id": g, "league": "NFL", "away": g + "A", "home": g + "H", "start": "2099-01-01T18:00:00Z"},
-                  "legs": [leg(g, "u", 0.6, -110), leg(g, "p", 0.4, 200)]} for g in ("g1", "g2", "g3", "g4")]
+                  "analyst": {"summary": "t"}, "legs": [leg(g, "u", 0.6, -110), leg(g, "p", 0.4, 200)]} for g in ("g1", "g2", "g3", "g4")]
         plays = builder.build_traditional(games)
         for play in plays.values():
             ids = [l["event_id"] for l in play["legs"]]
