@@ -1,10 +1,8 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T02:30-04:00",
-  "games_scanned": 31,
-  "problems": [
-    "2026-10-14: SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
-  ],
+  "generated": "2026-10-14T02:51-04:00",
+  "games_scanned": 55,
+  "problems": [],
   "upcoming": [
     {
       "id": "401860923",
@@ -13,7 +11,7 @@
       "start": "2026-10-16T00:00Z",
       "venue": "UFCU Stadium",
       "city": "San Marcos, TX",
-      "score": 0.0772,
+      "score": 0.1107,
       "edges": 2,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
