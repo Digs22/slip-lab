@@ -15,6 +15,7 @@ BREAKDOWN_DIR = ROOT.parent / "betting"
 TIMEZONE = "America/New_York"
 REFRESH_TIME = "07:59"
 GAMES_PER_DAY = 8  # most games with plays per day; the app's slider picks how many you bet
+POTD_UNITS = 4  # Pick of the Day: one straight bet per league, sized like a straight
 MIN_GAME_SCORE = 0.02  # sum of edge x win chance over a game's best 4 legs
 
 UNIT = 3.0  # dollars

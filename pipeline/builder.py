@@ -125,7 +125,9 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     for g in scored_games:
         meta = {"event_id": g["game"]["id"], "league": g["game"]["league"], "start": g["game"].get("start"),
                 "matchup": f"{g['game']['away']} @ {g['game']['home']}"}
-        pool += [l | meta for l in g["legs"][:4]]
+        # Only games with an analyst file feed the cross-game slip; unresearched market noise doesn't qualify.
+        if g.get("analyst"):
+            pool += [l | meta for l in g["legs"][:4]]
     pool = sorted(pool, key=lambda l: l["edge"] * l["prob"], reverse=True)[:18]
     if len({l["event_id"] for l in pool}) < 2:
         return None
@@ -162,3 +164,18 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
         play["units"] = config.PLAYS[name]
         play["stake"] = play["units"] * config.UNIT
     return plays or None
+
+
+def pick_of_day(scored_games: list[dict]) -> dict:
+    """League -> the single strongest leg of the day in that league, from any game: a likely winner
+    (model 55%+ when one exists) with the best edge x win chance."""
+    best = {}
+    for g in scored_games:
+        lg = g["game"]["league"]
+        for l in g["legs"]:
+            leg = l | {"event_id": g["game"]["id"], "league": lg, "start": g["game"].get("start"),
+                       "matchup": f"{g['game']['away']} @ {g['game']['home']}", "_game": g["game"]}
+            score = (l["prob"] >= 0.55, l["edge"] * l["prob"]) if l["prob"] >= 0.5 else None
+            if score and (lg not in best or score > best[lg][0]):
+                best[lg] = (score, leg)
+    return {lg: leg for lg, (_, leg) in best.items()}

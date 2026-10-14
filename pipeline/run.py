@@ -115,6 +115,29 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict]) -> list[
     return added
 
 
+def record_potd(date: str, picks: dict, bets: list[dict]) -> list[dict]:
+    """Pick of the Day: the best single bet in each league, logged as a straight bet."""
+    added = []
+    for league, leg in picks.items():
+        g = leg.pop("_game")
+        bid = f"{date}-POTD-{league}"
+        existing = next((b for b in bets if b["id"] == bid), None)
+        if existing and (existing["status"] != "pending" or (leg.get("start") and locked(leg["start"]))):
+            continue
+        if existing:
+            bets.remove(existing)
+        units = config.POTD_UNITS
+        bet = {"id": bid, "kind": "potd", "date": date, "league": league, "event_id": leg["event_id"],
+               "game": leg["matchup"], "start": leg.get("start"), "play": "straight", "venue": g.get("venue"), "city": g.get("city"),
+               "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
+               "odds": leg["odds"], "units": units, "prob": leg["prob"], "ev": leg["edge"],
+               "legs": [{k: leg.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
+                                                  "prob", "edge", "signals", "note", "status", "alt", "main_line")}]}
+        ledger.add(bets, bet)
+        added.append(bet)
+    return added
+
+
 def daily(date: str | None = None, only_ids: set | None = None):
     date = date or today()
     bets = ledger.load()
@@ -131,6 +154,7 @@ def daily(date: str | None = None, only_ids: set | None = None):
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
         added += record_traditional(d, builder.build_traditional(sc, sgp_straights), bets)
+        added += record_potd(d, builder.pick_of_day(sc), bets)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()
@@ -292,7 +316,7 @@ def logos(bets: list[dict]) -> dict:
         cache = {}
     recent = sorted({b["date"] for b in bets})[-4:]
     for b in bets:
-        if b["status"] != "pending" and b["date"] not in recent:
+        if (b["status"] != "pending" and b["date"] not in recent) or b.get("kind") == "traditional":
             continue
         away, home = [x.strip().split(",")[0] for x in b["game"].split(",")[0].split("@")]
         for abbr, url in ((away, b.get("away_logo")), (home, b.get("home_logo"))):
