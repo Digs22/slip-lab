@@ -1,4 +1,4 @@
-# Slip Lab
+# Sigma Locks
 
 Daily picks app: four plays per game (Straight, Safer parlay, Best parlay, Longshot at +1000 or longer) on the top 3 games a day across MLB, NFL, NBA, NHL, soccer and college. Every pick is logged as if placed, graded when the game ends, and fed back into the model.
 

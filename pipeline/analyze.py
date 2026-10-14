@@ -111,10 +111,16 @@ def total_signals(game: dict, leg: dict, summary: dict) -> dict:
             sig["recent_form"] = p_over if leg["side"] == "over" else 1 - p_over
     except (TypeError, ValueError):
         pass
-    if game.get("indoor") is False and game.get("lat"):
-        w = sources.weather(game["lat"], game["lon"], game["start"])
-        wind = w.get("wind_speed_10m") or 0
-        if game["league"] in ("MLB", "NFL", "NCAAF") and wind >= 15:
+    from .venues import coords
+    where = (game.get("lat"), game.get("lon")) if game.get("lat") else coords(game["league"], game["home"])
+    if game.get("indoor") is False and where:
+        try:
+            w = sources.weather(where[0], where[1], game["start"])
+        except sources.SourceError:
+            return sig
+        wind, rain = w.get("wind_speed_10m") or 0, w.get("precipitation_probability") or 0
+        game["weather"] = f"{round(w.get('temperature_2m') or 0)}°F, wind {round(wind)} mph, {round(rain)}% rain"
+        if game["league"] in ("MLB", "NFL", "NCAAF") and (wind >= 15 or rain >= 60):
             sig["weather"] = 0.56 if leg["side"] == "under" else 0.44
     return sig
 
@@ -124,6 +130,12 @@ def injury_signals(game: dict, leg: dict, injuries: list[dict]) -> dict:
     if leg.get("player") and any(i["player"] == leg["player"] for i in injuries):
         return {"injuries": 0.35 if leg.get("side") == "over" else 0.6}
     return {"injuries": 0.5} if not out else {}
+
+
+def injury_status(leg: dict, injuries: list[dict]) -> str | None:
+    """The player's line on the league injury report, for the app's "why" panel."""
+    i = next((i for i in injuries if leg.get("player") and i["player"] == leg["player"]), None)
+    return f"{i['status']}: {i['detail']}" if i and i.get("detail") else (i or {}).get("status")
 
 
 NFL_COLS = {"pass_yds": "passing_yards", "rec_yds": "receiving_yards", "rush_yds": "rushing_yards",
@@ -187,8 +199,10 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
         sig |= overrides.get(leg["desc"], {}).get("signals", {})
         sig |= leg.get("signals", {})
         p = model_prob(leg["fair"], sig, weights)
+        ov = overrides.get(leg["desc"], {})
         leg = leg | {"game": game["id"], "signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
-                     "note": overrides.get(leg["desc"], {}).get("note", leg.get("note"))}
+                     "note": ov.get("note", leg.get("note")),
+                     "status": ov.get("status", leg.get("status")) or injury_status(leg, injuries)}
         if leg["edge"] >= config.MIN_EDGE:
             scored.append(leg)
     scored.sort(key=lambda l: l["edge"], reverse=True)

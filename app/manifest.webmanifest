@@ -1,6 +1,6 @@
 {
-  "name": "Slip Lab",
-  "short_name": "Slip Lab",
+  "name": "Sigma Locks",
+  "short_name": "Sigma Locks",
   "description": "Daily picks, parlays and an all-time record.",
   "start_url": "./index.html",
   "display": "standalone",

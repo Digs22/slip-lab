@@ -52,7 +52,7 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
 
 def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
     added = []
-    for p in picks:
+    for rank, p in enumerate(picks, 1):
         g = p["game"]
         for play, data in p["plays"].items():
             bid = f"{date}-{g['away']}{g['home']}-{play}"
@@ -67,9 +67,10 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
                 "venue": g.get("venue"), "city": g.get("city"),
                 "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
                 "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
-                "provisional": p["provisional"],
+                "provisional": p["provisional"], "score": p.get("score"), "rank": rank,
+                "summary": p.get("analyst"), "weather": g.get("weather"),
                 "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line",
-                                                 "odds", "book", "fair", "prob", "edge", "signals", "note")}
+                                                 "odds", "book", "fair", "prob", "edge", "signals", "note", "status")}
                          for l in data["legs"]],
             }
             ledger.add(bets, bet)
@@ -89,8 +90,10 @@ def daily(date: str | None = None, only_ids: set | None = None):
     ledger.save(bets)
     slate = {"date": date, "generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
              "games_scanned": len(scored), "problems": problems,
+             "upcoming": upcoming(scored, picks),
              "games": [{"id": p["game"]["id"], "league": p["game"]["league"], "game": f"{p['game']['away']} @ {p['game']['home']}",
                         "start": p["game"]["start"], "venue": p["game"]["venue"], "provisional": p["provisional"],
+                        "score": p.get("score"), "home_logo": p["game"].get("home_logo"), "away_logo": p["game"].get("away_logo"),
                         "summary": p.get("analyst")} for p in picks]}
     config.SLATE_FILE.write_text(json.dumps(slate, indent=2) + "\n")
     export()
@@ -98,6 +101,15 @@ def daily(date: str | None = None, only_ids: set | None = None):
     for msg in problems:
         log(f"  feed problem: {msg}")
     return slate
+
+
+def upcoming(scored: list[dict], picks: list[dict], n: int = 12) -> list[dict]:
+    """Games on the slate that didn't get plays, best model score first, so the app can show what else is on."""
+    taken = {p["game"]["id"] for p in picks}
+    rest = sorted((s for s in scored if s["game"]["id"] not in taken), key=lambda s: s["score"], reverse=True)[:n]
+    return [{"id": s["game"]["id"], "league": s["game"]["league"], "game": f"{s['game']['away']} @ {s['game']['home']}",
+             "start": s["game"]["start"], "venue": s["game"].get("venue"), "city": s["game"].get("city"),
+             "score": s["score"], "edges": len(s["legs"])} for s in rest]
 
 
 def recheck(date: str | None = None):

@@ -2,7 +2,7 @@
 # daily 7:59 AM run already makes the picks and pushes them here; running both would log picks twice.
 # To switch it on: add a repo secret named ODDS_API_KEY and uncomment the schedule below. GitHub cron is UTC, so both 11:59 and 12:59 UTC
 # are listed and the job only runs the one that is 7:59 AM in New York.
-name: Slip Lab
+name: Sigma Locks
 on:
   # schedule:
   #   - cron: "59 11 * * *"
@@ -34,4 +34,4 @@ jobs:
       - name: Save results
         run: |
           git config user.name "slip-lab-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data app/data.json app/index.html && git commit -m "Slip Lab update $(date -u +%F' '%H:%M)" && git push || echo "no changes"
+          git add data app/data.json app/index.html && git commit -m "Sigma Locks update $(date -u +%F' '%H:%M)" && git push || echo "no changes"

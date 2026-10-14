@@ -95,11 +95,17 @@ def build_plays(scored: dict) -> dict | None:
 
 
 def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> list[dict]:
-    """Highest-scoring games first, skipping any that would put a team in more than 2 games' plays."""
+    """Highest-scoring games first, skipping any that would put a team in more than 2 games' plays.
+    Up to n games, but only ones scoring at least MIN_GAME_SCORE, except that a league with only a
+    couple of games that day (a short playoff slate) still gets its best playable game."""
     chosen, teams = [], Counter()
+    per_league = Counter(g["game"]["league"] for g in scored_games)
     for g in sorted(scored_games, key=lambda g: g["score"], reverse=True):
         if len(chosen) == n:
             break
+        if g["score"] < config.MIN_GAME_SCORE and not (
+                per_league[g["game"]["league"]] <= 2 and not any(c["game"]["league"] == g["game"]["league"] for c in chosen)):
+            continue
         plays = build_plays(g)
         if not plays:
             continue

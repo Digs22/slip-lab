@@ -173,11 +173,14 @@
      "market": "total",
      "side": "under",
      "line": 40.5,
-     "odds": -108
+     "odds": -108,
+     "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under with the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with about 69% of bets on the Over, a sign the sharp money is on the Under. Short week, possible rain."
     }
    ],
    "venue": "Empower Field at Mile High",
-   "city": "Denver, CO"
+   "city": "Denver, CO",
+   "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba",
+   "rank": 1
   },
   {
    "id": "2026-10-15-SEADEN-safer",
@@ -202,7 +205,9 @@
      "stat": "rec_yds",
      "side": "over",
      "line": 75.5,
-     "odds": -115
+     "odds": -115,
+     "note": "Leads the NFL with 583 receiving yards and went over 100 in 4 of 5 games. Denver may be missing CB Surtain, CB Moss and S Hufanga. Good at 79.5 or lower.",
+     "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"
     },
     {
      "desc": "Nix u209.5 pass yds",
@@ -211,11 +216,15 @@
      "stat": "pass_yds",
      "side": "under",
      "line": 209.5,
-     "odds": -115
+     "odds": -115,
+     "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense, allowing 151 yards a game.",
+     "status": "Healthy"
     }
    ],
    "venue": "Empower Field at Mile High",
-   "city": "Denver, CO"
+   "city": "Denver, CO",
+   "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba",
+   "rank": 1
   },
   {
    "id": "2026-10-15-SEADEN-best",
@@ -238,7 +247,8 @@
      "market": "total",
      "side": "under",
      "line": 40.5,
-     "odds": -108
+     "odds": -108,
+     "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under with the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with about 69% of bets on the Over, a sign the sharp money is on the Under. Short week, possible rain."
     },
     {
      "desc": "Smith-Njigba anytime TD",
@@ -247,7 +257,9 @@
      "stat": "anytime_td",
      "side": "over",
      "line": 0.5,
-     "odds": 100
+     "odds": 100,
+     "note": "7 TDs in 5 games and scored in 4 of them. Models put him at 51 to 60% to score, so even money is value against a banged-up secondary.",
+     "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"
     },
     {
      "desc": "Nix u209.5 pass yds",
@@ -256,11 +268,15 @@
      "stat": "pass_yds",
      "side": "under",
      "line": 209.5,
-     "odds": -115
+     "odds": -115,
+     "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense, allowing 151 yards a game.",
+     "status": "Healthy"
     }
    ],
    "venue": "Empower Field at Mile High",
-   "city": "Denver, CO"
+   "city": "Denver, CO",
+   "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba",
+   "rank": 1
   },
   {
    "id": "2026-10-15-SEADEN-longshot",
@@ -283,7 +299,9 @@
      "market": "spread",
      "team": "SEA",
      "line": -8.5,
-     "odds": 215
+     "odds": 215,
+     "note": "Parlay sweetener only. Fits a 24-13 type game where Seattle's No. 1 defense smothers Nix.",
+     "status": "Seattle is 13-5-1 against the spread on the road under Macdonald, but 1-4 this year"
     },
     {
      "desc": "Smith-Njigba anytime TD",
@@ -292,7 +310,9 @@
      "stat": "anytime_td",
      "side": "over",
      "line": 0.5,
-     "odds": 100
+     "odds": 100,
+     "note": "7 TDs in 5 games and scored in 4 of them. Models put him at 51 to 60% to score, so even money is value against a banged-up secondary.",
+     "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"
     },
     {
      "desc": "E. Wilson anytime TD",
@@ -301,11 +321,15 @@
      "stat": "anytime_td",
      "side": "over",
      "line": 0.5,
-     "odds": -110
+     "odds": -110,
+     "note": "Lead back by default with Charbonnet out and Price on IR. 20 carries last week, facing Denver's 29th-ranked run defense.",
+     "status": "Healthy. Charbonnet (knee) out, Price on IR"
     }
    ],
    "venue": "Empower Field at Mile High",
-   "city": "Denver, CO"
+   "city": "Denver, CO",
+   "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba",
+   "rank": 1
   }
  ]
 }

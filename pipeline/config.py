@@ -14,7 +14,8 @@ BREAKDOWN_DIR = ROOT.parent / "betting"
 
 TIMEZONE = "America/New_York"
 REFRESH_TIME = "07:59"
-GAMES_PER_DAY = 3
+GAMES_PER_DAY = 8  # most games with plays per day; the app's slider picks how many you bet
+MIN_GAME_SCORE = 0.02  # sum of edge x win chance over a game's best 4 legs
 
 UNIT = 3.0  # dollars
 PLAYS = {  # play -> units (40/30/20/10 of a 10u, $30 game)

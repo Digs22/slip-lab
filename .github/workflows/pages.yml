@@ -1,4 +1,4 @@
-# Publishes app/ as the Slip Lab website whenever new picks or results are pushed.
+# Publishes app/ as the Sigma Locks website whenever new picks or results are pushed.
 name: Website
 on:
   push:

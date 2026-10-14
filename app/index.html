@@ -1,4 +1,4 @@
-<title>Slip Lab</title>
+<title>Sigma Locks</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="theme-color" content="#070b16">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -182,6 +182,32 @@ input[type=range]::-moz-range-thumb { width: 24px; height: 24px; border-radius: 
 .toggles { display: flex; flex-wrap: wrap; gap: 8px; }
 .btn { font: 700 14px var(--body); color: var(--night); background: var(--ink); border: 0; border-radius: 12px; padding: 12px 16px; cursor: pointer; }
 .note { color: var(--ink-3); font-size: 12.5px; }
+.why { grid-column: 1 / -1; }
+.why summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font: 600 12.5px var(--body); color: var(--floodlight); padding: 4px 0; }
+.why summary::-webkit-details-marker { display: none; }
+.why summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform .2s; }
+.why[open] summary::after { transform: rotate(-135deg) translateX(-2px); }
+.why-body { display: grid; gap: 10px; margin-top: 6px; padding: 12px; border-radius: 12px; background: rgba(170,190,255,.06); border: 1px solid rgba(200,215,255,.08); font-size: 13.5px; color: var(--ink-2); }
+.why-leg { display: grid; gap: 4px; }
+.why-leg > b { color: var(--ink); font-weight: 600; }
+.why-status { justify-self: start; font-size: 12px; padding: 3px 9px; border-radius: 999px; background: rgba(255,196,92,.14); color: var(--push); }
+.why-status.ok { background: rgba(78,224,166,.12); color: var(--win); }
+.why-nums { font-size: 12px; color: var(--ink-3); }
+.stars-btn { background: none; border: 0; padding: 0; cursor: pointer; font: inherit; color: inherit; }
+.rank { position: absolute; top: 8px; left: 10px; font: 800 12px var(--display); color: var(--ink-3); letter-spacing: .04em; }
+.tile { position: relative; }
+.tile.more { opacity: .8; }
+.up-list { display: grid; gap: 8px; }
+.up-row { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 10px 12px; }
+.up-row .t { font-weight: 600; font-size: 14px; }
+.up-row small { color: var(--ink-3); font-size: 12px; display: block; }
+.star-key { display: grid; gap: 10px; }
+.star-row { display: grid; grid-template-columns: 64px 1fr; gap: 10px; align-items: start; }
+.star-row .s { color: var(--push); letter-spacing: 1px; font-size: 14px; }
+.star-row p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.star-row p b { color: var(--ink); }
+details.card > summary { list-style: none; cursor: pointer; }
+details.card > summary::-webkit-details-marker { display: none; }
 .note a { color: var(--floodlight); }
 
 nav.tabs { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; padding: 8px max(16px, env(safe-area-inset-left, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-right, 0px)); }
@@ -200,8 +226,8 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
 <div class="app">
   <header class="top glass">
     <div class="brand">
-      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="9" fill="none" stroke="#8fb4ff" stroke-width="2"/><path d="M9 20l5-6 4 4 5-8" fill="none" stroke="#4ee0a6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <div><b>Slip Lab</b><small id="updated">Picks</small></div>
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="9" fill="none" stroke="#8fb4ff" stroke-width="2"/><path d="M22 9H10l6.5 7L10 23h12" fill="none" stroke="#4ee0a6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><b>Sigma Locks</b><small id="updated">Picks</small></div>
     </div>
     <div class="pnl-pill" id="pill" title="All-time net">$0.00</div>
   </header>
@@ -217,7 +243,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   </div>
 </nav>
 
-<script id="seed" type="application/json">{"generated": "2026-10-14T00:24-04:00", "settings": {"unit": 3.0, "plays": {"straight": 4, "safer": 3, "best": 2, "longshot": 1}, "games_per_day": 3, "timezone": "America/New_York", "refresh": "07:59"}, "bets": [{"id": "2026-10-13-CLETB-straight", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "straight", "market": "total", "odds": -115, "units": 4, "stake": 12.0, "to_win": 10.43, "status": "win", "net": 10.43, "legs": [{"desc": "Under 7 runs", "market": "total", "side": "under", "line": 7, "odds": -115, "result": "win"}], "note": "4 runs", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-safer", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "safer", "market": "mixed", "odds": 145, "units": 3, "stake": 9.0, "to_win": 13.05, "status": "loss", "net": -9.0, "legs": [{"desc": "Guardians +1.5", "market": "spread", "team": "CLE", "line": 1.5, "odds": -200, "result": "loss"}, {"desc": "Ramírez 1+ hit", "market": "prop", "player": "José Ramírez", "stat": "hits", "side": "over", "line": 0.5, "odds": -160, "result": "unknown"}], "note": "Lost by 2", "cause": "variance: one error decided a coin-flip side", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-best", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "best", "market": "mixed", "odds": 526, "units": 2, "stake": 6.0, "to_win": 31.56, "status": "pending", "net": null, "legs": [{"desc": "Under 7 runs", "market": "total", "side": "under", "line": 7, "odds": -115, "result": "win"}, {"desc": "Ramírez o1.5 H+R+RBI", "market": "prop", "player": "José Ramírez", "stat": "h_r_rbi", "side": "over", "line": 1.5, "odds": -102, "result": "unknown"}, {"desc": "Díaz u1.5 total bases", "market": "prop", "player": "Yandy Díaz", "stat": "total_bases", "side": "under", "line": 1.5, "odds": -145, "result": "unknown"}], "note": "Waiting on box score (likely loss)", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-longshot", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "longshot", "market": "mixed", "odds": 1127, "units": 1, "stake": 3.0, "to_win": 33.81, "status": "loss", "net": -3.0, "legs": [{"desc": "Guardians ML", "market": "ml", "team": "CLE", "odds": 113, "result": "loss"}, {"desc": "Ramírez to homer", "market": "prop", "player": "José Ramírez", "stat": "hr", "side": "over", "line": 0.5, "odds": 476, "result": "unknown"}], "cause": "bad read: faded Peralta on old postseason sample; he threw 6 scoreless", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-15-SEADEN-straight", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "straight", "market": "total", "odds": -108, "units": 4, "stake": 12.0, "to_win": 11.11, "status": "pending", "net": null, "confidence": 3, "legs": [{"desc": "Under 40.5", "market": "total", "side": "under", "line": 40.5, "odds": -108}], "venue": "Empower Field at Mile High", "city": "Denver, CO"}, {"id": "2026-10-15-SEADEN-safer", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "safer", "market": "prop", "odds": 250, "units": 3, "stake": 9.0, "to_win": 22.5, "status": "pending", "net": null, "confidence": 2, "legs": [{"desc": "Smith-Njigba o75.5 rec yds", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "rec_yds", "side": "over", "line": 75.5, "odds": -115}, {"desc": "Nix u209.5 pass yds", "market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5, "odds": -115}], "venue": "Empower Field at Mile High", "city": "Denver, CO"}, {"id": "2026-10-15-SEADEN-best", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "best", "market": "mixed", "odds": 620, "units": 2, "stake": 6.0, "to_win": 37.2, "status": "pending", "net": null, "confidence": 2, "legs": [{"desc": "Under 40.5", "market": "total", "side": "under", "line": 40.5, "odds": -108}, {"desc": "Smith-Njigba anytime TD", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": 100}, {"desc": "Nix u209.5 pass yds", "market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5, "odds": -115}], "venue": "Empower Field at Mile High", "city": "Denver, CO"}, {"id": "2026-10-15-SEADEN-longshot", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "longshot", "market": "mixed", "odds": 1103, "units": 1, "stake": 3.0, "to_win": 33.09, "status": "pending", "net": null, "confidence": 1, "legs": [{"desc": "Seahawks -8.5", "market": "spread", "team": "SEA", "line": -8.5, "odds": 215}, {"desc": "Smith-Njigba anytime TD", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": 100}, {"desc": "E. Wilson anytime TD", "market": "prop", "player": "Emanuel Wilson", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": -110}], "venue": "Empower Field at Mile High", "city": "Denver, CO"}], "summary": {"all": {"w": 1, "l": 2, "p": 0, "pending": 5, "risked": 24.0, "net": -1.57, "units": -0.52, "roi": -6.5}, "by_league": {"MLB": {"w": 1, "l": 2, "p": 0, "pending": 1, "risked": 24.0, "net": -1.57, "units": -0.52, "roi": -6.5}, "NFL": {"w": 0, "l": 0, "p": 0, "pending": 4, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}}, "by_play": {"best": {"w": 0, "l": 0, "p": 0, "pending": 2, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}, "longshot": {"w": 0, "l": 1, "p": 0, "pending": 1, "risked": 3.0, "net": -3.0, "units": -1.0, "roi": -100.0}, "safer": {"w": 0, "l": 1, "p": 0, "pending": 1, "risked": 9.0, "net": -9.0, "units": -3.0, "roi": -100.0}, "straight": {"w": 1, "l": 0, "p": 0, "pending": 1, "risked": 12.0, "net": 10.43, "units": 3.48, "roi": 86.9}}, "by_market": {"mixed": {"w": 0, "l": 2, "p": 0, "pending": 3, "risked": 12.0, "net": -12.0, "units": -4.0, "roi": -100.0}, "prop": {"w": 0, "l": 0, "p": 0, "pending": 1, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}, "total": {"w": 1, "l": 0, "p": 0, "pending": 1, "risked": 12.0, "net": 10.43, "units": 3.48, "roi": 86.9}}, "curve": [{"date": "2026-10-13", "id": "2026-10-13-CLETB-longshot", "net": -3.0}, {"date": "2026-10-13", "id": "2026-10-13-CLETB-safer", "net": -12.0}, {"date": "2026-10-13", "id": "2026-10-13-CLETB-straight", "net": -1.57}], "calibration": {"legs": 0, "brier": null, "bins": []}, "clv": {"legs": 0, "avg_pct": null, "beat_close": null}}, "lessons": {"rules": [{"rule": "Weight a pitcher's recent form over old, small postseason samples.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Faded Peralta for never passing 5.2 IP in a playoff start; he threw 6 scoreless. His 0.93 ERA over 7 starts and a velocity jump were the real signal."}, {"rule": "Safer parlays use two strong, independent props, not a team side in a coin-flip game.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Guardians +1.5 lost 3-1 after one error."}, {"rule": "In low-total games, anchor on the Under or pitcher props, not sides.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Under 7 won while every side-based bet lost."}, {"rule": "Unearned runs and single defensive plays swing sides. Totals and props absorb that variance better.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "One error decided the run line."}], "flags": [], "loss_causes": {"bad read": 1, "variance": 1}}, "slate": {"date": "2026-10-13", "generated": "2026-10-13T23:34-04:00", "games_scanned": 0, "problems": ["MLB schedule: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NFL schedule: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NBA schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NHL schedule: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NCAAF schedule: https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NCAAB schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>"], "games": []}, "logos": {}}</script><!--/seed-->
+<script id="seed" type="application/json">{"generated": "2026-10-14T00:42-04:00", "settings": {"unit": 3.0, "plays": {"straight": 4, "safer": 3, "best": 2, "longshot": 1}, "games_per_day": 8, "timezone": "America/New_York", "refresh": "07:59"}, "bets": [{"id": "2026-10-13-CLETB-straight", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "straight", "market": "total", "odds": -115, "units": 4, "stake": 12.0, "to_win": 10.43, "status": "win", "net": 10.43, "legs": [{"desc": "Under 7 runs", "market": "total", "side": "under", "line": 7, "odds": -115, "result": "win"}], "note": "4 runs", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-safer", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "safer", "market": "mixed", "odds": 145, "units": 3, "stake": 9.0, "to_win": 13.05, "status": "loss", "net": -9.0, "legs": [{"desc": "Guardians +1.5", "market": "spread", "team": "CLE", "line": 1.5, "odds": -200, "result": "loss"}, {"desc": "Ramírez 1+ hit", "market": "prop", "player": "José Ramírez", "stat": "hits", "side": "over", "line": 0.5, "odds": -160, "result": "unknown"}], "note": "Lost by 2", "cause": "variance: one error decided a coin-flip side", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-best", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "best", "market": "mixed", "odds": 526, "units": 2, "stake": 6.0, "to_win": 31.56, "status": "pending", "net": null, "legs": [{"desc": "Under 7 runs", "market": "total", "side": "under", "line": 7, "odds": -115, "result": "win"}, {"desc": "Ramírez o1.5 H+R+RBI", "market": "prop", "player": "José Ramírez", "stat": "h_r_rbi", "side": "over", "line": 1.5, "odds": -102, "result": "unknown"}, {"desc": "Díaz u1.5 total bases", "market": "prop", "player": "Yandy Díaz", "stat": "total_bases", "side": "under", "line": 1.5, "odds": -145, "result": "unknown"}], "note": "Waiting on box score (likely loss)", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-13-CLETB-longshot", "date": "2026-10-13", "league": "MLB", "game": "CLE @ TB, ALCS G2", "play": "longshot", "market": "mixed", "odds": 1127, "units": 1, "stake": 3.0, "to_win": 33.81, "status": "loss", "net": -3.0, "legs": [{"desc": "Guardians ML", "market": "ml", "team": "CLE", "odds": 113, "result": "loss"}, {"desc": "Ramírez to homer", "market": "prop", "player": "José Ramírez", "stat": "hr", "side": "over", "line": 0.5, "odds": 476, "result": "unknown"}], "cause": "bad read: faded Peralta on old postseason sample; he threw 6 scoreless", "venue": "Tropicana Field", "city": "St. Petersburg, FL", "start": "2026-10-14T00:08:00Z"}, {"id": "2026-10-15-SEADEN-straight", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "straight", "market": "total", "odds": -108, "units": 4, "stake": 12.0, "to_win": 11.11, "status": "pending", "net": null, "confidence": 3, "legs": [{"desc": "Under 40.5", "market": "total", "side": "under", "line": 40.5, "odds": -108, "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under with the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with about 69% of bets on the Over, a sign the sharp money is on the Under. Short week, possible rain."}], "venue": "Empower Field at Mile High", "city": "Denver, CO", "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba", "rank": 1}, {"id": "2026-10-15-SEADEN-safer", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "safer", "market": "prop", "odds": 250, "units": 3, "stake": 9.0, "to_win": 22.5, "status": "pending", "net": null, "confidence": 2, "legs": [{"desc": "Smith-Njigba o75.5 rec yds", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "rec_yds", "side": "over", "line": 75.5, "odds": -115, "note": "Leads the NFL with 583 receiving yards and went over 100 in 4 of 5 games. Denver may be missing CB Surtain, CB Moss and S Hufanga. Good at 79.5 or lower.", "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"}, {"desc": "Nix u209.5 pass yds", "market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5, "odds": -115, "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense, allowing 151 yards a game.", "status": "Healthy"}], "venue": "Empower Field at Mile High", "city": "Denver, CO", "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba", "rank": 1}, {"id": "2026-10-15-SEADEN-best", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "best", "market": "mixed", "odds": 620, "units": 2, "stake": 6.0, "to_win": 37.2, "status": "pending", "net": null, "confidence": 2, "legs": [{"desc": "Under 40.5", "market": "total", "side": "under", "line": 40.5, "odds": -108, "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under with the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with about 69% of bets on the Over, a sign the sharp money is on the Under. Short week, possible rain."}, {"desc": "Smith-Njigba anytime TD", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": 100, "note": "7 TDs in 5 games and scored in 4 of them. Models put him at 51 to 60% to score, so even money is value against a banged-up secondary.", "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"}, {"desc": "Nix u209.5 pass yds", "market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5, "odds": -115, "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense, allowing 151 yards a game.", "status": "Healthy"}], "venue": "Empower Field at Mile High", "city": "Denver, CO", "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba", "rank": 1}, {"id": "2026-10-15-SEADEN-longshot", "date": "2026-10-15", "league": "NFL", "game": "SEA @ DEN, TNF Wk 6", "start": "2026-10-16T00:15:00Z", "play": "longshot", "market": "mixed", "odds": 1103, "units": 1, "stake": 3.0, "to_win": 33.09, "status": "pending", "net": null, "confidence": 1, "legs": [{"desc": "Seahawks -8.5", "market": "spread", "team": "SEA", "line": -8.5, "odds": 215, "note": "Parlay sweetener only. Fits a 24-13 type game where Seattle's No. 1 defense smothers Nix.", "status": "Seattle is 13-5-1 against the spread on the road under Macdonald, but 1-4 this year"}, {"desc": "Smith-Njigba anytime TD", "market": "prop", "player": "Jaxon Smith-Njigba", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": 100, "note": "7 TDs in 5 games and scored in 4 of them. Models put him at 51 to 60% to score, so even money is value against a banged-up secondary.", "status": "Ankle, limited at practice. Expected to play; confirm on Wednesday's report"}, {"desc": "E. Wilson anytime TD", "market": "prop", "player": "Emanuel Wilson", "stat": "anytime_td", "side": "over", "line": 0.5, "odds": -110, "note": "Lead back by default with Charbonnet out and Price on IR. 20 carries last week, facing Denver's 29th-ranked run defense.", "status": "Healthy. Charbonnet (knee) out, Price on IR"}], "venue": "Empower Field at Mile High", "city": "Denver, CO", "summary": "Low-scoring defensive game: Seattle's No. 1 defense against a struggling Nix, and Denver's banged-up secondary against Smith-Njigba", "rank": 1}], "summary": {"all": {"w": 1, "l": 2, "p": 0, "pending": 5, "risked": 24.0, "net": -1.57, "units": -0.52, "roi": -6.5}, "by_league": {"MLB": {"w": 1, "l": 2, "p": 0, "pending": 1, "risked": 24.0, "net": -1.57, "units": -0.52, "roi": -6.5}, "NFL": {"w": 0, "l": 0, "p": 0, "pending": 4, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}}, "by_play": {"best": {"w": 0, "l": 0, "p": 0, "pending": 2, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}, "longshot": {"w": 0, "l": 1, "p": 0, "pending": 1, "risked": 3.0, "net": -3.0, "units": -1.0, "roi": -100.0}, "safer": {"w": 0, "l": 1, "p": 0, "pending": 1, "risked": 9.0, "net": -9.0, "units": -3.0, "roi": -100.0}, "straight": {"w": 1, "l": 0, "p": 0, "pending": 1, "risked": 12.0, "net": 10.43, "units": 3.48, "roi": 86.9}}, "by_market": {"mixed": {"w": 0, "l": 2, "p": 0, "pending": 3, "risked": 12.0, "net": -12.0, "units": -4.0, "roi": -100.0}, "prop": {"w": 0, "l": 0, "p": 0, "pending": 1, "risked": 0, "net": 0, "units": 0.0, "roi": 0.0}, "total": {"w": 1, "l": 0, "p": 0, "pending": 1, "risked": 12.0, "net": 10.43, "units": 3.48, "roi": 86.9}}, "curve": [{"date": "2026-10-13", "id": "2026-10-13-CLETB-longshot", "net": -3.0}, {"date": "2026-10-13", "id": "2026-10-13-CLETB-safer", "net": -12.0}, {"date": "2026-10-13", "id": "2026-10-13-CLETB-straight", "net": -1.57}], "calibration": {"legs": 0, "brier": null, "bins": []}, "clv": {"legs": 0, "avg_pct": null, "beat_close": null}}, "lessons": {"rules": [{"rule": "Weight a pitcher's recent form over old, small postseason samples.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Faded Peralta for never passing 5.2 IP in a playoff start; he threw 6 scoreless. His 0.93 ERA over 7 starts and a velocity jump were the real signal."}, {"rule": "Safer parlays use two strong, independent props, not a team side in a coin-flip game.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Guardians +1.5 lost 3-1 after one error."}, {"rule": "In low-total games, anchor on the Under or pitcher props, not sides.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "Under 7 won while every side-based bet lost."}, {"rule": "Unearned runs and single defensive plays swing sides. Totals and props absorb that variance better.", "from": "CLE @ TB, ALCS G2", "date": "2026-10-13", "why": "One error decided the run line."}], "flags": [], "loss_causes": {"bad read": 1, "variance": 1}}, "slate": {"date": "2026-10-13", "generated": "2026-10-13T23:34-04:00", "games_scanned": 0, "problems": ["MLB schedule: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NFL schedule: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NBA schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NHL schedule: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NCAAF schedule: https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>", "NCAAB schedule: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard: <urlopen error Tunnel connection failed: 403 Forbidden>"], "games": []}, "logos": {}}</script><!--/seed-->
 <script>
 (() => {
   const $ = (s, el = document) => el.querySelector(s);
@@ -257,6 +283,8 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     render();
   }
   const live = {};
+  const openWhy = new Set(); // expanded panels survive the live re-render
+  document.addEventListener("toggle", e => { const d = e.target; if (d.dataset && d.dataset.why) d.open ? openWhy.add(d.dataset.why) : openWhy.delete(d.dataset.why); }, true);
 
   const fmt$ = v => (v < 0 ? "-$" : "$") + Math.abs(v).toFixed(2);
   const sign$ = v => (v > 0 ? "+" : "") + fmt$(v);
@@ -295,7 +323,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     const by = new Map();
     for (const b of data.bets || []) {
       const k = b.date + "|" + b.game;
-      if (!by.has(k)) by.set(k, { key: k, date: b.date, game: b.game, league: b.league, start: b.start, event_id: b.event_id, venue: b.venue, city: b.city, bets: [] });
+      if (!by.has(k)) by.set(k, { key: k, date: b.date, game: b.game, league: b.league, start: b.start, event_id: b.event_id, venue: b.venue, city: b.city, summary: b.summary, weather: b.weather, rank: b.rank, score: b.score, bets: [] });
       by.get(k).bets.push(b);
     }
     return [...by.values()].map(g => {
@@ -306,9 +334,48 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     }).sort((a, b) => (b.pending - a.pending) || b.date.localeCompare(a.date));
   }
 
-  function stars(b) {
-    const n = b.confidence ?? (b.prob >= .55 ? 3 : b.prob >= .35 ? 2 : 1);
-    return "★".repeat(n) + "☆".repeat(3 - n);
+  const starCount = b => b.confidence ?? (b.prob >= .55 ? 3 : b.prob >= .35 ? 2 : 1);
+  function stars(b) { const n = starCount(b); return "★".repeat(n) + "☆".repeat(3 - n); }
+
+  const SIGNAL = { projection: "Stat projection", recent_form: "Recent form", season: "Season numbers", matchup: "Matchup", home_away: "Home/away split",
+    rest_travel: "Rest and travel", weather: "Weather", injuries: "Injuries", coaching: "Coaching and scheme", postseason: "Postseason track record",
+    news: "News", line_move: "Line movement" };
+  const pct = x => Math.round(x * 100) + "%";
+  const implied = o => 1 / dec(o);
+  function autoWhy(l) {
+    const sig = Object.entries(l.signals || {}).filter(([, v]) => typeof v === "number" && Math.abs(v - .5) >= .03)
+      .sort((a, b) => Math.abs(b[1] - .5) - Math.abs(a[1] - .5)).slice(0, 3);
+    if (!sig.length) return "";
+    return sig.map(([k, v]) => `${SIGNAL[k] || k} ${v > .5 ? "backs it" : "works against it"} (${pct(v)})`).join(". ") + ".";
+  }
+  function whyPanel(b) {
+    const rows = b.legs.map(l => {
+      const note = l.note || autoWhy(l);
+      const nums = l.prob != null && l.odds != null ? `Model ${pct(l.prob)} to hit vs ${pct(implied(l.odds))} priced in by the book${l.edge != null ? ` · edge ${l.edge > 0 ? "+" : ""}${(l.edge * 100).toFixed(1)}%` : ""}` : "";
+      const st = l.status ? `<span class="why-status ${/healthy|active|full|confirmed/i.test(l.status) && !/out|doubt|question|limited/i.test(l.status) ? "ok" : ""}">${esc(l.status)}</span>` : "";
+      if (!note && !st && !nums) return "";
+      return `<div class="why-leg"><b>${esc(l.desc)}</b>${st}${note ? `<span>${esc(note)}</span>` : ""}${nums ? `<span class="why-nums">${nums}</span>` : ""}</div>`;
+    }).join("");
+    const top = b.why ? `<div class="why-leg"><span>${esc(b.why)}</span></div>` : "";
+    if (!rows && !top) return "";
+    return `<details class="why" data-why="${esc(b.id)}"${openWhy.has(b.id) ? " open" : ""}><summary>Why this pick</summary><div class="why-body">${top}${rows}</div></details>`;
+  }
+
+  function starKey() {
+    const W = 300, H = 74, X = p => 12 + p * (W - 24);
+    const zones = [[0, .35, "★☆☆", "var(--ink-3)"], [.35, .55, "★★☆", "var(--floodlight)"], [.55, 1, "★★★", "var(--win)"]];
+    const svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Star rating scale by win chance" style="max-width:420px">
+      ${zones.map(([a, b, s, c]) => `<rect x="${X(a)}" y="26" width="${X(b) - X(a) - 2}" height="14" rx="5" fill="${c}" opacity=".85"/>
+        <text x="${(X(a) + X(b)) / 2}" y="18" text-anchor="middle" fill="${c}" font-size="13" letter-spacing="1">${s}</text>`).join("")}
+      ${[0, .35, .55, 1].map(p => `<text x="${X(p)}" y="58" text-anchor="${p === 0 ? "start" : p === 1 ? "end" : "middle"}" fill="var(--ink-3)" font-size="11">${pct(p)}</text>`).join("")}
+      <text x="${W / 2}" y="72" text-anchor="middle" fill="var(--ink-3)" font-size="10.5">Our chance the whole bet wins</text></svg>`;
+    return `<details class="card glass" id="stars-help" data-why="stars-help"${openWhy.has("stars-help") ? " open" : ""}><summary><h2 style="margin:0">What the stars mean</h2></summary>
+      <div class="star-key" style="margin-top:12px">${svg}
+        <div class="star-row"><span class="s">★★★</span><p><b>Favorite.</b> 55% or better to win. Usually the straight bet. This is the one to trust most.</p></div>
+        <div class="star-row"><span class="s">★★☆</span><p><b>Solid.</b> 35 to 55%. Most 2 and 3-leg parlays with a real edge land here.</p></div>
+        <div class="star-row"><span class="s">★☆☆</span><p><b>Lean.</b> Under 35%. Longshots live here. Small stake, big payout, expect to lose most of them.</p></div>
+        <p class="note" style="margin:0">Stars come from the model's win chance after blending every factor and the correlation between legs. When research gives a stronger read than the numbers (an injury, a lineup), the hand rating wins. Stars rate how likely a bet is to cash. How much you stake comes from the play type and the Bankroll tab, not the stars.</p>
+      </div></details>`;
   }
 
   function when(g) {
@@ -333,9 +400,10 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
       return `<span class="${l.result === "win" ? "r-win" : l.result === "loss" ? "r-loss" : ""}">${esc(l.desc)}${l.odds != null && b.legs.length > 1 ? ` <small style="color:var(--ink-3)">${fmtOdds(l.odds)}</small>` : ""}${chip}${sub}</span>`;
     }).join("");
     return `<div class="play" data-play="${b.play}">
-      <div class="play-name">${PLAY_NAME[b.play]} <span class="stars" aria-label="confidence">${stars(b)}</span></div>
+      <div class="play-name">${PLAY_NAME[b.play]} <button class="stars stars-btn" data-stars="1" aria-label="${starCount(b)} of 3 stars, what the stars mean">${stars(b)}</button></div>
       <div class="price">${right}</div>
       <div class="legs">${legs}${b.status === "pending" && b.note ? `<small class="note" style="display:block;margin-top:4px">${esc(b.note)}</small>` : ""}</div>
+      ${whyPanel(b)}
       <button class="placed-btn" data-placed="${esc(b.id)}" aria-pressed="${placed.has(b.id)}">${placed.has(b.id) ? "✓ Placed" : "I placed this"}</button>
     </div>`;
   }
@@ -357,28 +425,42 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     return `<article class="game glass" id="g-${esc(g.key.replace(/[^a-z0-9]/gi, ""))}">
       <div class="game-head"><div><div class="eyebrow">${esc(g.league)}${extra ? " · " + esc(extra) : ""}</div>
         <div class="matchup-row">${logo(g.league, away, 34)}<div class="matchup">${esc(away)}<span class="at">@</span>${esc(home)}</div>${logo(g.league, home, 34)}</div>
-        <div class="meta">${when(g)}${g.venue ? " · " + esc(g.venue) : ""}${L && L.score ? " · " + esc(L.score) : ""}</div></div>${status}</div>
+        <div class="meta">${when(g)}${g.venue ? " · " + esc(g.venue) : ""}${L && L.score ? " · " + esc(L.score) : ""}</div>
+        ${g.summary || g.weather ? `<div class="meta" style="color:var(--ink-2)">${esc(g.summary || "")}${g.summary && g.weather ? " · " : ""}${g.weather ? "Weather: " + esc(g.weather) : ""}</div>` : ""}</div>${status}</div>
       <div class="plays">${g.bets.map(b => playCard(b, gu)).join("")}</div>
       <div><button class="placed-all" data-placed-game="${esc(g.key)}" aria-pressed="${allPlaced}">${allPlaced ? "✓ Placed all " + g.bets.length : "I placed all " + g.bets.length}</button></div>
       <div class="game-foot">${foot}</div>
     </article>`;
   }
 
+  function tile(g, i, more) {
+    const [a, h] = teamsOf(g);
+    return `<button class="tile glass${more ? " more" : ""}" data-jump="g-${esc(g.key.replace(/[^a-z0-9]/gi, ""))}" aria-label="${esc(g.game)}"><span class="rank">#${i + 1}</span><span class="logos">${logo(g.league, a)}<span class="vs">@</span>${logo(g.league, h)}</span><span class="time">${esc(g.start ? new Date(g.start).toLocaleString("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "2-digit" }) : g.date)}</span><span class="where" style="margin-top:-6px">${esc(g.start ? new Date(g.start).toLocaleDateString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric" }) + " · ET" : "")}</span><span class="where">${esc(g.venue || "")}${g.city ? "<br>" + esc(g.city) : ""}</span></button>`;
+  }
+  // Best game first: the pipeline's rank, then model score, then start time.
+  const byRank = (a, b) => (a.rank ?? 99) - (b.rank ?? 99) || (b.score ?? 0) - (a.score ?? 0) || (a.start || a.date).localeCompare(b.start || b.date);
+
   function viewToday() {
     const all = games();
     const count = k => all.filter(g => g.pending && (k === "ALL" || groupOf(g.league) === k)).length;
     const shown = all.filter(g => league === "ALL" || groupOf(g.league) === league);
-    const open = shown.filter(g => g.pending);
+    const open = shown.filter(g => g.pending).sort(byRank);
+    const bet = open.slice(0, prefs.games), more = open.slice(prefs.games);
     const done = shown.filter(g => !g.pending).slice(0, 6);
     const slate = data.slate;
     const problems = slate && slate.problems && slate.problems.length;
     const label = (LEAGUES.find(l => l[0] === league) || [, "All"])[1];
+    const taken = new Set(open.map(g => g.event_id).filter(Boolean));
+    const upcoming = ((slate && slate.upcoming) || []).filter(u => !taken.has(u.id) && (league === "ALL" || groupOf(u.league) === league) && (!u.start || Date.parse(u.start) > Date.now()));
     return `
       <div class="chips" role="toolbar" aria-label="League">${LEAGUES.map(([k, n]) => `<button class="chip" data-league="${k}" aria-pressed="${k === league}">${n}${count(k) ? `<span class="n">${count(k)}</span>` : ""}</button>`).join("")}</div>
-      ${problems ? `<div class="banner glass"><span class="dot"></span><div>The last run (${esc(slate.generated ? new Date(slate.generated).toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET" : slate.date)}) couldn't reach the live sports feeds, so no new games were picked. Showing your saved picks. Next run 7:59 AM ET.</div></div>` : ""}
-      ${open.length ? `<h2>Top games</h2><div class="tiles">${open.slice().sort((a, b) => (a.start || a.date).localeCompare(b.start || b.date)).map(g => { const [a, h] = teamsOf(g); return `<button class="tile glass" data-jump="g-${esc(g.key.replace(/[^a-z0-9]/gi, ""))}" aria-label="${esc(g.game)}"><span class="logos">${logo(g.league, a)}<span class="vs">@</span>${logo(g.league, h)}</span><span class="time">${esc(g.start ? new Date(g.start).toLocaleString("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "2-digit" }) : g.date)}</span><span class="where" style="margin-top:-6px">${esc(g.start ? new Date(g.start).toLocaleDateString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric" }) + " · ET" : "")}</span><span class="where">${esc(g.venue || "")}${g.city ? "<br>" + esc(g.city) : ""}</span></button>`; }).join("")}</div>` : ""}
-      <h2>Open slips</h2>
-      ${open.length ? open.map(gameCard).join("") : `<div class="empty glass"><b>No ${league === "ALL" ? "" : label + " "}picks yet</b>The next run is at 7:59 AM ET. Games still waiting on lineups re-check every 30 minutes.</div>`}
+      ${problems ? `<div class="banner glass"><span class="dot"></span><div>The last run (${esc(slate.generated ? new Date(slate.generated).toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET" : slate.date)}) couldn't reach every sports feed, so some games may be missing. Showing your saved picks. Next run 7:59 AM ET.</div></div>` : ""}
+      ${open.length ? `<h2>Top games</h2><div class="tiles">${open.map((g, i) => tile(g, i, i >= prefs.games)).join("")}</div>` : ""}
+      <h2>${more.length ? `Bet these ${bet.length}` : "Open slips"}</h2>
+      ${bet.length ? bet.map(gameCard).join("") : `<div class="empty glass"><b>No ${league === "ALL" ? "" : label + " "}picks yet</b>The next run is at 7:59 AM ET. Games still waiting on lineups re-check every 30 minutes.</div>`}
+      ${more.length ? `<h2>More games with an edge</h2><p class="note" style="margin-top:-6px">Ranked below your top ${prefs.games}. Raise Games per day on the Bankroll tab to add them to your daily budget.</p>${more.map(gameCard).join("")}` : ""}
+      ${upcoming.length ? `<h2>Also on the slate</h2><div class="up-list">${upcoming.map(u => { const [a, h] = u.game.split("@").map(x => x.trim()); return `<div class="up-row glass"><span class="logos" style="display:flex;gap:4px">${logo(u.league, a, 30)}${logo(u.league, h, 30)}</span><div><span class="t">${esc(u.game)}</span><small>${esc(u.league)} · ${esc(u.start ? new Date(u.start).toLocaleString("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "2-digit" }) + " ET" : "")}${u.venue ? " · " + esc(u.venue) : ""}</small></div><small>${u.edges ? u.edges + " small edge" + (u.edges > 1 ? "s" : "") : "No edge"}</small></div>`; }).join("")}</div><p class="note">The model found nothing worth a full slip in these. They're here so you know what's on.</p>` : ""}
+      ${starKey()}
       ${done.length ? `<h2>Recently settled</h2>${done.map(gameCard).join("")}` : ""}
       <p class="note">Odds are the line at pick time. Your book's price may differ. Only bet what you can afford to lose. Help: 1-800-GAMBLER.</p>`;
   }
@@ -478,7 +560,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     return `
       <section class="card glass"><h2>Per game</h2>
         ${slider("unit", "Unit size", prefs.unit, 1, 25, 0.5, fmt$(prefs.unit), `10 units a game, so ${fmt$(budget())} per game.`)}
-        ${slider("games", "Games per day", prefs.games, 1, 6, 1, prefs.games, `Up to ${fmt$(budget() * prefs.games)} a day. The pipeline scores every game and plays the best ${prefs.games}.`)}
+        ${slider("games", "Games per day", prefs.games, 1, 8, 1, prefs.games, `Up to ${fmt$(budget() * prefs.games)} a day. The pipeline posts up to 8 ranked games and you bet the best ${prefs.games}.`)}
       </section>
       <section class="card glass"><h2>Split across the four plays</h2>
         <div class="split-bar">${PLAY_ORDER.map(p => `<i style="flex:${prefs.split[p]};background:${colors[p]}"></i>`).join("")}</div>
@@ -595,6 +677,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     else if (el.dataset.placed) { setPlaced([el.dataset.placed], !placed.has(el.dataset.placed)); }
     else if (el.dataset.placedGame) { const g = games().find(x => x.key === el.dataset.placedGame); if (g) setPlaced(g.bets.map(b => b.id), !g.bets.every(b => placed.has(b.id))); }
     else if (el.dataset.scope) { scope = el.dataset.scope; store.set("scope", scope); render(); }
+    else if (el.dataset.stars) { const d = document.getElementById("stars-help"); if (d) { d.open = true; openWhy.add("stars-help"); d.scrollIntoView({ behavior: "smooth", block: "start" }); } }
     else if (el.dataset.jump) { const target = document.getElementById(el.dataset.jump); if (target) target.scrollIntoView({ behavior: "smooth", block: "start" }); }
     else if (el.dataset.filter) { betFilter = el.dataset.filter; render(); }
     else if (el.dataset.toggle) { const k = el.dataset.toggle; prefs.leagues = prefs.leagues.includes(k) ? prefs.leagues.filter(x => x !== k) : [...prefs.leagues, k]; savePrefs(); render(); }
