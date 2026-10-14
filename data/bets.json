@@ -301,7 +301,9 @@
      "line": -8.5,
      "odds": 215,
      "note": "Parlay sweetener only. Fits a 24-13 type game where Seattle's No. 1 defense smothers Nix.",
-     "status": "Seattle is 13-5-1 against the spread on the road under Macdonald, but 1-4 this year"
+     "status": "Seattle is 13-5-1 against the spread on the road under Macdonald, but 1-4 this year",
+     "alt": true,
+     "main_line": "-3"
     },
     {
      "desc": "Smith-Njigba anytime TD",

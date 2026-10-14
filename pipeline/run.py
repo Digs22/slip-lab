@@ -70,7 +70,7 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
                 "provisional": p["provisional"], "score": p.get("score"), "rank": rank,
                 "summary": p.get("analyst"), "weather": g.get("weather"),
                 "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line",
-                                                 "odds", "book", "fair", "prob", "edge", "signals", "note", "status")}
+                                                 "odds", "book", "fair", "prob", "edge", "signals", "note", "status", "alt", "main_line")}
                          for l in data["legs"]],
             }
             ledger.add(bets, bet)

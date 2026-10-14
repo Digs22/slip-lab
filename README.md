@@ -66,7 +66,7 @@ On 2026-10-14 the project's new default cloud environment reached ESPN, MLB Stat
 }
 ```
 
-Every leg should carry a `note` (one or two plain sentences on why it's recommended) and, for player props, a `status` (injury or practice status, for example "Ankle, limited at practice" or "Healthy"). The app shows both under "Why this pick". Without a note it falls back to the strongest signals. `status` is filled from ESPN's injury report when the analyst file leaves it out.
+An alternate line (a spread or total moved off the main number for a different price) sets `"alt": true` and `"main_line"` (for example `"-3"`); the app tags it "alt line · main -3" in faded italics. Every leg should carry a `note` (one or two plain sentences on why it's recommended) and, for player props, a `status` (injury or practice status, for example "Ankle, limited at practice" or "Healthy"). The app shows both under "Why this pick". Without a note it falls back to the strongest signals. `status` is filled from ESPN's injury report when the analyst file leaves it out.
 
 Signals are probabilities that the leg wins, from one factor: recent_form, season, matchup, home_away, rest_travel, weather, injuries, coaching, postseason, news, line_move.
 
