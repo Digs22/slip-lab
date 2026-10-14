@@ -28,7 +28,9 @@
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
       "placed": true,
-      "final": "CLE 1, TB 3"
+      "final": "CLE 1, TB 3",
+      "placed_units": 4,
+      "placed_unit": 3.0
     },
     {
       "id": "2026-10-13-CLETB-safer",
@@ -70,7 +72,9 @@
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
       "placed": true,
-      "final": "CLE 1, TB 3"
+      "final": "CLE 1, TB 3",
+      "placed_units": 3,
+      "placed_unit": 3.0
     },
     {
       "id": "2026-10-13-CLETB-best",
@@ -124,7 +128,9 @@
       "start": "2026-10-14T00:08:00Z",
       "final": "CLE 1, TB 3",
       "cause": "bad read",
-      "placed": true
+      "placed": true,
+      "placed_units": 2,
+      "placed_unit": 3.0
     },
     {
       "id": "2026-10-13-CLETB-longshot",
@@ -164,7 +170,9 @@
       "city": "St. Petersburg, FL",
       "start": "2026-10-14T00:08:00Z",
       "placed": true,
-      "final": "CLE 1, TB 3"
+      "final": "CLE 1, TB 3",
+      "placed_units": 1,
+      "placed_unit": 3.0
     },
     {
       "id": "2026-10-14-MILLAD-straight",

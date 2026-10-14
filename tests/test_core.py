@@ -247,3 +247,37 @@ class Audit(unittest.TestCase):
                         {"desc": "X to homer", "market": "prop", "odds": 400, "result": "unknown"}]}
         self.assertEqual(grade.audit([bet], refetch=False), [])
         self.assertEqual(bet["net"], -3.0)
+
+
+class Filters(unittest.TestCase):
+    def test_league_and_team_toggles(self):
+        from pipeline import teams
+        f = teams._clean({"off_leagues": ["NBA", "XFL"], "off_teams": {"MLB": ["5", "30"], "NFL": []}})
+        self.assertEqual(f["off_leagues"], ["NBA"])
+        self.assertNotIn("NFL", f["off_teams"])
+        g = lambda lg, h, a: {"league": lg, "home_id": h, "away_id": a}
+        self.assertFalse(teams.allowed(g("NBA", "1", "2"), f))
+        self.assertFalse(teams.allowed(g("MLB", "5", "30"), f))   # both teams off
+        self.assertTrue(teams.allowed(g("MLB", "5", "19"), f))    # one team you follow still gets picks
+        self.assertTrue(teams.allowed(g("NHL", "5", "30"), f))
+
+    def test_postseason_eliminated(self):
+        from unittest import mock
+        from pipeline import teams, sources
+        def ev(date, a, b, done, series=None, winner=None):
+            comp = {"competitors": [{"team": {"id": a}, "winner": winner == a if done else None},
+                                    {"team": {"id": b}, "winner": winner == b if done else None}]}
+            if series:
+                comp["series"] = series
+            return {"date": date, "season": {"type": 3}, "status": {"type": {"completed": done}}, "competitions": [comp]}
+        lost = {"completed": True, "totalCompetitions": 5, "competitors": [{"id": "1", "wins": 3}, {"id": "2", "wins": 1}]}
+        live = {"completed": False, "totalCompetitions": 7, "competitors": [{"id": "1", "wins": 1}, {"id": "3", "wins": 1}]}
+        def fake(url, params=None, ttl=0, headers=None):
+            d = params["dates"]
+            evs = {"20261008": [ev("2026-10-08T23:00Z", "1", "2", True, lost, "1")],
+                   "20261013": [ev("2026-10-13T23:00Z", "1", "3", True, live, "3")]}.get(d, [])
+            return {"leagues": [{"season": {"type": {"type": 3}}}], "events": evs}
+        with mock.patch.object(sources, "get_json", fake):
+            post, alive = teams.postseason("MLB", "2026-10-14")
+        self.assertTrue(post)
+        self.assertEqual(alive, {"1", "3"})  # team 2 lost its series; teams that never played aren't alive

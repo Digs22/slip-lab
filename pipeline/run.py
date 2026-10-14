@@ -6,13 +6,14 @@
     python3 -m pipeline.run close     # 10-30 min before games: save closing lines (for CLV)
     python3 -m pipeline.run export    # write the app's data file
     python3 -m pipeline.run status    # print the record
+    python3 -m pipeline.run teams     # refresh the Settings tab's team list (and who's eliminated)
 """
 import json
 import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import analyze, builder, candidates, config, grade, learn, ledger, sources
+from . import analyze, builder, candidates, config, grade, learn, ledger, sources, teams
 
 
 def today() -> str:
@@ -38,9 +39,12 @@ def log(msg):
 def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]:
     weights = analyze.load_weights()
     scored, problems = [], []
+    filters = teams.load_filters()
     for league in config.LEAGUES:
+        if league in filters["off_leagues"]:
+            continue  # toggled off in Settings: no picks, no API calls
         try:
-            games = [g for g in sources.espn_scoreboard(league, date) if g["status"] == "pre"]
+            games = [g for g in sources.espn_scoreboard(league, date) if g["status"] == "pre" and teams.allowed(g, filters)]
         except sources.SourceError as e:
             problems.append(f"{league} schedule: {e}")
             continue
@@ -200,6 +204,12 @@ def daily(date: str | None = None, only_ids: set | None = None):
         schedule()
     except Exception as e:  # the schedule is a preview; never block picks on it
         problems.append(f"schedule: {e}")
+    try:
+        t = teams.load_teams()
+        if not t or t.get("generated", "")[:10] != datetime.now(ZoneInfo("UTC")).strftime("%Y-%m-%d"):
+            teams.build()  # once a day: the Settings team list and who's been eliminated
+    except Exception as e:
+        problems.append(f"teams: {e}")
     ledger.save(bets)
     slate = {"date": date, "generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
              "games_scanned": len(scored), "problems": problems,
@@ -252,6 +262,7 @@ def schedule(days: int = 7):
                     continue
                 out.append({"id": g["id"], "league": league, "date": d, "start": g["start"], "status": g["status"],
                             "game": f"{g['away']} @ {g['home']}", "away": g["away"], "home": g["home"],
+                            "away_id": g.get("away_id"), "home_id": g.get("home_id"),
                             "away_name": g.get("away_name"), "home_name": g.get("home_name"),
                             "away_logo": g.get("away_logo"), "home_logo": g.get("home_logo"),
                             "venue": g.get("venue"), "city": g.get("city"), "detail": g.get("detail"),
@@ -361,7 +372,8 @@ def export():
                          "timezone": config.TIMEZONE, "refresh": config.REFRESH_TIME},
             "bets": bets, "summary": ledger.summary(bets), "lessons": learn.load_lessons(),
             "slate": json.loads(config.SLATE_FILE.read_text()) if config.SLATE_FILE.exists() else None,
-            "schedule": json.loads((config.DATA / "schedule.json").read_text()) if (config.DATA / "schedule.json").exists() else None}
+            "schedule": json.loads((config.DATA / "schedule.json").read_text()) if (config.DATA / "schedule.json").exists() else None,
+            "teams": teams.load_teams(), "filters": teams.load_filters(remote=False)}
     data["logos"] = logos(bets)
     blob = json.dumps(data, ensure_ascii=False)
     (config.APP_DIR / "data.json").write_text(blob)
@@ -405,4 +417,5 @@ def status():
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
     {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status,
-     "candidates": lambda: print(candidates.report()), "retrain": lambda: print(learn.retrain())}[cmd]()
+     "candidates": lambda: print(candidates.report()), "retrain": lambda: print(learn.retrain()),
+     "teams": lambda: (teams.build(), export())}[cmd]()
