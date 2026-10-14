@@ -1,9 +1,9 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T02:25-04:00",
+  "generated": "2026-10-14T02:30-04:00",
   "games_scanned": 31,
   "problems": [
-    "2026-10-14: SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+    "2026-10-14: SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
   ],
   "upcoming": [
     {
