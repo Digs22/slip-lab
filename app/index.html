@@ -1247,19 +1247,12 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   }
 
   function viewSettings() {
-    const key = store.get("oddsKey", "");
     return `
       <section class="card glass"><h2>Appearance</h2>
         <div class="seg theme" role="group" aria-label="Theme">${[["light", "Light"], ["dark", "Dark"], ["dynamic", "Dynamic"]].map(([k, n]) => `<button data-theme-set="${k}" aria-pressed="${store.get("theme", "dynamic") === k}">${n}</button>`).join("")}</div>
         <p class="note">Dynamic switches to light with the 7:59 AM refresh and to dark with the 4:59 PM refresh (Eastern). It's ${document.documentElement.dataset.theme} right now.</p>
       </section>
       ${viewFilters()}
-      <section class="card glass"><h2>Odds API key</h2>
-        <div class="field-row"><label for="oddskey">Paste your free key from the-odds-api.com</label>
-        <input type="password" id="oddskey" autocomplete="off" value="${esc(key)}" placeholder="Stays on this device only"></div>
-        <button class="btn" id="savekey">Save key</button><span class="note" id="keymsg"></span>
-        <p class="note">The daily picks run reads its own copy of the key from the cloud environment. This one lets the app check live prices from your phone.</p>
-      </section>
       <section class="card glass"><h2>Phone alerts</h2>
         <p style="margin:0">You only get alerts for games and slips you tap the <b>bell</b> on: line and odds moves, pick changes, injury news, when the picks lock an hour before the game, legs falling behind, lost or hit, and the result. No alert for every new pick.</p>
         <ol style="margin:0;padding-left:20px;display:grid;gap:4px"><li>Install the free <b>ntfy</b> app and subscribe to your private topic (it's in the ntfy app's list once you've added it).</li><li>Paste the same topic name below once, on each phone or browser you use.</li><li>Tap the bell on any game or slip.</li></ol>
@@ -1320,7 +1313,6 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     else if (el.dataset.less) { betLimit = 10; render(); }
     else if (el.dataset.toggle) { const k = el.dataset.toggle; prefs.leagues = prefs.leagues.includes(k) ? prefs.leagues.filter(x => x !== k) : [...prefs.leagues, k]; savePrefs(); render(); }
     else if (el.id === "reset-split") { prefs.split = { ...DEFAULTS.split }; savePrefs(); render(); }
-    else if (el.id === "savekey") { store.set("oddsKey", $("#oddskey").value.trim()); $("#keymsg").textContent = " Saved on this device."; }
   });
   document.addEventListener("input", e => {
     const el = e.target;
