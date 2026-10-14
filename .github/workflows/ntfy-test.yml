@@ -1,0 +1,15 @@
+name: Alert test
+on:
+  push:
+    paths: [".github/workflows/ntfy-test.yml"]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send a test alert
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -fsS -H "Title: Sigma Locks test" -H "Priority: high" -H "Tags: white_check_mark" \
+            -d "Test 4: phone alerts are working." "https://ntfy.sh/$NTFY_TOPIC" > /dev/null
