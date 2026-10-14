@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Sigma Locks</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="theme-color" content="#070b16">
@@ -32,6 +36,7 @@
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; }
+html { touch-action: pan-x pan-y; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--night); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.45;
   -webkit-font-smoothing: antialiased; font-variant-numeric: tabular-nums;
@@ -212,6 +217,7 @@ details.card > summary::-webkit-details-marker { display: none; }
 .note a { color: var(--floodlight); }
 
 nav.tabs { position: fixed; z-index: 10; left: 0; right: 0; bottom: 0; padding: 8px max(16px, env(safe-area-inset-left, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-right, 0px)); }
+nav.tabs .bar-in, header.top.glass { background: rgba(13, 19, 38, .86); }
 nav.tabs .bar-in { max-width: 528px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 1fr); padding: 6px; border-radius: 24px; }
 nav.tabs button { background: none; border: 0; color: var(--ink-3); font: 600 11px var(--body); letter-spacing: .04em; display: grid; justify-items: center; gap: 3px; padding: 8px 0; border-radius: 18px; cursor: pointer; }
 nav.tabs button svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
