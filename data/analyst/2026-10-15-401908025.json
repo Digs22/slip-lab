@@ -2,29 +2,93 @@
   "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts.",
   "lineups_confirmed": false,
   "legs": [
-    {"desc": "Under 6.5", "signals": {"matchup": 0.58, "postseason": 0.58, "recent_form": 0.56},
-     "note": "Games 1 and 2 of this series were low scoring, and both bullpens are rested after an off day. Williams is missing bats at an elite rate, and Tampa Bay will use relievers from the 3rd inning on."},
-    {"desc": "Under 7", "signals": {"matchup": 0.58, "postseason": 0.58},
-     "note": "This is the same Under read with an extra half run of cushion, at a shorter price.", "alt": true, "main_line": 6.5}
+    {
+      "desc": "Under 6.5",
+      "signals": {
+        "matchup": 0.58,
+        "postseason": 0.58,
+        "recent_form": 0.56
+      },
+      "note": "Games 1 and 2 of this series were low scoring, and both bullpens are rested after an off day. Williams is missing bats at an elite rate, and Tampa Bay will use relievers from the 3rd inning on."
+    },
+    {
+      "desc": "Under 7",
+      "signals": {
+        "matchup": 0.58,
+        "postseason": 0.58
+      },
+      "note": "This is the same Under read with an extra half run of cushion, at a shorter price.",
+      "alt": true,
+      "main_line": 6.5
+    }
   ],
   "extra_legs": [
-    {"desc": "G. Williams o6.5 strikeouts", "market": "prop", "player": "Gavin Williams", "team": "CLE", "stat": "strikeouts",
-     "side": "over", "line": 6.5, "odds": -109, "fair": 0.60, "book": "draftkings",
-     "signals": {"recent_form": 0.66, "postseason": 0.64, "matchup": 0.55},
-     "projection": {"mu": 8.4, "sd": 2.6},
-     "note": "He has 11 and 12 strikeouts in his two playoff starts and reached 7 or more in 5 of his last 6 starts. Tampa Bay's lineup struck out more often against right-handers in September.",
-     "status": "Healthy, on regular rest"},
-    {"desc": "G. Williams u16.5 outs", "market": "prop", "player": "Gavin Williams", "team": "CLE", "stat": "pitcher_outs",
-     "side": "under", "line": 16.5, "odds": -106, "fair": 0.56, "book": "draftkings",
-     "signals": {"recent_form": 0.58, "coaching": 0.57},
-     "projection": {"mu": 15.6, "sd": 3.0},
-     "note": "His strikeouts and walks run his pitch count up fast. He threw 94 to 98 pitches to get only 15 to 17 outs in both playoff starts, and Cleveland's bullpen is rested.",
-     "status": "Healthy"},
-    {"desc": "Jax u11.5 outs", "market": "prop", "player": "Griffin Jax", "team": "TB", "stat": "pitcher_outs",
-     "side": "under", "line": 11.5, "odds": -117, "fair": 0.57, "book": "draftkings",
-     "signals": {"coaching": 0.62, "postseason": 0.60},
-     "projection": {"mu": 10.5, "sd": 3.0},
-     "note": "Jax is a converted reliever who topped out at 82 pitches this year, and he threw only 2 innings in his last playoff outing. Tampa Bay pulls starters early in the playoffs.",
-     "status": "Healthy"}
+    {
+      "desc": "G. Williams o6.5 strikeouts",
+      "market": "prop",
+      "player": "Gavin Williams",
+      "team": "CLE",
+      "stat": "strikeouts",
+      "side": "over",
+      "line": 6.5,
+      "odds": -109,
+      "fair": 0.6,
+      "book": "draftkings",
+      "signals": {
+        "recent_form": 0.66,
+        "postseason": 0.64,
+        "matchup": 0.55
+      },
+      "projection": {
+        "mu": 8.4,
+        "sd": 2.6
+      },
+      "note": "He has 11 and 12 strikeouts in his two playoff starts and reached 7 or more in 5 of his last 6 starts. Tampa Bay's lineup struck out more often against right-handers in September.",
+      "status": "Expected starter on normal rest, but Cleveland hasn't officially named him yet (MLB lists Game 3 as TBA). Books void his props if he doesn't start"
+    },
+    {
+      "desc": "G. Williams u16.5 outs",
+      "market": "prop",
+      "player": "Gavin Williams",
+      "team": "CLE",
+      "stat": "pitcher_outs",
+      "side": "under",
+      "line": 16.5,
+      "odds": -106,
+      "fair": 0.56,
+      "book": "draftkings",
+      "signals": {
+        "recent_form": 0.58,
+        "coaching": 0.57
+      },
+      "projection": {
+        "mu": 15.6,
+        "sd": 3.0
+      },
+      "note": "His strikeouts and walks run his pitch count up fast. He threw 94 to 98 pitches to get only 15 to 17 outs in both playoff starts, and Cleveland's bullpen is rested.",
+      "status": "Expected starter on normal rest, but Cleveland hasn't officially named him yet (MLB lists Game 3 as TBA). Books void his props if he doesn't start"
+    },
+    {
+      "desc": "Jax u11.5 outs",
+      "market": "prop",
+      "player": "Griffin Jax",
+      "team": "TB",
+      "stat": "pitcher_outs",
+      "side": "under",
+      "line": 11.5,
+      "odds": -117,
+      "fair": 0.57,
+      "book": "draftkings",
+      "signals": {
+        "coaching": 0.62,
+        "postseason": 0.6
+      },
+      "projection": {
+        "mu": 10.5,
+        "sd": 3.0
+      },
+      "note": "Jax is a converted reliever who topped out at 82 pitches this year, and he threw only 2 innings in his last playoff outing. Tampa Bay pulls starters early in the playoffs.",
+      "status": "Healthy"
+    }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "summary": "Thursday AAC game: ESPN's FPI gives East Carolina a 73.8% chance to win at UAB, well above the roughly 64% the -192 moneyline implies. ECU is 3-2 (1-0 AAC), and UAB is 3-3.",
+  "lineups_confirmed": false,
+  "legs": [
+    {"desc": "East Carolina Pirates ML", "signals": {"season": 0.70, "matchup": 0.68},
+     "note": "ESPN's FPI makes ECU about a 74% winner. The moneyline prices them near 64%, and ECU is unbeaten in conference play."},
+    {"desc": "East Carolina Pirates -4.5", "signals": {"season": 0.60, "matchup": 0.58},
+     "note": "If ECU wins as often as FPI expects, it should cover a field goal plus most of the time. This is the same read as the moneyline, at a better price."}
+  ],
+  "extra_legs": []
+}

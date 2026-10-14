@@ -1,8 +1,10 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T02:51-04:00",
-  "games_scanned": 55,
-  "problems": [],
+  "generated": "2026-10-14T08:08-04:00",
+  "games_scanned": 31,
+  "problems": [
+    "2026-10-14: SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+  ],
   "upcoming": [
     {
       "id": "401860923",
@@ -11,7 +13,7 @@
       "start": "2026-10-16T00:00Z",
       "venue": "UFCU Stadium",
       "city": "San Marcos, TX",
-      "score": 0.1107,
+      "score": 0.0701,
       "edges": 2,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
@@ -23,8 +25,8 @@
       "start": "2026-10-16T01:00Z",
       "venue": "Dodger Stadium",
       "city": "Los Angeles, California",
-      "score": 0.0346,
-      "edges": 1,
+      "score": 0.0441,
+      "edges": 2,
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
     },
@@ -157,7 +159,7 @@
       "start": "2026-10-15T00:00Z",
       "venue": "Dodger Stadium",
       "provisional": true,
-      "score": 0.3274,
+      "score": 0.3249,
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
       "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early."
