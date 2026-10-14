@@ -23,10 +23,10 @@ class Odds(unittest.TestCase):
 
 class Ledger(unittest.TestCase):
     def test_seed_totals(self):
-        s = ledger.summary(ledger.load())["all"]
-        self.assertEqual((s["w"], s["l"], s["pending"]), (1, 2, 5))
-        self.assertEqual(s["net"], -1.57)
-        self.assertEqual(s["roi"], -6.5)
+        # The live ledger keeps growing, so check the first graded game only (CLE @ TB, ALCS G2).
+        s = ledger.summary([b for b in ledger.load() if b["id"].startswith("2026-10-13-CLETB")])["all"]
+        self.assertEqual((s["w"], s["l"], s["pending"]), (1, 3, 0))
+        self.assertEqual(s["net"], -7.57)
 
 
 GAME = {"home": "DEN", "away": "SEA", "home_name": "Denver Broncos", "home_score": 17.0, "away_score": 20.0}
@@ -125,6 +125,21 @@ class Live(unittest.TestCase):
         prop = {"market": "prop", "player": "Bo Nix", "stat": "pass_yds", "side": "under", "line": 209.5}
         self.assertEqual(live.leg_status(prop, g, {"Bo Nix": {"pass_yds": 150}})["state"], "behind")
         self.assertEqual(live.leg_status(prop, g, {"Bo Nix": {"pass_yds": 212}})["state"], "lost")
+
+
+class Schedule(unittest.TestCase):
+    def test_preview_odds_both_shapes(self):
+        from pipeline import run
+        old = run._preview_odds({"details": "SEA -3", "overUnder": 40.5, "homeTeamOdds": {"moneyLine": 135}, "awayTeamOdds": {"moneyLine": -155}})
+        self.assertEqual(old, {"spread": "SEA -3", "total": 40.5, "home_ml": 135, "away_ml": -155})
+        new = run._preview_odds({"details": "LAD -1.5", "overUnder": 8, "moneyline": {"home": {"close": {"odds": "-160"}}, "away": {"close": {"odds": "+135"}}}})
+        self.assertEqual((new["home_ml"], new["away_ml"]), (-160, 135))
+
+    def test_et_date_and_lock(self):
+        from pipeline import run
+        self.assertEqual(run.et_date("2026-10-16T00:15:00Z"), "2026-10-15")
+        self.assertTrue(run.locked("2020-01-01T18:00:00Z"))
+        self.assertFalse(run.locked("2099-01-01T18:00:00Z"))
 
 
 if __name__ == "__main__":

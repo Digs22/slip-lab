@@ -35,6 +35,10 @@ Tapping "I placed this" (or "I placed all") in the app saves a doc in the artifa
 - `python3 -m pipeline.run close` saves the closing line 10 to 45 minutes before each game. The Lessons tab shows closing line value and a calibration chart with a Brier score.
 - `pipeline/stats_feeds.py`: Baseball Savant, nflverse, MoneyPuck.
 
+## Games tab and pick timing
+
+The Games tab has a 7-day strip. `python3 -m pipeline.run schedule` (also run by `daily`) writes data/schedule.json: every game in every league for the next 7 Eastern days with ESPN's consensus spread, total and moneylines, shown as a preview. `daily` now picks today's and tomorrow's games, so picks post the day before and keep updating with the odds and news until the 7:59 AM run on game day, when they lock. A slip leaves the Games tab once every bet in it is settled; its results stay on the Record tab.
+
 ## Commands
 
 ```

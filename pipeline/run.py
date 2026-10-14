@@ -19,6 +19,19 @@ def today() -> str:
     return datetime.now(ZoneInfo(config.TIMEZONE)).strftime("%Y-%m-%d")
 
 
+def et_date(iso: str) -> str:
+    """The Eastern calendar day a game starts on (ESPN gives UTC)."""
+    return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(ZoneInfo(config.TIMEZONE)).strftime("%Y-%m-%d")
+
+
+def locked(game_start: str) -> bool:
+    """Picks post the day before and can change with the odds or new research until the 7:59 AM
+    run on game day, when the user bets. After that they stay as posted."""
+    now = datetime.now(ZoneInfo(config.TIMEZONE))
+    day = et_date(game_start)
+    return day < now.strftime("%Y-%m-%d") or (day == now.strftime("%Y-%m-%d") and now.strftime("%H:%M") >= config.REFRESH_TIME)
+
+
 def log(msg):
     print(f"[{datetime.now(ZoneInfo(config.TIMEZONE)):%H:%M}] {msg}", flush=True)
 
@@ -54,15 +67,16 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
     added = []
     for rank, p in enumerate(picks, 1):
         g = p["game"]
+        gdate = et_date(g["start"]) if g.get("start") else date
         for play, data in p["plays"].items():
-            bid = f"{date}-{g['away']}{g['home']}-{play}"
+            bid = f"{gdate}-{g['away']}{g['home']}-{play}"
             existing = next((b for b in bets if b["id"] == bid), None)
-            if existing and existing["status"] != "pending":
+            if existing and (existing["status"] != "pending" or locked(g["start"])):
                 continue
-            if existing:  # a re-check changed the picks before the game started
+            if existing:  # odds or research changed before game-day lock
                 bets.remove(existing)
             bet = {
-                "id": bid, "date": date, "league": g["league"], "event_id": g["id"],
+                "id": bid, "date": gdate, "league": g["league"], "event_id": g["id"],
                 "game": f"{g['away']} @ {g['home']}", "start": g["start"], "play": play,
                 "venue": g.get("venue"), "city": g.get("city"),
                 "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
@@ -84,9 +98,19 @@ def daily(date: str | None = None, only_ids: set | None = None):
     changed = grade.grade_all(bets)
     if changed:
         learn.run(bets, changed)
-    scored, problems = scan(date, only_ids)
-    picks = builder.pick_top_games(scored, config.GAMES_PER_DAY)
-    added = record_plays(date, picks, bets)
+    # Picks cover today and tomorrow: a game gets its plays the day before and they update until game-day lock.
+    from datetime import timedelta
+    tomorrow = (datetime.fromisoformat(date) + timedelta(days=1)).strftime("%Y-%m-%d")
+    scored, problems, picks, added = [], [], [], []
+    for d in (date, tomorrow):
+        sc, pr = scan(d, only_ids)
+        pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
+        added += record_plays(d, pk, bets)
+        scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
+    try:
+        schedule()
+    except Exception as e:  # the schedule is a preview; never block picks on it
+        problems.append(f"schedule: {e}")
     ledger.save(bets)
     slate = {"date": date, "generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
              "games_scanned": len(scored), "problems": problems,
@@ -101,6 +125,57 @@ def daily(date: str | None = None, only_ids: set | None = None):
     for msg in problems:
         log(f"  feed problem: {msg}")
     return slate
+
+
+def _preview_odds(o: dict) -> dict:
+    """ESPN's consensus line in either of its two shapes: spread text, total, moneylines."""
+    if not o:
+        return {}
+    ml = o.get("moneyline") or {}
+    def pick(side):
+        v = (o.get(f"{side}TeamOdds") or {}).get("moneyLine")
+        if v is None:
+            v = ((ml.get(side) or {}).get("close") or (ml.get(side) or {}).get("open") or {}).get("odds")
+        try:
+            return int(str(v).replace("+", "")) if v not in (None, "", "EVEN", "OFF") else (100 if v == "EVEN" else None)
+        except ValueError:
+            return None
+    return {k: v for k, v in {"spread": o.get("details"), "total": o.get("overUnder"),
+                              "home_ml": pick("home"), "away_ml": pick("away"), "book": (o.get("provider") or {}).get("name")}.items()
+            if v not in (None, "")}
+
+
+def schedule(days: int = 7):
+    """Every game in every league for the next 7 Eastern days, with ESPN's consensus odds, for the Games tab."""
+    from datetime import timedelta
+    start = datetime.fromisoformat(today())
+    out, problems = [], []
+    for i in range(days):
+        d = (start + timedelta(days=i)).strftime("%Y-%m-%d")
+        for league in config.LEAGUES:
+            try:
+                games = sources.espn_scoreboard(league, d)
+            except sources.SourceError as e:
+                problems.append(f"{league} {d}: {e}")
+                continue
+            for g in games:
+                if not g.get("start") or et_date(g["start"]) != d:
+                    continue
+                out.append({"id": g["id"], "league": league, "date": d, "start": g["start"], "status": g["status"],
+                            "game": f"{g['away']} @ {g['home']}", "away": g["away"], "home": g["home"],
+                            "away_name": g.get("away_name"), "home_name": g.get("home_name"),
+                            "away_logo": g.get("away_logo"), "home_logo": g.get("home_logo"),
+                            "venue": g.get("venue"), "city": g.get("city"), "detail": g.get("detail"),
+                            "away_score": g.get("away_score"), "home_score": g.get("home_score"),
+                            "odds": _preview_odds(g.get("odds") or {})})
+    seen, uniq = set(), []
+    for g in sorted(out, key=lambda g: g["start"]):
+        if g["id"] not in seen:
+            seen.add(g["id"]); uniq.append(g)
+    (config.DATA / "schedule.json").write_text(json.dumps({"generated": datetime.now(ZoneInfo(config.TIMEZONE)).isoformat(timespec="minutes"),
+                                                           "games": uniq, "problems": problems}, indent=1) + "\n")
+    log(f"schedule: {len(uniq)} games over {days} days, {len(problems)} feed problems")
+    return uniq
 
 
 def upcoming(scored: list[dict], picks: list[dict], n: int = 12) -> list[dict]:
@@ -169,7 +244,8 @@ def export():
             "settings": {"unit": config.UNIT, "plays": config.PLAYS, "games_per_day": config.GAMES_PER_DAY,
                          "timezone": config.TIMEZONE, "refresh": config.REFRESH_TIME},
             "bets": bets, "summary": ledger.summary(bets), "lessons": learn.load_lessons(),
-            "slate": json.loads(config.SLATE_FILE.read_text()) if config.SLATE_FILE.exists() else None}
+            "slate": json.loads(config.SLATE_FILE.read_text()) if config.SLATE_FILE.exists() else None,
+            "schedule": json.loads((config.DATA / "schedule.json").read_text()) if (config.DATA / "schedule.json").exists() else None}
     data["logos"] = logos(bets)
     blob = json.dumps(data, ensure_ascii=False)
     (config.APP_DIR / "data.json").write_text(blob)
@@ -212,4 +288,4 @@ def status():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
-    {"daily": daily, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status}[cmd]()
+    {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status}[cmd]()
