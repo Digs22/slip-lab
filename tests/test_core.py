@@ -157,5 +157,24 @@ class Traditional(unittest.TestCase):
         self.assertIn("safer", plays)
 
 
+class Rerun(unittest.TestCase):
+    def test_prune_drops_stale_unlocked_pending(self):
+        from pipeline import run
+        future, past = "2099-01-01T18:00:00Z", "2020-01-01T18:00:00Z"
+        bets = [{"id": "2099-01-01-TRAD-straight", "status": "pending", "start": future},
+                {"id": "2099-01-01-TRAD-best", "status": "pending", "start": future},
+                {"id": "2099-01-01-TRAD-safer", "status": "win", "start": future},
+                {"id": "2099-01-01-TRAD-longshot", "status": "pending", "start": past}]
+        run._prune(bets, "2099-01-01-TRAD-", {"2099-01-01-TRAD-straight"})
+        self.assertEqual([b["id"] for b in bets], ["2099-01-01-TRAD-straight", "2099-01-01-TRAD-safer", "2099-01-01-TRAD-longshot"])
+
+    def test_potd_needs_research(self):
+        from pipeline import builder
+        leg = {"desc": "x", "prob": 0.6, "edge": 0.1}
+        games = [{"game": {"id": "1", "league": "NCAAF", "away": "A", "home": "B"}, "legs": [leg]},
+                 {"game": {"id": "2", "league": "MLB", "away": "C", "home": "D"}, "analyst": {"summary": "s"}, "legs": [dict(leg)]}]
+        self.assertEqual(list(builder.pick_of_day(games)), ["MLB"])
+
+
 if __name__ == "__main__":
     unittest.main()

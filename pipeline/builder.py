@@ -168,9 +168,11 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
 
 def pick_of_day(scored_games: list[dict]) -> dict:
     """League -> the single strongest leg of the day in that league, from any game: a likely winner
-    (model 55%+ when one exists) with the best edge x win chance."""
+    (model 55%+ when one exists) with the best edge x win chance. Researched games only."""
     best = {}
     for g in scored_games:
+        if not g.get("analyst"):  # same research bar as the Traditional slip: no analyst file, no pick
+            continue
         lg = g["game"]["league"]
         for l in g["legs"]:
             leg = l | {"event_id": g["game"]["id"], "league": lg, "start": g["game"].get("start"),

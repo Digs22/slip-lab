@@ -63,11 +63,20 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
     return scored, problems
 
 
+def _prune(bets: list[dict], prefix: str, keep: set) -> None:
+    """Drop pending, still-unlocked bets under an id prefix that the latest run no longer builds,
+    so a play that lost its edge on a rerun doesn't linger next to the new ones."""
+    for b in [b for b in bets if b["id"].startswith(prefix) and b["id"] not in keep]:
+        if b["status"] == "pending" and not (b.get("start") and locked(b["start"])):
+            bets.remove(b)
+
+
 def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
     added = []
     for rank, p in enumerate(picks, 1):
         g = p["game"]
         gdate = et_date(g["start"]) if g.get("start") else date
+        _prune(bets, f"{gdate}-{g['away']}{g['home']}-", {f"{gdate}-{g['away']}{g['home']}-{play}" for play in p["plays"]})
         for play, data in p["plays"].items():
             bid = f"{gdate}-{g['away']}{g['home']}-{play}"
             existing = next((b for b in bets if b["id"] == bid), None)
@@ -92,9 +101,11 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
     return added
 
 
-def record_traditional(date: str, plays: dict | None, bets: list[dict]) -> list[dict]:
+def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: bool = True) -> list[dict]:
     """The day's multi-game slip: same four plays, one leg per game, logged like any other bet."""
     added = []
+    if prune:
+        _prune(bets, f"{date}-TRAD-", {f"{date}-TRAD-{play}" for play in (plays or {})})
     for play, data in (plays or {}).items():
         bid = f"{date}-TRAD-{play}"
         first = min((l["start"] for l in data["legs"] if l.get("start")), default=None)
@@ -115,9 +126,11 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict]) -> list[
     return added
 
 
-def record_potd(date: str, picks: dict, bets: list[dict]) -> list[dict]:
+def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) -> list[dict]:
     """Pick of the Day: the best single bet in each league, logged as a straight bet."""
     added = []
+    if prune:
+        _prune(bets, f"{date}-POTD-", {f"{date}-POTD-{lg}" for lg in picks})
     for league, leg in picks.items():
         g = leg.pop("_game")
         bid = f"{date}-POTD-{league}"
@@ -153,8 +166,8 @@ def daily(date: str | None = None, only_ids: set | None = None):
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
-        added += record_traditional(d, builder.build_traditional(sc, sgp_straights), bets)
-        added += record_potd(d, builder.pick_of_day(sc), bets)
+        added += record_traditional(d, builder.build_traditional(sc, sgp_straights), bets, prune=not only_ids)
+        added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()
