@@ -12,7 +12,11 @@ day's Traditional slip), "bet:<id>" (one bet, used for Pick of the Day). For a w
   odds or a player's injury status, a pick is dropped or added, the picks lock an hour before the game,
   a leg falls behind, is lost or hits, and the bet is graded.
 A small state file remembers what was already sent, so nothing is sent twice.
+NTFY_TOPIC may list several topics, separated by commas or new lines (the owner's first, then friends'):
+each topic gets its own bells, alerts and state file (data/live_state.json for the first one,
+data/live_state-<hash>.json for the rest).
 """
+import hashlib
 import json
 import re
 import urllib.request
@@ -84,8 +88,19 @@ def leg_status(leg: dict, game: dict, stats: dict | None) -> dict:
     return {"state": "waiting"}
 
 
+_TOPIC = ""  # the topic this pass is sending to, set by run()
+
+
+def topics() -> list[str]:
+    return [t for t in re.split(r"[,\s]+", config._secret("NTFY_TOPIC")) if t]
+
+
 def notify_topic() -> str:
-    return config._secret("NTFY_TOPIC")
+    return _TOPIC or next(iter(topics()), "")
+
+
+def state_file(topic: str, first: bool):
+    return STATE_FILE if first else config.DATA / f"live_state-{hashlib.sha256(topic.encode()).hexdigest()[:10]}.json"
 
 
 def notify(title: str, message: str, tags: str = "", priority: str = "default"):
@@ -175,10 +190,21 @@ def _games_of(b):
 
 
 def run():
+    global _TOPIC
+    all_topics = topics() or [""]
+    for i, t in enumerate(all_topics):
+        _TOPIC = t
+        try:
+            run_one(state_file(t, i == 0))
+        finally:
+            _TOPIC = ""
+
+
+def run_one(path):
     from .run import locked, _preview_odds
     bets = ledger.load()
     try:
-        state = json.loads(STATE_FILE.read_text())
+        state = json.loads(path.read_text())
     except FileNotFoundError:
         state = {}
     for k, v in {"seen": [], "legs": {}, "graded": [], "snap": {}, "lines": {}, "locked": [], "watch": {}}.items():
@@ -283,7 +309,7 @@ def run():
                     send(f"Leg lost: {leg['desc']}", f"{where}. {b['play'].title()} slip is done.", "x")
                 elif st["state"] == "won" and before not in (None, "won"):
                     send(f"Leg hit: {leg['desc']}", f"{where}.", "tada")
-    STATE_FILE.write_text(json.dumps(state, indent=1) + "\n")
+    path.write_text(json.dumps(state, indent=1) + "\n")
 
 
 def _record(bets):

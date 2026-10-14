@@ -1,7 +1,8 @@
 # Phone alerts for games and slips the user watches (the bell in the app). Every 10 minutes from 9 AM to
 # 3 AM Eastern, and whenever new picks are pushed: line and odds moves, pick changes, injury news, the
 # one-hour lock, live legs and results. No alert for every new pick.
-# Needs one repo secret: NTFY_TOPIC (your private ntfy topic name).
+# Needs one repo secret: NTFY_TOPIC (your private ntfy topic name). To add a friend, list their topic
+# after yours, separated by a comma; each topic gets its own bells and alerts.
 name: Live alerts
 on:
   schedule:
@@ -22,10 +23,10 @@ jobs:
         with: { python-version: "3.12" }
       - name: Restore what was already sent
         uses: actions/cache/restore@v4
-        with: { path: data/live_state.json, key: "live-state-${{ github.run_id }}", restore-keys: "live-state-" }
+        with: { path: "data/live_state*.json", key: "live-state-${{ github.run_id }}", restore-keys: "live-state-" }
       - name: Check open bets and send alerts
         env: { NTFY_TOPIC: "${{ secrets.NTFY_TOPIC }}" }
         run: python3 -m pipeline.live
       - name: Remember what was sent
         uses: actions/cache/save@v4
-        with: { path: data/live_state.json, key: "live-state-${{ github.run_id }}" }
+        with: { path: "data/live_state*.json", key: "live-state-${{ github.run_id }}" }
