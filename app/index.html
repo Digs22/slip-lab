@@ -1401,14 +1401,15 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     const open = games().filter(g => g.pending && g.start && ESPN[g.league]);
     const now = Date.now();
     const due = open.filter(g => now > Date.parse(g.start) - 15 * 60e3 && now < Date.parse(g.start) + 6 * 3600e3);
-    for (const lg of [...new Set(due.map(g => g.league))]) {
+    // ESPN's scoreboard dates are Eastern calendar days, so an 8 PM ET start (00:00Z) belongs to the day before its UTC date.
+    const etDay = iso => new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date(iso)).replace(/-/g, "");
+    for (const [lg, d] of [...new Set(due.map(g => g.league + "|" + etDay(g.start)))].map(k => k.split("|"))) {
       try {
-        const d = due.find(g => g.league === lg).start.slice(0, 10).replace(/-/g, "");
         const r = await fetch(`https://site.api.espn.com/apis/site/v2/sports/${ESPN[lg]}/scoreboard?dates=${d}`);
         const j = await r.json();
         for (const ev of j.events || []) {
           const c = ev.competitions[0], t = Object.fromEntries(c.competitors.map(x => [x.homeAway, x]));
-          const g = due.find(g => g.event_id === ev.id || (g.game.includes(t.away.team.abbreviation) && g.game.includes(t.home.team.abbreviation)));
+          const g = due.find(g => g.league === lg && (g.event_id ? g.event_id === ev.id : g.game.includes(t.away.team.abbreviation) && g.game.includes(t.home.team.abbreviation)));
           if (!g) continue;
           const L = { league: g.league, state: ev.status.type.state, text: ev.status.type.shortDetail, period: ev.status.period, clock: ev.status.displayClock,
             home: t.home.team.abbreviation, homeName: t.home.team.displayName, hs: +t.home.score || 0, as: +t.away.score || 0,
