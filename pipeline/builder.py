@@ -191,15 +191,19 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     return plays or None
 
 
-def pick_of_day(scored_games: list[dict]) -> dict:
+def pick_of_day(scored_games: list[dict], exclude: set | None = None) -> dict:
     """League -> the single strongest leg of the day in that league, from any game: a likely winner
-    (model 55%+ when one exists) with the best edge x win chance. Researched games only."""
+    (model 55%+ when one exists) with the best edge x win chance. Researched games only.
+    `exclude` holds (event id, desc) of legs already bet as a straight elsewhere today, so Pick of the
+    Day is never an exact duplicate of an SGP or Traditional straight (user rule)."""
     best = {}
     for g in scored_games:
         if not g.get("analyst"):  # same research bar as the Traditional slip: no analyst file, no pick
             continue
         lg = g["game"]["league"]
         for l in g["legs"]:
+            if (g["game"]["id"], l["desc"]) in (exclude or set()):
+                continue
             leg = l | {"event_id": g["game"]["id"], "league": lg, "start": g["game"].get("start"),
                        "matchup": f"{g['game']['away']} @ {g['game']['home']}", "_game": g["game"]}
             score = (l["prob"] >= 0.55, l["edge"] * l["prob"]) if l["prob"] >= 0.5 else None

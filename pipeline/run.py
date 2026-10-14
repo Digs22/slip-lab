@@ -62,6 +62,17 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
     return scored, problems
 
 
+def _legset(b: dict) -> tuple:
+    return tuple(sorted((l.get("event_id") or b.get("event_id") or "", l["desc"]) for l in b["legs"]))
+
+
+def _duplicate(bets: list[dict], bet: dict) -> bool:
+    """User rule: never post two bets with exactly the same legs. A leg may repeat inside different
+    bets (a straight and a parlay), but an identical bet is skipped."""
+    key = _legset(bet)
+    return any(b["id"] != bet["id"] and b["status"] == "pending" and _legset(b) == key for b in bets)
+
+
 def _prune(bets: list[dict], prefix: str, keep: set) -> None:
     """Drop pending, still-unlocked bets under an id prefix that the latest run no longer builds,
     so a play that lost its edge on a rerun doesn't linger next to the new ones. A bet the user placed stays as placed."""
@@ -95,6 +106,8 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
                                                  "odds", "book", "fair", "prob", "edge", "signals", "note", "status", "alt", "main_line")}
                          for l in data["legs"]],
             }
+            if _duplicate(bets, bet):
+                continue
             ledger.add(bets, bet)
             added.append(bet)
     return added
@@ -120,6 +133,8 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
                                                 "prob", "edge", "signals", "note", "status", "alt", "main_line",
                                                 "event_id", "league", "matchup", "start")} | {"date": et_date(l["start"]) if l.get("start") else date}
                         for l in data["legs"]]}
+        if _duplicate(bets, bet):
+            continue
         ledger.add(bets, bet)
         added.append(bet)
     return added
@@ -145,6 +160,8 @@ def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) ->
                "odds": leg["odds"], "units": units, "prob": leg["prob"], "ev": leg["edge"],
                "legs": [{k: leg.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
                                                   "prob", "edge", "signals", "note", "status", "alt", "main_line")}]}
+        if _duplicate(bets, bet):
+            continue
         ledger.add(bets, bet)
         added.append(bet)
     return added
@@ -170,8 +187,13 @@ def daily(date: str | None = None, only_ids: set | None = None):
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
-        added += record_traditional(d, builder.build_traditional(sc, sgp_straights), bets, prune=not only_ids)
-        added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
+        trad = builder.build_traditional(sc, sgp_straights)
+        added += record_traditional(d, trad, bets, prune=not only_ids)
+        # Pick of the Day never repeats a straight already posted today (SGP or Traditional).
+        taken = {(b.get("event_id"), b["legs"][0]["desc"]) for b in bets
+                 if b["status"] == "pending" and b.get("kind") != "potd" and len(b["legs"]) == 1 and b.get("event_id")}
+        taken |= {(l["event_id"], l["desc"]) for p in (trad or {}).values() if len(p["legs"]) == 1 for l in p["legs"]}
+        added += record_potd(d, builder.pick_of_day(sc, taken), bets, prune=not only_ids)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()

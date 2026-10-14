@@ -202,5 +202,21 @@ class Retrain(unittest.TestCase):
         self.assertFalse(learn.fit_weights(rows[:100], {})["accepted"])  # too few rows
 
 
+class NoDuplicates(unittest.TestCase):
+    def test_identical_bet_is_skipped(self):
+        from pipeline import run
+        a = {"id": "x-straight", "status": "pending", "event_id": "1", "legs": [{"desc": "Over 7"}]}
+        b = {"id": "x-POTD", "status": "pending", "event_id": "1", "legs": [{"desc": "Over 7"}]}
+        c = {"id": "x-safer", "status": "pending", "event_id": "1", "legs": [{"desc": "Over 7"}, {"desc": "K o6.5"}]}
+        self.assertTrue(run._duplicate([a], b))
+        self.assertFalse(run._duplicate([a], c))  # same leg inside a different bet is fine
+
+    def test_potd_skips_existing_straight(self):
+        from pipeline import builder
+        g = {"game": {"id": "1", "league": "MLB", "away": "A", "home": "B"}, "analyst": {"s": 1},
+             "legs": [{"desc": "K o6.5", "prob": 0.6, "edge": 0.1}, {"desc": "Under 7", "prob": 0.56, "edge": 0.05}]}
+        self.assertEqual(builder.pick_of_day([g], {("1", "K o6.5")})["MLB"]["desc"], "Under 7")
+
+
 if __name__ == "__main__":
     unittest.main()
