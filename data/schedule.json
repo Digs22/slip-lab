@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T11:01-04:00",
+ "generated": "2026-10-14T14:01-04:00",
  "games": [
   {
    "id": "401915416",
    "league": "SOCCER",
    "date": "2026-10-14",
    "start": "2026-10-14T16:45Z",
-   "status": "pre",
+   "status": "in",
    "game": "COMO @ FEY",
    "away": "COMO",
    "home": "FEY",
@@ -18,16 +18,16 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
    "venue": "De Kuip",
    "city": "Rotterdam",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
+   "detail": "53'",
+   "away_score": 1.0,
+   "home_score": 2.0,
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "COMO +120",
-    "total": 3.5,
-    "home_ml": 210,
-    "away_ml": 120,
+    "spread": "COMO +125",
+    "total": 2.5,
+    "home_ml": 200,
+    "away_ml": 125,
     "book": "DraftKings"
    }
   },
@@ -36,7 +36,7 @@
    "league": "SOCCER",
    "date": "2026-10-14",
    "start": "2026-10-14T16:45Z",
-   "status": "pre",
+   "status": "in",
    "game": "LIV @ LAS",
    "away": "LIV",
    "home": "LAS",
@@ -48,16 +48,16 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
    "venue": "Raiffeisen Arena (Linz)",
    "city": "Linz",
-   "detail": "Scheduled",
-   "away_score": 0.0,
+   "detail": "58'",
+   "away_score": 4.0,
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LIV -265",
-    "total": 3.5,
-    "home_ml": 700,
-    "away_ml": -265,
+    "spread": "LIV -215",
+    "total": 2.5,
+    "home_ml": 550,
+    "away_ml": -215,
     "book": "DraftKings"
    }
   },
@@ -84,10 +84,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "RMA -110",
+    "spread": "RMA -105",
     "total": 3.5,
-    "home_ml": 270,
-    "away_ml": -110,
+    "home_ml": 255,
+    "away_ml": -105,
     "book": "DraftKings"
    }
   },
@@ -114,10 +114,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "AVL -150",
+    "spread": "AVL -160",
     "total": 2.5,
-    "home_ml": -150,
-    "away_ml": 390,
+    "home_ml": -160,
+    "away_ml": 425,
     "book": "DraftKings"
    }
   },
@@ -144,10 +144,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DOR +125",
+    "spread": "DOR +140",
     "total": 3.5,
-    "home_ml": 195,
-    "away_ml": 125,
+    "home_ml": 165,
+    "away_ml": 140,
     "book": "DraftKings"
    }
   },
@@ -174,10 +174,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MNC +105",
+    "spread": "MNC +100",
     "total": 3.5,
-    "home_ml": 105,
-    "away_ml": 220,
+    "home_ml": 100,
+    "away_ml": 235,
     "book": "DraftKings"
    }
   },
@@ -207,7 +207,7 @@
     "spread": "BET +110",
     "total": 2.5,
     "home_ml": 110,
-    "away_ml": 240,
+    "away_ml": 230,
     "book": "DraftKings"
    }
   },
@@ -234,10 +234,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "AEK +165",
+    "spread": "SHK +165",
     "total": 2.5,
-    "home_ml": 170,
-    "away_ml": 165,
+    "home_ml": 165,
+    "away_ml": 170,
     "book": "DraftKings"
    }
   },
@@ -264,10 +264,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "VFB -265",
+    "spread": "VFB -260",
     "total": 3.5,
-    "home_ml": 600,
-    "away_ml": -265,
+    "home_ml": 550,
+    "away_ml": -260,
     "book": "DraftKings"
    }
   },
@@ -294,10 +294,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIA -7.5",
+    "spread": "MIA -6.5",
     "total": 232.5,
-    "home_ml": -310,
-    "away_ml": 250,
+    "home_ml": -270,
+    "away_ml": 220,
     "book": "DraftKings"
    }
   },
@@ -324,10 +324,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BOS -7.5",
-    "total": 225.5,
-    "home_ml": -305,
-    "away_ml": 245,
+    "spread": "BOS -8.5",
+    "total": 224.5,
+    "home_ml": -345,
+    "away_ml": 275,
     "book": "DraftKings"
    }
   },
@@ -354,10 +354,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "WSH -125",
+    "spread": "WSH -120",
     "total": 6.5,
-    "home_ml": -125,
-    "away_ml": 105,
+    "home_ml": -120,
+    "away_ml": 100,
     "book": "DraftKings"
    }
   },
@@ -417,7 +417,7 @@
     "spread": "CLB -105",
     "total": 3.5,
     "home_ml": -105,
-    "away_ml": 225,
+    "away_ml": 220,
     "book": "DraftKings"
    }
   },
@@ -444,10 +444,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DC +120",
+    "spread": "DC +130",
     "total": 3.5,
-    "home_ml": 120,
-    "away_ml": 175,
+    "home_ml": 130,
+    "away_ml": 165,
     "book": "DraftKings"
    }
   },
@@ -474,10 +474,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CIN -125",
+    "spread": "CIN -120",
     "total": 3.5,
-    "home_ml": -125,
-    "away_ml": 250,
+    "home_ml": -120,
+    "away_ml": 245,
     "book": "DraftKings"
    }
   },
@@ -507,7 +507,7 @@
     "spread": "MIA -190",
     "total": 3.5,
     "home_ml": -190,
-    "away_ml": 380,
+    "away_ml": 390,
     "book": "DraftKings"
    }
   },
@@ -564,10 +564,10 @@
    "home_conf": "Conference USA",
    "away_conf": "Conference USA",
    "odds": {
-    "spread": "KENN -3",
+    "spread": "KENN -2.5",
     "total": 52.5,
-    "home_ml": 130,
-    "away_ml": -155,
+    "home_ml": 120,
+    "away_ml": -142,
     "book": "DraftKings"
    }
   },
@@ -594,10 +594,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LAD -171",
+    "spread": "LAD -176",
     "total": 7.5,
-    "home_ml": -171,
-    "away_ml": 141,
+    "home_ml": -176,
+    "away_ml": 145,
     "book": "DraftKings"
    }
   },
@@ -625,9 +625,9 @@
    "away_conf": null,
    "odds": {
     "spread": "SA -8.5",
-    "total": 224.5,
-    "home_ml": -298,
-    "away_ml": 240,
+    "total": 222.5,
+    "home_ml": -375,
+    "away_ml": 295,
     "book": "DraftKings"
    }
   },
@@ -654,10 +654,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DAL -1.5",
-    "total": 230.5,
-    "home_ml": -110,
-    "away_ml": -110,
+    "spread": "NO -1.5",
+    "total": 231.5,
+    "home_ml": -105,
+    "away_ml": -115,
     "book": "DraftKings"
    }
   },
@@ -714,10 +714,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIN -3.5",
-    "total": 227.5,
-    "home_ml": -162,
-    "away_ml": 136,
+    "spread": "MIN -4.5",
+    "total": 226.5,
+    "home_ml": -170,
+    "away_ml": 142,
     "book": "DraftKings"
    }
   },
@@ -745,9 +745,9 @@
    "away_conf": "Conference USA",
    "odds": {
     "spread": "WKU -1.5",
-    "total": 53.5,
-    "home_ml": 100,
-    "away_ml": -120,
+    "total": 52.5,
+    "home_ml": -102,
+    "away_ml": -118,
     "book": "DraftKings"
    }
   },
@@ -804,10 +804,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "PHI +140",
+    "spread": "CHI +135",
     "total": 3.5,
-    "home_ml": 150,
-    "away_ml": 140,
+    "home_ml": 135,
+    "away_ml": 155,
     "book": "DraftKings"
    }
   },
@@ -834,10 +834,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DAL -120",
+    "spread": "DAL -110",
     "total": 3.5,
-    "home_ml": -120,
-    "away_ml": 255,
+    "home_ml": -110,
+    "away_ml": 230,
     "book": "DraftKings"
    }
   },
@@ -924,10 +924,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "COL -120",
+    "spread": "COL -125",
     "total": 2.5,
-    "home_ml": -120,
-    "away_ml": 270,
+    "home_ml": -125,
+    "away_ml": 280,
     "book": "DraftKings"
    }
   },
@@ -1085,7 +1085,7 @@
    "id": "401908025",
    "league": "MLB",
    "date": "2026-10-15",
-   "start": "2026-10-15T22:00Z",
+   "start": "2026-10-15T17:00Z",
    "status": "pre",
    "game": "TB @ CLE",
    "away": "TB",
@@ -1098,16 +1098,16 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
    "venue": "Progressive Field",
    "city": "Cleveland, Ohio",
-   "detail": "10/15 - 6:00 PM EDT",
+   "detail": "10/15 - 1:00 PM EDT",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CLE -132",
+    "spread": "CLE -133",
     "total": 6.5,
-    "home_ml": -132,
-    "away_ml": 109,
+    "home_ml": -133,
+    "away_ml": 110,
     "book": "DraftKings"
    }
   },
@@ -1133,7 +1133,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "TOR -118",
+    "total": 6.5,
+    "home_ml": -118,
+    "away_ml": -102,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892507",
@@ -1157,7 +1163,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "OTT -166",
+    "total": 5.5,
+    "home_ml": -166,
+    "away_ml": 140,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892509",
@@ -1181,7 +1193,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "TB -230",
+    "total": 6.5,
+    "home_ml": -230,
+    "away_ml": 190,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892510",
@@ -1205,7 +1223,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "FLA -298",
+    "total": 6.5,
+    "home_ml": -298,
+    "away_ml": 240,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892511",
@@ -1229,7 +1253,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "NJ -148",
+    "total": 6.5,
+    "home_ml": -148,
+    "away_ml": 124,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401908945",
@@ -1277,7 +1307,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "DET -135",
+    "total": 5.5,
+    "home_ml": -135,
+    "away_ml": 114,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401862800",
@@ -1304,8 +1340,8 @@
    "odds": {
     "spread": "ECU -4.5",
     "total": 47.5,
-    "home_ml": 154,
-    "away_ml": -185,
+    "home_ml": 160,
+    "away_ml": -192,
     "book": "DraftKings"
    }
   },
@@ -1361,7 +1397,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "WPG -135",
+    "total": 6.5,
+    "home_ml": 114,
+    "away_ml": -135,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892513",
@@ -1385,7 +1427,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "NSH -142",
+    "total": 6.5,
+    "home_ml": -142,
+    "away_ml": 120,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892514",
@@ -1409,7 +1457,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "MIN -155",
+    "total": 6.5,
+    "home_ml": -155,
+    "away_ml": 130,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401860923",
@@ -1466,8 +1520,8 @@
    "odds": {
     "spread": "SEA -2.5",
     "total": 40.5,
-    "home_ml": 124,
-    "away_ml": -148,
+    "home_ml": 120,
+    "away_ml": -142,
     "book": "DraftKings"
    }
   },
@@ -1541,7 +1595,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "EDM -142",
+    "total": 6.5,
+    "home_ml": -142,
+    "away_ml": 120,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892516",
@@ -1565,7 +1625,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "VGK -290",
+    "total": 6.5,
+    "home_ml": -290,
+    "away_ml": 235,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401884770",
@@ -2420,10 +2486,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BRE +140",
+    "spread": "BRE +135",
     "total": 2.5,
-    "home_ml": 140,
-    "away_ml": 180,
+    "home_ml": 135,
+    "away_ml": 190,
     "book": "DraftKings"
    }
   },
@@ -2540,10 +2606,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "PSG -240",
+    "spread": "PSG -235",
     "total": 3.5,
     "home_ml": 500,
-    "away_ml": -240,
+    "away_ml": -235,
     "book": "DraftKings"
    }
   },
@@ -2570,10 +2636,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "INT -190",
+    "spread": "INT -185",
     "total": 2.5,
-    "home_ml": 425,
-    "away_ml": -190,
+    "home_ml": 450,
+    "away_ml": -185,
     "book": "DraftKings"
    }
   },
@@ -2631,9 +2697,9 @@
    "away_conf": "SEC",
    "odds": {
     "spread": "TEX -10.5",
-    "total": 52.5,
-    "home_ml": -425,
-    "away_ml": 330,
+    "total": 51.5,
+    "home_ml": -440,
+    "away_ml": 340,
     "book": "DraftKings"
    }
   },
@@ -2660,8 +2726,8 @@
    "home_conf": "SEC",
    "away_conf": "SEC",
    "odds": {
-    "spread": "LSU -14",
-    "total": 58.5,
+    "spread": "LSU -14.5",
+    "total": 57.5,
     "home_ml": -575,
     "away_ml": 425,
     "book": "DraftKings"
@@ -2690,7 +2756,7 @@
    "home_conf": "ACC",
    "away_conf": "ACC",
    "odds": {
-    "spread": "SMU -9.5",
+    "spread": "SMU -8.5",
     "total": 51.5,
     "home_ml": -340,
     "away_ml": 270,
@@ -2752,8 +2818,8 @@
    "odds": {
     "spread": "WVU -1.5",
     "total": 63.5,
-    "home_ml": -125,
-    "away_ml": 105,
+    "home_ml": -130,
+    "away_ml": 110,
     "book": "DraftKings"
    }
   },
@@ -2865,7 +2931,7 @@
    "away_conf": "American",
    "odds": {
     "spread": "ARMY -2.5",
-    "total": 55.5,
+    "total": 54.5,
     "home_ml": -142,
     "away_ml": 120,
     "book": "DraftKings"
@@ -2925,7 +2991,7 @@
    "away_conf": "Sun Belt",
    "odds": {
     "spread": "JMU -12.5",
-    "total": 58.5,
+    "total": 57.5,
     "home_ml": -455,
     "away_ml": 350,
     "book": "DraftKings"
@@ -2957,7 +3023,7 @@
     "spread": "NEW +125",
     "total": 2.5,
     "home_ml": 125,
-    "away_ml": 195,
+    "away_ml": 200,
     "book": "DraftKings"
    }
   },
@@ -2984,10 +3050,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BAR -230",
+    "spread": "BAR -225",
     "total": 3.5,
     "home_ml": 475,
-    "away_ml": -230,
+    "away_ml": -225,
     "book": "DraftKings"
    }
   },
@@ -3123,7 +3189,7 @@
    "away_conf": "American",
    "odds": {
     "spread": "TEM -21",
-    "total": 47.5,
+    "total": 46.5,
     "home_ml": -1800,
     "away_ml": 1000,
     "book": "DraftKings"
@@ -3443,7 +3509,7 @@
    "away_conf": "SEC",
    "odds": {
     "spread": "MISS -6",
-    "total": 59.5,
+    "total": 58.5,
     "home_ml": -225,
     "away_ml": 185,
     "book": "DraftKings"
@@ -3792,7 +3858,7 @@
    "home_conf": "Sun Belt",
    "away_conf": "Sun Belt",
    "odds": {
-    "spread": "UL -4.5",
+    "spread": "UL -4",
     "total": 49.5,
     "home_ml": -180,
     "away_ml": 150,
@@ -3846,10 +3912,10 @@
    "home_conf": "Pac-12",
    "away_conf": "Pac-12",
    "odds": {
-    "spread": "ORST -17.5",
+    "spread": "ORST -18.5",
     "total": 52.5,
-    "home_ml": -1000,
-    "away_ml": 650,
+    "home_ml": -1050,
+    "away_ml": 675,
     "book": "DraftKings"
    }
   },
@@ -5030,216 +5096,6 @@
    }
   },
   {
-   "id": "401874771",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T10:30Z",
-   "status": "pre",
-   "game": "LEC @ UDI",
-   "away": "LEC",
-   "home": "UDI",
-   "away_id": "113",
-   "home_id": "118",
-   "away_name": "Lecce",
-   "home_name": "Udinese",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-   "venue": "Stadio Friuli",
-   "city": "Udine",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "UDI -120",
-    "total": 2.5,
-    "home_ml": -120,
-    "away_ml": 295,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882840",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T12:00Z",
-   "status": "pre",
-   "game": "RAC @ OSA",
-   "away": "RAC",
-   "home": "OSA",
-   "away_id": "87",
-   "home_id": "97",
-   "away_name": "Racing Santander",
-   "home_name": "Osasuna",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-   "venue": "El Sadar",
-   "city": "Pamplona",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "OSA -105",
-    "total": 2.5,
-    "home_ml": -105,
-    "away_ml": 265,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401879263",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:00Z",
-   "status": "pre",
-   "game": "SUN @ BOU",
-   "away": "SUN",
-   "home": "BOU",
-   "away_id": "366",
-   "home_id": "349",
-   "away_name": "Sunderland",
-   "home_name": "AFC Bournemouth",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-   "venue": "Vitality Stadium",
-   "city": "Bournemouth",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "BOU +100",
-    "total": 2.5,
-    "home_ml": 100,
-    "away_ml": 255,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401879261",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:00Z",
-   "status": "pre",
-   "game": "CRY @ BHA",
-   "away": "CRY",
-   "home": "BHA",
-   "away_id": "384",
-   "home_id": "331",
-   "away_name": "Crystal Palace",
-   "home_name": "Brighton & Hove Albion",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-   "venue": "American Express Stadium",
-   "city": "Falmer",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "BHA -180",
-    "total": 2.5,
-    "home_ml": -180,
-    "away_ml": 425,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401879260",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:00Z",
-   "status": "pre",
-   "game": "MAN @ LEE",
-   "away": "MAN",
-   "home": "LEE",
-   "away_id": "360",
-   "home_id": "357",
-   "away_name": "Manchester United",
-   "home_name": "Leeds United",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-   "venue": "Elland Road",
-   "city": "Leeds",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "LEE +135",
-    "total": 2.5,
-    "home_ml": 135,
-    "away_ml": 185,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874774",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:00Z",
-   "status": "pre",
-   "game": "COMO @ FIO",
-   "away": "COMO",
-   "home": "FIO",
-   "away_id": "2572",
-   "home_id": "109",
-   "away_name": "Como",
-   "home_name": "Fiorentina",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-   "venue": "Stadio Artemio Franchi",
-   "city": "Firenze",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "COMO +100",
-    "total": 2.5,
-    "home_ml": 225,
-    "away_ml": 100,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876439",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:00Z",
-   "status": "pre",
-   "game": "OLM @ ANG",
-   "away": "OLM",
-   "home": "ANG",
-   "away_id": "176",
-   "home_id": "7868",
-   "away_name": "Marseille",
-   "home_name": "Angers",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-   "venue": "Stade Raymond Kopa",
-   "city": "Angers",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "OLM +110",
-    "total": 2.5,
-    "home_ml": 220,
-    "away_ml": 110,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "401872996",
    "league": "NFL",
    "date": "2026-10-18",
@@ -5270,276 +5126,6 @@
    }
   },
   {
-   "id": "401884771",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T13:30Z",
-   "status": "pre",
-   "game": "SCF @ B04",
-   "away": "SCF",
-   "home": "B04",
-   "away_id": "126",
-   "home_id": "131",
-   "away_name": "SC Freiburg",
-   "home_name": "Bayer Leverkusen",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-   "venue": "BayArena",
-   "city": "Leverkusen",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "B04 -145",
-    "total": 3.5,
-    "home_ml": -145,
-    "away_ml": 300,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882845",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T14:15Z",
-   "status": "pre",
-   "game": "ALA @ CEL",
-   "away": "ALA",
-   "home": "CEL",
-   "away_id": "96",
-   "home_id": "85",
-   "away_name": "Alav\u00e9s",
-   "home_name": "Celta Vigo",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-   "venue": "Balaidos",
-   "city": "Vigo",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "CEL +110",
-    "total": 2.5,
-    "home_ml": 110,
-    "away_ml": 260,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876438",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T15:15Z",
-   "status": "pre",
-   "game": "AUX @ HAC",
-   "away": "AUX",
-   "home": "HAC",
-   "away_id": "172",
-   "home_id": "3236",
-   "away_name": "AJ Auxerre",
-   "home_name": "Le Havre AC",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-   "venue": "Stade Oc\u00e9ane",
-   "city": "Le Havre",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "HAC +135",
-    "total": 2.5,
-    "home_ml": 135,
-    "away_ml": 195,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876435",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T15:15Z",
-   "status": "pre",
-   "game": "MON @ LOR",
-   "away": "MON",
-   "home": "LOR",
-   "away_id": "174",
-   "home_id": "273",
-   "away_name": "AS Monaco",
-   "home_name": "Lorient",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-   "venue": "Stade du Moustoir - Yves Allainmat",
-   "city": "Lorient",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "MON +100",
-    "total": 2.5,
-    "home_ml": 270,
-    "away_ml": 100,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876433",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T15:15Z",
-   "status": "pre",
-   "game": "REN @ PAR",
-   "away": "REN",
-   "home": "PAR",
-   "away_id": "169",
-   "home_id": "6851",
-   "away_name": "Stade Rennais",
-   "home_name": "Paris FC",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-   "venue": "Stade Jean Bouin",
-   "city": "Paris",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "PAR +125",
-    "total": 2.5,
-    "home_ml": 125,
-    "away_ml": 215,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401878769",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T15:30Z",
-   "status": "pre",
-   "game": "ARS @ NFO",
-   "away": "ARS",
-   "home": "NFO",
-   "away_id": "359",
-   "home_id": "393",
-   "away_name": "Arsenal",
-   "home_name": "Nottingham Forest",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-   "venue": "The City Ground",
-   "city": "Nottingham",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "ARS -170",
-    "total": 2.5,
-    "home_ml": 500,
-    "away_ml": -170,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401884768",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T15:30Z",
-   "status": "pre",
-   "game": "TSG @ BMG",
-   "away": "TSG",
-   "home": "BMG",
-   "away_id": "7911",
-   "home_id": "268",
-   "away_name": "TSG Hoffenheim",
-   "home_name": "Borussia M\u00f6nchengladbach",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "venue": "BORUSSIA-PARK",
-   "city": "M\u00f6nchengladbach",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "TSG +105",
-    "total": 3.5,
-    "home_ml": 190,
-    "away_ml": 105,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874978",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T16:00Z",
-   "status": "pre",
-   "game": "ATA @ MIL",
-   "away": "ATA",
-   "home": "MIL",
-   "away_id": "105",
-   "home_id": "103",
-   "away_name": "Atalanta",
-   "home_name": "AC Milan",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-   "venue": "San Siro",
-   "city": "Milano",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "MIL -120",
-    "total": 2.5,
-    "home_ml": -120,
-    "away_ml": 280,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882841",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T16:30Z",
-   "status": "pre",
-   "game": "RSO @ MCF",
-   "away": "RSO",
-   "home": "MCF",
-   "away_id": "89",
-   "home_id": "99",
-   "away_name": "Real Sociedad",
-   "home_name": "M\u00e1laga",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "venue": "La Rosaleda",
-   "city": "Malaga",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "RSO +120",
-    "total": 2.5,
-    "home_ml": 210,
-    "away_ml": 120,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "401872999",
    "league": "NFL",
    "date": "2026-10-18",
@@ -5562,10 +5148,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CHI -3",
-    "total": 49.5,
-    "home_ml": 136,
-    "away_ml": -162,
+    "spread": "CHI -2.5",
+    "total": 50.5,
+    "home_ml": 124,
+    "away_ml": -148,
     "book": "DraftKings"
    }
   },
@@ -5594,8 +5180,8 @@
    "odds": {
     "spread": "BAL -5.5",
     "total": 42.5,
-    "home_ml": 215,
-    "away_ml": -265,
+    "home_ml": 205,
+    "away_ml": -250,
     "book": "DraftKings"
    }
   },
@@ -5743,99 +5329,9 @@
    "away_conf": null,
    "odds": {
     "spread": "PIT -2.5",
-    "total": 40.5,
+    "total": 39.5,
     "home_ml": 120,
     "away_ml": -142,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874765",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T18:45Z",
-   "status": "pre",
-   "game": "LAZ @ JUV",
-   "away": "LAZ",
-   "home": "JUV",
-   "away_id": "112",
-   "home_id": "111",
-   "away_name": "Lazio",
-   "home_name": "Juventus",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-   "venue": "Allianz Stadium",
-   "city": "Torino",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "JUV -160",
-    "total": 2.5,
-    "home_ml": -160,
-    "away_ml": 390,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876434",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T18:45Z",
-   "status": "pre",
-   "game": "NICE @ LYON",
-   "away": "NICE",
-   "home": "LYON",
-   "away_id": "2502",
-   "home_id": "167",
-   "away_name": "Nice",
-   "home_name": "Lyon",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "venue": "Groupama Stadium",
-   "city": "Lyon",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "LYON -145",
-    "total": 2.5,
-    "home_ml": -145,
-    "away_ml": 360,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882839",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T19:00Z",
-   "status": "pre",
-   "game": "SEV @ RMA",
-   "away": "SEV",
-   "home": "RMA",
-   "away_id": "243",
-   "home_id": "86",
-   "away_name": "Sevilla",
-   "home_name": "Real Madrid",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "venue": "Santiago Bernab\u00e9u",
-   "city": "Madrid",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "RMA -400",
-    "total": 3.5,
-    "home_ml": -400,
-    "away_ml": 850,
     "book": "DraftKings"
    }
   },
@@ -5864,8 +5360,8 @@
    "odds": {
     "spread": "LAR -12.5",
     "total": 51.5,
-    "home_ml": -900,
-    "away_ml": 600,
+    "home_ml": -850,
+    "away_ml": 575,
     "book": "DraftKings"
    }
   },
@@ -5924,35 +5420,9 @@
    "odds": {
     "spread": "BUF -5.5",
     "total": 53.5,
-    "home_ml": 210,
-    "away_ml": -258,
+    "home_ml": 205,
+    "away_ml": -250,
     "book": "DraftKings"
-   }
-  },
-  {
-   "id": "761889",
-   "league": "SOCCER",
-   "date": "2026-10-18",
-   "start": "2026-10-18T21:00Z",
-   "status": "pre",
-   "game": "CLB @ CIN",
-   "away": "CLB",
-   "home": "CIN",
-   "away_id": "183",
-   "home_id": "18267",
-   "away_name": "Columbus Crew",
-   "home_name": "FC Cincinnati",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
-   "venue": "TQL Stadium",
-   "city": "Cincinnati, Ohio",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "book": "Bet 365"
    }
   },
   {
@@ -6051,7 +5521,7 @@
    "away_conf": null,
    "odds": {
     "spread": "GB -1.5",
-    "total": 52.5,
+    "total": 53.5,
     "home_ml": -122,
     "away_ml": 102,
     "book": "DraftKings"
@@ -6423,7 +5893,7 @@
    "away_conf": null,
    "odds": {
     "spread": "DET -1.5",
-    "total": 222.5,
+    "total": 221.5,
     "home_ml": -115,
     "away_ml": -105,
     "book": "DraftKings"
@@ -6622,8 +6092,8 @@
    "odds": {
     "spread": "NY -5.5",
     "total": 231.5,
-    "home_ml": -218,
-    "away_ml": 180,
+    "home_ml": -198,
+    "away_ml": 164,
     "book": "DraftKings"
    }
   },
@@ -6939,9 +6409,9 @@
    "away_conf": null,
    "odds": {
     "spread": "SA -2.5",
-    "total": 230.5,
-    "home_ml": -125,
-    "away_ml": 105,
+    "total": 231.5,
+    "home_ml": -130,
+    "away_ml": 110,
     "book": "DraftKings"
    }
   },
@@ -7018,5 +6488,7 @@
    "odds": {}
   }
  ],
- "problems": []
+ "problems": [
+  "SOCCER 2026-10-18: https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }
