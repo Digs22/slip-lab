@@ -168,9 +168,10 @@ class Rerun(unittest.TestCase):
         bets = [{"id": "2099-01-01-TRAD-straight", "status": "pending", "start": future},
                 {"id": "2099-01-01-TRAD-best", "status": "pending", "start": future},
                 {"id": "2099-01-01-TRAD-safer", "status": "win", "start": future},
-                {"id": "2099-01-01-TRAD-longshot", "status": "pending", "start": past}]
+                {"id": "2099-01-01-TRAD-longshot", "status": "pending", "start": past},
+                {"id": "2099-01-01-TRAD-x", "status": "pending", "start": future, "placed": True}]
         run._prune(bets, "2099-01-01-TRAD-", {"2099-01-01-TRAD-straight"})
-        self.assertEqual([b["id"] for b in bets], ["2099-01-01-TRAD-straight", "2099-01-01-TRAD-safer", "2099-01-01-TRAD-longshot"])
+        self.assertEqual([b["id"] for b in bets], ["2099-01-01-TRAD-straight", "2099-01-01-TRAD-safer", "2099-01-01-TRAD-longshot", "2099-01-01-TRAD-x"])
 
     def test_potd_needs_research(self):
         from pipeline import builder

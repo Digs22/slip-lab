@@ -64,9 +64,9 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
 
 def _prune(bets: list[dict], prefix: str, keep: set) -> None:
     """Drop pending, still-unlocked bets under an id prefix that the latest run no longer builds,
-    so a play that lost its edge on a rerun doesn't linger next to the new ones."""
+    so a play that lost its edge on a rerun doesn't linger next to the new ones. A bet the user placed stays as placed."""
     for b in [b for b in bets if b["id"].startswith(prefix) and b["id"] not in keep]:
-        if b["status"] == "pending" and not (b.get("start") and locked(b["start"])):
+        if b["status"] == "pending" and not b.get("placed") and not (b.get("start") and locked(b["start"])):
             bets.remove(b)
 
 
@@ -79,7 +79,7 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
         for play, data in p["plays"].items():
             bid = f"{gdate}-{g['away']}{g['home']}-{play}"
             existing = next((b for b in bets if b["id"] == bid), None)
-            if existing and (existing["status"] != "pending" or locked(g["start"])):
+            if existing and (existing["status"] != "pending" or existing.get("placed") or locked(g["start"])):
                 continue
             if existing:  # odds or research changed before game-day lock
                 bets.remove(existing)
@@ -109,7 +109,7 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
         bid = f"{date}-TRAD-{play}"
         first = min((l["start"] for l in data["legs"] if l.get("start")), default=None)
         existing = next((b for b in bets if b["id"] == bid), None)
-        if existing and (existing["status"] != "pending" or (first and locked(first))):
+        if existing and (existing["status"] != "pending" or existing.get("placed") or (first and locked(first))):
             continue
         if existing:
             bets.remove(existing)
@@ -134,7 +134,7 @@ def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) ->
         g = leg.pop("_game")
         bid = f"{date}-POTD-{league}"
         existing = next((b for b in bets if b["id"] == bid), None)
-        if existing and (existing["status"] != "pending" or (leg.get("start") and locked(leg["start"]))):
+        if existing and (existing["status"] != "pending" or existing.get("placed") or (leg.get("start") and locked(leg["start"]))):
             continue
         if existing:
             bets.remove(existing)
