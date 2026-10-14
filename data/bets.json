@@ -193,11 +193,11 @@
       "units": 4,
       "prob": 0.5842,
       "ev": 0.402,
-      "provisional": true,
-      "score": 0.3486,
+      "provisional": false,
+      "score": 0.4423,
       "rank": 1,
-      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
-      "weather": "75\u00b0F, wind 7 mph, 0% rain",
+      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early. Lineups are confirmed, and it's 84 and clear at first pitch.",
+      "weather": null,
       "legs": [
         {
           "desc": "Snell u14.5 outs",
@@ -245,15 +245,15 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
       "home_conf": null,
       "away_conf": null,
-      "odds": 360,
+      "odds": 392,
       "units": 3,
-      "prob": 0.3365,
-      "ev": 0.5479,
-      "provisional": true,
-      "score": 0.3486,
+      "prob": 0.3551,
+      "ev": 0.7471,
+      "provisional": false,
+      "score": 0.4423,
       "rank": 1,
-      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
-      "weather": "75\u00b0F, wind 7 mph, 0% rain",
+      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early. Lineups are confirmed, and it's 84 and clear at first pitch.",
+      "weather": null,
       "legs": [
         {
           "desc": "Snell u14.5 outs",
@@ -281,18 +281,18 @@
           "main_line": null
         },
         {
-          "desc": "Under 7.5",
+          "desc": "Under 7",
           "market": "total",
           "side": "under",
           "team": null,
           "player": null,
           "stat": null,
-          "line": 7.5,
-          "odds": -109,
-          "book": "LowVig.ag",
-          "fair": 0.5381,
-          "prob": 0.5724,
-          "edge": 0.0975,
+          "line": 7.0,
+          "odds": 105,
+          "book": "Bovada",
+          "fair": 0.5756,
+          "prob": 0.6019,
+          "edge": 0.2338,
           "signals": {
             "recent_form": 0.7
           },
@@ -305,7 +305,7 @@
       "status": "pending",
       "net": null,
       "stake": 9.0,
-      "to_win": 32.4
+      "to_win": 35.28
     },
     {
       "id": "2026-10-14-MILLAD-best",
@@ -322,29 +322,29 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
       "home_conf": null,
       "away_conf": null,
-      "odds": 741,
+      "odds": 799,
       "units": 2,
-      "prob": 0.1466,
-      "ev": 0.2325,
-      "provisional": true,
-      "score": 0.3486,
+      "prob": 0.1537,
+      "ev": 0.3822,
+      "provisional": false,
+      "score": 0.4423,
       "rank": 1,
-      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
-      "weather": "75\u00b0F, wind 7 mph, 0% rain",
+      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early. Lineups are confirmed, and it's 84 and clear at first pitch.",
+      "weather": null,
       "legs": [
         {
-          "desc": "Under 7.5",
+          "desc": "Under 7",
           "market": "total",
           "side": "under",
           "team": null,
           "player": null,
           "stat": null,
-          "line": 7.5,
-          "odds": -109,
-          "book": "LowVig.ag",
-          "fair": 0.5381,
-          "prob": 0.5724,
-          "edge": 0.0975,
+          "line": 7.0,
+          "odds": 105,
+          "book": "Bovada",
+          "fair": 0.5756,
+          "prob": 0.6019,
+          "edge": 0.2338,
           "signals": {
             "recent_form": 0.7
           },
@@ -403,7 +403,7 @@
       "status": "pending",
       "net": null,
       "stake": 6.0,
-      "to_win": 44.46
+      "to_win": 47.94
     },
     {
       "id": "2026-10-14-POTD-MLB",
@@ -418,33 +418,29 @@
       "city": "Los Angeles, California",
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-      "odds": 140,
+      "odds": 105,
       "units": 4,
-      "prob": 0.5842,
-      "ev": 0.402,
+      "prob": 0.6019,
+      "ev": 0.2338,
       "legs": [
         {
-          "desc": "Snell u14.5 outs",
-          "market": "prop",
+          "desc": "Under 7",
+          "market": "total",
           "side": "under",
-          "team": "LAD",
-          "player": "Blake Snell",
-          "stat": "pitcher_outs",
-          "line": 14.5,
-          "odds": 140,
-          "book": "bovada",
-          "fair": 0.4,
-          "prob": 0.5842,
-          "edge": 0.402,
+          "team": null,
+          "player": null,
+          "stat": null,
+          "line": 7.0,
+          "odds": 105,
+          "book": "Bovada",
+          "fair": 0.5756,
+          "prob": 0.6019,
+          "edge": 0.2338,
           "signals": {
-            "projection": 0.6803758284828824,
-            "recent_form": 0.7,
-            "matchup": 0.62,
-            "postseason": 0.62,
-            "news": 0.45
+            "recent_form": 0.7
           },
-          "note": "Snell got just 12 and 11 outs in his last two starts and walked 5 Braves in the NLDS. Milwaukee led the majors in walk rate and has 11 walks this series, which runs up pitch counts.",
-          "status": "Healthy. Only 42 2/3 regular-season innings, so his workload is limited",
+          "note": null,
+          "status": null,
           "alt": null,
           "main_line": null
         }
@@ -452,7 +448,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 16.8
+      "to_win": 12.6
     },
     {
       "id": "2026-10-15-TBCLE-straight",
@@ -474,10 +470,10 @@
       "prob": 0.6446,
       "ev": 0.2359,
       "provisional": true,
-      "score": 0.3718,
+      "score": 0.3848,
       "rank": 1,
       "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts.",
-      "weather": "60\u00b0F, wind 5 mph, 5% rain",
+      "weather": null,
       "legs": [
         {
           "desc": "G. Williams o6.5 strikeouts",
@@ -529,10 +525,10 @@
       "prob": 0.3882,
       "ev": 0.3822,
       "provisional": true,
-      "score": 0.3718,
+      "score": 0.3848,
       "rank": 1,
       "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts.",
-      "weather": "60\u00b0F, wind 5 mph, 5% rain",
+      "weather": null,
       "legs": [
         {
           "desc": "G. Williams o6.5 strikeouts",
@@ -604,13 +600,13 @@
       "away_conf": null,
       "odds": 632,
       "units": 2,
-      "prob": 0.1965,
-      "ev": 0.438,
+      "prob": 0.1999,
+      "ev": 0.4633,
       "provisional": true,
-      "score": 0.3718,
+      "score": 0.3848,
       "rank": 1,
       "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts.",
-      "weather": "60\u00b0F, wind 5 mph, 5% rain",
+      "weather": null,
       "legs": [
         {
           "desc": "Under 6.5",
@@ -622,9 +618,9 @@
           "line": 6.5,
           "odds": 103,
           "book": "LowVig.ag",
-          "fair": 0.5651,
-          "prob": 0.5671,
-          "edge": 0.1512,
+          "fair": 0.5815,
+          "prob": 0.5769,
+          "edge": 0.1712,
           "signals": {
             "recent_form": 0.56,
             "matchup": 0.58,
@@ -707,10 +703,10 @@
       "prob": 0.5561,
       "ev": 0.1956,
       "provisional": true,
-      "score": 0.2252,
+      "score": 0.2251,
       "rank": 2,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": "45\u00b0F, wind 6 mph, 0% rain",
+      "weather": null,
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -761,10 +757,10 @@
       "prob": 0.3387,
       "ev": 0.3616,
       "provisional": true,
-      "score": 0.2252,
+      "score": 0.2251,
       "rank": 2,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": "45\u00b0F, wind 6 mph, 0% rain",
+      "weather": null,
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -830,8 +826,8 @@
       "play": "straight",
       "odds": 103,
       "units": 4,
-      "prob": 0.5671,
-      "ev": 0.1512,
+      "prob": 0.5769,
+      "ev": 0.1712,
       "legs": [
         {
           "desc": "Under 6.5",
@@ -843,9 +839,9 @@
           "line": 6.5,
           "odds": 103,
           "book": "LowVig.ag",
-          "fair": 0.5651,
-          "prob": 0.5671,
-          "edge": 0.1512,
+          "fair": 0.5815,
+          "prob": 0.5769,
+          "edge": 0.1712,
           "signals": {
             "recent_form": 0.56,
             "matchup": 0.58,
@@ -1027,9 +1023,9 @@
           "line": 40.5,
           "odds": -105,
           "book": "FanDuel",
-          "fair": 0.4988,
-          "prob": 0.5469,
-          "edge": 0.0677,
+          "fair": 0.4985,
+          "prob": 0.5468,
+          "edge": 0.0675,
           "signals": {
             "recent_form": 0.56,
             "matchup": 0.58,
@@ -1058,13 +1054,13 @@
       "kind": "traditional",
       "date": "2026-10-15",
       "league": "MULTI",
-      "game": "Multi-game \u00b7 3 games",
+      "game": "Multi-game \u00b7 2 games",
       "start": "2026-10-15T17:00Z",
       "play": "longshot",
-      "odds": 1427,
+      "odds": 1413,
       "units": 1,
-      "prob": 0.0969,
-      "ev": 0.4792,
+      "prob": 0.083,
+      "ev": 0.2565,
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -1151,37 +1147,40 @@
           "date": "2026-10-15"
         },
         {
-          "desc": "East Carolina Pirates -4.5",
-          "market": "spread",
-          "side": null,
-          "team": "East Carolina Pirates",
+          "desc": "Under 40.5",
+          "market": "total",
+          "side": "under",
+          "team": null,
           "player": null,
           "stat": null,
-          "line": -4.5,
-          "odds": -103,
-          "book": "LowVig.ag",
-          "fair": 0.4969,
-          "prob": 0.5204,
-          "edge": 0.0257,
+          "line": 40.5,
+          "odds": -105,
+          "book": "FanDuel",
+          "fair": 0.4985,
+          "prob": 0.5468,
+          "edge": 0.0675,
           "signals": {
-            "season": 0.6,
-            "matchup": 0.58
+            "recent_form": 0.56,
+            "matchup": 0.58,
+            "line_move": 0.6,
+            "weather": 0.55,
+            "rest_travel": 0.55
           },
-          "note": "If ECU wins as often as FPI expects, it should cover a field goal plus most of the time. This is the same read as the moneyline, at a better price.",
+          "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under and scores the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with most bets on the Over. Short week, possible rain.",
           "status": null,
           "alt": null,
           "main_line": null,
-          "event_id": "401862800",
-          "league": "NCAAF",
-          "matchup": "ECU @ UAB",
-          "start": "2026-10-15T23:30Z",
+          "event_id": "401872995",
+          "league": "NFL",
+          "matchup": "SEA @ DEN",
+          "start": "2026-10-16T00:15Z",
           "date": "2026-10-15"
         }
       ],
       "status": "pending",
       "net": null,
       "stake": 3.0,
-      "to_win": 42.81
+      "to_win": 42.39
     },
     {
       "id": "2026-10-15-POTD-MLB",
@@ -1279,52 +1278,6 @@
       "net": null,
       "stake": 12.0,
       "to_win": 10.43
-    },
-    {
-      "id": "2026-10-15-POTD-NCAAF",
-      "kind": "potd",
-      "date": "2026-10-15",
-      "league": "NCAAF",
-      "event_id": "401862800",
-      "game": "ECU @ UAB",
-      "start": "2026-10-15T23:30Z",
-      "play": "straight",
-      "venue": "Protective Stadium",
-      "city": "Birmingham, AL",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
-      "odds": -103,
-      "units": 4,
-      "prob": 0.5204,
-      "ev": 0.0257,
-      "legs": [
-        {
-          "desc": "East Carolina Pirates -4.5",
-          "market": "spread",
-          "side": null,
-          "team": "East Carolina Pirates",
-          "player": null,
-          "stat": null,
-          "line": -4.5,
-          "odds": -103,
-          "book": "LowVig.ag",
-          "fair": 0.4969,
-          "prob": 0.5204,
-          "edge": 0.0257,
-          "signals": {
-            "season": 0.6,
-            "matchup": 0.58
-          },
-          "note": "If ECU wins as often as FPI expects, it should cover a field goal plus most of the time. This is the same read as the moneyline, at a better price.",
-          "status": null,
-          "alt": null,
-          "main_line": null
-        }
-      ],
-      "status": "pending",
-      "net": null,
-      "stake": 12.0,
-      "to_win": 11.65
     }
   ]
 }

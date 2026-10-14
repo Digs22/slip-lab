@@ -1,9 +1,35 @@
 {
   "date": "2026-10-14",
-  "generated": "2026-10-14T14:01-04:00",
-  "games_scanned": 53,
-  "problems": [],
+  "generated": "2026-10-14T18:49-04:00",
+  "games_scanned": 31,
+  "problems": [
+    "2026-10-14: SOCCER schedule: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+  ],
   "upcoming": [
+    {
+      "id": "401892513",
+      "league": "NHL",
+      "game": "SJ @ NSH",
+      "start": "2026-10-16T00:00Z",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville, TN",
+      "score": 0.6916,
+      "edges": 1,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png"
+    },
+    {
+      "id": "401908033",
+      "league": "MLB",
+      "game": "MIL @ LAD",
+      "start": "2026-10-16T00:00Z",
+      "venue": "Dodger Stadium",
+      "city": "Los Angeles, California",
+      "score": 0.1615,
+      "edges": 2,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
+    },
     {
       "id": "401892506",
       "league": "NHL",
@@ -11,34 +37,10 @@
       "start": "2026-10-15T23:00Z",
       "venue": "Scotiabank Arena",
       "city": "Toronto, ON",
-      "score": 0.3286,
+      "score": 0.1445,
       "edges": 2,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png"
-    },
-    {
-      "id": "401892516",
-      "league": "NHL",
-      "game": "CGY @ VGK",
-      "start": "2026-10-16T02:00Z",
-      "venue": "T-Mobile Arena",
-      "city": "Las Vegas, NV",
-      "score": 0.113,
-      "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png"
-    },
-    {
-      "id": "401892509",
-      "league": "NHL",
-      "game": "SEA @ TB",
-      "start": "2026-10-15T23:00Z",
-      "venue": "Benchmark International Arena",
-      "city": "Tampa, FL",
-      "score": 0.0749,
-      "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
     },
     {
       "id": "401892510",
@@ -47,34 +49,34 @@
       "start": "2026-10-15T23:00Z",
       "venue": "Amerant Bank Arena",
       "city": "Sunrise, FL",
-      "score": 0.0723,
-      "edges": 1,
+      "score": 0.1383,
+      "edges": 2,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
     },
     {
-      "id": "401892508",
+      "id": "401892509",
       "league": "NHL",
-      "game": "PHI @ DET",
-      "start": "2026-10-15T23:30Z",
-      "venue": "Little Caesars Arena",
-      "city": "Detroit, MI",
-      "score": 0.0602,
+      "game": "SEA @ TB",
+      "start": "2026-10-15T23:00Z",
+      "venue": "Benchmark International Arena",
+      "city": "Tampa, FL",
+      "score": 0.0753,
       "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png"
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
     },
     {
-      "id": "401908033",
-      "league": "MLB",
-      "game": "MIL @ LAD",
-      "start": "2026-10-16T01:00Z",
-      "venue": "Dodger Stadium",
-      "city": "Los Angeles, California",
-      "score": 0.0558,
-      "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
+      "id": "401871054",
+      "league": "NCAAF",
+      "game": "KENN @ MOST",
+      "start": "2026-10-14T23:30Z",
+      "venue": "Robert W. Plaster Stadium",
+      "city": "Springfield, MO",
+      "score": 0.046,
+      "edges": 2,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png"
     },
     {
       "id": "401892512",
@@ -83,7 +85,7 @@
       "start": "2026-10-16T00:00Z",
       "venue": "United Center",
       "city": "Chicago, IL",
-      "score": 0.0481,
+      "score": 0.0203,
       "edges": 1,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
@@ -95,8 +97,8 @@
       "start": "2026-10-16T00:00Z",
       "venue": "UFCU Stadium",
       "city": "San Marcos, TX",
-      "score": 0.0418,
-      "edges": 2,
+      "score": 0.0185,
+      "edges": 1,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
     },
@@ -111,18 +113,6 @@
       "edges": 1,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
-    },
-    {
-      "id": "401862800",
-      "league": "NCAAF",
-      "game": "ECU @ UAB",
-      "start": "2026-10-15T23:30Z",
-      "venue": "Protective Stadium",
-      "city": "Birmingham, AL",
-      "score": 0.0134,
-      "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png"
     },
     {
       "id": "401898404",
@@ -147,6 +137,18 @@
       "edges": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
+    },
+    {
+      "id": "401898722",
+      "league": "NBA",
+      "game": "PHX @ SA",
+      "start": "2026-10-15T00:00Z",
+      "venue": "Frost Bank Center",
+      "city": "San Antonio, TX",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png"
     }
   ],
   "games": [
@@ -156,11 +158,11 @@
       "game": "MIL @ LAD",
       "start": "2026-10-15T00:00Z",
       "venue": "Dodger Stadium",
-      "provisional": true,
-      "score": 0.3486,
+      "provisional": false,
+      "score": 0.4423,
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early."
+      "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early. Lineups are confirmed, and it's 84 and clear at first pitch."
     },
     {
       "id": "401908025",
@@ -169,7 +171,7 @@
       "start": "2026-10-15T17:00Z",
       "venue": "Progressive Field",
       "provisional": true,
-      "score": 0.3718,
+      "score": 0.3848,
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
       "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts."
@@ -181,7 +183,7 @@
       "start": "2026-10-16T00:15Z",
       "venue": "Empower Field at Mile High",
       "provisional": true,
-      "score": 0.2252,
+      "score": 0.2251,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air."

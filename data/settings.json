@@ -1,0 +1,24 @@
+{
+  "key": "settings",
+  "updated": "2026-10-14T21:01:13.850Z",
+  "prefs": {
+    "unit": 2,
+    "split": {
+      "straight": 40,
+      "safer": 30,
+      "best": 20,
+      "longshot": 10
+    },
+    "games": 3,
+    "kelly": 0,
+    "leagues": [
+      "MLB",
+      "NFL",
+      "NBA",
+      "NHL",
+      "SOCCER",
+      "COLLEGE"
+    ]
+  },
+  "theme": "dark"
+}
