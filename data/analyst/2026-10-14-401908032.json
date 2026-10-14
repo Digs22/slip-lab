@@ -1,0 +1,27 @@
+{
+  "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
+  "lineups_confirmed": false,
+  "legs": [
+    {"desc": "Milwaukee Brewers +1.5", "signals": {"coaching": 0.6, "recent_form": 0.58},
+     "note": "Milwaukee's bullpen has 9 2/3 scoreless NLCS innings and had an off day, while the Dodgers used seven relievers in Game 2. The Brewers cover if they win or lose by one."}
+  ],
+  "extra_legs": [
+    {"desc": "Snell u14.5 outs", "market": "prop", "player": "Blake Snell", "team": "LAD", "stat": "pitcher_outs",
+     "side": "under", "line": 14.5, "odds": 140, "fair": 0.40, "book": "bovada",
+     "signals": {"recent_form": 0.70, "matchup": 0.62, "postseason": 0.62, "news": 0.45},
+     "projection": {"mu": 13.0, "sd": 3.2},
+     "note": "Snell got just 12 and 11 outs in his last two starts and walked 5 Braves in the NLDS. Milwaukee led the majors in walk rate and has 11 walks this series, which runs up pitch counts.",
+     "status": "Healthy. Only 42 2/3 regular-season innings, so his workload is limited"},
+    {"desc": "Snell u5.5 strikeouts", "market": "prop", "player": "Blake Snell", "team": "LAD", "stat": "strikeouts",
+     "side": "under", "line": 5.5, "odds": 114, "fair": 0.43, "book": "draftkings",
+     "signals": {"recent_form": 0.60, "matchup": 0.55},
+     "note": "His last three outings ended with 1, 3 and 5 strikeouts as his starts got shorter. He needs 6 strikeouts, which means pitching deep into the game.",
+     "status": "Healthy"},
+    {"desc": "Gasser u11.5 outs", "market": "prop", "player": "Robert Gasser", "team": "MIL", "stat": "pitcher_outs",
+     "side": "under", "line": 11.5, "odds": 105, "fair": 0.46, "book": "betmgm",
+     "signals": {"postseason": 0.62, "coaching": 0.60, "matchup": 0.56},
+     "projection": {"mu": 11.0, "sd": 2.8},
+     "note": "Milwaukee pulled him after 4 innings and 56 pitches in the NLDS, and its bullpen is rested. He has a 5.91 ERA in two career starts against the Dodgers.",
+     "status": "Healthy"}
+  ]
+}
