@@ -139,7 +139,7 @@ h2 { font-size: 15px; font-weight: 700; color: var(--ink-2); letter-spacing: .12
 .seg { display: grid; grid-template-columns: 1fr 1fr; padding: 4px; border-radius: 16px; gap: 4px; }
 .seg button { font: 700 13.5px var(--body); color: var(--ink-2); background: none; border: 0; border-radius: 12px; padding: 10px; cursor: pointer; }
 .seg button[aria-pressed="true"] { color: var(--night); background: var(--ink); }
-.hero-grid { display: grid; grid-template-columns: 1fr 76px; gap: 14px; align-items: stretch; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 76px; gap: 14px; align-items: stretch; }
 .hero-main { display: grid; gap: 14px; min-width: 0; }
 .meter { display: grid; grid-template-rows: auto 1fr auto; justify-items: center; gap: 6px; padding: 10px 6px; border-radius: var(--r-sm); background: rgba(10,16,34,.45); border: 1px solid rgba(200,215,255,.08); }
 .meter svg { width: 100%; height: 100%; min-height: 220px; }
@@ -154,8 +154,8 @@ h2 { font-size: 15px; font-weight: 700; color: var(--ink-2); letter-spacing: .12
 
 .hero { padding: 18px; display: grid; gap: 14px; }
 .big { font-family: var(--display); font-weight: 800; font-size: clamp(48px, 15vw, 68px); line-height: .9; letter-spacing: -.01em; }
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.stat { padding: 10px; border-radius: var(--r-sm); background: rgba(10,16,34,.45); border: 1px solid rgba(200,215,255,.08); }
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.stat { min-width: 0; overflow: hidden; padding: 10px; border-radius: var(--r-sm); background: rgba(10,16,34,.45); border: 1px solid rgba(200,215,255,.08); }
 .stat b { display: block; font-family: var(--display); font-size: 22px; font-weight: 700; line-height: 1.1; }
 .stat span { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .1em; }
 .chart { width: 100%; height: auto; display: block; }
@@ -247,7 +247,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
 <div class="app">
   <header class="top glass">
     <div class="brand">
-      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><defs><clipPath id="lg"><rect width="32" height="32" rx="8"/></clipPath></defs><g clip-path="url(#lg)"><rect width="32" height="16" fill="#009fdf"/><rect y="16" width="32" height="16" fill="#ffd453"/></g><path d="M22.5 8.5h-13l7 7.5-7 7.5h13" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><defs><clipPath id="lg"><rect width="32" height="32" rx="8"/></clipPath></defs><g clip-path="url(#lg)"><rect width="32" height="16" fill="#009fdf"/><rect y="16" width="32" height="16" fill="#ffd453"/></g><g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15.2 9.5H6l5.3 6.5L6 22.5h9.2"/><path d="M18.6 9.5l7.2 13M25.8 9.5l-7.2 13"/></g></svg>
       <div><b>Sigma Locks</b><small id="updated">Picks</small></div>
     </div>
     <div class="pnl-pill" id="pill" title="All-time net">$0.00</div>
