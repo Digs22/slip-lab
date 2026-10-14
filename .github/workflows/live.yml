@@ -1,10 +1,11 @@
-# Live bet tracking and phone alerts. Every 10 minutes during game hours (noon to 3 AM Eastern), and
-# whenever new picks are pushed: sends ntfy alerts for new picks, legs falling behind or lost, and graded bets.
+# Phone alerts for games and slips the user watches (the bell in the app). Every 10 minutes from 9 AM to
+# 3 AM Eastern, and whenever new picks are pushed: line and odds moves, pick changes, injury news, the
+# one-hour lock, live legs and results. No alert for every new pick.
 # Needs one repo secret: NTFY_TOPIC (your private ntfy topic name).
 name: Live alerts
 on:
   schedule:
-    - cron: "*/10 16-23,0-7 * * *"
+    - cron: "*/10 13-23,0-7 * * *"
   push:
     branches: [main]
     paths: ["data/bets.json"]

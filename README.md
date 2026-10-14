@@ -26,7 +26,7 @@ Tapping "I placed this" (or "I placed all") in the app saves a doc in the artifa
 ## Live tracking and phone alerts
 
 - In the app (website), each leg on a game in progress shows Hit, Lost, On track or Behind, with the current number and its pace to the final. It reads ESPN's live scoreboard and box score from the phone every minute.
-- `python3 -m pipeline.live` sends ntfy alerts: new picks posted, a leg falls behind or is lost, a leg hits, a bet is graded. The topic name is in `.secrets/ntfy_topic` (and the repo secret `NTFY_TOPIC`). GitHub Actions runs it every 10 minutes from noon to 3 AM Eastern (`.github/workflows/live.yml`).
+- `python3 -m pipeline.live` sends ntfy alerts only for games and slips the user watches. The bell on a game, Traditional slip or Pick of the Day posts `{"key", "on"}` to the private topic `<topic>-watch` (the user pastes their topic once in Settings; it stays on the device). Keys: `game:<espn id>`, `trad:<date>`, `bet:<id>`. For a watched pick it alerts on market line moves between refreshes (spread or total by half a point, moneyline by 3%), refresh changes (pick, odds, injury status, dropped, added), the lock an hour before the game, legs behind, lost or hit, and the result. In the private preview, bells save to the artifact database collection `watch` (the sandbox blocks ntfy), and each refresh copies them to `<topic>-watch`. The topic name is in `.secrets/ntfy_topic` (and the repo secret `NTFY_TOPIC`). GitHub Actions runs it every 10 minutes from 9 AM to 3 AM Eastern (`.github/workflows/live.yml`).
 
 ## Statistical model
 

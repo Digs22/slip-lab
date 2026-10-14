@@ -4,13 +4,19 @@
 
 Each leg gets a live status from the score, the game clock and the box score:
   won / lost (already decided), on track / behind (by pace), or waiting.
-Alerts go to the ntfy topic in NTFY_TOPIC (env) or .secrets/ntfy_topic:
-  picks posted, a leg flips from on track to behind, a leg is lost, a bet is graded.
+Alerts go to the ntfy topic in NTFY_TOPIC (env) or .secrets/ntfy_topic, and only for what the user
+watches: tapping the bell on a game or slip in the app posts {"key", "on"} to the private topic
+"<topic>-watch", which this reads. Keys: "game:<espn id>" (a game's SGP plays), "trad:<date>" (that
+day's Traditional slip), "bet:<id>" (one bet, used for Pick of the Day). For a watched pick:
+  the market line moves (checked every run, between pick refreshes), a refresh changes the pick, its
+  odds or a player's injury status, a pick is dropped or added, the picks lock an hour before the game,
+  a leg falls behind, is lost or hits, and the bet is graded.
 A small state file remembers what was already sent, so nothing is sent twice.
 """
 import json
 import re
 import urllib.request
+from datetime import datetime, timezone
 
 from . import config, grade, ledger, sources
 
@@ -95,65 +101,188 @@ def notify(title: str, message: str, tags: str = "", priority: str = "default"):
         print(f"ntfy failed: {e}")
 
 
+def watch_keys(b: dict) -> list[str]:
+    keys = [f"bet:{b['id']}"]
+    if b.get("kind") == "traditional":
+        keys.append(f"trad:{b['date']}")
+    elif b.get("kind") != "potd" and b.get("event_id"):
+        keys.append(f"game:{b['event_id']}")
+    return keys
+
+
+def read_watches(state: dict) -> dict:
+    """Apply the bell taps posted to <topic>-watch (ntfy keeps them about 12 hours; the state file keeps the rest)."""
+    topic = notify_topic()
+    if not topic:
+        return state.get("watch", {})
+    watch = dict(state.get("watch", {}))
+    try:
+        with urllib.request.urlopen(urllib.request.Request(f"https://ntfy.sh/{topic}-watch/json?poll=1&since=all",
+                                                           headers=sources.UA), timeout=15) as r:
+            msgs = [json.loads(x) for x in r.read().decode().splitlines() if x.strip()]
+    except Exception as e:
+        print(f"watch list: {e}")
+        return watch
+    for m in sorted((m for m in msgs if m.get("event") == "message"), key=lambda m: m.get("time", 0)):
+        try:
+            w = json.loads(m.get("message") or "{}")
+        except ValueError:
+            continue
+        if isinstance(w, dict) and isinstance(w.get("key"), str):
+            if w.get("on"):
+                watch[w["key"]] = w.get("label") or w["key"]
+            else:
+                watch.pop(w["key"], None)
+    return watch
+
+
+def _legs_desc(b):
+    return " + ".join(l["desc"] for l in b["legs"])
+
+
+def _snap(b):
+    return {"odds": b["odds"], "legs": [l["desc"] for l in b["legs"]], "play": b.get("play"), "game": b["game"],
+            "status": {l["desc"]: l.get("status") for l in b["legs"] if l.get("status")}}
+
+
+def _line_nums(o: dict) -> dict:
+    """Spread as a number for the favorite (e.g. 'LAD -1.5' -> -1.5), total, moneyline win chance."""
+    out = {}
+    m = re.search(r"([+-]?\d+(?:\.\d+)?)\s*$", o.get("spread") or "")
+    if m:
+        out["spread"] = float(m.group(1))
+        out["fav"] = (o.get("spread") or "").split()[0]
+    if o.get("total") is not None:
+        out["total"] = float(o["total"])
+    if o.get("home_ml") is not None:
+        out["home_ml"] = o["home_ml"]
+    return out
+
+
+def _implied(odds):
+    return 100 / (odds + 100) if odds > 0 else -odds / (-odds + 100)
+
+
+def _games_of(b):
+    """(lookup bet, legs) per game a bet touches; a Traditional slip spans several games."""
+    if b.get("kind") != "traditional":
+        return [(b, b["legs"])]
+    by = {}
+    for l in b["legs"]:
+        by.setdefault(l.get("event_id"), []).append(l)
+    return [({"league": ls[0].get("league"), "date": ls[0].get("date") or b["date"], "game": ls[0].get("matchup", ""),
+              "event_id": eid}, ls) for eid, ls in by.items()]
+
+
 def run():
+    from .run import locked, _preview_odds
     bets = ledger.load()
     try:
         state = json.loads(STATE_FILE.read_text())
     except FileNotFoundError:
-        state = {"seen": [], "legs": {}, "graded": []}
+        state = {}
+    for k, v in {"seen": [], "legs": {}, "graded": [], "snap": {}, "lines": {}, "locked": [], "watch": {}}.items():
+        state.setdefault(k, v)
     first_run = not state["seen"]
+    state["watch"] = watch = read_watches(state)
+    watched = lambda b: any(k in watch for k in watch_keys(b))
+    send = (lambda *a, **k: None) if first_run else notify
+    ids = {b["id"] for b in bets}
 
-    # 1. New picks posted
-    new = [b for b in bets if b["id"] not in state["seen"]]
-    if new and not first_run:
-        by_game = {}
-        for b in new:
-            by_game.setdefault(b["game"], []).append(b)
-        for game, bs in by_game.items():
-            lines = [f"{b['play'].title()}: {' + '.join(l['desc'] for l in b['legs'])} ({b['odds']:+d})" for b in bs]
-            notify(f"New picks: {game}", "\n".join(lines), "money_with_wings")
-    state["seen"] = sorted({b["id"] for b in bets})
+    # 1. Refresh changes to watched picks: new, dropped, re-picked, odds, injury status
+    for b in bets:
+        if b["status"] != "pending" or not watched(b):
+            state["snap"].pop(b["id"], None)
+            continue
+        old, new = state["snap"].get(b["id"]), _snap(b)
+        state["snap"][b["id"]] = new
+        name = f"{b['play'].title()} · {b['game']}"
+        if old is None:
+            if b["id"] not in state["seen"]:
+                send(f"New play: {name}", f"{_legs_desc(b)} ({b['odds']:+d})", "new")
+            continue
+        if old["legs"] != new["legs"]:
+            send(f"Pick changed: {name}", f"Was {' + '.join(old['legs'])} ({old['odds']:+d}). Now {_legs_desc(b)} ({b['odds']:+d}).", "arrows_counterclockwise")
+        elif abs(_implied(old["odds"]) - _implied(b["odds"])) >= 0.02:
+            send(f"Odds moved: {name}", f"{_legs_desc(b)}: {old['odds']:+d} to {b['odds']:+d}.", "chart_with_upwards_trend")
+        for desc, st in new["status"].items():
+            if old["status"].get(desc) not in (None, st):
+                send(f"Injury news: {desc}", f"{b['game']}: {old['status'][desc]} to {st}.", "ambulance", "high")
+    for bid in [i for i in state["snap"] if i not in ids]:
+        old = state["snap"].pop(bid)
+        send(f"Pick dropped: {old.get('play', '').title()} · {old['game']}",
+             f"{' + '.join(old['legs'])} no longer has an edge after the latest refresh.", "wastebasket")
+    state["seen"] = sorted(ids)
 
-    # 2. Graded bets
+    # 2. Picks lock an hour before the game: one "final" alert per watched game or slip
+    final = {}
+    for b in bets:
+        if b["status"] == "pending" and watched(b) and b.get("start") and b["id"] not in state["locked"] and locked(b["start"]) \
+                and datetime.now(timezone.utc) < datetime.fromisoformat(b["start"].replace("Z", "+00:00")):
+            state["locked"].append(b["id"])
+            final.setdefault(b["game"], []).append(b)
+    for game, bs in final.items():
+        send(f"Picks final: {game}", "\n".join(f"{b['play'].title()}: {_legs_desc(b)} ({b['odds']:+d})" for b in bs), "lock")
+
+    # 3. Graded bets
     for b in bets:
         if b["status"] in ("win", "loss", "push") and b["id"] not in state["graded"]:
             state["graded"].append(b["id"])
-            if not first_run:
-                notify(f"{b['play'].title()} {b['status'].upper()}: {b['game']}",
-                       f"{' + '.join(l['desc'] for l in b['legs'])}. Net {b['net']:+.2f}. " + _record(bets),
-                       "white_check_mark" if b["status"] == "win" else "x")
+            if watched(b):
+                send(f"{b['play'].title()} {b['status'].upper()}: {b['game']}",
+                     f"{_legs_desc(b)}. Net {b['net']:+.2f}. " + _record(bets),
+                     "white_check_mark" if b["status"] == "win" else "x")
 
-    # 3. Live legs on open bets
+    # 4. Market lines between refreshes, and live legs, for watched open bets
     games = {}
-    for b in [b for b in bets if b["status"] == "pending"]:
-        try:
-            g = games.get(b["game"]) or grade.find_game(b)
-        except sources.SourceError as e:
-            print(f"live: {e}")
-            continue
-        if not g or g["status"] == "pre":
-            continue
-        games[b["game"]] = g
-        stats = g.get("_stats")
-        if stats is None and any(l["market"] == "prop" for l in b["legs"]):
+    for b in [b for b in bets if b["status"] == "pending" and watched(b)]:
+        for probe, legs in _games_of(b):
             try:
-                stats = g["_stats"] = grade.box_stats(g)
-            except sources.SourceError:
-                stats = {}
-        for leg in b["legs"]:
-            key = f"{b['id']}|{leg['desc']}"
-            st = leg_status(leg, g, stats)
-            before = state["legs"].get(key)
-            state["legs"][key] = st["state"]
-            if before == st["state"] or st["state"] in ("waiting", "on_track"):
+                key = probe.get("event_id") or probe["game"]
+                g = games[key] if key in games else grade.find_game(probe)
+                games[key] = g
+            except (sources.SourceError, KeyError, IndexError) as e:
+                print(f"live: {e}")
                 continue
-            if st["state"] == "behind" and before == "on_track":
-                notify(f"Behind: {leg['desc']}", f"{b['game']} {g.get('detail', '')}. Now {st.get('now')}, pace {st.get('pace', '-')}.",
-                       "warning")
-            elif st["state"] == "lost":
-                notify(f"Leg lost: {leg['desc']}", f"{b['game']} {g.get('detail', '')}. {b['play'].title()} slip is done.", "x")
-            elif st["state"] == "won" and before not in (None, "won"):
-                notify(f"Leg hit: {leg['desc']}", f"{b['game']} {g.get('detail', '')}.", "tada")
+            if not g:
+                continue
+            if g["status"] == "pre":
+                now = _line_nums(_preview_odds(g.get("odds") or {}))
+                lk = g["id"]
+                before = state["lines"].get(lk)
+                state["lines"][lk] = now
+                if before and now:
+                    moves = []
+                    if "spread" in now and "spread" in before and (abs(now["spread"] - before["spread"]) >= 0.5 or now.get("fav") != before.get("fav")):
+                        moves.append(f"spread {before.get('fav', '')} {before['spread']:+g} to {now.get('fav', '')} {now['spread']:+g}")
+                    if "total" in now and "total" in before and abs(now["total"] - before["total"]) >= 0.5:
+                        moves.append(f"total {before['total']:g} to {now['total']:g}")
+                    if "home_ml" in now and "home_ml" in before and abs(_implied(now["home_ml"]) - _implied(before["home_ml"])) >= 0.03:
+                        moves.append(f"{g['home']} moneyline {before['home_ml']:+d} to {now['home_ml']:+d}")
+                    if moves:
+                        send(f"Line moved: {g['away']} @ {g['home']}",
+                             f"{'; '.join(moves).capitalize()}. Your picks: {'; '.join(l['desc'] for l in legs)}.", "chart_with_upwards_trend")
+                continue
+            stats = g.get("_stats")
+            if stats is None and any(l["market"] == "prop" for l in legs):
+                try:
+                    stats = g["_stats"] = grade.box_stats(g)
+                except sources.SourceError:
+                    stats = {}
+            for leg in legs:
+                key = f"{b['id']}|{leg['desc']}"
+                st = leg_status(leg, g, stats)
+                before = state["legs"].get(key)
+                state["legs"][key] = st["state"]
+                if before == st["state"] or st["state"] in ("waiting", "on_track"):
+                    continue
+                where = f"{g['away']} @ {g['home']} {g.get('detail', '')}"
+                if st["state"] == "behind" and before == "on_track":
+                    send(f"Behind: {leg['desc']}", f"{where}. Now {st.get('now')}, pace {st.get('pace', '-')}.", "warning")
+                elif st["state"] == "lost":
+                    send(f"Leg lost: {leg['desc']}", f"{where}. {b['play'].title()} slip is done.", "x")
+                elif st["state"] == "won" and before not in (None, "won"):
+                    send(f"Leg hit: {leg['desc']}", f"{where}.", "tada")
     STATE_FILE.write_text(json.dumps(state, indent=1) + "\n")
 
 
