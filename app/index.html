@@ -395,7 +395,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
       <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><defs><clipPath id="lg"><rect width="32" height="32" rx="8"/></clipPath></defs><g clip-path="url(#lg)"><rect width="32" height="16" fill="#009fdf"/><rect y="16" width="32" height="16" fill="#ffd453"/></g><g fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15.2 9.5H6l5.3 6.5L6 22.5h9.2"/><path d="M18.6 9.5l7.2 13M25.8 9.5l-7.2 13"/></g></svg>
       <div><b>Sigma Locks</b><small id="updated">Picks</small></div>
     </div>
-    <div class="pnl-pill" id="pill" title="All-time net">$0.00</div>
+    <div class="pnl-pill" id="pill" title="Your net on bets you placed">$0.00</div>
   </header>
   <main id="view" class="view" style="display:grid;gap:14px"></main>
 </div>
@@ -1272,7 +1272,9 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   }
 
   function render() {
-    const t = totals(data.bets || []);
+    // Top-right pill: only bets you marked placed, at the units and dollars locked in when you tapped,
+    // so it moves only when one of your bets is graded, never with the unit slider.
+    const t = totals((data.bets || []).filter(b => lockOf(b)));
     $("#pill").textContent = sign$(t.net); $("#pill").className = "pnl-pill " + cls(t.net);
     const upd = data.generated ? "Updated " + new Date(data.generated).toLocaleString("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" }) : "Games";
     $("#updated").textContent = { today: upd, record: "Stats", bankroll: "Bankroll", lessons: "Lessons", settings: "Settings" }[tab];
