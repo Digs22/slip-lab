@@ -437,8 +437,42 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   let betFilter = "all";
   let betLimit = 10; // Every bet list shows 10 at a time
   let scope = store.get("scope", "all"); // "all" picks or "mine" (bets you marked placed)
-  // Bets the ledger records as placed (logged by Claude when you say so) count everywhere, on top of your taps.
-  const ledgerPlaced = () => (data.bets || []).filter(b => b.placed).map(b => b.id);
+  // Owner check: only a device with the owner's alerts topic saved (or the owner's private preview) loads the
+  // owner's placed bets and settings from data.json. Anyone else with the link gets the picks with their own
+  // settings and a Bet History of their own. The hash is of "sigma-locks:" + topic, so the topic stays private.
+  const OWNER_HASH = "7ee2a0060f4f8a7646b54ead8f43531359c05037b1f27c1167311879a1e44a6e";
+  let owner = false;
+  async function checkOwner() {
+    if (window.claude?.use) return true;
+    const t = store.get("ntfyTopic", "");
+    if (!t || !crypto?.subtle) return false;
+    try {
+      const h = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("sigma-locks:" + t));
+      return [...new Uint8Array(h)].map(x => x.toString(16).padStart(2, "0")).join("") === OWNER_HASH;
+    } catch { return false; }
+  }
+  // A guest device's first visit after this change: set aside anything it picked up from the owner's data
+  // (kept under "guestBackup", restored if the owner's topic is saved here later) so Bet History starts fresh.
+  function guestFreshStart() {
+    if (store.get("guestFresh", false)) return;
+    store.set("guestBackup", { placed: [...placed], placedInfo, placedAt });
+    placed = new Set(); placedInfo = {}; placedAt = {};
+    store.set("placed", []); store.set("placedInfo", {}); store.set("placedAt", {});
+    store.set("guestFresh", true);
+  }
+  async function refreshOwner() {
+    owner = await checkOwner();
+    if (owner) {
+      const bk = store.get("guestBackup", null);
+      if (bk) { (bk.placed || []).forEach(id => placed.add(id)); placedInfo = { ...(bk.placedInfo || {}), ...placedInfo }; placedAt = { ...(bk.placedAt || {}), ...placedAt }; store.set("guestBackup", null); }
+      for (const id of ledgerPlaced()) placed.add(id);
+      store.set("guestFresh", false);
+      adoptFromData();
+      store.set("placed", [...placed]); store.set("placedInfo", placedInfo); store.set("placedAt", placedAt);
+    } else guestFreshStart();
+  }
+  // Bets the ledger records as placed (logged by Claude when you say so) count on the owner's devices, on top of taps.
+  const ledgerPlaced = () => owner ? (data.bets || []).filter(b => b.placed).map(b => b.id) : [];
   let placed = new Set([...store.get("placed", []), ...ledgerPlaced()]);
   // What you actually bet: the units and dollars per unit locked in when you tapped "I placed this".
   // Changing the Bankroll sliders later never changes a placed bet's dollars.
@@ -620,6 +654,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
   }
   // The copy saved by the last picks refresh (for devices that were off for a while).
   function adoptFromData() {
+    if (!owner) return false;
     let c = false;
     if (data.settings) c = adoptSettings(data.settings) || c;
     if (data.filters) c = adoptFilters(data.filters) || c;
@@ -1270,7 +1305,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     else if (el.dataset.conf) { conf = el.dataset.conf; store.set("conf", conf); render(); }
     else if (el.dataset.themeSet) { store.set("theme", el.dataset.themeSet); markSettings(); applyTheme(); render(); }
     else if (el.dataset.watch) { setWatch(el.dataset.watch, el.dataset.watchLabel || "this game", !watching.has(el.dataset.watch)); }
-    else if (el.id === "savetopic") { const v = ($("#ntfytopic").value || "").trim(); store.set("ntfyTopic", v); toast(v ? "Alerts topic saved. Your settings now sync with every device that uses it." : "Alerts topic cleared."); if (v) { for (const k of watching) fetch(`https://ntfy.sh/${encodeURIComponent(v)}-watch`, { method: "POST", body: JSON.stringify({ key: k, on: true }) }).catch(() => {}); syncSince = "12h"; pullSync(); } }
+    else if (el.id === "savetopic") { const v = ($("#ntfytopic").value || "").trim(); store.set("ntfyTopic", v); refreshOwner().then(render); toast(v ? "Alerts topic saved. Your settings now sync with every device that uses it." : "Alerts topic cleared."); if (v) { for (const k of watching) fetch(`https://ntfy.sh/${encodeURIComponent(v)}-watch`, { method: "POST", body: JSON.stringify({ key: k, on: true }) }).catch(() => {}); syncSince = "12h"; pullSync(); } }
     else if (el.dataset.placed) { setPlaced([el.dataset.placed], !placed.has(el.dataset.placed)); }
     else if (el.dataset.placedGame) { const g = games().find(x => x.key === el.dataset.placedGame); if (g) setPlaced(g.bets.map(b => b.id), !g.bets.every(b => placed.has(b.id))); }
     else if (el.dataset.scope) { scope = el.dataset.scope; store.set("scope", scope); render(); }
@@ -1439,6 +1474,7 @@ button:focus-visible, .chip:focus-visible, input:focus-visible { outline: 2px so
     } catch {}
   }
   async function boot() {
+    await refreshOwner();
     await loadData();
     render();
     setInterval(loadData, 120e3);
