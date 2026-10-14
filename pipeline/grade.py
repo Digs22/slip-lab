@@ -94,6 +94,10 @@ def grade_all(bets: list[dict]) -> list[dict]:
     """Settle every pending bet whose game is final. Returns the bets that changed."""
     changed, cache = [], {}
     for bet in [b for b in bets if b["status"] == "pending"]:
+        if bet.get("kind") == "traditional":
+            if _grade_traditional(bet, cache):
+                changed.append(bet)
+            continue
         try:
             game = find_game(bet)
             if game and game["completed"] and game["id"] not in cache:
@@ -112,6 +116,33 @@ def grade_all(bets: list[dict]) -> list[dict]:
             bet["final"] = f"{game['away']} {game['away_score']:g}, {game['home']} {game['home_score']:g}"
             changed.append(bet)
     return changed
+
+
+def _grade_traditional(bet: dict, cache: dict) -> bool:
+    """Multi-game slip: each leg grades against its own game. Settles once every leg is known or one loses."""
+    finals = []
+    for leg in bet["legs"]:
+        if leg.get("result") not in (None, "unknown"):
+            continue
+        probe = {"league": leg["league"], "date": leg.get("date") or bet["date"], "event_id": leg.get("event_id"),
+                 "game": leg.get("matchup", "")}
+        try:
+            game = find_game(probe)
+            if not game or not game["completed"]:
+                continue
+            if game["id"] not in cache:
+                cache[game["id"]] = box_stats(game) if leg["market"] == "prop" else {}
+        except sources.SourceError as e:
+            print(f"grade: can't reach the feed for {probe['game']}: {e}")
+            continue
+        leg["result"] = leg_result(leg, game, cache[game["id"]])
+        finals.append(f"{game['away']} {game['away_score']:g}-{game['home_score']:g} {game['home']}")
+    status = bet_result(bet)
+    if status:
+        ledger.settle(bet, status)
+        bet["final"] = "; ".join(finals) or bet.get("final")
+        return True
+    return False
 
 
 def _is_home(team, game):

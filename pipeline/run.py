@@ -76,7 +76,7 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
             if existing:  # odds or research changed before game-day lock
                 bets.remove(existing)
             bet = {
-                "id": bid, "date": gdate, "league": g["league"], "event_id": g["id"],
+                "id": bid, "kind": "sgp", "date": gdate, "league": g["league"], "event_id": g["id"],
                 "game": f"{g['away']} @ {g['home']}", "start": g["start"], "play": play,
                 "venue": g.get("venue"), "city": g.get("city"),
                 "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
@@ -89,6 +89,29 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
             }
             ledger.add(bets, bet)
             added.append(bet)
+    return added
+
+
+def record_traditional(date: str, plays: dict | None, bets: list[dict]) -> list[dict]:
+    """The day's multi-game slip: same four plays, one leg per game, logged like any other bet."""
+    added = []
+    for play, data in (plays or {}).items():
+        bid = f"{date}-TRAD-{play}"
+        first = min((l["start"] for l in data["legs"] if l.get("start")), default=None)
+        existing = next((b for b in bets if b["id"] == bid), None)
+        if existing and (existing["status"] != "pending" or (first and locked(first))):
+            continue
+        if existing:
+            bets.remove(existing)
+        bet = {"id": bid, "kind": "traditional", "date": date, "league": "MULTI",
+               "game": f"Multi-game · {len(data['legs'])} game{'s' if len(data['legs']) > 1 else ''}", "start": first, "play": play,
+               "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
+               "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
+                                                "prob", "edge", "signals", "note", "status", "alt", "main_line",
+                                                "event_id", "league", "matchup", "start")} | {"date": et_date(l["start"]) if l.get("start") else date}
+                        for l in data["legs"]]}
+        ledger.add(bets, bet)
+        added.append(bet)
     return added
 
 
@@ -106,6 +129,8 @@ def daily(date: str | None = None, only_ids: set | None = None):
         sc, pr = scan(d, only_ids)
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         added += record_plays(d, pk, bets)
+        sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
+        added += record_traditional(d, builder.build_traditional(sc, sgp_straights), bets)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()

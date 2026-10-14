@@ -115,3 +115,50 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
         teams.update(names)
         chosen.append(g | {"plays": plays})
     return chosen
+
+
+def build_traditional(scored_games: list[dict], sgp_straights: set | None = None) -> dict | None:
+    """The same four plays, but every leg from a different game: the day's strongest legs across the
+    whole slate. Legs from different games are independent, so parlay odds multiply cleanly.
+    The straight skips any leg that is already a game's SGP straight, so the two slips don't double up."""
+    pool = []
+    for g in scored_games:
+        meta = {"event_id": g["game"]["id"], "league": g["game"]["league"], "start": g["game"].get("start"),
+                "matchup": f"{g['game']['away']} @ {g['game']['home']}"}
+        pool += [l | meta for l in g["legs"][:4]]
+    pool = sorted(pool, key=lambda l: l["edge"] * l["prob"], reverse=True)[:18]
+    if len({l["event_id"] for l in pool}) < 2:
+        return None
+    used = Counter()
+
+    def ok(combo):
+        return len({l["event_id"] for l in combo}) == len(combo) and all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+
+    def take(combo):
+        for l in combo:
+            used[_key(l)] += 1
+
+    plays = {}
+    singles = [l for l in pool if l["prob"] >= 0.5 and _key(l) not in (sgp_straights or set())]
+    if singles:
+        s1 = max(singles, key=lambda l: l["edge"])
+        plays["straight"] = {"legs": [s1], "odds": s1["odds"], "prob": s1["prob"], "ev": s1["edge"]}
+        take([s1])
+    safer_pool = [l for l in pool if l["prob"] >= 0.55 and not _coin_flip_side(l)]
+    cands = [_parlay(c) for c in combinations(safer_pool, 2) if ok(c)]
+    cands = [c for c in cands if c["ev"] > 0] or cands
+    if cands:
+        plays["safer"] = max(cands, key=lambda c: (c["prob"], c["ev"]))
+        take(plays["safer"]["legs"])
+    cands = [_parlay(c) for c in combinations(pool, 3) if ok(c)]
+    if cands:
+        plays["best"] = max(cands, key=lambda c: c["ev"])
+        take(plays["best"]["legs"])
+    cands = [_parlay(c) for n in (3, 4, 5) for c in combinations(pool[:14], n) if ok(c)]
+    cands = [c for c in cands if c["odds"] >= config.LONGSHOT_MIN]
+    if cands:
+        plays["longshot"] = max(cands, key=lambda c: (c["prob"], c["ev"]))
+    for name, play in plays.items():
+        play["units"] = config.PLAYS[name]
+        play["stake"] = play["units"] * config.UNIT
+    return plays or None

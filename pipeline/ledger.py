@@ -59,6 +59,10 @@ def summary(bets: list[dict]) -> dict:
         for b in bets:
             groups[b.get(key) or _market(b)].append(b)
         out[f"by_{key}"] = {k: _totals(v) for k, v in sorted(groups.items())}
+    kinds = defaultdict(list)
+    for b in bets:
+        kinds[b.get("kind") or "sgp"].append(b)
+    out["by_kind"] = {k: _totals(v) for k, v in sorted(kinds.items())}
     run, curve = 0.0, []
     for b in sorted((b for b in bets if b["status"] in SETTLED), key=lambda b: (b["date"], b["id"])):
         run += b["net"]

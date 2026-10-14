@@ -142,5 +142,20 @@ class Schedule(unittest.TestCase):
         self.assertFalse(run.locked("2099-01-01T18:00:00Z"))
 
 
+class Traditional(unittest.TestCase):
+    def test_one_leg_per_game(self):
+        from pipeline import builder
+        def leg(gid, d, prob, odds, mk="total"):
+            return {"desc": f"{gid} {d}", "market": mk, "side": "under", "odds": odds, "fair": 0.5, "prob": prob,
+                    "edge": prob * (1 + 100 / abs(odds) if odds < 0 else 1 + odds / 100) - 1}
+        games = [{"game": {"id": g, "league": "NFL", "away": g + "A", "home": g + "H", "start": "2099-01-01T18:00:00Z"},
+                  "legs": [leg(g, "u", 0.6, -110), leg(g, "p", 0.4, 200)]} for g in ("g1", "g2", "g3", "g4")]
+        plays = builder.build_traditional(games)
+        for play in plays.values():
+            ids = [l["event_id"] for l in play["legs"]]
+            self.assertEqual(len(ids), len(set(ids)))
+        self.assertIn("safer", plays)
+
+
 if __name__ == "__main__":
     unittest.main()
