@@ -180,7 +180,7 @@
       "score": 0.3274,
       "rank": 1,
       "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
-      "weather": null,
+      "weather": "77\u00b0F, wind 7 mph, 0% rain",
       "legs": [
         {
           "desc": "Snell u14.5 outs",
@@ -234,7 +234,7 @@
       "score": 0.3274,
       "rank": 1,
       "summary": "NLCS Game 3, Brewers up 2-0: Snell's recent outings have been short and wild, and both managers have rested bullpens ready to take over early.",
-      "weather": null,
+      "weather": "77\u00b0F, wind 7 mph, 0% rain",
       "legs": [
         {
           "desc": "Snell u14.5 outs",
@@ -325,32 +325,33 @@
       "city": "Los Angeles, California",
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-      "odds": 105,
+      "odds": 140,
       "units": 4,
-      "prob": 0.5301,
-      "ev": 0.0868,
+      "prob": 0.5842,
+      "ev": 0.402,
       "legs": [
         {
-          "desc": "Gasser u11.5 outs",
+          "desc": "Snell u14.5 outs",
           "market": "prop",
           "side": "under",
-          "team": "MIL",
-          "player": "Robert Gasser",
+          "team": "LAD",
+          "player": "Blake Snell",
           "stat": "pitcher_outs",
-          "line": 11.5,
-          "odds": 105,
-          "book": "betmgm",
-          "fair": 0.46,
-          "prob": 0.5301,
-          "edge": 0.0868,
+          "line": 14.5,
+          "odds": 140,
+          "book": "bovada",
+          "fair": 0.4,
+          "prob": 0.5842,
+          "edge": 0.402,
           "signals": {
-            "projection": 0.5708628847262718,
+            "projection": 0.6803758284828824,
+            "recent_form": 0.7,
+            "matchup": 0.62,
             "postseason": 0.62,
-            "coaching": 0.6,
-            "matchup": 0.56
+            "news": 0.45
           },
-          "note": "Milwaukee pulled him after 4 innings and 56 pitches in the NLDS, and its bullpen is rested. He has a 5.91 ERA in two career starts against the Dodgers.",
-          "status": "Healthy",
+          "note": "Snell got just 12 and 11 outs in his last two starts and walked 5 Braves in the NLDS. Milwaukee led the majors in walk rate and has 11 walks this series, which runs up pitch counts.",
+          "status": "Healthy. Only 42 2/3 regular-season innings, so his workload is limited",
           "alt": null,
           "main_line": null
         }
@@ -358,7 +359,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 12.6
+      "to_win": 16.8
     },
     {
       "id": "2026-10-15-TBCLE-straight",
@@ -608,7 +609,7 @@
       "score": 0.2251,
       "rank": 2,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": null,
+      "weather": "50\u00b0F, wind 10 mph, 39% rain",
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -660,7 +661,7 @@
       "score": 0.2251,
       "rank": 2,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": null,
+      "weather": "50\u00b0F, wind 10 mph, 39% rain",
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -1093,31 +1094,32 @@
       "city": "Cleveland, Ohio",
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "odds": -106,
+      "odds": -109,
       "units": 4,
-      "prob": 0.5799,
-      "ev": 0.127,
+      "prob": 0.6446,
+      "ev": 0.2359,
       "legs": [
         {
-          "desc": "G. Williams u16.5 outs",
+          "desc": "G. Williams o6.5 strikeouts",
           "market": "prop",
-          "side": "under",
+          "side": "over",
           "team": "CLE",
           "player": "Gavin Williams",
-          "stat": "pitcher_outs",
-          "line": 16.5,
-          "odds": -106,
+          "stat": "strikeouts",
+          "line": 6.5,
+          "odds": -109,
           "book": "draftkings",
-          "fair": 0.56,
-          "prob": 0.5799,
-          "edge": 0.127,
+          "fair": 0.6,
+          "prob": 0.6446,
+          "edge": 0.2359,
           "signals": {
-            "projection": 0.6179114221889527,
-            "recent_form": 0.58,
-            "coaching": 0.57
+            "projection": 0.7330073164712174,
+            "recent_form": 0.66,
+            "postseason": 0.64,
+            "matchup": 0.55
           },
-          "note": "His strikeouts and walks run his pitch count up fast. He threw 94 to 98 pitches to get only 15 to 17 outs in both playoff starts, and Cleveland's bullpen is rested.",
-          "status": "Healthy",
+          "note": "He has 11 and 12 strikeouts in his two playoff starts and reached 7 or more in 5 of his last 6 starts. Tampa Bay's lineup struck out more often against right-handers in September.",
+          "status": "Healthy, on regular rest",
           "alt": null,
           "main_line": null
         }
@@ -1125,7 +1127,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 11.32
+      "to_win": 11.01
     },
     {
       "id": "2026-10-15-POTD-NFL",
