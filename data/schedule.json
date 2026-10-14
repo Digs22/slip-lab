@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T01:18-04:00",
+ "generated": "2026-10-14T01:29-04:00",
  "games": [
   {
    "id": "401915416",
@@ -46,10 +46,10 @@
    "away_score": 0.0,
    "home_score": 0.0,
    "odds": {
-    "spread": "LIV -275",
+    "spread": "LIV -260",
     "total": 3.5,
     "home_ml": 650,
-    "away_ml": -275,
+    "away_ml": -260,
     "book": "DraftKings"
    }
   },
@@ -74,7 +74,7 @@
    "odds": {
     "spread": "RMA -105",
     "total": 3.5,
-    "home_ml": 255,
+    "home_ml": 245,
     "away_ml": -105,
     "book": "DraftKings"
    }
@@ -99,7 +99,7 @@
    "home_score": 0.0,
    "odds": {
     "spread": "AVL -155",
-    "total": 2.5,
+    "total": 3.5,
     "home_ml": -155,
     "away_ml": 400,
     "book": "DraftKings"
@@ -5186,110 +5186,6 @@
    }
   },
   {
-   "id": "401874762",
-   "league": "SOCCER",
-   "date": "2026-10-19",
-   "start": "2026-10-19T16:30Z",
-   "status": "pre",
-   "game": "CAG @ MON",
-   "away": "CAG",
-   "home": "MON",
-   "away_name": "Cagliari",
-   "home_name": "Monza",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-   "venue": "U-Power Stadium",
-   "city": "Monza",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "MON +130",
-    "total": 2.5,
-    "home_ml": 130,
-    "away_ml": 200,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874784",
-   "league": "SOCCER",
-   "date": "2026-10-19",
-   "start": "2026-10-19T18:45Z",
-   "status": "pre",
-   "game": "TOR @ PAR",
-   "away": "TOR",
-   "home": "PAR",
-   "away_name": "Torino",
-   "home_name": "Parma",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "venue": "Ennio Tardini",
-   "city": "Parma",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "TOR +140",
-    "total": 2.5,
-    "home_ml": 200,
-    "away_ml": 140,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401879257",
-   "league": "SOCCER",
-   "date": "2026-10-19",
-   "start": "2026-10-19T19:00Z",
-   "status": "pre",
-   "game": "COV @ TOT",
-   "away": "COV",
-   "home": "TOT",
-   "away_name": "Coventry City",
-   "home_name": "Tottenham Hotspur",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-   "venue": "Tottenham Hotspur Stadium",
-   "city": "London",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "TOT -210",
-    "total": 3.5,
-    "home_ml": -210,
-    "away_ml": 500,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882842",
-   "league": "SOCCER",
-   "date": "2026-10-19",
-   "start": "2026-10-19T19:00Z",
-   "status": "pre",
-   "game": "RAY @ GET",
-   "away": "RAY",
-   "home": "GET",
-   "away_name": "Rayo Vallecano",
-   "home_name": "Getafe",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-   "venue": "Estadio Coliseum",
-   "city": "Getafe",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "odds": {
-    "spread": "RAY +165",
-    "total": 1.5,
-    "home_ml": 190,
-    "away_ml": 165,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "401908028",
    "league": "MLB",
    "date": "2026-10-19",
@@ -5994,5 +5890,7 @@
    "odds": {}
   }
  ],
- "problems": []
+ "problems": [
+  "SOCCER 2026-10-19: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }
