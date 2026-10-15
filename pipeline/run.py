@@ -354,7 +354,7 @@ def close():
     soon = [b for b in bets if b["status"] == "pending" and b.get("start")
             and 0 <= (datetime.fromisoformat(b["start"].replace("Z", "+00:00")) - now).total_seconds() <= 2700]
     saved = 0
-    for league in {b["league"] for b in soon}:
+    for league in {b["league"] for b in soon} & set(config.LEAGUES):  # Traditional slips (MULTI) have no single feed
         try:
             events = sources.odds(league)
         except sources.SourceError as e:
