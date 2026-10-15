@@ -49,6 +49,7 @@ The preview can't write to files, so each scheduled run copies what the user did
 
 1. Placed bets: for each doc in the artifact db collection `placed` (doc id = bet id), set `"placed": true` on that bet in data/bets.json. If the doc has `units` and `unit`, store them as `placed_units` and `placed_unit`. Placed bets never change after that.
 2. Pick toggles: if the artifact db collection `prefs`, doc `filters`, has an `updated` newer than data/filters.json, save it with `teams.save_filters()`.
+2b. Settings: if the artifact db doc `prefs/settings` has an `updated` newer than data/settings.json, write it there as-is (`{"key": "settings", "updated", "prefs", "theme"}`).
 3. Bell alerts, after export: for each doc in `watch` with on=true whose game hasn't finished, POST {"key","label","on":true} to the ntfy `<topic>-watch` topic. The topic is in .secrets and is never printed. Never send a "new picks" alert.
 
 ## Commands
@@ -85,6 +86,8 @@ On 2026-10-14 the project's new default cloud environment reached ESPN, MLB Stat
 An alternate line (a spread or total moved off the main number for a different price) sets `"alt": true` and `"main_line"` (for example `"-3"`); the app tags it "alt line · main -3" in faded italics. Every leg should carry a `note` (one or two plain sentences on why it's recommended) and, for player props, a `status` (injury or practice status, for example "Ankle, limited at practice" or "Healthy"). The app shows both under "Why this pick". Without a note it falls back to the strongest signals. `status` is filled from ESPN's injury report when the analyst file leaves it out.
 
 Signals are probabilities that the leg wins, from one factor: recent_form, season, matchup, home_away, rest_travel, weather, injuries, coaching, postseason, news, line_move.
+
+Pitcher props (lesson from MIL @ LAD G3, 2026-10-14): base the projection on season strikeout rate, pitches per inning and walk rate, not on the last 2 or 3 starts. Keep `recent_form` close to the `season` signal unless something real changed (an injury, a pitch-count limit, a role change). A short outing caused by a manager's quick hook is weak evidence. Snell's 12- and 11-out starts didn't predict tonight's 18 outs and 9 strikeouts.
 
 ## Hosting for real
 

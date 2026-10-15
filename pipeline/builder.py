@@ -2,6 +2,9 @@
 
 Rules (user's, plus lessons from graded games):
 - No leg in more than 2 of a game's 4 plays.
+- No idea in more than 2 plays either: one starter's props (outs, strikeouts, hits/runs allowed) count as one
+  idea (lesson from MIL @ LAD G3, 2026-10-14, where 3 plays all needed Snell to leave early).
+- A parlay never has two props on the same player (so never a pitcher's K-under with his outs-under).
 - Safer parlay = two strong, independent legs; no team side from a near coin-flip game.
 - Low-total games anchor the straight bet on the Under or a pitcher/goalie prop.
 - Longshot must pay +1000 or longer.
@@ -18,8 +21,18 @@ from .project import simulate_parlay
 COIN_FLIP = 0.06  # |fair - 0.5| below this is a coin flip
 
 
+PITCHER_STATS = {"pitcher_outs", "strikeouts", "hits_allowed", "earned_runs", "walks_allowed"}
+
+
 def _key(leg):
     return leg["desc"]
+
+
+def _thesis(leg):
+    """Legs that win or lose on the same idea share a thesis. For now: one starting pitcher's props."""
+    if leg["market"] == "prop" and leg.get("stat") in PITCHER_STATS and leg.get("player"):
+        return "starter:" + leg["player"]
+    return None
 
 
 def _independent(legs):
@@ -44,13 +57,17 @@ def build_plays(scored: dict) -> dict | None:
     if len(legs) < 3:
         return None
     used = Counter()
+    theses = Counter()
 
     def ok(combo):
-        return all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+        return (all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+                and all(theses[t] < config.MAX_LEG_REUSE for t in {_thesis(l) for l in combo} - {None}))
 
     def take(combo):
         for l in combo:
             used[_key(l)] += 1
+        for t in {_thesis(l) for l in combo} - {None}:
+            theses[t] += 1
 
     # Straight: best edge among likely winners; in low-total games prefer the Under or a prop.
     pool = [l for l in legs if l["prob"] >= 0.5]
@@ -135,6 +152,7 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     if len({l["event_id"] for l in pool}) < 2:
         return None
     used = Counter()
+    theses = Counter()
 
     def ok(combo):
         per = Counter(l["event_id"] for l in combo)
@@ -145,11 +163,14 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
         for eid, n in per.items():
             if n > 1 and not _independent([l for l in combo if l["event_id"] == eid]):
                 return False
-        return all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+        return (all(used[_key(l)] < config.MAX_LEG_REUSE for l in combo)
+                and all(theses[t] < config.MAX_LEG_REUSE for t in {_thesis(l) for l in combo} - {None}))
 
     def take(combo):
         for l in combo:
             used[_key(l)] += 1
+        for t in {_thesis(l) for l in combo} - {None}:
+            theses[t] += 1
 
     def priced(c, n=4000):
         """Re-price a parlay with same-game legs through the correlation simulation."""

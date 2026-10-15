@@ -1,23 +1,23 @@
 {
  "2026-10-14-MILLAD-straight": {
   "id": "2026-10-14-MILLAD-straight",
-  "on": false,
-  "at": "2026-10-14T19:40:43.851Z",
-  "units": null,
-  "unit": null
+  "on": true,
+  "at": "2026-10-14T23:25:42.696Z",
+  "units": 6,
+  "unit": 2
  },
  "2026-10-14-MILLAD-safer": {
   "id": "2026-10-14-MILLAD-safer",
-  "on": false,
-  "at": "2026-10-14T21:17:56.017Z",
-  "units": null,
-  "unit": null
+  "on": true,
+  "at": "2026-10-14T23:25:42.696Z",
+  "units": 2.5,
+  "unit": 2
  },
  "2026-10-14-MILLAD-best": {
   "id": "2026-10-14-MILLAD-best",
-  "on": false,
-  "at": "2026-10-14T19:40:43.851Z",
-  "units": null,
-  "unit": null
+  "on": true,
+  "at": "2026-10-14T23:25:42.696Z",
+  "units": 1,
+  "unit": 2
  }
 }

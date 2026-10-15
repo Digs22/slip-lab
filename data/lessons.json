@@ -25,23 +25,45 @@
       "why": "One error decided the run line."
     }
   ],
-  "flags": [],
+  "flags": [
+    {
+      "split": "league",
+      "name": "MLB",
+      "roi": -67.5,
+      "n": 8,
+      "action": "Cut stake in half until ROI recovers"
+    }
+  ],
   "loss_causes": {
-    "untagged": 2,
-    "bad read": 1
+    "untagged": 3,
+    "bad read": 6
   },
   "weights": {
-    "projection": 1.0,
-    "recent_form": 0.8,
+    "projection": 0.95,
+    "recent_form": 0.65,
     "season": 0.5,
-    "matchup": 0.5,
+    "matchup": 0.4,
     "home_away": 0.5,
     "rest_travel": 0.5,
     "weather": 0.5,
     "injuries": 0.7,
     "coaching": 0.5,
-    "postseason": 0.3,
-    "news": 0.5,
+    "postseason": 0.25,
+    "news": 0.45,
     "line_move": 0.5
+  },
+  "retrain": {
+    "n": 37,
+    "accepted": false,
+    "reason": "waiting for 300 graded legs",
+    "market_check": {
+      "n": 37,
+      "model_logloss": 0.7227,
+      "market_logloss": 0.7062,
+      "beats_market": false,
+      "picked_n": 5,
+      "picked_hit": 0.0,
+      "picked_expected": 0.552
+    }
   }
 }
