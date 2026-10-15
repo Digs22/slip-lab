@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T18:49-04:00",
+ "generated": "2026-10-15T19:03-04:00",
  "games": [
   {
    "id": "401908025",
@@ -48,10 +48,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TOR -122",
+    "spread": "TOR -115",
     "total": 6.5,
-    "home_ml": -122,
-    "away_ml": 102,
+    "home_ml": -115,
+    "away_ml": -105,
     "book": "DraftKings"
    }
   },
@@ -198,10 +198,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "NY -6.5",
+    "spread": "NY -3.5",
     "total": 226.5,
-    "home_ml": -205,
-    "away_ml": 170,
+    "home_ml": -170,
+    "away_ml": 142,
     "book": "DraftKings"
    }
   },
@@ -228,10 +228,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DET -142",
+    "spread": "DET -148",
     "total": 5.5,
-    "home_ml": -142,
-    "away_ml": 120,
+    "home_ml": -148,
+    "away_ml": 124,
     "book": "DraftKings"
    }
   },
@@ -259,7 +259,7 @@
    "away_conf": "American",
    "odds": {
     "spread": "ECU -4.5",
-    "total": 49.5,
+    "total": 48.5,
     "home_ml": 164,
     "away_ml": -198,
     "book": "DraftKings"
@@ -318,10 +318,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LAD -156",
+    "spread": "LAD -150",
     "total": 8.0,
-    "home_ml": -156,
-    "away_ml": 129,
+    "home_ml": -150,
+    "away_ml": 134,
     "book": "DraftKings"
    }
   },
@@ -439,7 +439,7 @@
    "away_conf": "Pac-12",
    "odds": {
     "spread": "TXST -14.5",
-    "total": 69.5,
+    "total": 70.5,
     "home_ml": -650,
     "away_ml": 470,
     "book": "DraftKings"
@@ -498,10 +498,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "OKC -3.5",
+    "spread": "OKC -2.5",
     "total": 226.5,
-    "home_ml": 130,
-    "away_ml": -155,
+    "home_ml": 114,
+    "away_ml": -135,
     "book": "DraftKings"
    }
   },
@@ -2176,10 +2176,10 @@
    "home_conf": "MAC",
    "away_conf": "MAC",
    "odds": {
-    "spread": "BUF -7.5",
+    "spread": "BUF -7",
     "total": 42.5,
-    "home_ml": -265,
-    "away_ml": 215,
+    "home_ml": -270,
+    "away_ml": 220,
     "book": "DraftKings"
    }
   },
@@ -2824,10 +2824,10 @@
    "home_conf": "Sun Belt",
    "away_conf": "Sun Belt",
    "odds": {
-    "spread": "UL -3.5",
+    "spread": "UL -3",
     "total": 49.5,
-    "home_ml": -175,
-    "away_ml": 145,
+    "home_ml": -155,
+    "away_ml": 130,
     "book": "DraftKings"
    }
   },
@@ -5032,8 +5032,8 @@
    "odds": {
     "spread": "BUF -4.5",
     "total": 53.5,
-    "home_ml": 180,
-    "away_ml": -218,
+    "home_ml": 185,
+    "away_ml": -225,
     "book": "DraftKings"
    }
   },
@@ -6480,66 +6480,6 @@
    }
   },
   {
-   "id": "401909834",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-21T23:00Z",
-   "status": "pre",
-   "game": "ATL @ ORL",
-   "away": "ATL",
-   "home": "ORL",
-   "away_id": "1",
-   "home_id": "19",
-   "away_name": "Atlanta Hawks",
-   "home_name": "Orlando Magic",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-   "venue": "Kia Center",
-   "city": "Orlando, FL",
-   "detail": "10/21 - 7:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "ORL -2.5",
-    "total": 233.5,
-    "home_ml": -130,
-    "away_ml": 110,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909835",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-21T23:00Z",
-   "status": "pre",
-   "game": "MIL @ WSH",
-   "away": "MIL",
-   "home": "WSH",
-   "away_id": "15",
-   "home_id": "27",
-   "away_name": "Milwaukee Bucks",
-   "home_name": "Washington Wizards",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-   "venue": "Capital One Arena",
-   "city": "Washington, DC",
-   "detail": "10/21 - 7:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "WSH -6.5",
-    "total": 238.5,
-    "home_ml": -198,
-    "away_ml": 164,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "761773",
    "league": "SOCCER",
    "date": "2026-10-21",
@@ -6562,96 +6502,6 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {}
-  },
-  {
-   "id": "401909091",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-21T23:30Z",
-   "status": "pre",
-   "game": "MIN @ MIA",
-   "away": "MIN",
-   "home": "MIA",
-   "away_id": "16",
-   "home_id": "14",
-   "away_name": "Minnesota Timberwolves",
-   "home_name": "Miami Heat",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-   "venue": "Kaseya Center",
-   "city": "Miami, FL",
-   "detail": "10/21 - 7:30 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "MIA -1.5",
-    "total": 242.5,
-    "home_ml": -125,
-    "away_ml": 105,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909836",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-21T23:30Z",
-   "status": "pre",
-   "game": "CHA @ BKN",
-   "away": "CHA",
-   "home": "BKN",
-   "away_id": "30",
-   "home_id": "17",
-   "away_name": "Charlotte Hornets",
-   "home_name": "Brooklyn Nets",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-   "venue": "Barclays Center",
-   "city": "Brooklyn, NY",
-   "detail": "10/21 - 7:30 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "CHA -2.5",
-    "total": 223.5,
-    "home_ml": 110,
-    "away_ml": -130,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909837",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-21T23:30Z",
-   "status": "pre",
-   "game": "CHI @ TOR",
-   "away": "CHI",
-   "home": "TOR",
-   "away_id": "4",
-   "home_id": "28",
-   "away_name": "Chicago Bulls",
-   "home_name": "Toronto Raptors",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-   "venue": "Scotiabank Arena",
-   "city": "Toronto, ON",
-   "detail": "10/21 - 7:30 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "TOR -8.5",
-    "total": 235.5,
-    "home_ml": -345,
-    "away_ml": 275,
-    "book": "DraftKings"
-   }
   },
   {
    "id": "401892550",
@@ -6702,66 +6552,6 @@
    "odds": {}
   },
   {
-   "id": "401909838",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T00:00Z",
-   "status": "pre",
-   "game": "UTAH @ MEM",
-   "away": "UTAH",
-   "home": "MEM",
-   "away_id": "26",
-   "home_id": "29",
-   "away_name": "Utah Jazz",
-   "home_name": "Memphis Grizzlies",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-   "venue": "FedExForum",
-   "city": "Memphis, TN",
-   "detail": "10/21 - 8:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "UTAH -2.5",
-    "total": 242.5,
-    "home_ml": 114,
-    "away_ml": -135,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909839",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T00:00Z",
-   "status": "pre",
-   "game": "IND @ NO",
-   "away": "IND",
-   "home": "NO",
-   "away_id": "11",
-   "home_id": "3",
-   "away_name": "Indiana Pacers",
-   "home_name": "New Orleans Pelicans",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-   "venue": "Smoothie King Center",
-   "city": "New Orleans, LA",
-   "detail": "10/21 - 8:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "IND -3.5",
-    "total": 242.5,
-    "home_ml": 130,
-    "away_ml": -155,
-    "book": "DraftKings"
-   }
-  },
-  {
    "id": "401871070",
    "league": "NCAAF",
    "date": "2026-10-21",
@@ -6784,127 +6574,9 @@
    "home_conf": "Conference USA",
    "away_conf": "Conference USA",
    "odds": {}
-  },
-  {
-   "id": "401909840",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T00:30Z",
-   "status": "pre",
-   "game": "DAL @ HOU",
-   "away": "DAL",
-   "home": "HOU",
-   "away_id": "6",
-   "home_id": "10",
-   "away_name": "Dallas Mavericks",
-   "home_name": "Houston Rockets",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-   "venue": "Toyota Center (Houston)",
-   "city": "Houston, TX",
-   "detail": "10/21 - 8:30 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "HOU -8.5",
-    "total": 226.5,
-    "home_ml": -310,
-    "away_ml": 250,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909092",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T02:00Z",
-   "status": "pre",
-   "game": "GS @ LAL",
-   "away": "GS",
-   "home": "LAL",
-   "away_id": "9",
-   "home_id": "13",
-   "away_name": "Golden State Warriors",
-   "home_name": "Los Angeles Lakers",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-   "venue": "crypto.com Arena",
-   "city": "Los Angeles, CA",
-   "detail": "10/21 - 10:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "LAL -5.5",
-    "total": 235.5,
-    "home_ml": -185,
-    "away_ml": 154,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909841",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T02:00Z",
-   "status": "pre",
-   "game": "PHX @ POR",
-   "away": "PHX",
-   "home": "POR",
-   "away_id": "21",
-   "home_id": "22",
-   "away_name": "Phoenix Suns",
-   "home_name": "Portland Trail Blazers",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-   "venue": "Moda Center",
-   "city": "Portland, OR",
-   "detail": "10/21 - 10:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "POR -4.5",
-    "total": 235.5,
-    "home_ml": -162,
-    "away_ml": 136,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401909842",
-   "league": "NBA",
-   "date": "2026-10-21",
-   "start": "2026-10-22T02:30Z",
-   "status": "pre",
-   "game": "SAC @ LAC",
-   "away": "SAC",
-   "home": "LAC",
-   "away_id": "23",
-   "home_id": "12",
-   "away_name": "Sacramento Kings",
-   "home_name": "LA Clippers",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-   "venue": "Intuit Dome",
-   "city": "Inglewood, CA",
-   "detail": "10/21 - 10:30 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "LAC -4.5",
-    "total": 230.5,
-    "home_ml": -155,
-    "away_ml": 130,
-    "book": "DraftKings"
-   }
   }
  ],
- "problems": []
+ "problems": [
+  "NBA 2026-10-21: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }

@@ -1,7 +1,25 @@
 {
  "summary": "NLCS Game 4, Brewers lead 3-0: Glasnow vs. swingman Shane Drohan in an elimination game. Lineups are posted; it's 89 degrees with wind blowing out to right.",
  "lineups_confirmed": true,
- "legs": [],
+ "legs": [
+  {
+   "desc": "Los Angeles Dodgers ML",
+   "signals": {
+    "matchup": 0.64,
+    "season": 0.62,
+    "postseason": 0.58
+   },
+   "note": "Glasnow (11.9 K per 9) faces Shane Drohan, a swingman with a 4.19 ERA who allowed 6 and 5 runs in his last two real starts. The Dodgers are at home facing elimination, with Milwaukee's bullpen used again last night."
+  },
+  {
+   "desc": "Over 7.5",
+   "signals": {
+    "weather": 0.6,
+    "matchup": 0.56
+   },
+   "note": "It's 89 degrees with wind blowing out to right at Dodger Stadium, which helps fly balls carry. Drohan won't go deep, so Milwaukee will need a lot of relievers against a Dodgers lineup that scored 801 runs this season."
+  }
+ ],
  "extra_legs": [
   {
    "desc": "Glasnow o5.5 strikeouts",
