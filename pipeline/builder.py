@@ -76,7 +76,9 @@ def build_plays(scored: dict) -> dict | None:
         pool = [l for l in pool if l.get("side") == "under" or l["market"] == "prop"] or pool
     if not pool:
         return None
-    straight = max(pool, key=lambda l: l["edge"])
+    # Most likely winner among legs with an edge, not the biggest edge: a plus-money coin flip
+    # beat a researched -109 pick on 2026-10-15 and lost (lesson, TB @ CLE G3).
+    straight = max(pool, key=lambda l: (l["prob"], l["edge"]))
     take([straight])
     plays = {"straight": {"legs": [straight], "odds": straight["odds"], "prob": straight["prob"], "ev": straight["edge"]}}
 
@@ -148,7 +150,8 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
                 "matchup": f"{g['game']['away']} @ {g['game']['home']}"}
         # Only games with an analyst file feed the cross-game slip; unresearched market noise doesn't qualify.
         if g.get("analyst"):
-            pool += [l | meta for l in g["legs"][:4]]
+            # Only legs the research wrote up (they carry a note), not the other side of a market it never argued for.
+            pool += [l | meta for l in g["legs"][:4] if l.get("note")]
     pool = sorted(pool, key=lambda l: l["edge"] * l["prob"], reverse=True)[:18]
     if len({l["event_id"] for l in pool}) < 2:
         return None
@@ -190,8 +193,9 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
 
     plays = {}
     singles = [l for l in pool if l["prob"] >= 0.5 and _key(l) not in (sgp_straights or set())]
+    singles = [l for l in singles if ok([l])]  # the day-wide 2-bet cap applies to the straight too
     if singles:
-        s1 = max(singles, key=lambda l: l["edge"])
+        s1 = max(singles, key=lambda l: (l["prob"], l["edge"]))  # most likely winner, like the game straights
         plays["straight"] = {"legs": [s1], "odds": s1["odds"], "prob": s1["prob"], "ev": s1["edge"]}
         take([s1])
     safer_pool = [l for l in pool if l["prob"] >= 0.55 and not _coin_flip_side(l)]

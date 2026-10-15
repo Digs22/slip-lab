@@ -78,7 +78,12 @@ def _duplicate(bets: list[dict], bet: dict) -> bool:
     if bet.get("kind") == "potd":
         return False
     key = _legset(bet)
-    return any(b["id"] != bet["id"] and b["status"] == "pending" and b.get("kind") != "potd" and _legset(b) == key for b in bets)
+
+    def rebuilt_later(b):  # an unlocked, unplaced Traditional bet is rebuilt after the game slips, so it can't block one
+        return bet.get("kind") == "sgp" and b.get("kind") == "traditional" and not b.get("placed") \
+            and not (b.get("start") and locked(b["start"]))
+    return any(b["id"] != bet["id"] and b["status"] == "pending" and b.get("kind") != "potd" and not rebuilt_later(b)
+               and _legset(b) == key for b in bets)
 
 
 def _prune(bets: list[dict], prefix: str, keep: set) -> None:
@@ -199,8 +204,11 @@ def daily(date: str | None = None, only_ids: set | None = None):
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
         # Spread the risk (user, 2026-10-15): a leg already in the day's game slips counts toward its 2-bet cap.
+        # Locked or placed Traditional bets stay on the slip, so their legs count too.
         sgp_use = Counter(l["desc"] for b in bets if b.get("date") == d and b["status"] == "pending"
-                          and "-TRAD-" not in b["id"] and "-POTD-" not in b["id"] for l in b["legs"])
+                          and "-POTD-" not in b["id"]
+                          and ("-TRAD-" not in b["id"] or b.get("placed") or (b.get("start") and locked(b["start"])))
+                          for l in b["legs"])
         trad = builder.build_traditional(sc, sgp_straights, sgp_use)
         added += record_traditional(d, trad, bets, prune=not only_ids)
         added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
