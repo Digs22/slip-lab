@@ -19,5 +19,19 @@
   "at": "2026-10-14T23:25:42.696Z",
   "units": 1,
   "unit": 2
+ },
+ "2026-10-15-TBCLE-best": {
+  "id": "2026-10-15-TBCLE-best",
+  "on": true,
+  "at": "2026-10-15T16:18:29.832Z",
+  "units": 1,
+  "unit": 1
+ },
+ "2026-10-15-TBCLE-straight": {
+  "id": "2026-10-15-TBCLE-straight",
+  "on": true,
+  "at": "2026-10-15T16:18:29.832Z",
+  "units": 6,
+  "unit": 1
  }
 }

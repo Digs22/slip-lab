@@ -9,6 +9,7 @@
     python3 -m pipeline.run teams     # refresh the Settings tab's team list (and who's eliminated)
 """
 import json
+from collections import Counter
 import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -197,7 +198,10 @@ def daily(date: str | None = None, only_ids: set | None = None):
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
-        trad = builder.build_traditional(sc, sgp_straights)
+        # Spread the risk (user, 2026-10-15): a leg already in the day's game slips counts toward its 2-bet cap.
+        sgp_use = Counter(l["desc"] for b in bets if b.get("date") == d and b["status"] == "pending"
+                          and "-TRAD-" not in b["id"] and "-POTD-" not in b["id"] for l in b["legs"])
+        trad = builder.build_traditional(sc, sgp_straights, sgp_use)
         added += record_traditional(d, trad, bets, prune=not only_ids)
         added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk

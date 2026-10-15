@@ -30,6 +30,7 @@ LONGSHOT_MIN = 1000  # American odds
 TRAD_MAX_PER_GAME = 2  # a Traditional slip may take up to 2 legs from one game when they price well
 MAX_LEG_REUSE = 2  # a leg may appear in at most 2 of a game's 4 plays
 MIN_EDGE = 0.02  # drop legs with less than 2% expected value
+MAX_MODEL_SHIFT = 0.05  # the model may move a leg at most 5 points from the no-vig market (lesson 2026-10-15)
 
 SECRETS = ROOT / ".secrets"
 

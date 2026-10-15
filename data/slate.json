@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
-  "generated": "2026-10-15T11:47-04:00",
-  "games_scanned": 42,
+  "generated": "2026-10-15T14:27-04:00",
+  "games_scanned": 41,
   "problems": [],
   "upcoming": [
     {
@@ -17,16 +17,16 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
     },
     {
-      "id": "401869950",
+      "id": "401860923",
       "league": "NCAAF",
-      "game": "GASO @ ODU",
-      "start": "2026-10-15T23:30Z",
-      "venue": "S.B. Ballard Stadium",
-      "city": "Norfolk, VA",
-      "score": 0.0133,
+      "game": "CSU @ TXST",
+      "start": "2026-10-16T00:00Z",
+      "venue": "UFCU Stadium",
+      "city": "San Marcos, TX",
+      "score": 0.0132,
       "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
     },
     {
       "id": "401908945",
@@ -157,22 +157,10 @@
       "start": "2026-10-16T00:15Z",
       "venue": "Empower Field at Mile High",
       "provisional": true,
-      "score": 0.2186,
+      "score": 0.2117,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air."
-    },
-    {
-      "id": "401908025",
-      "league": "MLB",
-      "game": "TB @ CLE",
-      "start": "2026-10-15T17:00Z",
-      "venue": "Progressive Field",
-      "provisional": false,
-      "score": 0.1051,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "summary": "ALCS Game 3 in Cleveland: Williams vs. converted reliever Griffin Jax, lineups posted, 57 and sunny. Tampa Bay strikes out less than most teams, so we trimmed the Williams strikeout projection back toward his season rate."
     }
   ]
 }

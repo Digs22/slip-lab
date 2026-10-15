@@ -9,6 +9,7 @@ Rules (user's, plus lessons from graded games):
 - Low-total games anchor the straight bet on the Under or a pitcher/goalie prop.
 - Longshot must pay +1000 or longer.
 - Across the day, a team or player shows up in at most 2 games' plays.
+- Across the day, a leg is in at most 2 bets total: the Traditional slip counts the game slips' uses (user, 2026-10-15).
 """
 from collections import Counter
 from itertools import combinations
@@ -134,7 +135,7 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
     return chosen
 
 
-def build_traditional(scored_games: list[dict], sgp_straights: set | None = None) -> dict | None:
+def build_traditional(scored_games: list[dict], sgp_straights: set | None = None, prior_use: Counter | None = None) -> dict | None:
     """The same four plays across the whole slate: the day's strongest researched legs, at most
     config.TRAD_MAX_PER_GAME (2) from any one game and always spanning at least 2 games. A same-game
     pair must be on different markets and players, and is only taken when it prices better: parlays
@@ -151,8 +152,12 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
     pool = sorted(pool, key=lambda l: l["edge"] * l["prob"], reverse=True)[:18]
     if len({l["event_id"] for l in pool}) < 2:
         return None
-    used = Counter()
+    used = Counter(prior_use or {})  # legs the day's game slips already use count toward MAX_LEG_REUSE
     theses = Counter()
+    for desc, n in (prior_use or {}).items():
+        t = next((_thesis(l) for l in pool if l["desc"] == desc), None)
+        if t:
+            theses[t] += n
 
     def ok(combo):
         per = Counter(l["event_id"] for l in combo)

@@ -37,7 +37,11 @@ def model_prob(fair: float, signals: dict, weights: dict) -> float:
     so no one factor can move the price more than a fraction of the gap."""
     base = logit(fair)
     shift = sum(weights.get(f, 0) / 4 * (logit(p) - base) for f, p in signals.items() if p is not None)
-    return 1 / (1 + math.exp(-(base + shift)))
+    p = 1 / (1 + math.exp(-(base + shift)))
+    # Signals mostly come from one write-up, so they aren't independent, and summing them let the model drift
+    # 15-18 points off the market (Snell u14.5 outs: market 40%, model 58%, lost). The market beats the model
+    # so far, so never move more than config.MAX_MODEL_SHIFT away from it.
+    return min(max(p, fair - config.MAX_MODEL_SHIFT), fair + config.MAX_MODEL_SHIFT)
 
 
 def shrunk_rate(hits: int, n: int, prior: float = 0.5, k: int = 5) -> float:
