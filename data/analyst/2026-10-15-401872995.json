@@ -1,62 +1,62 @@
 {
-  "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-  "lineups_confirmed": false,
-  "legs": [
-    {
-      "desc": "Under 40.5",
-      "signals": {
-        "matchup": 0.58,
-        "line_move": 0.6,
-        "weather": 0.55,
-        "rest_travel": 0.55,
-        "recent_form": 0.56
-      },
-      "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under and scores the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with most bets on the Over. Short week, possible rain."
-    }
-  ],
-  "extra_legs": [
-    {
-      "desc": "Nix u201.5 pass yds",
-      "market": "prop",
-      "player": "Bo Nix",
-      "team": "DEN",
-      "stat": "pass_yds",
-      "side": "under",
-      "line": 201.5,
-      "odds": -115,
-      "fair": 0.58,
-      "book": "betrivers",
-      "signals": {
-        "matchup": 0.62,
-        "recent_form": 0.6,
-        "weather": 0.55
-      },
-      "projection": {
-        "mu": 186,
-        "sd": 42
-      },
-      "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average.",
-      "status": "Healthy",
-      "alt": false
-    },
-    {
-      "desc": "Smith-Njigba anytime TD",
-      "market": "prop",
-      "player": "Jaxon Smith-Njigba",
-      "team": "SEA",
-      "stat": "anytime_td",
-      "side": "over",
-      "line": 0.5,
-      "odds": 115,
-      "fair": 0.53,
-      "book": "betmgm",
-      "signals": {
-        "recent_form": 0.62,
-        "injuries": 0.56,
-        "matchup": 0.55
-      },
-      "note": "7 TDs in 5 games and scored in 4 of them. Denver may be missing CB Surtain, CB Moss and S Hufanga. Now +115, better than the even money we had.",
-      "status": "Questionable (ankle). Limited in Tuesday's practice, expected to play. Denver CB Surtain is doubtful, and Moss and Hufanga are questionable"
-    }
-  ]
+ "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
+ "lineups_confirmed": true,
+ "legs": [
+  {
+   "desc": "Under 40.5",
+   "signals": {
+    "matchup": 0.58,
+    "line_move": 0.6,
+    "weather": 0.55,
+    "rest_travel": 0.55,
+    "recent_form": 0.56
+   },
+   "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under and scores the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with most bets on the Over. Short week, possible rain."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "Nix u201.5 pass yds",
+   "market": "prop",
+   "player": "Bo Nix",
+   "team": "DEN",
+   "stat": "pass_yds",
+   "side": "under",
+   "line": 201.5,
+   "odds": -117,
+   "fair": 0.53,
+   "book": "betrivers",
+   "signals": {
+    "matchup": 0.62,
+    "recent_form": 0.6,
+    "weather": 0.55
+   },
+   "projection": {
+    "mu": 186,
+    "sd": 42
+   },
+   "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
+   "status": "Healthy",
+   "alt": false
+  },
+  {
+   "desc": "Smith-Njigba anytime TD",
+   "market": "prop",
+   "player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "stat": "anytime_td",
+   "side": "over",
+   "line": 0.5,
+   "odds": 110,
+   "fair": 0.49,
+   "book": "betmgm",
+   "signals": {
+    "recent_form": 0.62,
+    "injuries": 0.56,
+    "matchup": 0.55
+   },
+   "note": "7 TDs in 5 games and scored in 4 of them. Denver may be missing CB Surtain, CB Moss and S Hufanga. Now +115, better than the even money we had.",
+   "status": "Active, no injury designation (practiced fully Wednesday). Denver CB Surtain and S Hufanga are out, and CB Moss is questionable"
+  }
+ ]
 }

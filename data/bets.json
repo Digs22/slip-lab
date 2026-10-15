@@ -807,15 +807,15 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "home_conf": null,
       "away_conf": null,
-      "odds": -115,
+      "odds": -117,
       "units": 6,
-      "prob": 0.6036,
-      "ev": 0.1284,
-      "provisional": true,
-      "score": 0.2194,
+      "prob": 0.58,
+      "ev": 0.0757,
+      "provisional": false,
+      "score": 0.1424,
       "rank": 1,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": "51\u00b0F, wind 5 mph, 0% rain",
+      "weather": "53\u00b0F, wind 6 mph, 0% rain",
       "legs": [
         {
           "desc": "Nix u201.5 pass yds",
@@ -825,11 +825,11 @@
           "player": "Bo Nix",
           "stat": "pass_yds",
           "line": 201.5,
-          "odds": -115,
+          "odds": -117,
           "book": "betrivers",
-          "fair": 0.58,
-          "prob": 0.6036,
-          "edge": 0.1284,
+          "fair": 0.53,
+          "prob": 0.58,
+          "edge": 0.0757,
           "signals": {
             "injuries": 0.6,
             "projection": 0.6439538844098888,
@@ -837,7 +837,7 @@
             "recent_form": 0.6,
             "weather": 0.55
           },
-          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average.",
+          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
           "main_line": null
@@ -846,32 +846,32 @@
       "status": "pending",
       "net": null,
       "stake": 18.0,
-      "to_win": 15.65
+      "to_win": 15.38
     },
     {
-      "id": "2026-10-15-SEADEN-safer",
+      "id": "2026-10-15-SEADEN-best",
       "kind": "sgp",
       "date": "2026-10-15",
       "league": "NFL",
       "event_id": "401872995",
       "game": "SEA @ DEN",
       "start": "2026-10-16T00:15Z",
-      "play": "safer",
+      "play": "best",
       "venue": "Empower Field at Mile High",
       "city": "Denver, CO",
       "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
       "home_conf": null,
       "away_conf": null,
-      "odds": 302,
-      "units": 2.5,
-      "prob": 0.3371,
-      "ev": 0.3551,
-      "provisional": true,
-      "score": 0.2194,
+      "odds": 660,
+      "units": 1,
+      "prob": 0.1659,
+      "ev": 0.2608,
+      "provisional": false,
+      "score": 0.1424,
       "rank": 1,
       "summary": "Thursday night in Denver: two top-10 pass defenses, a short week and possible rain. Sharp money has pushed the total from 43.5 down to 40.5, so we lean Under and fade Bo Nix through the air.",
-      "weather": "51\u00b0F, wind 5 mph, 0% rain",
+      "weather": "53\u00b0F, wind 6 mph, 0% rain",
       "legs": [
         {
           "desc": "Smith-Njigba anytime TD",
@@ -881,18 +881,18 @@
           "player": "Jaxon Smith-Njigba",
           "stat": "anytime_td",
           "line": 0.5,
-          "odds": 115,
+          "odds": 110,
           "book": "betmgm",
-          "fair": 0.53,
-          "prob": 0.5547,
-          "edge": 0.1926,
+          "fair": 0.49,
+          "prob": 0.5338,
+          "edge": 0.1211,
           "signals": {
             "injuries": 0.56,
             "recent_form": 0.62,
             "matchup": 0.55
           },
           "note": "7 TDs in 5 games and scored in 4 of them. Denver may be missing CB Surtain, CB Moss and S Hufanga. Now +115, better than the even money we had.",
-          "status": "Questionable (ankle). Limited in Tuesday's practice, expected to play. Denver CB Surtain is doubtful, and Moss and Hufanga are questionable",
+          "status": "Active, no injury designation (practiced fully Wednesday). Denver CB Surtain and S Hufanga are out, and CB Moss is questionable",
           "alt": null,
           "main_line": null
         },
@@ -904,11 +904,11 @@
           "player": "Bo Nix",
           "stat": "pass_yds",
           "line": 201.5,
-          "odds": -115,
+          "odds": -117,
           "book": "betrivers",
-          "fair": 0.58,
-          "prob": 0.6036,
-          "edge": 0.1284,
+          "fair": 0.53,
+          "prob": 0.58,
+          "edge": 0.0757,
           "signals": {
             "injuries": 0.6,
             "projection": 0.6439538844098888,
@@ -916,16 +916,41 @@
             "recent_form": 0.6,
             "weather": 0.55
           },
-          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average.",
+          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
+          "main_line": null
+        },
+        {
+          "desc": "Under 40.5",
+          "market": "total",
+          "side": "under",
+          "team": null,
+          "player": null,
+          "stat": null,
+          "line": 40.5,
+          "odds": -105,
+          "book": "BetUS",
+          "fair": 0.4957,
+          "prob": 0.5441,
+          "edge": 0.0623,
+          "signals": {
+            "recent_form": 0.56,
+            "matchup": 0.58,
+            "line_move": 0.6,
+            "weather": 0.55,
+            "rest_travel": 0.55
+          },
+          "note": "Two top-10 pass defenses and two bottom-tier third-down offenses. Denver is 1-4 to the Under and scores the fewest first-half points in the NFL. The line fell from 43.5 to 40.5 even with most bets on the Over. Short week, possible rain.",
+          "status": null,
+          "alt": null,
           "main_line": null
         }
       ],
       "status": "pending",
       "net": null,
-      "stake": 7.5,
-      "to_win": 22.65
+      "stake": 3.0,
+      "to_win": 19.8
     },
     {
       "id": "2026-10-15-TRAD-straight",
@@ -935,10 +960,10 @@
       "game": "Multi-game \u00b7 1 game",
       "start": "2026-10-16T00:00Z",
       "play": "straight",
-      "odds": -145,
+      "odds": -155,
       "units": 6,
-      "prob": 0.6322,
-      "ev": 0.0683,
+      "prob": 0.6371,
+      "ev": 0.0481,
       "legs": [
         {
           "desc": "Glasnow o5.5 strikeouts",
@@ -948,11 +973,11 @@
           "player": "Tyler Glasnow",
           "stat": "strikeouts",
           "line": 5.5,
-          "odds": -145,
-          "book": "betonlineag",
-          "fair": 0.59,
-          "prob": 0.6322,
-          "edge": 0.0683,
+          "odds": -155,
+          "book": "draftkings",
+          "fair": 0.61,
+          "prob": 0.6371,
+          "edge": 0.0481,
           "signals": {
             "projection": 0.6730228699281168,
             "season": 0.68,
@@ -961,7 +986,7 @@
             "postseason": 0.55
           },
           "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
-          "status": "Healthy. He walked 5 in his NLDS start, which is the main risk to a long outing",
+          "status": "Confirmed starter, healthy",
           "alt": null,
           "main_line": null,
           "event_id": "401908033",
@@ -974,7 +999,7 @@
       "status": "pending",
       "net": null,
       "stake": 18.0,
-      "to_win": 12.41
+      "to_win": 11.61
     },
     {
       "id": "2026-10-15-POTD-MLB",
@@ -989,10 +1014,10 @@
       "city": "Los Angeles, California",
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-      "odds": -145,
+      "odds": -155,
       "units": 4,
-      "prob": 0.6322,
-      "ev": 0.0683,
+      "prob": 0.6371,
+      "ev": 0.0481,
       "legs": [
         {
           "desc": "Glasnow o5.5 strikeouts",
@@ -1002,11 +1027,11 @@
           "player": "Tyler Glasnow",
           "stat": "strikeouts",
           "line": 5.5,
-          "odds": -145,
-          "book": "betonlineag",
-          "fair": 0.59,
-          "prob": 0.6322,
-          "edge": 0.0683,
+          "odds": -155,
+          "book": "draftkings",
+          "fair": 0.61,
+          "prob": 0.6371,
+          "edge": 0.0481,
           "signals": {
             "projection": 0.6730228699281168,
             "season": 0.68,
@@ -1015,7 +1040,7 @@
             "postseason": 0.55
           },
           "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
-          "status": "Healthy. He walked 5 in his NLDS start, which is the main risk to a long outing",
+          "status": "Confirmed starter, healthy",
           "alt": null,
           "main_line": null
         }
@@ -1023,7 +1048,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 8.28
+      "to_win": 7.74
     },
     {
       "id": "2026-10-15-POTD-NFL",
@@ -1038,10 +1063,10 @@
       "city": "Denver, CO",
       "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-      "odds": -115,
+      "odds": -117,
       "units": 4,
-      "prob": 0.6036,
-      "ev": 0.1284,
+      "prob": 0.58,
+      "ev": 0.0757,
       "legs": [
         {
           "desc": "Nix u201.5 pass yds",
@@ -1051,11 +1076,11 @@
           "player": "Bo Nix",
           "stat": "pass_yds",
           "line": 201.5,
-          "odds": -115,
+          "odds": -117,
           "book": "betrivers",
-          "fair": 0.58,
-          "prob": 0.6036,
-          "edge": 0.1284,
+          "fair": 0.53,
+          "prob": 0.58,
+          "edge": 0.0757,
           "signals": {
             "injuries": 0.6,
             "projection": 0.6439538844098888,
@@ -1063,7 +1088,7 @@
             "recent_form": 0.6,
             "weather": 0.55
           },
-          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average.",
+          "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
           "main_line": null
@@ -1072,7 +1097,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 10.43
+      "to_win": 10.26
     }
   ]
 }

@@ -1,13 +1,31 @@
 {
-  "summary": "NLCS Game 4, Brewers lead 3-0: Glasnow starts for a Dodgers team facing elimination, and Milwaukee hasn't named a starter yet.",
-  "lineups_confirmed": false,
-  "legs": [],
-  "extra_legs": [
-    {"desc": "Glasnow o5.5 strikeouts", "market": "prop", "player": "Tyler Glasnow", "team": "LAD", "stat": "strikeouts",
-     "side": "over", "line": 5.5, "odds": -145, "fair": 0.59, "book": "betonlineag",
-     "signals": {"season": 0.68, "recent_form": 0.66, "matchup": 0.58, "postseason": 0.55},
-     "projection": {"mu": 6.8, "sd": 2.3},
-     "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
-     "status": "Healthy. He walked 5 in his NLDS start, which is the main risk to a long outing"}
-  ]
+ "summary": "NLCS Game 4, Brewers lead 3-0: Glasnow vs. swingman Shane Drohan in an elimination game. Lineups are posted; it's 89 degrees with wind blowing out to right.",
+ "lineups_confirmed": true,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Glasnow o5.5 strikeouts",
+   "market": "prop",
+   "player": "Tyler Glasnow",
+   "team": "LAD",
+   "stat": "strikeouts",
+   "side": "over",
+   "line": 5.5,
+   "odds": -155,
+   "fair": 0.61,
+   "book": "draftkings",
+   "signals": {
+    "season": 0.68,
+    "recent_form": 0.66,
+    "matchup": 0.58,
+    "postseason": 0.55
+   },
+   "projection": {
+    "mu": 6.8,
+    "sd": 2.3
+   },
+   "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
+   "status": "Confirmed starter, healthy"
+  }
+ ]
 }
