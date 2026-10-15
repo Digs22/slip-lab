@@ -13,7 +13,7 @@ import math
 from statistics import mean
 
 from . import config, sources
-from .odds import edge, implied, no_vig
+from .odds import edge, implied, no_vig, to_american
 
 FACTORS = ["projection", "recent_form", "season", "matchup", "home_away", "rest_travel", "weather",
            "injuries", "coaching", "postseason", "news", "line_move"]
@@ -64,8 +64,9 @@ def best_lines(odds_events: list[dict], home: str, away: str) -> list[dict]:
                  and (p2 == point or (mkt == "spreads" and p2 == -(point or 0)))]
         if not other:
             continue
-        a = mean(p for p, _ in prices)
-        b = mean(p for p, _ in other[0])
+        # Average in probability space: the mean of -105 and +105 in American odds is 0, not even money.
+        a = to_american(1 / mean(implied(p) for p, _ in prices))
+        b = to_american(1 / mean(implied(p) for p, _ in other[0]))
         fair = no_vig(a, b)[0]
         price, title = max(prices, key=lambda x: x[0])
         legs.append({
