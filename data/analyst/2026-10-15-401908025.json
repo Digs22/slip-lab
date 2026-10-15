@@ -1,6 +1,6 @@
 {
- "summary": "ALCS Game 3 in Cleveland: Gavin Williams has struck out 23 in his last two playoff starts, and Tampa Bay opens with converted reliever Griffin Jax on a short leash. It's a low total, so we lean on the Under and Williams' strikeouts.",
- "lineups_confirmed": false,
+ "summary": "ALCS Game 3 in Cleveland: Williams vs. converted reliever Griffin Jax, lineups posted, 57 and sunny. Tampa Bay strikes out less than most teams, so we trimmed the Williams strikeout projection back toward his season rate.",
+ "lineups_confirmed": true,
  "legs": [
   {
    "desc": "Under 6.5",
@@ -31,20 +31,21 @@
    "stat": "strikeouts",
    "side": "over",
    "line": 6.5,
-   "odds": -109,
-   "fair": 0.6,
-   "book": "draftkings",
+   "odds": 100,
+   "fair": 0.45,
+   "book": "betmgm",
    "signals": {
-    "recent_form": 0.66,
-    "postseason": 0.64,
-    "matchup": 0.55
+    "season": 0.58,
+    "recent_form": 0.62,
+    "postseason": 0.6,
+    "matchup": 0.45
    },
    "projection": {
-    "mu": 8.4,
-    "sd": 2.6
+    "mu": 7.0,
+    "sd": 2.5
    },
-   "note": "He has 11 and 12 strikeouts in his two playoff starts and reached 7 or more in 5 of his last 6 starts. Tampa Bay's lineup struck out more often against right-handers in September.",
-   "status": "Confirmed starter (MLB lists Gavin Williams for Game 3)"
+   "note": "Williams averaged 7.75 strikeouts a start this season (12.1 per 9) and has 23 in two playoff starts. Tampa Bay strikes out only 18.8% of the time, though, so we project about 7.",
+   "status": "Confirmed starter, healthy"
   },
   {
    "desc": "G. Williams u16.5 outs",
@@ -54,19 +55,19 @@
    "stat": "pitcher_outs",
    "side": "under",
    "line": 16.5,
-   "odds": -106,
-   "fair": 0.56,
+   "odds": -125,
+   "fair": 0.55,
    "book": "draftkings",
    "signals": {
-    "recent_form": 0.58,
-    "coaching": 0.57
+    "season": 0.45,
+    "coaching": 0.55
    },
    "projection": {
-    "mu": 15.6,
+    "mu": 17.0,
     "sd": 3.0
    },
-   "note": "His strikeouts and walks run his pitch count up fast. He threw 94 to 98 pitches to get only 15 to 17 outs in both playoff starts, and Cleveland's bullpen is rested.",
-   "status": "Confirmed starter (MLB lists Gavin Williams for Game 3)"
+   "note": "He averaged 17 outs a start this season, so this mostly depends on Cleveland's hook. We now see no edge here.",
+   "status": "Confirmed starter, healthy"
   },
   {
    "desc": "Jax u11.5 outs",
@@ -76,8 +77,8 @@
    "stat": "pitcher_outs",
    "side": "under",
    "line": 11.5,
-   "odds": -117,
-   "fair": 0.57,
+   "odds": 111,
+   "fair": 0.46,
    "book": "draftkings",
    "signals": {
     "coaching": 0.62,
@@ -88,7 +89,7 @@
     "sd": 3.0
    },
    "note": "Jax is a converted reliever who topped out at 82 pitches this year, and he threw only 2 innings in his last playoff outing. Tampa Bay pulls starters early in the playoffs.",
-   "status": "Confirmed starter"
+   "status": "Confirmed starter. He's a converted reliever on a short leash"
   }
  ]
 }
