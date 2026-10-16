@@ -60,7 +60,7 @@ def _parlay(legs):
 
 def build_plays(scored: dict) -> dict | None:
     legs = scored["legs"][:12]
-    if len(legs) < 3:
+    if not legs:  # one or two edges still make a straight (and maybe a safer); parlays need the legs to exist
         return None
     used = Counter()
     theses = Counter()

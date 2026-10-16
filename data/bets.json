@@ -1203,6 +1203,107 @@
       "stake": 12.0,
       "to_win": 10.26,
       "final": "SEA 14, DEN 17"
+    },
+    {
+      "id": "2026-10-16-TBCLE-straight",
+      "kind": "sgp",
+      "date": "2026-10-16",
+      "league": "MLB",
+      "event_id": "401908026",
+      "game": "TB @ CLE",
+      "start": "2026-10-17T00:00Z",
+      "play": "straight",
+      "venue": "Progressive Field",
+      "city": "Cleveland, Ohio",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "home_conf": null,
+      "away_conf": null,
+      "odds": -135,
+      "units": 6,
+      "prob": 0.6059,
+      "ev": 0.0546,
+      "provisional": true,
+      "score": 0.0331,
+      "rank": 1,
+      "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 17 outs a start this season) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game. The total has moved toward the Over.",
+      "weather": null,
+      "legs": [
+        {
+          "desc": "N. Martinez o11.5 outs",
+          "market": "prop",
+          "side": "over",
+          "team": "TB",
+          "player": "Nick Martinez",
+          "stat": "pitcher_outs",
+          "line": 11.5,
+          "odds": -135,
+          "book": "betmgm",
+          "fair": 0.575,
+          "prob": 0.6059,
+          "edge": 0.0546,
+          "signals": {
+            "projection": 0.7161454169013237,
+            "season": 0.62,
+            "recent_form": 0.5
+          },
+          "note": "Martinez averaged 17 outs on 81 pitches across 31 starts this season, and four full innings is a low bar. His two short outings came when he was hit hard and when a line drive struck him.",
+          "status": "Confirmed starter",
+          "alt": null,
+          "main_line": null
+        }
+      ],
+      "status": "pending",
+      "net": null,
+      "stake": 18.0,
+      "to_win": 13.33
+    },
+    {
+      "id": "2026-10-16-POTD-MLB",
+      "kind": "potd",
+      "date": "2026-10-16",
+      "league": "MLB",
+      "event_id": "401908026",
+      "game": "TB @ CLE",
+      "start": "2026-10-17T00:00Z",
+      "play": "straight",
+      "venue": "Progressive Field",
+      "city": "Cleveland, Ohio",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "odds": -135,
+      "units": 4,
+      "prob": 0.6059,
+      "ev": 0.0546,
+      "legs": [
+        {
+          "desc": "N. Martinez o11.5 outs",
+          "market": "prop",
+          "side": "over",
+          "team": "TB",
+          "player": "Nick Martinez",
+          "stat": "pitcher_outs",
+          "line": 11.5,
+          "odds": -135,
+          "book": "betmgm",
+          "fair": 0.575,
+          "prob": 0.6059,
+          "edge": 0.0546,
+          "signals": {
+            "projection": 0.7161454169013237,
+            "season": 0.62,
+            "recent_form": 0.5
+          },
+          "note": "Martinez averaged 17 outs on 81 pitches across 31 starts this season, and four full innings is a low bar. His two short outings came when he was hit hard and when a line drive struck him.",
+          "status": "Confirmed starter",
+          "alt": null,
+          "main_line": null
+        }
+      ],
+      "status": "pending",
+      "net": null,
+      "stake": 12.0,
+      "to_win": 8.89
     }
   ]
 }
