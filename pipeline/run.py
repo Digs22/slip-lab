@@ -201,6 +201,10 @@ def daily(date: str | None = None, only_ids: set | None = None):
         except Exception as e:  # training data must never block picks
             pr.append(f"candidates: {e}")
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
+        if not only_ids:  # a game that dropped out of the picks (lost its edge or its research) loses its open plays
+            keep = {b["id"] for p in pk for b in bets if b.get("event_id") == p["game"]["id"]}
+            for b in [b for b in bets if b.get("kind") == "sgp" and b.get("date") == d and b["id"] not in keep]:
+                _prune(bets, b["id"], set())
         added += record_plays(d, pk, bets)
         sgp_straights = {p["plays"]["straight"]["legs"][0]["desc"] for p in pk if "straight" in p["plays"]}
         # Spread the risk (user, 2026-10-15): a leg already in the day's game slips counts toward its 2-bet cap.

@@ -1,0 +1,9 @@
+{
+ "summary": "Penn State (3-3, three straight losses) visits Michigan (3-2) under first-year coach Matt Campbell. Michigan's games have been low scoring, and Penn State is again without its top receiver, Koby Howard.",
+ "lineups_confirmed": false,
+ "legs": [
+  {"desc": "Under 42.5", "signals": {"recent_form": 0.56, "injuries": 0.54},
+   "note": "Four of Michigan's last five games finished under 42 points (25, 27, 39 and 34). Penn State's passing game loses its best target with Howard out."}
+ ],
+ "extra_legs": []
+}

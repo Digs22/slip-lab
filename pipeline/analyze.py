@@ -72,6 +72,11 @@ def best_lines(odds_events: list[dict], home: str, away: str) -> list[dict]:
         a = to_american(1 / mean(implied(p) for p, _ in prices))
         b = to_american(1 / mean(implied(p) for p, _ in other[0]))
         fair = no_vig(a, b)[0]
+        if mkt == "h2h":  # soccer moneylines are 3-way: de-vig against every other result, draw included
+            rest = [v for (m2, n2, _), v in book.items() if m2 == "h2h" and n2 != name]
+            if len(rest) > 1:
+                pa = mean(implied(x) for x, _ in prices)
+                fair = pa / (pa + sum(mean(implied(x) for x, _ in v) for v in rest))
         price, title = max(prices, key=lambda x: x[0])
         legs.append({
             "market": {"h2h": "ml", "spreads": "spread", "totals": "total"}[mkt],

@@ -1,0 +1,9 @@
+{
+ "summary": "First top-10 game in Provo: No. 2 Notre Dame (6-0) at No. 8 BYU (5-0). BYU is without star running back LJ Martin, and Notre Dame's defense has allowed 10.6 points a game over its last five.",
+ "lineups_confirmed": false,
+ "legs": [
+  {"desc": "Under 46.5", "signals": {"matchup": 0.55, "injuries": 0.55},
+   "note": "BYU's defense has held four of its last five opponents to 23 points or fewer, and losing Martin takes away its best runner. Notre Dame's defense has allowed 10 or fewer in four of five."}
+ ],
+ "extra_legs": []
+}

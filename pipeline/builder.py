@@ -4,10 +4,12 @@ Rules (user's, plus lessons from graded games):
 - No leg in more than 2 of a game's 4 plays.
 - No idea in more than 2 plays either: one starter's props (outs, strikeouts, hits/runs allowed) count as one
   idea (lesson from MIL @ LAD G3, 2026-10-14, where 3 plays all needed Snell to leave early).
+- A parlay never has two moneylines, spreads or totals from one game (a draw and both teams' ML can't all win).
 - A parlay never has two props on the same player (so never a pitcher's K-under with his outs-under).
 - Safer parlay = two strong, independent legs; no team side from a near coin-flip game.
 - Low-total games anchor the straight bet on the Under or a pitcher/goalie prop.
 - Longshot must pay +1000 or longer.
+- Only researched games (an analyst file with a summary) get plays.
 - Across the day, a team or player shows up in at most 2 games' plays.
 - Across the day, a leg is in at most 2 bets total: the Traditional slip counts the game slips' uses (user, 2026-10-15).
 """
@@ -39,7 +41,10 @@ def _thesis(leg):
 def _independent(legs):
     """Legs on different markets and not the same player/team: a loose stand-in for independence."""
     tags = [(l["market"], l.get("player") or l.get("team") or l.get("side")) for l in legs]
-    return len(set(tags)) == len(tags) and len({l["desc"] for l in legs}) == len(legs)
+    # One result per game-line market: two moneylines (team A, team B or the draw) can't both win.
+    lines = [(l.get("event_id"), l["market"]) for l in legs if l["market"] in ("ml", "spread", "total")]
+    return (len(set(tags)) == len(tags) and len({l["desc"] for l in legs}) == len(legs)
+            and len(set(lines)) == len(lines))
 
 
 def _coin_flip_side(leg):
@@ -123,6 +128,8 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
     for g in sorted(scored_games, key=lambda g: g["score"], reverse=True):
         if len(chosen) == n:
             break
+        if not g.get("analyst"):  # no research, no plays: unresearched edges were market noise (0-8 start, 2026-10-15)
+            continue
         if g["score"] < config.MIN_GAME_SCORE and not (
                 per_league[g["game"]["league"]] <= 2 and not any(c["game"]["league"] == g["game"]["league"] for c in chosen)):
             continue

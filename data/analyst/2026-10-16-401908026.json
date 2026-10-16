@@ -1,0 +1,34 @@
+{
+ "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 5.5 K per 9) for Tampa Bay, Cleveland's starter not yet named. Two of three games in this series stayed at 5 runs or fewer.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Under 6.5",
+   "signals": {"matchup": 0.55, "postseason": 0.55},
+   "note": "Games 2 and 3 produced 4 and 5 runs, and Martinez allowed a 1.09 WHIP this season. Both managers go to deep, rested bullpens early in October."
+  },
+  {
+   "desc": "Guardians +1.5",
+   "signals": {"home": 0.55, "postseason": 0.54},
+   "note": "Every game in this series has been decided by 4 runs or fewer and two by 1 or 2, and Cleveland is at home. Getting a run and a half in a tight, low-scoring series covers most outcomes."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "N. Martinez u3.5 hits allowed",
+   "market": "prop",
+   "player": "Nick Martinez",
+   "team": "TB",
+   "stat": "hits_allowed",
+   "side": "under",
+   "line": 3.5,
+   "odds": -135,
+   "fair": 0.55,
+   "book": "betmgm",
+   "signals": {"season": 0.56, "recent_form": 0.55},
+   "projection": {"mu": 3.2, "sd": 1.6},
+   "note": "Martinez allows about 7 hits per 9 innings, and the market expects him to get only about 12 outs. That projects around 3 hits, and his last two starts allowed 1 and 3.",
+   "status": "Probable starter; took a liner off the back in the ALDS clincher but has shown no sign of injury"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "summary": "Top-5 Big Ten game in Bloomington: unbeaten Indiana (6-0) hosts Ohio State (5-1), which played its last game without six starters. ESPN's FPI has it close to a coin flip, while the spread prices Ohio State by 3.5.",
+ "lineups_confirmed": false,
+ "legs": [
+  {"desc": "Indiana Hoosiers +3.5", "signals": {"matchup": 0.58, "home": 0.56, "injuries": 0.55},
+   "note": "FPI gives Indiana a 48.6% chance to win outright, so getting 3.5 points at home covers more often than the price implies. Ohio State is still waiting on several starters, including lineman Austin Siereveld, to return."}
+ ],
+ "extra_legs": []
+}
