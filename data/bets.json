@@ -694,7 +694,9 @@
           "league": "NFL",
           "matchup": "SEA @ DEN",
           "start": "2026-10-16T00:15Z",
-          "date": "2026-10-15"
+          "date": "2026-10-15",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 40.5",
@@ -724,7 +726,8 @@
           "league": "NFL",
           "matchup": "SEA @ DEN",
           "start": "2026-10-16T00:15Z",
-          "date": "2026-10-15"
+          "date": "2026-10-15",
+          "result": "win"
         },
         {
           "desc": "G. Williams o6.5 strikeouts",
@@ -787,10 +790,12 @@
           "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 24.05
+      "to_win": 24.05,
+      "final": "SEA 14-17 DEN; SEA 14-17 DEN",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-15-TRAD-straight",
@@ -833,13 +838,15 @@
           "league": "MLB",
           "matchup": "MIL @ LAD",
           "start": "2026-10-16T00:00Z",
-          "date": "2026-10-15"
+          "date": "2026-10-15",
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 11.61,
       "stake": 18.0,
-      "to_win": 11.61
+      "to_win": 11.61,
+      "final": "MIL 6-4 LAD"
     },
     {
       "id": "2026-10-15-POTD-MLB",
@@ -882,13 +889,15 @@
           "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
           "status": "Confirmed starter, healthy",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 7.74,
       "stake": 12.0,
-      "to_win": 7.74
+      "to_win": 7.74,
+      "final": "MIL 6, LAD 4"
     },
     {
       "id": "2026-10-15-SEADEN-straight",
@@ -938,13 +947,15 @@
           "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 15.38,
       "stake": 18.0,
-      "to_win": 15.38
+      "to_win": 15.38,
+      "final": "SEA 14, DEN 17"
     },
     {
       "id": "2026-10-15-SEADEN-best",
@@ -992,7 +1003,9 @@
           "note": "7 TDs in 5 games and scored in 4 of them. Denver may be missing CB Surtain, CB Moss and S Hufanga. Now +115, better than the even money we had.",
           "status": "Active, no injury designation (practiced fully Wednesday). Denver CB Surtain and S Hufanga are out, and CB Moss is questionable",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Nix u201.5 pass yds",
@@ -1017,7 +1030,8 @@
           "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "Under 40.5",
@@ -1043,13 +1057,16 @@
           "status": null,
           "alt": null,
           "main_line": null,
-          "closing_odds": -108
+          "closing_odds": -108,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 19.8
+      "to_win": 19.8,
+      "final": "SEA 14, DEN 17",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-15-MILLAD-safer",
@@ -1099,7 +1116,8 @@
           "note": "Glasnow averaged 7.5 strikeouts a start this season (11.9 per 9 innings) and had 6 or more in 5 of his last 6 starts. Milwaukee strikes out 22% of the time, and the Dodgers have no reason to pull him early in an elimination game.",
           "status": "Confirmed starter, healthy",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "Los Angeles Dodgers ML",
@@ -1123,13 +1141,17 @@
           "status": null,
           "alt": null,
           "main_line": null,
-          "closing_odds": -151
+          "closing_odds": -151,
+          "result": "loss",
+          "cause": "variance"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -7.5,
       "stake": 7.5,
-      "to_win": 13.88
+      "to_win": 13.88,
+      "final": "MIL 6, LAD 4",
+      "cause": "variance"
     },
     {
       "id": "2026-10-15-POTD-NFL",
@@ -1172,13 +1194,15 @@
           "note": "Averages 188 yards a game, threw for 123 last week, and his 5.8 yards per attempt is a career low. Seattle has the No. 1 pass defense at 151 yards a game. The line dropped from 209.5, so less cushion, but still under his average. Other books now set his line at 194.5-198.5, so 201.5 at BetRivers is the best under number.",
           "status": "Healthy",
           "alt": false,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 10.26,
       "stake": 12.0,
-      "to_win": 10.26
+      "to_win": 10.26,
+      "final": "SEA 14, DEN 17"
     }
   ]
 }

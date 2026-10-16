@@ -27,43 +27,51 @@
   ],
   "flags": [
     {
+      "split": "market",
+      "name": "mixed",
+      "roi": -100.0,
+      "n": 9,
+      "action": "Cut stake in half until ROI recovers"
+    },
+    {
       "split": "league",
       "name": "MLB",
-      "roi": -75.1,
-      "n": 10,
+      "roi": -61.5,
+      "n": 12,
       "action": "Cut stake in half until ROI recovers"
     }
   ],
   "loss_causes": {
     "untagged": 5,
-    "bad read": 8
+    "bad read": 10,
+    "variance": 1
   },
   "weights": {
-    "projection": 0.95,
-    "recent_form": 0.75,
-    "season": 0.55,
+    "projection": 1.1,
+    "recent_form": 0.95,
+    "season": 0.6,
     "matchup": 0.45,
     "home_away": 0.5,
-    "rest_travel": 0.5,
-    "weather": 0.5,
+    "rest_travel": 0.55,
+    "weather": 0.6,
     "injuries": 0.7,
     "coaching": 0.45,
-    "postseason": 0.3,
+    "postseason": 0.35,
     "news": 0.45,
-    "line_move": 0.5
+    "line_move": 0.55
   },
   "retrain": {
-    "n": 48,
+    "n": 193,
     "accepted": false,
     "reason": "waiting for 300 graded legs",
     "market_check": {
-      "n": 48,
-      "model_logloss": 0.6988,
-      "market_logloss": 0.6868,
+      "n": 193,
+      "model_logloss": 0.6777,
+      "market_logloss": 0.6711,
       "beats_market": false,
-      "picked_n": 8,
-      "picked_hit": 0.25,
-      "picked_expected": 0.541
+      "picked_n": 17,
+      "picked_hit": 0.353,
+      "picked_expected": 0.521
     }
   }
 }
