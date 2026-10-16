@@ -1219,15 +1219,15 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
       "home_conf": null,
       "away_conf": null,
-      "odds": -135,
+      "odds": -138,
       "units": 6,
-      "prob": 0.6059,
-      "ev": 0.0546,
-      "provisional": true,
-      "score": 0.0331,
+      "prob": 0.6042,
+      "ev": 0.042,
+      "provisional": false,
+      "score": 0.0254,
       "rank": 1,
-      "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 17 outs a start this season) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game. The total has moved toward the Over.",
-      "weather": null,
+      "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 17 outs a start this season) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game. The total has moved toward the Over. Lineups are posted; 59 degrees and cloudy.",
+      "weather": "52\u00b0F, wind 19 mph, 55% rain",
       "legs": [
         {
           "desc": "N. Martinez o11.5 outs",
@@ -1237,11 +1237,11 @@
           "player": "Nick Martinez",
           "stat": "pitcher_outs",
           "line": 11.5,
-          "odds": -135,
-          "book": "betmgm",
-          "fair": 0.575,
-          "prob": 0.6059,
-          "edge": 0.0546,
+          "odds": -138,
+          "book": "fanduel",
+          "fair": 0.57,
+          "prob": 0.6042,
+          "edge": 0.042,
           "signals": {
             "projection": 0.7161454169013237,
             "season": 0.62,
@@ -1256,7 +1256,7 @@
       "status": "pending",
       "net": null,
       "stake": 18.0,
-      "to_win": 13.33
+      "to_win": 13.04
     },
     {
       "id": "2026-10-16-POTD-MLB",
@@ -1271,10 +1271,10 @@
       "city": "Cleveland, Ohio",
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "odds": -135,
+      "odds": -138,
       "units": 4,
-      "prob": 0.6059,
-      "ev": 0.0546,
+      "prob": 0.6042,
+      "ev": 0.042,
       "legs": [
         {
           "desc": "N. Martinez o11.5 outs",
@@ -1284,11 +1284,11 @@
           "player": "Nick Martinez",
           "stat": "pitcher_outs",
           "line": 11.5,
-          "odds": -135,
-          "book": "betmgm",
-          "fair": 0.575,
-          "prob": 0.6059,
-          "edge": 0.0546,
+          "odds": -138,
+          "book": "fanduel",
+          "fair": 0.57,
+          "prob": 0.6042,
+          "edge": 0.042,
           "signals": {
             "projection": 0.7161454169013237,
             "season": 0.62,
@@ -1303,7 +1303,7 @@
       "status": "pending",
       "net": null,
       "stake": 12.0,
-      "to_win": 8.89
+      "to_win": 8.7
     }
   ]
 }

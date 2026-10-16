@@ -1,6 +1,6 @@
 {
- "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 17 outs a start this season) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game. The total has moved toward the Over.",
- "lineups_confirmed": false,
+ "summary": "ALCS Game 4 in Cleveland, Guardians up 2-1: Nick Martinez (3.10 ERA, 17 outs a start this season) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game. The total has moved toward the Over. Lineups are posted; 59 degrees and cloudy.",
+ "lineups_confirmed": true,
  "legs": [
   {
    "desc": "Guardians +1.5",
@@ -27,9 +27,9 @@
    "stat": "hits_allowed",
    "side": "under",
    "line": 3.5,
-   "odds": -135,
-   "fair": 0.56,
-   "book": "betmgm",
+   "odds": -134,
+   "fair": 0.57,
+   "book": "draftkings",
    "signals": {
     "season": 0.6,
     "recent_form": 0.56
@@ -49,9 +49,9 @@
    "stat": "pitcher_outs",
    "side": "over",
    "line": 11.5,
-   "odds": -135,
-   "fair": 0.575,
-   "book": "betmgm",
+   "odds": -138,
+   "fair": 0.57,
+   "book": "fanduel",
    "signals": {
     "season": 0.62,
     "recent_form": 0.5
