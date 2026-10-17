@@ -1,5 +1,5 @@
 {
- "summary": "Deep pass on No. 7 Alabama (5-1) at No. 15 Tennessee (5-1), 3:30 ET ABC at Neyland. This pass partly reverses the first one. The first pass leaned on Alabama's pass defense being 103rd in yards, but SI's opponent-adjusted numbers put Alabama's defense 7th in adjusted EPA/play and Alabama's offense 4th in success rate. Tennessee's pass offense is 121st in EPA/pass and 126th in pass success rate, and it now starts sophomore George MacIntyre (one career start: 18/29, 247 yds, 1 TD, 2 INT at Arkansas) with Faizon Brandon questionable with a shoulder injury. Models cluster around Alabama by about 7 (Dimers 30-23, 73.8%; FPI 69.8%; Rocky Top Insider 29-22), so +7.5/+8 is close to fair and no longer a real lean. The best edge is Tennessee's offense, and Alabama ML is the leg most likely to win. Risks on Alabama's side: freshman QB Keelon Russell has 3 turnovers on the road at Kentucky and went 16/30 against Georgia, WR Ryan Coleman-Williams is out, C Racin Delgatty is doubtful, Tennessee's pass rush got 6 sacks on Texas, and Tennessee has won the last two meetings at Neyland.",
+ "summary": "Alabama visits Tennessee, which starts a young quarterback with one career start and a questionable backup. Models favor Alabama by about 7 points.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -11,7 +11,7 @@
     "experts": 0.72,
     "home": 0.69
    },
-   "note": "MOST LIKELY TO WIN. Every model and named expert found picks Alabama to win outright (Dimers 73.8%, FPI 69.8%, Covers, BettingNews, Rocky Top Insider 29-22, SBG has Bama winning while UT covers). Alabama is 4th in success rate on offense and 7th in adjusted EPA/play on defense, and Tennessee's backup-QB pass offense is 121st in EPA/pass. Two things hold it near the market price: Neyland (the home team won the last two meetings there) and Russell's turnovers on the road."
+   "note": "Every model and expert found picks Alabama to win, and Tennessee's passing offense ranks near the bottom nationally."
   },
   {
    "desc": "Tennessee Volunteers team total Under 20.5",
@@ -22,7 +22,7 @@
     "models": 0.46,
     "recent_form": 0.48
    },
-   "note": "STRONGEST EDGE. Tennessee's passing game is 121st in EPA/pass and 126th in pass success rate. MacIntyre has 2 INTs in his only start, and Brandon is limited with a shoulder injury. They face a top-10 adjusted defense, and Tennessee's OL ranks poorly in sacks allowed. The case against: Tennessee scored 24 in each of its last two games, the DeSean Bishop run game is real (138 yds at Arkansas), and Dimers projects 23."
+   "note": "Tennessee's passing game ranks near the bottom nationally and it faces a top-10 defense with an inexperienced quarterback."
   },
   {
    "desc": "Under 51",
@@ -33,7 +33,7 @@
     "experts": 0.53,
     "models": 0.48
    },
-   "note": "Two elite-by-adjusted-numbers defenses meet a backup QB and a freshman QB, and Alabama is missing its top WR and maybe its center. Sharp money took the total from 55 (Circa open) to 51 (SBG: 'sharps like the under'; WagerTalk Under 51.5). Models are close to the number (Dimers 53, RTI 51, CBS model leans Over), so most of the value is already gone."
+   "note": "Alabama is missing its top receiver and maybe its center, and both defenses are strong against backup-level quarterbacks."
   },
   {
    "desc": "Tennessee Volunteers +8",
@@ -45,7 +45,7 @@
     "matchup": 0.47,
     "injuries": 0.47
    },
-   "note": "Downgraded from the first pass. Model margins near 7 give a small buffer at +8, and handicappers like SBG, WagerTalk and TheSpread take Tennessee, with 72% of tickets on Bama. But the opponent-adjusted numbers favor Alabama on both sides of the ball, and Tennessee's QB situation is worse than Alabama's injuries. This is close to a coin flip."
+   "note": "Models have Alabama by about 7, so Tennessee +8 gives a small cushion, but this is close to a coin flip."
   }
  ],
  "extra_legs": [],

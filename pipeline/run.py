@@ -37,6 +37,9 @@ def log(msg):
     print(f"[{datetime.now(ZoneInfo(config.TIMEZONE)):%H:%M}] {msg}", flush=True)
 
 
+FROZEN = set()  # dates whose odds feed failed this run: their picks are not rebuilt from worse lines
+
+
 def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]:
     weights = analyze.load_weights()
     scored, problems = [], []
@@ -61,6 +64,10 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
             lines = sources.odds(league)
         except sources.SourceError as e:
             lines, _ = None, problems.append(f"{league} odds: {e}")
+            if config.ODDS_API_KEY:  # an outage or a spent quota, not a missing key: keep the posted picks
+                problems.append(f"{league} odds feed down: picks left as they were")
+                FROZEN.add(date)
+                continue
         for g in games:
             scored.append(analyze.score_game(date, g, lines, injuries, weights))
         log(f"{league}: scored {len(games)} games")
@@ -200,6 +207,9 @@ def daily(date: str | None = None, only_ids: set | None = None):
             log(f"{d}: logged {candidates.log(sc)} priced legs for training")
         except Exception as e:  # training data must never block picks
             pr.append(f"candidates: {e}")
+        if d in FROZEN:  # rebuilding on ESPN-only lines replaced good picks on 2026-10-17 (quota ran out)
+            scored += sc; problems += [f"{d}: {m}" for m in pr]
+            continue
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
         if not only_ids:  # a game that dropped out of the picks (lost its edge or its research) loses its open plays
             keep = {b["id"] for p in pk for b in bets if b.get("event_id") == p["game"]["id"]}

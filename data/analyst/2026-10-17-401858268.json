@@ -1,5 +1,5 @@
 {
- "summary": "Deep pass REVERSES the first pass on SMU team total Over 30.5 and on Over 51.5. The new key factor is weather: FOX 4 DFW's Oct. 17 forecast has showers and storms building from late morning, with stronger cells (gusts of 55-60 mph, quarter-size hail) most likely 1-4 p.m. CT. That window overlaps an 11 a.m. CT kickoff and raises the chance of a lightning delay. Both offenses are also in a slump. SMU had 218 total yards and Jennings 160 passing against BC before the bye. Virginia scored 7 at Florida State and 21 against West Virginia, then managed 288 yards against Syracuse (Pribula 11-19 for 119). The total has already fallen from 52.5 at open to 51.5. SMU's ML remains the most likely winner: home, off a bye, 3-0 at Ford, a defense with 5 sacks and 14 TFL in its last game, and a UVA secondary missing CB Agard (out for the season) with safeties Costner and Hillman doubtful. The Under is the best edge.",
+ "summary": "Storms with strong wind and hail are forecast around the 11 a.m. CT kickoff, and both offenses have been slumping. SMU is the favorite at home after a bye.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -12,7 +12,7 @@
     "matchup": 0.56,
     "history": 0.54
    },
-   "note": "Most likely to win. SMU is 4-1 (only loss 41-31 at Louisville), off a bye and 3-0 at home. Virginia lost its two games against strong opponents, 38-7 at FSU (allowing 281 rush yards) and 38-21 to WVU in Charlotte, and squeaked past Syracuse 28-25 after being outgained 430-288. The UVA secondary is without Agard and probably both starting safeties. numberFire gives SMU 65.9%, FPI about 69%, and SP+ about 67%. That is a bit below the market's 74.5%, so this is the safest pick but not a value play."
+   "note": "SMU is home, off a bye, and Virginia's secondary is missing its top defensive backs."
   },
   {
    "desc": "Under 51.5",
@@ -23,7 +23,7 @@
     "matchup": 0.54,
     "experts": 0.47
    },
-   "note": "Best edge. The forecast has storms near kickoff with strong wind and hail risk, which could bring a delay, a slick ball and more running. SMU's offense is slumping (218 yards against BC, 160 passing). Virginia's offense is run-first (Middlebrook) with a QB who has gone 11-19 for 119 yards and scored 7 against FSU. The total has moved down from 52.5 to 51.5. SP+ projects about 53 points, which is the main argument for the over."
+   "note": "Storms near kickoff could mean a delay and more running, and both offenses have been slumping."
   },
   {
    "desc": "Virginia Cavaliers team total Under 20.5",
@@ -34,7 +34,7 @@
     "home": 0.53,
     "experts": 0.45
    },
-   "note": "Away from Charlottesville this season, UVA has scored 7 (at FSU) and 21 (neutral, against WVU). SMU's defense posted 5 sacks and 14 TFL while holding BC to 3.5 yards per carry. Virginia's offense depends on Pribula's legs and Middlebrook, and run-heavy drives in bad weather take time off the clock. SP+ projects 23 for Virginia, which argues against this, so it is a moderate lean."
+   "note": "Virginia scored just 7 and 21 in its two games away from home against strong opponents."
   },
   {
    "desc": "1H Under 26.5",
@@ -43,7 +43,7 @@
     "recent_form": 0.54,
     "matchup": 0.52
    },
-   "note": "The worst storms are forecast for the early-to-middle part of the game window. Both teams have started slowly lately (Virginia trailed Syracuse 17-7 at halftime, and SMU's offense stalled against BC). This mostly duplicates the full-game Under."
+   "note": "Storms are forecast early in the game and both teams have started slowly lately."
   }
  ],
  "extra_legs": [],

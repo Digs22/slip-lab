@@ -1,5 +1,5 @@
 {
- "summary": "Deep pass keeps the first-pass direction (Missouri side, game under) but tightens it. Changes: (1) the side moves from Missouri +5 to Missouri +5.5, the half point better at a slightly higher fair price, because SP+ rates this close to a pick'em (Predictem: Ole Miss favored by under 0.5 at home), while the market says 5.5; (2) 1H Under 35.5 is added as the leg most likely to win. The 1H main line is 30.5, and the forecast (NWS: sunny, 65F, NNE wind about 15 mph, gusts near 20) plus Missouri's run-heavy, clock-draining plan make a 36+ point first half unlikely; (3) corrected record context: Missouri's one loss was 31-24 at Mississippi State (Sep 26), its 8th straight loss to a ranked SEC team, and that tempers the Missouri case. Ole Miss's one loss was 52-28 at Florida, where Florida ran for 302 yards. Both QBs are healthy (Simmons is off the report) and Missouri RB Ahmad Hardy is out. Missouri's havoc defense (4th nationally, 3 sacks per game) meets an Ole Miss OL that allows about 1 sack per game and an offense that has scored on 20 of 20 red-zone trips, so the edges are modest. No player props (Ohio).",
+ "summary": "Missouri at Ole Miss looks close, with wind forecast and Missouri planning a run-heavy, clock-draining game. Missouri running back Ahmad Hardy is out.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -11,7 +11,7 @@
     "coaching": 0.7,
     "season": 0.68
    },
-   "note": "This is the leg most likely to win. The 1H main line is 30.5, and 35.5 needs both teams near 18 first-half points. NNE wind of 15 mph with gusts near 20 (NWS, 247Sports, Covers) hurts downfield passing. Drinkwitz wants long Roberts drives (34 carries vs Texas A&M), and Missouri's defense ranks 4th in havoc. The risk is Ole Miss's 38.8 ppg offense and its 20-of-20 red-zone scoring, and that Florida put up 52 on this Ole Miss defense."
+   "note": "Wind of about 15 mph and Missouri's slow, run-heavy plan make a high-scoring first half unlikely."
   },
   {
    "desc": "Missouri Tigers +5.5",
@@ -25,7 +25,7 @@
     "home": 0.46,
     "injuries": 0.5
    },
-   "note": "This is the strongest edge. SP+ sees about a pick'em, and Missouri ranks 5th in net adjusted EPA per play, while Ole Miss's defense ranks about 91st in success rate and about 100th in adjusted EPA. The line moved from -6 to -5/-5.5 toward Missouri. Experts lean Missouri: SBR, SportsGambler, TheRx, Predictem, SI (ML), Bleacher Nation (ML) and VegasInsider, against Covers and Lineups.com for Ole Miss. The case is weakened by Missouri's 8-game losing streak against ranked SEC teams, a sold-out homecoming crowd and Hardy being out. Missouri has covered 5 of its last 6 at +5.5 (SportsGambler)."
+   "note": "Missouri is rated about even with Ole Miss, and the line moved toward Missouri."
   },
   {
    "desc": "Under 58.5",
@@ -36,7 +36,7 @@
     "history": 0.55,
     "season": 0.49
    },
-   "note": "SportsLine's 10,000-simulation model projects 57 points (Under about 53%). SBR, TheRx and Covers take the under, while Bleacher Nation and LVSB take the over. Missouri is 4-1 to the under in its last 5, and the under is 8-2 in Ole Miss's last 10 games as a home favorite. Wind and Missouri's possession-length plan help the under. Against it, the teams average 38.8 and 35.8 ppg, and Ole Miss's defense ranks 123rd on third down."
+   "note": "A projection model has about 57 points and wind should slow the passing games."
   },
   {
    "desc": "Missouri Tigers team total Over 26.5",
@@ -47,7 +47,7 @@
     "weather": 0.48,
     "injuries": 0.49
    },
-   "note": "Ole Miss has allowed 140+ rushing yards in at least 4 straight games, 302 of them to Florida, and allows 28 ppg (108th-109th). Roberts leads the SEC with 828 yds and ran for 222 last week. Simmons has 14 TD and 1 INT, and Missouri ranks 29th in EPA per dropback. Missouri's run efficiency ranks poorly (75th-83rd in offensive success rate), and Hardy is out. The -125 price is already about 52% fair."
+   "note": "Ole Miss has allowed 140 or more rushing yards in at least four straight games, and Missouri's Roberts leads the SEC in rushing."
   },
   {
    "desc": "Ole Miss Rebels team total Under 31.5",
@@ -57,7 +57,7 @@
     "season": 0.5,
     "coaching": 0.52
    },
-   "note": "Missouri allows 16.6 ppg and 2.3 YPC (4th), and allows opponents 32.3% on third down. Wind limits Chambliss downfield, and Missouri's ball control limits Ole Miss's possessions. Against the under, Ole Miss allows only about 1 sack per game (1st in SEC) and has scored on all 20 red-zone trips (18 TD). Lean only."
+   "note": "Missouri allows only 16.6 points a game and its ball-control plan limits Ole Miss's possessions."
   }
  ],
  "extra_legs": [],

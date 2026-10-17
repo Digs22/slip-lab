@@ -1,31 +1,63 @@
 {
- "summary": "Deep pass keeps the first pass's Indiana lean, but moves the top leg to Indiana +3.5 (-124, fair 0.528), the leg most likely to win, and adds the Indiana ML as a value angle. The models cluster near a pick'em: SP+ has OSU 26-25 (+0.9, 52%), ESPN FPI has OSU by under a point (one SI piece has IND at 50.6%), and Scores&Stats has IND by 7.1. Kalshi prices IND +3.5 at 53%. Every named analyst found (Covers, Action Network, Yahoo, BUSR/GoldSheet, Predictem, TheSpread) is on Indiana ATS. OSU (5-1; its loss was 24-23 to Texas after leading 20-3) is missing starting OT Austin Siereveld (out) and RB Ja'Kobi Jackson (out), and third-string RB Isaiah West is questionable. Hoover has 17 TD and 0 INT. The total stays a coin flip, and the edge for the Under and the OSU team-total Under is small. Indiana +3 at -110 (fair 0.503) is the best-priced spread edge.",
+ "summary": "Indiana at Ohio State looks like a toss-up, and most experts like Indiana with the points. Ohio State is missing its starting left tackle and top running back.",
  "lineups_confirmed": false,
  "legs": [
   {
    "desc": "Indiana Hoosiers +3.5",
-   "signals": {"models": 0.58, "experts": 0.6, "home": 0.55, "injuries": 0.55, "season": 0.55, "history": 0.54, "coaching": 0.54},
-   "note": "Most likely to win. Price -124 at FanDuel (one book), fair 0.528. SP+ (OSU +0.9), FPI (under 1 point) and Kalshi (IND +3.5 at 53%) all put the expected margin well inside 3.5, and Scores&Stats has IND by 7.1. The hook protects against the most common margin, 3. Covers, Action, Yahoo, BUSR and Predictem all have Indiana +3.5. OSU's OL is missing Siereveld against a front that led the FBS in TFL in 2025."
+   "signals": {
+    "models": 0.58,
+    "experts": 0.6,
+    "home": 0.55,
+    "injuries": 0.55,
+    "season": 0.55,
+    "history": 0.54,
+    "coaching": 0.54
+   },
+   "note": "Indiana +3.5 wins if it loses by 3 or less, and projections show a near coin-flip game."
   },
   {
    "desc": "Indiana Hoosiers +3",
-   "signals": {"models": 0.57, "experts": 0.59, "home": 0.55, "injuries": 0.55, "season": 0.54, "history": 0.54},
-   "note": "Strongest spread edge. Price -110 at BetMGM (8 books), fair 0.503. With a model mean margin of about OSU +1 and a standard deviation near 14, Indiana +3 wins or pushes well over half the time, and a push at 3 refunds the stake. The line moved toward IND: the OSU ML went from about -180 to -150, some books moved from -3.5 to -3, and South Point opened IND at only +1."
+   "signals": {
+    "models": 0.57,
+    "experts": 0.59,
+    "home": 0.55,
+    "injuries": 0.55,
+    "season": 0.54,
+    "history": 0.54
+   },
+   "note": "Indiana +3 wins or refunds on a 3-point loss, and the line has moved toward Indiana."
   },
   {
    "desc": "Indiana Hoosiers ML",
-   "signals": {"models": 0.49, "experts": 0.5, "home": 0.5, "injuries": 0.47, "history": 0.46},
-   "note": "Value angle, not a high hit rate. Price +136 at DraftKings, fair 0.414. SP+ gives IND 48%, FPI has the game about 50/50, and Indiana beat OSU 13-10 in the Dec 2025 Big Ten title game. Under Cignetti, Indiana has lost only as a road underdog, never at home. The model cap is fair +5."
+   "signals": {
+    "models": 0.49,
+    "experts": 0.5,
+    "home": 0.5,
+    "injuries": 0.47,
+    "history": 0.46
+   },
+   "note": "Indiana won the last meeting 13-10 and projections have this game close to 50/50."
   },
   {
    "desc": "Ohio State Buckeyes team total Under 26.5",
-   "signals": {"models": 0.52, "matchup": 0.55, "injuries": 0.55, "history": 0.56, "experts": 0.53},
-   "note": "Price +100 at BetMGM, fair 0.482. SP+ projects OSU at 26 and GoldSheet at 20, and Action's projected range is 20-27 for the winner. OSU had 10 points and 58 rush yds on 26 carries against this defense last Dec. It is now without OT Siereveld and RB depth (Ja'Kobi Jackson out; West questionable; freshman Legend Bey would be RB2). On the other side, OSU has scored 42+ in its recent games (45-16 over Maryland) and Smith leads the FBS in receiving."
+   "signals": {
+    "models": 0.52,
+    "matchup": 0.55,
+    "injuries": 0.55,
+    "history": 0.56,
+    "experts": 0.53
+   },
+   "note": "Ohio State is missing its left tackle and running back depth, and it scored just 10 against Indiana last December."
   },
   {
    "desc": "Under 50.5",
-   "signals": {"models": 0.5, "history": 0.55, "matchup": 0.53, "experts": 0.5},
-   "note": "Price -110 at FanDuel, fair 0.503. SP+ projects a total of 51, almost exactly the line. The last meeting was 13-10 and both defenses allow about 12-13 PPG, but SI says the Over is 7-3 in the last 10 meetings, Kalshi has the Over at 54%, and the experts split (Covers Over; Action, Yahoo, BUSR Under). This is a coin flip."
+   "signals": {
+    "models": 0.5,
+    "history": 0.55,
+    "matchup": 0.53,
+    "experts": 0.5
+   },
+   "note": "Both defenses are strong and the last meeting finished 13-10, but this is close to a coin flip."
   }
  ],
  "extra_legs": [],

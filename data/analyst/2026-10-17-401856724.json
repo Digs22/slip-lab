@@ -1,5 +1,5 @@
 {
- "summary": "Deep pass mostly confirms the first pass and adds a Texas team-total under. Florida (4-2, losses of 45-17 at Missouri and to South Carolina, where it conceded 38) is expected to start sophomore Tramell Jones Jr., who has a small career sample: 44/64, 443 yds, 4 TD, 2 INT across 2025-26. Aaron Philo (shoulder) is still questionable, and no official starter was confirmed as of 12:45Z. Texas (4-1) allows about 16 ppg but scores only about 31 ppg, with a stop-start offense (20-17 at Tennessee, 30-6 vs UTSA, 24-27 vs Oklahoma) and Manning sacked 8 times in two games. So this deep pass leans toward a low-scoring game rather than a blowout. The most likely leg to win is Texas ML. The strongest edge is Florida team total Under 19.5. Florida +11 is dropped: the first pass's ATS and history lean does not outweigh the backup-QB downgrade.",
+ "summary": "Texas is a big favorite because Florida is starting a backup quarterback with little experience. Texas has a strong defense but an up-and-down offense.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -10,7 +10,7 @@
     "matchup": 0.79,
     "experts": 0.78
    },
-   "note": "This is the most likely leg to win. A first-start backup QB plays on the road against a Texas defense allowing about 16 ppg, held UTSA to 143 total yards and allowed 15 ppg early on. Every named expert has Texas winning outright, and Collin Wilson projects Texas by 13. Florida also has to travel off two straight losses."
+   "note": "Florida starts a first-time backup quarterback on the road against a defense allowing about 16 points a game."
   },
   {
    "desc": "Florida Gators team total Under 19.5",
@@ -20,7 +20,7 @@
     "home": 0.53,
     "trend": 0.52
    },
-   "note": "This is the strongest edge. Without Philo, Florida's offense runs through Baugh against a run defense allowing about 96 rush yards/game. Jones's sample is 5.5 YPA in 2025 and 2 INT on 29 attempts in 2026. Florida scored 17 at Missouri, its only true road test against a quality defense. The fair price is 0.49, and a 20+ point outcome needs a short field or turnovers."
+   "note": "Without its starting quarterback, Florida's offense should struggle against a Texas defense allowing about 96 rushing yards a game."
   },
   {
    "desc": "Texas Longhorns team total Under 31.5",
@@ -29,7 +29,7 @@
     "season": 0.55,
     "style": 0.53
    },
-   "note": "Texas averages 31.4 ppg, right at the number, and has scored 20, 30 and 24 in its last three games. Its line has allowed 8 sacks in two games. Sarkisian has also tended to shorten games once he has a lead against a backup QB. The risk is Florida's defense, which has allowed 45 and 38 in its last two games."
+   "note": "Texas averages about 31 points and has scored 20, 30 and 24 in its last three games."
   },
   {
    "desc": "Under 51",
@@ -39,7 +39,7 @@
     "experts": 0.52,
     "weather": 0.5
    },
-   "note": "This combines the two team-total theses: Florida likely below 20 and Texas around 30 adds up to the high 40s. Texas has gone over in just 2 of 5 games. The case against: Florida has gone over in 4 of 6 games, SportsGambler takes the over, and the move from 52.5 to 51 has already priced in part of this."
+   "note": "Florida should score under 20 and Texas around 30, which adds up to a total in the high 40s."
   }
  ],
  "extra_legs": [],

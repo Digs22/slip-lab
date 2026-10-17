@@ -1,5 +1,5 @@
 {
- "summary": "Deep pass keeps the first pass's direction but changes the reasoning and the ranking. Oregon (3-2) is -7 / 51.5 at home. QB Dante Moore (concussion) is OUT, and CBS (Zenitz/Hummer) reports that third-stringer Brock Thomas, a former preferred walk-on with 20 career-relevant attempts in 2026 (14/20, 172 yds, 1 TD), makes his first start over Dylan Raiola. Top WR Evan Stewart (27-352-4) was downgraded to DOUBTFUL on the Big Ten availability report, and WR Jeremiah McClellan is also out. Nebraska (5-1) brings an Aurich 4-2-5 defense allowing 15.2 ppg and 276 ypg, and it held No. 7 Indiana to 328 yds and 65 rush yds. Caveat: the schedule was soft before Indiana. ESPN FPI has the teams only 2.1 points apart (Oregon 19.5, Nebraska 17.4). STRONGEST EDGE: Oregon team total Under 29.5. MOST LIKELY TO WIN: Oregon ML (fair 0.69). I rate it about 0.66 because of the QB downgrade, so it carries negative edge. Nebraska +7 is a modest lean, with Rhule's road and ranked-opponent record and pro money on Oregon pulling against it. No player props.",
+ "summary": "Oregon's starting quarterback Dante Moore is out, so third-stringer Brock Thomas makes his first start. Top receiver Evan Stewart is doubtful and Oregon is favored by 7 at home.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -12,7 +12,7 @@
     "coaching": 0.55,
     "experts": 0.48
    },
-   "note": "Best edge. A walk-on third-stringer makes his first start without his top WR (Stewart doubtful) or McClellan (out), against a defense allowing 15.2 ppg that has 5- and 6-sack games and held Indiana to 20. Lanning should lean on the run and play conservatively. Risks: Oregon's DL and short fields could produce defensive scores, Nebraska's run D is unproven against elite backs, and Dimers projects 30 (likely a pre-Thomas projection)."
+   "note": "A walk-on quarterback makes his first start without Oregon's top receiver against a defense allowing 15.2 points a game."
   },
   {
    "desc": "Oregon Ducks ML",
@@ -24,7 +24,7 @@
     "matchup": 0.62,
     "coaching": 0.66
    },
-   "note": "Most likely leg to win, not a value play. The market (fair 0.69), ESPN FPI (65.9%), Kalshi (69%) and Dimers (74%) all favor Oregon at Autzen at night. Rhule is 2-8 on the road at Nebraska through 2025 and 2-22 career vs AP-ranked teams. The QB downgrade to Thomas means I rate this below market, at roughly 0.65-0.67."
+   "note": "Oregon is favored by every model and plays at home, though the quarterback downgrade makes it less certain."
   },
   {
    "desc": "Nebraska Cornhuskers +7",
@@ -37,7 +37,7 @@
     "experts": 0.5,
     "market": 0.47
    },
-   "note": "The FPI gap of 2.1 plus home field projects Oregon by about 5 with Moore. With Thomas starting, 7 looks generous, and a low-scoring game makes the number more valuable. Against it: Colandrea took 5 sacks vs Indiana (25/43, 255) and now faces Oregon's DL (Uiagalelei, Tuioti, Washington), Rhule's road and ranked-opponent record is poor, and the line held at -7/-7.5 despite heavy public tickets on Nebraska."
+   "note": "With a first-time starter at quarterback for Oregon, 7 points looks generous and a low-scoring game helps Nebraska."
   },
   {
    "desc": "Under 51.5",
@@ -49,7 +49,7 @@
     "experts": 0.52,
     "recent_form": 0.5
    },
-   "note": "Correlated with the Oregon under. The total opened at 52.5 and was bet down to 51.5. Oregon's offense is downgraded and likely slower, and Nebraska's defense has allowed 23 or fewer in every game. Nebraska's offense (39.2 ppg) is the risk, but most of it came against Ohio, BGSU, North Dakota and Maryland. Against its one strong defense (Indiana) it scored 17."
+   "note": "Oregon's offense is downgraded and Nebraska's defense has allowed 23 points or fewer in every game."
   }
  ],
  "extra_legs": [],

@@ -1,5 +1,5 @@
 {
- "summary": "The deeper pass finds the Oklahoma offense is in worse shape than the first pass showed. It ranks 127th in offensive success rate (37%) and 132nd in EPA per rush, and Mateer has 6 turnover-worthy throws in 60 SEC attempts. Friday's report also listed a third offensive-line starter as doubtful (RG Heath Ozaeta, who played 59 snaps vs Texas), alongside LT Fasusi and G Pierre-Louis, with true freshman Noah Best and Peyton Joseph expected to fill in. That strengthens the Oklahoma team total under 24.5, the best edge. I've reversed the first pass's side lean from OU -6.5 to Kentucky +6.5: Kentucky ranks 17th in offensive success rate and protects the ball, OU starting CB Eli Bowen is out, Venables teams have a weak record after big wins, and most projections put the margin at 6 or less. Oklahoma ML (about 68%) is the leg most likely to win. Ozaeta's downgrade is the only new availability news. Kentucky's DB/LB absences were already known.",
+ "summary": "Oklahoma's offense is struggling and three offensive linemen are doubtful, but its defense is elite. Kentucky has a strong offense and is missing several defenders.",
  "lineups_confirmed": false,
  "legs": [
   {
@@ -12,7 +12,7 @@
     "experts": 0.69,
     "coaching": 0.67
    },
-   "note": "This is the most likely leg to win. ESPN FPI (67.8%), Dimers (68.9-70.5%), Kalshi (about 68%), DRatings (26-19) and TeamRankings (25-19) all agree with the market's 68.7% fair price. Oklahoma's defense is No. 1 in adjusted EPA/play and allows the fewest first downs in FBS (12.8 per game). Kentucky's defense is near the bottom of FBS in success rate. The risks are three OL starters doubtful and a possible letdown after Texas, so I shade it slightly under market."
+   "note": "Oklahoma is about a 68% favorite in models and has the nation's top-ranked defense."
   },
   {
    "desc": "Kentucky Wildcats +6.5",
@@ -24,7 +24,7 @@
     "recent_form": 0.53,
     "season": 0.5
    },
-   "note": "This reverses the first pass. Oklahoma's offense can't stretch a lead: it ranks 127th in success rate and 132nd in EPA/rush, and three OL starters are doubtful. Its four FBS games produced 10, 14, 13 and 27 points, and the 27 against Texas included defensive and special-teams touchdowns. Most projections put the margin at 6 or 7 or less: Dimers and DRatings 7, TeamRankings 6, Grueling Truth 3, Predictem 6, Yahoo 6, and JD PicKell has Kentucky winning. Andy Staples and Ari Wasserman both take Kentucky. The case against: 79-84% of tickets are on Kentucky, so this is the public side, and +6.5 sits just under the key number of 7."
+   "note": "Oklahoma's offense ranks near the bottom nationally and has three offensive linemen doubtful, so it may struggle to build a big lead."
   },
   {
    "desc": "Oklahoma Sooners team total Under 24.5",
@@ -36,7 +36,7 @@
     "coaching": 0.54,
     "experts": 0.51
    },
-   "note": "This is the strongest edge. Against FBS opponents, Oklahoma's offense has scored 10, 14, 13 and roughly 20 (the Texas game minus its non-offensive touchdowns). Its success rate is 37% (127th), its run game averages about 96 yards a game, and Mateer went 18/26 for 155 against Texas. The OL is now missing three starters and WR Parker Livingstone is out. Kentucky's weak defense (28 ppg, poor success rate, five DB/LB/DE starters out) and possible OU defensive or return touchdowns are the risks. Model projections for OU range from 23 to 27."
+   "note": "Oklahoma has scored 10, 14, 13 and about 20 against FBS teams, and three offensive linemen are doubtful."
   },
   {
    "desc": "Kentucky Wildcats team total Over 17.5",
@@ -47,7 +47,7 @@
     "injuries": 0.53,
     "experts": 0.53
    },
-   "note": "Most projections put Kentucky at 18 to 22: Dimers and DRatings 19, TeamRankings 19, Grueling Truth 20, Yahoo 21, PicKell 22. Predictem's 17 is the only one below the line. Kentucky ranks 17th in offensive success rate and has scored 31 or more in five of six games, all except Alabama (17). OU's top CB Bowen is out. The case against is OU's defense, which allows 17.6 ppg and held Michigan to 17 and UNM to 6 (though Georgia scored 41 and Texas 24). Slightly better than a coin flip."
+   "note": "Most projections have Kentucky scoring 18 to 22, and Oklahoma's top cornerback is out."
   }
  ],
  "extra_legs": [],
