@@ -1,51 +1,33 @@
 {
- "summary": "No. 5 Indiana (6-0, 22-game win streak) hosts No. 4 Ohio State (5-1) at noon on FOX as roughly a 3-3.5 point home underdog with a total of 50.5; SP+ projects a 26-26 tie. Ohio State's injury list has six players out, including starting OT Austin Siereveld (now out, second straight game missed) and RB Ja'Kobi Jackson, plus five questionable players such as RB Isaiah West. Player props are dropped (Ohio bans college player props); the legs cover the side, OSU team total, first half and the game total.",
+ "summary": "Deep pass keeps the first pass's Indiana lean, but moves the top leg to Indiana +3.5 (-124, fair 0.528), the leg most likely to win, and adds the Indiana ML as a value angle. The models cluster near a pick'em: SP+ has OSU 26-25 (+0.9, 52%), ESPN FPI has OSU by under a point (one SI piece has IND at 50.6%), and Scores&Stats has IND by 7.1. Kalshi prices IND +3.5 at 53%. Every named analyst found (Covers, Action Network, Yahoo, BUSR/GoldSheet, Predictem, TheSpread) is on Indiana ATS. OSU (5-1; its loss was 24-23 to Texas after leading 20-3) is missing starting OT Austin Siereveld (out) and RB Ja'Kobi Jackson (out), and third-string RB Isaiah West is questionable. Hoover has 17 TD and 0 INT. The total stays a coin flip, and the edge for the Under and the OSU team-total Under is small. Indiana +3 at -110 (fair 0.503) is the best-priced spread edge.",
  "lineups_confirmed": false,
  "legs": [
   {
+   "desc": "Indiana Hoosiers +3.5",
+   "signals": {"models": 0.58, "experts": 0.6, "home": 0.55, "injuries": 0.55, "season": 0.55, "history": 0.54, "coaching": 0.54},
+   "note": "Most likely to win. Price -124 at FanDuel (one book), fair 0.528. SP+ (OSU +0.9), FPI (under 1 point) and Kalshi (IND +3.5 at 53%) all put the expected margin well inside 3.5, and Scores&Stats has IND by 7.1. The hook protects against the most common margin, 3. Covers, Action, Yahoo, BUSR and Predictem all have Indiana +3.5. OSU's OL is missing Siereveld against a front that led the FBS in TFL in 2025."
+  },
+  {
    "desc": "Indiana Hoosiers +3",
-   "signals": {
-    "home": 0.55,
-    "season": 0.58,
-    "injuries": 0.56,
-    "history": 0.54,
-    "experts": 0.58,
-    "coaching": 0.53
-   },
-   "note": "Price -110 at BetMGM, fair 0.503. SP+ projects 26-26, Indiana is at home on a 22-game win streak, Ohio State is without OT Siereveld and RB Ja'Kobi Jackson, and Covers, Yahoo, BUSR and TheSpread all lean Indiana; the OSU ML drifting from about -180 to -150 also points Indiana's way."
+   "signals": {"models": 0.57, "experts": 0.59, "home": 0.55, "injuries": 0.55, "season": 0.54, "history": 0.54},
+   "note": "Strongest spread edge. Price -110 at BetMGM (8 books), fair 0.503. With a model mean margin of about OSU +1 and a standard deviation near 14, Indiana +3 wins or pushes well over half the time, and a push at 3 refunds the stake. The line moved toward IND: the OSU ML went from about -180 to -150, some books moved from -3.5 to -3, and South Point opened IND at only +1."
+  },
+  {
+   "desc": "Indiana Hoosiers ML",
+   "signals": {"models": 0.49, "experts": 0.5, "home": 0.5, "injuries": 0.47, "history": 0.46},
+   "note": "Value angle, not a high hit rate. Price +136 at DraftKings, fair 0.414. SP+ gives IND 48%, FPI has the game about 50/50, and Indiana beat OSU 13-10 in the Dec 2025 Big Ten title game. Under Cignetti, Indiana has lost only as a road underdog, never at home. The model cap is fair +5."
   },
   {
    "desc": "Ohio State Buckeyes team total Under 26.5",
-   "signals": {
-    "matchup": 0.56,
-    "injuries": 0.56,
-    "history": 0.56,
-    "season": 0.52,
-    "experts": 0.54
-   },
-   "note": "Price +100 at BetMGM, fair 0.482. SP+ has OSU at 26 and GoldSheet at 20, OSU scored 10 with 58 rush yds against this defense last December, and it is now missing a starting tackle and RB depth against a front that pressures Sayin without blitzing."
-  },
-  {
-   "desc": "1H Indiana Hoosiers +1.5",
-   "signals": {
-    "home": 0.54,
-    "season": 0.55,
-    "history": 0.54,
-    "injuries": 0.53
-   },
-   "note": "Price -110 at BetMGM, fair 0.502. This follows the full-game Indiana lean: a close, low-scoring matchup with a home crowd for the noon start makes taking points in a tight first half reasonable, though 1.5 points is little cushion."
+   "signals": {"models": 0.52, "matchup": 0.55, "injuries": 0.55, "history": 0.56, "experts": 0.53},
+   "note": "Price +100 at BetMGM, fair 0.482. SP+ projects OSU at 26 and GoldSheet at 20, and Action's projected range is 20-27 for the winner. OSU had 10 points and 58 rush yds on 26 carries against this defense last Dec. It is now without OT Siereveld and RB depth (Ja'Kobi Jackson out; West questionable; freshman Legend Bey would be RB2). On the other side, OSU has scored 42+ in its recent games (45-16 over Maryland) and Smith leads the FBS in receiving."
   },
   {
    "desc": "Under 50.5",
-   "signals": {
-    "history": 0.56,
-    "matchup": 0.53,
-    "experts": 0.5,
-    "season": 0.49
-   },
-   "note": "Price -110 at FanDuel, fair 0.503. The last meeting was 13-10 and both defenses are elite, but the experts split (Covers Over; BUSR and Yahoo Under), so this is a weak lean at best."
+   "signals": {"models": 0.5, "history": 0.55, "matchup": 0.53, "experts": 0.5},
+   "note": "Price -110 at FanDuel, fair 0.503. SP+ projects a total of 51, almost exactly the line. The last meeting was 13-10 and both defenses allow about 12-13 PPG, but SI says the Over is 7-3 in the last 10 meetings, Kalshi has the Over at 54%, and the experts split (Covers Over; Action, Yahoo, BUSR Under). This is a coin flip."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: Noon ET kickoff on FOX at Memorial Stadium; Cignetti calls it the biggest home game in IU history; top-5 matchup, Indiana on a 22-game win streak (Fox Sports, Eleven Warriors).\n2. History: Indiana beat OSU 13-10 in the 2025 Big Ten title game, and OSU managed only 58 rush yds on 26 carries; Indiana is 15-8 to the Over in Big Ten play under Cignetti (Eleven Warriors, Covers).\n3. Coaching: Day says last year doesn't matter and that the OL 'has a plan'; Cignetti's defense can pressure without blitzing, and Sayin's completion rate drops about 20% under pressure (Sportsnaut, Eleven Warriors).\n4. Matchups: Sayin and Jeremiah Smith vs IU secondary (Smith leads the FBS: 823 yds and 9 TD through 5 games); Hoover has 17 TD and 0 INT vs an elite OSU defense; the trenches are the key battle (ESPN, Eleven Warriors).\n5. Health: OSU lists six players out, including OT Austin Siereveld (now out, second straight game, not day-to-day) and RB Ja'Kobi Jackson; five questionable including RB Isaiah West; Day: 'Will we be 100% healthy? Probably not.' Indiana TE Andrew Barker is out and RB Khobie Martin doubtful (Eleven Warriors, Yahoo, Inside the Hall).\n6. Stats: Hoover 1,364 yds, 17 TD, 0 INT in 6 GP (IU stats); Sayin 1,772 yds, 17 TD, 2 INT; Smith about 153 rec yds/gm; SP+ projection 26-26 (Inside the Hall).\n7. Weather: No reliable game-day forecast found; mid-October noon kickoff, assume mild and not a factor.\n8. Experts: Covers has Indiana +3.5 and the Over; Yahoo has Indiana +3.5 and Under 51.5; BUSR has Indiana +3.5 and Under 50.5 (GoldSheet projects IND 24-20); TheSpread backs the Indiana home dog. Consensus is Indiana ATS, split on the total.\n9. Line movement: OSU opened/held at -3.5 at DraftKings, with some books now at -3 (TheSpread -3 at -105); total 50-51.5; NBC listed OSU ML -180, now about -150, which suggests movement toward Indiana. No public betting splits found.\nNote: WebFetch could not reach article pages because of DNS errors, so findings come from search-result snippets only."
+ "research": "1. QBs and personnel: Julian Sayin (OSU, 2nd-year starter, ex-Alabama signee) completed 77.0% in 2025 (nation's best) for 3,610 yds, 32 TD, 8 INT, 88.4 QBR. In 2026 he has about 1,772 yds, 17 TD and 2 INT. His career line is 75.1% and 43-9 TD-INT (Wikipedia, ohiostatebuckeyes.com). The backup is freshman Luke Fahey, who passed Tavien St. Clair in camp; neither has meaningful experience (AtoZ Sports, Press Pros). Josh Hoover (IND, 5th-year TCU transfer) went 9,629 yds, 71 TD, 31 INT in 36 TCU games; 2025 was 65.9%, 3,472 yds, 29 TD, 13 INT. In 2026 he has 17 TD, 0 INT, a 203.7 rating through 5 games and 71% completions, but went 12/22 for 263 in the 20-17 win at Nebraska (Fox Sports, RotoBaller, Roundtable). Jeremiah Smith leads the FBS with 823 yds and 9 TD through 5 games.\n2. Injuries (Big Ten availability report): OSU lists OT Austin Siereveld (illness, 2nd straight game) and RB Ja'Kobi Jackson out, and RB Isaiah West questionable, so freshman Legend Bey backs up Bo Jackson. DL Phillip Daniels is expected back. IND: TE Andrew Barker out; RB Khobie Martin (arm, out since the opener) doubtful; CBs A.J. Harris and Jamari Sharpe were day-to-day earlier (ClutchPoints, AtoZ, Eleven Warriors, NFP).\n3. Advanced: SP+ ranks OSU 1st and IND 5th, under 3 points apart before home field, and projects OSU 26-25 (52%). ESPN FPI has the game near a coin flip. OSU allows 12.3 PPG (9th) and 161 pass ypg (16th) but gave up 199 rush yds and 462 total to Illinois (Bleacher Nation, Spectrum). In 2025, IND led the FBS in TFL, ranked 2nd in sacks (46) and 3rd in rush yds allowed (79.7/gm), and returns its top-4 DL sack leaders (IU Athletics). Full opponent-adjusted SR/EPA splits were not available in search snippets.\n4. Scheme: IND's front generates pressure without blitzing, and Sayin's completion rate drops about 20 points under pressure. The OSU OL is down its starting tackle. In the Dec 2025 meeting OSU ran for 58 yds on 26 carries. The OSU explosive pass game (Smith) against an IND secondary with nicked-up CBs is OSU's best route (Eleven Warriors, Sportsnaut).\n5. Coaching: Cignetti was 21-9 ATS at JMU and IND through 2024 and has lost at IU only as a road underdog (at OSU and at Notre Dame in 2024). He is 2-1 straight up against Day in the last three meetings, counting the 13-10 win (Action Network, Newsweek). Day was 32-23-2 ATS as a double-digit favorite, but this is a short spread. OSU blew a 20-3 halftime lead at Texas (24-23 loss), and the kicker missed a key FG (Roundtable).\n6. Situational: noon ET on FOX; the biggest home game in IU history; top-5 matchup; IND is 6-0 with a 22-game win streak. OSU comes off a 45-16 home win over Maryland, and IND off a gritty 20-17 road win at Nebraska. No bye for either team was found. The winner controls the Big Ten title race; there is revenge motivation for OSU.\n7. History: OSU leads the series about 80-12-5. OSU won 38-15 in Nov 2024, and IND won 13-10 in the 2025 Big Ten title game. SI: OSU is 9-1 straight up but 5-5 ATS in the last 10 meetings, and the Over is 7-3.\n8. Weather: no point forecast found; Bloomington mid-October climatology is a high near 66F with a 30% chance of precipitation (CW Columbus). Assume mild and not a factor.\n9. Experts and market: Covers (IND +3.5, Over), Action Network (IND +3.5, lean Under, projects 24-20 to 27-24), Yahoo (IND +3.5, Under 51.5), BUSR/GoldSheet (IND 24-20, Under), Predictem (IND +3.5), TheSpread (IND home dog), Scores&Stats model (IND by 7.1). Consensus is unanimous on Indiana ATS and split on the total. Kalshi has IND +3.5 at 53% and the Over at 54%. South Point opened IND +1, the market settled at OSU -3.5 and is now -3 at 8 books, and the OSU ML went from -180 to -150. No 2026 bet or money splits were found.\nNote: all findings come from WebSearch snippets (19 searches); WebFetch was not used."
 }

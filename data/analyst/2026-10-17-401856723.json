@@ -1,52 +1,53 @@
 {
- "summary": "No. 6/7 Alabama (5-1) is a -7.5/-8 road favorite at No. 14 Tennessee (5-1) with the total down from about 56.5 to 51; Tennessee starts backup-turned-starter George MacIntyre (Faizon Brandon questionable, shoulder) while Alabama is without WR Ryan Coleman-Williams, C Racin Delgatty and five defenders. Tennessee's defense (15.5 ppg, 4.7 yds/play, 161 pass ypg, nation-leading 25 sacks) against Alabama's leaky pass protection (113th in sacks allowed) is the main matchup.",
+ "summary": "Deep pass on No. 7 Alabama (5-1) at No. 15 Tennessee (5-1), 3:30 ET ABC at Neyland. This pass partly reverses the first one. The first pass leaned on Alabama's pass defense being 103rd in yards, but SI's opponent-adjusted numbers put Alabama's defense 7th in adjusted EPA/play and Alabama's offense 4th in success rate. Tennessee's pass offense is 121st in EPA/pass and 126th in pass success rate, and it now starts sophomore George MacIntyre (one career start: 18/29, 247 yds, 1 TD, 2 INT at Arkansas) with Faizon Brandon questionable with a shoulder injury. Models cluster around Alabama by about 7 (Dimers 30-23, 73.8%; FPI 69.8%; Rocky Top Insider 29-22), so +7.5/+8 is close to fair and no longer a real lean. The best edge is Tennessee's offense, and Alabama ML is the leg most likely to win. Risks on Alabama's side: freshman QB Keelon Russell has 3 turnovers on the road at Kentucky and went 16/30 against Georgia, WR Ryan Coleman-Williams is out, C Racin Delgatty is doubtful, Tennessee's pass rush got 6 sacks on Texas, and Tennessee has won the last two meetings at Neyland.",
  "lineups_confirmed": false,
  "legs": [
   {
-   "desc": "Under 51",
+   "desc": "Alabama Crimson Tide ML",
    "signals": {
-    "matchup": 0.57,
-    "injuries": 0.56,
-    "season": 0.55,
-    "coaching": 0.53,
-    "experts": 0.52
+    "models": 0.72,
+    "matchup": 0.74,
+    "injuries": 0.73,
+    "experts": 0.72,
+    "home": 0.69
    },
-   "note": "Tennessee is starting a second-string QB with the SEC's worst passing offense (186.5 ypg), and its elite Knowles defense faces an Alabama offense missing its top WR and starting center. The market already moved the total down about 5 points, so the edge is modest."
-  },
-  {
-   "desc": "Tennessee Volunteers +8",
-   "signals": {
-    "home": 0.56,
-    "injuries": 0.52,
-    "matchup": 0.54,
-    "experts": 0.56,
-    "history": 0.52,
-    "season": 0.49
-   },
-   "note": "Tennessee is a home dog at Neyland with a top-tier defense facing a banged-up Alabama, and several handicappers (WagerTalk, TheSpread, BettingNews, Rocky Top Insider model 29-22) take Tennessee. Tennessee's QB situation offsets part of that, so this is a lean, not a strong edge."
-  },
-  {
-   "desc": "Alabama Crimson Tide team total Under 30.5",
-   "signals": {
-    "matchup": 0.59,
-    "injuries": 0.57,
-    "season": 0.46,
-    "recent_form": 0.55,
-    "experts": 0.52
-   },
-   "note": "Alabama averages 44.2 ppg, but Tennessee's defense allows 15.5 ppg and leads the nation in sacks, and Alabama is missing its top WR and starting center against that pass rush. This is the same thesis as the dropped Russell passing under, expressed as a team total."
+   "note": "MOST LIKELY TO WIN. Every model and named expert found picks Alabama to win outright (Dimers 73.8%, FPI 69.8%, Covers, BettingNews, Rocky Top Insider 29-22, SBG has Bama winning while UT covers). Alabama is 4th in success rate on offense and 7th in adjusted EPA/play on defense, and Tennessee's backup-QB pass offense is 121st in EPA/pass. Two things hold it near the market price: Neyland (the home team won the last two meetings there) and Russell's turnovers on the road."
   },
   {
    "desc": "Tennessee Volunteers team total Under 20.5",
    "signals": {
-    "injuries": 0.57,
-    "matchup": 0.5,
-    "season": 0.52,
-    "coaching": 0.5
+    "matchup": 0.57,
+    "injuries": 0.56,
+    "season": 0.53,
+    "models": 0.46,
+    "recent_form": 0.48
    },
-   "note": "Backup QB MacIntyre (2 INTs in his only start) leads the SEC's worst passing offense, and the Vols scored 24 in each of their last two games. Alabama's poor red-zone defense (126th) and pass defense (103rd) keep this a lean."
+   "note": "STRONGEST EDGE. Tennessee's passing game is 121st in EPA/pass and 126th in pass success rate. MacIntyre has 2 INTs in his only start, and Brandon is limited with a shoulder injury. They face a top-10 adjusted defense, and Tennessee's OL ranks poorly in sacks allowed. The case against: Tennessee scored 24 in each of its last two games, the DeSean Bishop run game is real (138 yds at Arkansas), and Dimers projects 23."
+  },
+  {
+   "desc": "Under 51",
+   "signals": {
+    "matchup": 0.55,
+    "injuries": 0.55,
+    "market": 0.53,
+    "experts": 0.53,
+    "models": 0.48
+   },
+   "note": "Two elite-by-adjusted-numbers defenses meet a backup QB and a freshman QB, and Alabama is missing its top WR and maybe its center. Sharp money took the total from 55 (Circa open) to 51 (SBG: 'sharps like the under'; WagerTalk Under 51.5). Models are close to the number (Dimers 53, RTI 51, CBS model leans Over), so most of the value is already gone."
+  },
+  {
+   "desc": "Tennessee Volunteers +8",
+   "signals": {
+    "models": 0.53,
+    "home": 0.55,
+    "history": 0.53,
+    "experts": 0.53,
+    "matchup": 0.47,
+    "injuries": 0.47
+   },
+   "note": "Downgraded from the first pass. Model margins near 7 give a small buffer at +8, and handicappers like SBG, WagerTalk and TheSpread take Tennessee, with 72% of tickets on Bama. But the opponent-adjusted numbers favor Alabama on both sides of the ball, and Tennessee's QB situation is worse than Alabama's injuries. This is close to a coin flip."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: 3:30 PM ET ABC kickoff at Neyland (~101k), Third Saturday in October rivalry game, both teams 5-1 with CFP stakes; Tennessee won the last meeting in Knoxville (24-17 in 2024).\n2. History: Alabama leads 60-40-7 (Wikipedia/Covers); recent results Bama 52-24 (2021), UT 52-49 (2022), Bama 34-20 (2023), UT 24-17 (2024), Bama 37-20 (2025). Series ATS/coach underdog splits were not found.\n3. Coaching: Heupel runs a tempo, vertical spread offense but has leaned on the run with DeSean Bishop (~113 ypg, 220 vs Auburn) since QB injuries; Jim Knowles' UT defense allows 15.5 ppg and 4.7 yds/play (Roll Bama Roll, TheSpread). DeBoer's Alabama scores 44.2 ppg but is coming off a loss to Georgia.\n4. Matchups: Russell (~71% comp, 12 TD/2 INT, just under 1,600 yds) vs UT pass D (161.3 ypg, 17th; 3 pass TD allowed; 25 sacks, DT Xavier Gilliam 5 sacks). Bama OL is 113th in sacks allowed and is without C Delgatty. UT OL is 123rd in sacks allowed. Alabama pass D allows 236.5 ypg (103rd) and has the 126th-ranked red-zone D, while its run D is solid (99.8 ypg, 25th) (ESPN via search).\n5. Health: ALA out: WR Ryan Coleman-Williams (knee/head), C Racin Delgatty, LB Cayden Jones (season), DL Jeremiah Beaman (season), LB Desmond Umeozulu, DL Terrance Green, DB Nick Sherman (SI, TideFans). TEN: MacIntyre starts (Pete Thamel/ESPN); Faizon Brandon is questionable (AC joint/shoulder) and practiced limited, so a two-QB look is possible (On3). MacIntyre threw for 247 yds, 1 TD, 2 INT at Arkansas.\n6. Stats: ALA 44.2 ppg. TEN 34.7 ppg but passing is 109th (186.5 ypg). FPI/Matchup Predictor gives UT about 25-37%, and other models have Bama at 70-75%.\n7. Weather: a game-specific forecast was not confirmed. Mid-October Knoxville is typically 60s-70s, and no severe weather was reported.\n8. Experts: WagerTalk UT +8.5 and Under 51.5; TheSpread UT +8; BettingNews Bama wins, UT covers, Under 51; Rocky Top Insider model 29-22 (UT +7.5, Over 50.5 lean); Covers (Rob Paul) Bama by double digits; SGP podcast split 2-1 for Bama -8.5; CBS model leans Over. Consensus: Tennessee side and slight Under.\n9. Line/splits: spread opened Bama -6.5/-7 and was bet to -8/-8.5 before settling at -7.5/-8; total fell from 56.5 to 51. Splits show 72% of spread tickets and 97% of ML tickets on Alabama (WagerTalk/VegasInsider via search)."
+ "research": "1. QBs/personnel: ALA QB Keelon Russell (2025 5-star, 19 yrs old; 2 games in 2025) has about 71% comp, 12 TD and 2 INT in 2026. His games: 188 yds, 1 TD, 2 INT plus a fumble in a 45-17 win at Kentucky (3 first-half turnovers); 285 yds, 3 TD plus 1 rush TD in a 56-23 win over Mississippi State; 16/30 with 41 rush yds and a key 3rd-down sack in a 20-17 loss to Georgia (AP/AJC, AtoZ). Ty Simpson left for the NFL (Rams), and Austin Mack is the backup. TEN QB George MacIntyre (soph): 2025 7/9 for 69 yds; 2026 relief work 14/20, 148 yds, 1 TD; first start at Arkansas 18/29, 247 yds, 1 TD, 2 INT (AP, Wikipedia). Faizon Brandon (true fr., SEC Freshman of the Week after 13/17, 226, 3 TD plus 2 rush TD vs Furman; StatSniper roughly 61/101, 697 yds, 7 TD, 1 INT) has a shoulder/AC injury dating to the Texas game. RB DeSean Bishop had 19-138 and the winning TD at Arkansas. WR DeSaahn Brame had a 68-yard catch.\n2. Injuries/news: ALA WR Ryan Coleman-Williams is OUT (knee/head; Pete Nakos On3, DeBoer Monday). C Racin Delgatty (leg, hurt vs UGA) is 'being evaluated', with no clearance found. NT Terrance Green aggravated an injury. LB Cayden Jones and DL Jeremiah Beaman are out for the season, and LB Umeozulu and DB Nick Sherman are out (SI/TideFans per the first pass). TEN: MacIntyre starts (Thamel, Oct 15). Brandon is questionable and practiced Tuesday, and a two-QB plan is possible (ClutchPoints, SDS, Newsweek).\n3. Advanced stats: SI betting preview has ALA at 16th in adjusted EPA/play and 4th in success rate on offense, and 7th in adjusted EPA/play on defense. TEN offense is 121st in EPA/pass and 126th in pass success rate. That contradicts the first pass's raw 'ALA pass D 103rd / red-zone D 126th'. Raw numbers per the first pass: ALA 44.2 ppg; TEN 34.7 ppg, 186.5 pass ypg (109th), and 15.5 ppg / 4.7 yds/play allowed. Preseason SP+: ALA 27.9, TEN 18.4. In-season SP+ splits were not found.\n4. Scheme: Heupel's vertical-spread tempo offense has turned into a Bishop-led run game because of the QB injuries. Knowles' 4-2-5 pressure defense had 6 sacks of Arch Manning and held Texas to 261 yds; Knowles' 2024 Ohio State defense was 1st in scoring D. Alabama's OL was rebuilt (only Michael Carroll returned, and new OL coach Adrian Klemm), allowed 32-33 sacks in 2025, and ranks about 113th in sacks allowed in 2026 per the first pass. Tennessee's OL is also poor in sacks allowed (about 123rd). Edge: TEN pass rush vs ALA OL; ALA defense vs MacIntyre's passing.\n5. Coaching: DeBoer was 2-5 SU away from home in his first 14 games at Alabama, with 4 losses as a double-digit favorite (AP/abc3340). At Washington he was 7-1 ATS as an underdog and 10-3-1 ATS vs ranked teams (Action Network). Heupel praised MacIntyre's 'winning performance'. Heupel's ATS as a home dog was not found.\n6. Situational: Both teams are 5-1. ALA is coming off a home loss to UGA (bounce-back spot). TEN is coming off a road win at Arkansas (its first there since 2001). It is a 3:30 ET kickoff with about 101k at Neyland, the Third Saturday in October rivalry. Neither team had a bye.\n7. History: ALA leads the series 60-40-7. Bama won 15 straight through 2021. Since then: UT 52-49 (2022, Knoxville), Bama 34-20 (2023), UT 24-17 (2024, Knoxville), Bama 37-20 (2025). Home team is 4-0 SU over the last 4. Older ATS note: Bama was 9-1 ATS in its previous 10 trips to Knoxville through 2021 (SportsBettingDime).\n8. Weather: no 2026 game-day forecast was found. Knoxville in mid-October is typically 60s-70s and dry (prior-year forecasts), and no severe weather was reported.\n9. Experts/models/market: Dimers ALA 30-23 (73.8%); FPI ALA 69.8%; Rocky Top Insider 29-22 (UT +7.5, Over 50.5 lean); Covers/Rob Paul ALA to cover; SBG Sportsbook UT +8.5 and Under 51.5 ('sharps like the under'); WagerTalk UT +8.5 and Under 51.5; TheSpread UT +8; BettingNews ALA SU, UT ATS, Under 51; CBS model leans Over. Consensus: ALA wins, UT slight ATS lean, slight Under. Lines: Circa opened ALA -7 with a total of 55 (SDS). An early look-ahead had UT +1.5 (Scores&Stats). The spread moved to -8.5/-9.5 midweek (Covers/Kalshi) and is now -7.5/-8. The total is now 50.5-51. Splits: about 72% of spread tickets and 97% of ML tickets on ALA (WagerTalk/VegasInsider)."
 }

@@ -1,41 +1,51 @@
 {
- "summary": "SMU (4-1, off a bye, 3-0 at Ford Stadium) hosts Virginia (4-2) with SP+ projecting SMU 30-23 and FPI giving Virginia about 31%, roughly in line with the market's -8.5 to -10 spread and 51.5 total. The clearest angle is SMU's passing offense (Jennings 317.6 yds/g) against a Virginia secondary missing CB Omillio Agard for the season, with both starting safeties doubtful.",
+ "summary": "Deep pass REVERSES the first pass on SMU team total Over 30.5 and on Over 51.5. The new key factor is weather: FOX 4 DFW's Oct. 17 forecast has showers and storms building from late morning, with stronger cells (gusts of 55-60 mph, quarter-size hail) most likely 1-4 p.m. CT. That window overlaps an 11 a.m. CT kickoff and raises the chance of a lightning delay. Both offenses are also in a slump. SMU had 218 total yards and Jennings 160 passing against BC before the bye. Virginia scored 7 at Florida State and 21 against West Virginia, then managed 288 yards against Syracuse (Pribula 11-19 for 119). The total has already fallen from 52.5 at open to 51.5. SMU's ML remains the most likely winner: home, off a bye, 3-0 at Ford, a defense with 5 sacks and 14 TFL in its last game, and a UVA secondary missing CB Agard (out for the season) with safeties Costner and Hillman doubtful. The Under is the best edge.",
  "lineups_confirmed": false,
  "legs": [
   {
-   "desc": "SMU Mustangs team total Over 30.5",
+   "desc": "SMU Mustangs ML",
    "signals": {
+    "season": 0.6,
+    "home": 0.58,
     "injuries": 0.58,
-    "season": 0.55,
-    "matchup": 0.55,
+    "experts": 0.56,
+    "matchup": 0.56,
+    "history": 0.54
+   },
+   "note": "Most likely to win. SMU is 4-1 (only loss 41-31 at Louisville), off a bye and 3-0 at home. Virginia lost its two games against strong opponents, 38-7 at FSU (allowing 281 rush yards) and 38-21 to WVU in Charlotte, and squeaked past Syracuse 28-25 after being outgained 430-288. The UVA secondary is without Agard and probably both starting safeties. numberFire gives SMU 65.9%, FPI about 69%, and SP+ about 67%. That is a bit below the market's 74.5%, so this is the safest pick but not a value play."
+  },
+  {
+   "desc": "Under 51.5",
+   "signals": {
+    "weather": 0.6,
+    "recent_form": 0.56,
+    "line_movement": 0.55,
+    "matchup": 0.54,
+    "experts": 0.47
+   },
+   "note": "Best edge. The forecast has storms near kickoff with strong wind and hail risk, which could bring a delay, a slick ball and more running. SMU's offense is slumping (218 yards against BC, 160 passing). Virginia's offense is run-first (Middlebrook) with a QB who has gone 11-19 for 119 yards and scored 7 against FSU. The total has moved down from 52.5 to 51.5. SP+ projects about 53 points, which is the main argument for the over."
+  },
+  {
+   "desc": "Virginia Cavaliers team total Under 20.5",
+   "signals": {
+    "matchup": 0.56,
+    "recent_form": 0.55,
+    "weather": 0.56,
     "home": 0.53,
-    "recent_form": 0.45,
-    "experts": 0.49
+    "experts": 0.45
    },
-   "note": "Jennings averages 317.6 pass yds/g, and Virginia is missing CB Agard (out for the season) with safeties Costner and Hillman doubtful, so SMU should be able to throw. Against that, SP+ projects SMU for exactly 30 points, and SMU managed only 218 yards against BC before the bye, so this is a modest lean."
+   "note": "Away from Charlottesville this season, UVA has scored 7 (at FSU) and 21 (neutral, against WVU). SMU's defense posted 5 sacks and 14 TFL while holding BC to 3.5 yards per carry. Virginia's offense depends on Pribula's legs and Middlebrook, and run-heavy drives in bad weather take time off the clock. SP+ projects 23 for Virginia, which argues against this, so it is a moderate lean."
   },
   {
-   "desc": "Virginia Cavaliers +10",
+   "desc": "1H Under 26.5",
    "signals": {
-    "season": 0.54,
-    "experts": 0.55,
-    "history": 0.46,
-    "home": 0.47,
-    "injuries": 0.47
+    "weather": 0.57,
+    "recent_form": 0.54,
+    "matchup": 0.52
    },
-   "note": "SP+ projects a 7-point SMU win (30-23), a little under the 10-point line, but Virginia's secondary injuries and its weak record away from Charlottesville offset that. It is a slight lean at most."
-  },
-  {
-   "desc": "Over 51.5",
-   "signals": {
-    "experts": 0.54,
-    "injuries": 0.55,
-    "recent_form": 0.46,
-    "coaching": 0.52
-   },
-   "note": "SP+ implies about 53 points, and Virginia's banged-up secondary should help SMU's passing game. SMU's offense managed only 218 yards (3.5 yds/play) against BC before the bye, and Virginia leans on the run, so this is close to a coin flip."
+   "note": "The worst storms are forecast for the early-to-middle part of the game window. Both teams have started slowly lately (Virginia trailed Syracuse 17-7 at halftime, and SMU's offense stalled against BC). This mostly duplicates the full-game Under."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: noon ET kickoff at Gerald J. Ford Stadium. SMU is 3-0 at home this season and coming off a bye, and Virginia has struggled away from Charlottesville against better opponents (Roundtable SMU opponent preview).\n2. History: Virginia has never beaten SMU, which won the only prior meeting 33-7 in Charlottesville in 2024. ATS this season: SMU is 1-2 as a favorite of 8.5 or more, and Virginia is 3-3 ATS (FanDuel Research).\n3. Coaching: Rhett Lashlee's SMU runs an up-tempo, pass-first offense built around Jennings. Tony Elliott's Virginia relies on Pribula's legs and the run game (Middlebrook ran for 95 yards and 2 TDs against Syracuse).\n4. Matchups: Jennings and WR Yamir Knight against a depleted UVA secondary is the main mismatch. SMU's run game was poor against BC (58 yards rushing), and Virginia's run game against SMU's front is the key for the Cavaliers.\n5. Health: UVA CB Omillio Agard is out for the season (torn ACL). S Corey Costner, S Brandyn Hillman and LB Caleb Hardy are doubtful, WR Rico Flores Jr. is out for several games, and Jacobie Henderson is cleared (SI/Cavaliers Now availability report). No QB injury news on either side.\n6. Stats: Jennings has 1,588 yards and 14 TDs (317.6/g). SMU managed only 218 yards and 3.5 yds/play in its last game, a 25-16 win over BC. Pribula had 793 pass yards, 11 TDs and 125 rush yards through 4 games, then threw for 119 yards (76 in SI's box score) against Syracuse.\n7. Weather: I couldn't find a reliable forecast for Saturday. Mid-October in Dallas is usually dry and warm, and I found no adverse weather reported.\n8. Experts: SP+ has SMU by 8.5, projecting 30-23 (Virginia 33% to win). ESPN FPI gives Virginia 31.4%, and numberFire gives SMU 65.9%. The consensus is SMU straight up with no strong lean on the spread.\n9. Line movement: FanDuel opened around SMU -8.5 with a total of 52.5. Current lines run -8.5 to -10 and the total has dropped to 51.5-52. I found no public betting splits.\nNot used: Virginia team total Under 20.5 (SP+ projects 23 points for Virginia, which is against it) and the first-half lines (no specific evidence).\nSources: SI Cavaliers Now (SP+, FPI and availability articles), Roundtable.io SMU coverage, AP via ABC News and Spectrum, FanDuel Research, Rotoballer."
+ "research": "1. QBs/personnel: SMU's Kevin Jennings (senior, 3rd-year starter, SMU's career passing leader) is 117-156 (75%, 5th nationally) for 1,588 yards, 14 TD and 5 INT through 5 games. Highs were 33-39 for 464 against Missouri State and 14-16 against UC Davis, and the low was 20-30 for 160 against BC, his fewest passing yards since he became the starter in 2024 (Roundtable, AP). Virginia's Beau Pribula (Penn State backup 2022-24, Missouri starter 2025: 182-270, 67.4%, 1,941 yards, 11 TD, 9 INT, 297 rush yards, 6 TD) has about 961 yards, 12 TD and 1 INT in 2026 per StatSniper, but only 11-19 for 119 yards against Syracuse. Chandler Morris is not at UVA in 2026. RB Jekail Middlebrook had 95 yards and 2 TD against Syracuse and 65 at FSU. No QB injuries on either side.\n2. Injuries: UVA CB Omillio Agard is out for the season (ACL). S/SPUR Corey Costner and S Brandyn Hillman (ankle) are doubtful, and LB Caleb Hardy is doubtful. Backups are S Montino Williams and Christian Ellis, CB Justin Ross, and Jaylen Jones at SPUR. WR Rico Flores Jr. is out several weeks, and CB Jacobie Henderson is cleared (SI Cavaliers Now availability report). I found no SMU injury news.\n3. Advanced stats and results: I could not find in-season SP+ splits. Preseason SP+ projected SMU roughly level with FSU, and in the final 2025 ratings SMU was 13.6 and UVA 10.5 (ESPN). SMU went W 27-24 at FSU, W 56-10 vs UC Davis, L 31-41 at Louisville (4 turnovers), W 34-24 vs Missouri State and W 25-16 vs BC (outgained 322-218, with 5 sacks and 14 TFL). UVA went W 34-8 vs NC State, L 21-38 vs WVU, W 42-3 vs Delaware, L 7-38 at FSU (outrushed 281-37) and W 28-25 vs Syracuse (outgained 430-288), plus one other win. Opponent quality favors SMU.\n4. Scheme: SMU's up-tempo, quick-pass Lashlee offense goes against a UVA secondary down three starters, which is the main mismatch. SMU's front (new DC Maurice Crum) faces UVA's QB-run/RB-run offense, and UVA was held to 37 rush yards at FSU. SMU's run game has been inconsistent (58 rush yards against BC).\n5. Coaching: Lashlee is 42-17 at SMU and 14-2 in ACC regular-season play through 2025, with no ATS-after-bye data found. SMU is 1-2 ATS as a favorite of 8.5 or more in 2026, and UVA is 3-3 ATS (FanDuel Research). Elliott's UVA has historically struggled against ranked opponents on the road.\n6. Situational: SMU is off a bye, while UVA had a short emotional rebound week after Syracuse and travels to Dallas for a noon ET (11 a.m. CT) kickoff. SMU is 3-0 at home. This is a must-win spot for UVA's ACC hopes (SI).\n7. History: SMU won the only prior meeting 33-7 in Charlottesville in 2024 as roughly a 10-point favorite. UVA is 0-1 all-time against SMU.\n8. Weather: FOX 4 DFW's forecast calls for a very warm, cloudy start, with showers and storms from late morning that turn stronger after noon. A few strong storms with gusts of 55-60 mph and quarter-size hail are possible from 1-4 p.m., the front passes overnight, and the evening is quiet. This creates lightning-delay risk and passing-game drag. The article is undated but tied to the Oct. 17 forecast video.\n9. Experts/market: numberFire gives SMU 65.9%, ESPN FPI gives UVA 31.4%, and SP+ has SMU by 7-8.5 (30-23, UVA 33%) (SI). FanDuel Research cites SMU 1-2 ATS as a large favorite and 2 of 5 SMU games over. The spread opened -8.5 and is now -8.5 to -10, with steam toward SMU. The total opened 52.5 (under -122) and is now 51.5-52, with under money. I found no public splits and no Covers or Action Network picks for this game.\nChanges from the first pass: I dropped SMU TT Over 30.5 (weather and an offensive slump) and flipped Over 51.5 to Under 51.5. I added SMU ML as the most likely winner and UVA TT Under 20.5.\nSources: SI Cavaliers Now, FanDuel Research/numberFire, Roundtable.io, AP (ABC News, KSL, Spectrum), Boston Globe, NCAA.com, Wikipedia, FOX 4 DFW, NBC DFW, ESPN SP+, StatSniper, WDBJ7."
 }

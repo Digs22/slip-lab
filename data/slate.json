@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "generated": "2026-10-17T08:41-04:00",
+  "generated": "2026-10-17T08:48-04:00",
   "games_scanned": 12,
   "problems": [],
   "upcoming": [
@@ -19,16 +19,16 @@
   ],
   "games": [
     {
-      "id": "401858492",
+      "id": "401858268",
       "league": "NCAAF",
-      "game": "NEB @ ORE",
-      "start": "2026-10-18T03:00Z",
-      "venue": "Autzen Stadium",
+      "game": "UVA @ SMU",
+      "start": "2026-10-17T16:00Z",
+      "venue": "Gerald J. Ford Stadium",
       "provisional": true,
-      "score": 0.0543,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-      "summary": "Oregon (3-2) is a 7-point home favorite over Nebraska (5-1), total 51.5, but QB Dante Moore (concussion) is OUT again and Oregon has not named a starter between Dylan Raiola (6/19, 43 yds, 2 INT vs UCLA) and Brock Thomas. Nebraska's defense allows 15.2 ppg; player props are excluded (Ohio ban), so the legs are game, team-total and first-half lines."
+      "score": 0.0204,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+      "summary": "Deep pass REVERSES the first pass on SMU team total Over 30.5 and on Over 51.5. The new key factor is weather: FOX 4 DFW's Oct. 17 forecast has showers and storms building from late morning, with stronger cells (gusts of 55-60 mph, quarter-size hail) most likely 1-4 p.m. CT. That window overlaps an 11 a.m. CT kickoff and raises the chance of a lightning delay. Both offenses are also in a slump. SMU had 218 total yards and Jennings 160 passing against BC before the bye. Virginia scored 7 at Florida State and 21 against West Virginia, then managed 288 yards against Syracuse (Pribula 11-19 for 119). The total has already fallen from 52.5 at open to 51.5. SMU's ML remains the most likely winner: home, off a bye, 3-0 at Ford, a defense with 5 sacks and 14 TFL in its last game, and a UVA secondary missing CB Agard (out for the season) with safeties Costner and Hillman doubtful. The Under is the best edge."
     },
     {
       "id": "401908027",
@@ -43,16 +43,40 @@
       "summary": "ALCS Game 4 makeup after Friday's rainout, Guardians up 2-1: Nick Martinez (3.10 ERA, 1.09 WHIP) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game again. Both bullpens got an extra day of rest."
     },
     {
+      "id": "401858492",
+      "league": "NCAAF",
+      "game": "NEB @ ORE",
+      "start": "2026-10-18T03:00Z",
+      "venue": "Autzen Stadium",
+      "provisional": true,
+      "score": 0.0176,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+      "summary": "Oregon (3-2) is a 7-point home favorite over Nebraska (5-1), total 51.5, but QB Dante Moore (concussion) is OUT again and Oregon has not named a starter between Dylan Raiola (6/19, 43 yds, 2 INT vs UCLA) and Brock Thomas. Nebraska's defense allows 15.2 ppg; player props are excluded (Ohio ban), so the legs are game, team-total and first-half lines."
+    },
+    {
+      "id": "401856720",
+      "league": "NCAAF",
+      "game": "MSST @ LSU",
+      "start": "2026-10-17T16:00Z",
+      "venue": "Tiger Stadium (LA)",
+      "provisional": true,
+      "score": 0.0111,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+      "summary": "Deep pass confirms the first pass's core read and does not reverse it. ESPN's Pete Thamel and the Friday SEC availability report have MSST QB Kamario Taylor (turf toe; 69.2% completions, 14 TD / 2 INT, a Heisman-list QB) doubtful and not expected to play, and RB Fluff Bothwell (403 yds, team leader) doubtful too. MSST would go to walk-on redshirt freshman Parker 'Billy' Puckett (8-for-14, 89 yds in 2026) and/or veteran transfer AJ Swann (Vanderbilt/App State, about 57% career completions, 32 TD / 17 INT). The spread moved from about -10 to -17.5 and the total from 58.5-59.5 to 56. The new finding is that Swann is a real veteran fallback, which caps how far the MSST offense falls. The MSST team total Under 19.5 is still the strongest edge. LSU ML is now added as the leg most likely to win, and the full-game Under is downgraded slightly because both teams have gone over the total often (LSU 4/6, MSST 3/5)."
+    },
+    {
       "id": "401858488",
       "league": "NCAAF",
       "game": "OSU @ IU",
       "start": "2026-10-17T16:00Z",
       "venue": "Memorial Stadium (Bloomington, IN)",
       "provisional": true,
-      "score": 0.0104,
+      "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-      "summary": "No. 5 Indiana (6-0, 22-game win streak) hosts No. 4 Ohio State (5-1) at noon on FOX as roughly a 3-3.5 point home underdog with a total of 50.5; SP+ projects a 26-26 tie. Ohio State's injury list has six players out, including starting OT Austin Siereveld (now out, second straight game missed) and RB Ja'Kobi Jackson, plus five questionable players such as RB Isaiah West. Player props are dropped (Ohio bans college player props); the legs cover the side, OSU team total, first half and the game total."
+      "summary": "Deep pass keeps the first pass's Indiana lean, but moves the top leg to Indiana +3.5 (-124, fair 0.528), the leg most likely to win, and adds the Indiana ML as a value angle. The models cluster near a pick'em: SP+ has OSU 26-25 (+0.9, 52%), ESPN FPI has OSU by under a point (one SI piece has IND at 50.6%), and Scores&Stats has IND by 7.1. Kalshi prices IND +3.5 at 53%. Every named analyst found (Covers, Action Network, Yahoo, BUSR/GoldSheet, Predictem, TheSpread) is on Indiana ATS. OSU (5-1; its loss was 24-23 to Texas after leading 20-3) is missing starting OT Austin Siereveld (out) and RB Ja'Kobi Jackson (out), and third-string RB Isaiah West is questionable. Hoover has 17 TD and 0 INT. The total stays a coin flip, and the edge for the Under and the OSU team-total Under is small. Indiana +3 at -110 (fair 0.503) is the best-priced spread edge."
     },
     {
       "id": "401856724",
@@ -64,31 +88,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-      "summary": "Florida (4-2, two straight losses) is expected to start sophomore Tramell Jones Jr. (first career start) at No. 7 Texas (4-1), with Aaron Philo (shoulder) questionable; reports (On3/Nakos, CBS/Zenitz, Saturday Down South) point to Jones, but there was no official pregame confirmation as of this check. The market already moved toward Texas -11 and a total of 51."
-    },
-    {
-      "id": "401856720",
-      "league": "NCAAF",
-      "game": "MSST @ LSU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Tiger Stadium (LA)",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-      "summary": "Mississippi State QB Kamario Taylor (turf toe) was downgraded to doubtful and is not expected to play per ESPN's Pete Thamel; freshman Parker 'Billy' Puckett would start, and leading rusher Fluff Bothwell is also doubtful. The market already moved hard on this (LSU -11.5/-14 to -17.5, total 58.5-59.5 to 56), so edges are modest; best lean is the Mississippi State team total under."
-    },
-    {
-      "id": "401858268",
-      "league": "NCAAF",
-      "game": "UVA @ SMU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Gerald J. Ford Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-      "summary": "SMU (4-1, off a bye, 3-0 at Ford Stadium) hosts Virginia (4-2) with SP+ projecting SMU 30-23 and FPI giving Virginia about 31%, roughly in line with the market's -8.5 to -10 spread and 51.5 total. The clearest angle is SMU's passing offense (Jennings 317.6 yds/g) against a Virginia secondary missing CB Omillio Agard for the season, with both starting safeties doubtful."
+      "summary": "Deep pass mostly confirms the first pass and adds a Texas team-total under. Florida (4-2, losses of 45-17 at Missouri and to South Carolina, where it conceded 38) is expected to start sophomore Tramell Jones Jr., who has a small career sample: 44/64, 443 yds, 4 TD, 2 INT across 2025-26. Aaron Philo (shoulder) is still questionable, and no official starter was confirmed as of 12:45Z. Texas (4-1) allows about 16 ppg but scores only about 31 ppg, with a stop-start offense (20-17 at Tennessee, 30-6 vs UTSA, 24-27 vs Oklahoma) and Manning sacked 8 times in two games. So this deep pass leans toward a low-scoring game rather than a blowout. The most likely leg to win is Texas ML. The strongest edge is Florida team total Under 19.5. Florida +11 is dropped: the first pass's ATS and history lean does not outweigh the backup-QB downgrade."
     },
     {
       "id": "401856723",
@@ -100,7 +100,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-      "summary": "No. 6/7 Alabama (5-1) is a -7.5/-8 road favorite at No. 14 Tennessee (5-1) with the total down from about 56.5 to 51; Tennessee starts backup-turned-starter George MacIntyre (Faizon Brandon questionable, shoulder) while Alabama is without WR Ryan Coleman-Williams, C Racin Delgatty and five defenders. Tennessee's defense (15.5 ppg, 4.7 yds/play, 161 pass ypg, nation-leading 25 sacks) against Alabama's leaky pass protection (113th in sacks allowed) is the main matchup."
+      "summary": "Deep pass on No. 7 Alabama (5-1) at No. 15 Tennessee (5-1), 3:30 ET ABC at Neyland. This pass partly reverses the first one. The first pass leaned on Alabama's pass defense being 103rd in yards, but SI's opponent-adjusted numbers put Alabama's defense 7th in adjusted EPA/play and Alabama's offense 4th in success rate. Tennessee's pass offense is 121st in EPA/pass and 126th in pass success rate, and it now starts sophomore George MacIntyre (one career start: 18/29, 247 yds, 1 TD, 2 INT at Arkansas) with Faizon Brandon questionable with a shoulder injury. Models cluster around Alabama by about 7 (Dimers 30-23, 73.8%; FPI 69.8%; Rocky Top Insider 29-22), so +7.5/+8 is close to fair and no longer a real lean. The best edge is Tennessee's offense, and Alabama ML is the leg most likely to win. Risks on Alabama's side: freshman QB Keelon Russell has 3 turnovers on the road at Kentucky and went 16/30 against Georgia, WR Ryan Coleman-Williams is out, C Racin Delgatty is doubtful, Tennessee's pass rush got 6 sacks on Texas, and Tennessee has won the last two meetings at Neyland."
     },
     {
       "id": "401856721",
@@ -112,7 +112,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-      "summary": "No. 13 Missouri (5-1) visits No. 9 Ole Miss (4-1) at homecoming. Ole Miss is a 5.5-point favorite, down from 6, with the total at 58.5. Missouri's top-25 defense (16.6 ppg, 78 rush ypg allowed) and SEC-leading rusher Jamal Roberts (828 yds, 138/g) face an Ole Miss run defense that ranks last in the SEC (176 ypg allowed). Both starting QBs are healthy: Simmons was taken off the injury report, and Missouri RB Ahmad Hardy is out. Ohio bans college football player props, so only game, team-total and first-half lines are proposed."
+      "summary": "Deep pass keeps the first-pass direction (Missouri side, game under) but tightens it. Changes: (1) the side moves from Missouri +5 to Missouri +5.5, the half point better at a slightly higher fair price, because SP+ rates this close to a pick'em (Predictem: Ole Miss favored by under 0.5 at home), while the market says 5.5; (2) 1H Under 35.5 is added as the leg most likely to win. The 1H main line is 30.5, and the forecast (NWS: sunny, 65F, NNE wind about 15 mph, gusts near 20) plus Missouri's run-heavy, clock-draining plan make a 36+ point first half unlikely; (3) corrected record context: Missouri's one loss was 31-24 at Mississippi State (Sep 26), its 8th straight loss to a ranked SEC team, and that tempers the Missouri case. Ole Miss's one loss was 52-28 at Florida, where Florida ran for 302 yards. Both QBs are healthy (Simmons is off the report) and Missouri RB Ahmad Hardy is out. Missouri's havoc defense (4th nationally, 3 sacks per game) meets an Ole Miss OL that allows about 1 sack per game and an offense that has scored on 20 of 20 red-zone trips, so the edges are modest. No player props (Ohio)."
     },
     {
       "id": "401856809",
@@ -124,7 +124,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-      "summary": "No. 2-3 Notre Dame (6-0, 4-2 ATS) visits No. 8 BYU (5-0 SU and ATS) at night with College GameDay in town. BYU is without RB LJ Martin. ND CB Leonard Moore (concussion) is questionable but practicing, and DT Jason Onye (ankle) is questionable. The market is ND -10.5 at about a coin flip, with the total down from 48.5 to 46.5."
+      "summary": "Deep pass: No. 2 Notre Dame (6-0, 16 straight wins, all by double digits) at No. 8 BYU (5-0 SU/ATS), 5:30 PM MT, GameDay crowd. The core view stays the same, but the ranking changes: Notre Dame ML is now the anchor and most-likely-to-win leg, the BYU team-total under is the best edge, and ND -10.5 drops to a thin lean because experts are split (Covers/SI/Predictem/AtoZ on ND; VegasInsider/ATS.io on BYU) and Freeman is only 2-4 in true road games. BYU's offense without RB LJ Martin (out 4-6 wks) scored 24 vs Iowa State and 17 at TCU, and now faces the FBS No. 1 total defense (214 ypg, 11.0 ppg). Correction to the first pass: the 2022 meeting was ND 28-20, not 20-16."
     },
     {
       "id": "401858494",
@@ -136,7 +136,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-      "summary": "No. 12 UCLA (5-0, 5-0 ATS) hosts Wisconsin (4-1, off a bye) at night in the Rose Bowl, with backup Ty Dieffenbach (Cal Poly transfer, 3/6 for 43 yds in relief) making his first UCLA start because Nico Iamaleava has a leg injury that is expected to end his season. The market has moved toward Wisconsin (spread from 3 to 2.5) and the Under (total from 44.5 to 42.5-43.5), and most Action Network experts back Wisconsin +3."
+      "summary": "This deeper pass sharpens the first pass's Under/Wisconsin lean but does not reverse it. The headline Under is now UCLA team total Under 23.5, which is also the leg most likely to win. With Iamaleava, UCLA's offense was already weaker than its 39.2 ppg suggests: at Oregon it rushed for only 79 yards and needed a +4 turnover margin (Oregon gave it away 7 times) to win 17-15. Now Ty Dieffenbach makes his first start. In 2025 at Cal Poly (FCS) he went 56.8% for 1,305 yds, 9 TD and 9 INT, and he never played at Pitt. He faces a rested Wisconsin defense that allows 3.2 yds per rush and leads the league in pass defense. On the other side, Colton Joseph (56.6%, 7.9 YPA, 10 TD, 5 INT; 3 INTs at PSU) is turnover-prone against UCLA's ball-hawking defense, so Wisconsin's scoring is also limited. The market agrees: the total has fallen from 44.5 (49.5 at one book) to 42.5-43, and Action Network splits show Wisconsin with about 23% of bets but 77% of the money, with the spread moving from 3 to 2.5. Wisconsin +2.5 is the sharp-side lean, but SI and the Sports Gambling Podcast trio still lay the points with UCLA, so the side is closer to a coin flip than the totals are."
     },
     {
       "id": "401856722",
@@ -148,7 +148,7 @@
       "score": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-      "summary": "No. 15 Kentucky (5-1, four straight wins incl. OT upsets of South Carolina and LSU) visits 3-2 Oklahoma, which just beat No. 1 Texas 27-24 on an elite defense (about 238 ypg allowed) but a sputtering offense (10, 14, 13, 27 vs FBS opponents). The market (OU -6.5, total 43.5) looks efficient; the only lean is the Oklahoma team total under 24.5."
+      "summary": "The deeper pass finds the Oklahoma offense is in worse shape than the first pass showed. It ranks 127th in offensive success rate (37%) and 132nd in EPA per rush, and Mateer has 6 turnover-worthy throws in 60 SEC attempts. Friday's report also listed a third offensive-line starter as doubtful (RG Heath Ozaeta, who played 59 snaps vs Texas), alongside LT Fasusi and G Pierre-Louis, with true freshman Noah Best and Peyton Joseph expected to fill in. That strengthens the Oklahoma team total under 24.5, the best edge. I've reversed the first pass's side lean from OU -6.5 to Kentucky +6.5: Kentucky ranks 17th in offensive success rate and protects the ball, OU starting CB Eli Bowen is out, Venables teams have a weak record after big wins, and most projections put the margin at 6 or less. Oklahoma ML (about 68%) is the leg most likely to win. Ozaeta's downgrade is the only new availability news. Kentucky's DB/LB absences were already known."
     }
   ]
 }

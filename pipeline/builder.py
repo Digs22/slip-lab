@@ -150,11 +150,12 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
 
 
 def _lean(g: dict) -> dict | None:
-    """No edge, but the user wants a pick for every game: the researched leg most likely to win, straight only."""
+    """No edge, but the user wants a pick for every game: the researched leg closest to an edge, straight only.
+    Value first, not win chance: the most likely winner is often a -350 moneyline that loses money."""
     pool = [l for l in g.get("evaluated", []) if l.get("note") and l["prob"] >= 0.5]
     if not pool:
         return None
-    s = max(pool, key=lambda l: (l["prob"], l["edge"]))
+    s = max(pool, key=lambda l: (l["edge"], l["prob"]))
     return {"straight": {"legs": [s], "odds": s["odds"], "prob": s["prob"], "ev": s["edge"], "lean": True,
                          "units": config.PLAYS["straight"], "stake": config.PLAYS["straight"] * config.UNIT}}
 

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T08:41-04:00",
+ "generated": "2026-10-17T08:48-04:00",
  "games": [
   {
    "id": "401878771",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "venue": "Hill Dickinson Stadium",
    "city": "Liverpool",
-   "detail": "50'",
+   "detail": "55'",
    "away_score": 1.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "venue": "RCDE Stadium",
    "city": "Barcelona",
-   "detail": "40'",
+   "detail": "45'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -170,10 +170,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "M05 +135",
+    "spread": "M05 +130",
     "total": 2.5,
-    "home_ml": 180,
-    "away_ml": 135,
+    "home_ml": 185,
+    "away_ml": 130,
     "book": "DraftKings"
    }
   },
@@ -260,10 +260,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BRE +150",
+    "spread": "BRE +160",
     "total": 2.5,
-    "home_ml": 150,
-    "away_ml": 170,
+    "home_ml": 160,
+    "away_ml": 160,
     "book": "DraftKings"
    }
   },
@@ -888,7 +888,7 @@
    "home_conf": "Big Ten",
    "away_conf": "Big Ten",
    "odds": {
-    "spread": "MD -5.5",
+    "spread": "MD -6",
     "total": 55.5,
     "home_ml": -218,
     "away_ml": 180,
@@ -1247,7 +1247,7 @@
    "away_conf": "SEC",
    "odds": {
     "spread": "UGA -19.5",
-    "total": 50.5,
+    "total": 49.5,
     "home_ml": -1350,
     "away_ml": 800,
     "book": "DraftKings"
@@ -1368,8 +1368,8 @@
    "odds": {
     "spread": "VT -8.5",
     "total": 56.5,
-    "home_ml": -360,
-    "away_ml": 285,
+    "home_ml": -340,
+    "away_ml": 270,
     "book": "DraftKings"
    }
   },

@@ -1,46 +1,47 @@
 {
- "summary": "Florida (4-2, two straight losses) is expected to start sophomore Tramell Jones Jr. (first career start) at No. 7 Texas (4-1), with Aaron Philo (shoulder) questionable; reports (On3/Nakos, CBS/Zenitz, Saturday Down South) point to Jones, but there was no official pregame confirmation as of this check. The market already moved toward Texas -11 and a total of 51.",
+ "summary": "Deep pass mostly confirms the first pass and adds a Texas team-total under. Florida (4-2, losses of 45-17 at Missouri and to South Carolina, where it conceded 38) is expected to start sophomore Tramell Jones Jr., who has a small career sample: 44/64, 443 yds, 4 TD, 2 INT across 2025-26. Aaron Philo (shoulder) is still questionable, and no official starter was confirmed as of 12:45Z. Texas (4-1) allows about 16 ppg but scores only about 31 ppg, with a stop-start offense (20-17 at Tennessee, 30-6 vs UTSA, 24-27 vs Oklahoma) and Manning sacked 8 times in two games. So this deep pass leans toward a low-scoring game rather than a blowout. The most likely leg to win is Texas ML. The strongest edge is Florida team total Under 19.5. Florida +11 is dropped: the first pass's ATS and history lean does not outweigh the backup-QB downgrade.",
  "lineups_confirmed": false,
  "legs": [
+  {
+   "desc": "Texas Longhorns ML",
+   "signals": {
+    "injuries": 0.81,
+    "home": 0.79,
+    "matchup": 0.79,
+    "experts": 0.78
+   },
+   "note": "This is the most likely leg to win. A first-start backup QB plays on the road against a Texas defense allowing about 16 ppg, held UTSA to 143 total yards and allowed 15 ppg early on. Every named expert has Texas winning outright, and Collin Wilson projects Texas by 13. Florida also has to travel off two straight losses."
+  },
   {
    "desc": "Florida Gators team total Under 19.5",
    "signals": {
     "injuries": 0.58,
-    "matchup": 0.56,
+    "matchup": 0.57,
     "home": 0.53,
-    "experts": 0.52
+    "trend": 0.52
    },
-   "note": "A 19-year-old making his first start, on the road against a Texas defense allowing about 96 rush yds/game, should struggle to reach 20 points. At -102 (fair 0.49) this is the cheapest way to fade the backup-QB offense."
+   "note": "This is the strongest edge. Without Philo, Florida's offense runs through Baugh against a run defense allowing about 96 rush yards/game. Jones's sample is 5.5 YPA in 2025 and 2 INT on 29 attempts in 2026. Florida scored 17 at Missouri, its only true road test against a quality defense. The fair price is 0.49, and a 20+ point outcome needs a short field or turnovers."
+  },
+  {
+   "desc": "Texas Longhorns team total Under 31.5",
+   "signals": {
+    "matchup": 0.54,
+    "season": 0.55,
+    "style": 0.53
+   },
+   "note": "Texas averages 31.4 ppg, right at the number, and has scored 20, 30 and 24 in its last three games. Its line has allowed 8 sacks in two games. Sarkisian has also tended to shorten games once he has a lead against a backup QB. The risk is Florida's defense, which has allowed 45 and 38 in its last two games."
   },
   {
    "desc": "Under 51",
    "signals": {
-    "injuries": 0.56,
-    "matchup": 0.54,
-    "experts": 0.53,
-    "weather": 0.51
-   },
-   "note": "Florida's backup QB and Texas's run defense point to a lower total, and Pick Dawgz takes the under. The move from 52.5 to 51 has already priced in much of this."
-  },
-  {
-   "desc": "1H Under 27",
-   "signals": {
     "injuries": 0.55,
-    "matchup": 0.53
+    "matchup": 0.53,
+    "experts": 0.52,
+    "weather": 0.5
    },
-   "note": "A first-start QB tends to be most limited early, before adjustments, so a first-half under fits the same thesis with a modest lean."
-  },
-  {
-   "desc": "Florida Gators +11",
-   "signals": {
-    "injuries": 0.44,
-    "experts": 0.55,
-    "season": 0.53,
-    "history": 0.53
-   },
-   "note": "Texas is 1-4 ATS, and several handicappers lean Florida plus the points, but a backup QB pushes the other way. These signals are mixed and close to the market, so I don't expect a pick here."
+   "note": "This combines the two team-total theses: Florida likely below 20 and Texas around 30 adds up to the high 40s. Texas has gone over in just 2 of 5 games. The case against: Florida has gone over in 4 of 6 games, SportsGambler takes the over, and the move from 52.5 to 51 has already priced in part of this."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: Texas hosts at DKR, 11 a.m. CT (noon ET) on ABC, about 58F and dry per Action Network. Texas is coming off a last-second loss to Oklahoma.\n2. History: Texas leads the series 3-1-1, and Florida won the last meeting 29-21 (Oct 4, 2025). Texas is 1-4 ATS this season, covering only the opener (TheSpread).\n3. Coaching: Jon Sumrall (UF, first year) is a run-first team built around Baugh. Steve Sarkisian's Texas is pass-oriented through Manning.\n4. Matchups: Baugh leads the SEC with 12 rushing TDs but faces a Texas run defense allowing about 96 yds/game. Cam Coleman (318 rec yds, 5 TD) faces a struggling Gators secondary (Statesman/Yahoo preview).\n5. Health (re-checked): Saturday Down South/SportsGrid report Florida decided to start Jones; no official pregame confirmation found. Philo (shoulder, from the South Carolina loss) is limited and a game-time decision. CBS's Matt Zenitz and On3's Pete Nakos report Tramell Jones Jr. is expected to start, with the final decision Saturday morning. Jones replaced Philo in each of the last two games. I found no confirmed game-day announcement.\n6. Stats: Manning has 1,122 yds, 10 TD, 5 INT (224.4/game, 63%). Texas is 4-1 and Florida 4-2 after losses to Missouri and South Carolina. I did not find SP+/FPI numbers.\n7. Weather: about 58F, no rain, so no weather factor.\n8. Experts: Collin Wilson (Action) has Texas -9.5 and projects Texas by 13. Kody Malstrom (Action) has Texas -9.5. Brandon Kravitz (Action) has Florida +10.5. CBS has Texas -10.5. TheSpread leans Florida +11. Predictem has Florida +10.5. Pick Dawgz has the under 51.5. Onlygators leans over. The side consensus is split, with a slight lean to the under.\n9. Line/splits: the spread moved from Texas -10 to -11 and the total from 52.5 to 51. Splits conflict: TheSpread says 63% of spread tickets are on Florida, while Predictem says Florida has 41% of bets but 74% of the money.\nSources: AP via La Nacion, Saturday Down South, On3, Yahoo/SI, CBS (Zenitz), ClutchPoints, Action Network, TheSpread, Predictem, Pick Dawgz, Onlygators, Austin American-Statesman, ESPN. Note: WebFetch could not resolve the sites (DNS failure), so all figures come from search snippets."
+ "research": "1. QBs/personnel: Tramell Jones Jr. (Florida soph) went 21/35, 191 yds, 2 TD, 0 INT (5.5 YPA) in 2025, with a 12/18, 131 yd, 2 TD debut vs LIU and 9/17, 60 yds vs Kentucky. In 2026 he is 23/29, 252 yds, 2 TD, 2 INT in relief (AP, Ourlads, FantasyData). He lost the camp battle to Philo. Aaron Philo (Georgia Tech transfer) was 59/102 (57.8%), 938 yds, 2 TD, 3 INT at Georgia Tech, with one start (373 yds vs Gardner-Webb), and has been Florida's 2026 starter (Wikipedia, On3, Bleacher Report). Arch Manning has 1,122 yds, 10 TD, 5 INT, 63% and a 65.6 QBR (8th in the SEC). He was 19/31, 260 yds, 3 TD, 2 INT vs Oklahoma, including a late INT that set up the losing field goal (HITC, Newsweek). RB Jadan Baugh (Florida) had 438 yds, 8 TD and a 91.7 PFF rush grade through three games, ran 142 yds and 3 TD vs Ole Miss, and leads the SEC in rush TDs. WR Cam Coleman (Texas) has 318 yds and 5 TD.\n2. Injury/availability: Philo (shoulder) is limited and questionable, a game-time decision (CBS/Zenitz, AP, News4Jax, ClutchPoints, SDS). No official SEC availability report was found, and none was indexed by 12:45Z. No notable 2026 Texas injury news surfaced.\n3. Advanced/season stats: No 2026 SP+ was indexed. PFF preseason rated Texas the only team with a top-10 unit at every position group. Texas allows about 16.0 ppg and scores 31.4 ppg (Bleacher Nation), held UTSA to 143 yards in a 30-6 win, and won 20-17 at Tennessee amid 'offense inconsistency' concerns (Sportsnaut). Florida allowed 45 at Missouri and 38 to South Carolina and lost the turnover battle vs South Carolina (Roundtable). Action Network cites Florida's poor pass-defense EPA. O/U: Florida 4-2 over, Texas 2-3 over.\n4. Scheme: Florida (OC Buster Faulkner, from Georgia Tech) is run-first through Baugh, which plays into Texas's strength (about 96 rush yds/game allowed). Texas's pass game (Manning to Coleman) faces a slumping Florida secondary. Texas's OL has allowed 8 sacks in two games, so Florida can generate pressure.\n5. Coaching: Jon Sumrall is in his first year at Florida (from Tulane), with a $11.2M staff. Sarkisian's Texas is 1-4 ATS in 2026 and 3-7-1 ATS since 2021 when the spread is within 5 (SDS). Its home ATS record is mixed: 4-2 at DKR in 2024 and 0-2 in 2023. Sarkisian has publicly backed Manning after the Oklahoma loss (Bolavip).\n6. Situational: Texas is home after a last-second Red River loss, a bounce-back spot. Florida has lost two straight and travels for an 11 a.m. CT kickoff on ABC, with a bye next week (Oct 24) and no lookahead. There is revenge for Texas after its 29-21 loss in Gainesville in 2025.\n7. History: Texas leads the series 3-1-1. Florida won 29-21 in 2025 (Baugh 107 yds), and Texas won 49-17 in Austin in 2024.\n8. Weather: Action Network lists 58F and 0% rain. Hoodline/AccuWeather mid-October outlooks ran warmer (high 80s-90s), but neither shows rain or wind. No weather factor.\n9. Experts/market: Collin Wilson (Action) has Texas -9.5 and projects Texas by 13. Kody Malstrom (Action) has Texas -9.5. Brandon Kravitz (Action) has Florida +10.5 on the trenches. Predictem has Florida +10.5. CBS has Texas -10.5. TheSpread leans Florida +11. On totals, Pick Dawgz has Under 51.5 and SportsGambler has Over 51.5. The spread consensus is split and the total is split, with a slight lean under. The line moved from Texas -10/-10.5 to -11/-11.5 and the total from 52.5 to 51. Splits: Action has 65% of bets but 35% of money on Florida, so the sharper money is on Texas. Predictem's splits conflict with that.\nSources: AP via La Nacion, CBS Sports (Zenitz), On3, Saturday Down South, News4Jax, ClutchPoints, Action Network, Predictem, SportsGambler, TheSpread, Pick Dawgz, SI, Bleacher Nation, Roundtable, Sportsnaut, PFF, Ourlads, FantasyData, HITC, Newsweek, Hoodline, Wikipedia. WebFetch was not used; all figures come from search snippets."
 }

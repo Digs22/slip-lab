@@ -1,51 +1,54 @@
 {
- "summary": "Mississippi State QB Kamario Taylor (turf toe) was downgraded to doubtful and is not expected to play per ESPN's Pete Thamel; freshman Parker 'Billy' Puckett would start, and leading rusher Fluff Bothwell is also doubtful. The market already moved hard on this (LSU -11.5/-14 to -17.5, total 58.5-59.5 to 56), so edges are modest; best lean is the Mississippi State team total under.",
+ "summary": "Deep pass confirms the first pass's core read and does not reverse it. ESPN's Pete Thamel and the Friday SEC availability report have MSST QB Kamario Taylor (turf toe; 69.2% completions, 14 TD / 2 INT, a Heisman-list QB) doubtful and not expected to play, and RB Fluff Bothwell (403 yds, team leader) doubtful too. MSST would go to walk-on redshirt freshman Parker 'Billy' Puckett (8-for-14, 89 yds in 2026) and/or veteran transfer AJ Swann (Vanderbilt/App State, about 57% career completions, 32 TD / 17 INT). The spread moved from about -10 to -17.5 and the total from 58.5-59.5 to 56. The new finding is that Swann is a real veteran fallback, which caps how far the MSST offense falls. The MSST team total Under 19.5 is still the strongest edge. LSU ML is now added as the leg most likely to win, and the full-game Under is downgraded slightly because both teams have gone over the total often (LSU 4/6, MSST 3/5).",
  "lineups_confirmed": false,
  "legs": [
   {
+   "desc": "LSU Tigers ML",
+   "signals": {
+    "injuries": 0.89,
+    "home": 0.87,
+    "season": 0.86,
+    "recent_form": 0.84,
+    "experts": 0.85,
+    "history": 0.87
+   },
+   "note": "Most likely leg to win. Pre-news models had LSU at 81-84% (Dimers, numberFire) and FPI at 76.9%; losing a 14-2 TD/INT QB plus the lead RB pushes the true number to the high 80s. LSU is 4-0 at home with a No. 2 run defense (47.5 ypg) and leads the series 75-36-3, including 15 of the last 17. Risks are Leavitt turnovers (3 INTs vs La Tech, an INT and a fumble at Kentucky) and a bounce-back game coming off an OT loss."
+  },
+  {
    "desc": "Mississippi State Bulldogs team total Under 19.5",
    "signals": {
-    "injuries": 0.6,
-    "matchup": 0.56,
-    "season": 0.52,
+    "injuries": 0.61,
+    "matchup": 0.57,
+    "season": 0.49,
     "coaching": 0.52,
-    "experts": 0.47
+    "experts": 0.48
    },
-   "note": "A freshman backup QB (3-for-6, 26 yds in relief vs Alabama) without lead RB Bothwell faces an LSU defense allowing about 176 pass ypg with nearly 4 sacks a game; pre-news models projected MSST around 23 with Taylor. Garbage-time points and LSU turnovers (Leavitt pick-six vs La Tech) are the main risk."
+   "note": "Strongest edge. MSST loses its QB and lead RB against an LSU front allowing 47.5 rush ypg and recording nearly 4 sacks a game (MSST allowed 5 sacks vs Alabama). Puckett was a preferred walk-on, and Swann has a career 56-59% completion rate with a high INT rate (8 INTs in 7 games at App State in 2025). Counterpoints are that MSST scored 23 or more in all five games and that LSU's defense is missing LB Whit Weeks (broken leg), S Dashawn Spears, and possibly LB Tylen Singleton, which leaves room for garbage-time points."
   },
   {
    "desc": "Under 56",
    "signals": {
-    "injuries": 0.58,
-    "matchup": 0.55,
-    "season": 0.52,
-    "coaching": 0.53,
+    "injuries": 0.57,
+    "matchup": 0.53,
+    "season": 0.46,
+    "coaching": 0.52,
     "weather": 0.5
    },
-   "note": "A freshman backup QB (3-for-6, 26 yds in relief vs Alabama) without lead RB Bothwell faces an LSU defense allowing about 176 pass ypg with nearly 4 sacks per game, and a big LSU lead likely means a run-heavy clock-draining second half. The total already dropped about 3 points, so only a modest edge remains."
-  },
-  {
-   "desc": "1H Under 29",
-   "signals": {
-    "injuries": 0.55,
-    "matchup": 0.52,
-    "season": 0.5
-   },
-   "note": "MSST's offense should be weakest early before any garbage time, but LSU alone could cover much of this number, so it is only a slight lean."
+   "note": "The MSST offensive downgrade and a likely LSU run-heavy second half with a lead favor the under. But the total already fell about 3 points, LSU games are 4/6 to the over, MSST's are 3/5, MSST's defense was bottom-two in the SEC in 2024-25, and Kiffin's offense rushes for 238 ypg and can get to 40 alone. Only a slight lean."
   },
   {
    "desc": "LSU Tigers -17.5",
    "signals": {
-    "injuries": 0.58,
-    "home": 0.53,
-    "season": 0.53,
+    "injuries": 0.57,
+    "home": 0.52,
+    "season": 0.5,
     "recent_form": 0.46,
-    "experts": 0.48,
-    "history": 0.5
+    "coaching": 0.53,
+    "experts": 0.48
    },
-   "note": "Backup QB for MSST is strong evidence for LSU, but the line already moved from -11.5/-14 to -17.5 and LSU is 4-2 off an OT loss at Kentucky with a turnover-prone QB (Leavitt). Treat as close to fair; not a recommended pick."
+   "note": "Kiffin has covered about 62% as a 7+ point favorite in his career (Saturday Down South), and the QB drop-off is severe. But LSU has covered only 2 of 6 this year, the line has moved 7+ points, and Swann gives MSST a backdoor-cover path. Roughly fair; not recommended."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: Noon ET kickoff at Tiger Stadium (day game blunts the Death Valley night edge); LSU coming off an OT loss at Kentucky (Oct 10), so a bounce-back spot. No rivalry or homecoming bump found.\n2. History/ATS: LSU has dominated the series historically; past meetings show lines from MSST -2.5 to LSU -9.5 (SI, CBS archives). No reliable 2026 ATS trend data found.\n3. Coaching: Lane Kiffin (LSU, first season) runs an up-tempo RPO offense; LSU rushes about 214 ypg (Predictem). Jeff Lebby (MSST) runs an up-tempo spread built around QB Taylor's legs and arm.\n4. Matchups: LSU defense allows about 176 pass ypg with nearly 4 sacks per game (Predictem); MSST OL allowed 5 sacks vs Alabama. Game on Paper adjusted EPA ranks LSU 3rd and MSST 24th (via Predictem).\n5. Health: ESPN/Thamel report that Kamario Taylor (turf toe, hurt vs Missouri 9/27, aggravated vs Alabama) was downgraded to doubtful and is not expected to play; freshman Parker 'Billy' Puckett starts. RB Fluff Bothwell is also doubtful. For LSU, LB Whit Weeks plus four others are out and LB Tylen Singleton is doubtful (ESPN/SI). The final report comes 90 minutes before kickoff.\n6. Stats: LSU 4-2 (W Clemson 51-10, W La Tech 45-14 with 3 Leavitt INTs, L Ole Miss, W Texas A&M 35-6, L Kentucky OT). Leavitt is about 244-261 pass ypg (StatSniper/Legion Report) and went 25/34 for 275 yards with 2 TD, 1 INT, and a fumble at Kentucky. MSST lost 56-23 to Alabama (Taylor 55.9% completions, 2 INT, -26 rush yds) and beat Missouri 31-24. Note: SI and Saturday Down South reporting conflicts with the 4-1 MSST record given in the task; a 41-21 Georgia loss was also found, but its season was unconfirmed.\n7. Weather: No confirmed forecast found. WAFB (Oct 11) expected a cold front to break the October heat around this weekend; WBRZ hints rain holds off until Saturday night. Likely warm and dry at noon.\n8. Experts: Dimers model 35-23 LSU (81% win, line -11.5 at the time); numberFire 83.8% LSU; Predictem picks LSU -14; A to Z Sports writers split (MSST 30-27, LSU 33-20); prediction markets 80/20. Most were published before the Taylor downgrade. ESPN FPI 76.9% LSU vs about 86% implied by the market.\n9. Line movement: The spread moved from LSU -11.5 (Dimers) and -14/-14.5 (DraftKings/FanDuel, SI) to -17.5 now, and the total moved from 58.5-59.5 to 55.5-57. That movement reflects the Taylor news, so there is no public betting split edge to report."
+ "research": "1. QBs/personnel: MSST QB Kamario Taylor (2026 freshman starter) has 1,192 pass yds, 69.2% completions, 14 TD / 2 INT, and 185 rush yds through Missouri (ESPN via search, WTVA, WLOX). He threw 354/4 TD vs ULM and 360/3 TD/1 INT vs Missouri, then struggled vs Alabama (55.9%, 2 INT) while hurt. Backups: Parker 'Billy' Puckett is a Jackson Prep preferred walk-on (61.6%, 2,484 yds, 22 TD as an HS junior) who is 8-of-14 for 89 yds in 2026 (Clutchpoints/RotoBaller). AJ Swann has 24 career games and 18 starts: Vanderbilt 2022-23 (56.3%, 2,731 yds, 22 TD / 9 INT), LSU 2024 (2-of-4), App State 2025 (59%, 1,498 yds, 10 TD / 8 INT) (Wikipedia, SI, Hail State). Lebby said both could play. LSU QB Sam Leavitt (ex-Arizona State) passes for about 244-261 ypg; he went 25/34, 275 yds, 1-2 TD, 1 INT, 1 fumble, and 39 rush yds at Kentucky (AP, LSUsports.net), with 3 INTs vs La Tech. LSU's rushing is led by Dilin Jones over Caden Durham (2025: 505 yds, 4.5 ypc).\n2. Injuries (Fri/Sat): ESPN's Pete Thamel and the SEC availability report have Taylor (turf toe from Missouri, aggravated vs Alabama) downgraded from questionable to doubtful and not expected to play. RB Fluff Bothwell (lower leg; 403 yds on 74 carries) is doubtful, with Kolin Wilson next (ESPN, TigerRag, RotoBaller). LSU has ruled out TE Trey'Dez Green, LB Whit Weeks (broken leg), S Dashawn Spears, WR Phillip Wright III, and LB Charles Ross II; LB Tylen Singleton is questionable/doubtful (TigerDroppings, SI). The final report comes 90 minutes before kickoff.\n3. Advanced stats: Preseason SP+ ranks LSU 10th (20.2) and MSST 52nd (Saturday Down South/ESPN); no in-season SP+ was found. Game on Paper adjusted EPA ranks LSU 3rd and MSST 24th (via Predictem). LSU's run defense allows 47.5 ypg (2nd nationally through week 4, Roundtable), and its rushing offense gains 237.8 ypg (15th, Roundtable, Oct 6), up from 104 ypg in 2025. MSST's defense was last in the SEC in 2024 (34.1 ppg) and second-to-last in 2025; DC Zach Arnett is new in 2026 (WLOX). No 2026 havoc, red-zone, or third-down splits were found.\n4. Scheme: Kiffin's tempo RPO/run-heavy offense faces an Arnett 3-3-5-style MSST defense that returned both starting DTs and has run-stopped surprisingly well (Sharp Football). Ole Miss was the one team to shred LSU (363 pass yds), so the LSU secondary is beatable by an elite passer, which MSST no longer has. The MSST OL allowed 5 sacks vs Alabama, and LSU averages nearly 4 sacks a game (Predictem).\n5. Coaching: Kiffin covered about 62% as a 7+ point favorite over roughly 50 games (Saturday Down South, career trends), but LSU is just 2-4 ATS in 2026 (FanDuel/SportsGambler). Kiffin keeps his foot on the gas in blowouts. Lebby (MSST, 3rd year) calls his own up-tempo plays and is now limited by the QB situation.\n6. Situational: Noon ET ESPN kickoff, so no night Death Valley bump. LSU comes off a 35-34 OT loss at Kentucky (Oct 10) in a bounce-back home spot and is 4-0 at home. MSST comes off a bye after the Oct 3 56-23 loss at Alabama; it is 4-1 and has won both road games (Minnesota, South Carolina). The rankings are #16 MSST and #22 LSU per FLM, so MSST got a ranking boost from its 4-0 start.\n7. History: LSU leads 75-36-3. The last meeting was LSU 41-14 in 2023 (Wikipedia), and LSU has won 15 of 16 from 2000-2023 (CBS). MSST's recent wins came in 2017 and 2020.\n8. Weather: No dated forecast was found (WAFB/WBRZ searches returned older items). Mid-October Baton Rouge at noon is typically low-to-mid 80s, and the prior pass found a cold front this weekend with rain holding off until night. Assume a neutral, dry day game.\n9. Experts/market: Dimers projects 36-24 LSU (81%, at -11.5); numberFire 83.8% LSU; Predictem LSU -14; VegasInsider (Dylan Wilkerson) LSU -14.5, 'LSU gets back on track'; SportsGambler Over 56.5; YouWager LSU 34-27 with MSST +10 or better; A to Z Sports split. Prediction markets are 80/20 and FPI is 76.9%. Nearly all came before the Taylor downgrade. The line went from about -10 to -14.5 on the questionable news (Yahoo) and to -17.5 after the doubtful news; the total went from 58.5-59.5 to 56; the ML is now -800. No 2026 bet/money split data was found."
 }

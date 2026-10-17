@@ -1,54 +1,55 @@
 {
- "summary": "No. 15 Kentucky (5-1, four straight wins incl. OT upsets of South Carolina and LSU) visits 3-2 Oklahoma, which just beat No. 1 Texas 27-24 on an elite defense (about 238 ypg allowed) but a sputtering offense (10, 14, 13, 27 vs FBS opponents). The market (OU -6.5, total 43.5) looks efficient; the only lean is the Oklahoma team total under 24.5.",
+ "summary": "The deeper pass finds the Oklahoma offense is in worse shape than the first pass showed. It ranks 127th in offensive success rate (37%) and 132nd in EPA per rush, and Mateer has 6 turnover-worthy throws in 60 SEC attempts. Friday's report also listed a third offensive-line starter as doubtful (RG Heath Ozaeta, who played 59 snaps vs Texas), alongside LT Fasusi and G Pierre-Louis, with true freshman Noah Best and Peyton Joseph expected to fill in. That strengthens the Oklahoma team total under 24.5, the best edge. I've reversed the first pass's side lean from OU -6.5 to Kentucky +6.5: Kentucky ranks 17th in offensive success rate and protects the ball, OU starting CB Eli Bowen is out, Venables teams have a weak record after big wins, and most projections put the margin at 6 or less. Oklahoma ML (about 68%) is the leg most likely to win. Ozaeta's downgrade is the only new availability news. Kentucky's DB/LB absences were already known.",
  "lineups_confirmed": false,
  "legs": [
   {
-   "desc": "Oklahoma Sooners -6.5",
+   "desc": "Oklahoma Sooners ML",
    "signals": {
-    "home": 0.55,
-    "season": 0.53,
-    "matchup": 0.52,
-    "recent_form": 0.47,
-    "injuries": 0.49,
-    "coaching": 0.52,
-    "experts": 0.51
+    "home": 0.68,
+    "season": 0.68,
+    "matchup": 0.67,
+    "injuries": 0.65,
+    "experts": 0.69,
+    "coaching": 0.67
    },
-   "note": "Oklahoma's defense is the best unit on the field and Kentucky's defense allows about 382 ypg, but OU's offense has scored 14 or fewer against three of four FBS opponents, and 79% of spread tickets are on Kentucky after the line moved from 7 to 6.5. Roughly a coin flip."
+   "note": "This is the most likely leg to win. ESPN FPI (67.8%), Dimers (68.9-70.5%), Kalshi (about 68%), DRatings (26-19) and TeamRankings (25-19) all agree with the market's 68.7% fair price. Oklahoma's defense is No. 1 in adjusted EPA/play and allows the fewest first downs in FBS (12.8 per game). Kentucky's defense is near the bottom of FBS in success rate. The risks are three OL starters doubtful and a possible letdown after Texas, so I shade it slightly under market."
   },
   {
-   "desc": "Under 43.5",
+   "desc": "Kentucky Wildcats +6.5",
    "signals": {
-    "season": 0.52,
     "matchup": 0.53,
-    "experts": 0.5,
-    "recent_form": 0.47,
-    "injuries": 0.48
+    "injuries": 0.54,
+    "situational": 0.54,
+    "experts": 0.52,
+    "recent_form": 0.53,
+    "season": 0.5
    },
-   "note": "Oklahoma's games average about 41 total points and its offense runs for only about 96 ypg, but every Kentucky game has gone over 50 and both secondaries have injuries. Experts are split (Predictem and Pick Dawgz say under, Bleacher Nation says over), so there's no clear edge."
+   "note": "This reverses the first pass. Oklahoma's offense can't stretch a lead: it ranks 127th in success rate and 132nd in EPA/rush, and three OL starters are doubtful. Its four FBS games produced 10, 14, 13 and 27 points, and the 27 against Texas included defensive and special-teams touchdowns. Most projections put the margin at 6 or 7 or less: Dimers and DRatings 7, TeamRankings 6, Grueling Truth 3, Predictem 6, Yahoo 6, and JD PicKell has Kentucky winning. Andy Staples and Ari Wasserman both take Kentucky. The case against: 79-84% of tickets are on Kentucky, so this is the public side, and +6.5 sits just under the key number of 7."
   },
   {
    "desc": "Oklahoma Sooners team total Under 24.5",
    "signals": {
     "season": 0.57,
-    "recent_form": 0.53,
-    "matchup": 0.46,
-    "injuries": 0.47,
-    "coaching": 0.53
+    "matchup": 0.52,
+    "injuries": 0.58,
+    "recent_form": 0.55,
+    "coaching": 0.54,
+    "experts": 0.51
    },
-   "note": "Oklahoma has scored 10, 14, 13 and 27 against FBS opponents (only UTEP, at 51, and Texas, at 27, cleared 24.5), with a run game of about 96 ypg and two starting OL doubtful. Kentucky's weak, short-handed defense (382 ypg, four DB/LB starters out) is the counterweight."
+   "note": "This is the strongest edge. Against FBS opponents, Oklahoma's offense has scored 10, 14, 13 and roughly 20 (the Texas game minus its non-offensive touchdowns). Its success rate is 37% (127th), its run game averages about 96 yards a game, and Mateer went 18/26 for 155 against Texas. The OL is now missing three starters and WR Parker Livingstone is out. Kentucky's weak defense (28 ppg, poor success rate, five DB/LB/DE starters out) and possible OU defensive or return touchdowns are the risks. Model projections for OU range from 23 to 27."
   },
   {
    "desc": "Kentucky Wildcats team total Over 17.5",
    "signals": {
     "season": 0.56,
     "recent_form": 0.55,
-    "matchup": 0.43,
-    "injuries": 0.5,
-    "experts": 0.5
+    "matchup": 0.45,
+    "injuries": 0.53,
+    "experts": 0.53
    },
-   "note": "Kentucky has scored at least 31 in every game except Alabama (17), with almost no turnovers, but Oklahoma's defense allows about 17.6 ppg and held Michigan, UNM and Texas to 24 or fewer. Close to fair."
+   "note": "Most projections put Kentucky at 18 to 22: Dimers and DRatings 19, TeamRankings 19, Grueling Truth 20, Yahoo 21, PicKell 22. Predictem's 17 is the only one below the line. Kentucky ranks 17th in offensive success rate and has scored 31 or more in five of six games, all except Alabama (17). OU's top CB Bowen is out. The case against is OU's defense, which allows 17.6 ppg and held Michigan to 17 and UNM to 6 (though Georgia scored 41 and Texas 24). Slightly better than a coin flip."
   }
  ],
  "extra_legs": [],
- "research": "1. Home/atmosphere: night kickoff (6:30 CT, SEC Network) at Gaylord Family-Oklahoma Memorial Stadium a week after OU's walk-off 27-24 win over No. 1 Texas; no rivalry history and little head-to-head history.\n2. History/ATS: Kentucky has won 4 straight (31-21 over Texas A&M, 45-21 over South Alabama, 35-34 OT over South Carolina, 35-34 OT over LSU) after a 45-17 loss at Alabama; OU's results are 51-0 UTEP, L 10-17 at Michigan, 14-6 UNM, L 13-41 at Georgia, W 27-24 Texas (StatMuse, ESPN, CBS).\n3. Coaching: Venables runs an aggressive, blitz-heavy defense (No. 1 nationally in sacks and TFL in 2025); OU's offense is limited (about 95.8 rush ypg, per Sports-Reference). First-year Kentucky coach Will Stein is aggressive and decided the LSU game with a 2-point QB draw (ESPN, Tiger Rag).\n4. Matchups: Minchey (1,394 pass yds, 1 INT, 0 fumbles lost) faces an OU pass defense allowing 150 ypg (1st in the SEC). Mateer (1,038 yds, 8 TD, 4 INT) faces a Kentucky defense allowing about 382 ypg. Sategna (331 rec yds) is OU's top target, and Baxter (484 rush yds, 5.6 ypc, 123 vs LSU) carries UK's run game.\n5. Injuries: UK has LBs Antwan Smith and Tavion Wallace, DBs Grant Grayton and Jaden Smith, and DE Tyler Thomas out, with RB CJ Baxter questionable. OU has CB Eli Bowen listed out or questionable (sources conflict), G Eddy Pierre-Louis and LT Michael Fasusi doubtful, and WR Trell Harris out (A Sea of Blue, News9, 247Sports).\n6. Stats: OU defense allows about 238 ypg (3rd in FBS, per SI) and holds opponents to a 22.7% third-down rate. OU scores about 23 ppg (13.5 vs P4); UK scores about 34.7 ppg and allows about 28.\n7. Weather: no forecast found; mid-October evenings in Norman are typically in the 60s and dry. Not a factor that can be used.\n8. Experts: The Spread and Tony's Picks (Ramon Scott) take OU -6.5/-7, while SI takes UK +7 and Bleacher Nation takes the UK ML. On the total, Predictem and Pick Dawgz take the under and Bleacher Nation the over. Dimers projects OU 26-19 (70.5%), YouWager OU 28-20, and Kalshi prices OU at about 68%. Consensus: OU by about 7, total near 45.\n9. Line/splits: the spread opened OU -7 and is now -6.5 with 79% of spread tickets on Kentucky (TheSpread). The total opened 43.5 and hasn't moved."
+ "research": "1. QBs/personnel: John Mateer (OU) was at Washington State 2022-24; his 2024 season there was 3,139 pass yds, 29 TD/7 INT and 826 rush yds with 15 rush TD. In 2025 at OU he threw for 2,578 yds with 12 TD/10 INT and had hand surgery midseason. In 2026 he has 1,038 yds, 66.7%, 8 TD/4 INT, went 18/26 for 155 vs Texas, and has 6 turnover-worthy throws in 60 SEC attempts (Wikipedia, FanGraphs, SI, Covers). Michael Hawkins Jr. transferred to WVU, so OU's backup QB is unproven. Kenny Minchey (UK) is a Notre Dame transfer with only 32 career dropbacks before 2026. This season he has about 1,148-1,394 yds, 11 TD and 1 INT, and went 23/36 for 246 plus the winning 2-pt run vs LSU (Statsniper, AP). UK RB CJ Baxter (Texas transfer) had 123 yds and 2 TD vs LSU and is questionable. Freshman WR Kenneth Darby had 4-79 vs LSU.\n2. Injuries: Friday's OU report has LT Michael Fasusi doubtful (he has played 17 snaps since the opener), G Eddy Pierre-Louis doubtful (also missed Texas) and G Heath Ozaeta doubtful (new; ankle; played 59 snaps vs Texas). Expected fill-ins are Ryan Fodje at LT, true freshman Noah Best at LG and Peyton Joseph at RG. CB Eli Bowen, WR Parker Livingstone, WR Trell Harris, LB Taylor Heim, RB Xavier Robinson, TE Trynae Washington and DB Jacobe Johnson are out (247Sports, SI, A Sea of Blue, News9). UK has DE Tyler Thomas, CBs Jaden Smith and Grant Grayton, and LBs Antwan Smith and Tavion Wallace out; LB Whit Weeks and TE Trey'Dez Green are out long term.\n3. Advanced stats: no in-season SP+ found (preseason OU No. 11-12). SI has OU's defense No. 1 in adjusted EPA/play. It allows 17.6 ppg, 12.8 first downs a game (fewest in FBS), about 238 ypg and a 22.7% opponent third-down rate, and opponents stay on schedule only 32% of the time (top 5). OU's offense has a 37% success rate (127th) and ranks 132nd in EPA/rush, with about 96 rush ypg. UK's offense is 17th in success rate with about 417 ypg (9th in SEC); its defense allows 28 ppg and 377 ypg and is near the bottom of FBS in success rate (Predictem, SI, The Spread, Field Level Media).\n4. Scheme: Stein runs a tempo, spacing and 12-personnel attack from his Oregon background against Venables' blitz-heavy front, which led the nation in sacks and TFL in 2025. OU's patched OL faces Jay Bateman's UK pass rush (his 2025 Texas A&M unit had 43 sacks), which matters most for OU's run game. UK's bottom-tier defense against OU's bottom-tier offense makes this a strength-vs-strength matchup on the other side of the ball.\n5. Coaching: under Venables, OU is 17-3 SU before Texas and 9-12 SU after Texas, and his teams have often struggled in the weeks after big wins (2022 Nebraska, 2023 Texas, 2024 Alabama; SI One Big Thing). OU is 2-1 in the game immediately after Red River. Staff stressed avoiding a letdown (News9, Arbuckle). First-year coach Stein is aggressive, as shown by the 2-pt QB draw to beat LSU.\n6. Situational: OU is coming off a walk-off 27-24 win over No. 1 Texas at a neutral site; this is a possible letdown spot at home. UK is coming off two straight OT wins (South Carolina, LSU) and its first SEC road trip west. Night kickoff 7:30 ET on SEC Network, with a big Norman crowd.\n7. History: OU leads the series 2-1 (UK won the 1951 Sugar Bowl 13-7; OU won 29-7 in 1980 and 29-8 in 1982) (Winsipedia, SoonerSports). The series isn't relevant to ATS. All six UK games have gone over 43.5 (SportsGambler); OU games average about 45.5 (Bleacher Nation).\n8. Weather: no specific forecast found. Climatology for Oct 17 in Norman is a 74 high, 49 low and 15% chance of rain, so the evening should be in the 60s and dry, and weather isn't a factor.\n9. Experts/market: The Spread takes OU -6.5; Covers, SI, TheRx and Grueling Truth take UK +6.5/+7; Staples and Wasserman take UK ATS; Bleacher Nation takes the UK ML; JD PicKell has UK 22-18; Drew Franklin (KSR) expects an OU blowout. Models: Dimers 26-19, DRatings 26-19, TeamRankings 25-19, ESPN FPI 67.8% OU. Totals: Covers, Predictem (23-17), TheRx and Grueling Truth (23-20) take the under; Bleacher Nation and SportsGambler take the over. The spread opened OU -7 (Polymarket had -6.5) and is now -6.5, with 79% of tickets (The Spread) and 84% of DraftKings bets on UK. The total opened 41.5 (Polymarket) and rose to 43.5. Consensus is OU by about 6 with a total of about 44."
 }
