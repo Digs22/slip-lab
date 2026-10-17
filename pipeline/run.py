@@ -114,7 +114,7 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
                 "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
                 "home_conf": g.get("home_conf"), "away_conf": g.get("away_conf"),
                 "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
-                "provisional": p["provisional"], "score": p.get("score"), "rank": rank,
+                "provisional": p["provisional"], "score": p.get("score"), "rank": rank, "lean": bool(data.get("lean")),
                 "summary": p.get("analyst"), "weather": g.get("weather"),
                 "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line",
                                                  "odds", "book", "fair", "prob", "edge", "signals", "note", "status", "alt", "main_line")}

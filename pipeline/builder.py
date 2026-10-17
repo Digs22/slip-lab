@@ -126,9 +126,14 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
     chosen, teams = [], Counter()
     per_league = Counter(g["game"]["league"] for g in scored_games)
     for g in sorted(scored_games, key=lambda g: g["score"], reverse=True):
-        if len(chosen) == n:
-            break
         if not g.get("analyst"):  # no research, no plays: unresearched edges were market noise (0-8 start, 2026-10-15)
+            continue
+        if g["game"]["league"] in config.ALWAYS_PICK:
+            plays = build_plays(g) if g["legs"] and g["score"] >= config.MIN_GAME_SCORE else _lean(g)
+            if plays:
+                chosen.append(g | {"plays": plays, "lean": "lean" in plays["straight"]})
+            continue
+        if len([c for c in chosen if c["game"]["league"] not in config.ALWAYS_PICK]) == n:
             continue
         if g["score"] < config.MIN_GAME_SCORE and not (
                 per_league[g["game"]["league"]] <= 2 and not any(c["game"]["league"] == g["game"]["league"] for c in chosen)):
@@ -142,6 +147,16 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
         teams.update(names)
         chosen.append(g | {"plays": plays})
     return chosen
+
+
+def _lean(g: dict) -> dict | None:
+    """No edge, but the user wants a pick for every game: the researched leg most likely to win, straight only."""
+    pool = [l for l in g.get("evaluated", []) if l.get("note") and l["prob"] >= 0.5]
+    if not pool:
+        return None
+    s = max(pool, key=lambda l: (l["prob"], l["edge"]))
+    return {"straight": {"legs": [s], "odds": s["odds"], "prob": s["prob"], "ev": s["edge"], "lean": True,
+                         "units": config.PLAYS["straight"], "stake": config.PLAYS["straight"] * config.UNIT}}
 
 
 def build_traditional(scored_games: list[dict], sgp_straights: set | None = None, prior_use: Counter | None = None) -> dict | None:
