@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T08:03-04:00",
+ "generated": "2026-10-17T08:19-04:00",
  "games": [
   {
    "id": "401878771",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "venue": "Hill Dickinson Stadium",
    "city": "Liverpool",
-   "detail": "31'",
+   "detail": "45'+2'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "venue": "RCDE Stadium",
    "city": "Barcelona",
-   "detail": "2'",
+   "detail": "17'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -84,10 +84,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "NAP -140",
+    "spread": "NAP -130",
     "total": 2.5,
-    "home_ml": 330,
-    "away_ml": -140,
+    "home_ml": 310,
+    "away_ml": -130,
     "book": "DraftKings"
    }
   },
@@ -410,10 +410,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BAR -220",
+    "spread": "BAR -215",
     "total": 4.5,
-    "home_ml": 475,
-    "away_ml": -220,
+    "home_ml": 450,
+    "away_ml": -215,
     "book": "DraftKings"
    }
   },
@@ -2236,10 +2236,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "RBNY -140",
+    "spread": "RBNY -145",
     "total": 3.5,
-    "home_ml": -140,
-    "away_ml": 285,
+    "home_ml": -145,
+    "away_ml": 290,
     "book": "DraftKings"
    }
   },
@@ -3736,8 +3736,8 @@
    "odds": {
     "spread": "CAR -3",
     "total": 39.5,
-    "home_ml": 140,
-    "away_ml": -166,
+    "home_ml": 142,
+    "away_ml": -170,
     "book": "DraftKings"
    }
   },
@@ -3916,8 +3916,8 @@
    "odds": {
     "spread": "KC -7.5",
     "total": 41.5,
-    "home_ml": -455,
-    "away_ml": 350,
+    "home_ml": -440,
+    "away_ml": 340,
     "book": "DraftKings"
    }
   },

@@ -1,0 +1,35 @@
+{
+ "summary": "Mississippi State QB Kamario Taylor (turf toe/foot) was downgraded to doubtful and is not expected to play per ESPN's Pete Thamel; freshman Parker 'Billy' Puckett would start, and leading rusher Fluff Bothwell is also doubtful. The market has already moved hard on this news (LSU from -11.5/-14 to -17.5, total from 58.5-59.5 to 56), so remaining edge is small; slight lean to the Under.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Under 56",
+   "signals": {"injuries": 0.58, "matchup": 0.55, "season": 0.52, "coaching": 0.53, "weather": 0.5},
+   "note": "A freshman backup QB (3-for-6, 26 yds in relief vs Alabama) without lead RB Bothwell faces an LSU defense allowing about 176 pass ypg with nearly 4 sacks per game, and a big LSU lead likely means a run-heavy clock-draining second half. The total already dropped about 3 points, so only a modest edge remains."
+  },
+  {
+   "desc": "LSU Tigers -17.5",
+   "signals": {"injuries": 0.58, "home": 0.53, "season": 0.53, "recent_form": 0.46, "experts": 0.48, "history": 0.5},
+   "note": "Backup QB for MSST is strong evidence for LSU, but the line already moved from -11.5/-14 to -17.5 and LSU is 4-2 off an OT loss at Kentucky with a turnover-prone QB (Leavitt). Treat as close to fair; not a recommended pick."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "S. Leavitt u247.5 passing yds",
+   "market": "prop",
+   "player": "Sam Leavitt",
+   "team": "LSU",
+   "stat": "pass_yds",
+   "side": "under",
+   "line": 247.5,
+   "odds": -114,
+   "book": "FanDuel",
+   "fair": 0.5,
+   "status": "Active; no injury designation found this week (had back spasms in September before Ole Miss)",
+   "projection": {"mu": 238, "sd": 70},
+   "signals": {"season": 0.5, "matchup": 0.53, "coaching": 0.55, "recent_form": 0.47},
+   "note": "Leavitt averages roughly 244-261 pass ypg, but LSU runs for about 214 ypg and a lopsided script against a backup QB favors running and possibly an early exit. He threw for 275 at Kentucky, so the edge is thin."
+  }
+ ],
+ "research": "1. Home/atmosphere: Noon ET kickoff at Tiger Stadium (day game blunts the Death Valley night edge); LSU coming off an OT loss at Kentucky (Oct 10), so a bounce-back spot. No rivalry or homecoming bump found.\n2. History/ATS: LSU has dominated the series historically; past meetings show lines from MSST -2.5 to LSU -9.5 (SI, CBS archives). No reliable 2026 ATS trend data found.\n3. Coaching: Lane Kiffin (LSU, first season) runs an up-tempo RPO offense; LSU rushes about 214 ypg (Predictem). Jeff Lebby (MSST) runs an up-tempo spread built around QB Taylor's legs and arm.\n4. Matchups: LSU defense allows about 176 pass ypg with nearly 4 sacks per game (Predictem); MSST OL allowed 5 sacks vs Alabama. Game on Paper adjusted EPA ranks LSU 3rd and MSST 24th (via Predictem).\n5. Health: ESPN/Thamel report that Kamario Taylor (turf toe, hurt vs Missouri 9/27, aggravated vs Alabama) was downgraded to doubtful and is not expected to play; freshman Parker 'Billy' Puckett starts. RB Fluff Bothwell is also doubtful. For LSU, LB Whit Weeks plus four others are out and LB Tylen Singleton is doubtful (ESPN/SI). The final report comes 90 minutes before kickoff.\n6. Stats: LSU 4-2 (W Clemson 51-10, W La Tech 45-14 with 3 Leavitt INTs, L Ole Miss, W Texas A&M 35-6, L Kentucky OT). Leavitt is about 244-261 pass ypg (StatSniper/Legion Report) and went 25/34 for 275 yards with 2 TD, 1 INT, and a fumble at Kentucky. MSST lost 56-23 to Alabama (Taylor 55.9% completions, 2 INT, -26 rush yds) and beat Missouri 31-24. Note: SI and Saturday Down South reporting conflicts with the 4-1 MSST record given in the task; a 41-21 Georgia loss was also found, but its season was unconfirmed.\n7. Weather: No confirmed forecast found. WAFB (Oct 11) expected a cold front to break the October heat around this weekend; WBRZ hints rain holds off until Saturday night. Likely warm and dry at noon.\n8. Experts: Dimers model 35-23 LSU (81% win, line -11.5 at the time); numberFire 83.8% LSU; Predictem picks LSU -14; A to Z Sports writers split (MSST 30-27, LSU 33-20); prediction markets 80/20. Most were published before the Taylor downgrade. ESPN FPI 76.9% LSU vs about 86% implied by the market.\n9. Line movement: The spread moved from LSU -11.5 (Dimers) and -14/-14.5 (DraftKings/FanDuel, SI) to -17.5 now, and the total moved from 58.5-59.5 to 55.5-57. That movement reflects the Taylor news, so there is no public betting split edge to report."
+}

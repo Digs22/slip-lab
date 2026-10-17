@@ -1,0 +1,35 @@
+{
+ "summary": "No. 6/7 Alabama (5-1) is a -7.5/-8 road favorite at No. 14 Tennessee (5-1) with the total down from about 56.5 to 51; Tennessee starts backup-turned-starter George MacIntyre (Faizon Brandon questionable, shoulder) while Alabama is without WR Ryan Coleman-Williams, C Racin Delgatty and five defenders. Tennessee's defense (15.5 ppg, 4.7 yds/play, 161 pass ypg, nation-leading 25 sacks) against Alabama's leaky pass protection (113th in sacks allowed) is the main matchup.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Under 51",
+   "signals": {"matchup": 0.57, "injuries": 0.56, "season": 0.55, "coaching": 0.53, "experts": 0.52},
+   "note": "Tennessee is starting a second-string QB with the SEC's worst passing offense (186.5 ypg), and its elite Knowles defense faces an Alabama offense missing its top WR and starting center. The market already moved the total down about 5 points, so the edge is modest."
+  },
+  {
+   "desc": "Tennessee Volunteers +8",
+   "signals": {"home": 0.56, "injuries": 0.52, "matchup": 0.54, "experts": 0.56, "history": 0.52, "season": 0.49},
+   "note": "Tennessee is a home dog at Neyland with a top-tier defense facing a banged-up Alabama, and several handicappers (WagerTalk, TheSpread, BettingNews, Rocky Top Insider model 29-22) take Tennessee. Tennessee's QB situation offsets part of that, so this is a lean, not a strong edge."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "K. Russell u240.5 passing yds",
+   "market": "prop",
+   "player": "Keelon Russell",
+   "team": "ALA",
+   "stat": "pass_yds",
+   "side": "under",
+   "line": 240.5,
+   "odds": -114,
+   "book": "fanduel",
+   "fair": 0.5,
+   "status": "Not on injury report; healthy",
+   "projection": {"mu": 228, "sd": 62},
+   "signals": {"matchup": 0.6, "injuries": 0.57, "season": 0.46, "recent_form": 0.56, "weather": 0.5},
+   "note": "Russell averages about 265 ypg, but Tennessee allows only 161 pass ypg and leads the nation in sacks, and Alabama lacks its top WR (Coleman-Williams) and starting center. Against Georgia's comparable defense he went 16/30 for 185 with four sacks."
+  }
+ ],
+ "research": "1. Home/atmosphere: 3:30 PM ET ABC kickoff at Neyland (~101k), Third Saturday in October rivalry game, both teams 5-1 with CFP stakes; Tennessee won the last meeting in Knoxville (24-17 in 2024).\n2. History: Alabama leads 60-40-7 (Wikipedia/Covers); recent results Bama 52-24 (2021), UT 52-49 (2022), Bama 34-20 (2023), UT 24-17 (2024), Bama 37-20 (2025). Series ATS/coach underdog splits were not found.\n3. Coaching: Heupel runs a tempo, vertical spread offense but has leaned on the run with DeSean Bishop (~113 ypg, 220 vs Auburn) since QB injuries; Jim Knowles' UT defense allows 15.5 ppg and 4.7 yds/play (Roll Bama Roll, TheSpread). DeBoer's Alabama scores 44.2 ppg but is coming off a loss to Georgia.\n4. Matchups: Russell (~71% comp, 12 TD/2 INT, just under 1,600 yds) vs UT pass D (161.3 ypg, 17th; 3 pass TD allowed; 25 sacks, DT Xavier Gilliam 5 sacks). Bama OL is 113th in sacks allowed and is without C Delgatty. UT OL is 123rd in sacks allowed. Alabama pass D allows 236.5 ypg (103rd) and has the 126th-ranked red-zone D, while its run D is solid (99.8 ypg, 25th) (ESPN via search).\n5. Health: ALA out: WR Ryan Coleman-Williams (knee/head), C Racin Delgatty, LB Cayden Jones (season), DL Jeremiah Beaman (season), LB Desmond Umeozulu, DL Terrance Green, DB Nick Sherman (SI, TideFans). TEN: MacIntyre starts (Pete Thamel/ESPN); Faizon Brandon is questionable (AC joint/shoulder) and practiced limited, so a two-QB look is possible (On3). MacIntyre threw for 247 yds, 1 TD, 2 INT at Arkansas.\n6. Stats: ALA 44.2 ppg. TEN 34.7 ppg but passing is 109th (186.5 ypg). FPI/Matchup Predictor gives UT about 25-37%, and other models have Bama at 70-75%.\n7. Weather: a game-specific forecast was not confirmed. Mid-October Knoxville is typically 60s-70s, and no severe weather was reported.\n8. Experts: WagerTalk UT +8.5 and Under 51.5; TheSpread UT +8; BettingNews Bama wins, UT covers, Under 51; Rocky Top Insider model 29-22 (UT +7.5, Over 50.5 lean); Covers (Rob Paul) Bama by double digits; SGP podcast split 2-1 for Bama -8.5; CBS model leans Over. Consensus: Tennessee side and slight Under.\n9. Line/splits: spread opened Bama -6.5/-7 and was bet to -8/-8.5 before settling at -7.5/-8; total fell from 56.5 to 51. Splits show 72% of spread tickets and 97% of ML tickets on Alabama (WagerTalk/VegasInsider via search)."
+}

@@ -1,0 +1,51 @@
+{
+ "summary": "No. 15 Kentucky (5-1, four straight wins incl. OT upsets of South Carolina and LSU) visits 3-2 Oklahoma, which just beat No. 1 Texas 27-24 on an elite defense (about 238 ypg, SEC-best 150 pass ypg allowed) but a sputtering offense (10, 14, 13, 27 vs FBS opponents). The market (OU -6.5, total 43.5) looks efficient; the only lean is Minchey under on his passing yards against Oklahoma's pass defense.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Oklahoma Sooners -6.5",
+   "signals": {"home": 0.55, "season": 0.53, "matchup": 0.52, "recent_form": 0.47, "injuries": 0.49, "coaching": 0.52, "experts": 0.51},
+   "note": "Oklahoma's defense is the best unit on the field and Kentucky's defense allows about 382 ypg, but OU's offense has scored 14 or fewer against three of four FBS opponents, and 79% of spread tickets are on Kentucky after the line moved from 7 to 6.5. Roughly a coin flip."
+  },
+  {
+   "desc": "Under 43.5",
+   "signals": {"season": 0.52, "matchup": 0.53, "experts": 0.50, "recent_form": 0.47, "injuries": 0.48},
+   "note": "Oklahoma's games average about 41 total points and its offense runs for only about 96 ypg, but every Kentucky game has gone over 50 and both secondaries have injuries. Experts are split (Predictem and Pick Dawgz say under, Bleacher Nation says over), so there's no clear edge."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "K. Minchey u188.5 passing yds",
+   "market": "prop",
+   "player": "Kenny Minchey",
+   "team": "UK",
+   "stat": "pass_yds",
+   "side": "under",
+   "line": 188.5,
+   "odds": -114,
+   "book": "fanduel",
+   "fair": 0.5,
+   "status": "healthy, starting",
+   "projection": {"mu": 190, "sd": 55},
+   "signals": {"matchup": 0.58, "season": 0.45, "recent_form": 0.44, "injuries": 0.47, "home": 0.52},
+   "note": "Minchey averages about 232 yards, but his one game against an elite defense (Alabama) produced 146, and Oklahoma allows an SEC-best 150 pass ypg. A trailing game script and the uncertain status of OU cornerback Eli Bowen (reports conflict between questionable and out) push the other way."
+  },
+  {
+   "desc": "J. Mateer u223.5 passing yds",
+   "market": "prop",
+   "player": "John Mateer",
+   "team": "OU",
+   "stat": "pass_yds",
+   "side": "under",
+   "line": 223.5,
+   "odds": -114,
+   "book": "fanduel",
+   "fair": 0.5,
+   "status": "healthy, starting",
+   "projection": {"mu": 215, "sd": 60},
+   "signals": {"season": 0.55, "recent_form": 0.54, "matchup": 0.45, "injuries": 0.45},
+   "note": "Mateer averages about 208 yards (1,038 in 5 games, 155 vs Texas), which is below this line, but Kentucky's defense is weak and is missing DBs Grant Grayton and Jaden Smith plus LBs Antwan Smith and Tavion Wallace. Close to fair."
+  }
+ ],
+ "research": "1. Home/atmosphere: night kickoff (6:30 CT, SEC Network) at Gaylord Family-Oklahoma Memorial Stadium a week after OU's walk-off 27-24 win over No. 1 Texas; no rivalry history and little head-to-head history.\n2. History/ATS: Kentucky has won 4 straight (31-21 over Texas A&M, 45-21 over South Alabama, 35-34 OT over South Carolina, 35-34 OT over LSU) after a 45-17 loss at Alabama; OU's results are 51-0 UTEP, L 10-17 at Michigan, 14-6 UNM, L 13-41 at Georgia, W 27-24 Texas (StatMuse, ESPN, CBS).\n3. Coaching: Venables runs an aggressive, blitz-heavy defense (No. 1 nationally in sacks and TFL in 2025); OU's offense is limited (about 95.8 rush ypg, per Sports-Reference). First-year Kentucky coach Will Stein is aggressive and decided the LSU game with a 2-point QB draw (ESPN, Tiger Rag).\n4. Matchups: Minchey (1,394 pass yds, 1 INT, 0 fumbles lost) faces an OU pass defense allowing 150 ypg (1st in the SEC). Mateer (1,038 yds, 8 TD, 4 INT) faces a Kentucky defense allowing about 382 ypg. Sategna (331 rec yds) is OU's top target, and Baxter (484 rush yds, 5.6 ypc, 123 vs LSU) carries UK's run game.\n5. Injuries: UK has LBs Antwan Smith and Tavion Wallace, DBs Grant Grayton and Jaden Smith, and DE Tyler Thomas out, with RB CJ Baxter questionable. OU has CB Eli Bowen listed out or questionable (sources conflict), G Eddy Pierre-Louis and LT Michael Fasusi doubtful, and WR Trell Harris out (A Sea of Blue, News9, 247Sports).\n6. Stats: OU defense allows about 238 ypg (3rd in FBS, per SI) and holds opponents to a 22.7% third-down rate. OU scores about 23 ppg (13.5 vs P4); UK scores about 34.7 ppg and allows about 28.\n7. Weather: no forecast found; mid-October evenings in Norman are typically in the 60s and dry. Not a factor that can be used.\n8. Experts: The Spread and Tony's Picks (Ramon Scott) take OU -6.5/-7, while SI takes UK +7 and Bleacher Nation takes the UK ML. On the total, Predictem and Pick Dawgz take the under and Bleacher Nation the over. Dimers projects OU 26-19 (70.5%), YouWager OU 28-20, and Kalshi prices OU at about 68%. Consensus: OU by about 7, total near 45.\n9. Line/splits: the spread opened OU -7 and is now -6.5 with 79% of spread tickets on Kentucky (TheSpread). The total opened 43.5 and hasn't moved."
+}

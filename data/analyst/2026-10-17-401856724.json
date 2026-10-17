@@ -1,0 +1,35 @@
+{
+ "summary": "Florida (4-2, two straight losses) is expected to start sophomore Tramell Jones Jr. at No. 7 Texas (4-1) because Aaron Philo's shoulder injury has left him a game-time decision, with the final call due Saturday morning (CBS/Zenitz, On3/Nakos). The market (Texas -11, total 51) already reflects the QB news: the spread moved from -10 to -11 and the total from 52.5 to 51.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Under 51",
+   "signals": {"injuries": 0.57, "matchup": 0.54, "experts": 0.53, "weather": 0.51},
+   "note": "A first-time-starting backup QB against a Texas defense that allows only 96 rush yds/game should limit Florida's scoring. The total has already dropped from 52.5, so most of the edge is priced in."
+  },
+  {
+   "desc": "Florida Gators +11",
+   "signals": {"injuries": 0.44, "experts": 0.55, "season": 0.53, "history": 0.53, "coaching": 0.5},
+   "note": "Texas is 1-4 ATS, Florida won the last meeting 29-21, and several handicappers (Kravitz, TheSpread, Predictem) lean Gators. A backup QB making his first start pushes the other way, so the evidence is mixed and close to the market."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "J. Baugh u77.5 rush yds",
+   "market": "prop", "player": "Jadan Baugh", "team": "FLA", "stat": "rush_yds", "side": "under", "line": 77.5,
+   "odds": -114, "book": "FanDuel", "fair": 0.5, "status": "active",
+   "projection": {"mu": 72, "sd": 35},
+   "signals": {"matchup": 0.57, "injuries": 0.55, "home": 0.52},
+   "note": "Texas allows about 96 rush yds/game, and a backup QB lets the defense stack the box against Baugh. His big early numbers came against FAU and Campbell, while his game script on the road as an 11-point underdog could cut his carries."
+  },
+  {
+   "desc": "A. Manning u255.5 passing yds",
+   "market": "prop", "player": "Arch Manning", "team": "TEX", "stat": "pass_yds", "side": "under", "line": 255.5,
+   "odds": -114, "book": "FanDuel", "fair": 0.5, "status": "active",
+   "projection": {"mu": 232, "sd": 65},
+   "signals": {"season": 0.58, "matchup": 0.46, "injuries": 0.53},
+   "note": "Manning averages 224.4 pass yds/game (1,122 in 5 games), which is well under 255.5. If Texas leads, it may lean on the run, though Florida's secondary has been struggling."
+  }
+ ],
+ "research": "1. Home/atmosphere: Texas hosts at DKR, 11 a.m. CT (noon ET) on ABC, about 58F and dry per Action Network. Texas is coming off a last-second loss to Oklahoma.\n2. History: Texas leads the series 3-1-1, and Florida won the last meeting 29-21 (Oct 4, 2025). Texas is 1-4 ATS this season, covering only the opener (TheSpread).\n3. Coaching: Jon Sumrall (UF, first year) is a run-first team built around Baugh. Steve Sarkisian's Texas is pass-oriented through Manning.\n4. Matchups: Baugh leads the SEC with 12 rushing TDs but faces a Texas run defense allowing about 96 yds/game. Cam Coleman (318 rec yds, 5 TD) faces a struggling Gators secondary (Statesman/Yahoo preview).\n5. Health: Philo (shoulder, from the South Carolina loss) is limited and a game-time decision. CBS's Matt Zenitz and On3's Pete Nakos report Tramell Jones Jr. is expected to start, with the final decision Saturday morning. Jones replaced Philo in each of the last two games. I found no confirmed game-day announcement.\n6. Stats: Manning has 1,122 yds, 10 TD, 5 INT (224.4/game, 63%). Texas is 4-1 and Florida 4-2 after losses to Missouri and South Carolina. I did not find SP+/FPI numbers.\n7. Weather: about 58F, no rain, so no weather factor.\n8. Experts: Collin Wilson (Action) has Texas -9.5 and projects Texas by 13. Kody Malstrom (Action) has Texas -9.5. Brandon Kravitz (Action) has Florida +10.5. CBS has Texas -10.5. TheSpread leans Florida +11. Predictem has Florida +10.5. Pick Dawgz has the under 51.5. Onlygators leans over. The side consensus is split, with a slight lean to the under.\n9. Line/splits: the spread moved from Texas -10 to -11 and the total from 52.5 to 51. Splits conflict: TheSpread says 63% of spread tickets are on Florida, while Predictem says Florida has 41% of bets but 74% of the money.\nSources: AP via La Nacion, Saturday Down South, On3, Yahoo/SI, CBS (Zenitz), ClutchPoints, Action Network, TheSpread, Predictem, Pick Dawgz, Onlygators, Austin American-Statesman, ESPN. Note: WebFetch could not resolve the sites (DNS failure), so all figures come from search snippets."
+}
