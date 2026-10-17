@@ -30,7 +30,8 @@ def locked(game_start: str) -> bool:
     """Picks post the day before and can change with the odds or new research until one hour
     before the game starts (config.LOCK_BEFORE_MIN). After that they stay as posted."""
     start = datetime.fromisoformat(game_start.replace("Z", "+00:00"))
-    return datetime.now(ZoneInfo(config.TIMEZONE)) >= start - timedelta(minutes=config.LOCK_BEFORE_MIN)
+    lead = getattr(config, "LOCK_OVERRIDE", {}).get(game_start, config.LOCK_BEFORE_MIN)
+    return datetime.now(ZoneInfo(config.TIMEZONE)) >= start - timedelta(minutes=lead)
 
 
 def log(msg):

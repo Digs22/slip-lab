@@ -15,6 +15,7 @@ BREAKDOWN_DIR = ROOT.parent / "betting"
 TIMEZONE = "America/New_York"
 REFRESH_TIME = "07:59"
 LOCK_BEFORE_MIN = 60  # picks are final this many minutes before first pitch / kickoff / tip
+LOCK_OVERRIDE = {"2026-10-17T16:00Z": 30}  # one-time (user, 2026-10-17): noon games lock at 11:30 AM ET
 GAMES_PER_DAY = 8  # most games with plays per day; the app's slider picks how many you bet
 POTD_UNITS = 4  # Pick of the Day: one straight bet per league, sized like a straight
 ALWAYS_PICK = {"NCAAF"}  # user, 2026-10-17: every toggled, researched game gets a pick, edge or not (marked a lean)
