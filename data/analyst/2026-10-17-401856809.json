@@ -1,35 +1,41 @@
 {
-  "summary": "No. 2-3 Notre Dame (6-0, 4-2 ATS) visits No. 8 BYU (5-0 SU and ATS) at night with College GameDay in town. BYU is without RB LJ Martin. ND CB Leonard Moore (concussion) is questionable but practicing, and DT Jason Onye (ankle) is questionable. The market is ND -10.5 at about a coin flip, with the total down from 48.5 to 46.5.",
-  "lineups_confirmed": false,
-  "legs": [
-    {
-      "desc": "Notre Dame Fighting Irish -10.5",
-      "signals": {"injuries": 0.56, "experts": 0.58, "season": 0.56, "matchup": 0.55, "home": 0.45, "recent_form": 0.47},
-      "note": "BYU loses its lead back against the nation's No. 1 yardage defense (No. 3 vs the run). Brad Powers (Covers) makes this game 13 points and SI also takes ND -10.5. Against that, BYU is 5-0 ATS, plays at home at night, and the public is on the Cougars."
-    },
-    {
-      "desc": "Under 46.5",
-      "signals": {"matchup": 0.55, "history": 0.54, "injuries": 0.53, "season": 0.46},
-      "note": "Both defenses are top 10 in yards and points allowed, the under is 3-0 in the last three meetings, and BYU's run game is thinner without Martin. But the total has already dropped two points and ND scores 44 ppg, so most of this is priced in."
-    }
-  ],
-  "extra_legs": [
-    {
-      "desc": "B. Bachmeier u181.5 passing yds",
-      "market": "prop",
-      "player": "Bear Bachmeier",
-      "team": "BYU",
-      "stat": "pass_yds",
-      "side": "under",
-      "line": 181.5,
-      "odds": -114,
-      "book": "FanDuel",
-      "fair": 0.5,
-      "status": "active, healthy",
-      "projection": {"mu": 182, "sd": 55},
-      "signals": {"matchup": 0.56, "season": 0.46, "injuries": 0.47},
-      "note": "ND allows about 135 passing yards per game (12th in FBS) and has the best total defense. Bachmeier averages about 207 per game, but that is inflated by a 329-yard game against Iowa State, and trailing BYU without Martin may throw more, so this is close to a coin flip."
-    }
-  ],
-  "research": "1. Home/atmosphere: first top-10 matchup ever in Provo, 5:30 PM MT kickoff on ABC, College GameDay on campus, among the most expensive tickets of the weekend (KSL, Hoodline). Altitude is about 4,550 ft.\n2. History: ND leads the series. The last meeting was 2022 in Las Vegas (ND 20-16). ND is 2-1 ATS in the last 3 meetings and the under is 3-0 (SI). BYU is 5-0 ATS in 2026 and ND is 4-2 ATS (SI/ABC7). Sitake is 23-4 over the last two seasons (Roundtable).\n3. Coaching: ND under Freeman wins by about 33 ppg and is balanced (262 pass / 195 rush ypg). BYU leans on the run (224 rush vs 210 pass ypg) with a running QB in Bachmeier (Deseret, ABC7).\n4. Matchups: CJ Carr (about 230 ypg, 16 TD in 6 games) faces BYU's pass D (174 ypg, 26th). ND's freshman RB Jonaz Walton (181 yds vs Stanford, 120 vs UNC) faces BYU's run D (80 ypg, 10th). BYU's offense without Martin faces ND's run D (3rd). SI notes BYU is only 29th in opponent success rate.\n5. Health: BYU RB LJ Martin is OUT 4-6 weeks with a lower leg injury (ESPN Thamel/Deseret), so Journee Tonga, Preston Rex and Bachmeier carry more. ND CB Leonard Moore (concussion) is questionable but practicing, and ND is preparing as if he plays (Rotoballer, Oct 15). ND DT Jason Onye (ankle) is questionable. ND LB Viliamu-Asa is off the injury report. Lineups are not confirmed.\n6. Stats: ND has 456.7 ypg offense, 44.0 ppg, and allows 214 ypg (1st). BYU has 433.4 ypg, 34.6 ppg, and allows 254 ypg (8th) and 13.4 ppg (ABC7). I did not find SP+ or FPI numbers. Bachmeier had 329 pass and 109 rush yards vs Iowa State and averages about 207 pass and 48 rush yards per game.\n7. Weather: sunny, low 60s at kickoff, falling after dark, no wind concerns (KSL forecast).\n8. Experts: Brad Powers (Covers) ND -10.5, his rating ND by 13, playable to -11.5. SI (Iain) ND -10.5 and SI ATS column ND to cover. Covers early lean ND -9.5. ClutchPoints and FanDuel Research previews at ND -10.5 / 46.5. The consensus is ND covers. I found no named pick on the total.\n9. Line movement: ND opened -11.5 (ABC7), went to -9.5 early (Covers), and is back to -10/-10.5. Kalshi has ND -10.5 at about 50%. The total moved 48.5 -> 47.5 -> 46.5 (BettingPros/DK). BettingPros says most public tickets are on BYU +10."
+ "summary": "No. 2-3 Notre Dame (6-0, 4-2 ATS) visits No. 8 BYU (5-0 SU and ATS) at night with College GameDay in town. BYU is without RB LJ Martin. ND CB Leonard Moore (concussion) is questionable but practicing, and DT Jason Onye (ankle) is questionable. The market is ND -10.5 at about a coin flip, with the total down from 48.5 to 46.5.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Notre Dame Fighting Irish -10.5",
+   "signals": {
+    "injuries": 0.56,
+    "experts": 0.58,
+    "season": 0.56,
+    "matchup": 0.55,
+    "home": 0.45,
+    "recent_form": 0.47
+   },
+   "note": "BYU loses its lead back against the nation's No. 1 yardage defense (No. 3 vs the run). Brad Powers (Covers) makes this game 13 points and SI also takes ND -10.5. Against that, BYU is 5-0 ATS, plays at home at night, and the public is on the Cougars."
+  },
+  {
+   "desc": "Under 46.5",
+   "signals": {
+    "matchup": 0.55,
+    "history": 0.54,
+    "injuries": 0.53,
+    "season": 0.46
+   },
+   "note": "Both defenses are top 10 in yards and points allowed, the under is 3-0 in the last three meetings, and BYU's run game is thinner without Martin. But the total has already dropped two points and ND scores 44 ppg, so most of this is priced in."
+  },
+  {
+   "desc": "BYU Cougars team total Under 17.5",
+   "signals": {
+    "injuries": 0.57,
+    "matchup": 0.57,
+    "season": 0.53,
+    "history": 0.53,
+    "home": 0.46
+   },
+   "note": "Without LJ Martin, BYU's run-first offense (224 rush ypg) faces the No. 1 total defense in FBS, which is 3rd against the run, and the market already shades this side (fair 0.534). BYU does score 34.6 ppg at home with a mobile QB, so the case is for a modest lean, not a strong edge."
+  }
+ ],
+ "extra_legs": [],
+ "research": "1. Home/atmosphere: first top-10 matchup ever in Provo, 5:30 PM MT kickoff on ABC, College GameDay on campus, among the most expensive tickets of the weekend (KSL, Hoodline). Altitude is about 4,550 ft.\n2. History: ND leads the series. The last meeting was 2022 in Las Vegas (ND 20-16). ND is 2-1 ATS in the last 3 meetings and the under is 3-0 (SI). BYU is 5-0 ATS in 2026 and ND is 4-2 ATS (SI/ABC7). Sitake is 23-4 over the last two seasons (Roundtable).\n3. Coaching: ND under Freeman wins by about 33 ppg and is balanced (262 pass / 195 rush ypg). BYU leans on the run (224 rush vs 210 pass ypg) with a running QB in Bachmeier (Deseret, ABC7).\n4. Matchups: CJ Carr (about 230 ypg, 16 TD in 6 games) faces BYU's pass D (174 ypg, 26th). ND's freshman RB Jonaz Walton (181 yds vs Stanford, 120 vs UNC) faces BYU's run D (80 ypg, 10th). BYU's offense without Martin faces ND's run D (3rd). SI notes BYU is only 29th in opponent success rate.\n5. Health: BYU RB LJ Martin is OUT 4-6 weeks with a lower leg injury (ESPN Thamel/Deseret), so Journee Tonga, Preston Rex and Bachmeier carry more. ND CB Leonard Moore (concussion) is questionable but practicing, and ND is preparing as if he plays (Rotoballer, Oct 15). ND DT Jason Onye (ankle) is questionable. ND LB Viliamu-Asa is off the injury report. Lineups are not confirmed.\n6. Stats: ND has 456.7 ypg offense, 44.0 ppg, and allows 214 ypg (1st). BYU has 433.4 ypg, 34.6 ppg, and allows 254 ypg (8th) and 13.4 ppg (ABC7). I did not find SP+ or FPI numbers. Bachmeier had 329 pass and 109 rush yards vs Iowa State. Player props are excluded (Ohio bans college player props).\n7. Weather: sunny, low 60s at kickoff, falling after dark, no wind concerns (KSL forecast).\n8. Experts: Brad Powers (Covers) ND -10.5, his rating ND by 13, playable to -11.5. SI (Iain) ND -10.5 and SI ATS column ND to cover. Covers early lean ND -9.5. ClutchPoints and FanDuel Research previews at ND -10.5 / 46.5. The consensus is ND covers. I found no named pick on the total.\n9. Line movement: ND opened -11.5 (ABC7), went to -9.5 early (Covers), and is back to -10/-10.5. Kalshi has ND -10.5 at about 50%. The total moved 48.5 -> 47.5 -> 46.5 (BettingPros/DK). BettingPros says most public tickets are on BYU +10."
 }

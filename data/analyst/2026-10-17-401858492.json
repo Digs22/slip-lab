@@ -1,46 +1,54 @@
 {
- "summary": "Oregon (3-2) is a 7-point home favorite over Nebraska (5-1) with the total at 51.5, but Dante Moore (concussion) is OUT again and Oregon has not named a starter between Dylan Raiola (6/19, 43 yds, 2 INT vs UCLA) and Brock Thomas. Nebraska's defense allows 15.2 ppg and 94.7 rush yds/g, while Oregon's backs have averaged far less than their prop lines.",
+ "summary": "Oregon (3-2) is a 7-point home favorite over Nebraska (5-1), total 51.5, but QB Dante Moore (concussion) is OUT again and Oregon has not named a starter between Dylan Raiola (6/19, 43 yds, 2 INT vs UCLA) and Brock Thomas. Nebraska's defense allows 15.2 ppg; player props are excluded (Ohio ban), so the legs are game, team-total and first-half lines.",
  "lineups_confirmed": false,
  "legs": [
   {
+   "desc": "Oregon Ducks team total Under 29.5",
+   "signals": {
+    "injuries": 0.6,
+    "matchup": 0.57,
+    "season": 0.54,
+    "recent_form": 0.56,
+    "experts": 0.48,
+    "home": 0.47
+   },
+   "note": "Without Moore, Oregon scored 15 points against UCLA, and Nebraska allows 15.2 ppg with no opponent above 23. Dimers projects Oregon for 30, so the market and models sit near the number, but the backup-QB evidence leans under."
+  },
+  {
    "desc": "Nebraska Cornhuskers +7",
-   "signals": {"injuries": 0.58, "season": 0.55, "recent_form": 0.53, "home": 0.46, "history": 0.47, "experts": 0.49},
+   "signals": {
+    "injuries": 0.58,
+    "season": 0.55,
+    "recent_form": 0.53,
+    "home": 0.46,
+    "history": 0.47,
+    "experts": 0.49
+   },
    "note": "Oregon is down to a backup QB against a Nebraska defense allowing 15.2 ppg, and the Huskers are 5-1 ATS versus Oregon's 2-3. Offsetting this: Autzen at night, Rhule's 2-8 road record at Nebraska, and the money split (79% of bets but only 21% of money on Nebraska) points to sharp support for Oregon."
   },
   {
    "desc": "Under 51.5",
-   "signals": {"injuries": 0.57, "season": 0.52, "matchup": 0.55, "experts": 0.52, "recent_form": 0.53, "weather": 0.5},
+   "signals": {
+    "injuries": 0.57,
+    "season": 0.52,
+    "matchup": 0.55,
+    "experts": 0.52,
+    "recent_form": 0.53,
+    "weather": 0.5
+   },
    "note": "With Moore out, Oregon's offense managed 15 points against UCLA, and Nebraska's defense has held 5 of 6 opponents to 23 or fewer. Dimers projects 52 total points. Oregon's 4-1 over record came mostly with Moore at QB."
-  }
- ],
- "extra_legs": [
-  {
-   "desc": "D. Hill Jr. u62.5 rush yds",
-   "market": "prop", "player": "Dierre Hill Jr.", "team": "ORE", "stat": "rush_yds", "side": "under", "line": 62.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.50,
-   "status": "Active, no injury designation found",
-   "projection": {"mu": 50, "sd": 22},
-   "signals": {"season": 0.62, "matchup": 0.59, "recent_form": 0.57, "coaching": 0.53},
-   "note": "Hill has averaged 45.6 rush yds/g (52 carries for 228 yards, max 74) while splitting work with Davison, and Nebraska allows only 94.7 rush yds/g. The line only makes sense if Hill takes a much bigger share, and I found no news saying he will."
   },
   {
-   "desc": "J. Davison u65.5 rush yds",
-   "market": "prop", "player": "Jordon Davison", "team": "ORE", "stat": "rush_yds", "side": "under", "line": 65.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.50,
-   "status": "Active, no injury designation found (fumble lost vs UCLA)",
-   "projection": {"mu": 58, "sd": 25},
-   "signals": {"season": 0.56, "matchup": 0.58, "recent_form": 0.57},
-   "note": "Davison has averaged 60.2 rush yds/g (under 65.5 in 3 of 5 games) and had 41 yards on 13 carries in the UCLA loss. The two Oregon back lines add up to about 128 yards, against a defense that allows about 95 rushing yards per game."
-  },
-  {
-   "desc": "A. Colandrea o208.5 pass yds",
-   "market": "prop", "player": "Anthony Colandrea", "team": "NEB", "stat": "pass_yds", "side": "over", "line": 208.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.50,
-   "status": "Active, healthy starter",
-   "projection": {"mu": 228, "sd": 40},
-   "signals": {"season": 0.58, "recent_form": 0.56, "matchup": 0.53, "coaching": 0.52},
-   "note": "Colandrea is averaging 234 pass yds/g and has cleared 208.5 in 5 of 6 games, including 264 against Indiana's top defense. Oregon allows 226 pass yds/g. The risk is Nebraska leaning on the run if Oregon's QB play falls apart again."
+   "desc": "1H Nebraska Cornhuskers +4",
+   "signals": {
+    "injuries": 0.56,
+    "season": 0.54,
+    "home": 0.47,
+    "experts": 0.49
+   },
+   "note": "An unsettled Oregon QB rotation and Nebraska's defense (allowing 276 ypg) make a low-scoring, close first half plausible. Autzen at night and the sharp lean to Oregon keep this modest."
   }
  ],
- "research": "1. Home/atmosphere: Autzen Stadium, 8 PM PT kickoff on FOX; it is Dylan Raiola's first game against the program he left (Lanning: 'an emotional game for Dylan'). Rhule is 2-8 on the road at Nebraska (SI). ESPN FPI gives Oregon a 65.9% win chance.\n2. History: the teams last met in 2016-17 (one win each). ATS this season: Nebraska 5-1, Oregon 2-3 (Action Network). Oregon has gone over in 4 of 5 games, Nebraska in 3 of 6 (FanDuel Research).\n3. Coaching: Lanning runs an aggressive, pass-heavy offense (317 pass yds/g with Moore). Rhule's Nebraska is balanced (248 pass / 214 rush per game) with a stingy defense.\n4. Matchups: Colandrea (1,406 yds, 13 TD, 3 INT; 60% completions) faces an Oregon pass D allowing 226/g. Oregon's backs Davison (4.9 ypc) and Hill (4.4 ypc) face a Nebraska run D allowing 94.7/g. Oregon's receivers (Stewart 70 yds/g, Dakorien Moore 62 yds/g) lose their QB.\n5. Health: Dante Moore (concussion) is OUT for the 2nd straight week (WOWT, Bleacher Report). Raiola, Brock Thomas and Akili Smith Jr. all took reps with no starter named; On3's Justin Hopkins says Thomas 'has the leg up'. No notable Nebraska injuries were found. Jamal Rule had 4 carries vs Michigan State and missed Maryland, but ran 15 times vs Indiana.\n6. Stats (ESPN): Nebraska scores 39.2 ppg / 461.7 ypg and allows 15.2 ppg / 276 ypg. Oregon scores 41.0 ppg (84 of those points vs Portland State) and allows 22.0 ppg / 344 ypg. Oregon's losses: 39-31 at Oklahoma State and 17-15 vs UCLA. Nebraska's only loss: 20-17 to Indiana.\n7. Weather (ESPN/AccuWeather): 58F, 0% precipitation, gusts around 10 mph. No weather effect expected.\n8. Experts: Dimers projects Oregon 30-22 (74.2% win). numberFire has Oregon at 83.6%. Action Network: Sandy Plashkes Oregon -7.5 and Under 52.5, Nick Griffith Oregon -6.5, Mike McNamara Nebraska +7.5. Consensus leans slightly Oregon, with the total near 52.\n9. Market: DraftKings has Oregon -7 (Nebraska -120), total 51.5, ML -258/+210. Action Network shows 79% of bets but 21% of money on Nebraska, a sharp lean to Oregon. Fair spread is about 51/49 Nebraska at +7, so there is no clear side edge. The best value is in Oregon's RB unders, whose lines sit above season averages."
+ "extra_legs": [],
+ "research": "1. Home/atmosphere: Autzen Stadium, 8 PM PT kickoff on FOX; it is Dylan Raiola's first game against the program he left (Lanning: 'an emotional game for Dylan'). Rhule is 2-8 on the road at Nebraska (SI). ESPN FPI gives Oregon a 65.9% win chance.\n2. History: the teams last met in 2016-17 (one win each). ATS this season: Nebraska 5-1, Oregon 2-3 (Action Network). Oregon has gone over in 4 of 5 games, Nebraska in 3 of 6 (FanDuel Research).\n3. Coaching: Lanning runs an aggressive, pass-heavy offense (317 pass yds/g with Moore). Rhule's Nebraska is balanced (248 pass / 214 rush per game) with a stingy defense.\n4. Matchups: Colandrea (1,406 yds, 13 TD, 3 INT; 60% completions) faces an Oregon pass D allowing 226/g. Oregon's backs Davison (4.9 ypc) and Hill (4.4 ypc) face a Nebraska run D allowing 94.7/g. Oregon's receivers (Stewart 70 yds/g, Dakorien Moore 62 yds/g) lose their QB.\n5. Health: Dante Moore (concussion) is OUT for the 2nd straight week (WOWT, Bleacher Report). Raiola, Brock Thomas and Akili Smith Jr. all took reps with no starter named; On3's Justin Hopkins says Thomas 'has the leg up'. No notable Nebraska injuries were found. Jamal Rule had 4 carries vs Michigan State and missed Maryland, but ran 15 times vs Indiana.\n6. Stats (ESPN): Nebraska scores 39.2 ppg / 461.7 ypg and allows 15.2 ppg / 276 ypg. Oregon scores 41.0 ppg (84 of those points vs Portland State) and allows 22.0 ppg / 344 ypg. Oregon's losses: 39-31 at Oklahoma State and 17-15 vs UCLA. Nebraska's only loss: 20-17 to Indiana.\n7. Weather (ESPN/AccuWeather): 58F, 0% precipitation, gusts around 10 mph. No weather effect expected.\n8. Experts: Dimers projects Oregon 30-22 (74.2% win). numberFire has Oregon at 83.6%. Action Network: Sandy Plashkes Oregon -7.5 and Under 52.5, Nick Griffith Oregon -6.5, Mike McNamara Nebraska +7.5. Consensus leans slightly Oregon, with the total near 52.\n9. Market: DraftKings has Oregon -7 (Nebraska -120), total 51.5, ML -258/+210. Action Network shows 79% of bets but 21% of money on Nebraska, a sharp lean to Oregon. Fair spread is about 51/49 Nebraska at +7, so there is no clear side edge. The best value is in Oregon's scoring: its team total of 29.5 assumes a functioning offense that it did not have with backups against UCLA."
 }

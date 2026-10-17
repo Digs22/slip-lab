@@ -1,37 +1,41 @@
 {
- "summary": "SMU (4-1, off a bye, 3-0 at Ford Stadium) hosts Virginia (4-2) with SP+ projecting SMU 30-23 and FPI giving Virginia about 31%, roughly in line with the market's -8.5 to -10 spread and 51.5 total. The clearest angle is Kevin Jennings (317.6 pass yds/g) against a Virginia secondary that lost CB Omillio Agard for the season and has both starting safeties (Costner, Hillman) doubtful.",
+ "summary": "SMU (4-1, off a bye, 3-0 at Ford Stadium) hosts Virginia (4-2) with SP+ projecting SMU 30-23 and FPI giving Virginia about 31%, roughly in line with the market's -8.5 to -10 spread and 51.5 total. The clearest angle is SMU's passing offense (Jennings 317.6 yds/g) against a Virginia secondary missing CB Omillio Agard for the season, with both starting safeties doubtful.",
  "lineups_confirmed": false,
  "legs": [
   {
+   "desc": "SMU Mustangs team total Over 30.5",
+   "signals": {
+    "injuries": 0.58,
+    "season": 0.55,
+    "matchup": 0.55,
+    "home": 0.53,
+    "recent_form": 0.45,
+    "experts": 0.49
+   },
+   "note": "Jennings averages 317.6 pass yds/g, and Virginia is missing CB Agard (out for the season) with safeties Costner and Hillman doubtful, so SMU should be able to throw. Against that, SP+ projects SMU for exactly 30 points, and SMU managed only 218 yards against BC before the bye, so this is a modest lean."
+  },
+  {
    "desc": "Virginia Cavaliers +10",
-   "signals": {"season": 0.54, "experts": 0.55, "history": 0.46, "home": 0.47, "injuries": 0.47},
+   "signals": {
+    "season": 0.54,
+    "experts": 0.55,
+    "history": 0.46,
+    "home": 0.47,
+    "injuries": 0.47
+   },
    "note": "SP+ projects a 7-point SMU win (30-23), a little under the 10-point line, but Virginia's secondary injuries and its weak record away from Charlottesville offset that. It is a slight lean at most."
   },
   {
    "desc": "Over 51.5",
-   "signals": {"experts": 0.54, "injuries": 0.55, "recent_form": 0.46, "coaching": 0.52},
+   "signals": {
+    "experts": 0.54,
+    "injuries": 0.55,
+    "recent_form": 0.46,
+    "coaching": 0.52
+   },
    "note": "SP+ implies about 53 points, and Virginia's banged-up secondary should help SMU's passing game. SMU's offense managed only 218 yards (3.5 yds/play) against BC before the bye, and Virginia leans on the run, so this is close to a coin flip."
   }
  ],
- "extra_legs": [
-  {
-   "desc": "K. Jennings o277.5 pass yds",
-   "market": "prop", "player": "Kevin Jennings", "team": "SMU", "stat": "pass_yds", "side": "over", "line": 277.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.50,
-   "status": "Healthy, no injury listed; SMU came out of its bye week healthy",
-   "projection": {"mu": 300, "sd": 75},
-   "signals": {"season": 0.58, "injuries": 0.59, "matchup": 0.56, "recent_form": 0.45, "coaching": 0.54},
-   "note": "Jennings averages 317.6 pass yds/g (1,588 yards in 5 games, 3rd nationally), and Virginia is missing CB Agard (ACL, out for the season) with safeties Costner and Hillman doubtful. His last game was 160 yards in wet weather, and his average includes an FCS blowout of UC Davis, so I trimmed the projection to about 300."
-  },
-  {
-   "desc": "B. Pribula u187.5 pass yds",
-   "market": "prop", "player": "Beau Pribula", "team": "UVA", "stat": "pass_yds", "side": "under", "line": 187.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.50,
-   "status": "Starting, no injury designation found",
-   "projection": {"mu": 168, "sd": 55},
-   "signals": {"season": 0.55, "recent_form": 0.57, "coaching": 0.55, "matchup": 0.50},
-   "note": "Virginia runs a run-heavy, QB-run offense: Pribula averaged about 198 pass yds/g over the first four games, mostly on short attempt counts in blowouts, then threw for only 76-119 yards against Syracuse. Trailing as a road underdog could push his volume up, which keeps this lean modest."
-  }
- ],
- "research": "1. Home/atmosphere: noon ET kickoff at Gerald J. Ford Stadium. SMU is 3-0 at home this season and coming off a bye, and Virginia has struggled away from Charlottesville against better opponents (Roundtable SMU opponent preview).\n2. History: Virginia has never beaten SMU, which won the only prior meeting 33-7 in Charlottesville in 2024. ATS this season: SMU is 1-2 as a favorite of 8.5 or more, and Virginia is 3-3 ATS (FanDuel Research).\n3. Coaching: Rhett Lashlee's SMU runs an up-tempo, pass-first offense built around Jennings. Tony Elliott's Virginia relies on Pribula's legs and the run game (Middlebrook ran for 95 yards and 2 TDs against Syracuse).\n4. Matchups: Jennings and WR Yamir Knight against a depleted UVA secondary is the main mismatch. SMU's run game was poor against BC (58 yards rushing), and Virginia's run game against SMU's front is the key for the Cavaliers.\n5. Health: UVA CB Omillio Agard is out for the season (torn ACL). S Corey Costner, S Brandyn Hillman and LB Caleb Hardy are doubtful, WR Rico Flores Jr. is out for several games, and Jacobie Henderson is cleared (SI/Cavaliers Now availability report). No QB injury news on either side.\n6. Stats: Jennings has 1,588 yards and 14 TDs (317.6/g). SMU managed only 218 yards and 3.5 yds/play in its last game, a 25-16 win over BC. Pribula had 793 pass yards, 11 TDs and 125 rush yards through 4 games, then threw for 119 yards (76 in SI's box score) against Syracuse.\n7. Weather: I couldn't find a reliable forecast for Saturday. Mid-October in Dallas is usually dry and warm, and I found no adverse weather reported.\n8. Experts: SP+ has SMU by 8.5, projecting 30-23 (Virginia 33% to win). ESPN FPI gives Virginia 31.4%, and numberFire gives SMU 65.9%. The consensus is SMU straight up with no strong lean on the spread.\n9. Line movement: FanDuel opened around SMU -8.5 with a total of 52.5. Current lines run -8.5 to -10 and the total has dropped to 51.5-52. I found no public betting splits.\nSources: SI Cavaliers Now (SP+, FPI and availability articles), Roundtable.io SMU coverage, AP via ABC News and Spectrum, FanDuel Research, Rotoballer."
+ "extra_legs": [],
+ "research": "1. Home/atmosphere: noon ET kickoff at Gerald J. Ford Stadium. SMU is 3-0 at home this season and coming off a bye, and Virginia has struggled away from Charlottesville against better opponents (Roundtable SMU opponent preview).\n2. History: Virginia has never beaten SMU, which won the only prior meeting 33-7 in Charlottesville in 2024. ATS this season: SMU is 1-2 as a favorite of 8.5 or more, and Virginia is 3-3 ATS (FanDuel Research).\n3. Coaching: Rhett Lashlee's SMU runs an up-tempo, pass-first offense built around Jennings. Tony Elliott's Virginia relies on Pribula's legs and the run game (Middlebrook ran for 95 yards and 2 TDs against Syracuse).\n4. Matchups: Jennings and WR Yamir Knight against a depleted UVA secondary is the main mismatch. SMU's run game was poor against BC (58 yards rushing), and Virginia's run game against SMU's front is the key for the Cavaliers.\n5. Health: UVA CB Omillio Agard is out for the season (torn ACL). S Corey Costner, S Brandyn Hillman and LB Caleb Hardy are doubtful, WR Rico Flores Jr. is out for several games, and Jacobie Henderson is cleared (SI/Cavaliers Now availability report). No QB injury news on either side.\n6. Stats: Jennings has 1,588 yards and 14 TDs (317.6/g). SMU managed only 218 yards and 3.5 yds/play in its last game, a 25-16 win over BC. Pribula had 793 pass yards, 11 TDs and 125 rush yards through 4 games, then threw for 119 yards (76 in SI's box score) against Syracuse.\n7. Weather: I couldn't find a reliable forecast for Saturday. Mid-October in Dallas is usually dry and warm, and I found no adverse weather reported.\n8. Experts: SP+ has SMU by 8.5, projecting 30-23 (Virginia 33% to win). ESPN FPI gives Virginia 31.4%, and numberFire gives SMU 65.9%. The consensus is SMU straight up with no strong lean on the spread.\n9. Line movement: FanDuel opened around SMU -8.5 with a total of 52.5. Current lines run -8.5 to -10 and the total has dropped to 51.5-52. I found no public betting splits.\nNot used: Virginia team total Under 20.5 (SP+ projects 23 points for Virginia, which is against it) and the first-half lines (no specific evidence).\nSources: SI Cavaliers Now (SP+, FPI and availability articles), Roundtable.io SMU coverage, AP via ABC News and Spectrum, FanDuel Research, Rotoballer."
 }

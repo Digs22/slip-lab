@@ -64,3 +64,8 @@ SOCCER_LEAGUES = ["eng.1", "esp.1", "ita.1", "ger.1", "fra.1", "usa.1", "uefa.ch
 # ESPN college football conference ids (team.conferenceId on the scoreboard) -> the names the CFB tab groups by
 CFB_CONFERENCES = {"1": "ACC", "4": "Big 12", "5": "Big Ten", "8": "SEC", "9": "Pac-12", "12": "Conference USA",
                    "15": "MAC", "17": "Mountain West", "18": "FBS Independents", "37": "Sun Belt", "151": "American"}
+
+# Leagues where player props can't be bet (user, 2026-10-17: Ohio allows only game lines, game props and team
+# props on college football). These get team totals and first-half lines instead.
+NO_PLAYER_PROPS = {"NCAAF", "NCAAB"}
+EXTRA_GAME_MARKETS = "team_totals,h2h_h1,spreads_h1,totals_h1"  # one Odds API event call per researched game

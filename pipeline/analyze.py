@@ -89,6 +89,45 @@ def best_lines(odds_events: list[dict], home: str, away: str) -> list[dict]:
     return legs
 
 
+def extra_game_lines(game: dict, odds_events: list[dict]) -> list[dict]:
+    """Team totals and first-half lines for one game: best price per side, no-vig fair from the book average."""
+    ev = next((e for e in odds_events if _match(e, game["home_name"], game["away_name"])), None)
+    if not ev:
+        return []
+    try:
+        data = sources.player_props(game["league"], ev["id"], config.EXTRA_GAME_MARKETS)
+    except sources.SourceError:
+        return []
+    book = {}
+    for bm in data.get("bookmakers", []):
+        for m in bm["markets"]:
+            for o in m["outcomes"]:
+                book.setdefault((m["key"], o.get("description") or "", o["name"], o.get("point")), []).append((o["price"], bm["title"]))
+    legs = []
+    for (mkt, team, name, point), prices in book.items():
+        if mkt in ("team_totals", "totals_h1"):
+            other = book.get((mkt, team, "Under" if name == "Over" else "Over", point))
+        else:  # h2h_h1, spreads_h1: the other team, opposite point
+            other = next((v for (m2, t2, n2, p2), v in book.items() if m2 == mkt and n2 != name
+                          and (mkt == "h2h_h1" or p2 == -(point or 0))), None)
+        if not other:
+            continue
+        a = to_american(1 / mean(implied(p) for p, _ in prices))
+        b = to_american(1 / mean(implied(p) for p, _ in other))
+        price, title = max(prices, key=lambda x: x[0])
+        if mkt == "team_totals":
+            leg = {"market": "team_total", "side": name.lower(), "team": team, "desc": f"{team} team total {name} {point:g}"}
+        elif mkt == "totals_h1":
+            leg = {"market": "h1_total", "side": name.lower(), "team": None, "desc": f"1H {name} {point:g}"}
+        elif mkt == "spreads_h1":
+            leg = {"market": "h1_spread", "side": None, "team": name, "desc": f"1H {name} {point:+g}"}
+        else:
+            leg = {"market": "h1_ml", "side": None, "team": name, "desc": f"1H {name} ML"}
+        legs.append(leg | {"line": point, "odds": price, "book": title, "consensus": round(a),
+                           "fair": round(no_vig(a, b)[0], 4), "books": len(prices)})
+    return legs
+
+
 def espn_consensus(game: dict) -> list[dict]:
     """Fallback when there is no Odds API key: ESPN's one posted line, no best-price check."""
     o = game.get("odds") or {}
@@ -190,13 +229,19 @@ def analyst_file(date: str, game: dict) -> dict:
 
 
 def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: list[dict], weights: dict) -> dict:
-    legs = best_lines(odds_events or [], game["home_name"], game["away_name"]) if odds_events else espn_consensus(game)
+    legs = best_lines(odds_events or [], game["home_name"], game["away_name"]) if odds_events else []
+    if not legs:  # no Odds API market for this game: fall back to ESPN's consensus line
+        legs = espn_consensus(game)
     try:
         summary = sources.espn_summary(game)
     except sources.SourceError:
         summary = {}
     analyst = analyst_file(date, game)
+    if analyst and odds_events and game["league"] in config.NO_PLAYER_PROPS:
+        legs += extra_game_lines(game, odds_events)
     legs += analyst.get("extra_legs", [])  # props priced by hand from public odds pages
+    if game["league"] in config.NO_PLAYER_PROPS:
+        legs = [l for l in legs if l["market"] != "prop"]  # not bettable in the user's state
     overrides = {a["desc"]: a for a in analyst.get("legs", [])}
     scored, evaluated = [], []
     for leg in legs:
@@ -214,7 +259,9 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
                      "note": ov.get("note", leg.get("note")),
                      "status": ov.get("status", leg.get("status")) or injury_status(leg, injuries)}
         evaluated.append(leg)
-        if leg["edge"] >= config.MIN_EDGE:
+        # In a researched game only the legs the research argued for can be picked: the automatic signals
+        # once put "Over 43.5" on a game whose write-up backed the Under (2026-10-17, WIS @ UCLA).
+        if leg["edge"] >= config.MIN_EDGE and (leg["note"] or not overrides):
             scored.append(leg)
     scored.sort(key=lambda l: l["edge"], reverse=True)
     return {"game": game, "legs": scored, "provisional": not analyst.get("lineups_confirmed", False),

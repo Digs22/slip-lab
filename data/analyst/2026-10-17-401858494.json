@@ -3,44 +3,51 @@
  "lineups_confirmed": false,
  "legs": [
   {
+   "desc": "UCLA Bruins team total Under 22.5",
+   "signals": {
+    "injuries": 0.58,
+    "matchup": 0.56,
+    "season": 0.5,
+    "coaching": 0.53,
+    "experts": 0.53
+   },
+   "note": "UCLA scores 39.2 ppg, but that came with Iamaleava. Now first-time starter Dieffenbach faces a Wisconsin defense allowing 16.6 ppg (holding PSU to 20 and MSU to 3), and UCLA managed only 17 points at Oregon. Dimers projects UCLA at 24 and YouWager at 28, which keeps this a lean rather than a strong pick."
+  },
+  {
    "desc": "Under 43.5",
-   "signals": {"injuries": 0.57, "matchup": 0.55, "season": 0.53, "coaching": 0.54, "history": 0.53, "weather": 0.5},
+   "signals": {
+    "injuries": 0.57,
+    "matchup": 0.55,
+    "season": 0.53,
+    "coaching": 0.54,
+    "history": 0.53,
+    "weather": 0.5
+   },
    "note": "UCLA is down to a backup QB against a Wisconsin defense that allows 16.6 ppg and 152.6 pass yds/g, and UCLA's run-first, ball-control offense (39:15 time of possession at Oregon) shortens the game. The Under is 7-3 in Wisconsin's last 10, but the market has already moved down from 44.5, so the edge is small."
   },
   {
    "desc": "Wisconsin Badgers +2.5",
-   "signals": {"injuries": 0.57, "experts": 0.55, "home": 0.46, "season": 0.5, "recent_form": 0.52, "history": 0.53},
+   "signals": {
+    "injuries": 0.57,
+    "experts": 0.55,
+    "home": 0.46,
+    "season": 0.5,
+    "recent_form": 0.52,
+    "history": 0.53
+   },
    "note": "A first-time starter at QB against an experienced Wisconsin defense coming off a bye, and four of six Action Network experts back Wisconsin. On the other side, UCLA is 5-0 ATS with the stronger run game (253 yds/g) and the home crowd, and ESPN FPI still has UCLA at 57.2%."
-  }
- ],
- "extra_legs": [
-  {
-   "desc": "T. Dieffenbach u149.5 pass yds",
-   "market": "prop", "player": "Ty Dieffenbach", "team": "UCLA", "stat": "pass_yds", "side": "under", "line": 149.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.5,
-   "status": "Expected starter (first UCLA start); healthy",
-   "projection": {"mu": 140, "sd": 45},
-   "signals": {"matchup": 0.56, "season": 0.55, "coaching": 0.56, "injuries": 0.52},
-   "note": "UCLA passes for only 205 yds/g even with Iamaleava (151-276 per game) and leans on Wayne Knight. Wisconsin allows 152.6 pass yds/g, and at Cal Poly in 2025 Dieffenbach averaged about 120-145 yds/g with 9 INT."
   },
   {
-   "desc": "W. Knight o83.5 rush yds",
-   "market": "prop", "player": "Wayne Knight", "team": "UCLA", "stat": "rush_yds", "side": "over", "line": 83.5,
-   "odds": -112, "book": "BetOnline.ag", "fair": 0.4969,
-   "status": "Active, no injury listed",
-   "projection": {"mu": 95, "sd": 38},
-   "signals": {"season": 0.58, "coaching": 0.56, "matchup": 0.49, "recent_form": 0.53},
-   "note": "Knight has 548 yds on 7.7 per carry and went over 83.5 in 4 of 5 games (71, 97, 177, 100, 103), and he got 22 carries in UCLA's first game after the QB injury. Wisconsin's run defense (114.6 yds/g allowed) and stacked boxes against a backup QB keep this a modest lean."
-  },
-  {
-   "desc": "C. Joseph o183.5 pass yds",
-   "market": "prop", "player": "Colton Joseph", "team": "WIS", "stat": "pass_yds", "side": "over", "line": 183.5,
-   "odds": -114, "book": "FanDuel", "fair": 0.5,
-   "status": "Active, starting QB",
-   "projection": {"mu": 205, "sd": 65},
-   "signals": {"season": 0.56, "matchup": 0.55, "coaching": 0.48},
-   "note": "Joseph averages 226 yds/g (217, 173, 362, 235, 145) and UCLA allows 220 pass yds/g while holding opponents to 87.6 rush yds/g. The risk is UCLA's long possessions and a low-scoring game script that keeps his attempts low."
+   "desc": "1H Under 21.5",
+   "signals": {
+    "injuries": 0.55,
+    "matchup": 0.54,
+    "coaching": 0.53,
+    "season": 0.5
+   },
+   "note": "A new QB making his first start and two run-first, clock-controlling offenses point to a slow first half; 21.5 is about half of the 43 full-game total, so the edge is thin and comes from the same factors as the full-game Under."
   }
  ],
- "research": "1) Home/atmosphere: Night kickoff (7:30 PM ET, NBC) at the Rose Bowl; UCLA is 5-0 and No. 12, so expect a better-than-usual Rose Bowl crowd; no altitude or rivalry factor; the long West trip is offset by Wisconsin's bye on 10/10 (ESPN schedule).\n2) History: The series is old and rarely played (the 1994 and 1999 Rose Bowls went to Wisconsin; UPI 2000 had UCLA leading the series 7-3). ATS: UCLA is 5-0 ATS this season and Over 3-2; Wisconsin is 7-3 ATS in its last 10 and Under 7-3 in its last 10 (SI Betting).\n3) Coaching: Bob Chesney's UCLA runs a run-heavy offense (253 rush yds/g against 205 pass) and controls the clock; Luke Fickell's Wisconsin plays an aggressive defense built around LBs Cooper Catalano and Mason Posa (SI All Bruins), with dual-threat QB Joseph as the leading rusher because the RB room is thin.\n4) Matchups: UCLA's rush offense (Knight 7.7 YPC, 10 TD) faces a Wisconsin run D allowing 114.6 yds/g; a backup QB faces a pass D allowing 152.6 yds/g; Joseph (1,132 yds, 10 TD, 5 INT, 57%) faces a UCLA pass D allowing 220 yds/g and a run D allowing only 87.6.\n5) Health: Iamaleava (leg/knee) is out, with CBS reporting it is likely season-ending and Chesney saying there is 'serious concern'; Dieffenbach (Pitt then Cal Poly; 2025: 1,305 yds, 9 TD, 9 INT, 321 rush yds) gets his first start (ABC7, SI, Daily Bruin). I found no official Wisconsin injury report.\n6) Stats (ESPN): WIS 31.6 ppg, 379 yds/g, allows 16.6 ppg and 267 yds/g; UCLA 39.2 ppg, 458 yds/g, allows 18.0 ppg and 308 yds/g. UCLA had 3 turnovers in the 17-15 win at Oregon; Wisconsin had 3 in its 24-20 win at Penn State. Schedules: UCLA beat CAL, SDSU, PUR, MD and ORE; Wisconsin lost to ND 41-13, then beat WIU, EMU, PSU and MSU.\n7) Weather: ESPN/AccuWeather shows 89F, clear, gusts to 12 mph, no rain, cooling into the evening; no weather effect.\n8) Experts: Action Network has Feltman, Stuck, Griffith and McNamara on Wisconsin +3/+3.5 and Ziefel (UCLA -140) and Malstrom (UCLA -3) on UCLA; Dimers' model has UCLA 55.3%, 24-22 (46 total); YouWager has UCLA 28-20; ESPN FPI has UCLA 57.2%. The consensus side leans Wisconsin ATS; there is no clear consensus on the total.\n9) Lines: The spread opened UCLA -3 and is now -2.5 (DK ML -142/+120); the total was 44.5 at SI and is now 42.5-43.5, a move toward the Under. I could not find public bet/money percentages (the Action Network tracker was empty)."
+ "extra_legs": [],
+ "research": "1) Home/atmosphere: Night kickoff (7:30 PM ET, NBC) at the Rose Bowl; UCLA is 5-0 and No. 12, so expect a better-than-usual Rose Bowl crowd; no altitude or rivalry factor; the long West trip is offset by Wisconsin's bye on 10/10 (ESPN schedule).\n2) History: The series is old and rarely played (the 1994 and 1999 Rose Bowls went to Wisconsin; UPI 2000 had UCLA leading the series 7-3). ATS: UCLA is 5-0 ATS this season and Over 3-2; Wisconsin is 7-3 ATS in its last 10 and Under 7-3 in its last 10 (SI Betting).\n3) Coaching: Bob Chesney's UCLA runs a run-heavy offense (253 rush yds/g against 205 pass) and controls the clock; Luke Fickell's Wisconsin plays an aggressive defense built around LBs Cooper Catalano and Mason Posa (SI All Bruins), with dual-threat QB Joseph as the leading rusher because the RB room is thin.\n4) Matchups (player props removed; Ohio bans CFB props): UCLA's rush offense (Knight 7.7 YPC, 10 TD) faces a Wisconsin run D allowing 114.6 yds/g; a backup QB faces a pass D allowing 152.6 yds/g; Joseph (1,132 yds, 10 TD, 5 INT, 57%) faces a UCLA pass D allowing 220 yds/g and a run D allowing only 87.6.\n5) Health: Iamaleava (leg/knee) is out, with CBS reporting it is likely season-ending and Chesney saying there is 'serious concern'; Dieffenbach (Pitt then Cal Poly; 2025: 1,305 yds, 9 TD, 9 INT, 321 rush yds) gets his first start (ABC7, SI, Daily Bruin). I found no official Wisconsin injury report.\n6) Stats (ESPN): WIS 31.6 ppg, 379 yds/g, allows 16.6 ppg and 267 yds/g; UCLA 39.2 ppg, 458 yds/g, allows 18.0 ppg and 308 yds/g. UCLA had 3 turnovers in the 17-15 win at Oregon; Wisconsin had 3 in its 24-20 win at Penn State. Schedules: UCLA beat CAL, SDSU, PUR, MD and ORE; Wisconsin lost to ND 41-13, then beat WIU, EMU, PSU and MSU.\n7) Weather: ESPN/AccuWeather shows 89F, clear, gusts to 12 mph, no rain, cooling into the evening; no weather effect.\n8) Experts: Action Network has Feltman, Stuck, Griffith and McNamara on Wisconsin +3/+3.5 and Ziefel (UCLA -140) and Malstrom (UCLA -3) on UCLA; Dimers' model has UCLA 55.3%, 24-22 (46 total); YouWager has UCLA 28-20; ESPN FPI has UCLA 57.2%. The consensus side leans Wisconsin ATS; there is no clear consensus on the total.\n9) Lines: The spread opened UCLA -3 and is now -2.5 (DK ML -142/+120); the total was 44.5 at SI and is now 42.5-43.5, a move toward the Under. I could not find public bet/money percentages (the Action Network tracker was empty)."
 }

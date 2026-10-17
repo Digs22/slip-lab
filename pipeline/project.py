@@ -83,6 +83,17 @@ def correlation(a: dict, b: dict) -> float:
         return 0.2 if sides[0] == sides[1] else -0.2  # teammates rise and fall with the offense
     if kinds <= {"ml", "spread"} and a.get("team") == b.get("team"):
         return 0.8
+    if kinds <= {"total", "team_total", "h1_total"} and len(kinds) == 2 or kinds == {"team_total"}:
+        same = sides[0] == sides[1]
+        if kinds == {"team_total"}:
+            return 0.25 if same else -0.25
+        return 0.55 if same else -0.55
+    if kinds <= {"ml", "spread", "h1_ml", "h1_spread"} and a.get("team") and b.get("team"):
+        return 0.55 if a.get("team") == b.get("team") else -0.55
+    if "team_total" in kinds and kinds & {"ml", "spread", "h1_ml", "h1_spread"}:
+        tt, side = (a, b) if a["market"] == "team_total" else (b, a)
+        same_team = tt.get("team") == side.get("team")
+        return (0.35 if tt.get("side") == "over" else -0.35) * (1 if same_team else -1)
     if kinds == {"ml", "prop"} or kinds == {"spread", "prop"}:
         side, prop = (a, b) if a["market"] != "prop" else (b, a)
         if prop.get("team") and prop.get("team") == side.get("team"):

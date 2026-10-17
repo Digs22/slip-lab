@@ -22,6 +22,19 @@ def leg_result(leg: dict, game: dict, stats: dict | None) -> str:
         mine, theirs = (h, a) if _is_home(leg["team"], game) else (a, h)
         margin = mine - theirs + (leg.get("line") or 0)
         return "push" if margin == 0 else ("win" if margin > 0 else "loss")
+    if leg["market"] == "team_total":
+        t = h if _is_home(leg["team"], game) else a
+        return "push" if t == leg["line"] else ("win" if (t > leg["line"]) == (leg["side"] == "over") else "loss")
+    if leg["market"] in ("h1_total", "h1_ml", "h1_spread"):
+        h1, a1 = game.get("home_h1"), game.get("away_h1")
+        if h1 is None or a1 is None:
+            return "unknown"
+        if leg["market"] == "h1_total":
+            t = h1 + a1
+            return "push" if t == leg["line"] else ("win" if (t > leg["line"]) == (leg["side"] == "over") else "loss")
+        mine, theirs = (h1, a1) if _is_home(leg["team"], game) else (a1, h1)
+        margin = mine - theirs + (leg.get("line") or 0)
+        return "push" if margin == 0 else ("win" if margin > 0 else "loss")
     if leg["market"] == "prop":
         val = (stats or {}).get(leg["player"], {}).get(leg["stat"])
         if val is None:

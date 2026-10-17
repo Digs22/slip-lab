@@ -205,10 +205,28 @@ def save_filters(f: dict) -> dict:
 
 def allowed(game: dict, f: dict) -> bool:
     """Picks for a game unless its league is off, or both teams are toggled off (a game with one team you
-    follow still gets picks)."""
+    follow still gets picks). Once a league has team toggles, a team missing from Settings (an FCS opponent,
+    say) can't be switched on, so it counts as off."""
     league = game["league"]
     if league in f.get("off_leagues", []):
         return False
     off = set(f.get("off_teams", {}).get(league, []))
+    if not off:
+        return True
+    listed = _listed(league)
     ids = [str(game.get("home_id") or ""), str(game.get("away_id") or "")]
-    return not off or not all(i and i in off for i in ids)
+    return not all(i in off or (listed and i not in listed) for i in ids)
+
+
+_LISTED = {}
+
+
+def _listed(league: str) -> set:
+    """Team ids the Settings tab shows for a league (empty if teams.json is missing)."""
+    if league not in _LISTED:
+        try:
+            groups = json.loads(TEAMS_FILE.read_text())["leagues"][league]["groups"]
+            _LISTED[league] = {str(t["id"]) for g in groups for t in g["teams"]}
+        except (OSError, KeyError, ValueError):
+            _LISTED[league] = set()
+    return _LISTED[league]

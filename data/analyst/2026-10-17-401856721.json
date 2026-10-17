@@ -1,30 +1,52 @@
 {
- "summary": "No. 13 Missouri (5-1) visits No. 9 Ole Miss (4-1) at homecoming. Ole Miss is a 5.5-point favorite, down from 6, with the total at 58.5. Missouri's top-25 defense (16.6 ppg, 78 rush ypg allowed) and SEC-leading rusher Jamal Roberts (828 yds, 138/g) face an Ole Miss run defense that ranks last in the SEC (176 ypg allowed). Both starting QBs are healthy: Simmons was taken off the injury report, and Missouri RB Ahmad Hardy is out.",
+ "summary": "No. 13 Missouri (5-1) visits No. 9 Ole Miss (4-1) at homecoming. Ole Miss is a 5.5-point favorite, down from 6, with the total at 58.5. Missouri's top-25 defense (16.6 ppg, 78 rush ypg allowed) and SEC-leading rusher Jamal Roberts (828 yds, 138/g) face an Ole Miss run defense that ranks last in the SEC (176 ypg allowed). Both starting QBs are healthy: Simmons was taken off the injury report, and Missouri RB Ahmad Hardy is out. Ohio bans college football player props, so only game, team-total and first-half lines are proposed.",
  "lineups_confirmed": false,
  "legs": [
-  {"desc": "Missouri Tigers +5",
-   "signals": {"matchup": 0.55, "season": 0.54, "history": 0.53, "coaching": 0.5, "home": 0.46, "experts": 0.5, "injuries": 0.52},
-   "note": "Predictem says SP+ rates Missouri slightly higher, and the line has moved from -6 to -5/-5.5 toward Missouri. Missouri's run game against Ole Miss's last-ranked SEC run defense can shorten the game. Experts split (Covers' Powers takes Ole Miss -5.5, SI and 2 of 3 SGP hosts take Missouri), so this is only a small lean against home field."},
-  {"desc": "Under 58.5",
-   "signals": {"matchup": 0.54, "season": 0.53, "history": 0.55, "coaching": 0.53, "experts": 0.5},
-   "note": "Missouri allows 16.6 ppg and wants a run-heavy, clock-draining game. The under is 8-2 in Ole Miss's last 10 games as a home favorite. Ole Miss's 6-1 over run and its 300 pass ypg offense temper the lean."}
+  {
+   "desc": "Missouri Tigers +5",
+   "signals": {
+    "matchup": 0.55,
+    "season": 0.54,
+    "history": 0.53,
+    "coaching": 0.5,
+    "home": 0.46,
+    "experts": 0.5,
+    "injuries": 0.52
+   },
+   "note": "Predictem says SP+ rates Missouri slightly higher, and the line has moved from -6 to -5/-5.5 toward Missouri. Missouri's run game against Ole Miss's last-ranked SEC run defense can shorten the game. Experts split (Covers' Powers takes Ole Miss -5.5, SI and 2 of 3 SGP hosts take Missouri), so this is only a small lean against home field."
+  },
+  {
+   "desc": "Under 58.5",
+   "signals": {
+    "matchup": 0.54,
+    "season": 0.53,
+    "history": 0.55,
+    "coaching": 0.53,
+    "experts": 0.5
+   },
+   "note": "Missouri allows 16.6 ppg and wants a run-heavy, clock-draining game. The under is 8-2 in Ole Miss's last 10 games as a home favorite. Ole Miss's 6-1 over run and its 300 pass ypg offense temper the lean."
+  },
+  {
+   "desc": "Ole Miss Rebels team total Under 31.5",
+   "signals": {
+    "matchup": 0.55,
+    "season": 0.55,
+    "history": 0.54,
+    "coaching": 0.53
+   },
+   "note": "Missouri allows 16.6 ppg (25th), and its pass defense ranks 18th in success rate with 15 sacks. Ole Miss plays a ball-control opponent at home, and the under is 8-2 in its last 10 games as a home favorite. Ole Miss's 6th-ranked passing offense and its recent over run keep this a lean."
+  },
+  {
+   "desc": "Missouri Tigers team total Over 26.5",
+   "signals": {
+    "matchup": 0.57,
+    "season": 0.53,
+    "recent_form": 0.54,
+    "injuries": 0.5
+   },
+   "note": "Roberts (138 rush ypg, SEC leader) faces the SEC's worst run defense (176 ypg allowed, 68 missed tackles), and Ole Miss's defense ranks 72nd in yards per play. The -125 price, Hardy's absence and Missouri's slow, clock-draining pace (27 points vs Texas A&M) limit the edge."
+  }
  ],
- "extra_legs": [
-  {"desc": "J. Roberts o115.5 rush yds", "market": "prop", "player": "Jamal Roberts", "team": "MIZ", "stat": "rush_yds", "side": "over", "line": 115.5, "odds": -114, "book": "BetOnline.ag", "fair": 0.5,
-   "status": "Active; not on injury report. Ahmad Hardy (RB) out, so Roberts carries the workload",
-   "projection": {"mu": 125, "sd": 45},
-   "signals": {"matchup": 0.6, "season": 0.58, "recent_form": 0.56, "injuries": 0.54, "coaching": 0.54},
-   "note": "Roberts averages 138 rush ypg (200+ in each of his last two games) and faces the SEC's worst run defense, which has missed 68 tackles. He went over this number in at least 4 of 6 games. The projection is shrunk toward the mean because the line already prices much of that, and Ole Miss held Vanderbilt to 2.8 YPC."},
-  {"desc": "A. Simmons u251.5 pass yds", "market": "prop", "player": "Austin Simmons", "team": "MIZ", "stat": "pass_yds", "side": "under", "line": 251.5, "odds": -114, "book": "FanDuel", "fair": 0.5,
-   "status": "Active; removed from injury report Friday after being listed probable",
-   "projection": {"mu": 238, "sd": 60},
-   "signals": {"season": 0.55, "matchup": 0.54, "coaching": 0.55},
-   "note": "Simmons averages 239 pass ypg (1,434 in 6 games), below this line. Missouri should lean on Roberts against a weak run defense. Missing TE Brett Norfleet (questionable) cuts targets, but a trailing game script could push his volume up."},
-  {"desc": "T. Chambliss u289.5 pass yds", "market": "prop", "player": "Trinidad Chambliss", "team": "MISS", "stat": "pass_yds", "side": "under", "line": 289.5, "odds": -114, "book": "FanDuel", "fair": 0.5,
-   "status": "Active; healthy",
-   "projection": {"mu": 280, "sd": 70},
-   "signals": {"season": 0.51, "matchup": 0.55},
-   "note": "Chambliss averages about 287 pass ypg (1,435 in 5 games), almost exactly this line. Missouri's pass defense ranks 18th in success rate and has 15 sacks, so the lean is slightly under. Ole Miss's pass-first offense (6th in success rate) keeps this close to a coin flip."}
- ],
+ "extra_legs": [],
  "research": "1. Home/atmosphere: Ole Miss homecoming at Vaught-Hemingway, 2:30 CT (3:30 ET) kickoff on SEC Network. Ranked matchup (No. 9 vs No. 13). Simmons and Cayden Lee return to face their former team (TheRebelWalk, AP via LaNacion).\n2. History: Missouri leads the series 7-1, and Ole Miss has not beaten Mizzou since 1974 (Covers, NBC Sports). Missouri is 3-3 ATS in 2026. Drinkwitz is 19-17-1 ATS as an underdog and 7-12 ATS as a road dog (NBC). The under is 8-2 in Ole Miss's last 10 games as a home favorite (Covers), but the Rebels are on a 6-1 over run (Review-Journal).\n3. Coaching: Pete Golding is in his first year as Ole Miss head coach and keeps a pass-first offense (300.6 pass ypg, 15th in FBS; 133 rush ypg). Drinkwitz's Missouri runs a ground-heavy, defense-first style.\n4. Matchups: Roberts (828 yds, SEC leader, 222 vs Texas A&M) against an Ole Miss run defense that allows 176 ypg, ranks last in the SEC and has 68 missed tackles (HottyToddy). Ole Miss's pass offense ranks 6th in success rate against Missouri's pass defense at 18th. Ole Miss's defense ranks 72nd in yards per play against Missouri's offense at 31st (Red Cup Rebellion). Chambliss has 1,435 yds, 11 TD, 4 INT. Simmons has 1,434 yds, 14 TD, 1 INT. Lee has 42 catches for 616 yds and 5 TD.\n5. Health: Missouri's Ahmad Hardy (RB) is out. Simmons was removed from the report. Lee is probable, and LB Beasley and TE Norfleet are questionable. For Ole Miss, S Edwin Joseph is out (ankle surgery), S MJ Preston and TE Hayden Bradley are questionable, and 9 players are out in total (SEC availability report via TheRebelWalk/RockMNation).\n6. Stats: Missouri allows 16.6 ppg (25th), 78.3 rush ypg and 2.3 YPC (4th), and has 15 sacks. Ole Miss allows 28.0 ppg (108th) and about 216-224 pass ypg. SP+ has Missouri a few spots above Ole Miss (Predictem).\n7. Weather: I found no reliable dated forecast for Oxford on this date. I assume typical mid-October conditions, with no weather edge.\n8. Experts: Covers' Brad Powers takes Ole Miss -5.5 (his rating is -6.5). Lineups.com projects Ole Miss 34-28. YouWager projects 34-30 Ole Miss. Predictem takes Missouri +6, VegasInsider leans Missouri on defense, SI's upset column takes the Missouri ML, and the SGP hosts went 2-1 for Missouri +6.5. Consensus is split, with Ole Miss slightly favored to win and the spread close to a coin flip.\n9. Line movement: Ole Miss opened -6 and moved to -5.5, with -5 at BetMGM, so money is slightly toward Missouri. The total opened 57.5-58.5 and is steady at 58.5. I found no public betting splits."
 }

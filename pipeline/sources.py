@@ -94,6 +94,7 @@ def espn_scoreboard(league: str, date: str) -> list[dict]:
                 "home_name": teams["home"]["team"].get("displayName", ""), "away_name": teams["away"]["team"].get("displayName", ""),
                 "home_logo": teams["home"]["team"].get("logo"), "away_logo": teams["away"]["team"].get("logo"),
                 "home_score": _num(teams["home"].get("score")), "away_score": _num(teams["away"].get("score")),
+                "home_h1": _h1(teams["home"]), "away_h1": _h1(teams["away"]),
                 "venue": venue.get("fullName"), "indoor": venue.get("indoor"),
                 "city": ", ".join(x for x in (venue.get("address", {}).get("city"), venue.get("address", {}).get("state")) if x),
                 "odds": comp.get("odds", [{}])[0] if comp.get("odds") else {},
@@ -195,6 +196,14 @@ def weather(lat: float, lon: float, iso_start: str) -> dict:
     times = data["hourly"]["time"]
     i = times.index(hour) if hour in times else 0
     return {k: data["hourly"][k][i] for k in data["hourly"] if k != "time"}
+
+
+def _h1(team: dict):
+    """First-half points (periods 1-2) from ESPN's linescores, once both quarters are in."""
+    ls = team.get("linescores") or []
+    if len(ls) < 2:
+        return None
+    return sum(_num(p.get("value", p.get("displayValue"))) or 0 for p in ls[:2])
 
 
 def _num(x):
