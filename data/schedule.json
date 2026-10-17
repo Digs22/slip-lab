@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T08:48-04:00",
+ "generated": "2026-10-17T08:50-04:00",
  "games": [
   {
    "id": "401878771",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "venue": "Hill Dickinson Stadium",
    "city": "Liverpool",
-   "detail": "55'",
+   "detail": "58'",
    "away_score": 1.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "venue": "RCDE Stadium",
    "city": "Barcelona",
-   "detail": "45'",
+   "detail": "HT",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -350,9 +350,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "VIL -240",
+    "spread": "VIL -235",
     "total": 3.5,
-    "home_ml": -240,
+    "home_ml": -235,
     "away_ml": 550,
     "book": "DraftKings"
    }
@@ -4276,30 +4276,6 @@
    "odds": {}
   },
   {
-   "id": "401908028",
-   "league": "MLB",
-   "date": "2026-10-19",
-   "start": "2026-10-20T00:00Z",
-   "status": "pre",
-   "game": "CLE @ TB",
-   "away": "CLE",
-   "home": "TB",
-   "away_id": "5",
-   "home_id": "30",
-   "away_name": "Cleveland Guardians",
-   "home_name": "Tampa Bay Rays",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-   "venue": "Tropicana Field",
-   "city": "St. Petersburg, Florida",
-   "detail": "10/19 - 8:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {}
-  },
-  {
    "id": "401873008",
    "league": "NFL",
    "date": "2026-10-19",
@@ -6912,5 +6888,8 @@
    "odds": {}
   }
  ],
- "problems": []
+ "problems": [
+  "NCAAB 2026-10-18: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+  "MLB 2026-10-19: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }
