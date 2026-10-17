@@ -37,7 +37,7 @@ def log(msg):
     print(f"[{datetime.now(ZoneInfo(config.TIMEZONE)):%H:%M}] {msg}", flush=True)
 
 
-FROZEN = set()  # dates whose odds feed failed this run: their picks are not rebuilt from worse lines
+FROZEN = set()  # dates whose odds feed failed this run: posted picks are not rebuilt from worse lines
 
 
 def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]:
@@ -64,10 +64,8 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
             lines = sources.odds(league)
         except sources.SourceError as e:
             lines, _ = None, problems.append(f"{league} odds: {e}")
-            if config.ODDS_API_KEY:  # an outage or a spent quota, not a missing key: keep the posted picks
-                problems.append(f"{league} odds feed down: picks left as they were")
-                FROZEN.add(date)
-                continue
+            if config.ODDS_API_KEY:  # an outage or a spent quota: fall back to public lines (user, 2026-10-17),
+                FROZEN.add(date)      # ESPN's consensus plus lines the research priced from public odds pages
         for g in games:
             scored.append(analyze.score_game(date, g, lines, injuries, weights))
         log(f"{league}: scored {len(games)} games")
@@ -207,7 +205,9 @@ def daily(date: str | None = None, only_ids: set | None = None):
             log(f"{d}: logged {candidates.log(sc)} priced legs for training")
         except Exception as e:  # training data must never block picks
             pr.append(f"candidates: {e}")
-        if d in FROZEN:  # rebuilding on ESPN-only lines replaced good picks on 2026-10-17 (quota ran out)
+        # Picks already posted from full multi-book lines are kept: rebuilding them on ESPN-only lines
+        # replaced good picks on 2026-10-17. A date with no picks yet is built from the public lines.
+        if d in FROZEN and any(b.get("date") == d and b["status"] == "pending" and b.get("kind") == "sgp" for b in bets):
             scored += sc; problems += [f"{d}: {m}" for m in pr]
             continue
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
