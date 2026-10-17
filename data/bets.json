@@ -1253,10 +1253,11 @@
           "main_line": null
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "push",
+      "net": 0.0,
       "stake": 18.0,
-      "to_win": 13.04
+      "to_win": 13.04,
+      "final": "Postponed: voided"
     },
     {
       "id": "2026-10-16-POTD-MLB",
@@ -1300,10 +1301,11 @@
           "main_line": null
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "push",
+      "net": 0.0,
       "stake": 12.0,
-      "to_win": 8.7
+      "to_win": 8.7,
+      "final": "Postponed: voided"
     }
   ]
 }

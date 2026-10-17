@@ -86,6 +86,7 @@ def espn_scoreboard(league: str, date: str) -> list[dict]:
                 "name": ev.get("shortName"), "start": ev["date"],
                 "status": ev["status"]["type"]["state"],  # pre | in | post
                 "completed": ev["status"]["type"].get("completed", False),
+                "postponed": ev["status"]["type"].get("name", "") in ("STATUS_POSTPONED", "STATUS_CANCELED", "STATUS_SUSPENDED"),
                 "period": ev["status"].get("period", 0), "clock": ev["status"].get("displayClock", ""),
                 "detail": ev["status"]["type"].get("shortDetail", ""),
                 "home": teams["home"]["team"]["abbreviation"], "away": teams["away"]["team"]["abbreviation"],

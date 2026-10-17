@@ -106,6 +106,12 @@ def grade_all(bets: list[dict]) -> list[dict]:
         except sources.SourceError as e:
             print(f"grade: can't reach the feed for {bet['game']}: {e}")
             continue
+        if game and game.get("postponed") and not game["completed"]:
+            # Books void bets on a game that isn't played that day (and props need the listed starter).
+            ledger.settle(bet, "push")
+            bet["final"] = "Postponed: voided"
+            changed.append(bet)
+            continue
         if not game or not game["completed"]:
             continue
         for leg in bet["legs"]:
