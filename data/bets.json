@@ -1306,6 +1306,107 @@
       "stake": 12.0,
       "to_win": 8.7,
       "final": "Postponed: voided"
+    },
+    {
+      "id": "2026-10-17-TBCLE-straight",
+      "kind": "sgp",
+      "date": "2026-10-17",
+      "league": "MLB",
+      "event_id": "401908027",
+      "game": "TB @ CLE",
+      "start": "2026-10-18T00:00Z",
+      "play": "straight",
+      "venue": "Progressive Field",
+      "city": "Cleveland, Ohio",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "home_conf": null,
+      "away_conf": null,
+      "odds": -125,
+      "units": 6,
+      "prob": 0.5751,
+      "ev": 0.0352,
+      "provisional": true,
+      "score": 0.0202,
+      "rank": 1,
+      "summary": "ALCS Game 4 makeup after Friday's rainout, Guardians up 2-1: Nick Martinez (3.10 ERA, 1.09 WHIP) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game again. Both bullpens got an extra day of rest.",
+      "weather": "44\u00b0F, wind 5 mph, 0% rain",
+      "legs": [
+        {
+          "desc": "N. Martinez u3.5 hits allowed",
+          "market": "prop",
+          "side": "under",
+          "team": "TB",
+          "player": "Nick Martinez",
+          "stat": "hits_allowed",
+          "line": 3.5,
+          "odds": -125,
+          "book": "betmgm",
+          "fair": 0.555,
+          "prob": 0.5751,
+          "edge": 0.0352,
+          "signals": {
+            "projection": 0.5987063256829237,
+            "season": 0.6,
+            "recent_form": 0.56
+          },
+          "note": "Martinez allows about 7 hits per 9 innings (1.09 WHIP), and the market expects about 12 outs from him. That projects around 3 hits, so he needs a bad night to allow 4.",
+          "status": "Confirmed starter; took a liner off the back in the ALDS clincher, no injury since",
+          "alt": null,
+          "main_line": null
+        }
+      ],
+      "status": "pending",
+      "net": null,
+      "stake": 18.0,
+      "to_win": 14.4
+    },
+    {
+      "id": "2026-10-17-POTD-MLB",
+      "kind": "potd",
+      "date": "2026-10-17",
+      "league": "MLB",
+      "event_id": "401908027",
+      "game": "TB @ CLE",
+      "start": "2026-10-18T00:00Z",
+      "play": "straight",
+      "venue": "Progressive Field",
+      "city": "Cleveland, Ohio",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "odds": -125,
+      "units": 4,
+      "prob": 0.5751,
+      "ev": 0.0352,
+      "legs": [
+        {
+          "desc": "N. Martinez u3.5 hits allowed",
+          "market": "prop",
+          "side": "under",
+          "team": "TB",
+          "player": "Nick Martinez",
+          "stat": "hits_allowed",
+          "line": 3.5,
+          "odds": -125,
+          "book": "betmgm",
+          "fair": 0.555,
+          "prob": 0.5751,
+          "edge": 0.0352,
+          "signals": {
+            "projection": 0.5987063256829237,
+            "season": 0.6,
+            "recent_form": 0.56
+          },
+          "note": "Martinez allows about 7 hits per 9 innings (1.09 WHIP), and the market expects about 12 outs from him. That projects around 3 hits, so he needs a bad night to allow 4.",
+          "status": "Confirmed starter; took a liner off the back in the ALDS clincher, no injury since",
+          "alt": null,
+          "main_line": null
+        }
+      ],
+      "status": "pending",
+      "net": null,
+      "stake": 12.0,
+      "to_win": 9.6
     }
   ]
 }

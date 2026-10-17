@@ -61,16 +61,16 @@
     "line_move": 0.55
   },
   "retrain": {
-    "n": 233,
+    "n": 267,
     "accepted": false,
     "reason": "waiting for 300 graded legs",
     "market_check": {
-      "n": 233,
-      "model_logloss": 0.6868,
-      "market_logloss": 0.6824,
+      "n": 267,
+      "model_logloss": 0.6919,
+      "market_logloss": 0.6881,
       "beats_market": false,
-      "picked_n": 19,
-      "picked_hit": 0.316,
+      "picked_n": 20,
+      "picked_hit": 0.3,
       "picked_expected": 0.508
     }
   }

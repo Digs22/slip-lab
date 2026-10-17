@@ -1,6 +1,6 @@
 {
   "key": "settings",
-  "updated": "2026-10-16T16:28:57.984Z",
+  "updated": "2026-10-17T10:13:30.575Z",
   "prefs": {
     "unit": 2,
     "split": {
@@ -9,7 +9,7 @@
       "best": 10,
       "longshot": 5
     },
-    "games": 3,
+    "games": 8,
     "kelly": 0,
     "leagues": [
       "MLB",

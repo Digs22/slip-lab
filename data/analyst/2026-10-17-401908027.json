@@ -1,0 +1,67 @@
+{
+ "summary": "ALCS Game 4 makeup after Friday's rainout, Guardians up 2-1: Nick Martinez (3.10 ERA, 1.09 WHIP) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game again. Both bullpens got an extra day of rest.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Guardians +1.5",
+   "signals": {
+    "home": 0.55,
+    "postseason": 0.54
+   },
+   "note": "Every game in this series has been decided by 4 runs or fewer and two by 1 or 2, and Cleveland is at home. Getting a run and a half in a tight, low-scoring series covers most outcomes."
+  },
+  {
+   "desc": "Under 6.5",
+   "signals": {
+    "postseason": 0.53
+   },
+   "note": "Games 2 and 3 produced 4 and 5 runs, but a Cleveland bullpen game and an Over-leaning market make this close to a coin flip."
+  }
+ ],
+ "extra_legs": [
+  {
+   "desc": "N. Martinez u3.5 hits allowed",
+   "market": "prop",
+   "player": "Nick Martinez",
+   "team": "TB",
+   "stat": "hits_allowed",
+   "side": "under",
+   "line": 3.5,
+   "odds": -125,
+   "fair": 0.555,
+   "book": "betmgm",
+   "signals": {
+    "season": 0.6,
+    "recent_form": 0.56
+   },
+   "projection": {
+    "mu": 3.1,
+    "sd": 1.6
+   },
+   "note": "Martinez allows about 7 hits per 9 innings (1.09 WHIP), and the market expects about 12 outs from him. That projects around 3 hits, so he needs a bad night to allow 4.",
+   "status": "Confirmed starter; took a liner off the back in the ALDS clincher, no injury since"
+  },
+  {
+   "desc": "N. Martinez o11.5 outs",
+   "market": "prop",
+   "player": "Nick Martinez",
+   "team": "TB",
+   "stat": "pitcher_outs",
+   "side": "over",
+   "line": 11.5,
+   "odds": -158,
+   "fair": 0.6,
+   "book": "draftkings",
+   "signals": {
+    "season": 0.62,
+    "recent_form": 0.5
+   },
+   "projection": {
+    "mu": 13.5,
+    "sd": 3.5
+   },
+   "note": "Martinez averaged 17 outs on 81 pitches across 31 starts this season, and four full innings is a low bar. His two short outings came when he was hit hard and when a line drive struck him.",
+   "status": "Confirmed starter"
+  }
+ ]
+}

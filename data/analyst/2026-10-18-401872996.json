@@ -1,0 +1,9 @@
+{
+ "summary": "London game at 9:30 AM ET: Jacksonville (4-1) vs Houston (1-4). Jacksonville's defense has allowed 17 or fewer in four of five, and Houston's offense has 6 passing touchdowns in five games.",
+ "lineups_confirmed": false,
+ "legs": [
+  {"desc": "Under 42.5", "signals": {"recent_form": 0.57, "matchup": 0.56, "weather": 0.54},
+   "note": "Four of Jacksonville's five games finished under 42 (44, 33, 41, 39, 36), and Houston has scored 17 or fewer in three of its last four against non-Buffalo defenses. International games on a neutral field have tended to run low."}
+ ],
+ "extra_legs": []
+}
