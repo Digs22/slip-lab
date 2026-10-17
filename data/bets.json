@@ -1356,13 +1356,15 @@
           "note": "Storms near kickoff could mean a delay and more running, and both offenses have been slumping.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "UVA 13, SMU 23"
     },
     {
       "id": "2026-10-17-TBCLE-straight",
@@ -1527,13 +1529,15 @@
           "note": "Mississippi State loses its quarterback and lead running back against an LSU defense that allows 47.5 rushing yards a game.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "MSST 0, LSU 31"
     },
     {
       "id": "2026-10-17-OSUIU-straight",
@@ -1640,13 +1644,17 @@
           "note": "Without its starting quarterback, Florida's offense should struggle against a Texas defense allowing about 96 rushing yards a game.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 18.0
+      "to_win": 18.0,
+      "final": "FLA 27, TEX 24",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-17-ALATENN-straight",
@@ -1979,7 +1987,8 @@
           "league": "NCAAF",
           "matchup": "UVA @ SMU",
           "start": "2026-10-17T16:00Z",
-          "date": "2026-10-17"
+          "date": "2026-10-17",
+          "result": "win"
         },
         {
           "desc": "N. Martinez u3.5 hits allowed",
@@ -2135,13 +2144,15 @@
           "note": "Storms near kickoff could mean a delay and more running, and both offenses have been slumping.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 11.43,
       "stake": 12.0,
-      "to_win": 11.43
+      "to_win": 11.43,
+      "final": "UVA 13, SMU 23"
     }
   ]
 }

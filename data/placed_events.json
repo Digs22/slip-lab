@@ -40,5 +40,12 @@
   "at": "2026-10-17T12:54:49.916Z",
   "units": null,
   "unit": null
+ },
+ "2026-10-17-ALATENN-straight": {
+  "id": "2026-10-17-ALATENN-straight",
+  "on": false,
+  "at": "2026-10-17T13:12:43.810Z",
+  "units": null,
+  "unit": null
  }
 }

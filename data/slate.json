@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "generated": "2026-10-17T08:59-04:00",
+  "generated": "2026-10-17T09:03-04:00",
   "games_scanned": 12,
   "problems": [
     "2026-10-17: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
@@ -8,6 +8,18 @@
     "2026-10-18: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [
+    {
+      "id": "401908027",
+      "league": "MLB",
+      "game": "TB @ CLE",
+      "start": "2026-10-18T00:00Z",
+      "venue": "Progressive Field",
+      "city": "Cleveland, Ohio",
+      "score": 0.0202,
+      "edges": 1,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+    },
     {
       "id": "401858488",
       "league": "NCAAF",
@@ -45,6 +57,18 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png"
     },
     {
+      "id": "401858268",
+      "league": "NCAAF",
+      "game": "UVA @ SMU",
+      "start": "2026-10-17T16:00Z",
+      "venue": "Gerald J. Ford Stadium",
+      "city": "Dallas, TX",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+    },
+    {
       "id": "401856723",
       "league": "NCAAF",
       "game": "ALA @ TENN",
@@ -55,6 +79,18 @@
       "edges": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
+    },
+    {
+      "id": "401856721",
+      "league": "NCAAF",
+      "game": "MIZ @ MISS",
+      "start": "2026-10-17T19:30Z",
+      "venue": "Vaught-Hemingway Stadium",
+      "city": "Oxford, MS",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
     },
     {
       "id": "401856809",
@@ -93,6 +129,18 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
     },
     {
+      "id": "401858492",
+      "league": "NCAAF",
+      "game": "NEB @ ORE",
+      "start": "2026-10-18T03:00Z",
+      "venue": "Autzen Stadium",
+      "city": "Eugene, OR",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+    },
+    {
       "id": "401930515",
       "league": "MLB",
       "game": "TB @ CLE",
@@ -105,54 +153,5 @@
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
     }
   ],
-  "games": [
-    {
-      "id": "401908027",
-      "league": "MLB",
-      "game": "TB @ CLE",
-      "start": "2026-10-18T00:00Z",
-      "venue": "Progressive Field",
-      "provisional": true,
-      "score": 0.0202,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "summary": "ALCS Game 4 makeup after Friday's rainout, Guardians up 2-1: Nick Martinez (3.10 ERA, 1.09 WHIP) for Tampa Bay, and reliever Shawn Armstrong opens a Cleveland bullpen game again. Both bullpens got an extra day of rest."
-    },
-    {
-      "id": "401858268",
-      "league": "NCAAF",
-      "game": "UVA @ SMU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Gerald J. Ford Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-      "summary": "Storms with strong wind and hail are forecast around the 11 a.m. CT kickoff, and both offenses have been slumping. SMU is the favorite at home after a bye."
-    },
-    {
-      "id": "401856721",
-      "league": "NCAAF",
-      "game": "MIZ @ MISS",
-      "start": "2026-10-17T19:30Z",
-      "venue": "Vaught-Hemingway Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-      "summary": "Missouri at Ole Miss looks close, with wind forecast and Missouri planning a run-heavy, clock-draining game. Missouri running back Ahmad Hardy is out."
-    },
-    {
-      "id": "401858492",
-      "league": "NCAAF",
-      "game": "NEB @ ORE",
-      "start": "2026-10-18T03:00Z",
-      "venue": "Autzen Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-      "summary": "Oregon's starting quarterback Dante Moore is out, so third-stringer Brock Thomas makes his first start. Top receiver Evan Stewart is doubtful and Oregon is favored by 7 at home."
-    }
-  ]
+  "games": []
 }

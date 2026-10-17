@@ -27,6 +27,13 @@
   ],
   "flags": [
     {
+      "split": "play",
+      "name": "straight",
+      "roi": 22.6,
+      "n": 12,
+      "action": "Working: keep full stake"
+    },
+    {
       "split": "market",
       "name": "mixed",
       "roi": -100.0,
@@ -43,35 +50,51 @@
   ],
   "loss_causes": {
     "untagged": 5,
-    "bad read": 10,
+    "bad read": 11,
     "variance": 1
   },
   "weights": {
     "projection": 1.1,
-    "recent_form": 0.95,
-    "season": 0.6,
-    "matchup": 0.45,
+    "recent_form": 1.0,
+    "season": 0.55,
+    "matchup": 0.5,
     "home_away": 0.5,
     "rest_travel": 0.55,
-    "weather": 0.6,
+    "weather": 0.65,
     "injuries": 0.7,
-    "coaching": 0.45,
+    "coaching": 0.5,
     "postseason": 0.35,
     "news": 0.45,
-    "line_move": 0.55
+    "line_move": 0.55,
+    "line_movement": 0.55,
+    "experts": 0.4,
+    "home": 0.45,
+    "trend": 0.45
   },
   "retrain": {
-    "n": 267,
+    "n": 551,
     "accepted": false,
-    "reason": "waiting for 300 graded legs",
+    "factors": [
+      "injuries",
+      "recent_form"
+    ],
+    "held_out": 166,
+    "logloss_new": 0.6841,
+    "logloss_current": 0.684,
+    "logloss_market": 0.6863,
+    "weights": {
+      "injuries": 0.674,
+      "recent_form": 0.855
+    },
+    "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 267,
-      "model_logloss": 0.6919,
-      "market_logloss": 0.6881,
+      "n": 551,
+      "model_logloss": 0.6841,
+      "market_logloss": 0.6823,
       "beats_market": false,
-      "picked_n": 20,
-      "picked_hit": 0.3,
-      "picked_expected": 0.508
+      "picked_n": 40,
+      "picked_hit": 0.4,
+      "picked_expected": 0.434
     }
   }
 }

@@ -1,14 +1,18 @@
 {
   "projection": 1.1,
-  "recent_form": 0.95,
-  "season": 0.6,
-  "matchup": 0.45,
+  "recent_form": 1.0,
+  "season": 0.55,
+  "matchup": 0.5,
   "home_away": 0.5,
   "rest_travel": 0.55,
-  "weather": 0.6,
+  "weather": 0.65,
   "injuries": 0.7,
-  "coaching": 0.45,
+  "coaching": 0.5,
   "postseason": 0.35,
   "news": 0.45,
-  "line_move": 0.55
+  "line_move": 0.55,
+  "line_movement": 0.55,
+  "experts": 0.4,
+  "home": 0.45,
+  "trend": 0.45
 }
