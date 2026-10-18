@@ -1,0 +1,258 @@
+{
+ "401856720": {
+  "away": "MSST",
+  "away_name": "Mississippi State Bulldogs",
+  "date": "2026-10-17",
+  "home": "LSU",
+  "home_name": "LSU Tigers",
+  "league": "NCAAF"
+ },
+ "401856721": {
+  "away": "MIZ",
+  "away_name": "Missouri Tigers",
+  "date": "2026-10-17",
+  "home": "MISS",
+  "home_name": "Ole Miss Rebels",
+  "league": "NCAAF"
+ },
+ "401856722": {
+  "away": "UK",
+  "away_name": "Kentucky Wildcats",
+  "date": "2026-10-17",
+  "home": "OU",
+  "home_name": "Oklahoma Sooners",
+  "league": "NCAAF"
+ },
+ "401856723": {
+  "away": "ALA",
+  "away_name": "Alabama Crimson Tide",
+  "date": "2026-10-17",
+  "home": "TENN",
+  "home_name": "Tennessee Volunteers",
+  "league": "NCAAF"
+ },
+ "401856724": {
+  "away": "FLA",
+  "away_name": "Florida Gators",
+  "date": "2026-10-17",
+  "home": "TEX",
+  "home_name": "Texas Longhorns",
+  "league": "NCAAF"
+ },
+ "401856809": {
+  "away": "ND",
+  "away_name": "Notre Dame Fighting Irish",
+  "date": "2026-10-17",
+  "home": "BYU",
+  "home_name": "BYU Cougars",
+  "league": "NCAAF"
+ },
+ "401858268": {
+  "away": "UVA",
+  "away_name": "Virginia Cavaliers",
+  "date": "2026-10-17",
+  "home": "SMU",
+  "home_name": "SMU Mustangs",
+  "league": "NCAAF"
+ },
+ "401858488": {
+  "away": "OSU",
+  "away_name": "Ohio State Buckeyes",
+  "date": "2026-10-17",
+  "home": "IU",
+  "home_name": "Indiana Hoosiers",
+  "league": "NCAAF"
+ },
+ "401858492": {
+  "away": "NEB",
+  "away_name": "Nebraska Cornhuskers",
+  "date": "2026-10-17",
+  "home": "ORE",
+  "home_name": "Oregon Ducks",
+  "league": "NCAAF"
+ },
+ "401858494": {
+  "away": "WIS",
+  "away_name": "Wisconsin Badgers",
+  "date": "2026-10-17",
+  "home": "UCLA",
+  "home_name": "UCLA Bruins",
+  "league": "NCAAF"
+ },
+ "401862800": {
+  "away": "ECU",
+  "away_name": "East Carolina Pirates",
+  "date": "2026-10-15",
+  "home": "UAB",
+  "home_name": "UAB Blazers",
+  "league": "NCAAF"
+ },
+ "401872995": {
+  "away": "SEA",
+  "away_name": "Seattle Seahawks",
+  "date": "2026-10-15",
+  "home": "DEN",
+  "home_name": "Denver Broncos",
+  "league": "NFL"
+ },
+ "401872996": {
+  "away": "HOU",
+  "away_name": "Houston Texans",
+  "date": "2026-10-18",
+  "home": "JAX",
+  "home_name": "Jacksonville Jaguars",
+  "league": "NFL"
+ },
+ "401872997": {
+  "away": "BAL",
+  "away_name": "Baltimore Ravens",
+  "date": "2026-10-18",
+  "home": "CLE",
+  "home_name": "Cleveland Browns",
+  "league": "NFL"
+ },
+ "401872998": {
+  "away": "CAR",
+  "away_name": "Carolina Panthers",
+  "date": "2026-10-18",
+  "home": "PHI",
+  "home_name": "Philadelphia Eagles",
+  "league": "NFL"
+ },
+ "401872999": {
+  "away": "CHI",
+  "away_name": "Chicago Bears",
+  "date": "2026-10-18",
+  "home": "ATL",
+  "home_name": "Atlanta Falcons",
+  "league": "NFL"
+ },
+ "401873000": {
+  "away": "NO",
+  "away_name": "New Orleans Saints",
+  "date": "2026-10-18",
+  "home": "NYG",
+  "home_name": "New York Giants",
+  "league": "NFL"
+ },
+ "401873001": {
+  "away": "NYJ",
+  "away_name": "New York Jets",
+  "date": "2026-10-18",
+  "home": "NE",
+  "home_name": "New England Patriots",
+  "league": "NFL"
+ },
+ "401873002": {
+  "away": "PIT",
+  "away_name": "Pittsburgh Steelers",
+  "date": "2026-10-18",
+  "home": "TB",
+  "home_name": "Tampa Bay Buccaneers",
+  "league": "NFL"
+ },
+ "401873003": {
+  "away": "TEN",
+  "away_name": "Tennessee Titans",
+  "date": "2026-10-18",
+  "home": "IND",
+  "home_name": "Indianapolis Colts",
+  "league": "NFL"
+ },
+ "401873004": {
+  "away": "ARI",
+  "away_name": "Arizona Cardinals",
+  "date": "2026-10-18",
+  "home": "LAR",
+  "home_name": "Los Angeles Rams",
+  "league": "NFL"
+ },
+ "401873005": {
+  "away": "BUF",
+  "away_name": "Buffalo Bills",
+  "date": "2026-10-18",
+  "home": "LV",
+  "home_name": "Las Vegas Raiders",
+  "league": "NFL"
+ },
+ "401873006": {
+  "away": "LAC",
+  "away_name": "Los Angeles Chargers",
+  "date": "2026-10-18",
+  "home": "KC",
+  "home_name": "Kansas City Chiefs",
+  "league": "NFL"
+ },
+ "401873007": {
+  "away": "DAL",
+  "away_name": "Dallas Cowboys",
+  "date": "2026-10-18",
+  "home": "GB",
+  "home_name": "Green Bay Packers",
+  "league": "NFL"
+ },
+ "401873008": {
+  "away": "WSH",
+  "away_name": "Washington Commanders",
+  "date": "2026-10-19",
+  "home": "SF",
+  "home_name": "San Francisco 49ers",
+  "league": "NFL"
+ },
+ "401908025": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-15",
+  "home": "CLE",
+  "home_name": "Cleveland Guardians",
+  "league": "MLB"
+ },
+ "401908026": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-16",
+  "home": "CLE",
+  "home_name": "Cleveland Guardians",
+  "league": "MLB"
+ },
+ "401908027": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-17",
+  "home": "CLE",
+  "home_name": "Cleveland Guardians",
+  "league": "MLB"
+ },
+ "401908028": {
+  "away": "CLE",
+  "away_name": "Cleveland Guardians",
+  "date": "2026-10-19",
+  "home": "TB",
+  "home_name": "Tampa Bay Rays",
+  "league": "MLB"
+ },
+ "401908032": {
+  "away": "MIL",
+  "away_name": "Milwaukee Brewers",
+  "date": "2026-10-14",
+  "home": "LAD",
+  "home_name": "Los Angeles Dodgers",
+  "league": "MLB"
+ },
+ "401908033": {
+  "away": "MIL",
+  "away_name": "Milwaukee Brewers",
+  "date": "2026-10-15",
+  "home": "LAD",
+  "home_name": "Los Angeles Dodgers",
+  "league": "MLB"
+ },
+ "401930515": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-18",
+  "home": "CLE",
+  "home_name": "Cleveland Guardians",
+  "league": "MLB"
+ }
+}

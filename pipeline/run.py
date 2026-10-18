@@ -14,7 +14,7 @@ import sys
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from . import analyze, builder, candidates, config, grade, learn, ledger, sources, sync, teams
+from . import analyze, builder, candidates, config, grade, learn, ledger, sources, sync, team_notes, teams
 
 
 def today() -> str:
@@ -53,6 +53,10 @@ def scan(date: str, only_ids: set | None = None) -> tuple[list[dict], list[str]]
         except sources.SourceError as e:
             problems.append(f"{league} schedule: {e}")
             continue
+        try:
+            team_notes.record(games, league)
+        except Exception as e:  # notes must never block picks
+            problems.append(f"{league} team notes: {e}")
         if only_ids is not None:
             games = [g for g in games if g["id"] in only_ids]
         if not games:
@@ -415,6 +419,10 @@ def export():
             "teams": teams.load_teams(), "filters": teams.load_filters(remote=False),
             "settings": sync.load_settings(), "placed_events": sync.load_placed_events()}
     data["logos"] = logos(bets)
+    try:
+        log(f"team notes: {team_notes.build()} teams")
+    except Exception as e:  # notes must never block the export
+        log(f"team notes failed: {e}")
     blob = json.dumps(data, ensure_ascii=False)
     (config.APP_DIR / "data.json").write_text(blob)
     index = config.APP_DIR / "index.html"
