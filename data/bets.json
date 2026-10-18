@@ -2322,7 +2322,8 @@
           "status": "active, no injury designation",
           "alt": null,
           "main_line": null,
-          "result": "unknown"
+          "result": "push",
+          "void_reason": "did not play (no snaps); books void the prop"
         },
         {
           "desc": "New York Giants +1.5",
@@ -2472,13 +2473,17 @@
           "note": "Opposing tight ends have topped 71 yards against Tampa every game, and Pittsburgh is missing two receivers.",
           "status": "active",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "PIT 26, TB 19",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-PITTB-safer",
@@ -2531,7 +2536,8 @@
           "note": "Two models project 40 points, Pittsburgh has scored 29.3 a game since Week 3, and the total has dropped below that.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "P. Freiermuth o35.5 rec yds",
@@ -2558,13 +2564,17 @@
           "note": "Opposing tight ends have topped 71 yards against Tampa every game, and Pittsburgh is missing two receivers.",
           "status": "active",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -7.5,
       "stake": 7.5,
-      "to_win": 19.8
+      "to_win": 19.8,
+      "final": "PIT 26, TB 19",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-TENIND-straight",
@@ -3031,11 +3041,12 @@
           "matchup": "NO @ NYG",
           "start": "2026-10-18T17:00Z",
           "date": "2026-10-18",
-          "result": "unknown"
+          "result": "push",
+          "void_reason": "did not play (no snaps); books void the prop"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "push",
+      "net": 0.0,
       "stake": 18.0,
       "to_win": 16.51
     },
@@ -3082,7 +3093,8 @@
           "league": "NFL",
           "matchup": "PIT @ TB",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         },
         {
           "desc": "C. Stroud o251.5 pass yds",
@@ -3117,10 +3129,11 @@
           "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 19.5,
       "stake": 7.5,
-      "to_win": 19.5
+      "to_win": 19.5,
+      "final": "PIT 26-19 TB"
     },
     {
       "id": "2026-10-18-TRAD-best",
