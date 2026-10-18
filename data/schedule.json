@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T08:01-04:00",
+ "generated": "2026-10-18T08:08-04:00",
  "games": [
   {
    "id": "401874771",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "venue": "Stadio Friuli",
    "city": "Udine",
-   "detail": "71'",
+   "detail": "77'",
    "away_score": 2.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "venue": "El Sadar",
    "city": "Pamplona",
-   "detail": "1'",
+   "detail": "8'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -115,7 +115,7 @@
    "away_conf": null,
    "odds": {
     "spread": "BHA -225",
-    "total": 2.5,
+    "total": 3.5,
     "home_ml": -225,
     "away_ml": 600,
     "book": "DraftKings"
@@ -174,10 +174,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "COMO +105",
+    "spread": "COMO +110",
     "total": 2.5,
-    "home_ml": 230,
-    "away_ml": 105,
+    "home_ml": 215,
+    "away_ml": 110,
     "book": "DraftKings"
    }
   },
@@ -596,8 +596,8 @@
    "odds": {
     "spread": "IND -6.5",
     "total": 44.5,
-    "home_ml": -310,
-    "away_ml": 250,
+    "home_ml": -305,
+    "away_ml": 245,
     "book": "DraftKings"
    }
   },
@@ -6578,5 +6578,7 @@
    }
   }
  ],
- "problems": []
+ "problems": [
+  "SOCCER 2026-10-22: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }
