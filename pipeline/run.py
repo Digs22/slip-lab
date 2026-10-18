@@ -208,7 +208,7 @@ def daily(date: str | None = None, only_ids: set | None = None):
             pr.append(f"candidates: {e}")
         # Picks already posted from full multi-book lines are kept: rebuilding them on ESPN-only lines
         # replaced good picks on 2026-10-17. A date with no picks yet is built from the public lines.
-        if d in FROZEN and any(b.get("date") == d and b["status"] == "pending" and b.get("kind") == "sgp" for b in bets):
+        if d in FROZEN and not only_ids and any(b.get("date") == d and b["status"] == "pending" and b.get("kind") == "sgp" for b in bets):
             scored += sc; problems += [f"{d}: {m}" for m in pr]
             continue
         pk = builder.pick_top_games(sc, config.GAMES_PER_DAY)
