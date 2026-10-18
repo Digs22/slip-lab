@@ -2748,13 +2748,17 @@
           "note": "The under is 4-1 in Jaguars games, JAX allows about 13 ppg, and mid-game rain is forecast.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "HOU 34, JAX 31",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-ARILAR-straight",
@@ -3083,7 +3087,8 @@
           "league": "NFL",
           "matchup": "HOU @ JAX",
           "start": "2026-10-18T13:30Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         }
       ],
       "status": "pending",
