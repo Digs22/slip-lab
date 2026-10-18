@@ -29,15 +29,15 @@
     {
       "split": "play",
       "name": "straight",
-      "roi": 41.4,
-      "n": 20,
+      "roi": 44.1,
+      "n": 21,
       "action": "Working: keep full stake"
     },
     {
       "split": "market",
       "name": "mixed",
-      "roi": -100.0,
-      "n": 9,
+      "roi": -60.0,
+      "n": 10,
       "action": "Cut stake in half until ROI recovers"
     },
     {
@@ -57,8 +57,8 @@
     {
       "split": "league",
       "name": "NCAAF",
-      "roi": 54.1,
-      "n": 10,
+      "roi": 57.8,
+      "n": 11,
       "action": "Working: keep full stake"
     }
   ],
@@ -68,29 +68,29 @@
     "variance": 1
   },
   "weights": {
-    "projection": 1.15,
-    "recent_form": 1.2,
-    "season": 0.45,
-    "matchup": 0.9,
+    "projection": 1.2,
+    "recent_form": 1.25,
+    "season": 0.55,
+    "matchup": 1.0,
     "home_away": 0.5,
     "rest_travel": 0.55,
-    "weather": 0.75,
-    "injuries": 1.0,
-    "coaching": 0.5,
+    "weather": 0.8,
+    "injuries": 1.05,
+    "coaching": 0.45,
     "postseason": 0.35,
     "news": 0.45,
     "line_move": 0.55,
-    "line_movement": 0.55,
-    "experts": 0.75,
-    "home": 0.5,
+    "line_movement": 0.6,
+    "experts": 0.65,
+    "home": 0.45,
     "trend": 0.45,
     "models": 0.5,
     "history": 0.75,
-    "market": 0.65,
+    "market": 0.6,
     "situational": 0.6
   },
   "retrain": {
-    "n": 1117,
+    "n": 1234,
     "accepted": false,
     "factors": [
       "injuries",
@@ -98,25 +98,25 @@
       "recent_form",
       "season"
     ],
-    "held_out": 336,
-    "logloss_new": 0.6696,
-    "logloss_current": 0.6696,
-    "logloss_market": 0.6687,
+    "held_out": 371,
+    "logloss_new": 0.6742,
+    "logloss_current": 0.6742,
+    "logloss_market": 0.6723,
     "weights": {
-      "injuries": 1.001,
-      "matchup": 0.879,
-      "recent_form": 1.186,
-      "season": 0.439
+      "injuries": 1.05,
+      "matchup": 0.981,
+      "recent_form": 1.246,
+      "season": 0.534
     },
     "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 1117,
-      "model_logloss": 0.6842,
-      "market_logloss": 0.6839,
+      "n": 1234,
+      "model_logloss": 0.6829,
+      "market_logloss": 0.6825,
       "beats_market": false,
-      "picked_n": 68,
-      "picked_hit": 0.397,
-      "picked_expected": 0.438
+      "picked_n": 74,
+      "picked_hit": 0.405,
+      "picked_expected": 0.442
     }
   }
 }

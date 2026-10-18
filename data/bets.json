@@ -1477,13 +1477,15 @@
           "note": "With a first-time starter at quarterback for Oregon, 7 points looks generous and a low-scoring game helps Nebraska.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.82,
       "stake": 18.0,
-      "to_win": 16.82
+      "to_win": 16.82,
+      "final": "NEB 14, ORE 17"
     },
     {
       "id": "2026-10-17-MSSTLSU-straight",
@@ -2068,13 +2070,15 @@
           "league": "NCAAF",
           "matchup": "NEB @ ORE",
           "start": "2026-10-18T03:00Z",
-          "date": "2026-10-17"
+          "date": "2026-10-17",
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.4,
       "stake": 3.0,
-      "to_win": 17.4
+      "to_win": 17.4,
+      "final": "NEB 14-17 ORE"
     },
     {
       "id": "2026-10-17-POTD-MLB",
