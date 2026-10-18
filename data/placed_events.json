@@ -82,5 +82,12 @@
   "at": "2026-10-17T21:04:55.727Z",
   "units": 6,
   "unit": 2
+ },
+ "2026-10-17-TBCLE-straight": {
+  "id": "2026-10-17-TBCLE-straight",
+  "on": true,
+  "at": "2026-10-18T02:54:23.369Z",
+  "units": 6,
+  "unit": 2
  }
 }
