@@ -251,8 +251,9 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
         sig |= injury_signals(game, leg, injuries)
         if leg["market"] == "prop":
             sig |= projection_signal(game, leg)
-        sig |= overrides.get(leg["desc"], {}).get("signals", {})
-        sig |= leg.get("signals", {})
+        s = overrides.get(leg["desc"], {}).get("signals", {})
+        if isinstance(s, dict): sig |= s
+        if isinstance(leg.get("signals"), dict): sig |= leg["signals"]
         p = model_prob(leg["fair"], sig, weights)
         ov = overrides.get(leg["desc"], {})
         leg = leg | {"game": game["id"], "signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),

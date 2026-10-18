@@ -43,9 +43,44 @@
  },
  "2026-10-17-ALATENN-straight": {
   "id": "2026-10-17-ALATENN-straight",
+  "on": true,
+  "at": "2026-10-17T21:04:44.063Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-17-POTD-NCAAF": {
+  "id": "2026-10-17-POTD-NCAAF",
+  "on": true,
+  "at": "2026-10-17T21:04:33.939Z",
+  "units": 4,
+  "unit": 2
+ },
+ "2026-10-17-NEBORE-straight": {
+  "id": "2026-10-17-NEBORE-straight",
+  "on": true,
+  "at": "2026-10-17T21:04:41.017Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-17-WISUCLA-straight": {
+  "id": "2026-10-17-WISUCLA-straight",
+  "on": true,
+  "at": "2026-10-17T21:04:42.241Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-17-MIZMISS-straight": {
+  "id": "2026-10-17-MIZMISS-straight",
   "on": false,
-  "at": "2026-10-17T13:12:43.810Z",
+  "at": "2026-10-17T21:04:50.034Z",
   "units": null,
   "unit": null
+ },
+ "2026-10-17-UKOU-straight": {
+  "id": "2026-10-17-UKOU-straight",
+  "on": true,
+  "at": "2026-10-17T21:04:55.727Z",
+  "units": 6,
+  "unit": 2
  }
 }

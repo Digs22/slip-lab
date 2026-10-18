@@ -1,132 +1,36 @@
 {
   "date": "2026-10-17",
-  "generated": "2026-10-17T09:03-04:00",
-  "games_scanned": 12,
+  "generated": "2026-10-17T22:51-04:00",
+  "games_scanned": 14,
   "problems": [
-    "2026-10-17: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
     "2026-10-17: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized",
-    "2026-10-18: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized"
+    "2026-10-18: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
+    "2026-10-18: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [
     {
-      "id": "401908027",
-      "league": "MLB",
-      "game": "TB @ CLE",
-      "start": "2026-10-18T00:00Z",
-      "venue": "Progressive Field",
-      "city": "Cleveland, Ohio",
-      "score": 0.0202,
+      "id": "401873006",
+      "league": "NFL",
+      "game": "LAC @ KC",
+      "start": "2026-10-18T20:25Z",
+      "venue": "Arrowhead Stadium",
+      "city": "Kansas City, MO",
+      "score": 0.0179,
       "edges": 1,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png"
     },
     {
-      "id": "401858488",
-      "league": "NCAAF",
-      "game": "OSU @ IU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Memorial Stadium (Bloomington, IN)",
-      "city": "Bloomington, IN",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
-    },
-    {
-      "id": "401856724",
-      "league": "NCAAF",
-      "game": "FLA @ TEX",
-      "start": "2026-10-17T16:00Z",
-      "venue": "DKR-Texas Memorial Stadium",
-      "city": "Austin, TX",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png"
-    },
-    {
-      "id": "401856720",
-      "league": "NCAAF",
-      "game": "MSST @ LSU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Tiger Stadium (LA)",
-      "city": "Baton Rouge, LA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png"
-    },
-    {
-      "id": "401858268",
-      "league": "NCAAF",
-      "game": "UVA @ SMU",
-      "start": "2026-10-17T16:00Z",
-      "venue": "Gerald J. Ford Stadium",
-      "city": "Dallas, TX",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
-    },
-    {
-      "id": "401856723",
-      "league": "NCAAF",
-      "game": "ALA @ TENN",
-      "start": "2026-10-17T19:30Z",
-      "venue": "Neyland Stadium",
-      "city": "Knoxville, TN",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
-    },
-    {
-      "id": "401856721",
-      "league": "NCAAF",
-      "game": "MIZ @ MISS",
-      "start": "2026-10-17T19:30Z",
-      "venue": "Vaught-Hemingway Stadium",
-      "city": "Oxford, MS",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
-    },
-    {
-      "id": "401856809",
-      "league": "NCAAF",
-      "game": "ND @ BYU",
-      "start": "2026-10-17T23:30Z",
-      "venue": "LaVell Edwards Stadium",
-      "city": "Provo, UT",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
-    },
-    {
-      "id": "401858494",
-      "league": "NCAAF",
-      "game": "WIS @ UCLA",
-      "start": "2026-10-17T23:30Z",
-      "venue": "Rose Bowl",
-      "city": "Pasadena, CA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png"
-    },
-    {
-      "id": "401856722",
-      "league": "NCAAF",
-      "game": "UK @ OU",
-      "start": "2026-10-17T23:30Z",
-      "venue": "Memorial Stadium (Norman, OK)",
-      "city": "Norman, OK",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
+      "id": "401873005",
+      "league": "NFL",
+      "game": "BUF @ LV",
+      "start": "2026-10-18T20:25Z",
+      "venue": "Allegiant Stadium",
+      "city": "Las Vegas, NV",
+      "score": 0.0153,
+      "edges": 1,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png"
     },
     {
       "id": "401858492",
@@ -135,8 +39,8 @@
       "start": "2026-10-18T03:00Z",
       "venue": "Autzen Stadium",
       "city": "Eugene, OR",
-      "score": 0,
-      "edges": 0,
+      "score": 0.0119,
+      "edges": 1,
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
     },
@@ -151,7 +55,128 @@
       "edges": 0,
       "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png"
+    },
+    {
+      "id": "401872999",
+      "league": "NFL",
+      "game": "CHI @ ATL",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta, GA",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+    },
+    {
+      "id": "401873001",
+      "league": "NFL",
+      "game": "NYJ @ NE",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Gillette Stadium",
+      "city": "Foxborough, MA",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+    },
+    {
+      "id": "401873007",
+      "league": "NFL",
+      "game": "DAL @ GB",
+      "start": "2026-10-19T00:20Z",
+      "venue": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "score": 0,
+      "edges": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png"
     }
   ],
-  "games": []
+  "games": [
+    {
+      "id": "401873000",
+      "league": "NFL",
+      "game": "NO @ NYG",
+      "start": "2026-10-18T17:00Z",
+      "venue": "MetLife Stadium",
+      "provisional": true,
+      "score": 0.1047,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+      "summary": "Saints (1-4) are without LT Banks, RB Etienne and LBs Elliss and Jennings and rank 30th against the run; the healthier Giants are 4-1 ATS. Most likely to win: New York Giants +1.5."
+    },
+    {
+      "id": "401872998",
+      "league": "NFL",
+      "game": "CAR @ PHI",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Lincoln Financial Field",
+      "provisional": true,
+      "score": 0.0659,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+      "summary": "With Hurts and Barkley out, McKee leads an Eagles offense that ranks 31st in yards and 28th in scoring, against a rested Carolina team. Most likely to win: Carolina Panthers ML."
+    },
+    {
+      "id": "401873002",
+      "league": "NFL",
+      "game": "PIT @ TB",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Raymond James Stadium",
+      "provisional": true,
+      "score": 0.055,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+      "summary": "Rookie Jalon Daniels starts for Tampa Bay with Mayfield out, and Pittsburgh is a 2.5-point road favorite. The single leg most likely to win is the Pittsburgh Steelers ML."
+    },
+    {
+      "id": "401873003",
+      "league": "NFL",
+      "game": "TEN @ IND",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Lucas Oil Stadium",
+      "provisional": true,
+      "score": 0.0493,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+      "summary": "Winless Titans (11.6 points a game; all five games under 44.5) visit the 2-3 Colts, who have the league's worst pass rush; Colts -6.5. Most likely to win: Indianapolis Colts ML."
+    },
+    {
+      "id": "401872996",
+      "league": "NFL",
+      "game": "HOU @ JAX",
+      "start": "2026-10-18T13:30Z",
+      "venue": "Wembley Stadium",
+      "provisional": true,
+      "score": 0.0477,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+      "summary": "Jaguars (4-1, stayed in London) play 1-4 Texans, who are missing Montgomery, Dell and Pitre while JAX is missing LT Harrison; the line moved from JAX -3 to -2.5. Most likely to win: Jacksonville Jaguars ML; strongest edge: Houston Texans +2.5."
+    },
+    {
+      "id": "401873004",
+      "league": "NFL",
+      "game": "ARI @ LAR",
+      "start": "2026-10-18T20:05Z",
+      "venue": "SoFi Stadium",
+      "provisional": true,
+      "score": 0.0454,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+      "summary": "Arizona (1-4) is without RB Love, LT Paris Johnson, two starting guards and three safeties; the total rose 46.5 to 51.5. Rams ML is most likely to win; the Over is the best edge."
+    },
+    {
+      "id": "401872997",
+      "league": "NFL",
+      "game": "BAL @ CLE",
+      "start": "2026-10-18T17:00Z",
+      "venue": "Huntington Bank Field",
+      "provisional": true,
+      "score": 0.0293,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+      "summary": "Lamar Jackson is out, so Tyler Huntley (8-9 career starter) faces a Browns offense that is last in success rate; sharp money hit the Under and Cleveland. Most likely to win: Baltimore Ravens ML."
+    }
+  ]
 }

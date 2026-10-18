@@ -74,6 +74,7 @@ def box_stats(game: dict) -> dict:
                     row["strikeouts"] = pit.get("strikeOuts")
                     row["outs"] = pit.get("outs")
                     row["pitcher_outs"] = pit.get("outs")  # analyst files use this stat name
+                    row["hits_allowed"] = pit.get("hits")
                 out[p["person"]["fullName"]] = row
         return out
     summary = sources.espn_summary(game)

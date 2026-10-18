@@ -1,0 +1,115 @@
+{
+ "summary": "Sharp money backs Green Bay (62% of handle on 35% of bets) against a Dallas pass defense that ranks last in EPA, and Josh Jacobs is out. Most likely to win: Green Bay Packers ML.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Over 53.5",
+   "signals": {
+    "dal_pass_defense_last_in_epa": 0.56,
+    "gb_dt_depth_thin_hargrave_out": 0.53,
+    "total_moved_50_5_to_53_5": 0.46,
+    "wind_gusts_22_27mph": 0.47,
+    "gb_pass_defense_5th_in_yards": 0.47,
+    "expert_split_mostly_over": 0.52
+   },
+   "note": "Two top-five passers face shaky defenses, but the 3-point move to 53.5 and gusty wind cap the edge."
+  }
+ ],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Green Bay Packers ML",
+   "team": "GB",
+   "side": null,
+   "line": null,
+   "odds": -118,
+   "book": "FanDuel",
+   "fair": 0.53,
+   "books": 5,
+   "signals": {
+    "love_vs_worst_epa_pass_defense": 0.57,
+    "sharp_handle_62pct_on_gb": 0.56,
+    "home_lambeau_primetime": 0.53,
+    "gb_pressure_42pct_vs_dak": 0.54,
+    "espn_fpi_dal_by_0_6": 0.47,
+    "dal_cb_durant_out_jpj_questionable": 0.55,
+    "jacobs_exempt_list_out": 0.47,
+    "dal_extra_rest_10_days": 0.48
+   },
+   "note": "Sharp money and the matchup both favor Love at home against the league's worst pass defense."
+  },
+  {
+   "market": "spread",
+   "desc": "Green Bay Packers -1.5",
+   "team": "GB",
+   "side": null,
+   "line": -1.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.495,
+   "books": 4,
+   "signals": {
+    "love_vs_worst_epa_pass_defense": 0.56,
+    "sharp_handle_62pct_on_gb": 0.55,
+    "gb_pressure_42pct_vs_dak": 0.53,
+    "espn_fpi_dal_by_0_6": 0.46,
+    "dal_run_game_29th": 0.54,
+    "jacobs_exempt_list_out": 0.47
+   },
+   "note": "Cheap -102 price with sharp handle on GB; a Packers win almost always covers 1.5."
+  },
+  {
+   "market": "prop",
+   "desc": "J. Love o272.5 pass yds",
+   "player": "Jordan Love",
+   "team": "GB",
+   "stat": "pass_yds",
+   "side": "over",
+   "line": 272.5,
+   "odds": -111,
+   "book": "DraftKings",
+   "fair": 0.498,
+   "books": 4,
+   "status": "active (no injury designation)",
+   "projection": {
+    "mu": 282,
+    "sd": 70
+   },
+   "signals": {
+    "dal_epa_per_dropback_32nd": 0.57,
+    "jacobs_out_pass_heavier_script": 0.54,
+    "over_300_in_3_of_5": 0.55,
+    "wind_gusts_deep_ball": 0.46,
+    "dal_227_pass_ypg_allowed_21st": 0.48
+   },
+   "note": "Love averages 282 yards and gets the worst EPA pass defense without Jacobs to lean on."
+  },
+  {
+   "market": "prop",
+   "desc": "C. Lamb o80.5 rec yds",
+   "player": "CeeDee Lamb",
+   "team": "DAL",
+   "stat": "rec_yds",
+   "side": "over",
+   "line": 80.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 4,
+   "status": "active (full practice Friday, no designation)",
+   "projection": {
+    "mu": 92,
+    "sd": 35
+   },
+   "signals": {
+    "season_101_ypg_50_targets": 0.56,
+    "shootout_script_total_53_5": 0.54,
+    "gb_cb_st_juste_out": 0.53,
+    "gb_pass_defense_5th_in_yards": 0.46,
+    "wk5_2_for_9_after_thigh_knock": 0.48
+   },
+   "note": "Lamb averages 101 yards a game and Dallas should be throwing a lot in a projected shootout."
+  }
+ ],
+ "research": "Two passes, 29 searches in total (13 in pass 1, 16 in pass 2). WebFetch DNS failed, so everything comes from search snippets. Not found: official Sunday inactives and any posted GB/DAL team-total price (only FantasyLife implied totals, GB 27.25 / DAL 25.75), so no team-total leg.\n1. QBs/personnel: Jordan Love: 60.5%, 1,408 yds (281.6/g, 3rd), 10 TD, 3 INT, 95.5 rating, outside the top 15 in EPA/play, 300+ yds in 3 of 5, over his yds prop in 3 of 5. Week 5 vs CHI: 25/31, 367 yds, 2 TD. Against DAL: 272 (2024 WC) and 337 (Sep 2025). Dak Prescott: 1,381 yds, 9 TD, 3 INT, 300+ in each of his last 2 games; Week 5 vs TB: 24/42, 316 yds, 1 TD, 2 INT. CeeDee Lamb: 39 rec, 507 yds (101.4/g), 4 TD on 50 targets; 17-189 in Week 4 at HOU, 2-9 in Week 5 after a thigh knock. George Pickens: 27-355 (71/g), 1 TD. Josh Jacobs (GB) is on the Commissioner's Exempt List and cannot play; LaFleur has no update (Bolavip). MarShawn Lloyd leads the backfield. Savion Williams was activated from IR Saturday (Fox11, CBS).\n2. Injuries: GB OUT: Ford, Hargrave (IR, Achilles), Skyy Moore (IR), CB St-Juste. Riley doubtful. Questionable: G Aaron Banks (missed 3 straight), Campbell, CB Cisse, Monk, Savion Williams. Nixon is cleared. GB has 4 of 7 DTs. DAL OUT: CB Durant, OT Drew Shelton. Questionable: CB Joey Porter Jr. (ankle; full Thursday, downgraded after a limited Friday; Werder reports a practice setback; Parker says his role will be 'heavily increased'; Stephen Jones says he's 'all in'), Overshown (long shot), Overton, Speed. Lamb was full Friday with no designation. Sunday inactives were not posted when I searched.\n3. Advanced stats: DAL defense allows 0.36 EPA/dropback (32nd, SumerSports via Acme), is last in EPA/pass play (PFF via Yahoo), gives up a 120.5 opponent passer rating, and has only 5 sacks (29th). It ranks 21st in pass yds allowed (227/g) and 25th in pass TDs allowed. GB offense: 0.09 EPA/play (7th), 0.16 EPA/dropback. GB defense: about -0.01 to -0.04 EPA/play (11th-17th depending on tracker), 5th in pass yds allowed (181/g), 24th vs the run (127.6/g), 42.2% pressure rate (5th), 3 INTs in Week 5 (Fox, Acme, KingFish). DAL rushing: 81.6/g (29th).\n4. Matchup: GB's passing game vs a depleted DAL secondary is the biggest mismatch. Dak faces heavy pressure, but GB's interior DL is thin. Dallas cannot exploit GB's weak run defense because its run game is 29th. With Jacobs out, GB should be more pass-heavy.\n5. Coaching: Schottenheimer (DAL) is under fire after losing 24-16 to a 0-4 TB team starting an undrafted rookie QB. DC Christian Parker stays on the sideline. GB is on a 2-game win streak, including 31-7 over CHI. VSiN's Makinen says all the SNF qualifying angles point to GB.\n6. Situational: DAL has 10 days of rest after TNF. GB is 3-2 at home in primetime. Not a divisional game.\n7. History: GB won the 2024 wild-card game at Dallas 48-32. Week 4 2025 at AT&T Stadium was a 40-40 tie (Love 337 yds).\n8. Weather (FootballDB, Fantasy Alarm, Covers, Fox11, Sharp): clear, 0% precip, 50-57F at kickoff falling into the high 40s/low 50s. SSW wind 8-13 mph with gusts of 22-27 mph, heaviest in the first half. Sharp rates the weather impact 3/5 (moderate), which slightly hurts deep passing and kicking.\n9. Experts/market: GB picks: Predictem GB -1.5; Lineups GB ML -115 and Over 53.5 (31-24); FanDuel GB -1.5 and Over 53.5; NFL.com Dan Parr GB 37-34; ESPN Moody GB 30-27 and Walder GB 37-24; CBS Dajani GB; The Big Lead GB 34-27; VSiN Makinen GB. DAL picks: NFL.com Kownack DAL 40-39; ESPN Maldonado DAL 30-28; SportsGambler DAL ML -102; Oddsshopper DAL +1.5; SportsBettingDime DAL ML and Under 53.5. Total: Over from Fantasy Alarm, BUSR, SportsLine model and Covers (lean, 'as high as I'd go'); Under from SBD. ESPN FPI: DAL by 0.6 (51.8%). Movement: look-ahead GB -3 / 51.5; opened DAL -1.5 / 50.5; now GB -1 to -1.5 / 52.5-53.5. Splits at DK (VSiN): GB has 35% of bets but 62% of handle (sharp side). Prices: GB ML -116 to -122 (FD -118/+100, DK -120/+100, CBS -120/+100); DK GB -1.5 -102 to -105, DAL +1.5 -118. Love pass yds: DK 272.5 o-111/u-113, DK 270.5 (Covers), FD 274.5, BetRivers 268.5; SportsGambler 274.5 -114/-114; Covers projects 281.6. Dak pass yds: 270.5-279.5 (BetMGM 273.5, CBS 279.5); SportsLine projects 268.8; Covers likes the over 275 (not added, since GB's pass defense is 5th in yds and pressures 42%). Lamb 80.5: DK -112, FD -114, BetMGM 81.5 o-115, BetRivers u-114. Pickens 71.5 at BetMGM -115/-115, Kalshi 70+ at 49c."
+}

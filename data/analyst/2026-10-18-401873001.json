@@ -1,0 +1,87 @@
+{
+ "summary": "Line dropped from Pats -9.5 to -7.5 with most experts on the Jets; New England starts a backup LT and is missing two CBs. Most likely to win: New York Jets +7.5.",
+ "lineups_confirmed": false,
+ "legs": [
+  {
+   "desc": "Under 43.5",
+   "signals": {
+    "jets_offense_weak_pass_game": 0.56,
+    "total_moved_down_44.5_to_43.5": 0.54,
+    "expert_models_under": 0.54,
+    "patriots_offense_hot_last_two": 0.45,
+    "weather_clear_light_wind": 0.49
+   },
+   "note": "The Jets' passing game has averaged just 120 net yards over the last two games, and their top-10 defense should keep this game low-scoring."
+  }
+ ],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "New York Jets +7.5",
+   "team": "New York Jets",
+   "side": null,
+   "line": 7.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.514,
+   "books": 5,
+   "signals": {
+    "line_move_9.5_to_7.5": 0.56,
+    "expert_consensus_jets_cover": 0.56,
+    "h2h_ne_2_8_ats_vs_nyj": 0.53,
+    "jets_pass_rush_vs_backup_lt": 0.56,
+    "ne_7_0_ats_home_fav": 0.45,
+    "maye_last_two_games_epa": 0.45,
+    "sportsline_model_ne_minus7": 0.46
+   },
+   "note": "The Jets' blitz-heavy defense, with eight sacks last week, gets a backup left tackle, and the +7.5 line sits above the key number of 7."
+  },
+  {
+   "market": "team_total",
+   "desc": "New England Patriots team total Under 26.5",
+   "team": "New England Patriots",
+   "side": "under",
+   "line": 26.5,
+   "odds": -120,
+   "book": "YouWager",
+   "fair": 0.522,
+   "books": 2,
+   "signals": {
+    "implied_total_25.5_below_line": 0.55,
+    "jets_defense_top10_epa": 0.55,
+    "ol_injuries_campbell_bryant": 0.54,
+    "maye_37ppg_last_two": 0.44,
+    "ne_run_game_vs_nyj_118_ypg_allowed": 0.47
+   },
+   "note": "The market implies New England scores about 25.5, and the Jets' pass rush should stall drives against a patched-up offensive line."
+  },
+  {
+   "market": "prop",
+   "desc": "G. Wilson o72.5 rec yds",
+   "player": "Garrett Wilson",
+   "team": "NYJ",
+   "stat": "rec_yds",
+   "side": "over",
+   "line": 72.5,
+   "odds": -114,
+   "book": "FanDuel",
+   "fair": 0.5,
+   "books": 2,
+   "status": "active (no injury designation)",
+   "projection": {
+    "mu": 77,
+    "sd": 28
+   },
+   "signals": {
+    "season_avg_74.8_ypg": 0.53,
+    "ne_cbs_davis_prunty_out": 0.56,
+    "target_share_mitchell_out": 0.55,
+    "trailing_game_script": 0.54,
+    "gonzalez_return_shadow": 0.46,
+    "ne_pass_def_6th_epa": 0.46
+   },
+   "note": "Wilson averages 75 yards a game, and New England is missing two cornerbacks while the Jets will likely be throwing from behind."
+  }
+ ],
+ "research": "NOTE: this game is Week 6 (not Week 7) of 2026. Jets 2-3 (3-2 ATS), snapped a 3-game skid 17-12 vs CLE; Patriots 3-2, back-to-back wins (at BUF, 45-17 vs LV), lead the AFC East by one game. CBS kickoff 1 PM ET at Gillette. 20 web searches; the search budget ran out before Patriots defensive EPA and Lomu searches.\n1. QBs/personnel: Geno Smith (NYJ, age 36, 2nd stint): 102/147 (69.4%), 1,084 yds (217/g), 6 TD, 0 INT, 104.2 rating, aDOT 6.78 (30th); led the NFL with 17 INT for LV in 2025; sacked 7 times in the last 2 games; 2-0 in his last two trips to Foxborough. Backup Cade Klubnik (rookie). Drake Maye (NE): Wk1-3 EPA/db -0.07 (28th), SR 46.8%, 7 TO, 12.0 ppg; Wk4-5 EPA/db +0.52 (1st), SR 58.7%, 2 TO, 37.0 ppg; Wk5 26/34, 374 yds, 4 TD, +0.74 EPA/db (NBC Sports Boston). Listed with a right shoulder injury but FP all week, no designation. Garrett Wilson 31-374-3 (11th in rec yds, ESPN open score 91, best among WRs); Wk5 7-104-1.\n2. Injuries (final Friday reports, patriots.com / newyorkjets.com / Pats Pulpit / Boston.com): NYJ OUT RB Breece Hall (quad; Braelon Allen leads), WR Adonai Mitchell (finger), EDGE Joseph Ossai (ankle), OL Dylan Parham (knee); Q: S Dane Belton (FP), WR Omar Cooper Jr. (FP, expected back), TE Kenyon Sadiq (concussion). NE OUT CB Carlton Davis III (neck), CB Karon Prunty (hamstring); Q: WR A.J. Brown (ankle; activated from IR Saturday, expected to play per Schefter), RB TreVeyon Henderson (ankle; trending toward playing), LT Will Campbell (knee; ESPN says rookie Caleb Lomu may make his first start), OT Marcus Bryant (ankle, not activated), LB Christian Elliss, CB Channing Canada, S Craig Woodson. RT Morgan Moses limited (foot), no designation. CB Christian Gonzalez has no designation. Official inactives were not found.\n3. Advanced: NYJ defense 10th in EPA (8th vs the run, -0.06 EPA/pass, 12th); Wk5 59.1% pressure rate (NFL best that week), 8 sacks, 24.6% success rate allowed, 18.2% sack rate (league high). Rookie EDGE David Bailey has 26 pressures (5th), 3 sacks and 9 pressures in Wk5. NE offense 37 ppg in the last 2 games. Implied totals (FanDuel): NE 25.5, NYJ 18.\n4. Scheme: Glenn blitzed 52.3% in Wk5 (TruMedia, his Jets-tenure high) and played 40.9% man; Athlon warns the blitz rate is a risk against Maye. NE's tackle injuries (Campbell, Bryant, Moses) are the key matchup against Bailey. Smith's short passing (aDOT 30th) blunts the NE rush; NE allows 118 rec yds/g to WRs and is down two CBs.\n5. Coaching: Mike Vrabel's NE is 7-0 ATS in its last 7 games as a home favorite (CBS). Aaron Glenn's Jets 3-2 ATS this season.\n6. Situational: divisional game, first meeting of the season, short travel; NE has won 2 straight, and SI asks whether this is a trap game.\n7. History: NE is 2-8 ATS in its last 10 vs NYJ (Fox Sports Radio NJ).\n8. Weather: Boston Globe (10/16): mostly sunny, mid-50s, wind under 10 mph; Rotowire 52F, 0% precipitation. Not a factor.\n9. Market/experts: opened NE -9.5 (VegasInsider), now -7.5 (DK NYJ +7.5 -115 / NE -7.5 -105; BetMGM -7 -112/+7 -105). ML NE -325 to -375, NYJ +260 to +300 (bet365 +275, DK +260). Total 44.5 down to 43.5 (43 at some books). Splits: 54% on Jets +7.5 (FSR NJ). Picks: Covers' Ed Scimia Jets +7.5 and Under; SI's Iain MacMillan Jets +7.5 (NE 30-17); SI's Peter Dewey NE; Matt Dolloff (98.5 Sports Hub) Jets +7.5, NE 20-16; Mike Reiss (ESPN) NE 20-13; Jeremy Bergman (NFL.com) NYJ 24-23; Fox/iHeart model NE 25-14, Under; BetMGM model NE 76.5% to win, Jets cover 66.3%; Squawka model NE 24-17; Kalshi Jets +7.5 at 53%. Props: Maye pass yds moved 233.5 to 236.5/239.5 (u239.5 -111); Wilson o72.5 -114 (FanDuel), o73.5 -114 (YouWager, projects 81); Wilson has gone over this number in 3 of 5 games, including the last 2. NE team total u26.5 -120 (YouWager).\nPASS 2 (11 more searches):\n2b. Inactives were not posted when I searched. LT Will Campbell (right knee, MCL-type, 'week-to-week' per 98.5/Pelissero) was limited, but Heavy reports he took full pads with the starters Thursday; if he sits, rookie Caleb Lomu, who played the final 43 snaps vs LV, starts. Henderson (high-ankle sprain) was limited but practiced all 3 days; Yahoo says to wait for the inactive list. If he sits, Stevenson is the workhorse.\n3b. NE defense (patriots.com): 16th in EPA overall, pass D 6th, run D 30th; muffed.ai has -0.01 def EPA/play (17th). Early-season pressure rate was 46-48% (2nd-4th) with an 8.5% sack rate; blitz rate 41% early, down to 22.5% in Wk5. Elijah Ponder had 2 sacks in Wk5. Another source says NE allows 90.8 rush ypg (6th fewest), which conflicts with the EPA rank. The NYJ D allows 195.4 gross passing ypg and 118 rush ypg.\n8b. A re-search found no newer forecast than the Boston Globe 10/16 (sunny, mid-50s, wind under 10 mph).\n9b. More picks: SportsLine model NE -7 (its strongest pick of the week); a SportsLine expert NE -7; Sportsbook Review best bet Jets +7.5 -115 DK and Under 43.5 (NE 23-16); Covers ATS Jets +6.5; Bleacher Report panel split; Sports Gambling Podcast split. Prices: Bookmaker NYJ +7.5 -118 / NE -7.5 -102 (opened -8); Fanatics NE -7 -110 / NYJ +7 -110; ML NE -340 to -360, NYJ +265 to +285; total 43.5-44. Openers disputed (-7.5 per FanDuel/Yahoo, -8 per Bookmaker, -9.5 per VegasInsider/Mile High). No sharp-money reports found.\nProps checked but NOT added (no edge, or no sportsbook price): Maye pass yds 233.5 to 236.5/238.5 (SI u239.5 -111; Dimers projects 236.8; season 245.6/g; Covers likes 225+): coin flip. Geno Smith pass yds: Kalshi only (225+ at 46.5c, 200+ at 63c); ScoresAndOdds 199.5 -137 is undated, so not used. Breece Hall is OUT, so he has no prop; Braelon Allen 70+ rush yds -104 (SI): 175 yds in the last 2 games, but the trailing script and conflicting NE run-D data make it a coin flip. Stevenson rush yds: FanDuel o66.5 -114 (down from 70.5), Mile High 62.5, DK-based 71.5; 227 yds on 57 att (45/g), 13-64 in Wk5; the line assumes Henderson sits, so I pass."
+}
