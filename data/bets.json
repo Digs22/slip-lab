@@ -2231,13 +2231,17 @@
           "note": "Most likely leg to win: the Saints' patched line faces a healthier Giants team that is 3-0 ATS at home.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.93
+      "to_win": 15.93,
+      "final": "NO 34, NYG 27",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-NONYG-best",
@@ -2289,7 +2293,9 @@
           "note": "Near a coin flip by price, while models such as Squawka (66%) and numberFire (53.7%) favor New York.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "C. Skattebo o58.5 rush yds",
@@ -2315,7 +2321,8 @@
           "note": "The Saints allow 148.8 rush ypg (30th) and are missing LB Elliss and edge Jennings.",
           "status": "active, no injury designation",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "unknown"
         },
         {
           "desc": "New York Giants +1.5",
@@ -2342,13 +2349,17 @@
           "note": "Most likely leg to win: the Saints' patched line faces a healthier Giants team that is 3-0 ATS at home.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 19.11
+      "to_win": 19.11,
+      "final": "NO 34, NYG 27",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-CARPHI-straight",
@@ -2400,13 +2411,15 @@
           "note": "Young averages 317 yards per game, with 287 or more in every game, against a Philly defense allowing 239 passing yards per game.",
           "status": "FanDuel 240.5 (-114 both sides); DraftKings about 240; another book 234.5 -114",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 15.79,
       "stake": 18.0,
-      "to_win": 15.79
+      "to_win": 15.79,
+      "final": "CAR 25, PHI 14"
     },
     {
       "id": "2026-10-18-PITTB-straight",
@@ -2604,13 +2617,17 @@
           "note": "Taylor averages 3.9 per carry, and Tennessee allows 3.5 per rush (4th in the NFL).",
           "status": "active (no injury designation)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "TEN 26, IND 20",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-TENIND-safer",
@@ -2663,7 +2680,9 @@
           "note": "Taylor averages 3.9 per carry, and Tennessee allows 3.5 per rush (4th in the NFL).",
           "status": "active (no injury designation)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "D. Jones u234.5 pass yds",
@@ -2690,13 +2709,17 @@
           "note": "Jones averaged about 204 passing yards through four games, and a Colts lead should mean more runs.",
           "status": "active (no injury designation)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -7.5,
       "stake": 7.5,
-      "to_win": 19.27
+      "to_win": 19.27,
+      "final": "TEN 26, IND 20",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-HOUJAX-straight",
@@ -2955,13 +2978,15 @@
           "note": "With a sub-40 total and a backup QB, a game decided by three points or fewer is very live.",
           "status": "consensus BAL -3 (VegasInsider/CBS); +3.5 quoted at DK (SBR) and Covers -3.5; may be gone by kickoff",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "BAL 10, CLE 13"
     },
     {
       "id": "2026-10-18-TRAD-straight",
@@ -3005,7 +3030,8 @@
           "league": "NFL",
           "matchup": "NO @ NYG",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "unknown"
         }
       ],
       "status": "pending",
@@ -3138,7 +3164,9 @@
           "league": "NFL",
           "matchup": "NO @ NYG",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Carolina Panthers -3.5",
@@ -3169,7 +3197,8 @@
           "league": "NFL",
           "matchup": "CAR @ PHI",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         },
         {
           "desc": "B. Young o240.5 pass yds",
@@ -3200,13 +3229,16 @@
           "league": "NFL",
           "matchup": "CAR @ PHI",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 19.98
+      "to_win": 19.98,
+      "final": "NO 34-27 NYG; CAR 25-14 PHI; CAR 25-14 PHI",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-TRAD-longshot",
@@ -3250,7 +3282,8 @@
           "league": "NFL",
           "matchup": "CAR @ PHI",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         },
         {
           "desc": "Cleveland Browns +3.5",
@@ -3281,7 +3314,8 @@
           "league": "NFL",
           "matchup": "BAL @ CLE",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "win"
         },
         {
           "desc": "D. Jones u234.5 pass yds",
@@ -3313,7 +3347,9 @@
           "league": "NFL",
           "matchup": "TEN @ IND",
           "start": "2026-10-18T17:00Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "M. Stafford o279.5 pass yds",
@@ -3348,10 +3384,12 @@
           "date": "2026-10-18"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 19.23
+      "to_win": 19.23,
+      "final": "CAR 25-14 PHI; BAL 10-13 CLE; TEN 26-20 IND",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-POTD-NFL",
@@ -3396,13 +3434,17 @@
           "note": "Taylor averages 3.9 per carry, and Tennessee allows 3.5 per rush (4th in the NFL).",
           "status": "active (no injury designation)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 10.71
+      "to_win": 10.71,
+      "final": "TEN 26, IND 20",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-WSHSF-straight",
@@ -3619,6 +3661,66 @@
       "net": null,
       "stake": 12.0,
       "to_win": 11.88
+    },
+    {
+      "id": "2026-10-18-DALGB-straight",
+      "kind": "sgp",
+      "date": "2026-10-18",
+      "league": "NFL",
+      "event_id": "401873007",
+      "game": "DAL @ GB",
+      "start": "2026-10-19T00:20Z",
+      "play": "straight",
+      "venue": "Lambeau Field",
+      "city": "Green Bay, WI",
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+      "home_conf": null,
+      "away_conf": null,
+      "odds": -118,
+      "units": 6,
+      "prob": 0.53,
+      "ev": -0.0208,
+      "provisional": true,
+      "score": 0,
+      "rank": 1,
+      "lean": true,
+      "summary": "Sharp money backs Green Bay (62% of handle on 35% of bets) against a Dallas pass defense that ranks last in EPA, and Josh Jacobs is out. Most likely to win: Green Bay Packers ML.",
+      "weather": "54\u00b0F, wind 10 mph, 0% rain",
+      "legs": [
+        {
+          "desc": "Green Bay Packers ML",
+          "market": "ml",
+          "side": null,
+          "team": "GB",
+          "player": null,
+          "stat": null,
+          "line": null,
+          "odds": -118,
+          "book": "FanDuel",
+          "fair": 0.53,
+          "prob": 0.53,
+          "edge": -0.0208,
+          "signals": {
+            "love_vs_worst_epa_pass_defense": 0.57,
+            "sharp_handle_62pct_on_gb": 0.56,
+            "home_lambeau_primetime": 0.53,
+            "gb_pressure_42pct_vs_dak": 0.54,
+            "espn_fpi_dal_by_0_6": 0.47,
+            "dal_cb_durant_out_jpj_questionable": 0.55,
+            "jacobs_exempt_list_out": 0.47,
+            "dal_extra_rest_10_days": 0.48
+          },
+          "note": "Sharp money and the matchup both favor Love at home against the league's worst pass defense.",
+          "status": null,
+          "alt": null,
+          "main_line": null
+        }
+      ],
+      "status": "pending",
+      "net": null,
+      "stake": 18.0,
+      "to_win": 15.25
     }
   ]
 }
