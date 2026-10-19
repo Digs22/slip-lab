@@ -20,7 +20,7 @@ No Game 6 prices are posted yet (Game 5 is in progress), so there are no legs. L
 8. INJURIES: TB is without Shane McClanahan (15-day IL, forearm; 10-7, 3.36 ERA) and Ryan Pepiot (60-day IL, hip). I found no new CLE injuries; CLE's G4 defense from rookies (DeLauter, Bazzana) was poor.
 9. LEAN ONCE PRICED (not legs): Rays ML or run line and the Under are the likely angles if CLE has to run a bullpen game after G5. If CLE wins G5 and TB faces elimination, Cash will likely use everything behind Peralta, which strengthens the TB and Under case. If TB wins G5, CLE could go all-in with Bibee or Cantillo for bulk innings. Peralta K prop (o5.5 likely) is worth checking once posted. Sources: MLB.com, ESPN, CBS Sports, NBC Sports, Fox Sports, SI, Yahoo, ClutchPoints, Covers, FanDuel Research, Bleacher Nation, Rotowire, Predictem, Baseball-Reference, Wikipedia.
 
-### 2026-10-18: at Cleveland Guardians
+### 2026-10-18: at Cleveland Guardians (final: TB 3, CLE 1)
 
 Series tied 2-2; Rasmussen vs Messick, both sub-2.70 ERA, on a sub-60F night with a 6.5 total. Under 6.5 is the leg most likely to win; Guardians ML is a near coin flip.
 
@@ -47,8 +47,8 @@ Legs considered:
 - D. Rasmussen o5.5 K: Rasmussen has 17 strikeouts and 2 walks in 14 postseason innings, and Cleveland hits righties poorly (.706 OPS).
 
 Our bets:
-- straight: D. Rasmussen o5.5 K (-101): confirmed starter (MLB API) -> **pending**
-- straight: D. Rasmussen o5.5 K (-101): confirmed starter (MLB API) -> **pending**
+- straight: D. Rasmussen o5.5 K (-101): confirmed starter (MLB API) -> **win**
+- straight: D. Rasmussen o5.5 K (-101): confirmed starter (MLB API) -> **win**
 
 ### 2026-10-17: at Cleveland Guardians (final: TB 7, CLE 3)
 

@@ -2844,13 +2844,17 @@
           "note": "Arizona's depleted secondary allows 37 points a game during its skid, and the Over is 4-1 in the last five meetings.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "ARI 18, LAR 16",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-ARILAR-safer",
@@ -2903,7 +2907,9 @@
           "note": "Arizona's depleted secondary allows 37 points a game during its skid, and the Over is 4-1 in the last five meetings.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "M. Stafford o279.5 pass yds",
@@ -2930,13 +2936,16 @@
           "note": "Stafford has 317+ yards in four straight games, against a defense allowing 9.1 YPA and missing three safeties.",
           "status": "priced",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -7.5,
       "stake": 7.5,
-      "to_win": 19.35
+      "to_win": 19.35,
+      "final": "ARI 18, LAR 16",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-18-BALCLE-straight",
@@ -3394,7 +3403,8 @@
           "league": "NFL",
           "matchup": "ARI @ LAR",
           "start": "2026-10-18T20:05Z",
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "result": "loss"
         }
       ],
       "status": "loss",
@@ -3617,13 +3627,15 @@
           "note": "Rasmussen has 17 strikeouts and 2 walks in 14 postseason innings, and Cleveland hits righties poorly (.706 OPS).",
           "status": "confirmed starter (MLB API)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.82,
       "stake": 18.0,
-      "to_win": 17.82
+      "to_win": 17.82,
+      "final": "TB 3, CLE 1"
     },
     {
       "id": "2026-10-18-POTD-MLB",
@@ -3667,13 +3679,15 @@
           "note": "Rasmussen has 17 strikeouts and 2 walks in 14 postseason innings, and Cleveland hits righties poorly (.706 OPS).",
           "status": "confirmed starter (MLB API)",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 11.88,
       "stake": 12.0,
-      "to_win": 11.88
+      "to_win": 11.88,
+      "final": "TB 3, CLE 1"
     },
     {
       "id": "2026-10-18-DALGB-straight",

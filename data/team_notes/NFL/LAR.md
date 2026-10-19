@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-18: vs Arizona Cardinals
+### 2026-10-18: vs Arizona Cardinals (final: ARI 18, LAR 16)
 
 Arizona (1-4) is without RB Love, LT Paris Johnson, two starting guards and three safeties; the total rose 46.5 to 51.5. Rams ML is most likely to win; the Over is the best edge.
 
@@ -40,6 +40,6 @@ Legs considered:
 - M. Stafford o279.5 pass yds: Stafford has 317+ yards in four straight games, against a defense allowing 9.1 YPA and missing three safeties.
 
 Our bets:
-- straight: Over 51.5 (-110): pending -> **pending**
-- safer: Over 51.5 (-110): pending / M. Stafford o279.5 pass yds (-114): priced -> **pending**
+- straight: Over 51.5 (-110): pending -> **loss**
+- safer: Over 51.5 (-110): pending / M. Stafford o279.5 pass yds (-114): priced -> **loss**
 - longshot: M. Stafford o279.5 pass yds (-114): priced -> **loss**
