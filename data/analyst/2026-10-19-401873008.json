@@ -1,19 +1,19 @@
 {
- "summary": "Unbeaten SF (30.8 ppg) hosts 1-3-1 Washington (29.8 ppg allowed), with Bosa and Deebo out for SF and Daniels back for WAS. Most likely to win: 49ers ML.",
+ "summary": "Bosa and Deebo are ruled out, Evans is a game-time call, and Washington is without lead RB Croskey-Merritt. Most likely to win: 49ers ML. Best edge: Daniels rushing over.",
  "lineups_confirmed": false,
  "legs": [
   {
    "desc": "Under 52.5",
    "signals": {
-    "market": 0.56,
-    "season": 0.52,
-    "matchup": 0.5,
-    "injuries": 0.51,
+    "market": 0.55,
+    "weather": 0.53,
     "experts": 0.5,
-    "weather": 0.5,
-    "history": 0.47
+    "season": 0.48,
+    "matchup": 0.5,
+    "injuries": 0.52,
+    "history": 0.46
    },
-   "note": "ESPN's 52.5 sits a point or two above most books (50.5-51.5), and SF's defense allows only 18.6 ppg."
+   "note": "52.5 is the top of a 50.5-52.5 range, and gusts near 20 mph could hurt deep passing and long kicks."
   }
  ],
  "extra_legs": [
@@ -24,18 +24,19 @@
    "side": null,
    "line": null,
    "odds": -420,
-   "book": "FanDuel (via SI/Yahoo; Kalshi 77-78% SF)",
-   "fair": 0.776,
+   "book": "FanDuel via SI (DraftKings -455/+350 via NBC Sports; CBS -426)",
+   "fair": 0.78,
    "books": 3,
    "signals": {
     "season": 0.8,
     "experts": 0.81,
     "matchup": 0.78,
-    "injuries": 0.76,
+    "injuries": 0.77,
     "situational": 0.78,
-    "history": 0.75
+    "history": 0.75,
+    "market": 0.78
    },
-   "note": "Most likely to win: 5-0 SF at home against a Washington defense allowing nearly 30 points a game."
+   "note": "Most likely to win: the 5-0 49ers host a Washington defense allowing 29.8 points per game."
   },
   {
    "market": "spread",
@@ -44,19 +45,19 @@
    "side": null,
    "line": -7.5,
    "odds": -108,
-   "book": "FanDuel (BUSR -115; Kalshi 51% SF -7.5)",
+   "book": "FanDuel/DraftKings via SI (Caesars -109)",
    "fair": 0.496,
    "books": 3,
    "signals": {
     "experts": 0.55,
     "season": 0.53,
     "matchup": 0.53,
-    "situational": 0.52,
-    "injuries": 0.48,
-    "market": 0.47,
-    "history": 0.51
+    "market": 0.46,
+    "injuries": 0.49,
+    "situational": 0.51,
+    "history": 0.5
    },
-   "note": "Washington ranks 30th in points allowed and last in second-half points allowed, and is without its lead RB and two defenders."
+   "note": "Experts favor SF, but Circa's move from -8 to -7.5 shows sharp money on Washington."
   },
   {
    "market": "prop",
@@ -67,23 +68,24 @@
    "side": "over",
    "line": 37.5,
    "odds": -114,
-   "book": "Sportsbook line via preview (37.5 -114/-114); Covers consensus 39.5, Football Nation 38.5",
+   "book": "SportsGambler / Hogs Haven (37.5 -114/-114); DraftKings 36.5 -109 via SI; Covers consensus 39.5",
    "fair": 0.5,
    "books": 3,
-   "status": "expected active (full practice Thu/Fri, no game designation)",
+   "status": "Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return",
    "projection": {
-    "mu": 52,
-    "sd": 27
+    "mu": 46,
+    "sd": 25
    },
    "signals": {
-    "season": 0.6,
-    "injuries": 0.56,
-    "matchup": 0.52,
-    "experts": 0.55,
-    "situational": 0.54
+    "season": 0.58,
+    "injuries": 0.57,
+    "matchup": 0.5,
+    "experts": 0.56,
+    "situational": 0.55,
+    "market": 0.53
    },
-   "note": "Daniels has 203 rush yards in about 2.5 games (103 last week), and Washington's lead RB is out."
+   "note": "Strongest edge: Daniels is Washington's main runner with Croskey-Merritt out, and trailing should add scrambles."
   }
  ],
- "research": "1. QBs/personnel: SF QB Brock Purdy is the MVP frontrunner per Yardbarker: 98/142 (69%), 1,196 yds (239 ypg), NFL-high 13 TD, +55.7 EPA, 84.0 QBR (SI), 0.31 EPA/play (Sumer). He went 189 yds, 2 TD, 1 INT in a 32-29 win at SEA. Mike Evans had 7-113-1 at SEA and is questionable (ribs/Achilles, DNP all week); Shanahan said 'we'll know Monday', and beat writers expect him to play. Christian Kirk (calf, off IR) is questionable. Deebo Samuel (hamstring) is OUT. Fullback Kyle Juszczyk is back. Christian McCaffrey has 61-286-5 rushing (4.7 ypc), and Kaelon Black adds 37-136. WAS QB Jayden Daniels returned in Week 5 from a dislocated left (non-throwing) elbow suffered in Week 2 at DAL. His 2026 line is 459-461 pass yds, 3 TD, 0 INT, QBR 74.3, plus 203 rush yds and 2 TD on 21 carries (Rotowire/DraftSharks). Against NYG he went 17/25 for 199 and ran 9-103-2, but took 5 sacks and made the OT clock blunder. Backup Marcus Mariota (MCL) is OUT, so there is no experienced QB behind Daniels. Mariota threw 3 TD in the Week 3 win over SEA and lost in London to IND.\n2. Injuries (final reports Fri/Sat; 49erswebzone, ESPN, Hogs Haven, SI): SF OUT are DE Nick Bosa (calf, 4th straight miss), WR Deebo Samuel, S Marques Sigle, and LB Garret Wallow. SF QUESTIONABLE are Evans, Kirk, DE Mykel Williams (knee), CB Upton Stout (shoulder), DT Gracen Halton (quad), and S Siran Neal (neck). WAS OUT are RB Jacory 'Bill' Croskey-Merritt (groin), QB Mariota (knee), DE Charles Omenihu, and LB Javontae Jean-Baptiste (pec). WAS QUESTIONABLE are WR Stefon Diggs (hamstring, back at practice Friday) and DL Javon Kinlaw. Terry McLaurin has no designation. Monday inactives are pending.\n3. Advanced/season stats: SF scores 30.8 ppg (27-7 LAR, 35-13 MIA, 36-30 ARI, 24-14 DEN, 32-29 @SEA) and allows 18.6 ppg (3rd) and 297.2 ypg (6th, SportsGrid). Osa Odighizuwa has 15 pressures and a 12.8% pass-rush win rate, and SF had 5 sacks at SEA even without Bosa. SF game totals: 34/48/66/38/61, 3-2 to the over (Covers). WAS scores 23.0 ppg and allows 29.8 ppg (30th, Fox), and is LAST in second-half points allowed (19/gm; 20+ after halftime in four straight). WAS converts 32% on third down (29th) and has 33 penalties in three weeks (ESPN). WAS run D allows 95.4 ypg (8th). WAS game totals: 46/57/64/43/54, 4 of 5 over.\n4. Scheme: Shanahan's wide zone and Purdy's play-action face a leaky WAS secondary. Washington's best path is Daniels' legs: Football Nation says he 'changes the geometry'. SF counters with LB Fred Warner as a spy. Without Croskey-Merritt, WAS leans more on QB runs. Without Bosa, SF's edge rush is thinner (White, Williams if active).\n5. Coaching: Shanahan's team is 5-0. Dan Quinn's late-game management has been questioned (OT tie, blown 14-point 4Q lead). Over has hit in 5 straight SF games as 3.5+ favorites (ESPN).\n6. Situational: WAS travels cross-country for a night road game after an emotional tie. Both teams had 8 days of rest. SF has a Week 7 trip to ATL on a short week (minor lookahead). It is also 49ers Alumni/Keena Turner HOF weekend.\n7. History: last meeting was a 27-10 SF win at WAS on 12/31/2023. SF is 5-3-1 ATS in the last 9 meetings (SI).\n8. Weather: Santa Clara is dry and mild (60s at kickoff, ~9% historical rain chance), so weather is not a factor.\n9. Market/experts: the spread opened SF -5.5 and is now -7.5 (FanDuel SF -108 / WAS -112; BUSR WAS -105). The total opened 50.5 and is now 50.5-52.5 (FanDuel 51.5 -112/-108, VegasInsider 51.5, BUSR/CBS 52, ESPN 52.5). ML is SF -420 / WAS +330 (FanDuel); Kalshi has SF at 77-78%. Implied team totals are SF 29.5, WAS 22 (Fantasy Life). Splits: 69% of spread bets on SF (SBD 86% of money; Cleatz 95%), with the total split (51% of tickets on the over at 52.5, 43% of money). Picks: Pete Prisco SF 30-21 (cover). CBS ATS panel is 6/7 SF, with only Ryan Wilson on WAS. Dajani SF 28-20 and Dubin SF 27-16. SI best bet is SF -7.5 (-108). Sports Gambling Podcast (both hosts) take SF -7.5. numberFire gives SF 84.1%. Squawka's model has SF by about 10. USA Today panel: SF 31-23, 35-20, 37-23. NFL.com writers all pick SF. Yahoo picks SF 27-26 and leans WAS +7.5. SportsLine's model and Micah Roberts both lean over. Covers/Kalshi lean Under 50.5. Props: Daniels rush yds 37.5 -114/-114 (Covers consensus 39.5; Football Nation moved 34.5 to 38.5; one preview projects 67). Purdy pass yds range 229.5 to 259.5 across books (Dimers projects 249.3), so no edge there. McLaurin rec yds is 45.5 (Covers). McCaffrey rush+rec 104.5 (Tony's Picks: under)."
+ "research": "1. QBs/personnel: Brock Purdy leads the NFL with 13 TD, posting 239 ypg, a 69% completion rate and 0.31 EPA/play (Sumer). His receivers are thin: Deebo Samuel is OUT, Mike Evans is QUESTIONABLE (ribs/Achilles, no practice all week, and Shanahan said 'we'll know Monday'), and Christian Kirk may come off IR depending on Evans (Rotowire, Heavy). Kyle Juszczyk returns (49ers.com). Jayden Daniels is back from his second left-elbow dislocation and played in a brace in Week 5, going 17/25 for 199 yards and running 9-103-2 with runs of 38 and 26 (Athlon, Hogs Haven). He has 203 rush yards in about 2.5 games. Mariota is OUT, so Washington has no veteran backup.\n2. Injuries (final reports; ESPN, NBC Sports Bay Area, 49erswebzone, Yardbarker): Nick Bosa (calf/knee) is RULED OUT for a 4th straight game. SF is also without Deebo, S Marques Sigle and LB Garret Wallow. SF questionable: Evans, Kirk, Mykel Williams, Upton Stout, Gracen Halton and Siran Neal. Washington is without RB Jacory Croskey-Merritt (groin, missed Thu/Fri practice), Mariota, Charles Omenihu and Javontae Jean-Baptiste. Diggs (hamstring) was spotted at Friday practice and is questionable (Fantasy Footballers). Inactives post about 90 minutes before kickoff, so lineups are NOT confirmed.\n3. Role check, Daniels o37.5: he is the starting QB with no snap risk short of injury. RB Croskey-Merritt is out, and the remaining backs are weak (Rachaad White; Ekeler limited with a chest injury; Washington backs ran for 1.9 ypc in Week 3 and 9-15 in Week 4). Hogs Haven calls Daniels the main threat on designed runs, zone reads and scrambles. Risks: the brace, SF's top-5 EPA/rush defense (DK Network), and his reliance on long runs (64 of his 103 yards in Week 5 came on two runs). Sacks do not count against rush yards. Covers says the line rose from 31.5 to 39.5, and Football Nation tracked 34.5 to 38.5 (DK o-110/u-114), so 37.5 is now below consensus. DraftKings 36.5 -109 (SI best bet) is better if still posted. Projection is mu 46, sd 25.\n4. Scheme and coaching: Shanahan was Quinn's OC in Atlanta (2015-16), and Quinn's Dallas defenses had some success against him in 2022-23 (Niners Nation). Washington's dropback EPA allowed (0.157) is among the league's worst (VSiN), which favors Purdy's play-action. Washington's run defense ranked 25th-26th in 2025 (Sharp, Inquirer). Without Bosa, SF relies on Odighizuwa (strong pass-rush grades) and Keion White plus more blitzing. SF still had 5 sacks at SEA, and Daniels took 5 sacks against NYG. Quinn's game management is a liability after the OT clock blunder against NYG.\n5. Trends: since Quinn took over, the Over is 15-2 when Washington is a 3.5-9.5 point underdog (VSiN). Washington games are 4-1 to the Over. PFF had Shanahan's SF at 8-17-1 ATS as a home favorite through 2024, which is dated.\n6. Situational: Washington flies cross-country for a night game after an emotional tie. Both teams had 8 days of rest. It is 49ers Alumni/HOF weekend, and SF has a short-week trip to ATL next.\n7. History: SF won the last meeting 27-10 (12/31/2023) and is 5-3-1 ATS in the last 9.\n8. Weather (NWS via Yahoo; DK Network): dry (0-3% rain), 63-68F at kickoff falling into the upper 50s, with WNW wind of 11-13 mph and gusts near 21 mph from 5-7pm PT around kickoff, easing later. That is mild and mainly affects deep balls and long field goals. Per the wind lesson, a yardage over is preferred to the full-game Over.\n9. Market and splits: the spread opened SF -5.5 and is now -7.5 everywhere (FanDuel -108/-112, DraftKings -110, Caesars -109). Circa went from -8 to -7.5 on sharp WAS money (VSiN), while 80-83% of spread money is on SF (SBD, VSiN). The total opened 49.5-50.5 and is now 50.5-52.5: FanDuel 50.5 (o-105/u-115, SI), DraftKings/CBS/ESPN 52.5, and 70% of money is on the Over. ML: FanDuel SF -420/WAS +330, DraftKings -455/+350, and Kalshi/Novig/ProphetX put SF at 78-79%. No posted team totals were found on a named page, so none are offered.\n10. Experts: SI's Iain MacMillan has SF 30-20 and takes -7.5. SI's best bet is SF -7.5 (-108). Bettors Insider has SF 27-21 and leans Under 52.5 (wind, WR depth). SportsLine's model has 55 points with the Over hitting 53%. SBD takes Over 52.5 plus Kittle rec yds. Covers' main pick is the Under (after leaning Under 50.5 early). OddsShopper calls WAS +7.5 fine. CBS's Prisco has SF 30-21. AP Pro Picks takes SF. Covers props: Purdy o249.5 pass yds. SI props: Daniels o36.5 rush yds.\nVerdict: the first pass holds. SF ML is the leg most likely to win, and Daniels o37.5 is confirmed as the best edge: the line has risen to 38.5-39.5 elsewhere, and his role grew with the RB out. The spread is a coin flip given sharp-versus-public money, and Under 52.5 is only a small lean because the passing-over case (bad WAS pass D, Quinn-dog Over trend) cuts against it."
 }

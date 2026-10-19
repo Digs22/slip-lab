@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-18",
-  "generated": "2026-10-18T16:28-04:00",
+  "date": "2026-10-19",
+  "generated": "2026-10-19T08:15-04:00",
   "games_scanned": 1,
   "problems": [
-    "2026-10-18: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized"
+    "2026-10-19: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
     {
-      "id": "401873007",
-      "league": "NFL",
-      "game": "DAL @ GB",
-      "start": "2026-10-19T00:20Z",
-      "venue": "Lambeau Field",
+      "id": "401908028",
+      "league": "MLB",
+      "game": "CLE @ TB",
+      "start": "2026-10-20T00:00Z",
+      "venue": "Tropicana Field",
       "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-      "summary": "Sharp money backs Green Bay (62% of handle on 35% of bets) against a Dallas pass defense that ranks last in EPA, and Josh Jacobs is out. Most likely to win: Green Bay Packers ML."
+      "score": 0.1161,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+      "summary": "Cleveland must win with a bullpen game on tired arms after a no-off-day flight; Peralta (0.79 postseason ERA) starts for TB. Most likely winner: Tampa Bay Rays ML."
     }
   ]
 }

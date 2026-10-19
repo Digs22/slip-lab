@@ -194,10 +194,11 @@
  "401873008": {
   "away": "WSH",
   "away_name": "Washington Commanders",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "home": "SF",
   "home_name": "San Francisco 49ers",
-  "league": "NFL"
+  "league": "NFL",
+  "start": "2026-10-20T00:15Z"
  },
  "401908025": {
   "away": "TB",
@@ -226,10 +227,20 @@
  "401908028": {
   "away": "CLE",
   "away_name": "Cleveland Guardians",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "home": "TB",
   "home_name": "Tampa Bay Rays",
-  "league": "MLB"
+  "league": "MLB",
+  "start": "2026-10-20T00:00Z"
+ },
+ "401908029": {
+  "away": "CLE",
+  "away_name": "Cleveland Guardians",
+  "date": "2026-10-21",
+  "home": "TB",
+  "home_name": "Tampa Bay Rays",
+  "league": "MLB",
+  "start": "2026-10-21T00:00Z"
  },
  "401908032": {
   "away": "MIL",
