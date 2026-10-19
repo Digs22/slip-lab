@@ -38,3 +38,4 @@ Our bets:
 - straight (lean): J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
 - best: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
 - straight: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
+- longshot: San Francisco 49ers -7.5 (-102): pending / Over 52.5 (-105): pending / J. Daniels o37.5 rush yds (-114): pending / C. McCaffrey o38.5 rec yds (-111): pending -> **pending**
