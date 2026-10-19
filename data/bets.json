@@ -3741,13 +3741,15 @@
           "note": "Sharp money and the matchup both favor Love at home against the league's worst pass defense.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 15.25,
       "stake": 18.0,
-      "to_win": 15.25
+      "to_win": 15.25,
+      "final": "DAL 13, GB 23"
     },
     {
       "id": "2026-10-18-DALGB-longshot",
@@ -3774,8 +3776,8 @@
       "lean": false,
       "summary": "Deep-pass SNF parlay built on a Green Bay passing shootout: game Over, Love yards, Watson yards, Lamb catches and the Packers ML.",
       "weather": "54\u00b0F, wind 10 mph, 0% rain",
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
       "to_win": 37.71,
       "legs": [
@@ -3796,7 +3798,9 @@
           "note": "The total moved from 50.5 to 53.5 with both passing games facing weak secondaries.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "J. Love o274.5 pass yds",
@@ -3815,7 +3819,8 @@
           "note": "Averages 282 a game against the league's worst pass defense by EPA, and three Green Bay guards are out.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "C. Lamb o6.5 receptions",
@@ -3834,7 +3839,8 @@
           "note": "Projected for about 7 catches, and Dallas should be throwing to keep pace.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "Green Bay Packers ML",
@@ -3862,7 +3868,8 @@
           "note": "The Love passing script also points to a Green Bay win at home.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "C. Watson o71.5 rec yds",
@@ -3881,9 +3888,12 @@
           "note": "Love's deep target against a secondary missing Durant.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss"
         }
-      ]
+      ],
+      "final": "DAL 13, GB 23",
+      "cause": "bad read"
     }
   ]
 }

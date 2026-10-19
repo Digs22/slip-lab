@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-18: vs Dallas Cowboys
+### 2026-10-18: vs Dallas Cowboys (final: DAL 13, GB 23)
 
 Sharp money backs Green Bay (62% of handle on 35% of bets) against a Dallas pass defense that ranks last in EPA, and Josh Jacobs is out. Most likely to win: Green Bay Packers ML.
 
@@ -29,5 +29,5 @@ Legs considered:
 - C. Lamb o80.5 rec yds: Lamb averages 101 yards a game and Dallas should be throwing a lot in a projected shootout.
 
 Our bets:
-- straight (lean): Green Bay Packers ML (-118): pending -> **pending**
-- longshot: Over 52.5 (-112): pending / J. Love o274.5 pass yds (-114): pending / C. Lamb o6.5 receptions (+113): pending / Green Bay Packers ML (-118): pending / C. Watson o71.5 rec yds (-115): pending -> **pending**
+- straight (lean): Green Bay Packers ML (-118): pending -> **win**
+- longshot: Over 52.5 (-112): pending / J. Love o274.5 pass yds (-114): pending / C. Lamb o6.5 receptions (+113): pending / Green Bay Packers ML (-118): pending / C. Watson o71.5 rec yds (-115): pending -> **loss**

@@ -29,15 +29,15 @@
     {
       "split": "play",
       "name": "straight",
-      "roi": 21.6,
-      "n": 31,
+      "roi": 23.8,
+      "n": 32,
       "action": "Working: keep full stake"
     },
     {
       "split": "market",
       "name": "mixed",
-      "roi": -41.5,
-      "n": 16,
+      "roi": -42.5,
+      "n": 17,
       "action": "Cut stake in half until ROI recovers"
     },
     {
@@ -57,14 +57,14 @@
     {
       "split": "league",
       "name": "NFL",
-      "roi": -36.6,
-      "n": 15,
+      "roi": -26.9,
+      "n": 17,
       "action": "Cut stake in half until ROI recovers"
     }
   ],
   "loss_causes": {
-    "untagged": 5,
-    "bad read": 26,
+    "untagged": 7,
+    "bad read": 27,
     "variance": 1
   },
   "weights": {
@@ -95,10 +95,17 @@
     "low_total_compresses_margins": 0.55,
     "browns_offense_inept": 0.45,
     "browns_dt_depth_graham_q_hall_out": 0.45,
-    "rest": 0.55
+    "rest": 0.55,
+    "love_vs_worst_epa_pass_defense": 0.55,
+    "sharp_handle_62pct_on_gb": 0.55,
+    "gb_pressure_42pct_vs_dak": 0.55,
+    "espn_fpi_dal_by_0_6": 0.45,
+    "dal_cb_durant_out_jpj_questionable": 0.55,
+    "jacobs_exempt_list_out": 0.45,
+    "dal_extra_rest_10_days": 0.45
   },
   "retrain": {
-    "n": 1302,
+    "n": 1308,
     "accepted": false,
     "factors": [
       "experts",
@@ -108,10 +115,10 @@
       "recent_form",
       "season"
     ],
-    "held_out": 391,
+    "held_out": 393,
     "logloss_new": 0.6832,
     "logloss_current": 0.6832,
-    "logloss_market": 0.6798,
+    "logloss_market": 0.6797,
     "weights": {
       "experts": 0.544,
       "injuries": 0.852,
@@ -122,7 +129,7 @@
     },
     "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 1302,
+      "n": 1308,
       "model_logloss": 0.6852,
       "market_logloss": 0.6845,
       "beats_market": false,

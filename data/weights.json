@@ -26,5 +26,12 @@
   "low_total_compresses_margins": 0.55,
   "browns_offense_inept": 0.45,
   "browns_dt_depth_graham_q_hall_out": 0.45,
-  "rest": 0.55
+  "rest": 0.55,
+  "love_vs_worst_epa_pass_defense": 0.55,
+  "sharp_handle_62pct_on_gb": 0.55,
+  "gb_pressure_42pct_vs_dak": 0.55,
+  "espn_fpi_dal_by_0_6": 0.45,
+  "dal_cb_durant_out_jpj_questionable": 0.55,
+  "jacobs_exempt_list_out": 0.45,
+  "dal_extra_rest_10_days": 0.45
 }
