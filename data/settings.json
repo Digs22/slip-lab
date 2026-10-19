@@ -1,8 +1,8 @@
 {
   "key": "settings",
-  "updated": "2026-10-18T23:47:44.468Z",
+  "updated": "2026-10-19T19:07:08.688Z",
   "prefs": {
-    "unit": 2,
+    "unit": 25,
     "split": {
       "straight": 60,
       "safer": 25,

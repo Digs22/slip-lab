@@ -35,5 +35,6 @@ Legs considered:
 - J. Daniels o37.5 rush yds: Strongest edge: Daniels is Washington's main runner with Croskey-Merritt out, and trailing should add scrambles.
 
 Our bets:
-- straight: J. Daniels o37.5 rush yds (-114): expected active (full practice Thu/Fri, no game designation) -> **pending**
-- straight: J. Daniels o37.5 rush yds (-114): expected active (full practice Thu/Fri, no game designation) -> **pending**
+- straight (lean): J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
+- best: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
+- straight: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**

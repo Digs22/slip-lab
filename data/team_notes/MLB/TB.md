@@ -44,6 +44,7 @@ Legs considered:
 Our bets:
 - straight: Under 6.5 (-105): pending -> **pending**
 - best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending / Under 6.5 (-105): pending -> **pending**
+- best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending -> **pending**
 - straight: Under 6.5 (-105): pending -> **pending**
 
 ### 2026-10-18: at Cleveland Guardians (final: TB 3, CLE 1)
