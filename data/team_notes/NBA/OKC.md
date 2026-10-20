@@ -37,4 +37,4 @@ Legs considered:
 Our bets:
 - straight: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **pending**
 - best: S. Gilgeous-Alexander o28.5 points (-122): Active / S. Gilgeous-Alexander o3.5 rebounds (-156): Active / S. Gilgeous-Alexander o5.5 assists (-170): Active -> **pending**
-- longshot: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **pending**
+- longshot: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **loss**

@@ -85,7 +85,8 @@ def box_stats(game: dict) -> dict:
                 name = ath["athlete"]["displayName"]
                 row = out.setdefault(name, {})
                 for stat, (grp, label) in ESPN_STATS.items():
-                    if (grp is None or group.get("name") == grp) and label in labels:
+                    if (grp is None or group.get("name") == grp) and label in labels \
+                            and labels.index(label) < len(ath.get("stats") or []):  # a DNP row has no stats
                         row[stat] = _num(ath["stats"][labels.index(label)])
                 if group.get("name") in ("rushing", "receiving") and "TD" in labels:
                     row["anytime_td"] = row.get("anytime_td", 0) + (_num(ath["stats"][labels.index("TD")]) or 0)

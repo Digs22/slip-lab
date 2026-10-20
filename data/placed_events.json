@@ -89,5 +89,19 @@
   "at": "2026-10-18T02:54:23.369Z",
   "units": 6,
   "unit": 2
+ },
+ "2026-10-20-BOSDET-straight": {
+  "id": "2026-10-20-BOSDET-straight",
+  "on": false,
+  "at": "2026-10-20T17:03:34.951Z",
+  "units": null,
+  "unit": null
+ },
+ "2026-10-20-ATMVFB-straight": {
+  "id": "2026-10-20-ATMVFB-straight",
+  "on": false,
+  "at": "2026-10-20T17:05:30.236Z",
+  "units": null,
+  "unit": null
  }
 }

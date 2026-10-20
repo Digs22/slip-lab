@@ -1,107 +1,157 @@
 {
-  "summary": "Knicks open their title defense at -4.5 against a rebuilt LeBron/Jaylen Brown Sixers team. Our efficiency projection is 227.6, under the 231.5 total. Most likely winner: K. Towns o6.5 rebounds.",
-  "lineups_confirmed": false,
-  "legs": [],
-  "extra_legs": [
-    {
-      "desc": "Under 231.5",
-      "market": "total",
-      "game": "Philadelphia 76ers @ New York Knicks",
-      "team": null,
-      "side": "under",
-      "line": 231.5,
-      "odds": -108,
-      "book": "DraftKings",
-      "fair": 0.496,
-      "books": 3,
-      "signals": {"season": 0.58, "coaching": 0.55, "experts": 0.55, "injuries": 0.51, "recent_form": 0.46},
-      "note": "Projection is NYK 115.4 + PHI 112.2 = 227.6, using the efficiency x possessions method, versus 231.5. Slow Knicks pace backs the under."
-    },
-    {
-      "desc": "New York Knicks -4.5",
-      "market": "spread",
-      "game": "Philadelphia 76ers @ New York Knicks",
-      "team": "NY",
-      "side": null,
-      "line": -4.5,
-      "odds": -108,
-      "book": "BettingPros consensus",
-      "fair": 0.504,
-      "books": 4,
-      "signals": {"home": 0.55, "season": 0.57, "coaching": 0.53, "injuries": 0.53, "experts": 0.54, "matchup": 0.48},
-      "note": "Champions bring back their whole starting five against a new-look Philly team with thin frontcourt depth."
-    },
-    {
-      "desc": "K. Towns o6.5 rebounds",
-      "market": "prop",
-      "stat": "rebounds",
-      "player": "Karl-Anthony Towns",
-      "team": "NY",
-      "side": "over",
-      "line": 6.5,
-      "alt": true,
-      "main_line": 11.5,
-      "odds": -1400,
-      "book": "bet365",
-      "fair": 0.92,
-      "books": 1,
-      "status": "Active (not on injury report)",
-      "projection": {"mu": 11.9, "sd": 3.8},
-      "hit_rate": {"rate": 0.933, "sample": "2025-26 regular season, 70 of 75 games; 87 of 94 including playoffs"},
-      "signals": {"season": 0.62, "matchup": 0.6, "injuries": 0.56, "recent_form": 0.56},
-      "note": "Towns had 7 or more rebounds in 93% of games, and PHI allowed the most fantasy points to centers last season."
-    },
-    {
-      "desc": "J. Brunson o19.5 points",
-      "market": "prop",
-      "stat": "points",
-      "player": "Jalen Brunson",
-      "team": "NY",
-      "side": "over",
-      "line": 19.5,
-      "alt": true,
-      "main_line": 26.5,
-      "odds": -650,
-      "book": "bet365",
-      "fair": 0.85,
-      "books": 1,
-      "status": "Active (not on injury report)",
-      "projection": {"mu": 26.0, "sd": 8.1},
-      "hit_rate": {"rate": 0.797, "sample": "2025-26 regular season, 59 of 74 games; 74 of 93 including playoffs"},
-      "signals": {"season": 0.5, "matchup": 0.54, "recent_form": 0.56, "coaching": 0.52},
-      "note": "This is the lowest published Brunson points rung, but it hit only 80% of the time against an 86.7% implied price, so it is a negative-EV filler."
-    },
-    {
-      "desc": "J. Brunson o26.5 points",
-      "market": "prop",
-      "stat": "points",
-      "player": "Jalen Brunson",
-      "team": "NY",
-      "side": "over",
-      "line": 26.5,
-      "alt": false,
-      "odds": -105,
-      "book": "LasVegasSportsBetting.com listing",
-      "fair": 0.479,
-      "books": 3,
-      "status": "Active (not on injury report)",
-      "projection": {"mu": 26.0, "sd": 8.1},
-      "hit_rate": {"rate": 0.514, "sample": "2025-26 regular season, 38 of 74 games with 27+ points"},
-      "signals": {"season": 0.5, "matchup": 0.53, "recent_form": 0.55, "experts": 0.5},
-      "note": "This is a main-line fallback, since no 93% rung is priced; Covers likes it over and ATS.io's model leans under."
-    }
-  ],
-  "sgp": {
-    "legs": ["K. Towns o6.5 rebounds", "J. Brunson o19.5 points"],
-    "odds": -424,
-    "odds_note": "No SGP quote was found. This is the uncorrelated product of the two bet365 ladder prices (-1400 x -650), and a real SGP would likely be priced shorter.",
-    "true_prob": 0.76,
-    "implied_prob": 0.809,
-    "edge": false,
-    "highlight": false,
-    "qualifiers": "Players with usage of 24% or more (2025-26 B-Ref): Brunson 30.4 (PG), Towns 25.9 (C), Maxey 29.4 (PG), Embiid 33.5 (C), J. Brown 36.2 (BOS, SF), LeBron 27.2 (LAL, SF/PF). Bottom-10 DvP check (RotoGrinders, FanDuel FPPG, rank 1 = most allowed): PHI ranks PG 10th and C 1st, so Brunson and Towns qualify. NYK ranks PG 14th, SG 17th, SF 23rd, PF 26th and C 23rd, so every Sixer fails.",
-    "unpriced_93pct_rungs": "Brunson o11.5 pts (95.9%), o0.5 reb (94.6%), o2.5 ast (95.9%); Towns o9.5 pts (93.3%), o0.5 ast (100%). No public alt price was found for any of these, so they were dropped. The published ladders start at 20+ points and 7+ assists.",
-    "note": "The only priced leg that clears 93% is Towns 7+ rebounds, and its -1400 price already implies 93.3%, so there is no positive edge. This is the best available version and is not highlighted."
+ "summary": "Knicks open their title defense at -4.5 against a rebuilt LeBron/Jaylen Brown Sixers team. Our efficiency projection is 227.6, under the 231.5 total. Most likely winner: K. Towns o6.5 rebounds.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 231.5",
+   "market": "total",
+   "game": "Philadelphia 76ers @ New York Knicks",
+   "team": null,
+   "side": "under",
+   "line": 231.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 3,
+   "signals": {
+    "season": 0.58,
+    "coaching": 0.55,
+    "experts": 0.55,
+    "injuries": 0.51,
+    "recent_form": 0.46
+   },
+   "note": "Projection is NYK 115.4 + PHI 112.2 = 227.6, using the efficiency x possessions method, versus 231.5. Slow Knicks pace backs the under."
   },
-  "research": "TOTALS (NBA.md method): average possessions = (NYK 96.8 + PHI 99.4)/2 = 98.1. NYK = avg(119.8 ORtg x 0.981 = 117.5, PHI 115.5 DRtg x 0.981 = 113.3) = 115.4. PHI = avg(115.4 x 0.981 = 113.2, NYK 113.3 DRtg x 0.981 = 111.1) = 112.2. Projected total 227.6 vs DK 231.5 (232-232.5 elsewhere); projected margin NYK +3.2 before home court. Source: Basketball-Reference 2025-26 team advanced stats. Caveat: PHI's offense should improve with LeBron and Brown, which is why the under is a lean rather than strong.\nUSAGE (2025-26, opening week, so last season's numbers): Brunson 30.4%, Towns 25.9%, Maxey 29.4%, Embiid 33.5% (38 games), Jaylen Brown 36.2% (BOS), LeBron 27.2% (LAL). Expect Maxey, Brown, LeBron and Embiid to cannibalize each other's usage; books cut Maxey to 21.5 and LeBron to 15.5 (DK).\nDvP (RotoGrinders cheat sheet, FanDuel FPPG): PHI allowed C 55.3 (1st, most), PF 3rd, SG 4th, SF 7th, PG 10th. NYK: PG 14th, SG 17th, SF 23rd, PF 26th, C 23rd, so it is tough on every position.\nHIT RATES (B-Ref 2025-26 game logs): Brunson 26.0/3.3/6.8 in 74 games: 12+ pts 95.9%, 20+ 79.7%, 1+ reb 94.6%, 3+ ast 95.9%, 7+ ast 54.1%. Towns 20.1/11.9/2.9 in 75 games: 10+ pts 93.3%, 7+ reb 93.3% (92.6% with playoffs), 10+ reb 78.7%, 1+ ast 100%.\nPRICES: bet365 news ladders: Brunson 20+ -650, 25+ -190, 30+ +140; 7+ ast -120. Towns reb ladder 5/7/10/13 (garbled; read as -6600/-1400/-300/+120, matching the separate 13+ +120 quote); Towns 20+ pts +110. Embiid 20+ pts -225. FanDuel Research: Brunson o6.5 ast -118. SportsGambler: Brunson 26.5 -114/-120, Towns u18.5 pts -127 (BetMGM), Towns o11.5 reb -115. Game: DK NY -4.5, 231.5 (o-112/u-108), ML -180/+150; bet365 NY -4.5 -112, 232.5, ML -182/+152; Pinnacle Under 232 -106 via SBR.\nINJURIES: PHI: Barlow OUT (lumbar bone stress, re-evaluated in 2 weeks), Tacko Fall OUT, Hukporti OUT (torn Achilles); Simons (hamstring, missed all preseason), Bona (foot; practiced fully Sunday) and Dean Wade (ankle) questionable. Embiid and LeBron are NOT listed (ClutchPoints, NBC Sports Philadelphia, Metro Philadelphia). NYK: no injuries listed.\nROSTERS/CHEMISTRY: PHI projected starters are Maxey, Edgecombe, Jaylen Brown, LeBron, Embiid; LeBron (24th season) and Brown are new, so there is a chemistry ramp, and LeBron had limited preseason minutes. Frontcourt depth is very thin behind Embiid. NYK, the defending champs (53-29, 16-3 in the playoffs, Finals over SAS), return Brunson, Hart, Bridges, Anunoby and Towns; Mitchell Robinson left for BOS and Andre Drummond is the backup C; Clarkson, Alvarado, Shamet and Diawara are depth (ESPN, NBA.com previews).\nCOACHING: Mike Brown's Knicks played at the league's slowest-tier pace (96.8) with a top-5 offense (119.8). Nurse's PHI ran a league-average pace (99.4) and may go small with Barlow out. Banner night at MSG on NBC.\nEXPERTS: Dimers has NYK 62.9-65.8% to win, projects 118-113 and sees value on PHI +4.5. SI, BettingPros and SBR take NYK -4.5; Pickswise takes PHI +4.5; TheLines takes PHI ML +150. SportsGambler and SBR lean Under 232/232.5. Props: Covers Brunson o26.5; BettingPros LeBron o30.5 PRA; SI Maxey o21.5; SBR LeBron u15.5 pts.\nH2H: four regular-season meetings in 2025-26; NYK swept PHI 4-0 in the 2026 East semis (Brunson 35/26/33/22)."
+  {
+   "desc": "New York Knicks -4.5",
+   "market": "spread",
+   "game": "Philadelphia 76ers @ New York Knicks",
+   "team": "NY",
+   "side": null,
+   "line": -4.5,
+   "odds": -108,
+   "book": "BettingPros consensus",
+   "fair": 0.504,
+   "books": 4,
+   "signals": {
+    "home": 0.55,
+    "season": 0.57,
+    "coaching": 0.53,
+    "injuries": 0.53,
+    "experts": 0.54,
+    "matchup": 0.48
+   },
+   "note": "Champions bring back their whole starting five against a new-look Philly team with thin frontcourt depth."
+  },
+  {
+   "desc": "K. Towns o6.5 rebounds",
+   "market": "prop",
+   "stat": "rebounds",
+   "player": "Karl-Anthony Towns",
+   "team": "NY",
+   "side": "over",
+   "line": 6.5,
+   "alt": true,
+   "main_line": 11.5,
+   "odds": -1400,
+   "book": "bet365",
+   "fair": 0.92,
+   "books": 1,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 11.9,
+    "sd": 3.8
+   },
+   "hit_rate": {
+    "rate": 0.933,
+    "sample": "2025-26 regular season, 70 of 75 games; 87 of 94 including playoffs"
+   },
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.6,
+    "injuries": 0.56,
+    "recent_form": 0.56
+   },
+   "note": "Towns had 7 or more rebounds in 93% of games, and PHI allowed the most fantasy points to centers last season."
+  },
+  {
+   "desc": "J. Brunson o19.5 points",
+   "market": "prop",
+   "stat": "points",
+   "player": "Jalen Brunson",
+   "team": "NY",
+   "side": "over",
+   "line": 19.5,
+   "alt": true,
+   "main_line": 26.5,
+   "odds": -650,
+   "book": "bet365",
+   "fair": 0.85,
+   "books": 1,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 26.0,
+    "sd": 8.1
+   },
+   "hit_rate": {
+    "rate": 0.797,
+    "sample": "2025-26 regular season, 59 of 74 games; 74 of 93 including playoffs"
+   },
+   "signals": {
+    "season": 0.5,
+    "matchup": 0.54,
+    "recent_form": 0.56,
+    "coaching": 0.52
+   },
+   "note": "This is the lowest published Brunson points rung, but it hit only 80% of the time against an 86.7% implied price, so it is a negative-EV filler."
+  },
+  {
+   "desc": "J. Brunson o26.5 points",
+   "market": "prop",
+   "stat": "points",
+   "player": "Jalen Brunson",
+   "team": "NY",
+   "side": "over",
+   "line": 26.5,
+   "alt": false,
+   "odds": -105,
+   "book": "LasVegasSportsBetting.com listing",
+   "fair": 0.479,
+   "books": 3,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 26.0,
+    "sd": 8.1
+   },
+   "hit_rate": {
+    "rate": 0.514,
+    "sample": "2025-26 regular season, 38 of 74 games with 27+ points"
+   },
+   "signals": {
+    "season": 0.5,
+    "matchup": 0.53,
+    "recent_form": 0.55,
+    "experts": 0.5
+   },
+   "note": "This is a main-line fallback, since no 93% rung is priced; Covers likes it over and ATS.io's model leans under."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "K. Towns o6.5 rebounds",
+   "J. Brunson o19.5 points"
+  ],
+  "odds": -424,
+  "odds_note": "No SGP quote was found. This is the uncorrelated product of the two bet365 ladder prices (-1400 x -650), and a real SGP would likely be priced shorter.",
+  "true_prob": 0.76,
+  "implied_prob": 0.809,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Players with usage of 24% or more (2025-26 B-Ref): Brunson 30.4 (PG), Towns 25.9 (C), Maxey 29.4 (PG), Embiid 33.5 (C), J. Brown 36.2 (BOS, SF), LeBron 27.2 (LAL, SF/PF). Bottom-10 DvP check (RotoGrinders, FanDuel FPPG, rank 1 = most allowed): PHI ranks PG 10th and C 1st, so Brunson and Towns qualify. NYK ranks PG 14th, SG 17th, SF 23rd, PF 26th and C 23rd, so every Sixer fails.",
+  "unpriced_93pct_rungs": "Brunson o11.5 pts (95.9%), o0.5 reb (94.6%), o2.5 ast (95.9%); Towns o9.5 pts (93.3%), o0.5 ast (100%). No public alt price was found for any of these, so they were dropped. The published ladders start at 20+ points and 7+ assists.",
+  "note": "The only priced leg that clears 93% is Towns 7+ rebounds, and its -1400 price already implies 93.3%, so there is no positive edge. This is the best available version and is not highlighted."
+ },
+ "research": "TOTALS (NBA.md method): average possessions = (NYK 96.8 + PHI 99.4)/2 = 98.1. NYK = avg(119.8 ORtg x 0.981 = 117.5, PHI 115.5 DRtg x 0.981 = 113.3) = 115.4. PHI = avg(115.4 x 0.981 = 113.2, NYK 113.3 DRtg x 0.981 = 111.1) = 112.2. Projected total 227.6 vs DK 231.5 (232-232.5 elsewhere); projected margin NYK +3.2 before home court. Source: Basketball-Reference 2025-26 team advanced stats. Caveat: PHI's offense should improve with LeBron and Brown, which is why the under is a lean rather than strong.\nUSAGE (2025-26, opening week, so last season's numbers): Brunson 30.4%, Towns 25.9%, Maxey 29.4%, Embiid 33.5% (38 games), Jaylen Brown 36.2% (BOS), LeBron 27.2% (LAL). Expect Maxey, Brown, LeBron and Embiid to cannibalize each other's usage; books cut Maxey to 21.5 and LeBron to 15.5 (DK).\nDvP (RotoGrinders cheat sheet, FanDuel FPPG): PHI allowed C 55.3 (1st, most), PF 3rd, SG 4th, SF 7th, PG 10th. NYK: PG 14th, SG 17th, SF 23rd, PF 26th, C 23rd, so it is tough on every position.\nHIT RATES (B-Ref 2025-26 game logs): Brunson 26.0/3.3/6.8 in 74 games: 12+ pts 95.9%, 20+ 79.7%, 1+ reb 94.6%, 3+ ast 95.9%, 7+ ast 54.1%. Towns 20.1/11.9/2.9 in 75 games: 10+ pts 93.3%, 7+ reb 93.3% (92.6% with playoffs), 10+ reb 78.7%, 1+ ast 100%.\nPRICES: bet365 news ladders: Brunson 20+ -650, 25+ -190, 30+ +140; 7+ ast -120. Towns reb ladder 5/7/10/13 (garbled; read as -6600/-1400/-300/+120, matching the separate 13+ +120 quote); Towns 20+ pts +110. Embiid 20+ pts -225. FanDuel Research: Brunson o6.5 ast -118. SportsGambler: Brunson 26.5 -114/-120, Towns u18.5 pts -127 (BetMGM), Towns o11.5 reb -115. Game: DK NY -4.5, 231.5 (o-112/u-108), ML -180/+150; bet365 NY -4.5 -112, 232.5, ML -182/+152; Pinnacle Under 232 -106 via SBR.\nINJURIES: PHI: Barlow OUT (lumbar bone stress, re-evaluated in 2 weeks), Tacko Fall OUT, Hukporti OUT (torn Achilles); Simons (hamstring, missed all preseason), Bona (foot; practiced fully Sunday) and Dean Wade (ankle) questionable. Embiid and LeBron are NOT listed (ClutchPoints, NBC Sports Philadelphia, Metro Philadelphia). NYK: no injuries listed.\nROSTERS/CHEMISTRY: PHI projected starters are Maxey, Edgecombe, Jaylen Brown, LeBron, Embiid; LeBron (24th season) and Brown are new, so there is a chemistry ramp, and LeBron had limited preseason minutes. Frontcourt depth is very thin behind Embiid. NYK, the defending champs (53-29, 16-3 in the playoffs, Finals over SAS), return Brunson, Hart, Bridges, Anunoby and Towns; Mitchell Robinson left for BOS and Andre Drummond is the backup C; Clarkson, Alvarado, Shamet and Diawara are depth (ESPN, NBA.com previews).\nCOACHING: Mike Brown's Knicks played at the league's slowest-tier pace (96.8) with a top-5 offense (119.8). Nurse's PHI ran a league-average pace (99.4) and may go small with Barlow out. Banner night at MSG on NBC.\nEXPERTS: Dimers has NYK 62.9-65.8% to win, projects 118-113 and sees value on PHI +4.5. SI, BettingPros and SBR take NYK -4.5; Pickswise takes PHI +4.5; TheLines takes PHI ML +150. SportsGambler and SBR lean Under 232/232.5. Props: Covers Brunson o26.5; BettingPros LeBron o30.5 PRA; SI Maxey o21.5; SBR LeBron u15.5 pts.\nH2H: four regular-season meetings in 2025-26; NYK swept PHI 4-0 in the 2026 East semis (Brunson 35/26/33/22).",
+ "prelock": "21:48Z: ESPN shows no Knicks injuries. PHI has Fall and Barlow out, and Wade, Bona and Simons day-to-day; Embiid, Maxey, George and Brown are not listed. DK: NY -4.5 (-105), total 231.5 (u -108)."
 }

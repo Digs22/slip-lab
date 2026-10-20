@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-20: vs Boston Celtics
+### 2026-10-20: vs Boston Celtics (final: BOS 113, DET 121)
 
 Projection 223.8 tops DraftKings' 219.5, so Over is the lean; Cade's usage SGP is unpriced, no edge confirmed. Most likely winner: Cade Cunningham o6.5 assists.
 
@@ -37,8 +37,8 @@ Legs considered:
 - C. Cunningham o4.5 rebounds: Averaged about 6 rebounds a game last season.
 
 Our bets:
-- straight: J. Tatum u26.5 points (-112): Active (no designation) -> **pending**
-- straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**
-- best: C. Cunningham o19.5 points (-380): active (no designation) / C. Cunningham o4.5 rebounds (-200): active (no designation) / C. Cunningham o6.5 assists (-500): Active (not on injury report) -> **pending**
-- straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**
-- longshot: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**
+- straight: J. Tatum u26.5 points (-112): Active (no designation) -> **win**
+- straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **loss**
+- best: C. Cunningham o19.5 points (-380): active (no designation) / C. Cunningham o4.5 rebounds (-200): active (no designation) / C. Cunningham o6.5 assists (-500): Active (not on injury report) -> **loss**
+- straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **loss**
+- longshot: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **loss**

@@ -29,16 +29,23 @@
     {
       "split": "play",
       "name": "best",
-      "roi": -38.2,
-      "n": 9,
+      "roi": -43.3,
+      "n": 10,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "market",
       "name": "mixed",
-      "roi": -48.2,
-      "n": 21,
+      "roi": -49.0,
+      "n": 22,
       "action": "Cut stake in half until ROI recovers"
+    },
+    {
+      "split": "market",
+      "name": "total",
+      "roi": 18.5,
+      "n": 14,
+      "action": "Working: keep full stake"
     },
     {
       "split": "league",
@@ -46,6 +53,13 @@
       "roi": -23.6,
       "n": 20,
       "action": "Cut stake in half until ROI recovers"
+    },
+    {
+      "split": "league",
+      "name": "MULTI",
+      "roi": 94.9,
+      "n": 9,
+      "action": "Working: keep full stake"
     },
     {
       "split": "league",
@@ -63,29 +77,29 @@
     }
   ],
   "loss_causes": {
-    "untagged": 8,
-    "bad read": 39,
+    "untagged": 9,
+    "bad read": 43,
     "variance": 1
   },
   "weights": {
     "projection": 1.15,
     "recent_form": 1.15,
     "season": 0.35,
-    "matchup": 0.75,
+    "matchup": 0.8,
     "home_away": 0.5,
     "rest_travel": 0.55,
     "weather": 0.7,
     "injuries": 0.8,
-    "coaching": 0.45,
+    "coaching": 0.4,
     "postseason": 0.35,
     "news": 0.45,
     "line_move": 0.55,
     "line_movement": 0.6,
-    "experts": 0.4,
+    "experts": 0.45,
     "home": 0.35,
     "trend": 0.45,
     "models": 0.5,
-    "history": 0.75,
+    "history": 0.7,
     "market": 0.6,
     "situational": 0.55,
     "game_script": 0.45,
@@ -104,7 +118,8 @@
     "jacobs_exempt_list_out": 0.45,
     "dal_extra_rest_10_days": 0.45,
     "park": 0.4,
-    "bullpen": 0.55
+    "bullpen": 0.55,
+    "usage": 0.5
   },
   "retrain": {
     "n": 1324,

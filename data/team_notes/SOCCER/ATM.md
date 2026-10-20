@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-20: at VfB Stuttgart
+### 2026-10-20: at VfB Stuttgart (final: ATM 1, VFB 1)
 
 Atlético arrive in far better form (LaLiga 7-1-1) than Stuttgart (Bundesliga 2-4), and money moved to Atlético; Under 3.5 is the leg most likely to win.
 
@@ -32,6 +32,6 @@ Legs considered:
 - Draw: Both sides attack-heavy this season and the draw drifted to +280/+290; no reason to back it.
 
 Our bets:
-- straight: Under 3.5 (-145): pending -> **pending**
-- straight: Under 3.5 (-145): pending -> **pending**
-- longshot: Under 3.5 (-145): pending -> **pending**
+- straight: Under 3.5 (-145): pending -> **win**
+- straight: Under 3.5 (-145): pending -> **win**
+- longshot: Under 3.5 (-145): pending -> **loss**

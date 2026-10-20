@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-20: vs Barcelona
+### 2026-10-20: vs Barcelona (final: BAR 2, PSG 4)
 
 Market is a near coin-flip (both +145) with a huge 4.5 total; both defences are depleted. Over 3.5 goals is the leg most likely to win, but no clear edge.
 
@@ -32,5 +32,5 @@ Legs considered:
 - Paris Saint-Germain ML: Home edge and fresh legs after weekend rotation, offset by the Mendes absence and split expert picks.
 
 Our bets:
-- straight (lean): Over 3.5 (-188): pending -> **pending**
-- longshot: Over 3.5 (-188): pending -> **pending**
+- straight (lean): Over 3.5 (-188): pending -> **win**
+- longshot: Over 3.5 (-188): pending -> **loss**
