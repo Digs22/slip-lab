@@ -259,9 +259,10 @@ def run_one(path):
                      f"{_legs_desc(b)}. Net {b['net']:+.2f}. " + _record(bets),
                      "white_check_mark" if b["status"] == "win" else "x")
 
-    # 4. Market lines between refreshes, and live legs, for watched open bets
+    # 4. Market lines between refreshes, and live legs, for watched open bets the user placed
+    # (user, 2026-10-20: no live lookups for games without a placed bet)
     games = {}
-    for b in [b for b in bets if b["status"] == "pending" and watched(b)]:
+    for b in [b for b in bets if b["status"] == "pending" and watched(b) and b.get("placed")]:
         for probe, legs in _games_of(b):
             try:
                 key = probe.get("event_id") or probe["game"]
