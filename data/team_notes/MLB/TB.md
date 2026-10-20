@@ -13,7 +13,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-19: vs Cleveland Guardians
+### 2026-10-19: vs Cleveland Guardians (final: CLE 3, TB 7)
 
 Cleveland must win with a bullpen game on tired arms after a no-off-day flight; Peralta (0.79 postseason ERA) starts for TB. Most likely winner: Tampa Bay Rays ML.
 
@@ -42,11 +42,11 @@ Legs considered:
 - F. Peralta o4.5 K: Peralta struck out six Guardians in Game 2, but he averages 4.3 strikeouts a start for Tampa Bay.
 
 Our bets:
-- straight: Under 6.5 (-105): pending -> **pending**
-- best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending / Under 6.5 (-105): pending -> **pending**
-- best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending -> **pending**
-- straight: Under 6.5 (-105): pending -> **pending**
-- longshot: Cleveland Guardians ML (+130): pending / Over 7 (+100): pending / S. Kwan o0.5 hits (-194): pending / F. Peralta u14.5 outs (-162): pending -> **pending**
+- straight: Under 6.5 (-105): pending -> **loss**
+- best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending / Under 6.5 (-105): pending -> **loss**
+- best: F. Peralta o14.5 outs (+125): Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect / Cleveland Guardians team total Under 2.5 (+110): pending -> **loss**
+- straight: Under 6.5 (-105): pending -> **loss**
+- longshot: Cleveland Guardians ML (+130): pending / Over 7 (+100): pending / S. Kwan o0.5 hits (-194): pending / F. Peralta u14.5 outs (-162): pending -> **loss**
 
 ### 2026-10-18: at Cleveland Guardians (final: TB 3, CLE 1)
 

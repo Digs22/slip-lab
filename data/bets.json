@@ -3837,13 +3837,17 @@
           "note": "Under 6.5 has hit in 8 of 11 meetings this year and Cleveland has 4 runs in two games.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "CLE 3, TB 7",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-CLETB-best",
@@ -3896,7 +3900,8 @@
           "note": "Peralta got 15+ outs in his last six regular-season starts and 18 in Game 2, and TB's top relievers are worn.",
           "status": "Confirmed probable (MLB StatsAPI, ESPN); threw 9 pitches in relief on 10/17, Cash says no effect",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "Cleveland Guardians team total Under 2.5",
@@ -3922,7 +3927,9 @@
           "note": "Peralta blanked Cleveland for six innings in Game 2, and the Guardians scored once in two of five games.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 6.5",
@@ -3948,13 +3955,17 @@
           "note": "Under 6.5 has hit in 8 of 11 meetings this year and Cleveland has 4 runs in two games.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 24.69
+      "to_win": 24.69,
+      "final": "CLE 3, TB 7",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-WSHSF-straight",
@@ -4007,13 +4018,17 @@
           "note": "Strongest edge: Daniels is Washington's main runner with Croskey-Merritt out, and trailing should add scrambles.",
           "status": "Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.79
+      "to_win": 15.79,
+      "final": "WSH 17, SF 23",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-TRAD-best",
@@ -4058,7 +4073,8 @@
           "league": "MLB",
           "matchup": "CLE @ TB",
           "start": "2026-10-20T00:00Z",
-          "date": "2026-10-19"
+          "date": "2026-10-19",
+          "result": "win"
         },
         {
           "desc": "Cleveland Guardians team total Under 2.5",
@@ -4089,7 +4105,9 @@
           "league": "MLB",
           "matchup": "CLE @ TB",
           "start": "2026-10-20T00:00Z",
-          "date": "2026-10-19"
+          "date": "2026-10-19",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "J. Daniels o37.5 rush yds",
@@ -4121,13 +4139,17 @@
           "league": "NFL",
           "matchup": "WSH @ SF",
           "start": "2026-10-20T00:15Z",
-          "date": "2026-10-19"
+          "date": "2026-10-19",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 23.61
+      "to_win": 23.61,
+      "final": "CLE 3-7 TB; CLE 3-7 TB; WSH 17-23 SF",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-POTD-MLB",
@@ -4171,13 +4193,17 @@
           "note": "Under 6.5 has hit in 8 of 11 meetings this year and Cleveland has 4 runs in two games.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 11.43
+      "to_win": 11.43,
+      "final": "CLE 3, TB 7",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-POTD-NFL",
@@ -4222,13 +4248,17 @@
           "note": "Strongest edge: Daniels is Washington's main runner with Croskey-Merritt out, and trailing should add scrambles.",
           "status": "Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return",
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 10.53
+      "to_win": 10.53,
+      "final": "WSH 17, SF 23",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-CLETB-longshot",
@@ -4255,10 +4285,10 @@
       "lean": false,
       "summary": "User-requested Guardians-leaning longshot: Cleveland wins a slugfest and chases Peralta early. This goes against our model's Under lean.",
       "weather": null,
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 15.41,
+      "to_win": 15.4,
       "legs": [
         {
           "desc": "Cleveland Guardians ML",
@@ -4277,7 +4307,9 @@
           "note": "Cleveland's lineup against a Rays team that has to close it out; this parlay needs the Guardians to win.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Over 7",
@@ -4296,7 +4328,8 @@
           "note": "A Cleveland win against Peralta most likely comes in a game where the bats break out.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "S. Kwan o0.5 hits",
@@ -4315,7 +4348,8 @@
           "note": "Kwan has a hit in 8 of his last 9 postseason games.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "F. Peralta u14.5 outs",
@@ -4334,10 +4368,13 @@
           "note": "If Cleveland is winning, Peralta is probably out before the 5th inning ends.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss"
         }
       ],
-      "user_request": true
+      "user_request": true,
+      "final": "CLE 3, TB 7",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-19-WSHSF-longshot",
@@ -4364,8 +4401,8 @@
       "lean": false,
       "summary": "User-requested MNF longshot: an SF cover in a high-scoring game, with Daniels running and McCaffrey catching.",
       "weather": "61\u00b0F, wind 13 mph, 0% rain",
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
       "to_win": 19.2,
       "legs": [
@@ -4386,7 +4423,9 @@
           "note": "Unbeaten SF at home against a defense allowing nearly 30 points a game.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Over 52.5",
@@ -4405,7 +4444,9 @@
           "note": "Washington's defense is a pass funnel, and Quinn's teams trend Over as underdogs.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "J. Daniels o37.5 rush yds",
@@ -4424,7 +4465,9 @@
           "note": "Ran 9-103-2 last week, and Washington's lead RB is out.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "C. McCaffrey o38.5 rec yds",
@@ -4443,10 +4486,13 @@
           "note": "With Deebo out and Evans questionable, more targets go to McCaffrey.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "user_request": true
+      "user_request": true,
+      "final": "WSH 17, SF 23",
+      "cause": "bad read"
     }
   ]
 }

@@ -28,24 +28,24 @@
   "flags": [
     {
       "split": "play",
-      "name": "straight",
-      "roi": 23.8,
-      "n": 32,
-      "action": "Working: keep full stake"
-    },
-    {
-      "split": "market",
-      "name": "mixed",
-      "roi": -42.5,
-      "n": 17,
+      "name": "best",
+      "roi": -38.2,
+      "n": 9,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "market",
-      "name": "total",
-      "roi": 28.3,
-      "n": 9,
-      "action": "Working: keep full stake"
+      "name": "mixed",
+      "roi": -48.2,
+      "n": 21,
+      "action": "Cut stake in half until ROI recovers"
+    },
+    {
+      "split": "league",
+      "name": "MLB",
+      "roi": -23.6,
+      "n": 20,
+      "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "league",
@@ -57,37 +57,37 @@
     {
       "split": "league",
       "name": "NFL",
-      "roi": -26.9,
-      "n": 17,
+      "roi": -36.2,
+      "n": 20,
       "action": "Cut stake in half until ROI recovers"
     }
   ],
   "loss_causes": {
-    "untagged": 7,
-    "bad read": 27,
+    "untagged": 8,
+    "bad read": 39,
     "variance": 1
   },
   "weights": {
-    "projection": 1.2,
-    "recent_form": 1.25,
-    "season": 0.4,
-    "matchup": 0.85,
+    "projection": 1.15,
+    "recent_form": 1.15,
+    "season": 0.35,
+    "matchup": 0.75,
     "home_away": 0.5,
     "rest_travel": 0.55,
     "weather": 0.7,
-    "injuries": 0.85,
+    "injuries": 0.8,
     "coaching": 0.45,
     "postseason": 0.35,
     "news": 0.45,
     "line_move": 0.55,
     "line_movement": 0.6,
-    "experts": 0.55,
+    "experts": 0.4,
     "home": 0.35,
     "trend": 0.45,
     "models": 0.5,
-    "history": 0.85,
-    "market": 0.65,
-    "situational": 0.6,
+    "history": 0.75,
+    "market": 0.6,
+    "situational": 0.55,
     "game_script": 0.45,
     "opponent_defense": 0.55,
     "hook_over_key_number_3": 0.55,
@@ -102,40 +102,46 @@
     "espn_fpi_dal_by_0_6": 0.45,
     "dal_cb_durant_out_jpj_questionable": 0.55,
     "jacobs_exempt_list_out": 0.45,
-    "dal_extra_rest_10_days": 0.45
+    "dal_extra_rest_10_days": 0.45,
+    "park": 0.4,
+    "bullpen": 0.55
   },
   "retrain": {
-    "n": 1308,
+    "n": 1324,
     "accepted": false,
     "factors": [
+      "coaching",
       "experts",
+      "history",
       "injuries",
       "matchup",
       "projection",
       "recent_form",
       "season"
     ],
-    "held_out": 393,
-    "logloss_new": 0.6832,
-    "logloss_current": 0.6832,
-    "logloss_market": 0.6797,
+    "held_out": 398,
+    "logloss_new": 0.686,
+    "logloss_current": 0.686,
+    "logloss_market": 0.6824,
     "weights": {
-      "experts": 0.544,
-      "injuries": 0.852,
-      "matchup": 0.831,
-      "projection": 1.182,
-      "recent_form": 1.247,
-      "season": 0.384
+      "coaching": 0.442,
+      "experts": 0.393,
+      "history": 0.748,
+      "injuries": 0.802,
+      "matchup": 0.731,
+      "projection": 1.132,
+      "recent_form": 1.15,
+      "season": 0.334
     },
     "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 1308,
-      "model_logloss": 0.6852,
-      "market_logloss": 0.6845,
+      "n": 1324,
+      "model_logloss": 0.6853,
+      "market_logloss": 0.6843,
       "beats_market": false,
-      "picked_n": 90,
-      "picked_hit": 0.411,
-      "picked_expected": 0.46
+      "picked_n": 95,
+      "picked_hit": 0.4,
+      "picked_expected": 0.462
     }
   }
 }

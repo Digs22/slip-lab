@@ -12,7 +12,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-19: vs Washington Commanders
+### 2026-10-19: vs Washington Commanders (final: WSH 17, SF 23)
 
 Bosa and Deebo are ruled out, Evans is a game-time call, and Washington is without lead RB Croskey-Merritt. Most likely to win: 49ers ML. Best edge: Daniels rushing over.
 
@@ -35,7 +35,7 @@ Legs considered:
 - J. Daniels o37.5 rush yds: Strongest edge: Daniels is Washington's main runner with Croskey-Merritt out, and trailing should add scrambles.
 
 Our bets:
-- straight (lean): J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
-- best: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
-- straight: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **pending**
-- longshot: San Francisco 49ers -7.5 (-102): pending / Over 52.5 (-105): pending / J. Daniels o37.5 rush yds (-114): pending / C. McCaffrey o38.5 rec yds (-111): pending -> **pending**
+- straight (lean): J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **loss**
+- best: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **loss**
+- straight: J. Daniels o37.5 rush yds (-114): Active starter: full practice, no designation; wears an elbow brace and ran 9-103-2 in his return -> **loss**
+- longshot: San Francisco 49ers -7.5 (-102): pending / Over 52.5 (-105): pending / J. Daniels o37.5 rush yds (-114): pending / C. McCaffrey o38.5 rec yds (-111): pending -> **loss**
