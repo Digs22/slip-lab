@@ -1,0 +1,47 @@
+{
+ "summary": "Atlético arrive in far better form (LaLiga 7-1-1) than Stuttgart (Bundesliga 2-4), and money moved to Atlético; Under 3.5 is the leg most likely to win.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Atlético Madrid ML",
+   "team": "Atlético Madrid",
+   "side": null,
+   "line": null,
+   "odds": 105,
+   "book": "DraftKings",
+   "fair": 0.468,
+   "books": 2,
+   "signals": {"season": 0.53, "recent_form": 0.52, "matchup": 0.51, "home": 0.43, "experts": 0.49, "line_movement": 0.5},
+   "note": "Atlético's form and shot dominance beat Stuttgart's leaky league start, but the market has already moved to +105."
+  },
+  {
+   "market": "total",
+   "desc": "Under 3.5",
+   "team": null,
+   "side": "under",
+   "line": 3.5,
+   "odds": -145,
+   "book": "DraftKings",
+   "fair": 0.56,
+   "books": 1,
+   "signals": {"season": 0.6, "coaching": 0.58, "matchup": 0.5, "experts": 0.5, "line_movement": 0.53},
+   "note": "Under 3.5 cashed in 8 of 11 Atlético games and 5 of 8 Stuttgart games, but Stuttgart games run open."
+  },
+  {
+   "market": "ml",
+   "desc": "Draw",
+   "team": null,
+   "side": null,
+   "line": null,
+   "odds": 290,
+   "book": "bet365",
+   "fair": 0.246,
+   "books": 2,
+   "signals": {"season": 0.22, "matchup": 0.23, "experts": 0.22, "history": 0.27},
+   "note": "Both sides attack-heavy this season and the draw drifted to +280/+290; no reason to back it."
+  }
+ ],
+ "research": "Form/xG: FBref/Understat/Opta xG could not be fetched (blocked); ESPN box scores used as proxy. Atlético LaLiga 7W-1D-1L, 19-8, ~17 shots for vs ~10 against, 60-70% possession lately (1-0 at Espanyol Oct 17). Stuttgart Bundesliga 2W-4L, 8-10, conceding 20+ shots to Bayern, Hoffenheim and Paderborn; lost 1-0 at Hamburg Oct 17 despite 24 shots.\nLeague phase (ESPN standings): Stuttgart 4th, 2-0-0, GD +5 (3-1 Viking, 3-0 at Slovan Bratislava); Atlético 15th, 1-0-1 (lost 2-1 at Liverpool, beat Man United 2-0).\nInjuries/lineups: Squawka reports no fresh injury or suspension concerns for either side; predicted Stuttgart 3-2-4-1 (Demirović, Undav, Stiller), Atlético 4-4-2 (Julián Álvarez, Baena, Barrios, Lookman). Not confirmed.\nTactics: Simeone's Atlético control games and suppress shots; Hoeneß's Stuttgart press and play open, which makes their games high-event.\nHead-to-head: only one meeting, a 1-1 friendly in Stuttgart, Aug 2018 (ESPN).\nVenue/travel: MHPArena, Stuttgart (~60k, loud night crowd); short ~2h flight from Madrid, no real travel edge.\nRotation: both played Saturday (Oct 17) and have 3 days' rest; Stuttgart host Gladbach Fri Oct 23, so low rotation risk either way.\nExperts: Squawka picks Atlético, 1-2 correct score, BTTS and Over 2.5; Squawka's Signal model gives Atlético ~38% (no edge); Kickoff.co.uk model ~39/22/38 with ~1.8 goals per side; Kalshi market has Atlético ~45%; WinComparator listed 3.00/3.60/2.20 with no pick yet.\nLine movement (ESPN/DraftKings): Atlético +125 to +105, Stuttgart +190 to +235, draw +270 to +280; Over 3.5 +130 to +115, Under -170 to -145. bet365: 23/10, 29/10, 1/1; goal line 3.25 (O 19/20, U 9/10).\nFair (de-vigged, DraftKings + bet365 avg): Stuttgart 0.285, Draw 0.246, Atlético 0.468; Under 3.5 0.56 (DraftKings only).\nCaveat: web previews conflicted on dates and numbers; ESPN data was treated as the most reliable source."
+}

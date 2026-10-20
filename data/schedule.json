@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:57-04:00",
+ "generated": "2026-10-20T13:03-04:00",
  "games": [
   {
    "id": "401915403",
@@ -18,9 +18,9 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
    "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium",
    "city": "Istanbul",
-   "detail": "11'",
-   "away_score": 0.0,
-   "home_score": 1.0,
+   "detail": "16'",
+   "away_score": 1.0,
+   "home_score": 2.0,
    "home_conf": null,
    "away_conf": null,
    "odds": {
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
    "venue": "Baku Olympic Stadium",
    "city": "Baku",
-   "detail": "12'",
+   "detail": "17'",
    "away_score": 1.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -117,7 +117,7 @@
     "spread": "ROMA -900",
     "total": 3.5,
     "home_ml": -900,
-    "away_ml": 2200,
+    "away_ml": 2000,
     "book": "DraftKings"
    }
   },
@@ -237,7 +237,7 @@
     "spread": "NAP -140",
     "total": 2.5,
     "home_ml": -140,
-    "away_ml": 360,
+    "away_ml": 370,
     "book": "DraftKings"
    }
   },
@@ -685,7 +685,7 @@
    "away_conf": null,
    "odds": {
     "spread": "SA -1.5",
-    "total": 229.5,
+    "total": 230.5,
     "home_ml": -112,
     "away_ml": -108,
     "book": "DraftKings"
@@ -1998,156 +1998,6 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {}
-  },
-  {
-   "id": "401884761",
-   "league": "SOCCER",
-   "date": "2026-10-23",
-   "start": "2026-10-23T18:30Z",
-   "status": "pre",
-   "game": "BMG @ VFB",
-   "away": "BMG",
-   "home": "VFB",
-   "away_id": "268",
-   "home_id": "134",
-   "away_name": "Borussia M\u00f6nchengladbach",
-   "home_name": "VfB Stuttgart",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-   "venue": "MHPArena",
-   "city": "Stuttgart",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "VFB -280",
-    "total": 3.5,
-    "home_ml": -280,
-    "away_ml": 500,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401874957",
-   "league": "SOCCER",
-   "date": "2026-10-23",
-   "start": "2026-10-23T18:45Z",
-   "status": "pre",
-   "game": "MON @ TOR",
-   "away": "MON",
-   "home": "TOR",
-   "away_id": "4007",
-   "home_id": "239",
-   "away_name": "Monza",
-   "home_name": "Torino",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-   "venue": "Stadio Olimpico Grande Torino",
-   "city": "Torino",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "TOR +110",
-    "total": 2.5,
-    "home_ml": 110,
-    "away_ml": 220,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401876428",
-   "league": "SOCCER",
-   "date": "2026-10-23",
-   "start": "2026-10-23T18:45Z",
-   "status": "pre",
-   "game": "NICE @ BRE",
-   "away": "NICE",
-   "home": "BRE",
-   "away_id": "2502",
-   "home_id": "6997",
-   "away_name": "Nice",
-   "home_name": "Brest",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "venue": "Stade Francis-Le Bl\u00e9",
-   "city": "Brest",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "BRE +120",
-    "total": 2.5,
-    "home_ml": 120,
-    "away_ml": 220,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401879253",
-   "league": "SOCCER",
-   "date": "2026-10-23",
-   "start": "2026-10-23T19:00Z",
-   "status": "pre",
-   "game": "NFO @ IPS",
-   "away": "NFO",
-   "home": "IPS",
-   "away_id": "393",
-   "home_id": "373",
-   "away_name": "Nottingham Forest",
-   "home_name": "Ipswich Town",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-   "venue": "Portman Road",
-   "city": "Ipswich",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "NFO +125",
-    "total": 2.5,
-    "home_ml": 200,
-    "away_ml": 125,
-    "book": "DraftKings"
-   }
-  },
-  {
-   "id": "401882836",
-   "league": "SOCCER",
-   "date": "2026-10-23",
-   "start": "2026-10-23T19:00Z",
-   "status": "pre",
-   "game": "MCF @ ALA",
-   "away": "MCF",
-   "home": "ALA",
-   "away_id": "99",
-   "home_id": "96",
-   "away_name": "M\u00e1laga",
-   "home_name": "Alav\u00e9s",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-   "venue": "Mendizorrotza",
-   "city": "Vitoria-Gasteiz",
-   "detail": "Scheduled",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {
-    "spread": "ALA -130",
-    "total": 2.5,
-    "home_ml": -130,
-    "away_ml": 370,
-    "book": "DraftKings"
-   }
   },
   {
    "id": "401909848",
@@ -7222,5 +7072,8 @@
    "odds": {}
   }
  ],
- "problems": []
+ "problems": [
+  "SOCCER 2026-10-22: https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+  "SOCCER 2026-10-23: https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard: <urlopen error _ssl.c:1015: The handshake operation timed out>"
+ ]
 }
