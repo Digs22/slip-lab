@@ -180,7 +180,7 @@ def _implied(odds):
 
 def _games_of(b):
     """(lookup bet, legs) per game a bet touches; a Traditional slip spans several games."""
-    if b.get("kind") != "traditional":
+    if b.get("kind") not in ("traditional", "longshot"):
         return [(b, b["legs"])]
     by = {}
     for l in b["legs"]:

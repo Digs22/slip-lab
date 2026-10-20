@@ -41,3 +41,4 @@ Our bets:
 - straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**
 - best: C. Cunningham o19.5 points (-380): active (no designation) / C. Cunningham o4.5 rebounds (-200): active (no designation) / C. Cunningham o6.5 assists (-500): Active (not on injury report) -> **pending**
 - straight: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**
+- longshot: J. Tatum o8.5 rebounds (-114): Active (no designation) -> **pending**

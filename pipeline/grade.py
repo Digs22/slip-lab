@@ -109,7 +109,7 @@ def grade_all(bets: list[dict]) -> list[dict]:
     """Settle every pending bet whose game is final. Returns the bets that changed."""
     changed, cache = [], {}
     for bet in [b for b in bets if b["status"] == "pending"]:
-        if bet.get("kind") == "traditional":
+        if bet.get("kind") in ("traditional", "longshot"):
             if _grade_traditional(bet, cache):
                 changed.append(bet)
             continue

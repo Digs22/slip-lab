@@ -34,3 +34,4 @@ Legs considered:
 Our bets:
 - straight (lean): New York Knicks -4.5 (-108): pending -> **pending**
 - best: K. Towns o6.5 rebounds (-1400): Active (not on injury report) / J. Brunson o19.5 points (-650): Active (not on injury report) -> **pending**
+- longshot: New York Knicks -4.5 (-108): pending -> **pending**

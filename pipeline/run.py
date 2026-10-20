@@ -203,6 +203,36 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
     return added
 
 
+def record_daily_longshot(date: str, bets: list[dict]) -> list[dict]:
+    """The Longshot section (user, 2026-10-20): one parlay of the day's best pick from every game with picks.
+    Each game's straight is its best pick. Builds once at least 2 games have straights, and rebuilds until
+    an hour before the first game."""
+    bid = f"{date}-LONG-longshot"
+    existing = next((b for b in bets if b["id"] == bid), None)
+    if existing and (existing["status"] != "pending" or existing.get("placed") or (existing.get("start") and locked(existing["start"]))):
+        return []
+    straights = sorted((b for b in bets if b.get("kind") == "sgp" and b.get("date") == date and b["play"] == "straight"
+                        and b["status"] == "pending" and b.get("start")), key=lambda b: b["start"])
+    if existing:
+        bets.remove(existing)
+    if len(straights) < 2:
+        return []
+    legs, dec, prob = [], 1.0, 1.0
+    for b in straights:
+        l = b["legs"][0]
+        legs.append({k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
+                                            "prob", "edge", "signals", "note", "status", "alt", "main_line")}
+                    | {"event_id": b.get("event_id"), "league": b["league"], "matchup": b["game"], "start": b["start"], "date": date})
+        dec *= 1 + (l["odds"] / 100 if l["odds"] > 0 else 100 / -l["odds"])
+        prob *= l.get("prob") or b.get("prob") or 0.5
+    bet = {"id": bid, "kind": "longshot", "date": date, "league": "MULTI",
+           "game": f"Longshot · {len(legs)} games", "start": straights[0]["start"], "play": "longshot",
+           "odds": round((dec - 1) * 100), "units": config.PLAYS["longshot"], "prob": round(prob, 4), "ev": round(prob * dec - 1, 4),
+           "legs": legs}
+    ledger.add(bets, bet)
+    return [bet]
+
+
 def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) -> list[dict]:
     """Pick of the Day: the best single bet in each league, logged as a straight bet."""
     added = []
@@ -270,6 +300,7 @@ def daily(date: str | None = None, only_ids: set | None = None):
         trad = builder.build_traditional(sc, sgp_straights, sgp_use)
         added += record_traditional(d, trad, bets, prune=not only_ids)
         added += record_potd(d, builder.pick_of_day(sc), bets, prune=not only_ids)
+        added += record_daily_longshot(d, bets)
         scored += sc; problems += [f"{d}: {m}" for m in pr]; picks += pk
     try:
         schedule()
@@ -482,7 +513,7 @@ def logos(bets: list[dict]) -> dict:
         cache = {}
     recent = sorted({b["date"] for b in bets})[-4:]
     for b in bets:
-        if (b["status"] != "pending" and b["date"] not in recent) or b.get("kind") == "traditional":
+        if (b["status"] != "pending" and b["date"] not in recent) or b.get("kind") in ("traditional", "longshot"):
             continue
         away, home = [x.strip().split(",")[0] for x in b["game"].split(",")[0].split("@")]
         for abbr, url in ((away, b.get("away_logo")), (home, b.get("home_logo"))):
