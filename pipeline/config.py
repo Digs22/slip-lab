@@ -18,7 +18,7 @@ LOCK_BEFORE_MIN = 60  # picks are final this many minutes before first pitch / k
 LOCK_OVERRIDE = {"2026-10-17T16:00Z": 30}  # one-time (user, 2026-10-17): noon games lock at 11:30 AM ET
 GAMES_PER_DAY = 8  # most games with plays per day; the app's slider picks how many you bet
 POTD_UNITS = 4  # Pick of the Day: one straight bet per league, sized like a straight
-ALWAYS_PICK = {"NCAAF", "NFL", "MLB"}  # user: every toggled, researched game gets a pick, edge or not (marked a lean); NCAAF 2026-10-17, NFL and MLB 2026-10-18
+ALWAYS_PICK = {"NCAAF", "NFL", "MLB", "NBA"}  # user: every toggled, researched game gets a pick, edge or not (marked a lean); NCAAF 2026-10-17, NFL and MLB 2026-10-18, NBA 2026-10-20 ("pick the best possible picks anyway")
 MIN_GAME_SCORE = 0.02  # sum of edge x win chance over a game's best 4 legs
 
 UNIT = 3.0  # dollars

@@ -133,8 +133,47 @@ def record_plays(date: str, picks: list[dict], bets: list[dict]) -> list[dict]:
             if _duplicate(bets, bet):
                 continue
             ledger.add(bets, bet)
+        if g["league"] == "NBA":
+            _usage_sgp(gdate, g, p, rank, bets)
             added.append(bet)
     return added
+
+
+def _usage_sgp(gdate: str, g: dict, p: dict, rank: int, bets: list[dict]) -> None:
+    """The user's NBA usage SGP (NBA.md, 2026-10-20) takes the game's Best parlay slot: 24%+ usage players
+    against bottom-10 position defenses, 93% alt lines. "highlight" marks one whose true chance beats the price."""
+    path = config.DATA / "analyst" / f"{gdate}-{g['id']}.json"
+    try:
+        a = json.loads(path.read_text())
+    except (FileNotFoundError, ValueError):
+        return
+    sgp = a.get("sgp") or {}
+    pool = {l["desc"]: l for l in a.get("extra_legs", [])}
+    legs = [pool[d] for d in sgp.get("legs", []) if d in pool and pool[d].get("odds")]
+    if len(legs) < 2:
+        return
+    bid = f"{gdate}-{g['away']}{g['home']}-best"
+    existing = next((b for b in bets if b["id"] == bid), None)
+    if existing and (existing["status"] != "pending" or existing.get("placed") or locked(g["start"])):
+        return
+    dec = 1.0
+    for l in legs:
+        dec *= 1 + (l["odds"] / 100 if l["odds"] > 0 else 100 / -l["odds"])
+    odds = sgp.get("odds") or round((dec - 1) * 100)
+    prob = sgp.get("true_prob")
+    if existing:
+        bets.remove(existing)
+    ledger.add(bets, {
+        "id": bid, "kind": "sgp", "date": gdate, "league": g["league"], "event_id": g["id"],
+        "game": f"{g['away']} @ {g['home']}", "start": g["start"], "play": "best",
+        "venue": g.get("venue"), "city": g.get("city"), "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
+        "odds": odds, "units": config.PLAYS["best"], "prob": prob,
+        "ev": round(prob * (1 + (odds / 100 if odds > 0 else 100 / -odds)) - 1, 4) if prob else None,
+        "provisional": p["provisional"], "score": p.get("score"), "rank": rank, "lean": False,
+        "highlight": bool(sgp.get("edge")), "usage_sgp": True, "summary": p.get("analyst"),
+        "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book",
+                                         "fair", "prob", "edge", "signals", "note", "status", "alt", "main_line")} for l in legs],
+    })
 
 
 def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: bool = True) -> list[dict]:
