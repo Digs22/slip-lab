@@ -170,7 +170,7 @@ def _usage_sgp(gdate: str, g: dict, p: dict, rank: int, bets: list[dict]) -> Non
         "odds": odds, "units": config.PLAYS["best"], "prob": prob,
         "ev": round(prob * (1 + (odds / 100 if odds > 0 else 100 / -odds)) - 1, 4) if prob else None,
         "provisional": p["provisional"], "score": p.get("score"), "rank": rank, "lean": False,
-        "highlight": bool(sgp.get("edge")), "usage_sgp": True, "summary": p.get("analyst"),
+        "highlight": bool(sgp.get("highlight", sgp.get("edge"))), "usage_sgp": True, "summary": p.get("analyst"),
         "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book",
                                          "fair", "prob", "edge", "signals", "note", "status", "alt", "main_line")} for l in legs],
     })
