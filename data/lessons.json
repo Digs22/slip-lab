@@ -122,7 +122,7 @@
     "usage": 0.5
   },
   "retrain": {
-    "n": 1324,
+    "n": 1339,
     "accepted": false,
     "factors": [
       "coaching",
@@ -134,29 +134,29 @@
       "recent_form",
       "season"
     ],
-    "held_out": 398,
-    "logloss_new": 0.686,
-    "logloss_current": 0.686,
-    "logloss_market": 0.6824,
+    "held_out": 402,
+    "logloss_new": 0.6865,
+    "logloss_current": 0.6865,
+    "logloss_market": 0.6828,
     "weights": {
-      "coaching": 0.442,
-      "experts": 0.393,
-      "history": 0.748,
+      "coaching": 0.392,
+      "experts": 0.444,
+      "history": 0.698,
       "injuries": 0.802,
-      "matchup": 0.731,
-      "projection": 1.132,
+      "matchup": 0.781,
+      "projection": 1.133,
       "recent_form": 1.15,
-      "season": 0.334
+      "season": 0.335
     },
     "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 1324,
-      "model_logloss": 0.6853,
-      "market_logloss": 0.6843,
+      "n": 1339,
+      "model_logloss": 0.6849,
+      "market_logloss": 0.6839,
       "beats_market": false,
-      "picked_n": 95,
-      "picked_hit": 0.4,
-      "picked_expected": 0.462
+      "picked_n": 97,
+      "picked_hit": 0.402,
+      "picked_expected": 0.464
     }
   }
 }

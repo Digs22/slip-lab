@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "generated": "2026-10-20T17:48-04:00",
+  "generated": "2026-10-20T20:17-04:00",
   "games_scanned": 1,
   "problems": [
     "2026-10-20: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
@@ -8,16 +8,16 @@
   "upcoming": [],
   "games": [
     {
-      "id": "401909089",
+      "id": "401909090",
       "league": "NBA",
-      "game": "PHI @ NY",
-      "start": "2026-10-20T23:00Z",
-      "venue": "Madison Square Garden",
+      "game": "OKC @ SA",
+      "start": "2026-10-21T01:30Z",
+      "venue": "Frost Bank Center",
       "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-      "summary": "Knicks open their title defense at -4.5 against a rebuilt LeBron/Jaylen Brown Sixers team. Our efficiency projection is 227.6, under the 231.5 total. Most likely winner: K. Towns o6.5 rebounds."
+      "score": 0.0228,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "summary": "No 24%+ usage player draws a bottom-10 DvP, so the SGA SGP has no edge. Total projects 233.3 against 229.5. Most likely winner: SGA o5.5 assists."
     }
   ]
 }
