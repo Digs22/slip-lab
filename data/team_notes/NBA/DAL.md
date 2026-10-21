@@ -27,12 +27,12 @@ ESPN/Action Network pages were blocked and the search budget ran out before US-o
 History: the teams met twice in the October 2026 preseason (China); Dallas won one 132-115, and preseason results carry little weight.
 
 Legs considered:
-- Dallas Mavericks +8.5: Model has HOU by about 6.6 with home court; Kyrie's return isn't in last season's numbers, but Lively and Aldama are out.
+- Dallas Mavericks +9.5: Model has HOU by about 6.6 with home court; Kyrie's return isn't in last season's numbers, but Lively and Aldama are out. (Line moved to +9.5 by 6:45 PM.)
 - K. Durant o15.5 points: Usage SGP points leg; DAL allowed 7th-most fantasy points to forwards, and VanVleet's return barely dents Durant's shots.
 - A. Sengun o11.5 points: Dallas is without Lively (foot) and Aldama (knee), which thins the bigs guarding Sengun.
 - A. Sengun o4.5 rebounds: Elite-big rebound overs have held, and DAL allowed 6th-most fantasy points to centers without Lively.
 
 Our bets:
-- straight (lean): Dallas Mavericks +8.5 (-110): pending -> **pending**
-- best: K. Durant o15.5 points (-650): Active / A. Sengun o11.5 points (-600): Active / A. Sengun o4.5 rebounds (-900): Active -> **pending**
 - longshot: Dallas Mavericks +8.5 (-110): pending -> **pending**
+- straight (lean): Dallas Mavericks +9.5 (-102): pending -> **pending**
+- best: K. Durant o15.5 points (-650): Active / A. Sengun o11.5 points (-600): Active / A. Sengun o4.5 rebounds (-900): Active -> **pending**

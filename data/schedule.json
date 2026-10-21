@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T17:49-04:00",
+ "generated": "2026-10-21T18:46-04:00",
  "games": [
   {
    "id": "401915395",
@@ -266,8 +266,8 @@
    "odds": {
     "spread": "ORL -2.5",
     "total": 233.5,
-    "home_ml": -135,
-    "away_ml": 114,
+    "home_ml": -130,
+    "away_ml": 110,
     "book": "DraftKings"
    }
   },
@@ -296,8 +296,8 @@
    "odds": {
     "spread": "WSH -4.5",
     "total": 238.5,
-    "home_ml": -180,
-    "away_ml": 150,
+    "home_ml": -175,
+    "away_ml": 145,
     "book": "DraftKings"
    }
   },
@@ -324,10 +324,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CIN -170",
+    "spread": "CIN -200",
     "total": 3.5,
-    "home_ml": -170,
-    "away_ml": 340,
+    "home_ml": -200,
+    "away_ml": 400,
     "book": "DraftKings"
    }
   },
@@ -356,8 +356,8 @@
    "odds": {
     "spread": "MIA -1.5",
     "total": 240.5,
-    "home_ml": -122,
-    "away_ml": 102,
+    "home_ml": -118,
+    "away_ml": -102,
     "book": "DraftKings"
    }
   },
@@ -534,7 +534,7 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "IND -3.5",
+    "spread": "IND -2.5",
     "total": 238.5,
     "home_ml": 120,
     "away_ml": -142,
@@ -565,9 +565,9 @@
    "away_conf": "Conference USA",
    "odds": {
     "spread": "NMSU -3",
-    "total": 47.5,
-    "home_ml": 124,
-    "away_ml": -148,
+    "total": 46.5,
+    "home_ml": 130,
+    "away_ml": -155,
     "book": "DraftKings"
    }
   },
@@ -2470,8 +2470,8 @@
    "odds": {
     "spread": "NU -16.5",
     "total": 58.5,
-    "home_ml": -750,
-    "away_ml": 525,
+    "home_ml": -800,
+    "away_ml": 550,
     "book": "DraftKings"
    }
   },
@@ -3387,9 +3387,9 @@
    "away_conf": "Sun Belt",
    "odds": {
     "spread": "TROY -14",
-    "total": 51.5,
-    "home_ml": -700,
-    "away_ml": 500,
+    "total": 50.5,
+    "home_ml": -675,
+    "away_ml": 490,
     "book": "DraftKings"
    }
   },
@@ -3416,10 +3416,10 @@
    "home_conf": "Mountain West",
    "away_conf": "Mountain West",
    "odds": {
-    "spread": "NEV -5.5",
+    "spread": "NEV -6",
     "total": 46.5,
-    "home_ml": -218,
-    "away_ml": 180,
+    "home_ml": -225,
+    "away_ml": 185,
     "book": "DraftKings"
    }
   },
@@ -3561,7 +3561,7 @@
    "away_conf": "Pac-12",
    "odds": {
     "spread": "BOIS -13.5",
-    "total": 51.5,
+    "total": 52.5,
     "home_ml": 410,
     "away_ml": -550,
     "book": "DraftKings"
@@ -4798,8 +4798,8 @@
    "odds": {
     "spread": "PIT -3.5",
     "total": 44.5,
-    "home_ml": 154,
-    "away_ml": -185,
+    "home_ml": 150,
+    "away_ml": -180,
     "book": "DraftKings"
    }
   },
@@ -5308,8 +5308,8 @@
    "odds": {
     "spread": "SF -3",
     "total": 49.5,
-    "home_ml": 130,
-    "away_ml": -155,
+    "home_ml": 136,
+    "away_ml": -162,
     "book": "DraftKings"
    }
   },
@@ -6328,8 +6328,8 @@
    "odds": {
     "spread": "DAL -4.5",
     "total": 44.5,
-    "home_ml": 185,
-    "away_ml": -225,
+    "home_ml": 180,
+    "away_ml": -218,
     "book": "DraftKings"
    }
   },

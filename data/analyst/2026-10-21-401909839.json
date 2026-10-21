@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Under 239.5",
+   "desc": "Under 238.5",
    "game": "Indiana Pacers @ New Orleans Pelicans",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 239.5,
-   "odds": -112,
-   "book": "FanDuel (under price estimated from o-108)",
-   "fair": 0.5,
+   "line": 238.5,
+   "odds": -105,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.489,
    "books": 4,
    "signals": {
     "totals_model": 0.6,
@@ -20,18 +20,18 @@
     "roster": 0.44,
     "injuries": 0.53
    },
-   "note": "Projection 235.5 (NO 118.7 + IND 116.8 at 103.65 poss) is 4.0 under FD; Haliburton's return is the risk."
+   "note": "Projection 235.5 (NO 118.7 + IND 116.8 at 103.65 poss) is 4.0 under FD; Haliburton's return is the risk. (Line moved to 238.5 by 6:45 PM.)"
   },
   {
-   "desc": "New Orleans Pelicans +3.5",
+   "desc": "New Orleans Pelicans +2.5",
    "game": "Indiana Pacers @ New Orleans Pelicans",
    "market": "spread",
    "team": "NO",
    "side": null,
-   "line": 3.5,
-   "odds": -107,
-   "book": "BetRivers",
-   "fair": 0.493,
+   "line": 2.5,
+   "odds": -102,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.483,
    "books": 3,
    "signals": {
     "totals_model": 0.57,
@@ -39,7 +39,7 @@
     "roster": 0.44,
     "injuries": 0.52
    },
-   "note": "Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean."
+   "note": "Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean. (Line moved to +2.5 by 6:45 PM.)"
   },
   {
    "desc": "P. Siakam o11.5 points",

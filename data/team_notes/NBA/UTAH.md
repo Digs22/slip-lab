@@ -35,6 +35,6 @@ Legs considered:
 - J. Jackson Jr. o7.5 points: Faces his former team; a low line protects against a minutes cap after knee surgery.
 
 Our bets:
+- longshot: Under 240.5 (-110): pending -> **pending**
 - straight: Under 240.5 (-110): pending -> **pending**
 - best: L. Markkanen o13.5 points (-700): Starting / L. Markkanen o2.5 rebounds (-1000): Starting / J. Jackson Jr. o7.5 points (-1000): Starting (back from Feb knee surgery) -> **pending**
-- longshot: Under 240.5 (-110): pending -> **pending**

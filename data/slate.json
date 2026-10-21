@@ -1,24 +1,12 @@
 {
   "date": "2026-10-21",
-  "generated": "2026-10-21T17:49-04:00",
-  "games_scanned": 11,
+  "generated": "2026-10-21T18:46-04:00",
+  "games_scanned": 3,
   "problems": [
     "2026-10-21: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
-    {
-      "id": "401909092",
-      "league": "NBA",
-      "game": "GS @ LAL",
-      "start": "2026-10-22T02:00Z",
-      "venue": "crypto.com Arena",
-      "provisional": true,
-      "score": 0.0557,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-      "summary": "Luka and Curry qualify, but the SGP shows no edge once Curry's ankle is priced in. Total projects 229.5 vs 234.5. Most likely winner: L. Doncic o21.5 points."
-    },
     {
       "id": "401909838",
       "league": "NBA",
@@ -30,78 +18,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
       "summary": "Markkanen and JJJ face Memphis's 3rd-most-generous forward defense, but there is no quoted SGP price, so no edge is shown. Total projects 242.4 vs 241.5, no lean. Most likely winner: L. Markkanen o13.5 points."
-    },
-    {
-      "id": "401909834",
-      "league": "NBA",
-      "game": "ATL @ ORL",
-      "start": "2026-10-21T23:00Z",
-      "venue": "Kia Center",
-      "provisional": true,
-      "score": 0.0123,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "summary": "McCollum's usage SGP qualifies (ORL 10th vs guards) but has no edge, and the total projects 231.5 vs 234.5. Most likely winner: Jalen Johnson o5.5 rebounds."
-    },
-    {
-      "id": "401909842",
-      "league": "NBA",
-      "game": "SAC @ LAC",
-      "start": "2026-10-22T02:30Z",
-      "venue": "Intuit Dome",
-      "provisional": true,
-      "score": 0.0123,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-      "summary": "Garland is the only qualifier, and his 93% SGP is priced far too short to have an edge. Total projects 228.1 vs 228.5, so there is no total play. Most likely winner: D. Garland o9.5 points."
-    },
-    {
-      "id": "401909835",
-      "league": "NBA",
-      "game": "MIL @ WSH",
-      "start": "2026-10-21T23:00Z",
-      "venue": "Capital One Arena",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-      "summary": "Herro/Trae/Davis usage SGP qualifies but has no edge, and the total projects 231.8 vs 239.5 (Under leg). Most likely winner: Herro o13.5 points."
-    },
-    {
-      "id": "401909091",
-      "league": "NBA",
-      "game": "MIN @ MIA",
-      "start": "2026-10-21T23:30Z",
-      "venue": "Kaseya Center",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-      "summary": "Edwards/Ball usage SGP qualifies (MIA 3rd vs guards) but has no edge; total projects 235.2 vs 241.5, so the Under is a leg. Most likely winner: Edwards o1.5 rebounds."
-    },
-    {
-      "id": "401909836",
-      "league": "NBA",
-      "game": "CHA @ BKN",
-      "start": "2026-10-21T23:30Z",
-      "venue": "Barclays Center",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-      "summary": "No 24%+ usage player draws a bottom-10 DvP, so only a best-possible SGP is posted; total projects 223.7 vs 219.5 (Over leg). Most likely winner: MPJ o1.5 rebounds."
-    },
-    {
-      "id": "401909837",
-      "league": "NBA",
-      "game": "CHI @ TOR",
-      "start": "2026-10-21T23:30Z",
-      "venue": "Scotiabank Arena",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-      "summary": "Kawhi and Barrett qualify for the usage SGP against Chicago's soft forward and guard defense, but there is no quoted price, so no edge is shown. Total projects 233.6 vs 236.5. Most likely winner: K. Leonard o14.5 points."
     },
     {
       "id": "401909839",
@@ -126,18 +42,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
       "summary": "Durant and Sengun face Dallas's generous forward and center defense; the SGP looks favorable at estimated prices but has no quote. Total projects 232.8 vs 229.5. Most likely winner: A. Sengun o4.5 rebounds."
-    },
-    {
-      "id": "401909841",
-      "league": "NBA",
-      "game": "PHX @ POR",
-      "start": "2026-10-22T02:00Z",
-      "venue": "Moda Center",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-      "summary": "Brooks qualifies and the Brooks+Booker SGP shows a thin estimated edge, but it is not highlighted because Booker's DvP gate is unconfirmed. Total projects 226.6 vs 231.5. Most likely winner: D. Booker o15.5 points."
     }
   ]
 }

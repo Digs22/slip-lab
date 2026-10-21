@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Dallas Mavericks +8.5",
+   "desc": "Dallas Mavericks +9.5",
    "game": "Dallas Mavericks @ Houston Rockets",
    "market": "spread",
    "team": "DAL",
    "side": null,
-   "line": 8.5,
-   "odds": -110,
-   "book": "Estimated (NBC DFW/Fox list 8.5 without prices)",
-   "fair": 0.5,
+   "line": 9.5,
+   "odds": -102,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.483,
    "books": 2,
    "signals": {
     "totals_model": 0.56,
@@ -21,7 +21,7 @@
     "experts": 0.46,
     "home": 0.47
    },
-   "note": "Model has HOU by about 6.6 with home court; Kyrie's return isn't in last season's numbers, but Lively and Aldama are out."
+   "note": "Model has HOU by about 6.6 with home court; Kyrie's return isn't in last season's numbers, but Lively and Aldama are out. (Line moved to +9.5 by 6:45 PM.)"
   },
   {
    "desc": "K. Durant o15.5 points",

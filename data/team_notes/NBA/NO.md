@@ -27,13 +27,13 @@ Props: Zion pts 20.5 (o-108/u-127 SportsGambler); Haliburton pts 18.5, ast 8.5; 
 ESPN/Action Network pages were blocked; data from search snippets. Team notes files for IND/NO do not exist.
 
 Legs considered:
-- Under 239.5: Projection 235.5 (NO 118.7 + IND 116.8 at 103.65 poss) is 4.0 under FD; Haliburton's return is the risk.
-- New Orleans Pelicans +3.5: Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean.
+- Under 238.5: Projection 235.5 (NO 118.7 + IND 116.8 at 103.65 poss) is 4.0 under FD; Haliburton's return is the risk. (Line moved to 238.5 by 6:45 PM.)
+- New Orleans Pelicans +2.5: Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean. (Line moved to +2.5 by 6:45 PM.)
 - P. Siakam o11.5 points: NO allowed 4th-most fantasy points to forwards; a low alt survives the usage Haliburton takes back.
 - P. Siakam o2.5 rebounds: Low rebound alt; NO allowed the 4th-most rebounds to forwards.
 - D. Murray o7.5 points: IND allowed 3rd-most fantasy points to guards, but Murray's toe and small sample keep this below 93%.
 
 Our bets:
-- straight (lean): New Orleans Pelicans +3.5 (-107): pending -> **pending**
-- best: P. Siakam o11.5 points (-900): Starting / P. Siakam o2.5 rebounds (-1200): Starting / D. Murray o7.5 points (-800): Expected to play (toe) -> **pending**
 - longshot: New Orleans Pelicans +3.5 (-107): pending -> **pending**
+- straight (lean): New Orleans Pelicans +2.5 (-102): pending -> **pending**
+- best: P. Siakam o11.5 points (-900): Starting / P. Siakam o2.5 rebounds (-1200): Starting / D. Murray o7.5 points (-800): Expected to play (toe) -> **pending**
