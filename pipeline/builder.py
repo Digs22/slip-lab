@@ -58,6 +58,10 @@ def _parlay(legs):
             "ev": round(p * dec - 1, 4)}
 
 
+def _straight_ok(l: dict) -> bool:
+    return l.get("odds") is None or l["odds"] >= config.STRAIGHT_MAX_FAV
+
+
 def build_plays(scored: dict) -> dict | None:
     legs = scored["legs"][:12]
     if not legs:  # one or two edges still make a straight (and maybe a safer); parlays need the legs to exist
@@ -76,7 +80,7 @@ def build_plays(scored: dict) -> dict | None:
             theses[t] += 1
 
     # Straight: best edge among likely winners; in low-total games prefer the Under or a prop.
-    pool = [l for l in legs if l["prob"] >= 0.5]
+    pool = [l for l in legs if l["prob"] >= 0.5 and _straight_ok(l)]
     if scored.get("low_total"):
         pool = [l for l in pool if l.get("side") == "under" or l["market"] == "prop"] or pool
     if not pool:
@@ -152,7 +156,8 @@ def pick_top_games(scored_games: list[dict], n: int = config.GAMES_PER_DAY) -> l
 def _lean(g: dict) -> dict | None:
     """No edge, but the user wants a pick for every game: the researched leg closest to an edge, straight only.
     Value first, not win chance: the most likely winner is often a -350 moneyline that loses money."""
-    pool = [l for l in g.get("evaluated", []) if l.get("note") and l["prob"] >= 0.5]
+    ev = [l for l in g.get("evaluated", []) if l.get("note") and _straight_ok(l)]
+    pool = [l for l in ev if l["prob"] >= 0.5] or ev  # a near coin flip beats a -3900 alt that pays nothing
     if not pool:
         return None
     s = max(pool, key=lambda l: (l["edge"], l["prob"]))
@@ -215,7 +220,7 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
         return max((priced(c) for c in cands), key=key, default=None)
 
     plays = {}
-    singles = [l for l in pool if l["prob"] >= 0.5 and _key(l) not in (sgp_straights or set())]
+    singles = [l for l in pool if l["prob"] >= 0.5 and _straight_ok(l) and _key(l) not in (sgp_straights or set())]
     singles = [l for l in singles if ok([l])]  # the day-wide 2-bet cap applies to the straight too
     if singles:
         s1 = max(singles, key=lambda l: (l["prob"], l["edge"]))  # most likely winner, like the game straights
@@ -256,7 +261,7 @@ def pick_of_day(scored_games: list[dict]) -> dict:
         for l in g["legs"]:
             leg = l | {"event_id": g["game"]["id"], "league": lg, "start": g["game"].get("start"),
                        "matchup": f"{g['game']['away']} @ {g['game']['home']}", "_game": g["game"]}
-            score = (l["prob"], l["edge"]) if l["prob"] >= 0.5 else None
+            score = (l["prob"], l["edge"]) if l["prob"] >= 0.5 and _straight_ok(l) else None
             if score and (lg not in best or score > best[lg][0]):
                 best[lg] = (score, leg)
     return {lg: leg for lg, (_, leg) in best.items()}

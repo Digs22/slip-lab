@@ -200,6 +200,15 @@
   "league": "NFL",
   "start": "2026-10-20T00:15Z"
  },
+ "401873010": {
+  "away": "NE",
+  "away_name": "New England Patriots",
+  "date": "2026-10-23",
+  "home": "CHI",
+  "home_name": "Chicago Bears",
+  "league": "NFL",
+  "start": "2026-10-23T00:15Z"
+ },
  "401908025": {
   "away": "TB",
   "away_name": "Tampa Bay Rays",
@@ -302,6 +311,24 @@
   "home_name": "Los Angeles Lakers",
   "league": "NBA",
   "start": "2026-10-22T02:00Z"
+ },
+ "401909093": {
+  "away": "CLE",
+  "away_name": "Cleveland Cavaliers",
+  "date": "2026-10-22",
+  "home": "PHI",
+  "home_name": "Philadelphia 76ers",
+  "league": "NBA",
+  "start": "2026-10-22T23:00Z"
+ },
+ "401909094": {
+  "away": "DEN",
+  "away_name": "Denver Nuggets",
+  "date": "2026-10-23",
+  "home": "OKC",
+  "home_name": "Oklahoma City Thunder",
+  "league": "NBA",
+  "start": "2026-10-23T01:30Z"
  },
  "401909834": {
   "away": "ATL",

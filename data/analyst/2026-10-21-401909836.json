@@ -1,0 +1,161 @@
+{
+ "summary": "No 24%+ usage player draws a bottom-10 DvP, so only a best-possible SGP is posted; total projects 223.7 vs 219.5 (Over leg). Most likely winner: MPJ o1.5 rebounds.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Over 219.5",
+   "game": "Charlotte Hornets @ Brooklyn Nets",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 219.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.55,
+    "experts": 0.55,
+    "injuries": 0.44,
+    "market_move": 0.45
+   },
+   "note": "Projection 223.7 (CHA 115.6 + BKN 108.1 at 96.95 poss) is 4.2 over, but CHA's rating includes three absent guards."
+  },
+  {
+   "desc": "Charlotte Hornets +1.5",
+   "game": "Charlotte Hornets @ Brooklyn Nets",
+   "market": "spread",
+   "team": "CHA",
+   "side": null,
+   "line": 1.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 5,
+   "signals": {
+    "season": 0.56,
+    "experts": 0.55,
+    "totals_model": 0.6,
+    "injuries": 0.42,
+    "home": 0.46,
+    "market_move": 0.43
+   },
+   "note": "Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out."
+  },
+  {
+   "desc": "M. Porter Jr. o9.5 points",
+   "market": "prop",
+   "player": "Michael Porter Jr.",
+   "team": "BKN",
+   "stat": "points",
+   "side": "over",
+   "line": 9.5,
+   "odds": -3900,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.946,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 23.5,
+    "sd": 7.5
+   },
+   "hit_rate": {
+    "value": 0.942,
+    "sample": "2025-26, 49 of 52 games (24.2 ppg); preseason 16, 22, 27"
+   },
+   "alt": true,
+   "main_line": 23.5,
+   "signals": {
+    "season": 0.97,
+    "matchup": 0.936,
+    "role": 0.961
+   },
+   "note": "Best-possible SGP leg (no qualifier): CHA was 24th in forward FPPG allowed, but his volume carries the floor rung."
+  },
+  {
+   "desc": "M. Porter Jr. o1.5 rebounds",
+   "market": "prop",
+   "player": "Michael Porter Jr.",
+   "team": "BKN",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 1.5,
+   "odds": -3900,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.977,
+   "books": 0,
+   "status": "Active",
+   "projection": {
+    "mu": 6.8,
+    "sd": 3.2
+   },
+   "hit_rate": {
+    "value": 0.981,
+    "sample": "2025-26, 51 of 52 games; preseason 5, 4, 1"
+   },
+   "alt": true,
+   "main_line": 6.5,
+   "signals": {
+    "season": 0.97,
+    "matchup": 0.967,
+    "recent_form": 0.942
+   },
+   "note": "Most likely winner: 2+ rebounds in 51 of 52 games last season."
+  },
+  {
+   "desc": "B. Miller o6.5 points",
+   "market": "prop",
+   "player": "Brandon Miller",
+   "team": "CHA",
+   "stat": "points",
+   "side": "over",
+   "line": 6.5,
+   "odds": -3900,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.956,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 23.0,
+    "sd": 7.0
+   },
+   "hit_rate": {
+    "value": 0.954,
+    "sample": "2025-26, 62 of 65 games; preseason 16, 18, 15 in 23-27 min"
+   },
+   "alt": true,
+   "main_line": 24.5,
+   "signals": {
+    "season": 0.97,
+    "role": 0.97,
+    "matchup": 0.946
+   },
+   "note": "With Knueppel, White and LaMelo gone, Miller's role grows; SI's main line is o24.5 at -114."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "M. Porter Jr. o9.5 points",
+   "M. Porter Jr. o1.5 rebounds",
+   "B. Miller o6.5 points"
+  ],
+  "odds": null,
+  "true_prob": 0.82,
+  "implied_prob": 0.927,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "None: Miller (28.1%) vs BKN forwards 15th, Porter Jr. (30.5%) and Randle (26.5%) vs CHA forwards 24th. Coby White (28.8%) is out; no guard on either side reaches 24% usage.",
+  "note": "Best-possible version only (no qualifier); hit rates multiply to 0.88, shrunk to 0.82. No SGP or alt price was posted, so the implied 0.927 (about -1270) is the product of estimated leg prices; no edge, so no highlight.",
+  "odds_estimate": -1270
+ },
+ "totals_projection": {
+  "possessions": 96.95,
+  "CHA": 115.6,
+  "BKN": 108.1,
+  "total": 223.7,
+  "line": 219.5,
+  "math": "CHA avg(119.4,119.0)*0.9695=115.6; BKN avg(108.7,114.4)*0.9695=108.1; sum 223.7"
+ },
+ "research": "Usage (BBR 2025-26): Porter Jr. 30.5% (52 g), Coby White 28.8% (out, calf), B. Miller 28.1%, Randle 26.5% (MIN; now BKN), Knueppel 22.3% (out), Naz Reid 22.1% (MIN; now CHA), Schroder 21.0%. LaMelo is gone to MIN, so Miller and Schroder carry CHA.\nDvP (my FanDuel computation from 1,231 ESPN 2025-26 box scores; rank 1 = most allowed): BKN vs G 8th, F 15th, C 10th. CHA vs G 22nd, F 24th, C 24th. Every 24%+ usage player here is a forward against a mid-pack or better defense, so no usage SGP qualifies.\nBest-possible SGP: MPJ o9.5 pts (94.2%) + o1.5 reb (98.1%) + Miller o6.5 pts (95.4%). Raw product 0.88, shrunk to 0.82. The estimated implied ~0.93 (about -1270; no SGP or alt prices posted) gives no edge, and it is not highlighted because no qualifier exists.\nProps found: Brandon Miller o24.5 pts -114 (SI best prop). His 2025-26 rate at 25+ was 27.7%, but his role jumps with three guards out. No MPJ or Randle lines surfaced.\nTotals (method, BBR 2025-26): pace avg (96.8 CHA, 97.1 BKN) = 96.95. CHA = avg(119.4, 119.0) x 0.9695 = 115.6. BKN = avg(108.7, 114.4) x 0.9695 = 108.1. Total 223.7 vs DK 219.5, 4.2 over, so the total goes in as a leg. Big caveat: CHA's 119.4 ORtg came with LaMelo, Knueppel and White, and none of them play tonight.\nScore model: CHA +7.5 before home court, about CHA -5.5. That is why CHA opened -4.5 (DK, Oct 12); the market now has BKN -1.5 after the injuries.\nInjuries (ESPN, Oct 21): CHA out Kon Knueppel (hamstring, whole preseason), Coby White (calf strain, whole preseason), Grant Williams (hamstring), Kylan Boswell (knee). Coach Charles Lee gave no timeline (Roundtable). BKN out Tyler Bilodeau (shoulder). One undated page listed Miller and Nolan Traore day-to-day, which I could not confirm.\nPreseason (ESPN boxes): CHA starters in the finale were Schroder, Miller, O'Neale, Reid and Diabate (Roundtable). Miller 16, 18, 15 pts; Reid 12-16; Schroder 3-6. BKN: MPJ 16, 22, 27; Randle 13-15 with 9 ast once; Demin and Ellis starting; rookie Mikel Brown Jr. 15 in 18 min.\nCoaching: both played slow in 2025-26 (CHA 96.8, BKN 97.1, both bottom-5 pace). Jordi Fernandez's Nets were 26th-30th in offense (108.7 ORtg).\nLines (ESPN/DK): BKN -1.5 (-112) / CHA +1.5 (-108), opened CHA -4.5; ML BKN -125 / CHA +105 (open +142/-170); total 219.5 o -112 / u -108 (open 226.5). Bleacher Nation BKN -2.5 and 219.5-220.5; SI BKN -3.5 and 218.5; Pick Dawgz BKN -2.5 and 218.5; PredScope market 218.5.\nExperts: iHeart/FOX model CHA 119-106 and Over 219.5 (224.6); Bleacher Nation CHA +2.5 and Over; ATS.io CHA 60% (114-108, total 222); ESPN BPI CHA 60%; Pick Dawgz and SportyTrader BKN; SI notes a big Miller usage bump.\nLast season: CHA 44-38 (+5.0 net rating), BKN 20-62 (-10.3). The gap is real, but tonight CHA is without its 2nd-4th best creators.\nChemistry: BKN added Randle (from MIN) next to MPJ, plus rookie guard Mikel Brown Jr. CHA added Naz Reid and Coby White, and lost LaMelo and Josh Green.\nHistory: CHA won the 2025-26 opener 136-117 (Miller 25 in his return, CBS); BKN beat CHA 124-90 in the 2026 preseason (ESPN).\nMost likely winner: MPJ o1.5 rebounds (51 of 52 games in 2025-26)."
+}

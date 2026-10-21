@@ -1,0 +1,158 @@
+{
+ "summary": "Siakam faces New Orleans's 4th-most-generous forward defense, but the SGP edge can't be shown without quotes. Total projects 235.5, 4.0 under FD 239.5, so the Under is a leg. Most likely winner: P. Siakam o11.5 points.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 239.5",
+   "game": "Indiana Pacers @ New Orleans Pelicans",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 239.5,
+   "odds": -112,
+   "book": "FanDuel (under price estimated from o-108)",
+   "fair": 0.5,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.6,
+    "market_move": 0.52,
+    "roster": 0.44,
+    "injuries": 0.53
+   },
+   "note": "Projection 235.5 (NO 118.7 + IND 116.8 at 103.65 poss) is 4.0 under FD; Haliburton's return is the risk."
+  },
+  {
+   "desc": "New Orleans Pelicans +3.5",
+   "game": "Indiana Pacers @ New Orleans Pelicans",
+   "market": "spread",
+   "team": "NO",
+   "side": null,
+   "line": 3.5,
+   "odds": -107,
+   "book": "BetRivers",
+   "fair": 0.493,
+   "books": 3,
+   "signals": {
+    "totals_model": 0.57,
+    "home": 0.54,
+    "roster": 0.44,
+    "injuries": 0.52
+   },
+   "note": "Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean."
+  },
+  {
+   "desc": "P. Siakam o11.5 points",
+   "market": "prop",
+   "player": "Pascal Siakam",
+   "team": "IND",
+   "stat": "points",
+   "side": "over",
+   "line": 11.5,
+   "odds": -900,
+   "book": "Estimated (no Siakam line found)",
+   "fair": 0.9,
+   "books": 0,
+   "status": "Starting",
+   "projection": {
+    "mu": 20.0,
+    "sd": 6.0
+   },
+   "hit_rate": {
+    "value": 0.93,
+    "sample": "Normal approx: 2025-26 24.0 ppg in 62 games, cut for Haliburton's return"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.6,
+    "role_change": 0.53
+   },
+   "note": "NO allowed 4th-most fantasy points to forwards; a low alt survives the usage Haliburton takes back."
+  },
+  {
+   "desc": "P. Siakam o2.5 rebounds",
+   "market": "prop",
+   "player": "Pascal Siakam",
+   "team": "IND",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 2.5,
+   "odds": -1200,
+   "book": "Estimated (no Siakam line found)",
+   "fair": 0.92,
+   "books": 0,
+   "status": "Starting",
+   "projection": {
+    "mu": 6.2,
+    "sd": 2.5
+   },
+   "hit_rate": {
+    "value": 0.93,
+    "sample": "Normal approx from 6.6 rpg (2025-26); Zubac now takes some boards"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.6,
+    "matchup": 0.58,
+    "role_change": 0.52
+   },
+   "note": "Low rebound alt; NO allowed the 4th-most rebounds to forwards."
+  },
+  {
+   "desc": "D. Murray o7.5 points",
+   "market": "prop",
+   "player": "Dejounte Murray",
+   "team": "NO",
+   "stat": "points",
+   "side": "over",
+   "line": 7.5,
+   "odds": -800,
+   "book": "Estimated (no Murray line found)",
+   "fair": 0.89,
+   "books": 0,
+   "status": "Expected to play (toe)",
+   "projection": {
+    "mu": 15.5,
+    "sd": 6.0
+   },
+   "hit_rate": {
+    "value": 0.91,
+    "sample": "Only 14 games in 2025-26 after an Achilles tear (26.9% usage); 2024-25 baseline 17.5 ppg"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.57,
+    "matchup": 0.6,
+    "injuries": 0.48
+   },
+   "note": "IND allowed 3rd-most fantasy points to guards, but Murray's toe and small sample keep this below 93%."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "P. Siakam o11.5 points",
+   "P. Siakam o2.5 rebounds",
+   "D. Murray o7.5 points"
+  ],
+  "odds": null,
+  "true_prob": 0.73,
+  "implied_prob": 0.73,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Siakam (F, 30.2% Screwball) vs NO forwards 4th; Murray (G, 26.9% in 14 g) vs IND guards 3rd. Failed: Zion 27.6% vs IND F 14th; Haliburton (no 2025-26 games) vs NO G 15th.",
+  "note": "Murray falls short of 93% (est 0.91); no SGP or alt quotes found, so the implied probability is estimated and there is no edge."
+ },
+ "totals_projection": {
+  "possessions": 103.65,
+  "NO": 118.7,
+  "IND": 116.8,
+  "total": 235.5,
+  "line": 239.5,
+  "math": "NO avg(111.4, 117.6 IND DRtg)*1.0365=118.7; IND avg(109.6, 115.7 NO DRtg)*1.0365=116.8; sum 235.5"
+ },
+ "research": "Lines: FanDuel (Bleacher Report) IND -3.5 (-112) / NO +3.5 (-108), o239.5 -108, IND ML -158 / NO +134; BetRivers IND -3.5 (-117) / NO +3.5 (-107), ML -175/+138, 242.5; DraftKings early NO +130 / IND -155, 242.5 (one 243.5 listing); Pickswise 239.5.\nThe total opened 242.5-243.5 and FanDuel is at 239.5, so the market is moving down toward the projection.\nInjuries: IND out Aaron Nesmith (L hamstring), T.J. McConnell (R hamstring), Johnny Furphy (ACL, season); Haliburton cleared for his first regular-season game since the Achilles tear; Jarace Walker off the report. NO: Murray (toe) plans to play; another listing shows no NO injuries.\nStarters: IND Haliburton, Nembhard, Oubre, Siakam, Zubac (Zubac and Oubre new); NO Murray, Mathurin (signed from IND), Bey, Zion, Queen. Trey Murphy III has a P+A prop at DK (Tony's Picks o23.5 -105), so he should play.\nCoaching: Rick Carlisle (IND) plays fast with a deep rotation; Jamahl Mosley is new in NO, and his rotation hierarchy is unclear (SI).\n2025-26: IND 19-63 without Haliburton (ORtg 110.9 29th, DRtg 118.8 per B-Ref/StatMuse, pace 101.0); NO 26-56 (115.5 for, 120.0 against).\nUsage (2025-26): Siakam 30.2% (Screwball, career high, will dip with Haliburton back); Zion 27.6% (Screwball, 36-game snapshot; 62 games total); Murray 26.9% in 14 games. Haliburton missed 2025-26 entirely.\nDvP (Legion Report 2025-26, DK, rank 1 = most): NO G 15th, F 4th, C 4th; IND G 3rd, F 14th, C 21st.\nSGP (normal approx, no logs reachable): Siakam 12+ pts ~0.93, 3+ reb ~0.93; Murray 8+ pts ~0.91. Raw 0.79, shrunk to 0.73; implied ~0.73 from estimated alt prices (~-270). No edge, not highlighted.\nAssists were skipped per the lesson, although Haliburton o8.5 ast is priced at -120 (SportsGambler) and -136 (SI), with SI noting NO ranked 25th in opponent assists.\nTotals (USU MACFAX adj. IND 109.6/117.6 pace 103.6; NO derived from 115.5/120.0 ppg at its 103.7 MACFAX pace = 111.4/115.7): avg poss 103.65. NO 118.7 + IND 116.8 = 235.5 vs 239.5 FD (4.0) and 242.5 DK/BetRivers (7.0), so the total is a leg under the 4-point rule.\nTotal risk: IND's 2025-26 offense had no Haliburton (in 2024-25 it ranked top 10 with him); with Zubac and Haliburton, IND's real offense is likely 3-5 points better, which would erase most of the under gap.\nModel margin NO +1.9 plus ~2 home court = NO ~4 vs NO +3.5. The same Haliburton caveat applies, so the spread is only a small lean.\nProps: Zion pts 20.5 (o-108/u-127 SportsGambler); Haliburton pts 18.5, ast 8.5; Murphy P+A 23.5 (DK). No Siakam line was found.\nESPN/Action Network pages were blocked; data from search snippets. Team notes files for IND/NO do not exist."
+}

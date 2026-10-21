@@ -1,0 +1,201 @@
+{
+ "summary": "Edwards/Ball usage SGP qualifies (MIA 3rd vs guards) but has no edge; total projects 235.2 vs 241.5, so the Under is a leg. Most likely winner: Edwards o1.5 rebounds.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 241.5",
+   "game": "Minnesota Timberwolves @ Miami Heat",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 241.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.58,
+    "experts": 0.57,
+    "pace": 0.47,
+    "market_move": 0.44
+   },
+   "note": "Projection 235.2 (MIN 117.9 + MIA 117.3 at 101.95 poss) is 6.3 under; SportsLine 236 and the iHeart model at 235.4 agree."
+  },
+  {
+   "desc": "A. Edwards o13.5 points",
+   "market": "prop",
+   "player": "Anthony Edwards",
+   "team": "MIN",
+   "stat": "points",
+   "side": "over",
+   "line": 13.5,
+   "odds": -2600,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.933,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 26.5,
+    "sd": 9.0
+   },
+   "hit_rate": {
+    "value": 0.934,
+    "sample": "2025-26, 57 of 61 games (28.8 ppg); preseason 14, 19, 26, 20"
+   },
+   "alt": true,
+   "main_line": 27.5,
+   "signals": {
+    "season": 0.97,
+    "matchup": 0.963,
+    "role": 0.933
+   },
+   "note": "MIA allowed the 3rd-most guard fantasy points; LaMelo takes some shots, so I use the floor rung."
+  },
+  {
+   "desc": "A. Edwards o1.5 rebounds",
+   "market": "prop",
+   "player": "Anthony Edwards",
+   "team": "MIN",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 1.5,
+   "odds": -3900,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.976,
+   "books": 0,
+   "status": "Active",
+   "projection": {
+    "mu": 4.8,
+    "sd": 2.2
+   },
+   "hit_rate": {
+    "value": 0.984,
+    "sample": "2025-26, 60 of 61 games; preseason 4, 1, 3, 0"
+   },
+   "alt": true,
+   "main_line": 4.5,
+   "signals": {
+    "season": 0.97,
+    "matchup": 0.97,
+    "recent_form": 0.941
+   },
+   "note": "Most likely winner: he got 2+ rebounds in 60 of 61 games, though preseason dips show it is not free."
+  },
+  {
+   "desc": "L. Ball o3.5 assists",
+   "market": "prop",
+   "player": "LaMelo Ball",
+   "team": "MIN",
+   "stat": "assists",
+   "side": "over",
+   "line": 3.5,
+   "odds": -2030,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.923,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 6.5,
+    "sd": 2.6
+   },
+   "hit_rate": {
+    "value": 0.931,
+    "sample": "2025-26 with CHA, 67 of 72 games; preseason 3, 7, 7, 6 with MIN"
+   },
+   "alt": true,
+   "main_line": 7.5,
+   "signals": {
+    "season": 0.953,
+    "role": 0.938,
+    "matchup": 0.943
+   },
+   "note": "He is the true point guard next to Edwards (ATS.io); the lowest 93% assists rung covers the shared-ball risk."
+  },
+  {
+   "desc": "L. Ball o10.5 points",
+   "market": "prop",
+   "player": "LaMelo Ball",
+   "team": "MIN",
+   "stat": "points",
+   "side": "over",
+   "line": 10.5,
+   "odds": -3900,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.946,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 18.0,
+    "sd": 6.5
+   },
+   "hit_rate": {
+    "value": 0.958,
+    "sample": "2025-26 with CHA, 69 of 72 games; preseason 11, 14, 10, 3"
+   },
+   "alt": true,
+   "main_line": 19.5,
+   "signals": {
+    "season": 0.97,
+    "role": 0.921,
+    "matchup": 0.966
+   },
+   "note": "Points legs have hit 3/3, but his usage drops next to Edwards, so this rung is shrunk hardest."
+  },
+  {
+   "desc": "R. Gobert o6.5 rebounds",
+   "market": "prop",
+   "player": "Rudy Gobert",
+   "team": "MIN",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 6.5,
+   "odds": -1180,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.892,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 10.0,
+    "sd": 3.0
+   },
+   "hit_rate": {
+    "value": 0.895,
+    "sample": "2025-26, 68 of 76 games (6+ in 73/76); preseason 7, 9, 3, 4 in ~20 min"
+   },
+   "alt": true,
+   "main_line": 10.5,
+   "signals": {
+    "season": 0.922,
+    "matchup": 0.872,
+    "recent_form": 0.867
+   },
+   "note": "Elite-big rebound over at a low rung; Giannis and Adebayo crowd the glass, so I kept it under the main line."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "A. Edwards o13.5 points",
+   "A. Edwards o1.5 rebounds",
+   "L. Ball o3.5 assists",
+   "L. Ball o10.5 points"
+  ],
+  "odds": null,
+  "true_prob": 0.72,
+  "implied_prob": 0.872,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Edwards (31.5%) and LaMelo (32.0% with CHA) vs MIA guards 3rd qualify. Edwards assists dropped because Ball takes the playmaking. Fail: Giannis (37.0%) vs MIN forwards 23rd, Adebayo (25.0%) vs MIN centers 17th.",
+  "note": "Hit rates multiply to 0.82, shrunk to 0.72 because two 31%+ usage guards now share the ball. No SGP or alt price was posted, so the implied 0.872 (about -680) is the product of estimated leg prices; no edge, so no highlight.",
+  "odds_estimate": -680
+ },
+ "totals_projection": {
+  "possessions": 101.95,
+  "MIN": 117.9,
+  "MIA": 117.3,
+  "total": 235.2,
+  "line": 241.5,
+  "math": "MIN avg(116.8,114.5)*1.0195=117.9; MIA avg(116.7,113.5)*1.0195=117.3; sum 235.2"
+ },
+ "research": "Usage (BBR 2025-26): Giannis 37.0% (36 g, MIL), LaMelo 32.0% (CHA), Edwards 31.5%, Adebayo 25.0%, Kuminga 23.4%. Offseason: Giannis and Portis to MIA for Herro, Ware, Jaquez, Jakucionis and picks (ESPN); LaMelo to MIN for Naz Reid (AP/NBA.com); Randle to BKN. Two 31%+ guards sharing the ball means both lines drop.\nDvP (my FanDuel computation from 1,231 ESPN 2025-26 box scores; rank 1 = most allowed): MIA vs G 3rd (121.5), F 19th, C 23rd. MIN vs G 14th, F 23rd, C 17th. Only the MIN guards qualify.\nLadders (2025-26): Edwards 14+ pts 93.4% (61 g), 2+ reb 98.4%, 2+ ast 93.4% (dropped: ATS.io likes his Under 3.5 assists at Polymarket 50c now that Ball runs the offense). LaMelo 11+ pts 95.8%, 4+ ast 93.1%, 2+ reb 94.4% (72 g).\nSGP: Edwards o13.5 pts + o1.5 reb + Ball o3.5 ast + o10.5 pts. Raw product 0.82, shrunk to 0.72 for the shared ball. In preseason Ball scored 3-14 and Edwards had 1-4 assists in 18-28 min. With no posted SGP or alt prices, the estimated implied ~0.87 (about -680) gives no edge.\nProps seen: Edwards pts 27.5 (-120) / 28.5 on a Covers page (unverified for tonight); Edwards Under 3.5 ast at Polymarket 50c (ATS.io).\nTotals (method, BBR 2025-26): pace avg (100.5 MIN, 103.4 MIA) = 101.95. MIN = avg(116.8, 114.5) x 1.0195 = 117.9. MIA = avg(116.7, 113.5) x 1.0195 = 117.3. Total 235.2 vs DK 241.5, 6.3 under (it is the most-moved total on the slate, up from 236.5). The total goes in as a leg.\nScore model: MIN +0.6 before home court, so about a pick'em; the market has MIA -1.5.\nInjuries (ESPN, Oct 21): MIN out Donte DiVincenzo (Achilles surgery, return ~April). MIA: Vladislav Goldin day-to-day (ankle). Adebayo missed two late preseason games with right groin tightness but is not on the report. Dru Smith (calf) is out per the AP preview.\nPreseason (ESPN boxes): Giannis 18/4/4, 20/15/9 in 24 min, 9/4/7; Adebayo only 3 games; Edwards 14-26 pts in 18-28 min; Ball 11/4/3, 14/4/7, 10/3/7, 3/2/6; Gobert 6-9 reb in ~20 min; McDaniels 22 in one start.\nProjected starters: MIN Ball, Edwards, Kuminga, McDaniels, Gobert (Bolavip). MIA has Giannis and Adebayo up front with D. Mitchell and Wiggins (preseason starts).\nCoaching: Spoelstra's Heat ran the league's fastest pace in 2025-26 (103.4); Finch's Wolves were 100.5 with a top-10 defense. Giannis debuts for Miami (CBS).\nLines (ESPN/DK): MIA -1.5 (-112) / MIN +1.5 (-108), opened -3.5; ML MIA -122 / MIN +102 (open -155/+130); total 241.5 o -105 / u -115 (open 236.5). CBS, Dimers and Bleacher Nation have 242.5; Action Network and iHeart 243.5. Action Network shows 74% of bets but 26% of money on MIN.\nExperts: WagerTalk MIA -1.5 and Under 242.5 (120-116); Lineups.com MIA 123-120; Dimers MIA 57%; CBS SportsLine model projects 236 total (Under); iHeart model Under 243.5 (235.4); TheSpread MIN +1.5; ESPN BPI MIA 51.5%.\nLast season: MIN 49-33 (118.0 ppg), MIA 43-39 (26-15 home).\nMost likely winner: Edwards o1.5 rebounds (60 of 61 games in 2025-26). Most of the value on this card is the Under, which has the model and two outside models behind it."
+}

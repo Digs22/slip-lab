@@ -1,0 +1,160 @@
+{
+ "summary": "Brooks qualifies and the Brooks+Booker SGP shows a thin estimated edge, but it is not highlighted because Booker's DvP gate is unconfirmed. Total projects 226.6 vs 231.5. Most likely winner: D. Booker o15.5 points.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 231.5",
+   "game": "Phoenix Suns @ Portland Trail Blazers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 231.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.58,
+    "market_move": 0.53,
+    "experts": 0.53,
+    "history": 0.45,
+    "pace": 0.48
+   },
+   "note": "Projection 226.6 (PHX 113.7 + POR 112.8 at 98.85 poss) is 4.9 under; DK already dropped from 236.5."
+  },
+  {
+   "desc": "Phoenix Suns +2.5",
+   "game": "Phoenix Suns @ Portland Trail Blazers",
+   "market": "spread",
+   "team": "PHX",
+   "side": null,
+   "line": 2.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.54,
+    "market_move": 0.55,
+    "injuries": 0.52,
+    "experts": 0.48,
+    "home": 0.45
+   },
+   "note": "Model has POR by only about 1 with home court, and the line fell from POR -4.5 to -2.5."
+  },
+  {
+   "desc": "D. Brooks o8.5 points",
+   "market": "prop",
+   "player": "Dillon Brooks",
+   "team": "PHX",
+   "stat": "points",
+   "side": "over",
+   "line": 8.5,
+   "odds": -1106,
+   "book": "Estimate (from 17.5 main, Bleacher Nation; 18.5 at Optimal Bet +100/-113)",
+   "fair": 0.889,
+   "books": 2,
+   "status": "Active",
+   "projection": {
+    "mu": 18.0,
+    "sd": 7.4
+   },
+   "hit_rate": {
+    "value": 0.946,
+    "sample": "2025-26 regular season, 53/56 games; 40/42 in games Booker played"
+   },
+   "alt": true,
+   "main_line": 17.5,
+   "signals": {
+    "season": 0.94,
+    "role": 0.92,
+    "matchup": 0.92
+   },
+   "note": "Portland allowed bottom-10 fantasy points to SFs, and he still scored 9+ in 40 of 42 games alongside Booker."
+  },
+  {
+   "desc": "D. Booker o15.5 points",
+   "market": "prop",
+   "player": "Devin Booker",
+   "team": "PHX",
+   "stat": "points",
+   "side": "over",
+   "line": 15.5,
+   "odds": -1096,
+   "book": "Estimate (from 24.5 main, Bleacher Nation)",
+   "fair": 0.888,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 25.0,
+    "sd": 7.4
+   },
+   "hit_rate": {
+    "value": 0.938,
+    "sample": "2025-26 regular season, 60/64 games"
+   },
+   "alt": true,
+   "main_line": 24.5,
+   "signals": {
+    "season": 0.93,
+    "role": 0.93,
+    "matchup": 0.91
+   },
+   "note": "Locked-in No. 1 option with 32.2% usage; points legs are 3/3 in graded usage SGPs."
+  },
+  {
+   "desc": "D. Booker o2.5 assists",
+   "market": "prop",
+   "player": "Devin Booker",
+   "team": "PHX",
+   "stat": "assists",
+   "side": "over",
+   "line": 2.5,
+   "odds": -984,
+   "book": "Estimate (from 5.5 main, Bleacher Nation)",
+   "fair": 0.877,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 6.0,
+    "sd": 2.6
+   },
+   "hit_rate": {
+    "value": 0.938,
+    "sample": "2025-26 regular season, 60/64 games"
+   },
+   "alt": true,
+   "main_line": 5.5,
+   "signals": {
+    "season": 0.93,
+    "role": 0.9,
+    "matchup": 0.88
+   },
+   "note": "Lowest useful assists alt; Phoenix's ball-handling runs through him with Green beside him."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "D. Brooks o8.5 points",
+   "D. Booker o15.5 points",
+   "D. Booker o2.5 assists"
+  ],
+  "odds": null,
+  "true_prob": 0.784,
+  "implied_prob": 0.763,
+  "edge": true,
+  "highlight": false,
+  "qualifiers": "Brooks (28.6% usage, SF) vs POR SF DvP 22nd/26th of 30 (Fantasy Team Advice, 30 = most allowed) qualifies. Booker (32.2%, SG) vs POR SG is split: 22nd in one snapshot, 14th in the other. Jalen Green (31.9%, SG) is split the same way. Morant (32.5%), Avdija (29.3%) and Lillard face PHX PG 7-8th and SF 6-11th (stingy), so they fail. Sharpe is out.",
+  "note": "Edge passes only on estimated alt prices (0.784 vs 0.763, about -322, no SGP quote). It is not highlighted because Booker's bottom-10 gate is unconfirmed and the parlay is shorter than -300."
+ },
+ "totals_projection": {
+  "possessions": 98.85,
+  "PHX": 113.7,
+  "POR": 112.8,
+  "total": 226.6,
+  "line": 231.5,
+  "math": "PHX avg(115.4 ORtg, 114.7 POR DRtg)*0.9885=113.7; POR avg(114.4, 113.9 PHX DRtg)*0.9885=112.8; sum 226.6 (2025-26 Basketball-Reference, pace 97.2/100.5)"
+ },
+ "research": "Season context: opener for both. 2025-26: PHX 45-37 (ORtg 115.4, DRtg 113.9, pace 97.2); POR 42-40 (114.4/114.7/100.5), lost to SA in the playoffs (Basketball-Reference, AP).\nPOR changes (CBS, SI, Blazers Edge): Damian Lillard returns after missing all of 2025-26 (Achilles), and Ja Morant arrived by trade (79 games in 3 seasons); Holiday, Avdija, Clingan and Camara return. Sharpe is out (meniscus).\nPHX: Booker, Jalen Green, Brooks and Bridges, with Mark Williams out (shoulder), so Maluach or Ighodaro starts at C; Kennard (new, knee) is day-to-day. Jordan Ott's Suns went 1-4 in preseason, and Buckley ranks their starting five 20th.\nUsage 2025-26 (Basketball-Reference): Morant 32.5% (MEM, 20 g), Booker 32.2%, J. Green 31.9% (32 g), Sharpe 30.5% (out), Avdija 29.3%, Brooks 28.6%, Henderson 25.0%, Holiday 23.5%. Lillard has no 2025-26 sample. POR's new guard trio will split the touches, which lowers each one's usage.\nDvP (Fantasy Team Advice/Hashtag, rank 30 = most allowed; two snapshots): POR vs PG 15/18, SG 14/22, SF 22/26; PHX vs PG 8/7, SG 4/8, SF 11/6. Rotogrinders' Phoenix and Portland rows could not be retrieved.\nHit rates (2025-26 logs): Brooks 9+ pts 53/56 (40/42 with Booker playing), 2+ reb only 50/56, assists below 93% at 1+; Booker 16+ pts 60/64, 1+ reb 61/64, 3+ ast 60/64. Booker averaged 26.1/3.9/6.0 and Brooks 20.2/3.6/1.8.\nSGP: hit-rate product 0.832, shrunk a third toward the normal-approx fair to 0.784. Implied 0.763 from estimated alts (Brooks -1106, Booker pts -1096, ast -984). The edge is thin and rests on estimates; it is not highlighted because Booker's DvP gate is unconfirmed.\nTotals (method): pace avg 98.85. PHX = avg(115.4, 114.7) x 0.9885 = 113.7; POR = avg(114.4, 113.9) x 0.9885 = 112.8; total 226.6 vs DK 231.5 (opened 236.5), 4.9 under, so the Under is a leg. The model margin is PHX +0.9 before about 2 points of home court.\nInjuries (ESPN, CBS, Blazers Edge, Rip City Project): POR Avdija questionable (right ankle soreness, expected to play; if out, Cissoko starts and Morant's usage rises), Potter questionable (illness), Sharpe, Carlson (concussion) and Youngblood out. PHX: M. Williams out, Kennard day-to-day.\nLines (ESPN DK): POR -2.5 (-115)/PHX +2.5 (-105), opened -4.5; total 231.5 (o -112/u -108), opened 236.5; ML POR -142/PHX +120 (opened -170/+142). Elsewhere: Dimers POR -4.5, 235.5; Picks and Parlays -4.5, 235.5, POR -175; Gainblers DK -172/+142 (older numbers).\nPredictors: ESPN BPI POR 58.3%; Dimers POR 66%, 119-115; iHeart POR 114-112 and Under 232.5 (projects 226.9); Docsports PHX +3.5; Pickdawgz notes the last five PHX-POR games at Moda went Over. Lean POR, with both line and total moving PHX's way and toward the Under.\nHistory: PHX won 2 of 3 in 2025-26 and beat POR in the April 2026 play-in; POR went 3-1 in preseason including a 119-66 win over London.\nProps seen: Booker 24.5 pts, 3.5 reb, 5.5 ast; Morant 18.5/3.5/4.5; Brooks 17.5/3.5/1.5 (Bleacher Nation); Brooks 18.5 o +100/+114, u -113/-130 (Optimal Bet); Booker steals o0.5 +113 Kalshi (Dimers).\nCoaching: POR plays fast (100.5 pace) and its guard-heavy lineups may push Holiday to forward if Avdija sits (Rip City Project); PHX plays slow (97.2) and its center depth is thin without Williams.\nMost likely leg: Booker o15.5 points (60/64 last season, locked-in role)."
+}

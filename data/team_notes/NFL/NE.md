@@ -4,7 +4,39 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-21: Vrabel's NE is 5-2 SU / 5-1-1 ATS as a road underdog; Maye's road passing (215 ypg in 3 road starts) lags his home passing (272).
+- 2026-10-21: OL depth is the key risk: Vera-Tucker (hamstring), Ben Brown (knee), Moses (ankle) and Campbell (knee) were all hurt by Wk6; Doubs on IR (shoulder).
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-22: at Chicago Bears
+
+Bears -3 sits stuck as money backs NE; NE likely starts backup guards and CHI is missing both edges. Most likely to win: Under 50.5.
+
+SEARCH NOTE: 23 WebSearch queries; WebFetch failed on DNS (si.com, covers.com), so figures come from search snippets. Sources label this Week 7; both teams are 4-2. Thu 10/22, 8:15 PM ET, Soldier Field, Prime Video.
+1. QBs/personnel: Caleb Williams (CHI) returned from a Grade 2 hamstring tear last Sunday: 30/36, 305 yds, 1 TD (career-high 83.3%) in a 31-23 win at ATL, after leading 31-7 (Bears.com, AP). Season: 72.5% (NFL best), 237.3 ypg, 7.8 YPA, 101.5 rating in 3 starts (Bleacher Nation); now off the injury report. In the 2024 meeting he went 16/30 for 120 yds and was sacked 9 times in a 19-3 NE win. Drake Maye (NE): 18/32, 235 yds, 3 TD, 0 INT vs NYJ (26-19 win, PFF offensive player of the week); 3 straight games with 3+ TD, 878 yds and 10 TD in the last 3 (NBC Sports), but 6 INT in the first 3 games. FanDuel Research: 215.3 pass ypg in 3 road starts vs 272.3 at home. Career (through Wk5): 69.1%, 54 TD / 25 INT (Wikipedia). A.J. Brown had 4-5 drops vs NYJ and is listed limited (ankle).
+2. Injuries (Wed/Tue reports; patriots.com, Boston.com, Yahoo, Heavy, Bleacher Nation, SI): NE WR Romeo Doubs to IR (shoulder); Vrabel says guards Alijah Vera-Tucker (hamstring, DNP) and Ben Brown (knee) 'probably' won't play; RT Morgan Moses limited (ankle/foot), questionable; LT Will Campbell listed full by one report and limited/questionable by another. Yahoo/CBS: NE could start three backup linemen. CHI: EDGE Dayo Odeyingbo on IR (quad) and EDGE Montez Sweat out (the team's top two pressure players, 14 and 13 pressures; Sharp Football); G Jonah Jackson week-to-week (hip flexor); RB Kyle Monangai DNP Monday (thumb/toe; missed 2 games); LB T.J. Edwards and Jack Sanborn sat out; CBs Kyler Gordon (sack and forced fumble last week) and Tyrique Stevenson managing injuries. No final Thursday statuses or inactives yet.
+3. Advanced: Sharp Football (10/19): offense EPA/play NE +0.01 (5.8 YPP) and CHI +0.01 (5.4 YPP); defense both +0.05 EPA/play allowed, NE 5.2 YPP vs CHI 6.2. Yahoo: CHI defense top-10 in EPA/play and success rate. Defense EPA/rush: NE 24th, CHI 25th. CHI ran 173.2 ypg (1st) through Wk5 and 73.2 plays/g (most in NFL), with 72.2% of its TDs on the ground; red-zone TD rate was last through Wk5. NE allows 91.8 rush ypg (10th) and 209 pass ypg (11th), and no QB has thrown for 300 against it. CHI pressure 39.5% (6th) and 17 sacks, 57% pass-rush win rate (6th, VSiN), all built with Sweat/Odeyingbo. ATS.io: CHI allows 8.4 YPA. No 2026 DVOA table was found.
+4. Scheme: Ben Johnson's run-first, high-volume offense (Swift 16-44-2 on 59% of snaps in Wk6; Roschon Johnson 40% with Monangai out) faces a NE run defense that ranks poorly in EPA but well in yards. NE's patched interior OL against a CHI front missing both starting edges is close to a wash; the Bears' pass rush loses most of its bite. Maye's 10.1 aDOT (4th, PFF) against a CHI secondary that gives up explosives is the main upside for NE.
+5. Coaching: Under Vrabel, NE is 5-2 SU and 5-1-1 ATS as a road underdog (SportsBettingDime), and 7-0 ATS as a home favorite before Wk6. Johnson's CHI is 2-1 ATS at home this year and was 11-6 in his first season.
+6. Situational: both teams are on a short week after playing Sunday. CHI played at ATL and comes home; NE travels from Foxborough. This is a non-conference primetime game, and both teams are on win streaks (NE 3, CHI 2).
+7. History: NE leads the regular-season series (9-3 through 2014, Patriots.com). Recent meetings: CHI 33-14 at NE (2022 MNF) and NE 19-3 at Soldier Field (2024, 9 sacks on Williams). CHI won Super Bowl XX 46-10.
+8. Weather: forecasts call for 65-70F, clear to scattered clouds, 0% rain, wind NE 4-11 mph (Time and Date 5 mph, Meteored 4-11 mph, Wunderground high 70). Neutral; no wind lean.
+9. Market/experts: opened CHI -2.5 / 47.5-49.5 (Covers, ESPN); now CHI -3 (DK -102, NE +3 -118; BetMGM NE +3 -118), with -2.5 (-115) and -3.5 at some books. ML CHI -148/NE +124 (DK) to -165/+136 (Fanatics). Total 50.5 (DK -110/-110), 50 (BetMGM), 49.5 (SI). Splits: SBD 53% of ML tickets on CHI but 75% of ML money on NE, and 85% of ATS money on NE; Over at 61% of tickets / 56% of money; VSiN says Circa tickets are on CHI but the line is stuck at -3, a sharp-on-NE signal. Kalshi: CHI -2.5 at 55%, Under 50.5 at 53%. Team totals: Fanatics posts CHI 27.5 / NE 23.5 with no prices.
+9b. Picks: Covers' Jason Logan CHI -2.5; CBS's John Breech CHI -3 (27-20); CBS's Pete Prisco NE 28-27; BetMGM NE +3 -118; VSiN NE +3; FanDuel/numberFire CHI 58.5% plus Under 50.5 and Maye u248.5 -114; ESPN FPI CHI by 2.4 (60%); SportsLine model Under; Squawka NE 24-21 and Under; Sharp Football lean CHI and Under; Sun-Times writers CHI 27-21 and 23-17. Consensus: lean CHI on the side, lean Under on the total; the money is on NE.
+Props: Maye pass yds u248.5 -114 (FanDuel); Polymarket 250+ at 50c (ATS.io models the over at 56%); Squawka 230+. Swift rush yds 59.5-61.5 (o -114/u -110 consensus); he has gone over 2 of 6 times, and Monangai's return could cut his share, so skipped. Burden o55.5 rec yds (FanDuel pick) had no price found, so skipped. Loveland u39.5 (Polymarket 49c) is a TE role in flux, so skipped. No Williams pass-yds line was found. Anytime TD (Fanatics): Swift -170, Stevenson -120 (not used).
+Projection: average of named score picks and models (47, 55, 48, 40, 45, FPI-based ~49) gives about 48, roughly CHI 25.5 / NE 22.5, below the 50.5 total.
+
+Legs considered:
+- Under 50.5: Most likely to win: models and experts project about 48, and public money pushed the total up from 47.5-49.5.
+- New England Patriots +3: Sharp money keeps the line at 3, and Vrabel is 5-1-1 ATS as a road underdog.
+- New England Patriots team total Under 23.5: NE could start three backup linemen, and Maye averages 215 yards on the road. Price is estimated.
+- Chicago Bears team total Under 27.5: Implied Bears points are about 26.75, and most expert scores put Chicago at 23-27. Price is estimated.
+- D. Maye u248.5 pass yds: He averages 215 yards in road starts, has lost Doubs, and faces OL injuries; CHI's 8.4 YPA allowed is the risk.
+
+Our bets:
+- straight: Under 50.5 (-110): pending -> **pending**
+- straight: Under 50.5 (-110): pending -> **pending**
 
 ### 2026-10-18: vs New York Jets
 

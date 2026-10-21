@@ -1,0 +1,171 @@
+{
+ "summary": "Garland is the only qualifier, and his 93% SGP is priced far too short to have an edge. Total projects 228.1 vs 228.5, so there is no total play. Most likely winner: D. Garland o9.5 points.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "LA Clippers -4.5",
+   "game": "Sacramento Kings @ LA Clippers",
+   "market": "spread",
+   "team": "LAC",
+   "side": null,
+   "line": -4.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.57,
+    "season": 0.56,
+    "market_move": 0.55,
+    "experts": 0.53,
+    "injuries": 0.48,
+    "home": 0.53
+   },
+   "note": "Model has LAC by about 7.5 with home court; FanDuel already shows -5.5 and the ML moved from -155 to -192."
+  },
+  {
+   "desc": "D. Garland o9.5 points",
+   "market": "prop",
+   "player": "Darius Garland",
+   "team": "LAC",
+   "stat": "points",
+   "side": "over",
+   "line": 9.5,
+   "odds": -6180,
+   "book": "Estimate (from 23.5 main, Bleacher Nation)",
+   "fair": 0.979,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 22.0,
+    "sd": 6.9
+   },
+   "hit_rate": {
+    "value": 0.933,
+    "sample": "2025-26, 42/45 games (19/19 with LAC)"
+   },
+   "alt": true,
+   "main_line": 23.5,
+   "signals": {
+    "season": 0.94,
+    "role": 0.96,
+    "matchup": 0.95
+   },
+   "note": "With Kawhi traded and Ingram and Beal out, he is the primary scorer against a bottom-10 PG defense."
+  },
+  {
+   "desc": "D. Garland o0.5 rebounds",
+   "market": "prop",
+   "player": "Darius Garland",
+   "team": "LAC",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 0.5,
+   "odds": -1641,
+   "book": "Estimate (from an assumed 2.5 main; no rebound line found)",
+   "fair": 0.923,
+   "books": 0,
+   "status": "Active",
+   "projection": {
+    "mu": 2.4,
+    "sd": 1.4
+   },
+   "hit_rate": {
+    "value": 0.933,
+    "sample": "2025-26, 42/45 games (18/19 with LAC)"
+   },
+   "alt": true,
+   "main_line": 2.5,
+   "signals": {
+    "season": 0.93,
+    "role": 0.93
+   },
+   "note": "Only rebounds line that clears 93%, since 2+ hit just 32 of 45; the price is fully estimated."
+  },
+  {
+   "desc": "D. Garland o2.5 assists",
+   "market": "prop",
+   "player": "Darius Garland",
+   "team": "LAC",
+   "stat": "assists",
+   "side": "over",
+   "line": 2.5,
+   "odds": -6567,
+   "book": "Estimate (from 7.5 main, BetMGM -127/-108 via SportsGambler)",
+   "fair": 0.981,
+   "books": 2,
+   "status": "Active",
+   "projection": {
+    "mu": 7.0,
+    "sd": 2.4
+   },
+   "hit_rate": {
+    "value": 0.933,
+    "sample": "2025-26, 42/45 games (18/19 with LAC; 4+ was 41/45)"
+   },
+   "alt": true,
+   "main_line": 7.5,
+   "signals": {
+    "season": 0.94,
+    "role": 0.96,
+    "matchup": 0.95
+   },
+   "note": "Lowest assists alt; the Kings allowed the 6th-most fantasy points to PGs."
+  },
+  {
+   "desc": "D. Sabonis o12.5 rebounds",
+   "market": "prop",
+   "player": "Domantas Sabonis",
+   "team": "SAC",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 12.5,
+   "odds": -112,
+   "book": "SportsGambler (consensus page)",
+   "fair": 0.49,
+   "books": 2,
+   "status": "Active",
+   "projection": {
+    "mu": 12.6,
+    "sd": 3.6
+   },
+   "hit_rate": {
+    "value": 0.42,
+    "sample": "2025-26, 13+ in 8/19 games (11.4 rpg); 13.9 rpg in 2024-25"
+   },
+   "alt": false,
+   "main_line": 12.5,
+   "signals": {
+    "role": 0.56,
+    "matchup": 0.55,
+    "season": 0.47,
+    "history": 0.54
+   },
+   "note": "With Raynaud and Cardwell out he is the only center, LAC has no Zubac, and elite-big rebound overs have held."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "D. Garland o9.5 points",
+   "D. Garland o0.5 rebounds",
+   "D. Garland o2.5 assists"
+  ],
+  "odds": null,
+  "true_prob": 0.837,
+  "implied_prob": 0.914,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Garland (27.4% usage, 29.8% with LAC; PG) vs SAC PG DvP 6th-most (Rotogrinders FD, 47.75) qualifies. Monk (24.0%, SG) fails because LAC SG is 26th, and he is also questionable. Sabonis (23.0%) and LaVine (23.7%) are under 24%. Ingram (26.9%) and Beal are out.",
+  "note": "Main lines (23.5 pts, 7.5 ast) imply the alts are near-locks (about -1,300 combined, est.), well above the 0.837 true probability: no edge."
+ },
+ "totals_projection": {
+  "possessions": 97.85,
+  "SAC": 111.3,
+  "LAC": 116.8,
+  "total": 228.1,
+  "line": 228.5,
+  "math": "SAC avg(111.4 ORtg, 116.1 LAC DRtg)*0.9785=111.3; LAC avg(117.3, 121.5 SAC DRtg)*0.9785=116.8; sum 228.1 (2025-26 Basketball-Reference, pace 99.2/96.5)"
+ },
+ "research": "Season context: opener for both. 2025-26: LAC 42-40 (ORtg 117.3, DRtg 116.1, pace 96.5); SAC 22-60, 7-34 on the road (111.4/121.5/99.2, the 3rd-worst defense) (Basketball-Reference, AP).\nLAC changes (Hoops Rumors, Sportsmole, SI): Kawhi Leonard was traded back to Toronto, Garland arrived from CLE at the February deadline, Zubac is gone (IND), and Ingram (Achilles), Beal (knee), Strus (foot), J. Miller and Konan Niederhauser are out. That leaves Garland as the clear No. 1 option, with Lopez and I. Jackson at center.\nSAC: Simmons is out for the season (Achilles), Raynaud (knee) and Cardwell (calf) are out, and Monk is questionable (left ankle, missed all of preseason; Clifford and rookie Sharp would get his minutes) (Rotowire, NBC). The Kings went 0-5 in preseason.\nUsage 2025-26 (Basketball-Reference): Garland 27.4% (29.8% in 19 LAC games), Monk 24.0%, LaVine 23.7%, Sabonis 23.0% (19 g), Hunter 22.9%, Ingram 26.9% (TOR, out).\nDvP (Rotogrinders FD, rank 1 = most allowed): SAC PG 47.75 (6th), SG 42.85 (2nd), SF 9th, PF 1st, C 10th; LAC PG 43.12 (26th), SG 36.46 (26th). Garland qualifies; Monk does not.\nHit rates (2025-26 logs): Garland 10+ pts 42/45 (19/19 LAC), 1+ reb 42/45, 3+ ast 42/45 (4+ 41/45); averages 18.8/2.4/6.7 (19.9/2.3/6.4 with LAC). Sabonis 13+ reb 8/19 (11.4 rpg; 13.9 in 2024-25).\nSGP: true 0.837 (hit rates shrunk a third toward the normal-approx fair) vs an implied 0.914 from estimated alts (pts -6180, reb -1641, ast -6567). The 23.5/7.5 main lines price his new role as a huge jump, so the 93% alts carry no value. No edge, and it would pay almost nothing.\nTotals (method): pace avg 97.85. SAC = avg(111.4, 116.1) x 0.9785 = 111.3; LAC = avg(117.3, 121.5) x 0.9785 = 116.8; total 228.1 vs DK 228.5 (opened 230.5). Within 0.4, so no total leg. The model margin is LAC +5.5 before home court (about 7.5 with it).\nLines (ESPN DK): LAC -4.5 (-112)/SAC +4.5 (-108); total 228.5 (o/u -110), opened 230.5; ML LAC -192/SAC +160 (opened -155/+130). FanDuel: LAC -5.5, 227.5, -188/+158. SportsGambler: LAC -5.5 -105, o227.5.\nPredictors: ESPN BPI LAC 63.8%; iHeart/FOX computer LAC 122-107, LAC -4.5 and Over 228.5; FanDuel Research LAC -4.5 (-114), noting SAC went 28-32 ATS as an underdog of 4.5+; SportsGambler LAC -5.5 with o227.5; Docsports SAC +4.5 (5-1 ATS in its last 6 road games); Pickdawgz says the road team won the last 3 meetings.\nProps seen: Garland pts 23.5 (Bleacher Nation), ast 7.5 (BetMGM -127/-108; Pickswise o -125), PRA u34.5 -108 (Tony's Picks), pts+ast o31.5 -118 DK (RotoBaller); Sabonis reb o12.5 -112/u -122 and SI o12.5 -121; Sportsmole o10.5.\nCoaching: LAC plays slow (96.5 pace) and is thin on the wing with Strus, Beal and Ingram out; SAC lacks center depth, so Sabonis plays heavy minutes.\nChemistry: LAC builds around Garland, Hachimura, Dick and Lopez; SAC adds rookies Acuff and Sharp to LaVine, Sabonis, Murray and Hunter.\nSchedule/venue: 10:30 PM ET tip at Intuit Dome (Inglewood). Both teams are rested for the opener, and they meet 4 times this season (ESPN).\nMost likely leg: Garland o9.5 points (19/19 as a Clipper, now the primary scorer)."
+}

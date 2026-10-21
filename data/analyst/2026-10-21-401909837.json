@@ -1,0 +1,189 @@
+{
+ "summary": "Kawhi and Barrett qualify for the usage SGP against Chicago's soft forward and guard defense, but there is no quoted price, so no edge is shown. Total projects 233.6 vs 236.5. Most likely winner: K. Leonard o14.5 points.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Chicago Bulls +9.5",
+   "game": "Chicago Bulls @ Toronto Raptors",
+   "market": "spread",
+   "team": "CHI",
+   "side": null,
+   "line": 9.5,
+   "odds": 101,
+   "book": "Kalshi (via Dimers)",
+   "fair": 0.5,
+   "books": 3,
+   "signals": {
+    "totals_model": 0.57,
+    "experts": 0.52,
+    "home": 0.46,
+    "injuries": 0.46,
+    "history": 0.46
+   },
+   "note": "Model has TOR by about 5 with home court; Claxton is out, but 9.5 is a big number for an opener."
+  },
+  {
+   "desc": "Under 236.5",
+   "game": "Chicago Bulls @ Toronto Raptors",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 236.5,
+   "odds": -110,
+   "book": "DraftKings (via SI)",
+   "fair": 0.5,
+   "books": 2,
+   "signals": {
+    "totals_model": 0.55,
+    "experts": 0.55,
+    "pace": 0.5
+   },
+   "note": "Projection 233.6 (TOR 118.4 + CHI 115.2 at 102.0 poss) is 2.9 under; -110 is assumed, since SI showed the number without its price."
+  },
+  {
+   "desc": "K. Leonard o24.5 points",
+   "market": "prop",
+   "player": "Kawhi Leonard",
+   "team": "TOR",
+   "stat": "points",
+   "side": "over",
+   "line": 24.5,
+   "odds": -118,
+   "book": "SportsGambler",
+   "fair": 0.512,
+   "books": 2,
+   "status": "Expected to play (rested Oct 16)",
+   "projection": {
+    "mu": 25.5,
+    "sd": 7.0
+   },
+   "hit_rate": {
+    "value": 0.56,
+    "sample": "2025-26 LAC: 27.9 ppg in 32.1 min (65 games); normal approx at tonight's projected role"
+   },
+   "alt": false,
+   "main_line": 24.5,
+   "signals": {
+    "season": 0.58,
+    "matchup": 0.57,
+    "role_change": 0.45,
+    "recent_form": 0.46
+   },
+   "note": "CHI allowed the most fantasy points to forwards, but a new team and preseason load management argue for a low line."
+  },
+  {
+   "desc": "K. Leonard o14.5 points",
+   "market": "prop",
+   "player": "Kawhi Leonard",
+   "team": "TOR",
+   "stat": "points",
+   "side": "over",
+   "line": 14.5,
+   "odds": -1000,
+   "book": "Estimated (no alt price found)",
+   "fair": 0.91,
+   "books": 0,
+   "status": "Expected to play",
+   "projection": {
+    "mu": 25.5,
+    "sd": 7.0
+   },
+   "hit_rate": {
+    "value": 0.94,
+    "sample": "Normal approx: 2025-26 (27.9 ppg) blended with tonight's 24.5 main line; full game log not reached"
+   },
+   "alt": true,
+   "main_line": 24.5,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.6,
+    "role_change": 0.55
+   },
+   "note": "Usage SGP points leg; the price is estimated from the 24.5 main line, since no alt price was published."
+  },
+  {
+   "desc": "K. Leonard o2.5 rebounds",
+   "market": "prop",
+   "player": "Kawhi Leonard",
+   "team": "TOR",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 2.5,
+   "odds": -1200,
+   "book": "Estimated (no alt price found)",
+   "fair": 0.92,
+   "books": 0,
+   "status": "Expected to play",
+   "projection": {
+    "mu": 6.0,
+    "sd": 2.4
+   },
+   "hit_rate": {
+    "value": 0.93,
+    "sample": "Normal approx from 6.4 rpg (2025-26); main line 6.5 (SportsGambler o-100/u-135)"
+   },
+   "alt": true,
+   "main_line": 6.5,
+   "signals": {
+    "season": 0.6,
+    "matchup": 0.58,
+    "role_change": 0.55
+   },
+   "note": "Low rebound alt that leaves room for a short night; price estimated from the 6.5 main line."
+  },
+  {
+   "desc": "R. Barrett o9.5 points",
+   "market": "prop",
+   "player": "RJ Barrett",
+   "team": "TOR",
+   "stat": "points",
+   "side": "over",
+   "line": 9.5,
+   "odds": -900,
+   "book": "Estimated (no alt price found)",
+   "fair": 0.9,
+   "books": 0,
+   "status": "Active",
+   "projection": {
+    "mu": 17.0,
+    "sd": 6.0
+   },
+   "hit_rate": {
+    "value": 0.9,
+    "sample": "2025-26: 19.3 ppg in 57 games (Screwball); normal approx, cut for Kawhi taking shots"
+   },
+   "alt": true,
+   "main_line": 18.5,
+   "signals": {
+    "season": 0.6,
+    "matchup": 0.58,
+    "role_change": 0.5
+   },
+   "note": "CHI ranked 6th-most fantasy points allowed to guards; Barrett's main line is 18.5 (Bleacher Nation), alt price estimated."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "K. Leonard o14.5 points",
+   "K. Leonard o2.5 rebounds",
+   "R. Barrett o9.5 points"
+  ],
+  "odds": null,
+  "true_prob": 0.74,
+  "implied_prob": 0.75,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Kawhi (F, usage ~33% CraftedNBA, season unlabeled) vs CHI forwards 1st-most allowed; Barrett (G, 26.0%) vs CHI guards 6th. Failed: Barnes 23.4% (usage), Giddey 24.4% and Powell 27.2% vs TOR G 21st/F 22nd, Quickley 21.1%.",
+  "note": "No SGP or alt prices were published; implied (~-300) is the product of alt prices estimated from the main lines, so the edge cannot be shown."
+ },
+ "totals_projection": {
+  "possessions": 102.0,
+  "TOR": 118.4,
+  "CHI": 115.2,
+  "total": 233.6,
+  "line": 236.5,
+  "math": "TOR avg(113.6 ORtg, 118.5 CHI DRtg)*1.020=118.4; CHI avg(113.4, 112.4 TOR DRtg)*1.020=115.2; sum 233.6"
+ },
+ "research": "Lines: SI/DraftKings TOR -9.5 (-110), total 236.5, ML TOR -425 / CHI +330; WagerTalk TOR -9.5 (-115), 236.5; Action Network/Scores&Stats DK opener -8.5, 235.5, TOR -345/CHI +275; Capper's Picks 236.5; Bleacher Report TOR -9.5. The line moved toward Toronto.\nExperts: WagerTalk TOR -9.5 and Under 236.5 (120-109); SI and SportsGambler TOR -9.5; Dimers model TOR 73%, 121-114, value on CHI +9.5 (+101 Kalshi, 55.4%); ATS.io Under 235.5 (119-112); Picks and Parlays wary of TOR laying 9.\nInjuries: CHI Nic Claxton out (hamstring, Splitter says 'out a while'); Awaka, Collins, L. Miller, Okoro probable (Heavy). TOR: Quickley rested Oct 16 but expected to start (Fox Sports); Nate Bittle out (WagerTalk); Kawhi expected to play.\nRoster changes: TOR traded Ingram, Gradey Dick and picks to LAC for Kawhi Leonard (official Sept 14). Starters are Quickley, Barrett, Leonard, Barnes, Poeltl, and Kawhi is targeted for ~32 min. Center depth behind Poeltl is thin (Raptors Republic, Yahoo).\nCHI: new coach Tiago Splitter and GM Bryson Graham. Projected starters Giddey, Powell (signed after an All-Star year in MIA), Buzelis, rookie Caleb Wilson (No. 4 pick), and Claxton (out). Bench: Hield, Tre Jones, Collins, Swain (NBA.com, Yahoo).\n2025-26: TOR 46-36, swept CHI 3-0, lost a seven-game first-round series to CLE; CHI 31-51, allowed 121.5 ppg (StatMuse).\nUsage (2025-26, opening night so last season is used): Powell 27.2% (Screwball), Barrett 26.0% (Screwball), Giddey 24.4% (StatMuse), Barnes 23.4%, Quickley 21.1% (StatMuse). Kawhi's usage was not confirmed on B-Ref; CraftedNBA lists 33.5% (season unlabeled) on 27.9 ppg.\nDvP (Legion Report, 2025-26 DK pts allowed, rank 1 = most): CHI G 6th, F 1st, C 13th; TOR G 21st, F 22nd, C 23rd. Kawhi and Barrett pass; no Bulls player does. RotoGrinders (undated) has CHI SF 14th and SG 19th, so the gate is source-dependent.\nSGP 93% lines (normal approx; game logs not reachable): Kawhi 15+ pts ~0.94, 3+ reb ~0.93; Barrett 10+ pts ~0.90 after cutting his role for Kawhi. Raw product 0.79, shrunk to 0.74 for role change and correlation. Estimated alt prices imply ~0.75 (about -300), so there is no edge and no highlight.\nAssists legs were dropped (lesson), and TOR allowed the 2nd-fewest assists in 2025-26 (SportsGambler).\nTotals (USU MACFAX adjusted for TOR: 113.6/112.4, pace 101.5; CHI derived from StatMuse 116.3/121.5 ppg at 102.53 pace = 113.4/118.5): avg poss 102.0; TOR 118.4, CHI 115.2, total 233.6 vs 236.5 (2.9 under, below the 4-pt trigger, so it's a lean). Margin TOR +3.2 plus ~2 home court = ~5, below the 9.5 spread.\nCaveat: the 2025-26 TOR numbers have Ingram, not Kawhi, which likely understates Toronto. Powell and Wilson are new to Chicago, and Claxton's absence hurts its rim defense.\nProps seen: Kawhi pts 24.5 (ESPN o-125/u-102; SportsGambler -118/-118), reb 6.5 (o-100/u-135), ast 3.5 (o+120/u-167); Barrett pts 18.5 (Bleacher Nation), 16.5 (SportsMole); Barnes 18.5 pts, o5.5 ast -141; Giddey pts 14.5 (-114/-120), ast u9.5 -133 (SI).\nKawhi preseason: 2 GP, 13.5 ppg and 3.0 rpg in limited minutes, so a minutes cap is the main risk to his overs.\nCoaching: Darko Rajakovic keeps a 9-10 man rotation; Splitter is new, and the rotation is unsettled with Claxton out (Collins/Awaka at C).\nSources were unreachable directly (ESPN, Action Network, Covers blocked); figures come from search-result snippets. Team notes files for CHI/TOR do not exist."
+}

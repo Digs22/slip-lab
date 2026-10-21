@@ -1,0 +1,192 @@
+{
+ "summary": "McCollum's usage SGP qualifies (ORL 10th vs guards) but has no edge, and the total projects 231.5 vs 234.5. Most likely winner: Jalen Johnson o5.5 rebounds.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Atlanta Hawks +3.5",
+   "game": "Atlanta Hawks @ Orlando Magic",
+   "market": "spread",
+   "team": "ATL",
+   "side": null,
+   "line": 3.5,
+   "odds": -118,
+   "book": "DraftKings",
+   "fair": 0.517,
+   "books": 4,
+   "signals": {
+    "experts": 0.57,
+    "history": 0.55,
+    "injuries": 0.55,
+    "totals_model": 0.55,
+    "home": 0.46,
+    "market_move": 0.46
+   },
+   "note": "Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL."
+  },
+  {
+   "desc": "Under 235.5",
+   "game": "Atlanta Hawks @ Orlando Magic",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 235.5,
+   "odds": -110,
+   "book": "TheSpread (listed book)",
+   "fair": 0.5,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.56,
+    "injuries": 0.54,
+    "experts": 0.5,
+    "market_move": 0.45
+   },
+   "note": "Projection 231.5 (ATL 116.2 + ORL 115.3 at 100.85 poss) is 3-4 under 234.5-235.5 with ORL short-handed."
+  },
+  {
+   "desc": "C. McCollum o8.5 points",
+   "market": "prop",
+   "player": "CJ McCollum",
+   "team": "ATL",
+   "stat": "points",
+   "side": "over",
+   "line": 8.5,
+   "odds": -2120,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.925,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 16.5,
+    "sd": 7.0
+   },
+   "hit_rate": {
+    "value": 0.934,
+    "sample": "2025-26, 71 of 76 games (ATL only 39/41 = 95.1%); ESPN box scores"
+   },
+   "alt": true,
+   "main_line": 16.5,
+   "signals": {
+    "season": 0.965,
+    "matchup": 0.94,
+    "role": 0.89,
+    "recent_form": 0.9
+   },
+   "note": "Usage-SGP leg: ORL ranks 10th in guard fantasy points allowed; he came off the bench in preseason (19-22 min)."
+  },
+  {
+   "desc": "C. McCollum o1.5 assists",
+   "market": "prop",
+   "player": "CJ McCollum",
+   "team": "ATL",
+   "stat": "assists",
+   "side": "over",
+   "line": 1.5,
+   "odds": -1750,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.916,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 3.6,
+    "sd": 1.7
+   },
+   "hit_rate": {
+    "value": 0.92,
+    "sample": "Blend: 2025-26 full season 72/76 (94.7%) and ATL bench games 14/16 (87.5%); preseason 4, 0, 4"
+   },
+   "alt": true,
+   "main_line": 3.5,
+   "signals": {
+    "season": 0.956,
+    "role": 0.906,
+    "recent_form": 0.906
+   },
+   "note": "Lowest assists rung that still cleared 93%, following the lesson to keep assists legs low."
+  },
+  {
+   "desc": "C. McCollum o0.5 rebounds",
+   "market": "prop",
+   "player": "CJ McCollum",
+   "team": "ATL",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 0.5,
+   "odds": -2400,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.93,
+   "books": 0,
+   "status": "Active (expected)",
+   "projection": {
+    "mu": 3.0,
+    "sd": 1.9
+   },
+   "hit_rate": {
+    "value": 0.934,
+    "sample": "2025-26, 71 of 76 games (ATL only 37/41 = 90.2%)"
+   },
+   "alt": true,
+   "main_line": 3.5,
+   "signals": {
+    "season": 0.96,
+    "role": 0.92
+   },
+   "note": "Floor rung for rebounds; ATL-only rate is 90%, so this is the weakest of the three SGP legs."
+  },
+  {
+   "desc": "J. Johnson o5.5 rebounds",
+   "market": "prop",
+   "player": "Jalen Johnson",
+   "team": "ATL",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 5.5,
+   "odds": -2280,
+   "book": "estimate (no alt price posted; from hit rate and main line)",
+   "fair": 0.928,
+   "books": 0,
+   "status": "Active",
+   "projection": {
+    "mu": 9.8,
+    "sd": 3.2
+   },
+   "hit_rate": {
+    "value": 0.931,
+    "sample": "2025-26, 67 of 72 games (10.3 rpg); preseason 5, 7, 14"
+   },
+   "alt": true,
+   "main_line": 9.5,
+   "signals": {
+    "season": 0.968,
+    "role": 0.958,
+    "recent_form": 0.943,
+    "matchup": 0.908
+   },
+   "note": "Most likely winner: a 35-minute starter averaging 10.3 rebounds, and his role grows with Trae Young gone."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "C. McCollum o8.5 points",
+   "C. McCollum o1.5 assists",
+   "C. McCollum o0.5 rebounds"
+  ],
+  "odds": null,
+  "true_prob": 0.75,
+  "implied_prob": 0.867,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "McCollum (26.9% usage with ATL) vs ORL guards (10th-most FPPG allowed) qualifies. Fail: J. Johnson (27.0%) vs ORL forwards 28th; Banchero (27.6%) and F. Wagner (27.0%) vs ATL forwards 12th.",
+  "note": "Hit rates multiply to 0.826, shrunk to 0.75 for his new bench role. No SGP or alt price was posted, so the implied 0.867 (about -650) is the product of estimated leg prices; no edge, so no highlight.",
+  "odds_estimate": -650
+ },
+ "totals_projection": {
+  "possessions": 100.85,
+  "ATL": 116.2,
+  "ORL": 115.3,
+  "total": 231.5,
+  "line": 234.5,
+  "math": "ATL avg(116.1,114.3)*1.0085=116.2; ORL avg(114.9,113.7)*1.0085=115.3; sum 231.5"
+ },
+ "research": "Usage (2025-26 Basketball-Reference; 2026-27 has no games yet): Banchero 27.6%, Jalen Johnson 27.0%, F. Wagner 27.0% (34 g), McCollum 26.9% with ATL (41 g, 25.7% overall), Alexander-Walker 23.9%, Bane 23.3%. Trae Young and Kuminga are gone from ATL, so JJ and McCollum pick up the touches.\nDvP (my computation from all 1,231 ESPN 2025-26 regular-season box scores, FanDuel scoring, ESPN G/F/C groups; rank 1 = most allowed): ORL vs G 10th (114.8), F 28th, C 12th; ATL vs G 16th, F 12th, C 14th. RotoGrinders, FantasyPros and Hashtag were blocked from this session.\nOnly McCollum clears both gates. 93% ladder (2025-26, 76 g): 9+ pts 93.4%, 1+ reb 93.4%, 2+ ast 94.7%. ATL-only (41 g): 9+ pts 95.1%, 2+ ast 95.1%, 1+ reb 90.2%. Off the bench (16 g): 12+ pts 93.8%.\nSGP: o8.5 pts + o1.5 ast + o0.5 reb. The raw product is 0.826. I shrink it to 0.75 because he came off the bench in all three preseason games (19-22 min). No SGP or alt prices were posted, so the implied ~0.87 (about -650) is the product of estimated leg prices: no edge, no highlight. A 93% three-leg version cannot get near the -200 to +300 band.\nMain McCollum prop found: o16.5 pts -123 (DraftKings via SI). His ATL rate at 17+ is 63%, but bench minutes make that close to fair.\nTotals (method, BBR 2025-26): pace avg (101.7 ATL, 100.0 ORL) = 100.85. ATL = avg(116.1 ORtg, 114.3 ORL DRtg) x 1.0085 = 116.2. ORL = avg(114.9, 113.7) x 1.0085 = 115.3. Total 231.5 vs DK 234.5, 3.0 under, so it misses the 4-point trigger. I still list a small Under lean because ORL is short-handed.\nScore model: ATL +0.9 before home court (~2) means ORL by about 1, inside the 3.5 spread.\nInjuries (ESPN, Oct 21): ORL out Jonathan Isaac (knee), Anthony Black (ankle; practiced Sunday per Rotoballer), Noah Penda (hamstring), Izaiyah Nelson (ankle surgery). Franz Wagner (shoulder) left the preseason finale and did light work Sunday; he is no longer on ESPN's list but the AP preview has him day-to-day. ATL out Mouhamed Gueye (foot fracture) and Henri Veesaar (ACL, season).\nPreseason (ESPN boxes): JJ 20/7, 20/14 in 25 min; NAW 25 pts in the finale; McCollum 14, 12, 7 pts off the bench; Banchero 24 and 24 in the last two; Wagner 20/4/8 on 10/13; Bane 23 in the finale.\nCoaching: ORL opens under new coach Sean Sweeney (Reuters/AP), who keeps a size-first identity. ATL's Quin Snyder runs at ~101.7 pace, top-10 last season.\nHistory: ATL swept ORL 4-0 in 2025-26 (WagerTalk), including 130-101 on April 1.\nLines (ESPN/DK): ORL -3.5 (-102) / ATL +3.5 (-118), opened -2.5; ML ORL -148 / ATL +124 (open -135/+114); total 234.5 -110/-110 (open 232.5). SI/DK earlier had ATL +3.5 -112 and 236.5. Dimers has ORL -2.5 and 233.5; TheSpread and WagerTalk 235.5; CappersPicks 235.5.\nExperts: SI ATL +3.5; WagerTalk ATL +3.5 and Over 235.5 (121-118); TheSpread ATL +3 and Under 235.5; Dimers ORL 57% (117-115); iHeart model ORL 116-114; CappersPicks ORL; ESPN BPI ORL 52.7%. Consensus: lean ATL on the spread, split on the total.\nChemistry: ATL rebuilt its guard line (McCollum, Alexander-Walker, Daniels, Dort, rookie Kingston Flemings) around Jalen Johnson. ORL keeps Banchero, Wagner, Bane, Suggs and Carter Jr. and added Vucevic.\nMost likely winner: Jalen Johnson o5.5 rebounds (93.1% in 2025-26, 10.3 rpg). Lesson applied: rebound overs on high-minute bigs and forwards hold on bad shooting nights."
+}
