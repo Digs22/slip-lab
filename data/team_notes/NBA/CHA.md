@@ -31,12 +31,12 @@ Most likely winner: MPJ o1.5 rebounds (51 of 52 games in 2025-26).
 
 Legs considered:
 - Over 219.5: Projection 223.7 (CHA 115.6 + BKN 108.1 at 96.95 poss) is 4.2 over, but CHA's rating includes three absent guards.
-- Charlotte Hornets +1.5: Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out.
+- Charlotte Hornets -1.5: Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out. (Line moved from +1.5 to -1.5 by 5:45 PM.)
 - M. Porter Jr. o9.5 points: Best-possible SGP leg (no qualifier): CHA was 24th in forward FPPG allowed, but his volume carries the floor rung.
 - M. Porter Jr. o1.5 rebounds: Most likely winner: 2+ rebounds in 51 of 52 games last season.
 - B. Miller o6.5 points: With Knueppel, White and LaMelo gone, Miller's role grows; SI's main line is o24.5 at -114.
 
 Our bets:
-- straight (lean): Charlotte Hornets +1.5 (-108): pending -> **pending**
+- straight (lean): Charlotte Hornets -1.5 (-110): pending -> **pending**
 - best: M. Porter Jr. o9.5 points (-3900): Active (expected) / M. Porter Jr. o1.5 rebounds (-3900): Active / B. Miller o6.5 points (-3900): Active (expected) -> **pending**
-- longshot: Charlotte Hornets +1.5 (-108): pending -> **pending**
+- longshot: Charlotte Hornets -1.5 (-110): pending -> **pending**

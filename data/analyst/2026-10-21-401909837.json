@@ -24,22 +24,22 @@
    "note": "Model has TOR by about 5 with home court; Claxton is out, but 9.5 is a big number for an opener."
   },
   {
-   "desc": "Under 236.5",
+   "desc": "Under 237.5",
    "game": "Chicago Bulls @ Toronto Raptors",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 236.5,
-   "odds": -110,
-   "book": "DraftKings (via SI)",
-   "fair": 0.5,
+   "line": 237.5,
+   "odds": -105,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.489,
    "books": 2,
    "signals": {
     "totals_model": 0.55,
     "experts": 0.55,
     "pace": 0.5
    },
-   "note": "Projection 233.6 (TOR 118.4 + CHI 115.2 at 102.0 poss) is 2.9 under; -110 is assumed, since SI showed the number without its price."
+   "note": "Projection 233.6 (TOR 118.4 + CHI 115.2 at 102.0 poss) is 2.9 under; -110 is assumed, since SI showed the number without its price. (Line moved from 236.5 to 237.5 by 5:45 PM.)"
   },
   {
    "desc": "K. Leonard o24.5 points",

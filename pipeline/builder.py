@@ -258,7 +258,9 @@ def pick_of_day(scored_games: list[dict]) -> dict:
         if not g.get("analyst"):  # same research bar as the Traditional slip: no analyst file, no pick
             continue
         lg = g["game"]["league"]
-        for l in g["legs"]:
+        # researched legs first (2026-10-21: an unresearched ESPN Over beat the research's Under)
+        researched = any(l.get("note") for l in g.get("evaluated", []))
+        for l in [l for l in g["legs"] if l.get("note") or not researched]:
             leg = l | {"event_id": g["game"]["id"], "league": lg, "start": g["game"].get("start"),
                        "matchup": f"{g['game']['away']} @ {g['game']['home']}", "_game": g["game"]}
             score = (l["prob"], l["edge"]) if l["prob"] >= 0.5 and _straight_ok(l) else None

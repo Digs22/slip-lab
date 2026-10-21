@@ -10,9 +10,9 @@
    "team": null,
    "side": "over",
    "line": 219.5,
-   "odds": -112,
-   "book": "DraftKings",
-   "fair": 0.504,
+   "odds": -115,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.511,
    "books": 5,
    "signals": {
     "totals_model": 0.55,
@@ -23,15 +23,15 @@
    "note": "Projection 223.7 (CHA 115.6 + BKN 108.1 at 96.95 poss) is 4.2 over, but CHA's rating includes three absent guards."
   },
   {
-   "desc": "Charlotte Hornets +1.5",
+   "desc": "Charlotte Hornets -1.5",
    "game": "Charlotte Hornets @ Brooklyn Nets",
    "market": "spread",
    "team": "CHA",
    "side": null,
-   "line": 1.5,
-   "odds": -108,
-   "book": "DraftKings",
-   "fair": 0.496,
+   "line": -1.5,
+   "odds": -110,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.5,
    "books": 5,
    "signals": {
     "season": 0.56,
@@ -41,7 +41,7 @@
     "home": 0.46,
     "market_move": 0.43
    },
-   "note": "Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out."
+   "note": "Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out. (Line moved from +1.5 to -1.5 by 5:45 PM.)"
   },
   {
    "desc": "M. Porter Jr. o9.5 points",

@@ -30,7 +30,7 @@ Last season: MIN 49-33 (118.0 ppg), MIA 43-39 (26-15 home).
 Most likely winner: Edwards o1.5 rebounds (60 of 61 games in 2025-26). Most of the value on this card is the Under, which has the model and two outside models behind it.
 
 Legs considered:
-- Under 241.5: Projection 235.2 (MIN 117.9 + MIA 117.3 at 101.95 poss) is 6.3 under; SportsLine 236 and the iHeart model at 235.4 agree.
+- Under 240.5: Projection 235.2 (MIN 117.9 + MIA 117.3 at 101.95 poss) is 6.3 under; SportsLine 236 and the iHeart model at 235.4 agree. (Line moved from 241.5 to 240.5 by 5:45 PM.)
 - A. Edwards o13.5 points: MIA allowed the 3rd-most guard fantasy points; LaMelo takes some shots, so I use the floor rung.
 - A. Edwards o1.5 rebounds: Most likely winner: he got 2+ rebounds in 60 of 61 games, though preseason dips show it is not free.
 - L. Ball o3.5 assists: He is the true point guard next to Edwards (ATS.io); the lowest 93% assists rung covers the shared-ball risk.
@@ -38,6 +38,6 @@ Legs considered:
 - R. Gobert o6.5 rebounds: Elite-big rebound over at a low rung; Giannis and Adebayo crowd the glass, so I kept it under the main line.
 
 Our bets:
-- straight (lean): Under 241.5 (-115): pending -> **pending**
+- straight (lean): Under 240.5 (-110): pending -> **pending**
 - best: A. Edwards o13.5 points (-2600): Active (expected) / A. Edwards o1.5 rebounds (-3900): Active / L. Ball o3.5 assists (-2030): Active (expected) / L. Ball o10.5 points (-3900): Active (expected) -> **pending**
-- longshot: Under 241.5 (-115): pending -> **pending**
+- longshot: Under 240.5 (-110): pending -> **pending**

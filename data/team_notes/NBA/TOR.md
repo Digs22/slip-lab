@@ -29,7 +29,7 @@ Sources were unreachable directly (ESPN, Action Network, Covers blocked); figure
 
 Legs considered:
 - Chicago Bulls +9.5: Model has TOR by about 5 with home court; Claxton is out, but 9.5 is a big number for an opener.
-- Under 236.5: Projection 233.6 (TOR 118.4 + CHI 115.2 at 102.0 poss) is 2.9 under; -110 is assumed, since SI showed the number without its price.
+- Under 237.5: Projection 233.6 (TOR 118.4 + CHI 115.2 at 102.0 poss) is 2.9 under; -110 is assumed, since SI showed the number without its price. (Line moved from 236.5 to 237.5 by 5:45 PM.)
 - K. Leonard o24.5 points: CHI allowed the most fantasy points to forwards, but a new team and preseason load management argue for a low line.
 - K. Leonard o14.5 points: Usage SGP points leg; the price is estimated from the 24.5 main line, since no alt price was published.
 - K. Leonard o2.5 rebounds: Low rebound alt that leaves room for a short night; price estimated from the 6.5 main line.

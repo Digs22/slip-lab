@@ -30,13 +30,13 @@ Last season: WSH 17-65, MIL 32-50 with Giannis in only 36 games.
 Most likely winner: Herro o13.5 points. He cleared it in 103 of 110 games over two seasons and is now the first option against the league's second-worst guard defense.
 
 Legs considered:
-- Under 239.5: Projection 231.8 (MIL 117.2 + WSH 114.6 at 99.5 poss) is 7.7 under; old ratings miss Trae/AD/Herro, so the edge is muted.
+- Under 238.5: Projection 231.8 (MIL 117.2 + WSH 114.6 at 99.5 poss) is 7.7 under; old ratings miss Trae/AD/Herro, so the edge is muted. (Line moved from 239.5 to 238.5 by 5:45 PM.)
 - Milwaukee Bucks +4.5: Line fell from WSH -6.5 to -4.5 after Dybantsa was ruled out; SI, SportsGambler and SportsMole all take MIL.
 - T. Herro o13.5 points: Most likely winner: Herro is now Milwaukee's top option, and WSH allowed the 2nd-most guard fantasy points.
 - T. Young o5.5 assists: MIL ranks 6th in guard FPPG allowed; quad history and new teammates keep this leg at the floor rung.
 - A. Davis o4.5 rebounds: MIL ranks 10th in forward FPPG allowed; the risk is an early exit, not his rebounding.
 
 Our bets:
-- straight (lean): Under 239.5 (-108): pending -> **pending**
+- straight (lean): Milwaukee Bucks +4.5 (-115): pending -> **pending**
 - best: T. Herro o13.5 points (-2600): Active / T. Young o5.5 assists (-2170): Active (expected) / A. Davis o4.5 rebounds (-2460): Active (expected) -> **pending**
-- longshot: Under 239.5 (-108): pending -> **pending**
+- longshot: Milwaukee Bucks +4.5 (-115): pending -> **pending**

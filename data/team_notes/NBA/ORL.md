@@ -30,14 +30,14 @@ Chemistry: ATL rebuilt its guard line (McCollum, Alexander-Walker, Daniels, Dort
 Most likely winner: Jalen Johnson o5.5 rebounds (93.1% in 2025-26, 10.3 rpg). Lesson applied: rebound overs on high-minute bigs and forwards hold on bad shooting nights.
 
 Legs considered:
-- Atlanta Hawks +3.5: Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL.
-- Under 235.5: Projection 231.5 (ATL 116.2 + ORL 115.3 at 100.85 poss) is 3-4 under 234.5-235.5 with ORL short-handed.
+- Atlanta Hawks +2.5: Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL. (Line moved from +3.5 to +2.5 by 5:45 PM.)
+- Under 233.5: Projection 231.5 (ATL 116.2 + ORL 115.3 at 100.85 poss) is 3-4 under 234.5-235.5 with ORL short-handed.
 - C. McCollum o8.5 points: Usage-SGP leg: ORL ranks 10th in guard fantasy points allowed; he came off the bench in preseason (19-22 min).
 - C. McCollum o1.5 assists: Lowest assists rung that still cleared 93%, following the lesson to keep assists legs low.
 - C. McCollum o0.5 rebounds: Floor rung for rebounds; ATL-only rate is 90%, so this is the weakest of the three SGP legs.
 - J. Johnson o5.5 rebounds: Most likely winner: a 35-minute starter averaging 10.3 rebounds, and his role grows with Trae Young gone.
 
 Our bets:
-- straight (lean): Atlanta Hawks +3.5 (-118): pending -> **pending**
+- straight (lean): Atlanta Hawks +2.5 (-112): pending -> **pending**
 - best: C. McCollum o8.5 points (-2120): Active (expected) / C. McCollum o1.5 assists (-1750): Active (expected) / C. McCollum o0.5 rebounds (-2400): Active (expected) -> **pending**
-- longshot: Atlanta Hawks +3.5 (-118): pending -> **pending**
+- longshot: Atlanta Hawks +2.5 (-112): pending -> **pending**

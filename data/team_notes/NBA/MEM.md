@@ -37,5 +37,4 @@ Legs considered:
 Our bets:
 - straight: Under 240.5 (-110): pending -> **pending**
 - best: L. Markkanen o13.5 points (-700): Starting / L. Markkanen o2.5 rebounds (-1000): Starting / J. Jackson Jr. o7.5 points (-1000): Starting (back from Feb knee surgery) -> **pending**
-- straight: Under 240.5 (-110): pending -> **pending**
 - longshot: Under 240.5 (-110): pending -> **pending**

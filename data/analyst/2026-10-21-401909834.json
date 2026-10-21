@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Atlanta Hawks +3.5",
+   "desc": "Atlanta Hawks +2.5",
    "game": "Atlanta Hawks @ Orlando Magic",
    "market": "spread",
    "team": "ATL",
    "side": null,
-   "line": 3.5,
-   "odds": -118,
-   "book": "DraftKings",
-   "fair": 0.517,
+   "line": 2.5,
+   "odds": -112,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.504,
    "books": 4,
    "signals": {
     "experts": 0.57,
@@ -22,18 +22,18 @@
     "home": 0.46,
     "market_move": 0.46
    },
-   "note": "Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL."
+   "note": "Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL. (Line moved from +3.5 to +2.5 by 5:45 PM.)"
   },
   {
-   "desc": "Under 235.5",
+   "desc": "Under 233.5",
    "game": "Atlanta Hawks @ Orlando Magic",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 235.5,
-   "odds": -110,
-   "book": "TheSpread (listed book)",
-   "fair": 0.5,
+   "line": 233.5,
+   "odds": -108,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.508,
    "books": 4,
    "signals": {
     "totals_model": 0.56,
