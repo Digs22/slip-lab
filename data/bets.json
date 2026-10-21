@@ -5077,7 +5077,8 @@
           "league": "NBA",
           "matchup": "PHI @ NY",
           "start": "2026-10-20T23:00Z",
-          "date": "2026-10-20"
+          "date": "2026-10-20",
+          "result": "loss"
         },
         {
           "desc": "V. Wembanyama o11.5 rebounds",
@@ -5107,7 +5108,8 @@
           "league": "NBA",
           "matchup": "OKC @ SA",
           "start": "2026-10-21T01:30Z",
-          "date": "2026-10-20"
+          "date": "2026-10-20",
+          "result": "win"
         }
       ],
       "status": "loss",
@@ -5167,13 +5169,17 @@
           "note": "Champions bring back their whole starting five against a new-look Philly team with thin frontcourt depth.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "PHI 106, NY 100",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-20-PHINY-best",
@@ -5222,7 +5228,8 @@
           "note": "Towns had 7 or more rebounds in 93% of games, and PHI allowed the most fantasy points to centers last season.",
           "status": "Active (not on injury report)",
           "alt": true,
-          "main_line": 11.5
+          "main_line": 11.5,
+          "result": "win"
         },
         {
           "desc": "J. Brunson o19.5 points",
@@ -5246,13 +5253,15 @@
           "note": "This is the lowest published Brunson points rung, but it hit only 80% of the time against an 86.7% implied price, so it is a negative-EV filler.",
           "status": "Active (not on injury report)",
           "alt": true,
-          "main_line": 26.5
+          "main_line": 26.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.71,
       "stake": 3.0,
-      "to_win": 0.71
+      "to_win": 0.71,
+      "final": "PHI 106, NY 100"
     },
     {
       "id": "2026-10-20-OKCSA-straight",
@@ -5303,13 +5312,15 @@
           "note": "Main line; strong late-season rebounding, but OKC limited him to 27.6 pts+reb in five meetings.",
           "status": "Active (starting)",
           "alt": false,
-          "main_line": 11.5
+          "main_line": 11.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "OKC 116, SA 104"
     },
     {
       "id": "2026-10-20-OKCSA-best",
@@ -5358,7 +5369,8 @@
           "note": "Main line, no alt price published; SA defends PGs well and held him down in the WCF.",
           "status": "Active",
           "alt": false,
-          "main_line": 28.5
+          "main_line": 28.5,
+          "result": "win"
         },
         {
           "desc": "S. Gilgeous-Alexander o3.5 rebounds",
@@ -5381,7 +5393,8 @@
           "note": "Alt-style 4+ line priced on Kalshi; his playoff rebounding drop keeps this near the market.",
           "status": "Active",
           "alt": true,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         },
         {
           "desc": "S. Gilgeous-Alexander o5.5 assists",
@@ -5405,13 +5418,17 @@
           "note": "Alt-style 6+ line; Dimers projects 6.3 and he averaged 8.9 assists against SA in the WCF.",
           "status": "Active",
           "alt": true,
-          "main_line": 6.5
+          "main_line": 6.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 11.22
+      "to_win": 11.22,
+      "final": "OKC 116, SA 104",
+      "cause": "bad read"
     }
   ]
 }

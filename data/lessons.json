@@ -29,8 +29,8 @@
     {
       "split": "play",
       "name": "best",
-      "roi": -43.3,
-      "n": 10,
+      "roi": -42.6,
+      "n": 12,
       "action": "Cut stake in half until ROI recovers"
     },
     {
@@ -77,29 +77,29 @@
     }
   ],
   "loss_causes": {
-    "untagged": 9,
-    "bad read": 43,
+    "untagged": 10,
+    "bad read": 45,
     "variance": 1
   },
   "weights": {
-    "projection": 1.15,
-    "recent_form": 1.15,
-    "season": 0.35,
-    "matchup": 0.8,
+    "projection": 1.2,
+    "recent_form": 1.05,
+    "season": 0.25,
+    "matchup": 0.7,
     "home_away": 0.5,
     "rest_travel": 0.55,
     "weather": 0.7,
-    "injuries": 0.8,
-    "coaching": 0.4,
+    "injuries": 0.7,
+    "coaching": 0.3,
     "postseason": 0.35,
     "news": 0.45,
     "line_move": 0.55,
     "line_movement": 0.6,
-    "experts": 0.45,
-    "home": 0.35,
+    "experts": 0.5,
+    "home": 0.3,
     "trend": 0.45,
     "models": 0.5,
-    "history": 0.7,
+    "history": 0.65,
     "market": 0.6,
     "situational": 0.55,
     "game_script": 0.45,
@@ -122,7 +122,7 @@
     "usage": 0.5
   },
   "retrain": {
-    "n": 1339,
+    "n": 1352,
     "accepted": false,
     "factors": [
       "coaching",
@@ -134,29 +134,29 @@
       "recent_form",
       "season"
     ],
-    "held_out": 402,
-    "logloss_new": 0.6865,
+    "held_out": 406,
+    "logloss_new": 0.6864,
     "logloss_current": 0.6865,
-    "logloss_market": 0.6828,
+    "logloss_market": 0.6821,
     "weights": {
-      "coaching": 0.392,
-      "experts": 0.444,
-      "history": 0.698,
-      "injuries": 0.802,
-      "matchup": 0.781,
-      "projection": 1.133,
-      "recent_form": 1.15,
-      "season": 0.335
+      "coaching": 0.293,
+      "experts": 0.494,
+      "history": 0.649,
+      "injuries": 0.704,
+      "matchup": 0.682,
+      "projection": 1.183,
+      "recent_form": 1.053,
+      "season": 0.235
     },
     "reason": "new weights did not beat the current weights and the market on held-out games",
     "market_check": {
-      "n": 1339,
-      "model_logloss": 0.6849,
-      "market_logloss": 0.6839,
+      "n": 1352,
+      "model_logloss": 0.6843,
+      "market_logloss": 0.6832,
       "beats_market": false,
-      "picked_n": 97,
-      "picked_hit": 0.402,
-      "picked_expected": 0.464
+      "picked_n": 98,
+      "picked_hit": 0.408,
+      "picked_expected": 0.465
     }
   }
 }

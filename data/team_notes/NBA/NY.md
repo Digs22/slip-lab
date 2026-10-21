@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-20: vs Philadelphia 76ers
+### 2026-10-20: vs Philadelphia 76ers (final: PHI 106, NY 100)
 
 Knicks open their title defense at -4.5 against a rebuilt LeBron/Jaylen Brown Sixers team. Our efficiency projection is 227.6, under the 231.5 total. Most likely winner: K. Towns o6.5 rebounds.
 
@@ -33,5 +33,5 @@ Legs considered:
 
 Our bets:
 - longshot: New York Knicks -4.5 (-108): pending -> **loss**
-- straight (lean): New York Knicks -4.5 (-108): pending -> **pending**
-- best: K. Towns o6.5 rebounds (-1400): Active (not on injury report) / J. Brunson o19.5 points (-650): Active (not on injury report) -> **pending**
+- straight (lean): New York Knicks -4.5 (-108): pending -> **loss**
+- best: K. Towns o6.5 rebounds (-1400): Active (not on injury report) / J. Brunson o19.5 points (-650): Active (not on injury report) -> **win**

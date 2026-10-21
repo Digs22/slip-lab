@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-20: at San Antonio Spurs
+### 2026-10-20: at San Antonio Spurs (final: OKC 116, SA 104)
 
 No 24%+ usage player draws a bottom-10 DvP, so the SGA SGP has no edge. Total projects 233.3 against 229.5. Most likely winner: SGA o5.5 assists.
 
@@ -36,5 +36,5 @@ Legs considered:
 
 Our bets:
 - longshot: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **loss**
-- straight: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **pending**
-- best: S. Gilgeous-Alexander o28.5 points (-122): Active / S. Gilgeous-Alexander o3.5 rebounds (-156): Active / S. Gilgeous-Alexander o5.5 assists (-170): Active -> **pending**
+- straight: V. Wembanyama o11.5 rebounds (-105): Active (starting) -> **win**
+- best: S. Gilgeous-Alexander o28.5 points (-122): Active / S. Gilgeous-Alexander o3.5 rebounds (-156): Active / S. Gilgeous-Alexander o5.5 assists (-170): Active -> **loss**
