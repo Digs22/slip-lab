@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Under 235.5",
+   "desc": "Under 236.5",
    "game": "Denver Nuggets @ Oklahoma City Thunder",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 235.5,
-   "odds": -110,
-   "book": "DraftKings",
-   "fair": 0.5,
+   "line": 236.5,
+   "odds": -112,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.51,
    "books": 3,
    "signals": {
     "totals_model": 0.58,

@@ -26,7 +26,7 @@ HISTORY: OKC beat DEN in the 2025 West semis in seven; Daily Sports cites six st
 COACHING: Daigneault's deep, switch-heavy OKC rotation limited bigs (C DvP 27th); Denver's offense runs through Jokic at a slow pace (98.4).
 
 Legs considered:
-- Under 235.5: Projection 230.6 (DEN 113.8 + OKC 116.8 at 98.85 poss) is 4.9 under; bet365 and Sports Mole also lean Under.
+- Under 236.5: Projection 230.6 (DEN 113.8 + OKC 116.8 at 98.85 poss) is 4.9 under; bet365 and Sports Mole also lean Under.
 - Denver Nuggets +8.5: Efficiency model has OKC by about 5 with home court, inside 8.5; OKC has won six straight home meetings.
 - N. Jokic o12.5 rebounds: Main line; led the NBA at 12.9 rebounds and averages 13.5 in his last ten against OKC.
 - S. Gilgeous-Alexander o30.5 points: Main line at most books; he opened with 32 and the total sits in the mid-230s.
@@ -34,8 +34,8 @@ Legs considered:
 
 Our bets:
 - best: Under 235.5 (-110): pending -> **pending**
-- straight: Under 235.5 (-110): pending -> **pending**
+- longshot: Under 235.5 (-110): pending -> **pending**
+- straight: Under 236.5 (-112): pending -> **pending**
 - best: N. Jokic o12.5 rebounds (-127): Active (not on injury report) / S. Gilgeous-Alexander o30.5 points (-110): Active -> **pending**
 - straight: N. Jokic o10.5 assists (+110): Active -> **pending**
-- straight: Under 235.5 (-110): pending -> **pending**
-- longshot: Under 235.5 (-110): pending -> **pending**
+- straight: Under 236.5 (-112): pending -> **pending**

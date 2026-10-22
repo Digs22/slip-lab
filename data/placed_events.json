@@ -117,5 +117,19 @@
   "at": "2026-10-22T00:36:39.918Z",
   "units": 0.5,
   "unit": 2
+ },
+ "2026-10-22-DENOKC-straight": {
+  "id": "2026-10-22-DENOKC-straight",
+  "on": true,
+  "at": "2026-10-22T22:18:04.338Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-22-NECHI-straight": {
+  "id": "2026-10-22-NECHI-straight",
+  "on": true,
+  "at": "2026-10-22T22:18:07.145Z",
+  "units": 6,
+  "unit": 2
  }
 }

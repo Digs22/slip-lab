@@ -35,10 +35,10 @@ Legs considered:
 - D. Maye u248.5 pass yds: He averages 215 yards in road starts, has lost Doubs, and faces OL injuries; CHI's 8.4 YPA allowed is the risk.
 
 Our bets:
-- straight: Under 50.5 (-110): pending -> **pending**
 - best: Under 50.5 (-110): pending -> **pending**
-- straight: Under 50.5 (-110): pending -> **pending**
 - longshot: Under 50.5 (-110): pending -> **pending**
+- straight: Under 50.5 (+100): pending -> **pending**
+- straight: Under 50.5 (+100): pending -> **pending**
 
 ### 2026-10-18: at Atlanta Falcons
 
