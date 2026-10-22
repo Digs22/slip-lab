@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Golden State Warriors
+### 2026-10-21: vs Golden State Warriors (final: GS 105, LAL 127)
 
 Luka and Curry qualify, but the SGP shows no edge once Curry's ankle is priced in. Total projects 229.5 vs 234.5. Most likely winner: L. Doncic o21.5 points.
 
@@ -39,6 +39,6 @@ Legs considered:
 
 Our bets:
 - longshot: Under 234.5 (-110): pending -> **loss**
-- straight: Under 234.5 (-110): pending -> **pending**
-- best: L. Doncic o21.5 points (-1067): Active / L. Doncic o3.5 rebounds (-1319): Active / L. Doncic o2.5 assists (-2601): Active / S. Curry o10.5 points (-1787): Probable (right ankle sprain) -> **pending**
-- straight: Under 234.5 (-108): pending -> **pending**
+- straight: Under 234.5 (-110): pending -> **win**
+- best: L. Doncic o21.5 points (-1067): Active / L. Doncic o3.5 rebounds (-1319): Active / L. Doncic o2.5 assists (-2601): Active / S. Curry o10.5 points (-1787): Probable (right ankle sprain) -> **win**
+- straight: Under 234.5 (-108): pending -> **win**

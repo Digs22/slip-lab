@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Sacramento Kings
+### 2026-10-21: vs Sacramento Kings (final: SAC 96, LAC 121)
 
 Garland is the only qualifier, and his 93% SGP is priced far too short to have an edge. Total projects 228.1 vs 228.5, so there is no total play. Most likely winner: D. Garland o9.5 points.
 
@@ -38,5 +38,5 @@ Legs considered:
 
 Our bets:
 - longshot: LA Clippers -4.5 (-112): pending -> **loss**
-- straight (lean): D. Sabonis o12.5 rebounds (-112): Active -> **pending**
-- best: D. Garland o9.5 points (-6180): Active / D. Garland o0.5 rebounds (-1641): Active / D. Garland o2.5 assists (-6567): Active -> **pending**
+- straight (lean): D. Sabonis o12.5 rebounds (-112): Active -> **win**
+- best: D. Garland o9.5 points (-6180): Active / D. Garland o0.5 rebounds (-1641): Active / D. Garland o2.5 assists (-6567): Active -> **win**

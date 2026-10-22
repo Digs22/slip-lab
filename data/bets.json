@@ -6675,7 +6675,8 @@
           "league": "NBA",
           "matchup": "GS @ LAL",
           "start": "2026-10-22T02:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "Under 231.5",
@@ -6706,7 +6707,8 @@
           "league": "NBA",
           "matchup": "PHX @ POR",
           "start": "2026-10-22T02:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "LA Clippers -4.5",
@@ -6737,7 +6739,8 @@
           "league": "NBA",
           "matchup": "SAC @ LAC",
           "start": "2026-10-22T02:30Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         }
       ],
       "status": "loss",
@@ -7284,13 +7287,15 @@
           "note": null,
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "GS 105, LAL 127"
     },
     {
       "id": "2026-10-21-GSLAL-best",
@@ -7338,7 +7343,8 @@
           "note": "Alt price estimated from the 32.5 main; with LeBron gone, Luka's 38.1% usage should go up.",
           "status": "Active",
           "alt": true,
-          "main_line": 32.5
+          "main_line": 32.5,
+          "result": "win"
         },
         {
           "desc": "L. Doncic o3.5 rebounds",
@@ -7361,7 +7367,8 @@
           "note": "Alt price estimated; Kessler's arrival could take some boards, so it stays near the market.",
           "status": "Active",
           "alt": true,
-          "main_line": 7.5
+          "main_line": 7.5,
+          "result": "win"
         },
         {
           "desc": "L. Doncic o2.5 assists",
@@ -7384,7 +7391,8 @@
           "note": "Lowest assists alt, per the lesson about assist misses; he is now the sole primary creator.",
           "status": "Active",
           "alt": true,
-          "main_line": 7.5
+          "main_line": 7.5,
+          "result": "win"
         },
         {
           "desc": "S. Curry o10.5 points",
@@ -7407,13 +7415,15 @@
           "note": "LAL allowed the 2nd-most PG fantasy points, but the ankle sprain adds a risk of limited minutes.",
           "status": "Probable (right ankle sprain)",
           "alt": true,
-          "main_line": 25.5
+          "main_line": 25.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.87,
       "stake": 3.0,
-      "to_win": 0.87
+      "to_win": 0.87,
+      "final": "GS 105, LAL 127"
     },
     {
       "id": "2026-10-21-SACLAC-straight",
@@ -7464,13 +7474,15 @@
           "note": "With Raynaud and Cardwell out he is the only center, LAC has no Zubac, and elite-big rebound overs have held.",
           "status": "Active",
           "alt": false,
-          "main_line": 12.5
+          "main_line": 12.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "SAC 96, LAC 121"
     },
     {
       "id": "2026-10-21-SACLAC-best",
@@ -7518,7 +7530,8 @@
           "note": "With Kawhi traded and Ingram and Beal out, he is the primary scorer against a bottom-10 PG defense.",
           "status": "Active",
           "alt": true,
-          "main_line": 23.5
+          "main_line": 23.5,
+          "result": "win"
         },
         {
           "desc": "D. Garland o0.5 rebounds",
@@ -7540,7 +7553,8 @@
           "note": "Only rebounds line that clears 93%, since 2+ hit just 32 of 45; the price is fully estimated.",
           "status": "Active",
           "alt": true,
-          "main_line": 2.5
+          "main_line": 2.5,
+          "result": "win"
         },
         {
           "desc": "D. Garland o2.5 assists",
@@ -7563,13 +7577,15 @@
           "note": "Lowest assists alt; the Kings allowed the 6th-most fantasy points to PGs.",
           "status": "Active",
           "alt": true,
-          "main_line": 7.5
+          "main_line": 7.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.27,
       "stake": 3.0,
-      "to_win": 0.27
+      "to_win": 0.27,
+      "final": "SAC 96, LAC 121"
     },
     {
       "id": "2026-10-21-PHXPOR-straight",
@@ -7621,13 +7637,15 @@
           "note": "Projection 226.6 (PHX 113.7 + POR 112.8 at 98.85 poss) is 4.9 under; DK already dropped from 236.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "PHX 83, POR 124"
     },
     {
       "id": "2026-10-21-PHXPOR-best",
@@ -7675,7 +7693,8 @@
           "note": "Portland allowed bottom-10 fantasy points to SFs, and he still scored 9+ in 40 of 42 games alongside Booker.",
           "status": "Active",
           "alt": true,
-          "main_line": 17.5
+          "main_line": 17.5,
+          "result": "win"
         },
         {
           "desc": "D. Booker o15.5 points",
@@ -7698,7 +7717,8 @@
           "note": "Locked-in No. 1 option with 32.2% usage; points legs are 3/3 in graded usage SGPs.",
           "status": "Active",
           "alt": true,
-          "main_line": 24.5
+          "main_line": 24.5,
+          "result": "win"
         },
         {
           "desc": "D. Booker o2.5 assists",
@@ -7721,13 +7741,17 @@
           "note": "Lowest useful assists alt; Phoenix's ball-handling runs through him with Green beside him.",
           "status": "Active",
           "alt": true,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 0.93
+      "to_win": 0.93,
+      "final": "PHX 83, POR 124",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-POTD-NBA",
@@ -7771,13 +7795,15 @@
           "note": "Projection 229.5 (GS 114.1 + LAL 115.3 at 98.65 poss) is 5 under DK 234.5, but the line moved up from 231.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 11.11,
       "stake": 12.0,
-      "to_win": 11.11
+      "to_win": 11.11,
+      "final": "GS 105, LAL 127"
     }
   ]
 }

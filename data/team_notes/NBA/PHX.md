@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: at Portland Trail Blazers
+### 2026-10-21: at Portland Trail Blazers (final: PHX 83, POR 124)
 
 Brooks qualifies and the Brooks+Booker SGP shows a thin estimated edge, but it is not highlighted because Booker's DvP gate is unconfirmed. Total projects 226.6 vs 231.5. Most likely winner: D. Booker o15.5 points.
 
@@ -38,5 +38,5 @@ Legs considered:
 
 Our bets:
 - longshot: Under 231.5 (-108): pending -> **loss**
-- straight (lean): Under 231.5 (-108): pending -> **pending**
-- best: D. Brooks o8.5 points (-1106): Active / D. Booker o15.5 points (-1096): Active / D. Booker o2.5 assists (-984): Active -> **pending**
+- straight (lean): Under 231.5 (-108): pending -> **win**
+- best: D. Brooks o8.5 points (-1106): Active / D. Booker o15.5 points (-1096): Active / D. Booker o2.5 assists (-984): Active -> **loss**
