@@ -110,5 +110,12 @@
   "at": "2026-10-20T22:46:17.002Z",
   "units": null,
   "unit": null
+ },
+ "2026-10-21-LONG-longshot": {
+  "id": "2026-10-21-LONG-longshot",
+  "on": true,
+  "at": "2026-10-22T00:36:39.918Z",
+  "units": 0.5,
+  "unit": 2
  }
 }

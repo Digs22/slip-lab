@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "LA Clippers -4.5",
+   "desc": "LA Clippers -5.5",
    "game": "Sacramento Kings @ LA Clippers",
    "market": "spread",
    "team": "LAC",
    "side": null,
-   "line": -4.5,
-   "odds": -112,
-   "book": "DraftKings",
-   "fair": 0.504,
+   "line": -5.5,
+   "odds": -105,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.483,
    "books": 4,
    "signals": {
     "totals_model": 0.57,
@@ -22,7 +22,7 @@
     "injuries": 0.48,
     "home": 0.53
    },
-   "note": "Model has LAC by about 7.5 with home court; FanDuel already shows -5.5 and the ML moved from -155 to -192."
+   "note": "Model has LAC by about 7.5 with home court; FanDuel already shows -5.5 and the ML moved from -155 to -192. (Line moved to -5.5 by 8:45 PM.)"
   },
   {
    "desc": "D. Garland o9.5 points",

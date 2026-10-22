@@ -30,13 +30,13 @@ Schedule/venue: 10:30 PM ET tip at Intuit Dome (Inglewood). Both teams are reste
 Most likely leg: Garland o9.5 points (19/19 as a Clipper, now the primary scorer).
 
 Legs considered:
-- LA Clippers -4.5: Model has LAC by about 7.5 with home court; FanDuel already shows -5.5 and the ML moved from -155 to -192.
+- LA Clippers -5.5: Model has LAC by about 7.5 with home court; FanDuel already shows -5.5 and the ML moved from -155 to -192. (Line moved to -5.5 by 8:45 PM.)
 - D. Garland o9.5 points: With Kawhi traded and Ingram and Beal out, he is the primary scorer against a bottom-10 PG defense.
 - D. Garland o0.5 rebounds: Only rebounds line that clears 93%, since 2+ hit just 32 of 45; the price is fully estimated.
 - D. Garland o2.5 assists: Lowest assists alt; the Kings allowed the 6th-most fantasy points to PGs.
 - D. Sabonis o12.5 rebounds: With Raynaud and Cardwell out he is the only center, LAC has no Zubac, and elite-big rebound overs have held.
 
 Our bets:
-- straight (lean): LA Clippers -4.5 (-112): pending -> **pending**
-- best: D. Garland o9.5 points (-6180): Active / D. Garland o0.5 rebounds (-1641): Active / D. Garland o2.5 assists (-6567): Active -> **pending**
 - longshot: LA Clippers -4.5 (-112): pending -> **pending**
+- straight (lean): D. Sabonis o12.5 rebounds (-112): Active -> **pending**
+- best: D. Garland o9.5 points (-6180): Active / D. Garland o0.5 rebounds (-1641): Active / D. Garland o2.5 assists (-6567): Active -> **pending**
