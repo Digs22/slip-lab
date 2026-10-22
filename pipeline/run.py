@@ -476,6 +476,34 @@ def close():
     log(f"close: saved {saved} closing lines")
 
 
+def auto():
+    """The scripted jobs GitHub Actions runs every 15 minutes (slip-lab.yml): device sync, closing lines and
+    grading. Research, picks, pre-lock checks and post-game reviews stay with Claude. The app is re-exported
+    only when the ledger changed, so a quiet run commits nothing."""
+    from datetime import timezone
+    bets = ledger.load()
+    before = json.dumps(bets, sort_keys=True)
+    _sync(bets)
+    ledger.save(bets)
+    close()
+    bets = ledger.load()
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=2)
+    if any(b["status"] == "pending" and b.get("start")
+           and datetime.fromisoformat(b["start"].replace("Z", "+00:00")) < cutoff for b in bets):
+        changed = grade.grade_all(bets)
+        if changed:
+            learn.run(bets, changed)
+            _audit(bets)
+            _grade_candidates()
+            log(f"graded {len(changed)} bets")
+    if json.dumps(bets, sort_keys=True) == before:
+        log("auto: nothing changed")
+        return
+    ledger.save(bets)
+    export()
+    status()
+
+
 def export():
     bets = ledger.load()
     if _audit(bets, refetch=False):
@@ -534,6 +562,6 @@ def status():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
-    {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "export": export, "status": status,
+    {"daily": daily, "schedule": schedule, "recheck": recheck, "grade": grade_cmd, "close": close, "auto": auto, "export": export, "status": status,
      "candidates": lambda: print(candidates.report()), "retrain": lambda: print(learn.retrain()),
      "teams": lambda: (teams.build(), export())}[cmd]()
