@@ -29,14 +29,11 @@ Legs considered:
 - Cleveland Cavaliers +3.5: Efficiency model has CLE 116.9-114.9 before home court, so +3.5 covers a close PHI win.
 - Under 235.5: Projection 231.8 (CLE 116.9 + PHI 114.9 at 99.65 poss) sits 3.7 under DK 235.5; FanDuel has 236.5.
 - D. Mitchell o26.5 points: Main line; 27+ in 61% of games and PHI allowed the 4th-most fantasy points to shooting guards.
-- D. Mitchell o14.5 points: Usage SGP leg; 93% rung is 14+ (94.3%), and 15+ cleared in 92.9%; price estimated from main line.
-- D. Mitchell o2.5 assists: Lowest assists rung per the assists lesson; price estimated, no alt quote published.
-- J. Harden o12.5 points: Usage SGP leg; 13+ hit in 69 of 70 games; no main or alt price found, estimated.
-- J. Harden o3.5 assists: 93% assists rung; Harden averaged 8.0 assists, price estimated.
-- J. Harden o1.5 rebounds: 93% rebounds rung; he had 0 rebounds twice in his last ten, price estimated.
+- J. Embiid o7.5 rebounds: Real listed line (8+ rebounds); Embiid averaged 9+ boards when healthy and Cleveland's bigs foul-prone.
+- D. Mitchell u4.5 assists: Real FanDuel line; with Harden running the offense, Mitchell plays off the ball more.
 
 Our bets:
-- straight: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
-- best: D. Mitchell o14.5 points (-1400): Active (not on injury report) / D. Mitchell o2.5 assists (-2000): Active (not on injury report) / J. Harden o12.5 points (-5000): Active (not on injury report) / J. Harden o3.5 assists (-1400): Active (not on injury report) / J. Harden o1.5 rebounds (-1400): Active (not on injury report) -> **pending**
 - best: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
+- straight: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
+- best: J. Embiid o7.5 rebounds (-133): Active / D. Mitchell u4.5 assists (+116): Active -> **pending**
 - longshot: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**

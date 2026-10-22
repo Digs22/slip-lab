@@ -75,165 +75,60 @@
    "note": "Main line; 27+ in 61% of games and PHI allowed the 4th-most fantasy points to shooting guards."
   },
   {
-   "desc": "D. Mitchell o14.5 points",
+   "desc": "J. Embiid o7.5 rebounds",
    "market": "prop",
-   "player": "Donovan Mitchell",
-   "team": "CLE",
-   "stat": "points",
-   "side": "over",
-   "line": 14.5,
-   "odds": -1400,
-   "book": "estimated (no alt quote published)",
-   "fair": 0.909,
-   "books": 0,
-   "status": "Active (not on injury report)",
-   "projection": {
-    "mu": 27.9,
-    "sd": 7.8
-   },
-   "hit_rate": {
-    "value": 0.929,
-    "sample": "2025-26 regular season, 15+ in 65 of 70 games"
-   },
-   "alt": true,
-   "main_line": 26.5,
-   "signals": {
-    "season": 0.62,
-    "matchup": 0.58
-   },
-   "note": "Usage SGP leg; 93% rung is 14+ (94.3%), and 15+ cleared in 92.9%; price estimated from main line."
-  },
-  {
-   "desc": "D. Mitchell o2.5 assists",
-   "market": "prop",
-   "player": "Donovan Mitchell",
-   "team": "CLE",
-   "stat": "assists",
-   "side": "over",
-   "line": 2.5,
-   "odds": -2000,
-   "book": "estimated (no alt quote published)",
-   "fair": 0.937,
-   "books": 0,
-   "status": "Active (not on injury report)",
-   "projection": {
-    "mu": 5.7,
-    "sd": 2.2
-   },
-   "hit_rate": {
-    "value": 0.957,
-    "sample": "2025-26 regular season, 3+ in 67 of 70 games"
-   },
-   "alt": true,
-   "main_line": null,
-   "signals": {
-    "season": 0.62,
-    "matchup": 0.55
-   },
-   "note": "Lowest assists rung per the assists lesson; price estimated, no alt quote published."
-  },
-  {
-   "desc": "J. Harden o12.5 points",
-   "market": "prop",
-   "player": "James Harden",
-   "team": "CLE",
-   "stat": "points",
-   "side": "over",
-   "line": 12.5,
-   "odds": -5000,
-   "book": "estimated (no alt quote published)",
-   "fair": 0.966,
-   "books": 0,
-   "status": "Active (not on injury report)",
-   "projection": {
-    "mu": 23.6,
-    "sd": 6.5
-   },
-   "hit_rate": {
-    "value": 0.986,
-    "sample": "2025-26 LAC+CLE regular season, 13+ in 69 of 70 games"
-   },
-   "alt": true,
-   "main_line": null,
-   "signals": {
-    "season": 0.62,
-    "matchup": 0.57
-   },
-   "note": "Usage SGP leg; 13+ hit in 69 of 70 games; no main or alt price found, estimated."
-  },
-  {
-   "desc": "J. Harden o3.5 assists",
-   "market": "prop",
-   "player": "James Harden",
-   "team": "CLE",
-   "stat": "assists",
-   "side": "over",
-   "line": 3.5,
-   "odds": -1400,
-   "book": "estimated (no alt quote published)",
-   "fair": 0.937,
-   "books": 0,
-   "status": "Active (not on injury report)",
-   "projection": {
-    "mu": 8.0,
-    "sd": 3.0
-   },
-   "hit_rate": {
-    "value": 0.957,
-    "sample": "2025-26 LAC+CLE regular season, 4+ in 67 of 70 games"
-   },
-   "alt": true,
-   "main_line": null,
-   "signals": {
-    "season": 0.6,
-    "matchup": 0.55
-   },
-   "note": "93% assists rung; Harden averaged 8.0 assists, price estimated."
-  },
-  {
-   "desc": "J. Harden o1.5 rebounds",
-   "market": "prop",
-   "player": "James Harden",
-   "team": "CLE",
+   "player": "Joel Embiid",
+   "team": "PHI",
    "stat": "rebounds",
    "side": "over",
-   "line": 1.5,
-   "odds": -1400,
-   "book": "estimated (no alt quote published)",
-   "fair": 0.937,
-   "books": 0,
-   "status": "Active (not on injury report)",
-   "projection": {
-    "mu": 4.8,
-    "sd": 2.3
-   },
-   "hit_rate": {
-    "value": 0.957,
-    "sample": "2025-26 LAC+CLE regular season, 2+ in 67 of 70 games"
-   },
-   "alt": true,
-   "main_line": null,
+   "line": 7.5,
+   "odds": -133,
+   "book": "Kalshi (via SportsBettingDime)",
+   "fair": 0.55,
+   "books": 1,
+   "status": "Active",
+   "alt": false,
+   "main_line": 7.5,
    "signals": {
-    "season": 0.6
+    "season": 0.58,
+    "matchup": 0.55,
+    "experts": 0.56
    },
-   "note": "93% rebounds rung; he had 0 rebounds twice in his last ten, price estimated."
+   "note": "Real listed line (8+ rebounds); Embiid averaged 9+ boards when healthy and Cleveland's bigs foul-prone."
+  },
+  {
+   "desc": "D. Mitchell u4.5 assists",
+   "market": "prop",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "assists",
+   "side": "under",
+   "line": 4.5,
+   "odds": 116,
+   "book": "FanDuel",
+   "fair": 0.46,
+   "books": 1,
+   "status": "Active",
+   "alt": false,
+   "main_line": 4.5,
+   "signals": {
+    "matchup": 0.52,
+    "experts": 0.55
+   },
+   "note": "Real FanDuel line; with Harden running the offense, Mitchell plays off the ball more."
   }
  ],
  "sgp": {
   "legs": [
-   "D. Mitchell o14.5 points",
-   "D. Mitchell o2.5 assists",
-   "J. Harden o12.5 points",
-   "J. Harden o3.5 assists",
-   "J. Harden o1.5 rebounds"
+   "J. Embiid o7.5 rebounds",
+   "D. Mitchell u4.5 assists"
   ],
   "odds": null,
-  "true_prob": 0.76,
-  "implied_prob": 0.76,
+  "true_prob": 0.253,
+  "implied_prob": 0.264,
   "edge": false,
   "highlight": false,
-  "qualifiers": "Mitchell (32.2% USG, SG) vs PHI SG 4th and Harden (24.0% CLE/28.6% season, PG) vs PHI PG 10th (RotoGrinders FD 2025-26) qualify; LeBron (27.2%) and J. Brown (36.2%) vs CLE F 10th (Legion Report) qualify on paper but have new, shared roles, so they are left out; Embiid vs CLE C 11th and Maxey vs CLE G 20th miss.",
-  "note": "No SGP or alt-ladder price published; estimated leg prices (-1400 to -5000) multiply to ~0.76 implied (about -315), equal to the 0.76 true estimate, so no edge."
+  "note": "User 2026-10-22: real player props at lines the books list (no deep alt lines). Two players on different teams so the legs are close to independent."
  },
  "totals_projection": {
   "possessions": 99.65,

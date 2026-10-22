@@ -1,25 +1,23 @@
 {
   "date": "2026-10-22",
-  "generated": "2026-10-22T08:16-04:00",
-  "games_scanned": 4,
+  "generated": "2026-10-22T11:41-04:00",
+  "games_scanned": 2,
   "problems": [
-    "2026-10-22: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized",
-    "2026-10-22: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
-    "2026-10-23: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized"
+    "2026-10-22: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
     {
-      "id": "401873010",
-      "league": "NFL",
-      "game": "NE @ CHI",
-      "start": "2026-10-23T00:15Z",
-      "venue": "Soldier Field",
+      "id": "401909094",
+      "league": "NBA",
+      "game": "DEN @ OKC",
+      "start": "2026-10-23T01:30Z",
+      "venue": "Paycom Center",
       "provisional": true,
-      "score": 0.0337,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-      "summary": "Bears -3 sits stuck as money backs NE; NE likely starts backup guards and CHI is missing both edges. Most likely to win: Under 50.5."
+      "score": 0.0433,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+      "summary": "Model projects 230.6 vs 235.5, so the Under is a straight; no usage player draws a bottom-10 DvP. Most likely winner: Under 235.5 (-110)."
     },
     {
       "id": "401909093",
@@ -28,34 +26,10 @@
       "start": "2026-10-22T23:00Z",
       "venue": "Xfinity Mobile Arena",
       "provisional": true,
-      "score": 0.0204,
+      "score": 0.042,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
       "summary": "Model projects 231.8 vs 235.5 and CLE by 2 before home court; Allen is questionable. Most likely winner: Cleveland Cavaliers +3.5 (-115)."
-    },
-    {
-      "id": "401909094",
-      "league": "NBA",
-      "game": "DEN @ OKC",
-      "start": "2026-10-23T01:30Z",
-      "venue": "Paycom Center",
-      "provisional": true,
-      "score": 0.0133,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-      "summary": "Model projects 230.6 vs 235.5, so the Under is a straight; no usage player draws a bottom-10 DvP. Most likely winner: Under 235.5 (-110)."
-    },
-    {
-      "id": "401908042",
-      "league": "MLB",
-      "game": "TB @ MIL",
-      "start": "2026-10-24T00:00Z",
-      "venue": "American Family Field",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "summary": "World Series Game 1: Misiorowski (1.80 ERA, short postseason leash) vs expected Rasmussen, total 6 with both pens rested. Most likely winner: Milwaukee Brewers ML (-161)."
     }
   ]
 }

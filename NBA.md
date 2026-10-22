@@ -10,6 +10,9 @@ Use this for every NBA game, together with BRIEF.md (team notes, calibration, wr
 5. **Edge test:** the sportsbook's implied probability for the parlay must be lower than the true probability that all of the events happen. Estimate the true probability from the hit rates (multiply them, and shrink toward the market for correlation and small samples). Positive edge = true probability > implied.
 6. If no combination has a positive edge today, still post the best possible version, but only a parlay that passes the edge test gets the **highlight** (`"highlight": true` on the play, shown as "+EV" in the app).
 
+
+**Real lines only (user, 2026-10-22: "I can't even move the alt line that low, just give me good player props instead"):** every prop leg must be a line a sportsbook actually lists, at a price found on a public page: the main line or an alt rung the book shows. Never estimate a price for an alt line no book has published, and never use deep alts like 9+ points at -1400. When the 93% rung isn't offered, use the main line, and build the usage SGP from 2-3 real main-line props (ideally priced around +150 to +400). The 93% hit rate stays a research input, not the line to bet.
+
 ## 2. NBA totals
 For each team: projected points = average of (team offensive efficiency x possessions per game / 100) and (opponent defensive efficiency x possessions per game / 100). Use the average possessions for both teams. Projected total = the sum of the two teams' projections. Compare it with the posted total, and give the projection in the research.
 

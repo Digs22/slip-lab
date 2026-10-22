@@ -29,13 +29,13 @@ Legs considered:
 - Under 235.5: Projection 230.6 (DEN 113.8 + OKC 116.8 at 98.85 poss) is 4.9 under; bet365 and Sports Mole also lean Under.
 - Denver Nuggets +8.5: Efficiency model has OKC by about 5 with home court, inside 8.5; OKC has won six straight home meetings.
 - N. Jokic o12.5 rebounds: Main line; led the NBA at 12.9 rebounds and averages 13.5 in his last ten against OKC.
-- N. Jokic o14.5 points: Best-possible SGP leg; 93% points rung, price estimated from the 26.5 main line.
-- N. Jokic o6.5 rebounds: 93% rebounds rung; Jokic had 7+ in all but one game, price estimated.
-- N. Jokic o4.5 assists: Lowest assists rung in case of a blowout; Sports Mole likes o9.5 assists.
+- S. Gilgeous-Alexander o30.5 points: Main line at most books; he opened with 32 and the total sits in the mid-230s.
+- N. Jokic o10.5 assists: Main line; he led the NBA at 10.7 apg and had 13 and 14 assists in his last two games vs OKC.
 
 Our bets:
-- straight (lean): Under 235.5 (-110): pending -> **pending**
-- best: N. Jokic o14.5 points (-1400): Active (not on injury report) / N. Jokic o6.5 rebounds (-5000): Active (not on injury report) / N. Jokic o4.5 assists (-2000): Active (not on injury report) -> **pending**
 - best: Under 235.5 (-110): pending -> **pending**
+- straight: Under 235.5 (-110): pending -> **pending**
+- best: N. Jokic o12.5 rebounds (-127): Active (not on injury report) / S. Gilgeous-Alexander o30.5 points (-110): Active -> **pending**
+- straight: N. Jokic o10.5 assists (+110): Active -> **pending**
 - straight: Under 235.5 (-110): pending -> **pending**
 - longshot: Under 235.5 (-110): pending -> **pending**
