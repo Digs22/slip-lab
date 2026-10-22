@@ -36,7 +36,9 @@ Legs considered:
 
 Our bets:
 - straight: Under 50.5 (-110): pending -> **pending**
+- best: Under 50.5 (-110): pending -> **pending**
 - straight: Under 50.5 (-110): pending -> **pending**
+- longshot: Under 50.5 (-110): pending -> **pending**
 
 ### 2026-10-18: at Atlanta Falcons
 

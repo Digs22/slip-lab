@@ -267,6 +267,15 @@
   "home_name": "Los Angeles Dodgers",
   "league": "MLB"
  },
+ "401908042": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-24",
+  "home": "MIL",
+  "home_name": "Milwaukee Brewers",
+  "league": "MLB",
+  "start": "2026-10-24T00:00Z"
+ },
  "401909088": {
   "away": "BOS",
   "away_name": "Boston Celtics",
@@ -329,6 +338,24 @@
   "home_name": "Oklahoma City Thunder",
   "league": "NBA",
   "start": "2026-10-23T01:30Z"
+ },
+ "401909095": {
+  "away": "NY",
+  "away_name": "New York Knicks",
+  "date": "2026-10-23",
+  "home": "BOS",
+  "home_name": "Boston Celtics",
+  "league": "NBA",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401909096": {
+  "away": "HOU",
+  "away_name": "Houston Rockets",
+  "date": "2026-10-24",
+  "home": "SA",
+  "home_name": "San Antonio Spurs",
+  "league": "NBA",
+  "start": "2026-10-24T01:30Z"
  },
  "401909834": {
   "away": "ATL",
@@ -410,6 +437,96 @@
   "home_name": "LA Clippers",
   "league": "NBA",
   "start": "2026-10-22T02:30Z"
+ },
+ "401909843": {
+  "away": "ATL",
+  "away_name": "Atlanta Hawks",
+  "date": "2026-10-23",
+  "home": "CHA",
+  "home_name": "Charlotte Hornets",
+  "league": "NBA",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401909844": {
+  "away": "DAL",
+  "away_name": "Dallas Mavericks",
+  "date": "2026-10-23",
+  "home": "IND",
+  "home_name": "Indiana Pacers",
+  "league": "NBA",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401909845": {
+  "away": "MIN",
+  "away_name": "Minnesota Timberwolves",
+  "date": "2026-10-23",
+  "home": "ORL",
+  "home_name": "Orlando Magic",
+  "league": "NBA",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401909846": {
+  "away": "TOR",
+  "away_name": "Toronto Raptors",
+  "date": "2026-10-23",
+  "home": "WSH",
+  "home_name": "Washington Wizards",
+  "league": "NBA",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401909847": {
+  "away": "DET",
+  "away_name": "Detroit Pistons",
+  "date": "2026-10-24",
+  "home": "MIA",
+  "home_name": "Miami Heat",
+  "league": "NBA",
+  "start": "2026-10-24T00:00Z"
+ },
+ "401909848": {
+  "away": "CHI",
+  "away_name": "Chicago Bulls",
+  "date": "2026-10-23",
+  "home": "MIL",
+  "home_name": "Milwaukee Bucks",
+  "league": "NBA",
+  "start": "2026-10-23T20:00Z"
+ },
+ "401909849": {
+  "away": "NO",
+  "away_name": "New Orleans Pelicans",
+  "date": "2026-10-24",
+  "home": "UTAH",
+  "home_name": "Utah Jazz",
+  "league": "NBA",
+  "start": "2026-10-24T01:30Z"
+ },
+ "401909850": {
+  "away": "MEM",
+  "away_name": "Memphis Grizzlies",
+  "date": "2026-10-24",
+  "home": "GS",
+  "home_name": "Golden State Warriors",
+  "league": "NBA",
+  "start": "2026-10-24T02:00Z"
+ },
+ "401909851": {
+  "away": "LAC",
+  "away_name": "LA Clippers",
+  "date": "2026-10-24",
+  "home": "LAL",
+  "home_name": "Los Angeles Lakers",
+  "league": "NBA",
+  "start": "2026-10-24T02:00Z"
+ },
+ "401909852": {
+  "away": "POR",
+  "away_name": "Portland Trail Blazers",
+  "date": "2026-10-24",
+  "home": "SAC",
+  "home_name": "Sacramento Kings",
+  "league": "NBA",
+  "start": "2026-10-24T02:00Z"
  },
  "401915392": {
   "away": "ATM",

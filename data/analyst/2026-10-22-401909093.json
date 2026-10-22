@@ -1,0 +1,247 @@
+{
+ "summary": "Model projects 231.8 vs 235.5 and CLE by 2 before home court; Allen is questionable. Most likely winner: Cleveland Cavaliers +3.5 (-115).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Cleveland Cavaliers +3.5",
+   "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+   "market": "spread",
+   "team": "CLE",
+   "side": null,
+   "line": 3.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 3,
+   "signals": {
+    "score_model": 0.57,
+    "season": 0.55,
+    "experts": 0.55,
+    "home": 0.47,
+    "injuries": 0.48
+   },
+   "note": "Efficiency model has CLE 116.9-114.9 before home court, so +3.5 covers a close PHI win."
+  },
+  {
+   "desc": "Under 235.5",
+   "game": "Cleveland Cavaliers @ Philadelphia 76ers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 235.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 3,
+   "signals": {
+    "totals_model": 0.57,
+    "experts": 0.55,
+    "pace": 0.52,
+    "roster_change": 0.46,
+    "injuries": 0.52
+   },
+   "note": "Projection 231.8 (CLE 116.9 + PHI 114.9 at 99.65 poss) sits 3.7 under DK 235.5; FanDuel has 236.5."
+  },
+  {
+   "desc": "D. Mitchell o26.5 points",
+   "market": "prop",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "points",
+   "side": "over",
+   "line": 26.5,
+   "odds": -103,
+   "book": "SportsGambler (consensus page)",
+   "fair": 0.477,
+   "books": 2,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 27.9,
+    "sd": 7.8
+   },
+   "hit_rate": {
+    "value": 0.614,
+    "sample": "2025-26 regular season, 27+ in 43 of 70 games (Basketball-Reference)"
+   },
+   "alt": false,
+   "main_line": 26.5,
+   "signals": {
+    "season": 0.58,
+    "matchup": 0.57,
+    "experts": 0.54,
+    "injuries": 0.52
+   },
+   "note": "Main line; 27+ in 61% of games and PHI allowed the 4th-most fantasy points to shooting guards."
+  },
+  {
+   "desc": "D. Mitchell o14.5 points",
+   "market": "prop",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "points",
+   "side": "over",
+   "line": 14.5,
+   "odds": -1400,
+   "book": "estimated (no alt quote published)",
+   "fair": 0.909,
+   "books": 0,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 27.9,
+    "sd": 7.8
+   },
+   "hit_rate": {
+    "value": 0.929,
+    "sample": "2025-26 regular season, 15+ in 65 of 70 games"
+   },
+   "alt": true,
+   "main_line": 26.5,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.58
+   },
+   "note": "Usage SGP leg; 93% rung is 14+ (94.3%), and 15+ cleared in 92.9%; price estimated from main line."
+  },
+  {
+   "desc": "D. Mitchell o2.5 assists",
+   "market": "prop",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "assists",
+   "side": "over",
+   "line": 2.5,
+   "odds": -2000,
+   "book": "estimated (no alt quote published)",
+   "fair": 0.937,
+   "books": 0,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 5.7,
+    "sd": 2.2
+   },
+   "hit_rate": {
+    "value": 0.957,
+    "sample": "2025-26 regular season, 3+ in 67 of 70 games"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.55
+   },
+   "note": "Lowest assists rung per the assists lesson; price estimated, no alt quote published."
+  },
+  {
+   "desc": "J. Harden o12.5 points",
+   "market": "prop",
+   "player": "James Harden",
+   "team": "CLE",
+   "stat": "points",
+   "side": "over",
+   "line": 12.5,
+   "odds": -5000,
+   "book": "estimated (no alt quote published)",
+   "fair": 0.966,
+   "books": 0,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 23.6,
+    "sd": 6.5
+   },
+   "hit_rate": {
+    "value": 0.986,
+    "sample": "2025-26 LAC+CLE regular season, 13+ in 69 of 70 games"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.57
+   },
+   "note": "Usage SGP leg; 13+ hit in 69 of 70 games; no main or alt price found, estimated."
+  },
+  {
+   "desc": "J. Harden o3.5 assists",
+   "market": "prop",
+   "player": "James Harden",
+   "team": "CLE",
+   "stat": "assists",
+   "side": "over",
+   "line": 3.5,
+   "odds": -1400,
+   "book": "estimated (no alt quote published)",
+   "fair": 0.937,
+   "books": 0,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 8.0,
+    "sd": 3.0
+   },
+   "hit_rate": {
+    "value": 0.957,
+    "sample": "2025-26 LAC+CLE regular season, 4+ in 67 of 70 games"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.6,
+    "matchup": 0.55
+   },
+   "note": "93% assists rung; Harden averaged 8.0 assists, price estimated."
+  },
+  {
+   "desc": "J. Harden o1.5 rebounds",
+   "market": "prop",
+   "player": "James Harden",
+   "team": "CLE",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 1.5,
+   "odds": -1400,
+   "book": "estimated (no alt quote published)",
+   "fair": 0.937,
+   "books": 0,
+   "status": "Active (not on injury report)",
+   "projection": {
+    "mu": 4.8,
+    "sd": 2.3
+   },
+   "hit_rate": {
+    "value": 0.957,
+    "sample": "2025-26 LAC+CLE regular season, 2+ in 67 of 70 games"
+   },
+   "alt": true,
+   "main_line": null,
+   "signals": {
+    "season": 0.6
+   },
+   "note": "93% rebounds rung; he had 0 rebounds twice in his last ten, price estimated."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "D. Mitchell o14.5 points",
+   "D. Mitchell o2.5 assists",
+   "J. Harden o12.5 points",
+   "J. Harden o3.5 assists",
+   "J. Harden o1.5 rebounds"
+  ],
+  "odds": null,
+  "true_prob": 0.76,
+  "implied_prob": 0.76,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Mitchell (32.2% USG, SG) vs PHI SG 4th and Harden (24.0% CLE/28.6% season, PG) vs PHI PG 10th (RotoGrinders FD 2025-26) qualify; LeBron (27.2%) and J. Brown (36.2%) vs CLE F 10th (Legion Report) qualify on paper but have new, shared roles, so they are left out; Embiid vs CLE C 11th and Maxey vs CLE G 20th miss.",
+  "note": "No SGP or alt-ladder price published; estimated leg prices (-1400 to -5000) multiply to ~0.76 implied (about -315), equal to the 0.76 true estimate, so no edge."
+ },
+ "totals_projection": {
+  "possessions": 99.65,
+  "CLE": 116.9,
+  "PHI": 114.9,
+  "total": 231.8,
+  "line": 235.5,
+  "math": "CLE avg(119.2 ORtg, 115.5 PHI DRtg)*0.9965=116.9; PHI avg(115.4 ORtg, 115.1 CLE DRtg)*0.9965=114.9; sum 231.8 (Basketball-Reference 2025-26)"
+ },
+ "research": "SOURCES: ESPN summary API (pickcenter, injuries, predictor, opener box), Basketball-Reference 2025-26 advanced/league pages and game logs, PHI team notes, Bleacher Report, FanDuel via search, Sportsmole, SportsGambler, Capper's Picks, DocSports, Fear the Sword, Lineups.com, Legion Report DvP, RotoGrinders (team notes).\nLINES: DK PHI -3.5 (-105) / CLE +3.5 (-115), total 235.5 (o-112/u-108), ML PHI -148 / CLE +124. Bleacher Report PHI -142 / CLE +120; another preview CLE +125 / PHI -155; FanDuel CLE +2.5, total 236.5. ESPN predictor PHI 70.8%.\nTOTALS (NBA.md): possessions avg(99.9 CLE, 99.4 PHI)=99.65. CLE = avg(119.2, 115.5)x0.9965 = 116.9; PHI = avg(115.4, 115.1)x0.9965 = 114.9. Projected 231.8 vs 235.5 (3.7 under, just short of the 4-point trigger; included per caller's always-include rule). Projected margin CLE +2.1 before ~2 pts home court.\nCAVEAT: PHI's 2025-26 ratings predate LeBron and Jaylen Brown; PHI won the opener 106-100 at NYK (a 206 total at a slow pace) with Maxey 28, Brown 19, LeBron 14/9/7, Embiid 13/11.\nINJURIES (ESPN, Sportsmole, Fear the Sword): CLE Jarrett Allen questionable (right patellar tendinopathy; knee tendinitis cost him 10 games last March), Sam Merrill GTD (elbow), Diop out/GTD (knee), Tomlin out (back). PHI Barlow out (back, ~Nov 2), Tacko Fall out, Hukporti out (Achilles), Dean Wade day-to-day (ankle). Embiid and LeBron not listed.\nLINEUPS: CLE expected Harden, Mitchell, Peyton Watson (new from DEN), Mobley, Allen (Fear the Sword). PHI Maxey, Edgecombe, Brown, LeBron, Embiid; Simons and Caldwell-Pope off the bench.\nUSAGE (2025-26, opening week): Mitchell 32.2%, Harden 24.0% at CLE (28.6% season), Embiid 33.5% (38 g), Maxey 29.4%, Brown 36.2% (BOS), LeBron 27.2% (LAL), Mobley 22.6%, Allen 19.9%.\nDvP: PHI (RotoGrinders FD 2025-26, from team notes) C 1st, PF 3rd, SG 4th, SF 7th, PG 10th; CLE (Legion Report DK) guards 20th, forwards 10th, C 11th (but 2nd-most rebounds to C). Qualifiers: Mitchell, Harden; LeBron and Brown on paper.\nHIT RATES (B-Ref 2025-26 logs): Mitchell 27.9/4.5/5.7 in 70 g: 14+ pts 94.3%, 15+ 92.9%, 27+ 61.4%, 1+ reb 98.6%, 3+ ast 95.7%. Harden 23.6/4.8/8.0 in 70 g: 13+ pts 98.6%, 2+ reb 95.7%, 4+ ast 95.7%. LeBron 12+ pts 93.3%, 3+ reb 93.3%, 3+ ast 96.7% (60 g). Brown 16+ pts 94.4% at BOS. Embiid 4+ reb 97.4%, 7+ 55.3% (38 g).\nSGP: Mitchell 14+ pts and 3+ ast, Harden 13+ pts, 4+ ast and 2+ reb. Raw product 0.80, shrunk to 0.76 for the Allen uncertainty and an untested PHI defense. No alt prices published; estimated leg prices (-1400, -2000, -5000, -1400, -1400) give ~0.76 implied (about -315). True does not beat implied, so it fails the edge test and is shorter than -300.\nPROPS SEEN: Mitchell pts 26.5 (o-103/u-125 SportsGambler; Sportsmole uses 27.5); Lineups.com Mitchell o2.5 threes; Sportsmole Mobley o9.5 rebounds (no price). No Harden or Embiid lines found.\nEXPERTS: Capper's Picks AI CLE 126-121 (OT); Sportsmole CLE +2.5 and Under 235.5; one preview PHI 120-116 and PHI -2.5; DocSports lists CLE +3.5. Consensus leans CLE with the points and the Under.\nCHEMISTRY/COACHING: Atkinson's CLE (52-30) returns its core with Harden for a full season and Watson added; Nurse's PHI is integrating LeBron (age 41) and Brown with a thin frontcourt behind Embiid. CLE ended 2025-26 swept by NYK (lost 121-108 and 130-93 in May).\nHISTORY: CLE was 52-30 and PHI 45-37 last season; CLE's DRtg (115.1) and ORtg (119.2) both beat PHI's."
+}

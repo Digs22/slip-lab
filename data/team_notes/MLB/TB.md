@@ -10,8 +10,38 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-19: Lineup splits: .752 OPS vs RHP but only .679 vs LHP; low strikeout team (18.8%). Lefty starters take away TB's best split.
 - 2026-10-19: Freddy Peralta (deadline pickup from NYM): 3.25 ERA, 19.7% K, about 4.3 K and 16.6 outs per start with TB. His xwOBA (.300) is better than his 4.42 season ERA.
 - 2026-10-19: Long-term IL: McClanahan (forearm), Uceta, Lux, Heasley, Melton. The Rays went 5-1 vs CLE in the regular season, and Under 6.5 hit 8 of 11 meetings through ALCS G5.
+- 2026-10-22: Rasmussen is the postseason Game 1 starter (ALDS G1, ALCS G1/G5): 21 IP, 3 ER in October; 26.0% K and 0.91 WHIP in 2026.
+- 2026-10-22: Postseason offense .649 OPS through 9 games; regular-season 19.1% K vs RHP keeps strikeout props against TB low.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: at Milwaukee Brewers
+
+World Series Game 1: Misiorowski (1.80 ERA, short postseason leash) vs expected Rasmussen, total 6 with both pens rested. Most likely winner: Milwaukee Brewers ML (-161).
+
+SOURCES: ESPN summary API (pickcenter, injuries, weather, predictor), MLB StatsAPI (probables, pitcher season/game logs, team splits), TB and MIL team notes, SI opening-odds stories, CBS Sports (series preview and expert picks), MLB.com Game 1 FAQ, NBC Sports/Rotoworld, ATS.io props, legalsportsbetting.com, rg.org, Yahoo Sports and ESPN previews, Newsweek.
+SCHEDULE: Fri 10/23 8:00 PM ET, FOX, American Family Field. TB closed out CLE 4-2 in Game 6 on Mon 10/19 (7-3); MIL swept LAD, last game Thu 10/15, so MIL is on 7 days off and TB on 3.
+LINES: DK MIL -161 / TB +133, total 6 (o-110/u-110), run line MIL -1.5. SI: TB +134 / MIL -162; other preview MIL -164 / TB +135; one book O-105/U-115; DK Under 6 -108 per another preview. Series price MIL -160 / TB +140. ESPN predictor MIL 71.9%.
+MISIOROWSKI (MIL, RHP; confirmed by NBC Sports 10/21): 2026 30 GS, 174.2 IP, 1.80 ERA, 0.80 WHIP, 252 K / 665 BF (37.9%), 44 BB (6.6%), 14 HR, 15.2 pitches/IP. Last 8 regular starts: 6,6,6,5,9,7,4,5 K; 98, 96, 89, 92, 93, 82, 44, 68 pitches (workload capped late). Postseason: NLDS G1 vs SD 4.0 IP 2 ER 6 K 88 P; NLCS G1 vs LAD 4.1 IP 1 ER 5 K 3 BB 94 P (22 P/IP, 12 and 13 outs). 11 days' rest.
+RASMUSSEN (TB, RHP; expected, not officially named): 2026 30 GS, 172.0 IP, 2.67 ERA, 0.91 WHIP, 174 K / 669 BF (26.0%), 32 BB, 15.5 P/IP. Postseason 21.0 IP, 3 ER: ALDS G1 8.0 IP 1 H 10 K 101 P; ALCS G1 6.0 IP 2 ER 7 K 91 P; ALCS G5 7.0 IP 1 ER 6 K 95 P. Normal 5 days' rest; faces the club that drafted him.
+MATCHUPS: TB OPS .752 vs RHP (19.1% K), .728 overall, 736 runs; postseason .649 OPS, 35 R in 9 G. MIL .759 vs RHP (22.3% K), 832 runs (most), postseason .739, 34 R in 8 G. TB's low K rate and a lefty-leaning lineup (Diaz, Aranda, Caminero at the top per MLB.com) drag on Misiorowski's K count; MIL's 22% K rate fits Rasmussen.
+BULLPENS AFTER THE LCS: MIL relievers (Megill closing, Uribe, Ashby) have a 2.03 team postseason ERA and a week of rest. TB's late group (Baker has finished all six postseason wins, Seymour, Booser, Wells, Kelly) was stretched in the ALCS, where Baker and Booser threw on consecutive days, but has three days off. Team postseason ERA TB 2.59.
+LINEUPS (projected, MLB.com FAQ): MIL Chourio, Turang, Contreras at the top (Chourio cold in October, Contreras hot). TB Diaz, Aranda, Caminero, then Mullins, Mesa, DeLuca, Simpson, Hicks, Walls.
+INJURIES (ESPN): MIL Woodruff (shoulder, 60-day IL, pushing to make the WS roster), G. Anderson (biceps), Priester, Zerpa, Fitzpatrick out. TB McClanahan (forearm), Lux, Uceta, Melton, Heasley out.
+PARK/WEATHER: American Family Field has a retractable roof; ESPN/AccuWeather shows 59F, 12 mph gusts, no rain, so it will likely be closed (not confirmed). The park plays about neutral; roof closed mutes weather.
+PROPS: Misiorowski K 6.5: o+107/u-133 (LetsBetMD), FanDuel u-130, another preview o-125; one article says 7.5 elsewhere. ATS.io picks Under 6.5 (contact-heavy TB, short playoff outings). No Rasmussen K/outs or team-total quotes found; TB TT u2.5 is priced from the game line (Poisson mean ~2.75 gives ~0.48-0.50).
+EXPERTS: CBS Brewers in 6 (and MIL -165 series); SI and ESPN previews favor MIL's pen and home field; rg.org backs MIL in Game 1; ATS.io Misiorowski u6.5 K. No public Game 1 total pick found except DK Under 6 -108 referenced.
+HISTORY: MIL took the 2026 regular-season series 2-1 (late March at MIL). First World Series title is at stake for either club.
+LEAN: MIL ML is the most likely winner (fair 0.59). Misiorowski u6.5 K is the strongest edge: his postseason leash (12-13 outs) caps the count even at a 37.9% K rate. Under 6 is close to fair because 6 already prices in two aces.
+
+Legs considered:
+- Milwaukee Brewers ML: Brewers were 55-26 at home and bring a rested pen (2.03 postseason ERA) behind the majors' ERA leader.
+- Under 6: Two sub-2.70 ERA starters and rested pens; TB has a .649 postseason OPS, but 6 is already a low number.
+- J. Misiorowski u6.5 strikeouts: He went 4.0 and 4.1 innings in two postseason starts at 22 pitches per inning, and TB strikes out just 19% vs RHP.
+- Tampa Bay Rays team total Under 2.5: Price estimated from total 6 and MIL -161 (TB ~2.75 runs); confirm a book line before betting.
+
+Our bets:
+- straight (lean): J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
 
 ### 2026-10-19: vs Cleveland Guardians (final: CLE 3, TB 7)
 

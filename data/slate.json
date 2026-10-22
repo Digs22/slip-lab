@@ -1,47 +1,61 @@
 {
-  "date": "2026-10-21",
-  "generated": "2026-10-21T20:47-04:00",
-  "games_scanned": 3,
+  "date": "2026-10-22",
+  "generated": "2026-10-22T08:16-04:00",
+  "games_scanned": 4,
   "problems": [
-    "2026-10-21: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
+    "2026-10-22: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized",
+    "2026-10-22: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
+    "2026-10-23: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
     {
-      "id": "401909092",
-      "league": "NBA",
-      "game": "GS @ LAL",
-      "start": "2026-10-22T02:00Z",
-      "venue": "crypto.com Arena",
+      "id": "401873010",
+      "league": "NFL",
+      "game": "NE @ CHI",
+      "start": "2026-10-23T00:15Z",
+      "venue": "Soldier Field",
       "provisional": true,
-      "score": 0.0557,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-      "summary": "Luka and Curry qualify, but the SGP shows no edge once Curry's ankle is priced in. Total projects 229.5 vs 234.5. Most likely winner: L. Doncic o21.5 points."
+      "score": 0.0337,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+      "summary": "Bears -3 sits stuck as money backs NE; NE likely starts backup guards and CHI is missing both edges. Most likely to win: Under 50.5."
     },
     {
-      "id": "401909842",
+      "id": "401909093",
       "league": "NBA",
-      "game": "SAC @ LAC",
-      "start": "2026-10-22T02:30Z",
-      "venue": "Intuit Dome",
+      "game": "CLE @ PHI",
+      "start": "2026-10-22T23:00Z",
+      "venue": "Xfinity Mobile Arena",
       "provisional": true,
-      "score": 0.0123,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-      "summary": "Garland is the only qualifier, and his 93% SGP is priced far too short to have an edge. Total projects 228.1 vs 228.5, so there is no total play. Most likely winner: D. Garland o9.5 points."
+      "score": 0.0204,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+      "summary": "Model projects 231.8 vs 235.5 and CLE by 2 before home court; Allen is questionable. Most likely winner: Cleveland Cavaliers +3.5 (-115)."
     },
     {
-      "id": "401909841",
+      "id": "401909094",
       "league": "NBA",
-      "game": "PHX @ POR",
-      "start": "2026-10-22T02:00Z",
-      "venue": "Moda Center",
+      "game": "DEN @ OKC",
+      "start": "2026-10-23T01:30Z",
+      "venue": "Paycom Center",
+      "provisional": true,
+      "score": 0.0133,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+      "summary": "Model projects 230.6 vs 235.5, so the Under is a straight; no usage player draws a bottom-10 DvP. Most likely winner: Under 235.5 (-110)."
+    },
+    {
+      "id": "401908042",
+      "league": "MLB",
+      "game": "TB @ MIL",
+      "start": "2026-10-24T00:00Z",
+      "venue": "American Family Field",
       "provisional": true,
       "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-      "summary": "Brooks qualifies and the Brooks+Booker SGP shows a thin estimated edge, but it is not highlighted because Booker's DvP gate is unconfirmed. Total projects 226.6 vs 231.5. Most likely winner: D. Booker o15.5 points."
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "summary": "World Series Game 1: Misiorowski (1.80 ERA, short postseason leash) vs expected Rasmussen, total 6 with both pens rested. Most likely winner: Milwaukee Brewers ML (-161)."
     }
   ]
 }
