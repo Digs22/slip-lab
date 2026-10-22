@@ -38,7 +38,7 @@ Legs considered:
 - S. Curry o10.5 points: LAL allowed the 2nd-most PG fantasy points, but the ankle sprain adds a risk of limited minutes.
 
 Our bets:
-- longshot: Under 234.5 (-110): pending -> **pending**
+- longshot: Under 234.5 (-110): pending -> **loss**
 - straight: Under 234.5 (-110): pending -> **pending**
 - best: L. Doncic o21.5 points (-1067): Active / L. Doncic o3.5 rebounds (-1319): Active / L. Doncic o2.5 assists (-2601): Active / S. Curry o10.5 points (-1787): Probable (right ankle sprain) -> **pending**
 - straight: Under 234.5 (-108): pending -> **pending**

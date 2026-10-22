@@ -37,6 +37,6 @@ Legs considered:
 - D. Sabonis o12.5 rebounds: With Raynaud and Cardwell out he is the only center, LAC has no Zubac, and elite-big rebound overs have held.
 
 Our bets:
-- longshot: LA Clippers -4.5 (-112): pending -> **pending**
+- longshot: LA Clippers -4.5 (-112): pending -> **loss**
 - straight (lean): D. Sabonis o12.5 rebounds (-112): Active -> **pending**
 - best: D. Garland o9.5 points (-6180): Active / D. Garland o0.5 rebounds (-1641): Active / D. Garland o2.5 assists (-6567): Active -> **pending**

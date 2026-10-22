@@ -37,6 +37,6 @@ Legs considered:
 - D. Booker o2.5 assists: Lowest useful assists alt; Phoenix's ball-handling runs through him with Green beside him.
 
 Our bets:
-- longshot: Under 231.5 (-108): pending -> **pending**
+- longshot: Under 231.5 (-108): pending -> **loss**
 - straight (lean): Under 231.5 (-108): pending -> **pending**
 - best: D. Brooks o8.5 points (-1106): Active / D. Booker o15.5 points (-1096): Active / D. Booker o2.5 assists (-984): Active -> **pending**

@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Atlanta Hawks
+### 2026-10-21: vs Atlanta Hawks (final: ATL 132, ORL 125)
 
 McCollum's usage SGP qualifies (ORL 10th vs guards) but has no edge, and the total projects 231.5 vs 234.5. Most likely winner: Jalen Johnson o5.5 rebounds.
 
@@ -38,6 +38,6 @@ Legs considered:
 - J. Johnson o5.5 rebounds: Most likely winner: a 35-minute starter averaging 10.3 rebounds, and his role grows with Trae Young gone.
 
 Our bets:
-- straight (lean): Atlanta Hawks +2.5 (-112): pending -> **pending**
-- best: C. McCollum o8.5 points (-2120): Active (expected) / C. McCollum o1.5 assists (-1750): Active (expected) / C. McCollum o0.5 rebounds (-2400): Active (expected) -> **pending**
-- longshot: Atlanta Hawks +2.5 (-112): pending -> **pending**
+- straight (lean): Atlanta Hawks +2.5 (-112): pending -> **win**
+- best: C. McCollum o8.5 points (-2120): Active (expected) / C. McCollum o1.5 assists (-1750): Active (expected) / C. McCollum o0.5 rebounds (-2400): Active (expected) -> **win**
+- longshot: Atlanta Hawks +2.5 (-112): pending -> **loss**

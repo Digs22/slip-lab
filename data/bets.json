@@ -5592,13 +5592,15 @@
           "note": "Method score has ORL by about 1 after home court; ORL is missing Black, Isaac and Penda, and experts lean ATL. (Line moved from +3.5 to +2.5 by 5:45 PM.)",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "ATL 132, ORL 125"
     },
     {
       "id": "2026-10-21-ATLORL-best",
@@ -5647,7 +5649,8 @@
           "note": "Usage-SGP leg: ORL ranks 10th in guard fantasy points allowed; he came off the bench in preseason (19-22 min).",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 16.5
+          "main_line": 16.5,
+          "result": "win"
         },
         {
           "desc": "C. McCollum o1.5 assists",
@@ -5670,7 +5673,8 @@
           "note": "Lowest assists rung that still cleared 93%, following the lesson to keep assists legs low.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 3.5
+          "main_line": 3.5,
+          "result": "win"
         },
         {
           "desc": "C. McCollum o0.5 rebounds",
@@ -5692,13 +5696,15 @@
           "note": "Floor rung for rebounds; ATL-only rate is 90%, so this is the weakest of the three SGP legs.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 3.5
+          "main_line": 3.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.45,
       "stake": 3.0,
-      "to_win": 0.45
+      "to_win": 0.45,
+      "final": "ATL 132, ORL 125"
     },
     {
       "id": "2026-10-21-MILWSH-straight",
@@ -5749,13 +5755,17 @@
           "note": "Line fell from WSH -6.5 to -4.5 after Dybantsa was ruled out; SI, SportsGambler and SportsMole all take MIL.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.65
+      "to_win": 15.65,
+      "final": "MIL 116, WSH 128",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-MILWSH-best",
@@ -5804,7 +5814,8 @@
           "note": "Most likely winner: Herro is now Milwaukee's top option, and WSH allowed the 2nd-most guard fantasy points.",
           "status": "Active",
           "alt": true,
-          "main_line": 23.5
+          "main_line": 23.5,
+          "result": "win"
         },
         {
           "desc": "T. Young o5.5 assists",
@@ -5828,7 +5839,8 @@
           "note": "MIL ranks 6th in guard FPPG allowed; quad history and new teammates keep this leg at the floor rung.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 9.5
+          "main_line": 9.5,
+          "result": "win"
         },
         {
           "desc": "A. Davis o4.5 rebounds",
@@ -5852,13 +5864,15 @@
           "note": "MIL ranks 10th in forward FPPG allowed; the risk is an early exit, not his rebounding.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 10.5
+          "main_line": 10.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.39,
       "stake": 3.0,
-      "to_win": 0.39
+      "to_win": 0.39,
+      "final": "MIL 116, WSH 128"
     },
     {
       "id": "2026-10-21-MINMIA-straight",
@@ -5909,13 +5923,15 @@
           "note": "Projection 235.2 (MIN 117.9 + MIA 117.3 at 101.95 poss) is 6.3 under; SportsLine 236 and the iHeart model at 235.4 agree. (Line moved from 241.5 to 240.5 by 5:45 PM.)",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "MIN 131, MIA 106"
     },
     {
       "id": "2026-10-21-MINMIA-best",
@@ -5963,7 +5979,8 @@
           "note": "MIA allowed the 3rd-most guard fantasy points; LaMelo takes some shots, so I use the floor rung.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 27.5
+          "main_line": 27.5,
+          "result": "win"
         },
         {
           "desc": "A. Edwards o1.5 rebounds",
@@ -5986,7 +6003,8 @@
           "note": "Most likely winner: he got 2+ rebounds in 60 of 61 games, though preseason dips show it is not free.",
           "status": "Active",
           "alt": true,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         },
         {
           "desc": "L. Ball o3.5 assists",
@@ -6009,7 +6027,8 @@
           "note": "He is the true point guard next to Edwards (ATS.io); the lowest 93% assists rung covers the shared-ball risk.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 7.5
+          "main_line": 7.5,
+          "result": "win"
         },
         {
           "desc": "L. Ball o10.5 points",
@@ -6032,13 +6051,15 @@
           "note": "Points legs have hit 3/3, but his usage drops next to Edwards, so this rung is shrunk hardest.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 19.5
+          "main_line": 19.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.45,
       "stake": 3.0,
-      "to_win": 0.45
+      "to_win": 0.45,
+      "final": "MIN 131, MIA 106"
     },
     {
       "id": "2026-10-21-CHABKN-straight",
@@ -6090,13 +6111,15 @@
           "note": "Model has CHA by 5.5 after home court, but the line swung 6 points after Knueppel, White and Williams were ruled out. (Line moved from +1.5 to -1.5 by 5:45 PM.)",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "CHA 110, BKN 103"
     },
     {
       "id": "2026-10-21-CHABKN-best",
@@ -6144,7 +6167,8 @@
           "note": "Best-possible SGP leg (no qualifier): CHA was 24th in forward FPPG allowed, but his volume carries the floor rung.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 23.5
+          "main_line": 23.5,
+          "result": "win"
         },
         {
           "desc": "M. Porter Jr. o1.5 rebounds",
@@ -6167,7 +6191,8 @@
           "note": "Most likely winner: 2+ rebounds in 51 of 52 games last season.",
           "status": "Active",
           "alt": true,
-          "main_line": 6.5
+          "main_line": 6.5,
+          "result": "win"
         },
         {
           "desc": "B. Miller o6.5 points",
@@ -6190,13 +6215,15 @@
           "note": "With Knueppel, White and LaMelo gone, Miller's role grows; SI's main line is o24.5 at -114.",
           "status": "Active (expected)",
           "alt": true,
-          "main_line": 24.5
+          "main_line": 24.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.24,
       "stake": 3.0,
-      "to_win": 0.24
+      "to_win": 0.24,
+      "final": "CHA 110, BKN 103"
     },
     {
       "id": "2026-10-21-CHITOR-straight",
@@ -6247,13 +6274,17 @@
           "note": "CHI allowed the most fantasy points to forwards, but a new team and preseason load management argue for a low line.",
           "status": "Expected to play (rested Oct 16)",
           "alt": false,
-          "main_line": 24.5
+          "main_line": 24.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.25
+      "to_win": 15.25,
+      "final": "CHI 92, TOR 135",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-CHITOR-best",
@@ -6301,7 +6332,8 @@
           "note": "Usage SGP points leg; the price is estimated from the 24.5 main line, since no alt price was published.",
           "status": "Expected to play",
           "alt": true,
-          "main_line": 24.5
+          "main_line": 24.5,
+          "result": "win"
         },
         {
           "desc": "K. Leonard o2.5 rebounds",
@@ -6324,7 +6356,8 @@
           "note": "Low rebound alt that leaves room for a short night; price estimated from the 6.5 main line.",
           "status": "Expected to play",
           "alt": true,
-          "main_line": 6.5
+          "main_line": 6.5,
+          "result": "win"
         },
         {
           "desc": "R. Barrett o9.5 points",
@@ -6347,13 +6380,15 @@
           "note": "CHI ranked 6th-most fantasy points allowed to guards; Barrett's main line is 18.5 (Bleacher Nation), alt price estimated.",
           "status": "Active",
           "alt": true,
-          "main_line": 18.5
+          "main_line": 18.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 0.96,
       "stake": 3.0,
-      "to_win": 0.96
+      "to_win": 0.96,
+      "final": "CHI 92, TOR 135"
     },
     {
       "id": "2026-10-21-LONG-longshot",
@@ -6397,7 +6432,8 @@
           "league": "NBA",
           "matchup": "ATL @ ORL",
           "start": "2026-10-21T23:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "Milwaukee Bucks +4.5",
@@ -6427,7 +6463,9 @@
           "league": "NBA",
           "matchup": "MIL @ WSH",
           "start": "2026-10-21T23:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 240.5",
@@ -6457,7 +6495,8 @@
           "league": "NBA",
           "matchup": "MIN @ MIA",
           "start": "2026-10-21T23:30Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "Charlotte Hornets -1.5",
@@ -6488,7 +6527,8 @@
           "league": "NBA",
           "matchup": "CHA @ BKN",
           "start": "2026-10-21T23:30Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "K. Leonard o24.5 points",
@@ -6518,7 +6558,9 @@
           "league": "NBA",
           "matchup": "CHI @ TOR",
           "start": "2026-10-21T23:30Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 240.5",
@@ -6544,7 +6586,8 @@
           "league": "NBA",
           "matchup": "UTAH @ MEM",
           "start": "2026-10-22T00:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "New Orleans Pelicans +3.5",
@@ -6573,7 +6616,8 @@
           "league": "NBA",
           "matchup": "IND @ NO",
           "start": "2026-10-22T00:00Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "win"
         },
         {
           "desc": "Dallas Mavericks +8.5",
@@ -6603,7 +6647,9 @@
           "league": "NBA",
           "matchup": "DAL @ HOU",
           "start": "2026-10-22T00:30Z",
-          "date": "2026-10-21"
+          "date": "2026-10-21",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 234.5",
@@ -6694,13 +6740,15 @@
           "date": "2026-10-21"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
       "to_win": 1752.39,
       "placed": true,
       "placed_units": 0.5,
-      "placed_unit": 2
+      "placed_unit": 2,
+      "final": "ATL 132-125 ORL; MIL 116-128 WSH; MIN 131-106 MIA; CHA 110-103 BKN; CHI 92-135 TOR; UTAH 103-123 MEM; IND 123-120 NO; DAL 110-128 HOU",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-UTAHMEM-straight",
@@ -6747,13 +6795,15 @@
           "note": null,
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "UTAH 103, MEM 123"
     },
     {
       "id": "2026-10-21-UTAHMEM-best",
@@ -6801,7 +6851,8 @@
           "note": "Usage SGP points leg; points legs are 3/3 so far, and the price is estimated from the 21.5 main line.",
           "status": "Starting",
           "alt": true,
-          "main_line": 21.5
+          "main_line": 21.5,
+          "result": "win"
         },
         {
           "desc": "L. Markkanen o2.5 rebounds",
@@ -6824,7 +6875,8 @@
           "note": "Low rebound alt; MEM allowed the 2nd-most rebounds per game in 2025-26 (TeamRankings).",
           "status": "Starting",
           "alt": true,
-          "main_line": 6.5
+          "main_line": 6.5,
+          "result": "win"
         },
         {
           "desc": "J. Jackson Jr. o7.5 points",
@@ -6848,13 +6900,15 @@
           "note": "Faces his former team; a low line protects against a minutes cap after knee surgery.",
           "status": "Starting (back from Feb knee surgery)",
           "alt": true,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 1.14,
       "stake": 3.0,
-      "to_win": 1.14
+      "to_win": 1.14,
+      "final": "UTAH 103, MEM 123"
     },
     {
       "id": "2026-10-21-INDNO-straight",
@@ -6904,13 +6958,17 @@
           "note": "Model has NO by about 4 at home, but IND's 19-63 numbers came without Haliburton, so it's a small lean. (Line moved to +2.5 by 6:45 PM.)",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.65
+      "to_win": 17.65,
+      "final": "IND 123, NO 120",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-INDNO-best",
@@ -6958,7 +7016,8 @@
           "note": "NO allowed 4th-most fantasy points to forwards; a low alt survives the usage Haliburton takes back.",
           "status": "Starting",
           "alt": true,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "P. Siakam o2.5 rebounds",
@@ -6981,7 +7040,8 @@
           "note": "Low rebound alt; NO allowed the 4th-most rebounds to forwards.",
           "status": "Starting",
           "alt": true,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         },
         {
           "desc": "D. Murray o7.5 points",
@@ -7004,13 +7064,15 @@
           "note": "IND allowed 3rd-most fantasy points to guards, but Murray's toe and small sample keep this below 93%.",
           "status": "Expected to play (toe)",
           "alt": true,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 1.05,
       "stake": 3.0,
-      "to_win": 1.05
+      "to_win": 1.05,
+      "final": "IND 123, NO 120"
     },
     {
       "id": "2026-10-21-DALHOU-straight",
@@ -7061,13 +7123,17 @@
           "note": "Model has HOU by about 6.6 with home court; Kyrie's return isn't in last season's numbers, but Lively and Aldama are out. (Line moved to +9.5 by 6:45 PM.)",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.65
+      "to_win": 17.65,
+      "final": "DAL 110, HOU 128",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-21-DALHOU-best",
@@ -7115,7 +7181,8 @@
           "note": "Usage SGP points leg; DAL allowed 7th-most fantasy points to forwards, and VanVleet's return barely dents Durant's shots.",
           "status": "Active",
           "alt": true,
-          "main_line": 23.5
+          "main_line": 23.5,
+          "result": "win"
         },
         {
           "desc": "A. Sengun o11.5 points",
@@ -7138,7 +7205,8 @@
           "note": "Dallas is without Lively (foot) and Aldama (knee), which thins the bigs guarding Sengun.",
           "status": "Active",
           "alt": true,
-          "main_line": 18.5
+          "main_line": 18.5,
+          "result": "win"
         },
         {
           "desc": "A. Sengun o4.5 rebounds",
@@ -7161,13 +7229,15 @@
           "note": "Elite-big rebound overs have held, and DAL allowed 6th-most fantasy points to centers without Lively.",
           "status": "Active",
           "alt": true,
-          "main_line": 9.5
+          "main_line": 9.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 1.5,
       "stake": 3.0,
-      "to_win": 1.5
+      "to_win": 1.5,
+      "final": "DAL 110, HOU 128"
     },
     {
       "id": "2026-10-21-GSLAL-straight",

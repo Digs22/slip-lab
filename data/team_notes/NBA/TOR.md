@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Chicago Bulls
+### 2026-10-21: vs Chicago Bulls (final: CHI 92, TOR 135)
 
 Kawhi and Barrett qualify for the usage SGP against Chicago's soft forward and guard defense, but there is no quoted price, so no edge is shown. Total projects 233.6 vs 236.5. Most likely winner: K. Leonard o14.5 points.
 
@@ -36,6 +36,6 @@ Legs considered:
 - R. Barrett o9.5 points: CHI ranked 6th-most fantasy points allowed to guards; Barrett's main line is 18.5 (Bleacher Nation), alt price estimated.
 
 Our bets:
-- straight (lean): K. Leonard o24.5 points (-118): Expected to play (rested Oct 16) -> **pending**
-- best: K. Leonard o14.5 points (-1000): Expected to play / K. Leonard o2.5 rebounds (-1200): Expected to play / R. Barrett o9.5 points (-900): Active -> **pending**
-- longshot: K. Leonard o24.5 points (-118): Expected to play (rested Oct 16) -> **pending**
+- straight (lean): K. Leonard o24.5 points (-118): Expected to play (rested Oct 16) -> **loss**
+- best: K. Leonard o14.5 points (-1000): Expected to play / K. Leonard o2.5 rebounds (-1200): Expected to play / R. Barrett o9.5 points (-900): Active -> **win**
+- longshot: K. Leonard o24.5 points (-118): Expected to play (rested Oct 16) -> **loss**

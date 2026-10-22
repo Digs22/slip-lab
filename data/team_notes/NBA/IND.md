@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: at New Orleans Pelicans
+### 2026-10-21: at New Orleans Pelicans (final: IND 123, NO 120)
 
 Siakam faces New Orleans's 4th-most-generous forward defense, but the SGP edge can't be shown without quotes. Total projects 235.5, 4.0 under FD 239.5, so the Under is a leg. Most likely winner: P. Siakam o11.5 points.
 
@@ -34,6 +34,6 @@ Legs considered:
 - D. Murray o7.5 points: IND allowed 3rd-most fantasy points to guards, but Murray's toe and small sample keep this below 93%.
 
 Our bets:
-- longshot: New Orleans Pelicans +3.5 (-107): pending -> **pending**
-- straight (lean): New Orleans Pelicans +2.5 (-102): pending -> **pending**
-- best: P. Siakam o11.5 points (-900): Starting / P. Siakam o2.5 rebounds (-1200): Starting / D. Murray o7.5 points (-800): Expected to play (toe) -> **pending**
+- longshot: New Orleans Pelicans +3.5 (-107): pending -> **loss**
+- straight (lean): New Orleans Pelicans +2.5 (-102): pending -> **loss**
+- best: P. Siakam o11.5 points (-900): Starting / P. Siakam o2.5 rebounds (-1200): Starting / D. Murray o7.5 points (-800): Expected to play (toe) -> **win**

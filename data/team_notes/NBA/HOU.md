@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Dallas Mavericks
+### 2026-10-21: vs Dallas Mavericks (final: DAL 110, HOU 128)
 
 Durant and Sengun face Dallas's generous forward and center defense; the SGP looks favorable at estimated prices but has no quote. Total projects 232.8 vs 229.5. Most likely winner: A. Sengun o4.5 rebounds.
 
@@ -33,6 +33,6 @@ Legs considered:
 - A. Sengun o4.5 rebounds: Elite-big rebound overs have held, and DAL allowed 6th-most fantasy points to centers without Lively.
 
 Our bets:
-- longshot: Dallas Mavericks +8.5 (-110): pending -> **pending**
-- straight (lean): Dallas Mavericks +9.5 (-102): pending -> **pending**
-- best: K. Durant o15.5 points (-650): Active / A. Sengun o11.5 points (-600): Active / A. Sengun o4.5 rebounds (-900): Active -> **pending**
+- longshot: Dallas Mavericks +8.5 (-110): pending -> **loss**
+- straight (lean): Dallas Mavericks +9.5 (-102): pending -> **loss**
+- best: K. Durant o15.5 points (-650): Active / A. Sengun o11.5 points (-600): Active / A. Sengun o4.5 rebounds (-900): Active -> **win**

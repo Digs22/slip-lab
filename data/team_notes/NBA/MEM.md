@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Utah Jazz
+### 2026-10-21: vs Utah Jazz (final: UTAH 103, MEM 123)
 
 Markkanen and JJJ face Memphis's 3rd-most-generous forward defense, but there is no quoted SGP price, so no edge is shown. Total projects 242.4 vs 241.5, no lean. Most likely winner: L. Markkanen o13.5 points.
 
@@ -35,6 +35,6 @@ Legs considered:
 - J. Jackson Jr. o7.5 points: Faces his former team; a low line protects against a minutes cap after knee surgery.
 
 Our bets:
-- longshot: Under 240.5 (-110): pending -> **pending**
-- straight: Under 240.5 (-110): pending -> **pending**
-- best: L. Markkanen o13.5 points (-700): Starting / L. Markkanen o2.5 rebounds (-1000): Starting / J. Jackson Jr. o7.5 points (-1000): Starting (back from Feb knee surgery) -> **pending**
+- longshot: Under 240.5 (-110): pending -> **loss**
+- straight: Under 240.5 (-110): pending -> **win**
+- best: L. Markkanen o13.5 points (-700): Starting / L. Markkanen o2.5 rebounds (-1000): Starting / J. Jackson Jr. o7.5 points (-1000): Starting (back from Feb knee surgery) -> **win**

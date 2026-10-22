@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Milwaukee Bucks
+### 2026-10-21: vs Milwaukee Bucks (final: MIL 116, WSH 128)
 
 Herro/Trae/Davis usage SGP qualifies but has no edge, and the total projects 231.8 vs 239.5 (Under leg). Most likely winner: Herro o13.5 points.
 
@@ -37,6 +37,6 @@ Legs considered:
 - A. Davis o4.5 rebounds: MIL ranks 10th in forward FPPG allowed; the risk is an early exit, not his rebounding.
 
 Our bets:
-- straight (lean): Milwaukee Bucks +4.5 (-115): pending -> **pending**
-- best: T. Herro o13.5 points (-2600): Active / T. Young o5.5 assists (-2170): Active (expected) / A. Davis o4.5 rebounds (-2460): Active (expected) -> **pending**
-- longshot: Milwaukee Bucks +4.5 (-115): pending -> **pending**
+- straight (lean): Milwaukee Bucks +4.5 (-115): pending -> **loss**
+- best: T. Herro o13.5 points (-2600): Active / T. Young o5.5 assists (-2170): Active (expected) / A. Davis o4.5 rebounds (-2460): Active (expected) -> **win**
+- longshot: Milwaukee Bucks +4.5 (-115): pending -> **loss**

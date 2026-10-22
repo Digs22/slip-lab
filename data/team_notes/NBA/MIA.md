@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Minnesota Timberwolves
+### 2026-10-21: vs Minnesota Timberwolves (final: MIN 131, MIA 106)
 
 Edwards/Ball usage SGP qualifies (MIA 3rd vs guards) but has no edge; total projects 235.2 vs 241.5, so the Under is a leg. Most likely winner: Edwards o1.5 rebounds.
 
@@ -38,6 +38,6 @@ Legs considered:
 - R. Gobert o6.5 rebounds: Elite-big rebound over at a low rung; Giannis and Adebayo crowd the glass, so I kept it under the main line.
 
 Our bets:
-- straight (lean): Under 240.5 (-110): pending -> **pending**
-- best: A. Edwards o13.5 points (-2600): Active (expected) / A. Edwards o1.5 rebounds (-3900): Active / L. Ball o3.5 assists (-2030): Active (expected) / L. Ball o10.5 points (-3900): Active (expected) -> **pending**
-- longshot: Under 240.5 (-110): pending -> **pending**
+- straight (lean): Under 240.5 (-110): pending -> **win**
+- best: A. Edwards o13.5 points (-2600): Active (expected) / A. Edwards o1.5 rebounds (-3900): Active / L. Ball o3.5 assists (-2030): Active (expected) / L. Ball o10.5 points (-3900): Active (expected) -> **win**
+- longshot: Under 240.5 (-110): pending -> **loss**

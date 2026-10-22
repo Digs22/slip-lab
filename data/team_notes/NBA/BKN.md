@@ -9,7 +9,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-21: vs Charlotte Hornets
+### 2026-10-21: vs Charlotte Hornets (final: CHA 110, BKN 103)
 
 No 24%+ usage player draws a bottom-10 DvP, so only a best-possible SGP is posted; total projects 223.7 vs 219.5 (Over leg). Most likely winner: MPJ o1.5 rebounds.
 
@@ -37,6 +37,6 @@ Legs considered:
 - B. Miller o6.5 points: With Knueppel, White and LaMelo gone, Miller's role grows; SI's main line is o24.5 at -114.
 
 Our bets:
-- straight (lean): Charlotte Hornets -1.5 (-110): pending -> **pending**
-- best: M. Porter Jr. o9.5 points (-3900): Active (expected) / M. Porter Jr. o1.5 rebounds (-3900): Active / B. Miller o6.5 points (-3900): Active (expected) -> **pending**
-- longshot: Charlotte Hornets -1.5 (-110): pending -> **pending**
+- straight (lean): Charlotte Hornets -1.5 (-110): pending -> **win**
+- best: M. Porter Jr. o9.5 points (-3900): Active (expected) / M. Porter Jr. o1.5 rebounds (-3900): Active / B. Miller o6.5 points (-3900): Active (expected) -> **win**
+- longshot: Charlotte Hornets -1.5 (-110): pending -> **loss**
