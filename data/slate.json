@@ -1,36 +1,12 @@
 {
   "date": "2026-10-23",
-  "generated": "2026-10-23T11:50-04:00",
-  "games_scanned": 5,
+  "generated": "2026-10-23T17:48-04:00",
+  "games_scanned": 1,
   "problems": [
     "2026-10-23: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
-    {
-      "id": "401858272",
-      "league": "NCAAF",
-      "game": "NCSU @ STAN",
-      "start": "2026-10-24T02:30Z",
-      "venue": "Stanford Stadium",
-      "provisional": true,
-      "score": 0.0338,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-      "summary": "NC State is off a bye, and Stanford has lost to its FBS opponents by 28, 54 and 51 points. Most likely to win: NC State Wolfpack ML (-260)."
-    },
-    {
-      "id": "401858271",
-      "league": "NCAAF",
-      "game": "DUKE @ UVA",
-      "start": "2026-10-23T23:00Z",
-      "venue": "Scott Stadium",
-      "provisional": true,
-      "score": 0.0113,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-      "summary": "Both offenses have slumped, Duke's defense allows 16 points a game, and the total has dropped from 53.5 to 46.5. Most likely to win: Under 47.5 (-110)."
-    },
     {
       "id": "401861965",
       "league": "NCAAF",
@@ -42,30 +18,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
       "summary": "UMass is likely on its third-string QB, Logan Inagawa, with Watson (ankle) out, while UConn comes off a bye. Most likely to win: UConn Huskies ML (-575)."
-    },
-    {
-      "id": "401862808",
-      "league": "NCAAF",
-      "game": "ARMY @ TLSA",
-      "start": "2026-10-24T00:30Z",
-      "venue": "H. A. Chapman Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-      "summary": "Army's 357-yard rushing attack meets a Tulsa run defense ranked 121st, and Tulsa has lost seven straight home conference games. Most likely to win: Army Black Knights +1.5 (-110)."
-    },
-    {
-      "id": "401864525",
-      "league": "NCAAF",
-      "game": "AFA @ WYO",
-      "start": "2026-10-24T01:00Z",
-      "venue": "War Memorial Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-      "summary": "Air Force is 5-1 and allows 19.7 points a game, but hasn't won in Laramie since 2012, and Wyoming's Tyler Hughes has thrown 7 interceptions. Most likely to win: Air Force Falcons ML (-205)."
     }
   ]
 }

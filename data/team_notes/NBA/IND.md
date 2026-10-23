@@ -28,14 +28,14 @@ COACHING: DAL (now coached by Dusty May, per Mavs Moneyball) ran 101.7 pace last
 
 Legs considered:
 - C. Flagg u24.5 points: Line sits 3.5 above his rookie average after one 32-point night; Kyrie's return splits the shots.
-- Under 237.5: Projection 231.8 (DAL 116.6 + IND 115.2 at 101.35 poss) is 5.7 under DK's 237.5.
+- Under 239.5: Projection 231.8 (DAL 116.6 + IND 115.2 at 101.35 poss) is 5.7 under DK's 237.5.
 - P. Siakam o23.5 points: DAL allowed 3rd-most fantasy points to forwards and is missing Lively and Aldama; Haliburton's return trims his usage.
 - Dallas Mavericks +6.5: The efficiency model has DAL +1.4 neutral (about IND by 0.6 at home), though it misses Haliburton's return.
 
 Our bets:
-- straight (lean): Under 237.5 (-105): pending -> **pending**
-- best: P. Siakam o23.5 points (-114): Active (not on injury report) / C. Flagg u24.5 points (-113): Active (not on injury report) -> **pending**
 - longshot: Under 237.5 (-105): pending -> **pending**
+- straight (lean): Under 239.5 (-108): pending -> **pending**
+- best: P. Siakam o23.5 points (-114): Active (not on injury report) / C. Flagg u24.5 points (-113): Active (not on injury report) -> **pending**
 
 ### 2026-10-21: at New Orleans Pelicans (final: IND 123, NO 120)
 

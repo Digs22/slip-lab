@@ -23,9 +23,9 @@ Sources: ESPN summary/pickcenter, FanDuel Research/numberFire, Boston Globe, ABC
 
 Legs considered:
 - UConn Huskies ML: UMass will likely start its third-string quarterback on the road, and numberFire gives UConn an 84% win chance.
-- UConn Huskies -13.5: UConn scores 35.7 points per game, and UMass's backup QB managed just 18 points in regulation at Buffalo.
-- Under 51.5: UMass has scored 20 or fewer in three straight games, and a third-string QB limits its scoring.
+- UConn Huskies -12.5: UConn scores 35.7 points per game, and UMass's backup QB managed just 18 points in regulation at Buffalo.
+- Under 53.5: UMass has scored 20 or fewer in three straight games, and a third-string QB limits its scoring.
 
 Our bets:
-- straight (lean): UConn Huskies -13.5 (-108): pending -> **pending**
 - longshot: UConn Huskies -13.5 (-108): pending -> **pending**
+- straight (lean): UConn Huskies -12.5 (-112): pending -> **pending**

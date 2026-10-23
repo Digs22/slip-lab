@@ -26,13 +26,13 @@ Both offenses have slumped, Duke's defense allows 16 points a game, and the tota
 Sources: ESPN summary/pickcenter, FanDuel Research/numberFire, SI (Blue Devil Country, Cavaliers Now, SI Betting), 247Sports, Duke Basketball Report, College Football News, Yahoo, WagerTalk (snippet).
 
 Legs considered:
-- Under 47.5: Pribula has completed 52% of his passes over the last three games, and Duke allows only 16 points per game.
+- Under 46.5: Pribula has completed 52% of his passes over the last three games, and Duke allows only 16 points per game.
 - Duke Blue Devils +2.5: Duke's defense is the better unit, and the spread has dropped four points toward the Blue Devils since it opened.
 - Duke Blue Devils ML: This is almost a coin-flip game, and Duke at +120 is the best price on the board.
 
 Our bets:
-- straight (lean): Under 47.5 (-110): pending -> **pending**
 - longshot: Under 47.5 (-110): pending -> **pending**
+- straight (lean): Under 46.5 (-105): pending -> **pending**
 
 ### 2026-10-17: at SMU Mustangs (final: UVA 13, SMU 23)
 

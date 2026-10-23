@@ -36,15 +36,15 @@
    "note": "Line sits 3.5 above his rookie average after one 32-point night; Kyrie's return splits the shots."
   },
   {
-   "desc": "Under 237.5",
+   "desc": "Under 239.5",
    "game": "Dallas Mavericks @ Indiana Pacers",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 237.5,
-   "odds": -105,
-   "book": "DraftKings",
-   "fair": 0.489,
+   "line": 239.5,
+   "odds": -108,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.496,
    "books": 5,
    "signals": {
     "totals_model": 0.58,

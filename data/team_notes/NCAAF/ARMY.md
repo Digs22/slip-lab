@@ -27,5 +27,5 @@ Legs considered:
 - Under 52.5: Army's ball-control offense shortens games, and Army has allowed just 20 points per game.
 
 Our bets:
-- straight (lean): Army Black Knights +1.5 (-110): pending -> **pending**
 - longshot: Army Black Knights +1.5 (-110): pending -> **pending**
+- straight (lean): Army Black Knights +1.5 (-115): pending -> **pending**

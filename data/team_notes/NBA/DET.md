@@ -37,11 +37,11 @@ Legs considered:
 - G. Antetokounmpo o10.5 rebounds: Even money, but Adebayo and Detroit's big frontline cut into his boards; a fade-level lean only.
 
 Our bets:
+- best: C. Cunningham o9.5 assists (+115): Active -> **pending**
+- longshot: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
 - straight: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
 - best: C. Cunningham o9.5 assists (+115): Active / G. Antetokounmpo o10.5 rebounds (+100): Active -> **pending**
-- best: C. Cunningham o9.5 assists (+115): Active -> **pending**
 - straight: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
-- longshot: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
 
 ### 2026-10-20: vs Boston Celtics (final: BOS 113, DET 121)
 

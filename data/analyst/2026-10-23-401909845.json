@@ -10,9 +10,9 @@
    "team": null,
    "side": "under",
    "line": 234.5,
-   "odds": -105,
-   "book": "DraftKings",
-   "fair": 0.489,
+   "odds": -112,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.504,
    "books": 5,
    "signals": {
     "totals_model": 0.6,
