@@ -240,6 +240,12 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
     if analyst and odds_events and game["league"] in config.NO_PLAYER_PROPS:
         legs += extra_game_lines(game, odds_events)
     legs += analyst.get("extra_legs", [])  # props priced by hand from public odds pages
+    tp = analyst.get("totals_projection") or {}
+    if game["league"] == "NBA" and tp.get("total") and tp.get("line"):  # lesson 2026-10-21/22: the totals model is 6-0 when 4+ off the line
+        gap = tp["total"] - tp["line"]
+        side = "over" if gap > 0 else "under"
+        if abs(gap) >= 4:
+            legs = [l | {"prefer_straight": True} if l.get("market") == "total" and l.get("side") == side else l for l in legs]
     if game["league"] in config.NO_PLAYER_PROPS:
         legs = [l for l in legs if l["market"] != "prop"]  # not bettable in the user's state
     overrides = {a["desc"]: a for a in analyst.get("legs", [])}

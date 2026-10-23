@@ -6,8 +6,38 @@
 - 2026-10-21: 2025-26: 49-33, BBR ORtg 116.8, DRtg 113.5, pace 100.5. DiVincenzo (Achilles) is out until about April 2027.
 - 2026-10-21: Edwards (31.5%) and Ball (32.0% at CHA) share the ball now; expect Edwards' assists to fall (ATS.io).
 - 2026-10-21: Gobert got 6+ rebounds in 96% of 2025-26 games. DvP (own calc; rank 1 = most allowed): G 14th, F 23rd, C 17th.
+- 2026-10-23: Opener at MIA: Edwards 45 pts (16-29), Ball 21/6, Gobert 15 reb. Edwards hit 4+ threes in 47.5% of 2025-26 games.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: at Orlando Magic
+
+Total projects 230.3 vs DK 234.5, so the Under is a leg; Edwards and Ball qualify but have no priced points line, so the SGP has no edge. Most likely winner: Under 234.5 (-105).
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, opener boxes), Basketball-Reference 2025-26 team/player advanced pages, ESPN 2025-26 box-score logs (hit rates, threes, own DvP calc), MIN/ORL team notes, SI Peter's Points, Dimers, Polymarket, Capper's Picks, VegasInsider, iHeart model, Covers, Sportytrader, BettingNews, Tony's Picks, CBS Sports.
+LINES: DK MIN -1.5 (-110/-110), total 234.5 (o-115/u-105; opened 237.5), ML MIN -130 / ORL +110 (opened -118/-102). Dimers MIN -113 / ORL +109, total 237.5 (-104/+100); Capper's MIN -125 / ORL +105, 239.5; VegasInsider best Over o235 -105; Polymarket MIN 66c / ORL 35c. ESPN predictor ORL 44.3%.
+MARKET: 90-95% of tickets and handle on MIN (BettingNews), yet the DK total fell 3 points from the open, which supports the Under.
+TOTALS (NBA.md, BBR 2025-26): possessions avg(100.5 MIN, 100.0 ORL)=100.25. MIN = avg(116.8 ORtg, 114.3 ORL DRtg) x 1.0025 = 115.8; ORL = avg(114.9, 113.5 MIN DRtg) x 1.0025 = 114.5. Projected 230.3 vs 234.5, 4.2 under, so the total is a leg. Margin MIN +1.3 neutral, about ORL +0.7 with home court.
+CAVEAT: MIN added LaMelo Ball and scored 131 at MIA (237 total); ORL allowed 132 to ATL (257 total). Both openers ran well over this projection, so the Under is the model's call against the early form.
+INJURIES (ESPN Oct 23): ORL out A. Black (ankle), Isaac (knee), Penda (hamstring), I. Nelson (ankle). F. Wagner (shoulder) is off the list and played 29 min in the opener. MIN out DiVincenzo (Achilles).
+OPENERS (ESPN box): MIN Edwards 45/10/3 on 16-29 in 33 min, Ball 21/2/6 on 7-17, McDaniels 17/8, Dosunmu 16, Kuminga 12, Gobert 5/15. ORL Banchero 35/7/10 on 10-12 in 41 min, F. Wagner 22/6/5, W. Carter 22/7, Bane 18, da Silva 14 off the bench.
+USAGE (BBR 2025-26): Ball 32.0% (CHA), Edwards 31.5%, Banchero 27.6%, F. Wagner 27.0% (34 g), Kuminga 23.4%, Bane 23.3%, Suggs 22.9%, Dosunmu 20.2%, Gobert 12.9%. Two 31%+ guards share the ball in MIN, so both should drop.
+DvP (own FanDuel calc, ESPN 2025-26 boxes; rank 1 = most allowed): ORL G 10th, F 28th, C 12th; MIN G 14th, F 23rd, C 17th. Edwards and Ball pass; Banchero and Wagner do not.
+HIT RATES (ESPN 2025-26 logs): Edwards 28.8 ppg (sd 10.1), 28+ 56%, 4+ threes 47.5%; Ball 20.1 ppg, 22+ 33%; Banchero 22.2 ppg, 23+ 53%; Gobert 11.5 rpg, 11+ 62% (6+ reb 96% per team notes); F. Wagner 20+ 59%.
+PROPS FOUND (priced): Edwards o3.5 threes -136 (SI). Unpriced for tonight: Edwards o29 pts and Banchero o22.5 pts (Tony's Picks; CBS lists Banchero 22.5 at DK without a price); BettingPros' undated Edwards consensus is 27.5. Lines without a found price are left out per the real-lines rule.
+SGP: Edwards o3.5 threes (-136) + MIN ML (-113) = about +227 by leg product (implied 0.306). Raw 0.52 x 0.54 = 0.28, lifted to 0.30 because an Edwards shooting night drives a MIN win. Still below implied: no edge, not highlighted. It also cuts against the Under.
+EXPERTS: Dimers MIN ML (57.6%, 119-117) and Under by its 236 projection; Capper's MIN 125-115; iHeart model Over 236.5 (247); Covers ORL (47% on Polymarket); Sportytrader and Capper's MIN -1.5; Tony's Picks Edwards and Banchero overs; SI Edwards o3.5 threes.
+COACHING: new ORL coach Sean Sweeney keeps a size-first identity; Banchero played 41 min in the opener. Finch's MIN had a top-10 defense last year (113.5 DRtg) and now pairs Ball and Edwards.
+
+Legs considered:
+- Under 234.5: Projection 230.3 (MIN 115.8 + ORL 114.5 at 100.25 poss) is 4.2 under; DK already moved down from 237.5.
+- Minnesota Timberwolves ML: Deeper, healthier team (ORL without Black and Isaac); the model has it close to a coin flip in Orlando.
+- A. Edwards o3.5 threes: Heavy 3-point volume in the new Ball-Edwards offense; ORL let two Hawks guards hit 4+ threes Wednesday.
+
+Our bets:
+- straight (lean): Under 234.5 (-105): pending -> **pending**
+- best: A. Edwards o3.5 threes (-136): Active (not on injury report) / Minnesota Timberwolves ML (-113): pending -> **pending**
+- longshot: Under 234.5 (-105): pending -> **pending**
 
 ### 2026-10-21: at Miami Heat (final: MIN 131, MIA 106)
 

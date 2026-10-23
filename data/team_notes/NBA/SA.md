@@ -8,8 +8,41 @@
 - 2026-10-20: SA was stingy to guards and wings in DvP last season (Rotogrinders FD ranks PG 25, SG 30, SF 30, C 28).
 - 2026-10-20: Tobias Harris (left calf strain) and Jayden Quaintance out for the opener.
 - 2026-10-20: Wembanyama held to 27.6 pts+reb per game in five 2025-26 regular-season games vs OKC (Lineups.com).
+- 2026-10-23: Hosts some games at the Moody Center in Austin (smaller home edge). Wembanyama opened 1-13 but with 13 reb and 6 blk; Fox (wrist) day-to-day 10/23.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: vs Houston Rockets
+
+Totals model projects 233.0 vs DK 228.5, so the Over is the lead leg; Wembanyama's SGP has no clear edge. Most likely winner: Over 228.5.
+
+Venue: SA hosts at the Moody Center in Austin (Fox Sports, ESPN), a smaller home-court bump than the Frost Bank Center.
+Lines: ESPN DK SA -5.5 (-108) / HOU +5.5 (-112), ML SA -205 / HOU +170, total 228.5 (o -105 / u -115). SI had DK SA -6.5, 227.5, -230/+190; Bleacher Nation 5.5 / 226.5; Fox Sports SA -7, 225.5; Picks and Parlays -7.5 / 225.5. The total moved up toward 228.5 at DK.
+Injuries (ESPN): SA out Tobias Harris (calf), Jayden Quaintance (knee); De'Aaron Fox (wrist) and Keldon Johnson (mouth) day-to-day. HOU Steven Adams (calf) and Reed Sheppard (knee) day-to-day.
+Openers (ESPN box): SA lost 116-104 to OKC; Wemby 12/13/3 on 1-13 with 6 blocks, Castle 24, Harper 18/7/5, Fox 14/7/7; SA shot 10-37 from three. HOU beat DAL 128-110: Durant 30/6/3 (10-16), Jabari Smith Jr. 30, Sengun 23/10/5, VanVleet 6 pts/11 ast, A. Thompson 16/10.
+Usage (2025-26): Wembanyama 32.4%, Durant 27.4%, Fox 25.1%, Sengun ~25% (not confirmed). Jabari Smith's 30 is a one-game outlier.
+DvP: SA stingy at every spot (Rotogrinders FD PG 25, SG 30, SF 30, C 28; low rank = most allowed). HOU (Legion Report 2025-26, rank 1 = most) G 30th, F 26th, C 10th. Only Wembanyama passes, borderline.
+SGP: no Wemby points/assists price found for tonight (BettingPros 25.5 points consensus is ~20 days old). Priced pair: o11.5 reb +112 (Tony's) x o4.5 stocks -107 (SI) = implied 0.244; true ~0.50 x 0.48 plus a small minutes correlation = 0.245. No edge.
+Totals (method; USU MACFAX 2025-26, as in prior notes): SA ORtg 119.6 / DRtg 111.3 / pace 102.8; HOU 115.2 / 112.6 / 100.4; avg 101.6. SA = avg(119.6, 112.6) x 1.016 = 118.0; HOU = avg(115.2, 111.3) x 1.016 = 115.1. Total 233.0 vs DK 228.5 (+4.5; +5.5 to +7.5 vs other books).
+Caveat: Houston's raw half-court pace was slow in 2025-26 (96.2 NBAstuffer), the opposing case for the Under; Lineups.com takes Under 228.5 (-105), SA 117-111.
+Score model: SA +2.9 before home court; ~1-1.5 for Austin gives SA ~4 vs 5.5. Small lean to HOU +5.5.
+Experts: SI HOU +6.5 (Houston 7-2 ATS as road dog last year); Bleacher Nation HOU +5.5; Sportsmole Over 225.5 (SA due to shoot better); Lineups.com Under 228.5 and SA 117-111; Tony's Wemby o11.5 reb +112.
+Props seen: Sengun 17.5 pts / 8.5-9.5 reb / 4.5-5.5 ast (Bleacher Nation, Tony's; no prices); Durant ~23.5 pts (Covers, undated); Wemby stocks o4.5 -107 (SI). Unpriced lines were left out per the real-lines rule.
+History: Sengun averaged 19.8/9.3 in four 2025-26 games vs SA (StatMuse) and has 20+ pts+ast in 3 of the last 4 meetings (Betr).
+Coaching: Mitch Johnson's three-guard start (Fox, Castle, Harper); Udoka's Rockets crash the offensive glass (Sengun 5 OREB in the opener) and defend with size.
+Most likely winner: Over 228.5, backed by the totals model's record; HOU +5.5 is the side lean.
+
+Legs considered:
+- Over 228.5: Projection 233.0 (SA 118.0 + HOU 115.1 at 101.6 poss) is 4.5 over DK; the model is 6-0 when it disagrees by 4+.
+- Houston Rockets +5.5: Model has SA by about 4 at a semi-neutral Austin site; SI and Bleacher Nation both take Houston.
+- V. Wembanyama o11.5 rebounds: Elite-big rebound over at plus money; Sengun and Adams crash the offensive glass, which trims his share.
+- V. Wembanyama o4.5 steals+blocks: Six blocks in the opener and Houston attacks the rim with Durant and Sengun.
+
+Our bets:
+- straight: V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
+- best: V. Wembanyama o11.5 rebounds (+112): Active / V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
+- best: V. Wembanyama o11.5 rebounds (+112): Active -> **pending**
+- longshot: V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
 
 ### 2026-10-20: vs Oklahoma City Thunder (final: OKC 116, SA 104)
 

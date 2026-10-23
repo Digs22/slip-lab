@@ -39,6 +39,60 @@
   "home_name": "Texas Longhorns",
   "league": "NCAAF"
  },
+ "401856727": {
+  "away": "TA&M",
+  "away_name": "Texas A&M Aggies",
+  "date": "2026-10-24",
+  "home": "ALA",
+  "home_name": "Alabama Crimson Tide",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401856728": {
+  "away": "LSU",
+  "away_name": "LSU Tigers",
+  "date": "2026-10-24",
+  "home": "AUB",
+  "home_name": "Auburn Tigers",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401856729": {
+  "away": "VAN",
+  "away_name": "Vanderbilt Commodores",
+  "date": "2026-10-24",
+  "home": "UK",
+  "home_name": "Kentucky Wildcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401856730": {
+  "away": "OU",
+  "away_name": "Oklahoma Sooners",
+  "date": "2026-10-24",
+  "home": "MSST",
+  "home_name": "Mississippi State Bulldogs",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401856731": {
+  "away": "TENN",
+  "away_name": "Tennessee Volunteers",
+  "date": "2026-10-24",
+  "home": "SC",
+  "home_name": "South Carolina Gamecocks",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401856732": {
+  "away": "MISS",
+  "away_name": "Ole Miss Rebels",
+  "date": "2026-10-24",
+  "home": "TEX",
+  "home_name": "Texas Longhorns",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
  "401856809": {
   "away": "ND",
   "away_name": "Notre Dame Fighting Irish",
@@ -47,6 +101,78 @@
   "home_name": "BYU Cougars",
   "league": "NCAAF"
  },
+ "401856834": {
+  "away": "BAY",
+  "away_name": "Baylor Bears",
+  "date": "2026-10-24",
+  "home": "KU",
+  "home_name": "Kansas Jayhawks",
+  "league": "NCAAF",
+  "start": "2026-10-24T17:00Z"
+ },
+ "401856835": {
+  "away": "BYU",
+  "away_name": "BYU Cougars",
+  "date": "2026-10-24",
+  "home": "UCF",
+  "home_name": "UCF Knights",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401856836": {
+  "away": "COLO",
+  "away_name": "Colorado Buffaloes",
+  "date": "2026-10-24",
+  "home": "OKST",
+  "home_name": "Oklahoma State Cowboys",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:00Z"
+ },
+ "401856837": {
+  "away": "HOU",
+  "away_name": "Houston Cougars",
+  "date": "2026-10-25",
+  "home": "UTAH",
+  "home_name": "Utah Utes",
+  "league": "NCAAF",
+  "start": "2026-10-25T02:15Z"
+ },
+ "401856838": {
+  "away": "ISU",
+  "away_name": "Iowa State Cyclones",
+  "date": "2026-10-24",
+  "home": "ARIZ",
+  "home_name": "Arizona Wildcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401856839": {
+  "away": "KSU",
+  "away_name": "Kansas State Wildcats",
+  "date": "2026-10-24",
+  "home": "ASU",
+  "home_name": "Arizona State Sun Devils",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:45Z"
+ },
+ "401856840": {
+  "away": "TTU",
+  "away_name": "Texas Tech Red Raiders",
+  "date": "2026-10-24",
+  "home": "CIN",
+  "home_name": "Cincinnati Bearcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401856841": {
+  "away": "WVU",
+  "away_name": "West Virginia Mountaineers",
+  "date": "2026-10-24",
+  "home": "TCU",
+  "home_name": "TCU Horned Frogs",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
  "401858268": {
   "away": "UVA",
   "away_name": "Virginia Cavaliers",
@@ -54,6 +180,69 @@
   "home": "SMU",
   "home_name": "SMU Mustangs",
   "league": "NCAAF"
+ },
+ "401858270": {
+  "away": "CAL",
+  "away_name": "California Golden Bears",
+  "date": "2026-10-24",
+  "home": "SMU",
+  "home_name": "SMU Mustangs",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401858271": {
+  "away": "DUKE",
+  "away_name": "Duke Blue Devils",
+  "date": "2026-10-23",
+  "home": "UVA",
+  "home_name": "Virginia Cavaliers",
+  "league": "NCAAF",
+  "start": "2026-10-23T23:00Z"
+ },
+ "401858272": {
+  "away": "NCSU",
+  "away_name": "NC State Wolfpack",
+  "date": "2026-10-24",
+  "home": "STAN",
+  "home_name": "Stanford Cardinal",
+  "league": "NCAAF",
+  "start": "2026-10-24T02:30Z"
+ },
+ "401858273": {
+  "away": "BC",
+  "away_name": "Boston College Eagles",
+  "date": "2026-10-24",
+  "home": "GT",
+  "home_name": "Georgia Tech Yellow Jackets",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401858274": {
+  "away": "PITT",
+  "away_name": "Pittsburgh Panthers",
+  "date": "2026-10-24",
+  "home": "MIA",
+  "home_name": "Miami Hurricanes",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401858275": {
+  "away": "SYR",
+  "away_name": "Syracuse Orange",
+  "date": "2026-10-24",
+  "home": "UNC",
+  "home_name": "North Carolina Tar Heels",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401858276": {
+  "away": "VT",
+  "away_name": "Virginia Tech Hokies",
+  "date": "2026-10-24",
+  "home": "CLEM",
+  "home_name": "Clemson Tigers",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:00Z"
  },
  "401858488": {
   "away": "OSU",
@@ -79,6 +268,96 @@
   "home_name": "UCLA Bruins",
   "league": "NCAAF"
  },
+ "401858495": {
+  "away": "ORE",
+  "away_name": "Oregon Ducks",
+  "date": "2026-10-24",
+  "home": "ILL",
+  "home_name": "Illinois Fighting Illini",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:00Z"
+ },
+ "401858496": {
+  "away": "IU",
+  "away_name": "Indiana Hoosiers",
+  "date": "2026-10-24",
+  "home": "MICH",
+  "home_name": "Michigan Wolverines",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401858497": {
+  "away": "IOWA",
+  "away_name": "Iowa Hawkeyes",
+  "date": "2026-10-24",
+  "home": "MINN",
+  "home_name": "Minnesota Golden Gophers",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401858498": {
+  "away": "RUTG",
+  "away_name": "Rutgers Scarlet Knights",
+  "date": "2026-10-24",
+  "home": "NU",
+  "home_name": "Northwestern Wildcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401858499": {
+  "away": "MSU",
+  "away_name": "Michigan State Spartans",
+  "date": "2026-10-24",
+  "home": "UCLA",
+  "home_name": "UCLA Bruins",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401858500": {
+  "away": "USC",
+  "away_name": "USC Trojans",
+  "date": "2026-10-24",
+  "home": "WIS",
+  "home_name": "Wisconsin Badgers",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401860905": {
+  "away": "SDSU",
+  "away_name": "San Diego State Aztecs",
+  "date": "2026-10-24",
+  "home": "CSU",
+  "home_name": "Colorado State Rams",
+  "league": "NCAAF",
+  "start": "2026-10-24T22:30Z"
+ },
+ "401860906": {
+  "away": "USU",
+  "away_name": "Utah State Aggies",
+  "date": "2026-10-24",
+  "home": "TXST",
+  "home_name": "Texas State Bobcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401860907": {
+  "away": "BOIS",
+  "away_name": "Boise State Broncos",
+  "date": "2026-10-24",
+  "home": "WSU",
+  "home_name": "Washington State Cougars",
+  "league": "NCAAF",
+  "start": "2026-10-24T22:00Z"
+ },
+ "401861965": {
+  "away": "MASS",
+  "away_name": "Massachusetts Minutemen",
+  "date": "2026-10-23",
+  "home": "CONN",
+  "home_name": "UConn Huskies",
+  "league": "NCAAF",
+  "start": "2026-10-23T23:00Z"
+ },
  "401862800": {
   "away": "ECU",
   "away_name": "East Carolina Pirates",
@@ -86,6 +365,168 @@
   "home": "UAB",
   "home_name": "UAB Blazers",
   "league": "NCAAF"
+ },
+ "401862808": {
+  "away": "ARMY",
+  "away_name": "Army Black Knights",
+  "date": "2026-10-24",
+  "home": "TLSA",
+  "home_name": "Tulsa Golden Hurricane",
+  "league": "NCAAF",
+  "start": "2026-10-24T00:30Z"
+ },
+ "401862809": {
+  "away": "RICE",
+  "away_name": "Rice Owls",
+  "date": "2026-10-24",
+  "home": "FAU",
+  "home_name": "Florida Atlantic Owls",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401862810": {
+  "away": "UNT",
+  "away_name": "North Texas Mean Green",
+  "date": "2026-10-24",
+  "home": "NAVY",
+  "home_name": "Navy Midshipmen",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401862811": {
+  "away": "UTSA",
+  "away_name": "UTSA Roadrunners",
+  "date": "2026-10-25",
+  "home": "TULN",
+  "home_name": "Tulane Green Wave",
+  "league": "NCAAF",
+  "start": "2026-10-25T00:00Z"
+ },
+ "401864525": {
+  "away": "AFA",
+  "away_name": "Air Force Falcons",
+  "date": "2026-10-24",
+  "home": "WYO",
+  "home_name": "Wyoming Cowboys",
+  "league": "NCAAF",
+  "start": "2026-10-24T01:00Z"
+ },
+ "401864526": {
+  "away": "HAW",
+  "away_name": "Hawai'i Rainbow Warriors",
+  "date": "2026-10-24",
+  "home": "NIU",
+  "home_name": "Northern Illinois Huskies",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401864527": {
+  "away": "NDSU",
+  "away_name": "North Dakota State Bison",
+  "date": "2026-10-25",
+  "home": "UNM",
+  "home_name": "New Mexico Lobos",
+  "league": "NCAAF",
+  "start": "2026-10-25T02:00Z"
+ },
+ "401864528": {
+  "away": "SJSU",
+  "away_name": "San Jos\u00e9 State Spartans",
+  "date": "2026-10-24",
+  "home": "NEV",
+  "home_name": "Nevada Wolf Pack",
+  "league": "NCAAF",
+  "start": "2026-10-24T21:00Z"
+ },
+ "401866446": {
+  "away": "AKR",
+  "away_name": "Akron Zips",
+  "date": "2026-10-24",
+  "home": "KENT",
+  "home_name": "Kent State Golden Flashes",
+  "league": "NCAAF",
+  "start": "2026-10-24T17:00Z"
+ },
+ "401866447": {
+  "away": "SAC",
+  "away_name": "Sacramento State Hornets",
+  "date": "2026-10-24",
+  "home": "BALL",
+  "home_name": "Ball State Cardinals",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401866448": {
+  "away": "BGSU",
+  "away_name": "Bowling Green Falcons",
+  "date": "2026-10-24",
+  "home": "BUFF",
+  "home_name": "Buffalo Bulls",
+  "league": "NCAAF",
+  "start": "2026-10-24T19:30Z"
+ },
+ "401866449": {
+  "away": "EMU",
+  "away_name": "Eastern Michigan Eagles",
+  "date": "2026-10-24",
+  "home": "OHIO",
+  "home_name": "Ohio Bobcats",
+  "league": "NCAAF",
+  "start": "2026-10-24T20:00Z"
+ },
+ "401866450": {
+  "away": "WMU",
+  "away_name": "Western Michigan Broncos",
+  "date": "2026-10-24",
+  "home": "TOL",
+  "home_name": "Toledo Rockets",
+  "league": "NCAAF",
+  "start": "2026-10-24T16:00Z"
+ },
+ "401866476": {
+  "away": "M-OH",
+  "away_name": "Miami (OH) RedHawks",
+  "date": "2026-10-24",
+  "home": "CMU",
+  "home_name": "Central Michigan Chippewas",
+  "league": "NCAAF",
+  "start": "2026-10-24T17:00Z"
+ },
+ "401869935": {
+  "away": "GAST",
+  "away_name": "Georgia State Panthers",
+  "date": "2026-10-24",
+  "home": "ARST",
+  "home_name": "Arkansas State Red Wolves",
+  "league": "NCAAF",
+  "start": "2026-10-24T23:00Z"
+ },
+ "401869967": {
+  "away": "UL",
+  "away_name": "Louisiana Ragin' Cajuns",
+  "date": "2026-10-24",
+  "home": "USM",
+  "home_name": "Southern Miss Golden Eagles",
+  "league": "NCAAF",
+  "start": "2026-10-24T21:00Z"
+ },
+ "401871093": {
+  "away": "ODU",
+  "away_name": "Old Dominion Monarchs",
+  "date": "2026-10-24",
+  "home": "LT",
+  "home_name": "Louisiana Tech Bulldogs",
+  "league": "NCAAF",
+  "start": "2026-10-24T21:00Z"
+ },
+ "401871094": {
+  "away": "ULM",
+  "away_name": "UL Monroe Warhawks",
+  "date": "2026-10-24",
+  "home": "TROY",
+  "home_name": "Troy Trojans",
+  "league": "NCAAF",
+  "start": "2026-10-24T20:00Z"
  },
  "401872995": {
   "away": "SEA",
@@ -275,6 +716,15 @@
   "home_name": "Milwaukee Brewers",
   "league": "MLB",
   "start": "2026-10-24T00:00Z"
+ },
+ "401908043": {
+  "away": "TB",
+  "away_name": "Tampa Bay Rays",
+  "date": "2026-10-25",
+  "home": "MIL",
+  "home_name": "Milwaukee Brewers",
+  "league": "MLB",
+  "start": "2026-10-25T00:00Z"
  },
  "401909088": {
   "away": "BOS",
@@ -527,6 +977,78 @@
   "home_name": "Sacramento Kings",
   "league": "NBA",
   "start": "2026-10-24T02:00Z"
+ },
+ "401909853": {
+  "away": "MIA",
+  "away_name": "Miami Heat",
+  "date": "2026-10-24",
+  "home": "CHA",
+  "home_name": "Charlotte Hornets",
+  "league": "NBA",
+  "start": "2026-10-24T22:00Z"
+ },
+ "401909854": {
+  "away": "BKN",
+  "away_name": "Brooklyn Nets",
+  "date": "2026-10-24",
+  "home": "CLE",
+  "home_name": "Cleveland Cavaliers",
+  "league": "NBA",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401909855": {
+  "away": "MIL",
+  "away_name": "Milwaukee Bucks",
+  "date": "2026-10-24",
+  "home": "PHI",
+  "home_name": "Philadelphia 76ers",
+  "league": "NBA",
+  "start": "2026-10-24T23:30Z"
+ },
+ "401909856": {
+  "away": "HOU",
+  "away_name": "Houston Rockets",
+  "date": "2026-10-25",
+  "home": "ATL",
+  "home_name": "Atlanta Hawks",
+  "league": "NBA",
+  "start": "2026-10-25T00:30Z"
+ },
+ "401909857": {
+  "away": "WSH",
+  "away_name": "Washington Wizards",
+  "date": "2026-10-25",
+  "home": "CHI",
+  "home_name": "Chicago Bulls",
+  "league": "NBA",
+  "start": "2026-10-25T00:00Z"
+ },
+ "401909858": {
+  "away": "SA",
+  "away_name": "San Antonio Spurs",
+  "date": "2026-10-25",
+  "home": "DAL",
+  "home_name": "Dallas Mavericks",
+  "league": "NBA",
+  "start": "2026-10-25T00:00Z"
+ },
+ "401909859": {
+  "away": "NO",
+  "away_name": "New Orleans Pelicans",
+  "date": "2026-10-25",
+  "home": "DEN",
+  "home_name": "Denver Nuggets",
+  "league": "NBA",
+  "start": "2026-10-25T01:00Z"
+ },
+ "401909860": {
+  "away": "GS",
+  "away_name": "Golden State Warriors",
+  "date": "2026-10-25",
+  "home": "PHX",
+  "home_name": "Phoenix Suns",
+  "league": "NBA",
+  "start": "2026-10-25T02:00Z"
  },
  "401915392": {
   "away": "ATM",

@@ -3,8 +3,41 @@
 ## Standing notes
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
+- 2026-10-23: New coach Tiago Splitter; starters Giddey, Powell, Buzelis, rookie Caleb Wilson, J. Smith while Claxton (hamstring) is out. BBR 2025-26: ORtg 113.0, DRtg 118.1, pace 102.5.
+- 2026-10-23: DvP 2025-26 (own calc; rank 1 = most allowed): G 5th, F 6th, C 5th. Usage: Powell 27.2% (MIA), Giddey 24.4%, Buzelis 22.8%.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: at Milwaukee Bucks
+
+Total projects 231.8 vs DK 240.5, so the Under is the main play; the Herro/Powell usage SGP fails the edge test. Most likely winner: Under 240.5 (-115).
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, opener boxes), Basketball-Reference 2025-26 team and player advanced pages, ESPN 2025-26 box-score logs (hit rates, own DvP calc), CHI/MIL team notes, Dimers, RAW CHILI, Covers, Sportsmole, TheSpread, Picks and Parlays, Dailysports, StatsAlt, Urban Matter, PickDawgz, theScore.
+LINES: DK MIL -1.5 (-102) / CHI +1.5 (-118), total 240.5 (o-105/u-115, opened 239.5), ML MIL -115 / CHI -105 (opened -110/-110). Elsewhere 237.5-239.5 (Sportsmole, PickDawgz 237.5 -110/-110, theScore 238.5, TheSpread 239.5). ESPN predictor MIL 57.7%.
+TOTALS (NBA.md, BBR 2025-26): possessions avg(102.5 CHI, 97.6 MIL)=100.05. CHI = avg(113.0 ORtg, 119.3 MIL DRtg) x 1.0005 = 116.2; MIL = avg(112.9, 118.1 CHI DRtg) x 1.0005 = 115.6. Projected 231.8 vs 240.5: 8.7 under, so the total is a leg. Margin CHI +0.6 neutral, MIL about +1.4 with home court, so the side is a pass.
+CAVEAT: both rosters were remade (Giannis traded to MIA; Powell and rookie Caleb Wilson joined CHI), so last season's ratings are stale. Openers: MIL lost 128-116 at WSH (244 total at a fast WSH pace), CHI lost 135-92 at TOR (92 pts on poor shooting). 4 PM ET matinee.
+INJURIES (ESPN Oct 23): CHI Giddey (wrist), Swain and Hawkins (illness, both missed the opener), Collins (quad), Awaka (knee) all day-to-day; Claxton out (hamstring) per the NBA report. MIL: nobody listed.
+OPENERS (ESPN box): MIL Herro 24/2/9 on 9-21 in 32 min, Jaquez 22/7, Turner 11/5, Rollins 9/6/3 (24 min, 4-14), Jakucionis 15 off the bench. CHI Buzelis 17, C. Wilson 16 (7-21), J. Smith 15/8, Powell 15/5 (22 min), Tre Jones 13, Giddey 2/7/6 on 1-10.
+USAGE (BBR 2025-26; opening week so last season is used): Powell 27.2% (MIA), Herro 24.7% (MIA, 33 g), Giddey 24.4%, Rollins 24.2%, Buzelis 22.8%, Jaquez 22.3% (MIA), Kuzma 21.8%, Turner 18.6%. Herro's usage should rise as the top option, Powell's fall.
+DvP (own FanDuel calc from 1,231 ESPN 2025-26 boxes; rank 1 = most allowed): CHI G 5th, F 6th, C 5th; MIL G 6th, F 10th, C 28th. Every 24%+ player passes the gate: Herro, Rollins, Powell, Giddey.
+HIT RATES (ESPN 2025-26 logs): Herro 20.5/4.8/4.1 in 33 g: 24+ pts 33%, 5+ reb 45%, 5+ ast 39%; 14+ pts 93.6% over two seasons (team notes). Powell 21.7 ppg: 19+ 74%. Giddey 9.1 apg: 8+ ast 61%. Rollins 5+ reb 43%.
+PROPS FOUND (priced): Herro o23.5 -108 / u23.5 -125 (RAW CHILI board); Herro o4.5 reb +123 BetRivers and Rollins o4.5 reb +130 (Dimers model picks, 50.7% for Herro); Powell o18.5 -110 bet365 (Covers; its under listing showed u19.5 -128, so the pair is unmatched). No Giddey line found for this game.
+SGP: the 93% floors (Herro 14+ pts) aren't offered, so the SGP uses real main lines: Powell o18.5 (-110) + Herro o4.5 reb (+123) = +326 by leg product (implied 0.235). Raw 0.52 x 0.45 = 0.234, shrunk to 0.22 because the Under script cuts volume. No edge, not highlighted.
+EXPERTS: Sportsmole Over 237.5; TheSpread Over 239.5; Picks and Parlays MIL -1.5 and Under 238.5; StatsAlt MIL -1.5 and Under 239.5; Dailysports MIL ML; Urban Matter MIL 120-112 and Under; Dimers MIL 56.3%, 119-117. Split on the total, lean MIL.
+COACHING/PACE: Splitter's CHI played fast last year (102.5) and gave up 118.1 per 100; MIL was the slowest-tier team (97.6), and Herro/Turner/Jaquez are a half-court core. The total moved up a point from 239.5 to 240.5 at DK.
+CHEMISTRY: MIL is two games into the post-Giannis era with five new rotation players; CHI has a new coach (Splitter), a rookie starter (Wilson) and no Claxton.
+
+Legs considered:
+- Under 240.5: Projection 231.8 (CHI 116.2 + MIL 115.6 at 100.05 poss) is 8.7 under DK's 240.5.
+- T. Herro u23.5 points: Main line; scored 24+ in only a third of games last year, though he is now Milwaukee's first option.
+- N. Powell o18.5 points: Main line; MIL allowed 6th-most fantasy points to guards, but his CHI role is smaller than in Miami.
+- T. Herro o4.5 rebounds: Dimers' model pick at plus money; he grabbed only 2 rebounds in the opener.
+
+Our bets:
+- straight (lean): Under 240.5 (-115): pending -> **pending**
+- best: N. Powell o18.5 points (-110): Active (not on injury report) / T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
+- best: T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
+- longshot: Under 240.5 (-115): pending -> **pending**
 
 ### 2026-10-21: at Toronto Raptors (final: CHI 92, TOR 135)
 

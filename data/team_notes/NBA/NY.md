@@ -6,8 +6,40 @@
 - 2026-10-20: 2025-26: ORtg 119.8, DRtg 113.3, slow pace 96.8, which supports unders. DvP is tough at every position (PG 14th, SG 17th, SF 23rd, PF 26th, C 23rd in FPPG allowed, rank 1 = most).
 - 2026-10-20: Mitchell Robinson left for BOS; Andre Drummond is the backup C. Depth: Clarkson, Alvarado, Shamet, Diawara.
 - 2026-10-20: Towns' 2025-26 floors: 7+ reb in 93% of games (11.9 rpg), 10+ pts 93%. Brunson's floors: 12+ pts 96%, 3+ ast 96%, 20+ pts only 80%.
+- 2026-10-23: BBR 2025-26 recheck: ORtg 119.8, DRtg 113.3, pace 96.8. Own DvP calc: G 23rd, F 26th, C 29th (tough everywhere). Towns 11+ reb in 71% of 2025-26 games.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: at Boston Celtics
+
+Total projects 223.5 vs 222.5, so it's only a slight Over lean; no player passes the usage/DvP gate. Most likely winner: J. Tatum u25.5 points (-103).
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, opener boxes), Basketball-Reference 2025-26 team/player advanced pages, ESPN 2025-26 box-score logs (hit rates, own DvP calc), NY/BOS team notes, SI (prop preview and Peter's Points), Sportsbook Review, BetMGM, Sports Mole, Dimers, The Kot Show, Pickswise.
+LINES: DK BOS -2.5 (-115) / NY +2.5 (-105), total 222.5 (o-112/u-108, opened 223.5), ML BOS -148 / NY +124 (opened -135/+114). SBR has BOS -1.5 -117 (BetRivers); Sports Mole NY +2.5 and total 223.5; range 221.5-224.5. ESPN predictor BOS 56.9%. Money is moving toward Boston on the side.
+TOTALS (NBA.md, BBR 2025-26): possessions avg(96.8 NY, 94.8 BOS)=95.8, the two slowest teams on the slate. NY = avg(119.8 ORtg, 112.7 BOS DRtg) x 0.958 = 111.4; BOS = avg(120.8, 113.3 NY DRtg) x 0.958 = 112.1. Projected 223.5 vs 222.5 (+1.0), below the 4-point trigger, so it is a small Over lean listed per the always-include rule. Margin BOS +0.7 neutral, about +2.7 with home court, so the -2.5 is fair.
+CAVEAT: BOS's 120.8 ORtg had Jaylen Brown (36.2% USG, now PHI). Paul George and Mitchell Robinson are new. NY opened in a 206-point loss to PHI; BOS lost 121-113 at DET (234).
+INJURIES (ESPN Oct 23): BOS Devin Carter out (mononucleosis/illness). NY none listed.
+OPENERS (ESPN box): BOS George 38/5/3 on 12-21, Tatum 13/4/11 on 6-23 in 38 min, White 17/8 ast, Pritchard 17 off the bench, Robinson started (18 min). NY Brunson 21/5/3 on 6-19, Towns 19/12 in 24 min, Drummond 12/14 off the bench, Hart 14/7, Anunoby 10 (3-12), Bridges 4.
+USAGE (BBR 2025-26): Brunson 30.4%, Tatum 30.0% (16 g post-Achilles), Towns 25.9%, George 23.3% (PHI), White 22.0%, Pritchard 21.4%, Anunoby 19.7%, Bridges 17.3%.
+DvP (own FanDuel calc, ESPN 2025-26 boxes; rank 1 = most allowed): BOS G 27th, F 30th, C 25th; NY G 23rd, F 26th, C 29th. Both are top-tier defenses everywhere, so no 24%+ player passes the gate.
+HIT RATES (ESPN 2025-26 logs): Tatum 21.8 ppg, 26+ pts 2/16, 15+ R+A 8/16; George 17.3 ppg, 18+ 15/37; Brunson 26.0 ppg, 21+ 76%; Towns 11.8 rpg, 11+ reb 71%; Anunoby 3+ threes 41% (2.38 per game). Team notes: Towns 7+ reb 93%, Brunson 12+ pts 96%.
+PROPS FOUND (priced): Tatum u25.5 pts -103 (Dimers, 55.8%); Tatum o14.5 R+A -132 (SI); George o17.5 pts -112 DK (SBR pick); Anunoby o2.5 threes +142 FanDuel (SBR). Unpriced: Brunson o20.5 (Sports Mole), Towns o10.5 reb (BetMGM had not posted props). Pickswise's George 15+ -230 SGP may be from another date, so it is not used.
+SGP: no usage qualifier, so this is the best-possible version from real main lines: Tatum u25.5 (-103) + George o17.5 (-112) = +273 by leg product (implied 0.268). Raw 0.52 x 0.51 = 0.265; the two split Boston's shots, so the correlation lifts it to about 0.28. Slim edge, not highlighted.
+EXPERTS: SI Peter Dewey BOS 1H ML -130 (passes on full game); Sports Mole NY +2.5, Under 223.5, Brunson o20.5; SBR BOS -1.5, BOS 114-110, George o17.5, Anunoby o2.5 threes; BetMGM Towns o10.5 reb; The Kot Show NY 112-106. Split on side and total.
+COACHING: Mazzulla's BOS played the NBA's slowest pace (94.8) on 3-point volume; Mike Brown's NY was 96.8. Robinson's first game against his old team (Kot Show); Towns averaged 10.8 reb in his last five against BOS (BetMGM).
+CHEMISTRY: NY returns all five starters from the title team; BOS is rebuilding its pecking order around Tatum, George and White after the Brown trade, and Tatum is the primary ball handler, as he was late last year (his rebounds fell in that role).
+
+Legs considered:
+- J. Tatum u25.5 points: Scored 26+ twice in 16 games last year and 13 on 6-23 in the opener against a tough NY wing defense.
+- J. Tatum o14.5 rebounds + assists: Opened as Boston's primary handler with 4 rebounds and 11 assists, which matches his new role.
+- P. George o17.5 points: Took 21 shots for 38 points in the opener as Brown's replacement; last season's PHI numbers understate the role.
+- Over 222.5: Projection 223.5 (NY 111.4 + BOS 112.1 at 95.8 poss) is only 1.0 over DK 222.5, so it is a lean.
+
+Our bets:
+- straight: J. Tatum u25.5 points (-103): Active (not on injury report) -> **pending**
+- best: J. Tatum u25.5 points (-103): Active (not on injury report) / P. George o17.5 points (-112): Active (not on injury report) -> **pending**
+- straight: P. George o17.5 points (-112): Active (not on injury report) -> **pending**
+- longshot: J. Tatum u25.5 points (-103): Active (not on injury report) -> **pending**
 
 ### 2026-10-20: vs Philadelphia 76ers (final: PHI 106, NY 100)
 

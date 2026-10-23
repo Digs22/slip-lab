@@ -2,9 +2,39 @@
 
 ## Standing notes
 
-_Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
+- 2026-10-23: Ty Jerome is the lead guard: 45/7/6 in 32 min in the opener (19.7 ppg in 22.6 min over 15 g in 2025-26). Totals inputs (USU 2025-26): ORtg 110.5, DRtg 117.6, pace 104.5.
+- 2026-10-23: DvP (Legion 2025-26, rank 1 = most): G 12th, F 3rd, C 16th.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-23: at Golden State Warriors
+
+Ty Jerome qualifies against GS's PG defense, but the Jerome/Curry points SGP gap is within price noise. Total projects 233.4 vs 234.5. Most likely winner: Warriors -2.5.
+
+Lines: ESPN DK GS -2.5 (-118) / MEM +2.5 (-102), ML GS -148 / MEM +124, total 234.5 (o -110 / u -110). Bleacher Nation and SI GS -3.5, 235.5; Dimers GS -4, ML -150 / +138.
+Injuries (ESPN): GS out Porzingis (illness), Moody (knee), Butler (knee); Podziemski (back) and Bassey (knee) day-to-day. MEM Cedric Coward (wrist) and Isaiah Stewart (ankle) day-to-day.
+Openers (ESPN box): GS lost 127-105 at LAL; Curry 23 in 21 min (blowout), Lendeborg 12, B. Williams 14, Green 8 ast. MEM beat UTA 123-103; Ty Jerome 45/7/6 on 17-25 in 32 min, Boozer 7/11/5 (2-15), Edey 9 reb in 21 min, Grant 15.
+Usage: Curry 32.5% (BBR 2025-26), Melton 25.4%. Jerome had 19.7 ppg in 22.6 min over 15 games in 2025-26 and is now the lead guard; usage likely 28%+, but the sample is small.
+DvP: GS PG 5th-most allowed (Rotogrinders FD), SG 25th; Fantasy Team Advice has GS 20th vs PG, so Jerome's gate is solid but not unanimous. MEM (Legion Report 2025-26, rank 1 = most) G 12th, F 3rd, C 16th; Curry just misses.
+Props found: Jerome o21.5 pts -105 (Covers), Bleacher Nation table Jerome 21.5 / 3.5 / 6.5 and Curry 24.5 / 3.5 / 4.5; Curry o24.5 DK -108, FD -113, fair +105 (Optimal Bet); Sportsmole leans Curry u28.5 and Jerome u26.5, so its book hangs higher lines.
+SGP: Jerome o21.5 (-105) x Curry o24.5 (-108) = implied 0.266 (~+276). True ~0.53 x 0.53 = 0.281, with a slight shootout correlation, shrunk to 0.275 for Jerome's small sample. Gap is within price noise; no highlight.
+Totals (method; BBR GS 2025-26 115.0 / 115.6 / 99.0, USU MEM 110.5 / 117.6 / 104.5): avg poss 101.75. GS = avg(115.0, 117.6) x 1.0175 = 118.3; MEM = avg(110.5, 115.6) x 1.0175 = 115.0. Total 233.4 vs 234.5: no total edge, no total leg.
+Score model: GS +3.3 before home court, ~+5.3 with it, vs DK -2.5. Lean GS -2.5, against the expert consensus.
+Caveat: both rosters changed (MEM's rebuild around Jerome, Boozer, Coward; GS missing Butler, Porzingis, Moody), so last season's ratings are a weak guide.
+Experts: Bleacher Nation, Sportsmole, SI (MEM +3.5 -110) and Covers all side with Memphis; Dimers model GS 64.3%; ESPN BPI GS 54.9%.
+Coaching: Kerr expected to manage Curry's load after the 10/18 ankle sprain; GS's thin frontcourt (Green, Santos, Niang). Memphis's new core plays fast (top-5 pace last year).
+Chemistry: Memphis is young and confident after a 20-point opening win; Golden State was blown out in LA with its stars resting late.
+Most likely winner: GS -2.5 (model margin twice the spread). Prop interest is Jerome o21.5, the only DvP qualifier.
+
+Legs considered:
+- Golden State Warriors -2.5: Model has GS by about 5.3 with home court; experts like Memphis and DK dropped from 3.5 to 2.5.
+- T. Jerome o21.5 points: GS allowed the 5th-most PG fantasy points; his starter minutes and usage justify the higher line, Sportsmole fades him.
+- S. Curry o24.5 points: Butler and Porzingis out push more shots to Curry; Memphis allowed 120.7 ppg last season.
+
+Our bets:
+- straight: T. Jerome o21.5 points (-105): Active -> **pending**
+- best: T. Jerome o21.5 points (-105): Active / S. Curry o24.5 points (-108): Active (ankle sprain 10/18, played opener) -> **pending**
+- longshot: T. Jerome o21.5 points (-105): Active -> **pending**
 
 ### 2026-10-21: vs Utah Jazz (final: UTAH 103, MEM 123)
 

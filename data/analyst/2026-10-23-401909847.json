@@ -1,0 +1,140 @@
+{
+ "summary": "Cade is the only usage-SGP qualifier (MIA soft on guards); the total projects 232.5 vs DK 235.5. Most likely winner: D. Robinson o15.5 pts+reb+ast.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "D. Robinson o15.5 pts+reb+ast",
+   "market": "prop",
+   "player": "Duncan Robinson",
+   "team": "DET",
+   "stat": "pts_reb_ast",
+   "side": "over",
+   "line": 15.5,
+   "odds": -115,
+   "book": "DraftKings (via SI)",
+   "fair": 0.51,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 19.0,
+    "sd": 6.0
+   },
+   "hit_rate": {
+    "value": 0.57,
+    "sample": "2025-26 hit rate per SI; 25 PRA (21/2/2) in 28 min in the DET opener"
+   },
+   "alt": false,
+   "main_line": 15.5,
+   "signals": {
+    "season": 0.56,
+    "recent_form": 0.6,
+    "matchup": 0.56,
+    "experts": 0.57
+   },
+   "note": "Low main line; he started and scored 21 in the opener and Miami plays the league's fastest pace."
+  },
+  {
+   "desc": "C. Cunningham o9.5 assists",
+   "market": "prop",
+   "player": "Cade Cunningham",
+   "team": "DET",
+   "stat": "assists",
+   "side": "over",
+   "line": 9.5,
+   "odds": 115,
+   "book": "SportsGambler (o +115 / u -156)",
+   "fair": 0.433,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 9.6,
+    "sd": 3.0
+   },
+   "hit_rate": {
+    "value": 0.5,
+    "sample": "2025-26: 9.9 apg in 64 games, 9+ ast 68.8%; 10+ roughly half; 8 ast in the opener"
+   },
+   "alt": false,
+   "main_line": 9.5,
+   "signals": {
+    "season": 0.53,
+    "matchup": 0.55,
+    "recent_form": 0.46,
+    "experts": 0.5
+   },
+   "note": "Plus money on a 9.9-apg passer against Miami's guard-friendly defense; the no-vig fair is only 43%."
+  },
+  {
+   "desc": "Under 235.5",
+   "game": "Detroit Pistons @ Miami Heat",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 235.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.56,
+    "experts": 0.53,
+    "market_move": 0.48,
+    "pace": 0.47
+   },
+   "note": "Projection 232.5 (DET 117.8 + MIA 114.7 at 101.65 poss) is 3 under DK; other books hang 236.5-237.5."
+  },
+  {
+   "desc": "G. Antetokounmpo o10.5 rebounds",
+   "market": "prop",
+   "player": "Giannis Antetokounmpo",
+   "team": "MIA",
+   "stat": "rebounds",
+   "side": "over",
+   "line": 10.5,
+   "odds": 100,
+   "book": "StatMuse (book line)",
+   "fair": 0.47,
+   "books": 2,
+   "status": "Active",
+   "projection": {
+    "mu": 10.0,
+    "sd": 3.3
+   },
+   "hit_rate": {
+    "value": 0.45,
+    "sample": "Opener 6 reb in 30 min next to Adebayo; Detroit's Duren/Thompson frontline is elite on the glass"
+   },
+   "alt": false,
+   "main_line": 10.5,
+   "signals": {
+    "season": 0.5,
+    "recent_form": 0.42,
+    "matchup": 0.45
+   },
+   "note": "Even money, but Adebayo and Detroit's big frontline cut into his boards; a fade-level lean only."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "C. Cunningham o9.5 assists",
+   "G. Antetokounmpo o10.5 rebounds"
+  ],
+  "odds": null,
+  "true_prob": 0.22,
+  "implied_prob": 0.232,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Cade (30.5% usage) vs MIA guards 3rd-most allowed: qualifies. Giannis (37.0%) vs DET F (top-4 defense): fails. Adebayo (25.0%) vs DET C: fails.",
+  "note": "Best version from real priced lines only (no Cade points price found for tonight); product of leg prices ~+330, no edge."
+ },
+ "totals_projection": {
+  "possessions": 101.65,
+  "DET": 117.8,
+  "MIA": 114.7,
+  "total": 232.5,
+  "line": 235.5,
+  "math": "DET avg(117.3,114.5)*1.0165=117.8; MIA avg(116.7,108.9)*1.0165=114.7; sum 232.5"
+ },
+ "research": "Lines (ESPN DK pickcenter): DET -1.5 (-115) / MIA +1.5 (-105), ML DET -115 / MIA -105, total 235.5 (o -110 / u -110). SI had DK 237.5 earlier; Bleacher Nation 236.5; SportsGambler opened DET +2.5 at 236.5. Total has come down.\nInjuries (ESPN): DET Taurean Prince day-to-day (personal). MIA none listed; Adebayo played 31 min in the opener after groin tightness.\nOpeners (ESPN box): DET beat BOS 121-113 (Cade 22/4/8 in 35 min, Duren 22/9, D. Robinson 21 in 28 min, A. Thompson 11/11/5). MIA lost 131-106 to MIN (Giannis 35/6/1 on 13-19, Adebayo 15/7/4, D. Mitchell 11 ast).\nUsage (BBR 2025-26, blended with one game): Giannis 37.0% (MIL), Cade 30.5%, Adebayo 25.0%. Duren 23.6% just misses.\nDvP: MIA allowed the 3rd-most guard fantasy points (own 2025-26 calc), so Cade qualifies. DET was 4th in opp ppg (109.7) with an elite rim defense, so Giannis/Adebayo fail the gate.\nCade 2025-26 ladder (64 g): 10+ pts 95.3%, 2+ reb 93.8%, 6+ ast 93.8%, 7+ ast 90.6%, 9+ ast 68.8%, 20+ pts 68.8%. Those deep rungs are not bet; real lines only per the 10/22 rule.\nProps found: Cade o24.5 pts (SportsGambler line, price not found for tonight), Cade ast 9.5 o +115 / u -156 (SportsGambler); Giannis pts 28.5 o -120, reb 10.5 o +100 (StatMuse), pts+reb 39.5 -106 to -120 (Covers); D. Robinson PRA o15.5 -115 (SI best prop, hit 57% last season).\nSGP: Cade o9.5 ast (+115) x Giannis o10.5 reb (+100) = implied 0.232 (~+330). True ~0.50 x 0.45 = 0.225, shrunk to 0.22. No edge, not highlighted. Assist/rebound legs chosen over scoring Overs to avoid fighting the Under.\nTotals (method, BBR 2025-26): pace DET 99.9, MIA 103.4, avg 101.65. DET = avg(117.3 ORtg, 114.5 MIA DRtg) x 1.0165 = 117.8; MIA = avg(116.7, 108.9) x 1.0165 = 114.7. Total 232.5 vs DK 235.5 (3.0 under; 4-5 under the 236.5-237.5 elsewhere).\nCaveat: Miami's ratings predate the Giannis trade (Herro, Ware, Jaquez gone); its opener allowed 131. Detroit lost Harris/Stewart but added Collins, Joe, G. Harris.\nScore model: DET +3.1 before home court; with ~2 for Miami, DET by ~1, matching DK -1.5. No side edge.\nExperts: SI DET -1.5, total 237.5, top prop Robinson PRA; Bleacher Nation MIA +1.5; Sportsmole DET +1.5 (sic); Dimers MIA -1.5 value (4.7% edge); Covers prices DET ~55% vs Polymarket 48%; SportsGambler Under 236.5 -110. Split on the side.\nCoaching: Spoelstra ran the fastest pace in 2025-26 (103.4); Bickerstaff's Pistons are physical with rim protection. Detroit plays a 9-10 man rotation (Green 19 off the bench).\nChemistry: Miami is two games into the Giannis/Adebayo pairing; Mitchell runs point (11 ast in the opener). Detroit's core is intact from a 60-22 season.\nMost likely winner: D. Robinson o15.5 PRA (low line, starting role, fast opponent). Best price value: Cade o9.5 assists at +115."
+}

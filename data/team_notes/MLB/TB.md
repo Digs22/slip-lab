@@ -42,6 +42,7 @@ Legs considered:
 
 Our bets:
 - straight (lean): J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
+- longshot: J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
 
 ### 2026-10-19: vs Cleveland Guardians (final: CLE 3, TB 7)
 

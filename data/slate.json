@@ -1,36 +1,108 @@
 {
-  "date": "2026-10-22",
-  "generated": "2026-10-22T19:01-04:00",
-  "games_scanned": 2,
+  "date": "2026-10-23",
+  "generated": "2026-10-23T08:15-04:00",
+  "games_scanned": 8,
   "problems": [
-    "2026-10-22: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized",
-    "2026-10-22: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
+    "2026-10-23: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
+    "2026-10-23: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
     {
-      "id": "401873010",
-      "league": "NFL",
-      "game": "NE @ CHI",
-      "start": "2026-10-23T00:15Z",
-      "venue": "Soldier Field",
+      "id": "401909096",
+      "league": "NBA",
+      "game": "HOU @ SA",
+      "start": "2026-10-24T01:30Z",
+      "venue": "Moody Center",
       "provisional": true,
-      "score": 0.058,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-      "summary": "Bears -3 sits stuck as money backs NE; NE likely starts backup guards and CHI is missing both edges. Most likely to win: Under 50.5."
+      "score": 0.0469,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "summary": "Totals model projects 233.0 vs DK 228.5, so the Over is the lead leg; Wembanyama's SGP has no clear edge. Most likely winner: Over 228.5."
     },
     {
-      "id": "401909094",
+      "id": "401909095",
       "league": "NBA",
-      "game": "DEN @ OKC",
-      "start": "2026-10-23T01:30Z",
-      "venue": "Paycom Center",
+      "game": "NY @ BOS",
+      "start": "2026-10-23T23:00Z",
+      "venue": "TD Garden",
       "provisional": true,
-      "score": 0.0419,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-      "summary": "Model projects 230.6 vs 235.5, so the Under is a straight; no usage player draws a bottom-10 DvP. Most likely winner: Under 235.5 (-110)."
+      "score": 0.0464,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+      "summary": "Total projects 223.5 vs 222.5, so it's only a slight Over lean; no player passes the usage/DvP gate. Most likely winner: J. Tatum u25.5 points (-103)."
+    },
+    {
+      "id": "401909847",
+      "league": "NBA",
+      "game": "DET @ MIA",
+      "start": "2026-10-24T00:00Z",
+      "venue": "Kaseya Center",
+      "provisional": true,
+      "score": 0.0449,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+      "summary": "Cade is the only usage-SGP qualifier (MIA soft on guards); the total projects 232.5 vs DK 235.5. Most likely winner: D. Robinson o15.5 pts+reb+ast."
+    },
+    {
+      "id": "401909850",
+      "league": "NBA",
+      "game": "MEM @ GS",
+      "start": "2026-10-24T02:00Z",
+      "venue": "Chase Center",
+      "provisional": true,
+      "score": 0.0236,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+      "summary": "Ty Jerome qualifies against GS's PG defense, but the Jerome/Curry points SGP gap is within price noise. Total projects 233.4 vs 234.5. Most likely winner: Warriors -2.5."
+    },
+    {
+      "id": "401909848",
+      "league": "NBA",
+      "game": "CHI @ MIL",
+      "start": "2026-10-23T20:00Z",
+      "venue": "Fiserv Forum",
+      "provisional": true,
+      "score": 0.0129,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+      "summary": "Total projects 231.8 vs DK 240.5, so the Under is the main play; the Herro/Powell usage SGP fails the edge test. Most likely winner: Under 240.5 (-115)."
+    },
+    {
+      "id": "401908042",
+      "league": "MLB",
+      "game": "TB @ MIL",
+      "start": "2026-10-24T00:00Z",
+      "venue": "American Family Field",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+      "summary": "World Series Game 1: Misiorowski (1.80 ERA, short postseason leash) vs expected Rasmussen, total 6 with both pens rested. Most likely winner: Milwaukee Brewers ML (-161)."
+    },
+    {
+      "id": "401909844",
+      "league": "NBA",
+      "game": "DAL @ IND",
+      "start": "2026-10-23T23:00Z",
+      "venue": "Gainbridge Fieldhouse",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+      "summary": "Total projects 231.8 vs DK 237.5, so the Under is a leg; the Siakam usage SGP has no edge. Most likely winner: C. Flagg u24.5 points (-113)."
+    },
+    {
+      "id": "401909845",
+      "league": "NBA",
+      "game": "MIN @ ORL",
+      "start": "2026-10-23T23:00Z",
+      "venue": "Kia Center",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+      "summary": "Total projects 230.3 vs DK 234.5, so the Under is a leg; Edwards and Ball qualify but have no priced points line, so the SGP has no edge. Most likely winner: Under 234.5 (-105)."
     }
   ]
 }

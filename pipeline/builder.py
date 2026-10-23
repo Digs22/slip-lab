@@ -87,6 +87,7 @@ def build_plays(scored: dict) -> dict | None:
         return None
     # Most likely winner among legs with an edge, not the biggest edge: a plus-money coin flip
     # beat a researched -109 pick on 2026-10-15 and lost (lesson, TB @ CLE G3).
+    pool = [l for l in pool if l.get("prefer_straight")] or pool  # the NBA totals model call, when it is 4+ off the line
     straight = max(pool, key=lambda l: (l["prob"], l["edge"]))
     take([straight])
     plays = {"straight": {"legs": [straight], "odds": straight["odds"], "prob": straight["prob"], "ev": straight["edge"]}}
@@ -158,6 +159,7 @@ def _lean(g: dict) -> dict | None:
     Value first, not win chance: the most likely winner is often a -350 moneyline that loses money."""
     ev = [l for l in g.get("evaluated", []) if l.get("note") and _straight_ok(l)]
     pool = [l for l in ev if l["prob"] >= 0.5] or ev  # a near coin flip beats a -3900 alt that pays nothing
+    pool = [l for l in ev if l.get("prefer_straight")] or pool
     if not pool:
         return None
     s = max(pool, key=lambda l: (l["edge"], l["prob"]))
