@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-22: vs Denver Nuggets
+### 2026-10-22: vs Denver Nuggets (final: DEN 84, OKC 96)
 
 Model projects 230.6 vs 235.5, so the Under is a straight; no usage player draws a bottom-10 DvP. Most likely winner: Under 235.5 (-110).
 
@@ -39,12 +39,12 @@ Legs considered:
 - N. Jokic o10.5 assists: Main line; he led the NBA at 10.7 apg and had 13 and 14 assists in his last two games vs OKC.
 
 Our bets:
-- best: Under 235.5 (-110): pending -> **pending**
-- longshot: Under 235.5 (-110): pending -> **pending**
-- straight: Under 236.5 (-112): pending -> **pending**
-- best: N. Jokic o12.5 rebounds (-127): Active (not on injury report) / S. Gilgeous-Alexander o30.5 points (-110): Active -> **pending**
-- straight: N. Jokic o10.5 assists (+110): Active -> **pending**
-- straight: Under 236.5 (-112): pending -> **pending**
+- best: Under 235.5 (-110): pending -> **loss**
+- longshot: Under 235.5 (-110): pending -> **loss**
+- straight: Under 236.5 (-112): pending -> **win**
+- best: N. Jokic o12.5 rebounds (-127): Active (not on injury report) / S. Gilgeous-Alexander o30.5 points (-110): Active -> **loss**
+- straight: N. Jokic o10.5 assists (+110): Active -> **loss**
+- straight: Under 236.5 (-112): pending -> **win**
 
 ### 2026-10-20: at San Antonio Spurs (final: OKC 116, SA 104)
 

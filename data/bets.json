@@ -7737,7 +7737,9 @@
           "league": "NFL",
           "matchup": "NE @ CHI",
           "start": "2026-10-23T00:15Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "D. Mitchell o26.5 points",
@@ -7767,7 +7769,8 @@
           "league": "NBA",
           "matchup": "CLE @ PHI",
           "start": "2026-10-22T23:00Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "win"
         },
         {
           "desc": "Under 235.5",
@@ -7797,13 +7800,16 @@
           "league": "NBA",
           "matchup": "DEN @ OKC",
           "start": "2026-10-23T01:30Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 18.54
+      "to_win": 18.54,
+      "final": "NE 24-30 CHI; CLE 106-114 PHI",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-23-TBMIL-straight",
@@ -7912,13 +7918,15 @@
           "note": "Main line; 27+ in 61% of games and PHI allowed the 4th-most fantasy points to shooting guards.",
           "status": "Active (not on injury report)",
           "alt": false,
-          "main_line": 26.5
+          "main_line": 26.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.48,
       "stake": 18.0,
-      "to_win": 17.48
+      "to_win": 17.48,
+      "final": "CLE 106, PHI 114"
     },
     {
       "id": "2026-10-22-CLEPHI-best",
@@ -7966,7 +7974,9 @@
           "note": "Real listed line (8+ rebounds); Embiid averaged 9+ boards when healthy and Cleveland's bigs foul-prone.",
           "status": "Active",
           "alt": false,
-          "main_line": 7.5
+          "main_line": 7.5,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "D. Mitchell u4.5 assists",
@@ -7988,13 +7998,16 @@
           "note": "Real FanDuel line; with Harden running the offense, Mitchell plays off the ball more.",
           "status": "Active",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 8.34
+      "to_win": 8.34,
+      "final": "CLE 106, PHI 114",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-LONG-longshot",
@@ -8037,7 +8050,8 @@
           "league": "NBA",
           "matchup": "CLE @ PHI",
           "start": "2026-10-22T23:00Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "win"
         },
         {
           "desc": "Under 50.5",
@@ -8070,7 +8084,9 @@
           "league": "NFL",
           "matchup": "NE @ CHI",
           "start": "2026-10-23T00:15Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 235.5",
@@ -8100,13 +8116,16 @@
           "league": "NBA",
           "matchup": "DEN @ OKC",
           "start": "2026-10-23T01:30Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 9.27
+      "to_win": 9.27,
+      "final": "CLE 106-114 PHI; NE 24-30 CHI",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-NECHI-straight",
@@ -8160,13 +8179,17 @@
           "note": "Most likely to win: models and experts project about 48, and public money pushed the total up from 47.5-49.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 18.0
+      "to_win": 18.0,
+      "final": "NE 24, CHI 30",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-DENOKC-straight",
@@ -8217,13 +8240,15 @@
           "note": "Projection 230.6 (DEN 113.8 + OKC 116.8 at 98.85 poss) is 4.9 under; bet365 and Sports Mole also lean Under.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "DEN 84, OKC 96"
     },
     {
       "id": "2026-10-22-DENOKC-best",
@@ -8273,7 +8298,9 @@
           "note": "Main line; led the NBA at 12.9 rebounds and averages 13.5 in his last ten against OKC.",
           "status": "Active (not on injury report)",
           "alt": false,
-          "main_line": 12.5
+          "main_line": 12.5,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "S. Gilgeous-Alexander o30.5 points",
@@ -8296,13 +8323,17 @@
           "note": "Main line at most books; he opened with 32 and the total sits in the mid-230s.",
           "status": "Active",
           "alt": false,
-          "main_line": 30.5
+          "main_line": 30.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 7.23
+      "to_win": 7.23,
+      "final": "DEN 84, OKC 96",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-TRAD-straight",
@@ -8343,13 +8374,17 @@
           "league": "NBA",
           "matchup": "DEN @ OKC",
           "start": "2026-10-23T01:30Z",
-          "date": "2026-10-22"
+          "date": "2026-10-22",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 19.8
+      "to_win": 19.8,
+      "final": "DEN 84-96 OKC",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-POTD-NFL",
@@ -8395,13 +8430,17 @@
           "note": "Most likely to win: models and experts project about 48, and public money pushed the total up from 47.5-49.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 12.0
+      "to_win": 12.0,
+      "final": "NE 24, CHI 30",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-22-POTD-NBA",
@@ -8444,13 +8483,15 @@
           "note": "Projection 230.6 (DEN 113.8 + OKC 116.8 at 98.85 poss) is 4.9 under; bet365 and Sports Mole also lean Under.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 10.71,
       "stake": 12.0,
-      "to_win": 10.71
+      "to_win": 10.71,
+      "final": "DEN 84, OKC 96"
     }
   ]
 }

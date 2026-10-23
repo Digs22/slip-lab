@@ -9,7 +9,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-22: at Chicago Bears
+### 2026-10-22: at Chicago Bears (final: NE 24, CHI 30)
 
 Bears -3 sits stuck as money backs NE; NE likely starts backup guards and CHI is missing both edges. Most likely to win: Under 50.5.
 
@@ -35,10 +35,10 @@ Legs considered:
 - D. Maye u248.5 pass yds: He averages 215 yards in road starts, has lost Doubs, and faces OL injuries; CHI's 8.4 YPA allowed is the risk.
 
 Our bets:
-- best: Under 50.5 (-110): pending -> **pending**
-- longshot: Under 50.5 (-110): pending -> **pending**
-- straight: Under 50.5 (+100): pending -> **pending**
-- straight: Under 50.5 (+100): pending -> **pending**
+- best: Under 50.5 (-110): pending -> **loss**
+- longshot: Under 50.5 (-110): pending -> **loss**
+- straight: Under 50.5 (+100): pending -> **loss**
+- straight: Under 50.5 (+100): pending -> **loss**
 
 ### 2026-10-18: vs New York Jets
 

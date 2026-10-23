@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-22: vs Cleveland Cavaliers
+### 2026-10-22: vs Cleveland Cavaliers (final: CLE 106, PHI 114)
 
 Model projects 231.8 vs 235.5 and CLE by 2 before home court; Allen is questionable. Most likely winner: Cleveland Cavaliers +3.5 (-115).
 
@@ -38,10 +38,10 @@ Legs considered:
 - D. Mitchell u4.5 assists: Real FanDuel line; with Harden running the offense, Mitchell plays off the ball more.
 
 Our bets:
-- best: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
-- straight: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
-- best: J. Embiid o7.5 rebounds (-133): Active / D. Mitchell u4.5 assists (+116): Active -> **pending**
-- longshot: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **pending**
+- best: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **loss**
+- straight: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **win**
+- best: J. Embiid o7.5 rebounds (-133): Active / D. Mitchell u4.5 assists (+116): Active -> **loss**
+- longshot: D. Mitchell o26.5 points (-103): Active (not on injury report) -> **loss**
 
 ### 2026-10-20: at New York Knicks (final: PHI 106, NY 100)
 
