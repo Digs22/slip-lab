@@ -10,9 +10,9 @@
    "team": "GS",
    "side": null,
    "line": 9.5,
-   "odds": -105,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.489,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "model": 0.58,
@@ -24,15 +24,15 @@
    "note": "Even without Curry the model has Phoenix by about 6 to 7 and the Suns scored 83 in their opener."
   },
   {
-   "desc": "Over 219.5",
+   "desc": "Over 221.5",
    "game": "Golden State Warriors @ Phoenix Suns",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 219.5,
-   "odds": -108,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.496,
+   "line": 221.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
    "books": 3,
    "signals": {
     "totals_model": 0.6,
@@ -41,7 +41,7 @@
     "recent_form": 0.5,
     "experts": 0.5
    },
-   "note": "Projection 225.6 (about 222 with Curry out) vs 219.5; the total was cut 5 points from 224.5 on the Curry news."
+   "note": "Projection 225.6 (about 222 with Curry out) vs 221.5; the total was cut 5 points from 224.5 on the Curry news."
   }
  ],
  "sgp": {

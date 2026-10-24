@@ -185,7 +185,10 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
         bid = f"{date}-TRAD-{play}"
         first = min((l["start"] for l in data["legs"] if l.get("start")), default=None)
         existing = next((b for b in bets if b["id"] == bid), None)
-        if existing and (existing["status"] != "pending" or existing.get("placed") or (first and locked(first))):
+        # Locked means the posted slip's own first game, not the rebuilt one's (2026-10-24: a slip whose games had
+        # started was replaced by one built from later games).
+        if existing and (existing["status"] != "pending" or existing.get("placed") or (first and locked(first))
+                         or (existing.get("start") and locked(existing["start"]))):
             continue
         if existing:
             bets.remove(existing)
@@ -258,7 +261,8 @@ def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) ->
         g = leg.pop("_game")
         bid = f"{date}-POTD-{league}"
         existing = next((b for b in bets if b["id"] == bid), None)
-        if existing and (existing["status"] != "pending" or existing.get("placed") or (leg.get("start") and locked(leg["start"]))):
+        if existing and (existing["status"] != "pending" or existing.get("placed") or (leg.get("start") and locked(leg["start"]))
+                         or (existing.get("start") and locked(existing["start"]))):
             continue
         if existing:
             bets.remove(existing)

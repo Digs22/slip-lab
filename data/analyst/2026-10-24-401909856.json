@@ -68,15 +68,15 @@
    "note": "Main combo line; cleared only by one on 14 both nights, and he played 36 minutes last night."
   },
   {
-   "desc": "Under 229.5",
+   "desc": "Under 227.5",
    "game": "Houston Rockets @ Atlanta Hawks",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 229.5,
-   "odds": -115,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.511,
+   "line": 227.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
    "books": 3,
    "signals": {
     "totals_model": 0.55,
@@ -93,9 +93,9 @@
    "team": "ATL",
    "side": null,
    "line": null,
-   "odds": -120,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.522,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
    "books": 3,
    "signals": {
     "home": 0.55,

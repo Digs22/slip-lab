@@ -29,12 +29,12 @@ EXPERTS: Bleacher Nation Wizards -1.5, Under 244.5 and WSH ML; Dimers WSH ML val
 LESSONS APPLIED: model is 6-0 against the line, but CHI/MIL hit 257 on 10/23, so the Under is the straight and not the parlay anchor; Trae points is fighting the Under so it is a low-signal prop.
 
 Legs considered:
-- Under 245.5: Projection 236.9 (WSH 116.8 + CHI 120.2) is 8.6 under DK, and FanDuel/Bleacher are at 244.5 with Pick Dawgz 243.5.
+- Under 244.5: Projection 236.9 (WSH 116.8 + CHI 120.2) is 8.6 under DK, and FanDuel/Bleacher are at 244.5 with Pick Dawgz 243.5.
 - Chicago Bulls ML: Model has CHI by about 5 with home court (neutral 3.4) and numberFire gives the Bulls 66%; Dybantsa's ankle is still unresolved for Washington.
 - T. Young o21.5 points: Main line; Chicago allowed 130 per game, but Young is playing as a distributor and the total projects low.
 
 Our bets:
-- straight (lean): Under 245.5 (-112): pending -> **pending**
+- straight (lean): Under 244.5 (-110): pending -> **pending**
 
 ### 2026-10-21: vs Milwaukee Bucks (final: MIL 116, WSH 128)
 

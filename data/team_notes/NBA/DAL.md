@@ -31,12 +31,12 @@ Market read: the 1-point move toward SA at DK after Flagg's injury is small for 
 Sample caution: all team ratings are 2025-26 (Dallas went 26-56 and lost its 2025-26 matchup games by double digits); two games of 2026-27 data are not enough to move them.
 
 Legs considered:
-- Dallas Mavericks +12.5: Model has SA by about 8 with Flagg out and home court; both teams played last night, so 12.5 is a lot.
+- Dallas Mavericks +14.5: Model has SA by about 8 with Flagg out and home court; both teams played last night, so 12.5 is a lot.
 - Under 229.5: Raw formula says 231.1, but Flagg's 21 ppg is gone and a 12-point favorite will rest starters, so only a small Under lean.
 - Dallas Mavericks ML: Long shot: SA is 0-2 and tired, but Dallas without Flagg is rated about 17% to 25% to win outright.
 
 Our bets:
-- straight (lean): Under 229.5 (-108): pending -> **pending**
+- straight (lean): Under 229.5 (-110): pending -> **pending**
 
 ### 2026-10-23: at Indiana Pacers (final: DAL 121, IND 105)
 

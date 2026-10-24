@@ -31,6 +31,6 @@ Legs considered:
 
 Our bets:
 - straight: Kansas State Wildcats ML (-112): pending -> **pending**
+- longshot: Kansas State Wildcats ML (-112): pending -> **pending**
 - straight: Kansas State Wildcats -1.5 (-105): pending -> **pending**
 - best: Kansas State Wildcats -1.5 (-105): pending -> **pending**
-- longshot: Kansas State Wildcats ML (-112): pending -> **pending**

@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Over 52.5",
+   "desc": "Over 51.5",
    "team": "",
    "side": "over",
-   "line": 52.5,
-   "odds": -105,
+   "line": 51.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "season": 0.57,
@@ -19,7 +19,7 @@
     "recent_form": 0.57,
     "weather": 0.5
    },
-   "note": "Six of Kentucky's seven games have gone over 52.5 and the stats projection is about 56."
+   "note": "Six of Kentucky's seven games have gone over 51.5 and the stats projection is about 56."
   },
   {
    "market": "spread",

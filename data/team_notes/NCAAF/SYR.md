@@ -28,9 +28,9 @@ Syracuse's pass offense (31.7 ppg) meets a banged-up UNC secondary, and UNC's wi
 Sources: ESPN summary/pickcenter/team stats/schedules, Covers, Rotowire, Dimers, ATS.io, DocSports, PickDawgz, Field Level Media, SI Tar Heels, Fingerlakes1, Spectrum News, Rotoballer.
 
 Legs considered:
-- Syracuse Orange +8.5: UNC's offense (23.5 ppg, 3.8 yards per carry) rarely wins big, and the Orange pass game faces a thinned secondary.
-- Over 47.5: Syracuse scores 31.7 and UNC's secondary has multiple starters out, but a 17 mph gust trims the Over.
-- North Carolina Tar Heels -8.5: Models like UNC (Dimers 79%, 29-19), but all four of its wins this year were by 4 to 32 and only one by more than 5.
+- Syracuse Orange +9.5: UNC's offense (23.5 ppg, 3.8 yards per carry) rarely wins big, and the Orange pass game faces a thinned secondary.
+- Over 49.5: Syracuse scores 31.7 and UNC's secondary has multiple starters out, but a 17 mph gust trims the Over.
+- North Carolina Tar Heels -9.5: Models like UNC (Dimers 79%, 29-19), but all four of its wins this year were by 4 to 32 and only one by more than 5.
 
 Our bets:
-- straight (lean): Syracuse Orange +8.5 (-108): pending -> **pending**
+- straight (lean): Over 49.5 (-108): pending -> **pending**

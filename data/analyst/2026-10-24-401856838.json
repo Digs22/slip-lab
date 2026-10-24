@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "spread",
-   "desc": "Iowa State Cyclones +10.5",
+   "desc": "Iowa State Cyclones +12.5",
    "team": "Iowa State Cyclones",
    "side": null,
-   "line": 10.5,
-   "odds": -108,
+   "line": 12.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "season": 0.55,
@@ -24,13 +24,13 @@
   },
   {
    "market": "spread",
-   "desc": "Arizona Wildcats -10.5",
+   "desc": "Arizona Wildcats -12.5",
    "team": "Arizona Wildcats",
    "side": null,
-   "line": -10.5,
-   "odds": -112,
+   "line": -12.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -46,9 +46,9 @@
    "team": "",
    "side": "over",
    "line": 51.5,
-   "odds": -102,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.483,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.54,

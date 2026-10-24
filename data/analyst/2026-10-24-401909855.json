@@ -10,9 +10,9 @@
    "team": null,
    "side": "under",
    "line": 234.5,
-   "odds": -112,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.496,
    "books": 6,
    "signals": {
     "totals_model": 0.6,
@@ -29,9 +29,9 @@
    "team": "MIL",
    "side": null,
    "line": 12.5,
-   "odds": -110,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.504,
    "books": 5,
    "signals": {
     "matchup": 0.55,

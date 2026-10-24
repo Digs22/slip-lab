@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Central Michigan Chippewas
+### 2026-10-24: at Central Michigan Chippewas (final: M-OH 28, CMU 27)
 
 Miami (OH) is a 3.5-point road favorite after the line flipped from CMU favored at open, and CMU's offense scores 16.6 a game. Most likely to win: Miami (OH) ML (-166).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Over 40.5: M-OH allows 277 pass yards and scores 27, and the total sits below both teams' combined average.
 
 Our bets:
-- straight (lean): Miami (OH) RedHawks -3.5 (-110): pending -> **pending**
+- straight (lean): Miami (OH) RedHawks -3.5 (-110): pending -> **loss**

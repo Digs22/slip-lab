@@ -27,10 +27,10 @@ Sources: ESPN summary/pickcenter/schedule/leaders, HottyToddy, On3, CBS Sports, 
 Legs considered:
 - Ole Miss Rebels +3: Texas is without Simmons (10.5 sacks) and has lost two straight, while Ole Miss's offense averages 37.5 points and 291 passing yards.
 - Ole Miss Rebels ML: Ole Miss only needs one score more than Texas's inconsistent offense (Arch Manning has 11 TD and 5 INT) to win outright.
-- Over 53.5: Ole Miss's defense gives up 153 rushing yards a game, and Texas's pass rush loses its best player.
+- Over 54.5: Ole Miss's defense gives up 153 rushing yards a game, and Texas's pass rush loses its best player.
 
 Our bets:
-- straight: Ole Miss Rebels +3 (-108): pending -> **pending**
+- straight (lean): Ole Miss Rebels +3 (-108): pending -> **pending**
 
 ### 2026-10-17: vs Missouri Tigers (final: MIZ 3, MISS 31)
 

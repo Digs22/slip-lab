@@ -47,14 +47,14 @@
   },
   {
    "market": "total",
-   "desc": "Under 40.5",
+   "desc": "Under 39.5",
    "game": "North Dakota State Bison @ New Mexico Lobos",
    "team": "",
    "side": "under",
-   "line": 40.5,
-   "odds": -110,
+   "line": 39.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.489,
    "books": 4,
    "signals": {
     "weather": 0.56,

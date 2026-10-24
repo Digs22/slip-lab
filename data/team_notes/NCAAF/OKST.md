@@ -23,9 +23,9 @@ Oklahoma State (37.2 ppg, 518 ypg) hosts 2-4 Colorado, which has lost four strai
 Sources: ESPN summary/pickcenter/leaders/predictor, AccuWeather via ESPN, Field Level Media preview (10/21), Rotowire (via WebSearch), RotoBaller.
 
 Legs considered:
-- Under 56.5: Colorado scores 19.5 ppg and the team averages project about 53 against a 56.5 total.
+- Under 54.5: Colorado scores 19.5 ppg and the team averages project about 53 against a 54.5 total.
 - Colorado Buffaloes +13.5: The line fell from 14.5, and Colorado lost its last two home games by only 3 and 22 while allowing just 25.7 ppg.
 - Oklahoma State Cowboys -13.5: Oklahoma State's FBS wins were by 8, 17 and 14 before a home-field loss, so two touchdowns is a stretch.
 
 Our bets:
-- straight (lean): Under 56.5 (-112): pending -> **pending**
+- straight (lean): Under 54.5 (-105): pending -> **pending**

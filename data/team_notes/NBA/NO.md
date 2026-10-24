@@ -29,10 +29,10 @@ Market read: DEN -11.5 and 237.5 did not move from the open at DK, so there is n
 
 Legs considered:
 - New Orleans Pelicans +11.5: Model has Denver by about 7 to 8; DK has NO +11.5 at -115 and Polymarket 50c (even money).
-- Under 237.5: Projection 235.1 vs 237.5; NO's two games hit 243 and 239, so the Under is only a small lean.
+- Under 239.5: Projection 235.1 vs 239.5; NO's two games hit 243 and 239, so the Under is only a small lean.
 
 Our bets:
-- straight: New Orleans Pelicans +11.5 (+100): pending -> **pending**
+- straight (lean): New Orleans Pelicans +11.5 (-115): pending -> **pending**
 
 ### 2026-10-21: vs Indiana Pacers (final: IND 123, NO 120)
 

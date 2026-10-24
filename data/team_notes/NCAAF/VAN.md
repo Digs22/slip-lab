@@ -23,9 +23,9 @@ Kentucky is 6-1 with a 32.7 ppg offense and Vanderbilt is 0-4 in the SEC with a 
 Sources: ESPN summary/pickcenter/schedule/leaders, SI, Yahoo Sports, A Sea of Blue, Newsweek, BetMGM blog, my Kentucky notes.
 
 Legs considered:
-- Over 52.5: Six of Kentucky's seven games have gone over 52.5 and the stats projection is about 56.
+- Over 51.5: Six of Kentucky's seven games have gone over 51.5 and the stats projection is about 56.
 - Vanderbilt Commodores +10.5: Vanderbilt is 5-1 ATS in its last six against Kentucky, but its QB has 7 INT and the backup is out.
 - Kentucky Wildcats -10.5: Kentucky outscores Vanderbilt's defense and gets RB CJ Baxter back, but it won its last three games by 1, 1 and 8.
 
 Our bets:
-- straight: Over 52.5 (-105): pending -> **pending**
+- straight (lean): Over 51.5 (-108): pending -> **pending**

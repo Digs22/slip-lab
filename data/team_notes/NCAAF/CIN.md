@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Texas Tech Red Raiders
+### 2026-10-24: vs Texas Tech Red Raiders (final: TTU 24, CIN 37)
 
 No. 8 Texas Tech (6-0) is an 11.5-point road favorite, but Cincinnati scores 35.2 and rushes for 231 yards a game at home. Most likely to win: Cincinnati Bearcats +11.5 (-110).
 
@@ -30,5 +30,5 @@ Legs considered:
 - Over 57.5: Cincinnati allows 26.8 points and 294 pass yards, and Texas Tech's offense scores 37.8 per game.
 
 Our bets:
-- straight: Over 57.5 (-105): pending -> **pending**
+- straight: Over 57.5 (-105): pending -> **win**
 - straight: Over 57.5 (-105): pending -> **pending**

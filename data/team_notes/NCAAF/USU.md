@@ -33,4 +33,4 @@ Legs considered:
 - Texas State Bobcats -13.5: Texas State runs for 303 yards and 6.1 per carry, and models project a 14-point win.
 
 Our bets:
-- straight: Under 60.5 (-105): pending -> **pending**
+- straight (lean): Under 60.5 (-110): pending -> **pending**

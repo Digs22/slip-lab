@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Under 245.5",
+   "desc": "Under 244.5",
    "game": "Washington Wizards @ Chicago Bulls",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 245.5,
-   "odds": -112,
+   "line": 244.5,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.5,
    "books": 5,
    "signals": {
     "totals_model": 0.62,
@@ -29,9 +29,9 @@
    "team": "CHI",
    "side": null,
    "line": null,
-   "odds": -104,
-   "book": "FanDuel (via FanDuel Research)",
-   "fair": 0.491,
+   "odds": -130,
+   "book": "DraftKings",
+   "fair": 0.543,
    "books": 4,
    "signals": {
     "home": 0.54,

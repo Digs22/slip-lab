@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "spread",
-   "desc": "Wisconsin Badgers +3",
+   "desc": "Wisconsin Badgers +2.5",
    "team": "Wisconsin Badgers",
    "side": null,
-   "line": 3,
-   "odds": -115,
+   "line": 2.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.55,
@@ -20,7 +20,7 @@
     "experts": 0.55,
     "injuries": 0.47
    },
-   "note": "SI takes Wisconsin +3 because USC ranks 118th in opponent rush EPA, and Wisconsin gives up 16.7 points a game."
+   "note": "SI takes Wisconsin +2.5 because USC ranks 118th in opponent rush EPA, and Wisconsin gives up 16.7 points a game."
   },
   {
    "market": "ml",
@@ -28,9 +28,9 @@
    "team": "Wisconsin Badgers",
    "side": null,
    "line": null,
-   "odds": 124,
+   "odds": 114,
    "book": "DraftKings",
-   "fair": 0.428,
+   "fair": 0.449,
    "books": 1,
    "signals": {
     "season": 0.5,
@@ -41,13 +41,13 @@
   },
   {
    "market": "total",
-   "desc": "Under 49.5",
+   "desc": "Under 50.5",
    "team": "",
    "side": "under",
-   "line": 49.5,
-   "odds": -105,
+   "line": 50.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "season": 0.52,

@@ -25,12 +25,12 @@ USC is 6-1 with the Big Ten's top passer, but Wisconsin has a pass defense allow
 Sources: ESPN summary/pickcenter/schedule/leaders, SI betting (Week 8 prediction), SI USC and Wisconsin injury reports, On3 Badger Blitz, Yahoo Sports, my Wisconsin notes.
 
 Legs considered:
-- Wisconsin Badgers +3: SI takes Wisconsin +3 because USC ranks 118th in opponent rush EPA, and Wisconsin gives up 16.7 points a game.
+- Wisconsin Badgers +2.5: SI takes Wisconsin +2.5 because USC ranks 118th in opponent rush EPA, and Wisconsin gives up 16.7 points a game.
 - Wisconsin Badgers ML: A home dog that holds opponents to 16.7 points can win outright, though its offense scored only 7 at UCLA.
-- Under 49.5: Wisconsin's 171 pass yards allowed and slow pace work against USC's passing game, and the total has already fallen 3 points.
+- Under 50.5: Wisconsin's 171 pass yards allowed and slow pace work against USC's passing game, and the total has already fallen 3 points.
 
 Our bets:
-- straight (lean): Wisconsin Badgers +3 (-115): pending -> **pending**
+- straight (lean): Wisconsin Badgers +2.5 (-105): pending -> **pending**
 
 ### 2026-10-17: at UCLA Bruins (final: WIS 7, UCLA 17)
 

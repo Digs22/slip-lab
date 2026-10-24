@@ -27,15 +27,15 @@ LESSONS APPLIED: the model's projection margin is inside the number, so the dog 
 CHEMISTRY: Cleveland's Harden-Mitchell backcourt is new this season; Brooklyn's Randle/Porter/Sharpe/Demin group is also new.
 
 Legs considered:
-- Brooklyn Nets +10.5: Model margin is CLE by about 9 with home court, and Randle 33 plus MPJ 26 gave Brooklyn real offense in the opener.
-- Under 229.5: Projection 227.5 (BKN 110.2 + CLE 117.3) is 2.0 under DK; both play below-average pace (97.1, 99.9) and FanDuel/Covers are at 231.5.
+- Brooklyn Nets +11.5: Model margin is CLE by about 9 with home court, and Randle 33 plus MPJ 26 gave Brooklyn real offense in the opener.
+- Under 228.5: Projection 227.5 (BKN 110.2 + CLE 117.3) is 2.0 under DK; both play below-average pace (97.1, 99.9) and FanDuel/Covers are at 231.5.
 - D. Mitchell o26.5 points: Main line at three books; 32 points in the opener, BKN guards rank 8th most allowed, with a blowout-minutes risk at -10.5.
 - J. Randle o19.5 points: Single-source main line; Brooklyn playing from behind keeps Randle's volume high after 33/8/7 in the opener.
 
 Our bets:
 - straight: D. Mitchell o26.5 points (-105): Active -> **pending**
-- best: D. Mitchell o26.5 points (-105): Active / J. Randle o19.5 points (-120): Active -> **pending**
 - longshot: D. Mitchell o26.5 points (-105): Active -> **pending**
+- best: D. Mitchell o26.5 points (-105): Active / J. Randle o19.5 points (-120): Active -> **pending**
 
 ### 2026-10-22: at Philadelphia 76ers (final: CLE 106, PHI 114)
 

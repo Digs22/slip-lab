@@ -46,8 +46,8 @@ Legs considered:
 
 Our bets:
 - straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
-- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
 - longshot: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
+- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
 
 ### 2026-10-23: at Milwaukee Brewers (final: TB 2, MIL 3)
 

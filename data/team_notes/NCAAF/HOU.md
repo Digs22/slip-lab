@@ -32,4 +32,4 @@ Legs considered:
 - Over 57.5: Both offenses average 39+ ppg, but Utah's defense allows 14.8 ppg and the total sits at my projection.
 
 Our bets:
-- straight (lean): Utah Utes ML (-258): pending -> **pending**
+- straight (lean): Utah Utes ML (-250): pending -> **pending**

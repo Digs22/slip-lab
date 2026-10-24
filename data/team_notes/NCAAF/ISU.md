@@ -22,9 +22,9 @@ Arizona is 5-1 and scores 35.7 ppg but is missing several receivers, and Iowa St
 Sources: ESPN summary/pickcenter/schedule/leaders, Tucson.com, Yahoo Sports (Iowa State availability reports and previews), SI Arizona.
 
 Legs considered:
-- Iowa State Cyclones +10.5: Iowa State is off a bye and runs for 181.5 yards a game, which keeps a double-digit margin harder to build.
-- Arizona Wildcats -10.5: Arizona is 5-1 with a 19.0 ppg defense, but WRs Richardson and Hunter and TE Rusk are out.
+- Iowa State Cyclones +12.5: Iowa State is off a bye and runs for 181.5 yards a game, which keeps a double-digit margin harder to build.
+- Arizona Wildcats -12.5: Arizona is 5-1 with a 19.0 ppg defense, but WRs Richardson and Hunter and TE Rusk are out.
 - Over 51.5: Arizona's 307 passing yards a game and Iowa State's 45-42 win at West Virginia support a total near 53.
 
 Our bets:
-- straight (lean): Iowa State Cyclones +10.5 (-108): pending -> **pending**
+- straight (lean): Iowa State Cyclones +12.5 (-112): pending -> **pending**

@@ -25,9 +25,9 @@ Virginia Tech's offense (37.1 ppg, 302 pass ypg) faces a Clemson offense that is
 Sources: ESPN summary/pickcenter/schedule/leaders, Yahoo Sports previews, Post and Courier, The State, hokiesports.com, Rotowire, FOX Carolina.
 
 Legs considered:
-- Virginia Tech Hokies +2.5: Clemson ranks last in the ACC in passing (187.5 yards per game) with a freshman QB, while VT leads the ACC in passing yards (1,984).
+- Virginia Tech Hokies +3: Clemson ranks last in the ACC in passing (187.5 yards per game) with a freshman QB, while VT leads the ACC in passing yards (1,984).
 - Virginia Tech Hokies ML: Both named local writers pick a VT outright win (21-16 and 27-20), and the price has VT slightly less than a coin flip.
-- Under 48.5: VT's top-10 rush defense (87 yards a game) and Clemson's weak offense point to a lower-scoring game, though VT's offense is explosive.
+- Under 50.5: VT's top-10 rush defense (87 yards a game) and Clemson's weak offense point to a lower-scoring game, though VT's offense is explosive.
 
 Our bets:
 - straight: Virginia Tech Hokies +2.5 (-105): pending -> **pending**

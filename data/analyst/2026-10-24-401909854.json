@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Brooklyn Nets +10.5",
+   "desc": "Brooklyn Nets +11.5",
    "game": "Brooklyn Nets @ Cleveland Cavaliers",
    "market": "spread",
    "team": "BKN",
    "side": null,
-   "line": 10.5,
-   "odds": -102,
+   "line": 11.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.483,
+   "fair": 0.504,
    "books": 4,
    "signals": {
     "matchup": 0.54,
@@ -24,12 +24,12 @@
    "note": "Model margin is CLE by about 9 with home court, and Randle 33 plus MPJ 26 gave Brooklyn real offense in the opener."
   },
   {
-   "desc": "Under 229.5",
+   "desc": "Under 228.5",
    "game": "Brooklyn Nets @ Cleveland Cavaliers",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 229.5,
+   "line": 228.5,
    "odds": -105,
    "book": "DraftKings",
    "fair": 0.489,

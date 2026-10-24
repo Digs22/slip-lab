@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Kansas Jayhawks
+### 2026-10-24: at Kansas Jayhawks (final: BAY 24, KU 25)
 
 Baylor is a 1.5-point road favorite with a strong run defense, but QB DJ Lagway has an ankle issue. Most likely to win: Baylor ML (-115).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Under 52.5: Baylor's defense is elite on the ground, and its last two games went 23-13 and 17-6.
 
 Our bets:
-- straight (lean): Baylor Bears -1.5 (+100): pending -> **pending**
+- straight (lean): Baylor Bears -1.5 (+100): pending -> **loss**

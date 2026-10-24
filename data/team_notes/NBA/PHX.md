@@ -32,10 +32,10 @@ Market read: the biggest line move on tonight's slate (side -3, total -5), drive
 
 Legs considered:
 - Golden State Warriors +9.5: Even without Curry the model has Phoenix by about 6 to 7 and the Suns scored 83 in their opener.
-- Over 219.5: Projection 225.6 (about 222 with Curry out) vs 219.5; the total was cut 5 points from 224.5 on the Curry news.
+- Over 221.5: Projection 225.6 (about 222 with Curry out) vs 221.5; the total was cut 5 points from 224.5 on the Curry news.
 
 Our bets:
-- straight (lean): Over 219.5 (-108): pending -> **pending**
+- straight (lean): Over 221.5 (-112): pending -> **pending**
 
 ### 2026-10-21: at Portland Trail Blazers (final: PHX 83, POR 124)
 

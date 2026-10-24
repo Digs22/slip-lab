@@ -34,14 +34,14 @@ Hit-rate caution: Sengun's and Amen's 2025-26 game logs were not pulled, so thei
 Legs considered:
 - A. Sengun o4.5 assists: Main line; VanVleet is expected to rest on the back-to-back, so Sengun runs more of the offense (5 and 7 assists so far).
 - A. Thompson o13.5 rebounds+assists: Main combo line; cleared only by one on 14 both nights, and he played 36 minutes last night.
-- Under 229.5: Projection 228.3; Houston's 96.1 pace, a tired road team and the missing point guard push toward a low score.
+- Under 227.5: Projection 228.3; Houston's 96.1 pace, a tired road team and the missing point guard push toward a low score.
 - Atlanta Hawks ML: Hawks are home and lightly used in a 47-point win last night; Houston's VanVleet and Sheppard are likely out.
 
 Our bets:
 - straight: A. Sengun o4.5 assists (-141): Active -> **pending**
+- longshot: A. Sengun o4.5 assists (-141): Active -> **pending**
 - best: A. Sengun o4.5 assists (-141): Active / A. Thompson o13.5 rebounds+assists (-110): Active -> **pending**
 - straight: A. Sengun o4.5 assists (-141): Active -> **pending**
-- longshot: A. Sengun o4.5 assists (-141): Active -> **pending**
 
 ### 2026-10-21: at Orlando Magic (final: ATL 132, ORL 125)
 

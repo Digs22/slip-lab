@@ -38,7 +38,7 @@ Legs considered:
 - T. Herro o2.5 threes: Herro made 4 and 5 threes in his two games on 21 attempts, and PHI allows the 4th-most to shooting guards.
 
 Our bets:
-- straight: T. Maxey o25.5 points (-104): Active -> **pending**
+- straight: Under 234.5 (-108): pending -> **pending**
 - best: T. Maxey o25.5 points (-104): Active / T. Herro o2.5 threes (-132): Active -> **pending**
 
 ### 2026-10-22: vs Cleveland Cavaliers (final: CLE 106, PHI 114)

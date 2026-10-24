@@ -9,10 +9,10 @@
    "game": "UTSA Roadrunners @ Tulane Green Wave",
    "team": "Tulane Green Wave",
    "side": null,
-   "line": 3,
-   "odds": -118,
+   "line": 3.0,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.517,
+   "fair": 0.504,
    "books": 3,
    "signals": {
     "home": 0.55,

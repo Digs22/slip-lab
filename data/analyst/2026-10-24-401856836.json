@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Under 56.5",
+   "desc": "Under 54.5",
    "team": "",
    "side": "under",
-   "line": 56.5,
-   "odds": -112,
+   "line": 54.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -19,7 +19,7 @@
     "recent_form": 0.52,
     "weather": 0.5
    },
-   "note": "Colorado scores 19.5 ppg and the team averages project about 53 against a 56.5 total."
+   "note": "Colorado scores 19.5 ppg and the team averages project about 53 against a 54.5 total."
   },
   {
    "market": "spread",
@@ -27,9 +27,9 @@
    "team": "Colorado Buffaloes",
    "side": null,
    "line": 13.5,
-   "odds": -108,
+   "odds": -115,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.511,
    "books": 1,
    "signals": {
     "season": 0.5,
@@ -45,9 +45,9 @@
    "team": "Oklahoma State Cowboys",
    "side": null,
    "line": -13.5,
-   "odds": -112,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.54,

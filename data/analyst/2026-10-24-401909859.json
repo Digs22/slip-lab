@@ -10,8 +10,8 @@
    "team": "NO",
    "side": null,
    "line": 11.5,
-   "odds": 100,
-   "book": "Polymarket (50c, via Dimers)",
+   "odds": -115,
+   "book": "DraftKings",
    "fair": 0.511,
    "books": 3,
    "signals": {
@@ -24,15 +24,15 @@
    "note": "Model has Denver by about 7 to 8; DK has NO +11.5 at -115 and Polymarket 50c (even money)."
   },
   {
-   "desc": "Under 237.5",
+   "desc": "Under 239.5",
    "game": "New Orleans Pelicans @ Denver Nuggets",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 237.5,
-   "odds": -108,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.496,
+   "line": 239.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "totals_model": 0.56,
@@ -40,7 +40,7 @@
     "recent_form": 0.45,
     "experts": 0.5
    },
-   "note": "Projection 235.1 vs 237.5; NO's two games hit 243 and 239, so the Under is only a small lean."
+   "note": "Projection 235.1 vs 239.5; NO's two games hit 243 and 239, so the Under is only a small lean."
   }
  ],
  "sgp": {

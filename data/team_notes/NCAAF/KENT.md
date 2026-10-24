@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Akron Zips
+### 2026-10-24: vs Akron Zips (final: AKR 20, KENT 35)
 
 Both MAC teams are struggling (Akron 1-6, Kent 2-5) with turnover-prone QBs and Kent scoring 12 points a game. Most likely to win: Under 47.5 (-105).
 
@@ -29,4 +29,4 @@ Legs considered:
 - Akron Zips +3: Kent's offense is 12.0 points a game, so Akron needs only to stay within a field goal.
 
 Our bets:
-- straight (lean): Under 47.5 (-105): pending -> **pending**
+- straight (lean): Under 47.5 (-105): pending -> **loss**
