@@ -33,7 +33,7 @@ Legs considered:
 - Dallas Mavericks +6.5: The efficiency model has DAL +1.4 neutral (about IND by 0.6 at home), though it misses Haliburton's return.
 
 Our bets:
-- longshot: Under 237.5 (-105): pending -> **pending**
+- longshot: Under 237.5 (-105): pending -> **loss**
 - straight (lean): Under 239.5 (-108): pending -> **pending**
 - best: P. Siakam o23.5 points (-114): Active (not on injury report) / C. Flagg u24.5 points (-113): Active (not on injury report) -> **pending**
 

@@ -38,10 +38,9 @@ Legs considered:
 
 Our bets:
 - best: C. Cunningham o9.5 assists (+115): Active -> **pending**
-- longshot: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
+- longshot: D. Robinson o15.5 pts+reb+ast (-115): Active -> **loss**
 - straight: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
 - best: C. Cunningham o9.5 assists (+115): Active / G. Antetokounmpo o10.5 rebounds (+100): Active -> **pending**
-- straight: D. Robinson o15.5 pts+reb+ast (-115): Active -> **pending**
 
 ### 2026-10-21: vs Minnesota Timberwolves (final: MIN 131, MIA 106)
 

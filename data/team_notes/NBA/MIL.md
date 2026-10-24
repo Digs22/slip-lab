@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Chicago Bulls
+### 2026-10-23: vs Chicago Bulls (final: CHI 132, MIL 125)
 
 Total projects 231.8 vs DK 240.5, so the Under is the main play; the Herro/Powell usage SGP fails the edge test. Most likely winner: Under 240.5 (-115).
 
@@ -36,10 +36,10 @@ Legs considered:
 - T. Herro o4.5 rebounds: Dimers' model pick at plus money; he grabbed only 2 rebounds in the opener.
 
 Our bets:
-- straight (lean): Under 240.5 (-115): pending -> **pending**
+- straight (lean): Under 240.5 (-115): pending -> **loss**
 - best: N. Powell o18.5 points (-110): Active (not on injury report) / T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
 - best: T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
-- longshot: Under 240.5 (-115): pending -> **pending**
+- longshot: Under 240.5 (-115): pending -> **loss**
 
 ### 2026-10-21: at Washington Wizards (final: MIL 116, WSH 128)
 

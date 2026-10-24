@@ -27,5 +27,5 @@ Legs considered:
 - Duke Blue Devils ML: This is almost a coin-flip game, and Duke at +120 is the best price on the board.
 
 Our bets:
-- longshot: Under 47.5 (-110): pending -> **pending**
+- longshot: Under 47.5 (-110): pending -> **loss**
 - straight (lean): Under 46.5 (-105): pending -> **pending**

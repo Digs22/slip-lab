@@ -1,23 +1,48 @@
 {
   "date": "2026-10-23",
-  "generated": "2026-10-23T17:48-04:00",
-  "games_scanned": 1,
+  "generated": "2026-10-23T20:18-04:00",
+  "games_scanned": 3,
   "problems": [
+    "2026-10-23: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
     "2026-10-23: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
     {
-      "id": "401861965",
-      "league": "NCAAF",
-      "game": "MASS @ CONN",
-      "start": "2026-10-23T23:00Z",
-      "venue": "Pratt & Whitney Stadium",
+      "id": "401909096",
+      "league": "NBA",
+      "game": "HOU @ SA",
+      "start": "2026-10-24T01:30Z",
+      "venue": "Moody Center",
       "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-      "summary": "UMass is likely on its third-string QB, Logan Inagawa, with Watson (ankle) out, while UConn comes off a bye. Most likely to win: UConn Huskies ML (-575)."
+      "score": 0.0465,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "summary": "Totals model projects 233.0 vs DK 228.5, so the Over is the lead leg; Wembanyama's SGP has no clear edge. Most likely winner: Over 228.5."
+    },
+    {
+      "id": "401858272",
+      "league": "NCAAF",
+      "game": "NCSU @ STAN",
+      "start": "2026-10-24T02:30Z",
+      "venue": "Stanford Stadium",
+      "provisional": true,
+      "score": 0.0228,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+      "summary": "NC State is off a bye, and Stanford has lost to its FBS opponents by 28, 54 and 51 points. Most likely to win: NC State Wolfpack ML (-260)."
+    },
+    {
+      "id": "401909850",
+      "league": "NBA",
+      "game": "MEM @ GS",
+      "start": "2026-10-24T02:00Z",
+      "venue": "Chase Center",
+      "provisional": true,
+      "score": 0.0221,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+      "summary": "Ty Jerome qualifies against GS's PG defense, but the Jerome/Curry points SGP gap is within price noise. Total projects 233.4 vs 234.5. Most likely winner: Warriors -2.5."
     }
   ]
 }

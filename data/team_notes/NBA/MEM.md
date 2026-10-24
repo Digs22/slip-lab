@@ -32,9 +32,10 @@ Legs considered:
 - S. Curry o24.5 points: Butler and Porzingis out push more shots to Curry; Memphis allowed 120.7 ppg last season.
 
 Our bets:
+- longshot: T. Jerome o21.5 points (-105): Active -> **loss**
 - straight: T. Jerome o21.5 points (-105): Active -> **pending**
 - best: T. Jerome o21.5 points (-105): Active / S. Curry o24.5 points (-108): Active (ankle sprain 10/18, played opener) -> **pending**
-- longshot: T. Jerome o21.5 points (-105): Active -> **pending**
+- straight: T. Jerome o21.5 points (-105): Active -> **pending**
 
 ### 2026-10-21: vs Utah Jazz (final: UTAH 103, MEM 123)
 

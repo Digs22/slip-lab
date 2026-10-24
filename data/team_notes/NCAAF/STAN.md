@@ -24,9 +24,9 @@ Sources: ESPN summary/pickcenter, FanDuel Research/numberFire, SportsLine, AP/AB
 Legs considered:
 - NC State Wolfpack ML: NC State scores 33 points a game, and Stanford's defense allows 36.6 points and 452 yards.
 - NC State Wolfpack -7.5: Stanford is 0-4 ATS as an underdog of 6.5 or more this season, and NC State had a bye to prepare.
-- Over 55.5: Five of Stanford's seven games went over, and NC State's pass offense faces a Cardinal defense allowing 255 passing yards.
+- Over 54.5: Five of Stanford's seven games went over, and NC State's pass offense faces a Cardinal defense allowing 255 passing yards.
 
 Our bets:
-- straight: Over 55.5 (-105): pending -> **pending**
-- straight: Over 55.5 (-105): pending -> **pending**
-- longshot: Over 55.5 (-105): pending -> **pending**
+- longshot: Over 55.5 (-105): pending -> **loss**
+- straight: Over 54.5 (-110): pending -> **pending**
+- straight: Over 54.5 (-110): pending -> **pending**

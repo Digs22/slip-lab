@@ -39,10 +39,10 @@ Legs considered:
 - V. Wembanyama o4.5 steals+blocks: Six blocks in the opener and Houston attacks the rim with Durant and Sengun.
 
 Our bets:
+- best: V. Wembanyama o11.5 rebounds (+112): Active -> **pending**
+- longshot: V. Wembanyama o4.5 steals+blocks (-107): Active -> **loss**
 - straight: V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
 - best: V. Wembanyama o11.5 rebounds (+112): Active / V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
-- best: V. Wembanyama o11.5 rebounds (+112): Active -> **pending**
-- longshot: V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
 
 ### 2026-10-20: vs Oklahoma City Thunder (final: OKC 116, SA 104)
 

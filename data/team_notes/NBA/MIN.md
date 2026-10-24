@@ -35,7 +35,7 @@ Legs considered:
 - A. Edwards o3.5 threes: Heavy 3-point volume in the new Ball-Edwards offense; ORL let two Hawks guards hit 4+ threes Wednesday.
 
 Our bets:
-- longshot: Under 234.5 (-105): pending -> **pending**
+- longshot: Under 234.5 (-105): pending -> **loss**
 - straight (lean): Under 234.5 (-112): pending -> **pending**
 - best: A. Edwards o3.5 threes (-136): Active (not on injury report) / Minnesota Timberwolves ML (-113): pending -> **pending**
 

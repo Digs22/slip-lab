@@ -34,7 +34,7 @@ Legs considered:
 - Tampa Bay Rays team total Under 2.5: Price estimated from total 6 and MIL -161 (TB ~2.75 runs); confirm a book line before betting.
 
 Our bets:
-- longshot: J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
+- longshot: J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **loss**
 - straight (lean): J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
 
 ### 2026-10-15: at Los Angeles Dodgers (final: MIL 6, LAD 4)

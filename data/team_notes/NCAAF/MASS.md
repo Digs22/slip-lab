@@ -27,5 +27,5 @@ Legs considered:
 - Under 53.5: UMass has scored 20 or fewer in three straight games, and a third-string QB limits its scoring.
 
 Our bets:
-- longshot: UConn Huskies -13.5 (-108): pending -> **pending**
+- longshot: UConn Huskies -13.5 (-108): pending -> **loss**
 - straight (lean): UConn Huskies -12.5 (-112): pending -> **pending**

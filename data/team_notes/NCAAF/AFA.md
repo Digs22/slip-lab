@@ -27,5 +27,5 @@ Legs considered:
 - Under 44.5: Two run-first offenses milk the clock, and Wyoming's offense averages just 18.3 points.
 
 Our bets:
-- longshot: Wyoming Cowboys +5.5 (-110): pending -> **pending**
+- longshot: Wyoming Cowboys +5.5 (-110): pending -> **loss**
 - straight (lean): Wyoming Cowboys +5.5 (-110): pending -> **pending**

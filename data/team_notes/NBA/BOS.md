@@ -37,7 +37,7 @@ Legs considered:
 - Over 222.5: Projection 223.5 (NY 111.4 + BOS 112.1 at 95.8 poss) is only 1.0 over DK 222.5, so it is a lean.
 
 Our bets:
-- longshot: J. Tatum u25.5 points (-103): Active (not on injury report) -> **pending**
+- longshot: J. Tatum u25.5 points (-103): Active (not on injury report) -> **loss**
 - straight: J. Tatum u25.5 points (-103): Active (not on injury report) -> **pending**
 - best: J. Tatum u25.5 points (-103): Active (not on injury report) / P. George o17.5 points (-112): Active (not on injury report) -> **pending**
 - straight: P. George o17.5 points (-112): Active (not on injury report) -> **pending**
