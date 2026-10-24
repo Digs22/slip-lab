@@ -28,4 +28,4 @@ Legs considered:
 - San Diego State Aztecs -1.5: SDSU has the weaker offense (23.3 ppg, 149 pass yards) but the market favors it on the road.
 
 Our bets:
-- straight (lean): Over 59.5 (-112): pending -> **pending**
+- straight (lean): Over 59.5 (-108): pending -> **pending**

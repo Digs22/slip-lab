@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Western Michigan Broncos
+### 2026-10-24: vs Western Michigan Broncos (final: WMU 38, TOL 45)
 
 Toledo is a 2.5-point home favorite with the better offense, but Western Michigan's defense and run game keep it close. Most likely to win: WMU +2.5 (-102).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Under 47.5: WMU is a run-first, low-possession offense and Toledo scores mostly through the air.
 
 Our bets:
-- straight: Western Michigan Broncos +2.5 (-102): pending -> **pending**
+- straight: Western Michigan Broncos +2.5 (-102): pending -> **loss**

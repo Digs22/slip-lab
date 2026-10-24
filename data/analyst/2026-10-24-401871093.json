@@ -5,10 +5,10 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Over 44.5",
+   "desc": "Over 43.5",
    "team": "",
    "side": "over",
-   "line": 44.5,
+   "line": 43.5,
    "odds": -118,
    "book": "DraftKings",
    "fair": 0.517,
@@ -19,7 +19,7 @@
     "weather": 0.5,
     "experts": 0.52
    },
-   "note": "Louisiana Tech scores 33 ppg and the teams' averages project about 51 against a 44.5 total."
+   "note": "Louisiana Tech scores 33 ppg and the teams' averages project about 51 against a 43.5 total."
   },
   {
    "market": "spread",

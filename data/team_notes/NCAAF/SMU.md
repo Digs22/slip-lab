@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs California Golden Bears
+### 2026-10-24: vs California Golden Bears (final: CAL 20, SMU 59)
 
 SMU is a huge home favorite, but Cal's pass game (288 ypg) can cover a big number. Most likely to win: California Golden Bears +18.5 (-108).
 
@@ -27,7 +27,7 @@ Legs considered:
 - Under 55.5: Our projection is about 53, and SMU's defense allows only 21.3 points while Cal's run game is weak.
 
 Our bets:
-- straight (lean): California Golden Bears +18.5 (-108): pending -> **pending**
+- straight (lean): California Golden Bears +18.5 (-108): pending -> **loss**
 
 ### 2026-10-17: vs Virginia Cavaliers (final: UVA 13, SMU 23)
 

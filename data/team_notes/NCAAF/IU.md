@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Michigan Wolverines
+### 2026-10-24: at Michigan Wolverines (final: IU 13, MICH 6)
 
 No. 6 Indiana (allows 12.9 PPG) visits a Michigan offense that scores 22.7 and has thrown 6 INT. Most likely to win: Indiana ML (-298).
 
@@ -34,7 +34,7 @@ Legs considered:
 - Under 42.5: Michigan's last five games finished with 39, 34, 39 and 27 total points in four of them, and both defenses allow under 17.
 
 Our bets:
-- straight (lean): Under 42.5 (-105): pending -> **pending**
+- straight (lean): Under 42.5 (-105): pending -> **win**
 
 ### 2026-10-17: vs Ohio State Buckeyes (final: OSU 19, IU 15)
 

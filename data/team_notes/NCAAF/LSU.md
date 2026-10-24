@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Auburn Tigers
+### 2026-10-24: at Auburn Tigers (final: LSU 38, AUB 17)
 
 Auburn upset No. 1 Georgia and is a 7-point home dog to LSU, which has lost two of three road games. Most likely to win: Auburn Tigers +7 (-105).
 
@@ -34,7 +34,7 @@ Legs considered:
 - LSU Tigers -7: LSU scores 40.4 and allows 15.9, but needs a margin of 8 on the road.
 
 Our bets:
-- straight (lean): Auburn Tigers +7 (-105): pending -> **pending**
+- straight (lean): Auburn Tigers +7 (-105): pending -> **loss**
 
 ### 2026-10-17: vs Mississippi State Bulldogs (final: MSST 0, LSU 31)
 

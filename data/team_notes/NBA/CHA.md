@@ -12,7 +12,7 @@
 
 ### 2026-10-24: vs Miami Heat
 
-Model projects 232.7 against DK 229.5 and CHA +3.5 is a coin flip the model likes; no priced props found, so no SGP. Most likely winner: Over 229.5.
+Charlotte ruled out Knueppel, Coby White and Grant Williams, so the Over lost its support; no strong play.
 
 SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), TheSpread, Bleacher Nation, Pick Dawgz, iHeart/The Gambler, Capper's Picks, Dimers, Covers, Field Level Media, Sports Gambling Podcast.
 LINES: DK (ESPN) MIA -3.5 (-110) / CHA +3.5 (-110), ML MIA -155 / CHA +130, total 229.5 (o -115 / u -105). TheSpread MIA -3.5 (-105), ML -145/+125, total 230.5 (-110); Bleacher Nation and Pick Dawgz 231.5; Capper's 232.5. Total is lowest at DK.
@@ -30,10 +30,8 @@ PROPS: nothing priced for tonight. Stale: Giannis 28.5 pts (-120/-105, bet365 fo
 CHEMISTRY: Miami is 0-2 learning to play with Giannis (defense gave up 259 in two games); Charlotte lost its three best creators to injury or trades and shot poorly Friday.
 WHY OVER: two defenses that allowed 130-plus, a fast MIA pace and a model 3 above the line; DK's 229.5 is below every other book. The side is a coin flip.
 
-Legs considered:
-- Over 229.5: Projection 232.7 (MIA 115.7 + CHA 117.1) beats DK 229.5; other books sit at 230.5-232.5, so DK is the soft number.
-- Charlotte Hornets +3.5: Both teams are on a back-to-back after bad Friday losses; ratings make this near a pick'em and TheSpread notes reverse line movement against 90% of Miami tickets.
-- Charlotte Hornets ML: Plus-money home dog; Knueppel and White could return, while Miami has allowed 131 and 128 in its 0-2 start.
+Our bets:
+- straight (lean): Charlotte Hornets +3.5 (-115): pending -> **pending**
 
 ### 2026-10-21: at Brooklyn Nets (final: CHA 110, BKN 103)
 

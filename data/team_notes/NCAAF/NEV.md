@@ -23,9 +23,9 @@ Nevada has lost three straight and averages 172 passing yards, while San Jose St
 Sources: ESPN summary/pickcenter/leaders/predictor, AccuWeather via ESPN, WebSearch (Action Network, FanDuel Research listings for 2025).
 
 Legs considered:
-- San José State Spartans +6.5: Nevada is 2-4 with a 172-yard passing offense, so a one-score game is the likelier script.
+- San José State Spartans +5.5: Nevada is 2-4 with a 172-yard passing offense, so a one-score game is the likelier script.
 - Under 46.5: Nevada runs for 193 yards a game and the two teams' scoring averages combine for about 46.
 - Nevada Wolf Pack ML: The market has Nevada near 69%, but they are 2-4 and scored 20 or fewer in three of their last five.
 
 Our bets:
-- straight (lean): San José State Spartans +6.5 (-110): pending -> **pending**
+- straight (lean): San José State Spartans +5.5 (-112): pending -> **pending**

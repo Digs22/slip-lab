@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Under 53.5",
+   "desc": "Under 51.5",
    "team": "",
    "side": "under",
-   "line": 53.5,
-   "odds": -112,
+   "line": 51.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -27,9 +27,9 @@
    "team": "Washington State Cougars",
    "side": null,
    "line": 14.5,
-   "odds": -115,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.5,
    "books": 1,
    "signals": {
     "season": 0.5,
@@ -45,9 +45,9 @@
    "team": "Boise State Broncos",
    "side": null,
    "line": -14.5,
-   "odds": -105,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.5,
    "books": 1,
    "signals": {
     "season": 0.54,

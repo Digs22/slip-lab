@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Miami Hurricanes
+### 2026-10-24: at Miami Hurricanes (final: PITT 23, MIA 52)
 
 Miami (6-0, 48.5 PPG) is a 20.5-point favorite, but Pitt's defense is solid and its offense scores 33. Most likely to win: Pittsburgh Panthers +20.5 (-112).
 
@@ -32,4 +32,4 @@ Legs considered:
 - Over 50.5: Miami alone averages 50.5 points, and SI listed the same total at 50.5 earlier in the week.
 
 Our bets:
-- straight (lean): Pittsburgh Panthers +20.5 (-112): pending -> **pending**
+- straight (lean): Pittsburgh Panthers +20.5 (-112): pending -> **loss**

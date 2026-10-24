@@ -23,9 +23,9 @@ Boise State (5-1, 35 ppg) visits a Washington State team that is 1-6 with a 20-p
 Sources: ESPN summary/pickcenter/leaders/predictor, AccuWeather via ESPN, Bleacher Nation preview, SI/mwcconnection (Madsen injury history).
 
 Legs considered:
-- Under 53.5: The total rose 3 points from 50.5, and the teams' averages project about 52 with Boise's run game eating clock.
+- Under 51.5: The total rose 3 points from 50.5, and the teams' averages project about 52 with Boise's run game eating clock.
 - Washington State Cougars +14.5: Boise's last five wins were by 18, 14, 25, 19 and 7, so +14.5 sits around its median margin.
 - Boise State Broncos -14.5: Boise rushes for 234 yds and Washington State allows 160 on the ground, but a road team laying two touchdowns is a thin edge.
 
 Our bets:
-- straight (lean): Boise State Broncos -14.5 (-105): pending -> **pending**
+- straight (lean): Under 51.5 (-105): pending -> **pending**

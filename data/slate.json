@@ -1,191 +1,23 @@
 {
   "date": "2026-10-24",
-  "generated": "2026-10-24T13:27-04:00",
-  "games_scanned": 15,
+  "generated": "2026-10-24T15:47-04:00",
+  "games_scanned": 1,
   "problems": [
-    "2026-10-24: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
+    "2026-10-24: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized"
   ],
-  "upcoming": [],
-  "games": [
+  "upcoming": [
     {
-      "id": "401856731",
-      "league": "NCAAF",
-      "game": "TENN @ SC",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Williams-Brice Stadium",
-      "provisional": true,
-      "score": 0.0398,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-      "summary": "No. 11 Tennessee (6-1) is a short road underdog at South Carolina, with George MacIntyre expected to start again and a run game averaging 217 yards. Most likely to win: Tennessee +2.5 (-112)."
-    },
-    {
-      "id": "401856839",
-      "league": "NCAAF",
-      "game": "KSU @ ASU",
-      "start": "2026-10-24T19:45Z",
-      "venue": "Mountain America Stadium",
-      "provisional": true,
-      "score": 0.038,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
-      "summary": "Kansas State is a 1.5-point road favorite at Arizona State; the total fell from 56.5 to 52.5 without a reason I could find, so injuries are a risk. Most likely to win: Kansas State ML (-118)."
-    },
-    {
-      "id": "401871094",
-      "league": "NCAAF",
-      "game": "ULM @ TROY",
-      "start": "2026-10-24T20:00Z",
-      "venue": "Veterans Memorial Stadium (AL)",
-      "provisional": true,
-      "score": 0.017,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-      "summary": "Troy is an 11.5-point home favorite after the spread fell from 17.5, and ULM is 0-6 allowing 41 a game. Most likely to win: Over 49.5 (-112)."
-    },
-    {
-      "id": "401866447",
-      "league": "NCAAF",
-      "game": "SAC @ BALL",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Scheumann Stadium",
-      "provisional": true,
-      "score": 0.016,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-      "summary": "Ball State is a -14.5 favorite after a 5-point move, but it is 2-5 and has never beaten an FBS team by 15; Sacramento State is also awful. Most likely to win: Sacramento State +14.5 (-112)."
-    },
-    {
-      "id": "401858495",
-      "league": "NCAAF",
-      "game": "ORE @ ILL",
-      "start": "2026-10-24T19:00Z",
-      "venue": "Gies Memorial Stadium",
-      "provisional": true,
-      "score": 0.0136,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-      "summary": "Oregon is a 10-point road favorite with Dante Moore still out and its offense stuck near 15-17 points with backups. Most likely to win: Illinois +10 (-112)."
-    },
-    {
-      "id": "401864526",
-      "league": "NCAAF",
-      "game": "HAW @ NIU",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Huskie Stadium",
-      "provisional": true,
-      "score": 0.0135,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-      "summary": "Winless Northern Illinois (0-6) faces Hawaii (1-6) and both score under 16 a game. Most likely to win: Under 48.5 (-115)."
-    },
-    {
-      "id": "401866449",
-      "league": "NCAAF",
-      "game": "EMU @ OHIO",
-      "start": "2026-10-24T20:00Z",
-      "venue": "Peden Stadium",
-      "provisional": true,
-      "score": 0.005,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-      "summary": "Ohio is a 10-point home favorite over an EMU team that lost 10-54 and 7-35 against Power-4 foes but beat Akron and Lindenwood. Most likely to win: Eastern Michigan +10 (-115)."
-    },
-    {
-      "id": "401856835",
-      "league": "NCAAF",
-      "game": "BYU @ UCF",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Acrisure Bounce House",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-      "summary": "No. 2 BYU (6-0) is a 7.5-point favorite at UCF, which starts Keyone Jenkins with Barnett still out, and gusts near 27 mph are forecast. Most likely to win: BYU ML (-290)."
-    },
-    {
-      "id": "401858499",
-      "league": "NCAAF",
-      "game": "MSU @ UCLA",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Rose Bowl",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-      "summary": "No. 9 UCLA (6-0, 6-0 ATS) is a 15.5-point favorite using backup QB Ty Dieffenbach, who has scored 17 in each of the last two games. Most likely to win: Michigan State +15.5 (-112)."
-    },
-    {
-      "id": "401856727",
-      "league": "NCAAF",
-      "game": "TA&M @ ALA",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Bryant-Denny Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-      "summary": "No. 13 Alabama is a 13.5-point favorite after back-to-back losses, while Texas A&M has a turnover-prone offense (Reed 6 INT). Most likely to win: Texas A&M +13.5 (-112)."
-    },
-    {
-      "id": "401858497",
-      "league": "NCAAF",
-      "game": "IOWA @ MINN",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Huntington Bank Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-      "summary": "Iowa (5-1) allows 14.5 points a game and is a 7.5-point road favorite after the line moved from -4.5. Most likely to win: Iowa Hawkeyes ML (-285)."
-    },
-    {
-      "id": "401856730",
-      "league": "NCAAF",
-      "game": "OU @ MSST",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Davis Wade Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-      "summary": "Oklahoma is a 2.5-point road favorite, and Mississippi State's QB Kamario Taylor was still day-to-day this week. Most likely to win: Under 47.5 (-105)."
-    },
-    {
-      "id": "401858273",
-      "league": "NCAAF",
-      "game": "BC @ GT",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Bobby Dodd Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-      "summary": "Georgia Tech is a 6-point home favorite after the line moved from -4.5, and Boston College allows 160 rushing yards a game. Most likely to win: Georgia Tech Yellow Jackets ML (-238)."
-    },
-    {
-      "id": "401862810",
-      "league": "NCAAF",
-      "game": "UNT @ NAVY",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Navy-Marine Corps Memorial Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-      "summary": "North Texas scores 42.2 a game and is a 3-point road favorite at 2-4 Navy, with sharp money showing on the Under. Most likely to win: Under 62.5 (-112)."
-    },
-    {
-      "id": "401866448",
-      "league": "NCAAF",
-      "game": "BGSU @ BUFF",
-      "start": "2026-10-24T19:30Z",
-      "venue": "Broadview Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-      "summary": "Buffalo is a 3-point home favorite on a 4-3 record against a 2-5 Bowling Green; both defenses are middling. Most likely to win: Buffalo ML (-155)."
+      "id": "401909853",
+      "league": "NBA",
+      "game": "MIA @ CHA",
+      "start": "2026-10-24T22:00Z",
+      "venue": "Spectrum Center",
+      "city": "Charlotte, NC",
+      "score": 0.0162,
+      "edges": 1,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
     }
-  ]
+  ],
+  "games": []
 }

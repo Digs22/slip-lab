@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Northwestern Wildcats
+### 2026-10-24: at Northwestern Wildcats (final: RUTG 14, NU 42)
 
 Northwestern (5-1, No. 24) has a stout defense and run game, but a 59.5 total looks high. Most likely to win: Under 59.5 (-115).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Northwestern Wildcats -15.5: Rutgers allows 31.8 points and 185 rush yards, while QB Lonergan has 6 INT.
 
 Our bets:
-- straight (lean): Under 58.5 (-105): pending -> **pending**
+- straight (lean): Under 58.5 (-105): pending -> **win**

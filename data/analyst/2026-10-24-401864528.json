@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "spread",
-   "desc": "San José State Spartans +6.5",
-   "team": "San José State Spartans",
+   "desc": "San Jos\u00e9 State Spartans +5.5",
+   "team": "San Jos\u00e9 State Spartans",
    "side": null,
-   "line": 6.5,
-   "odds": -110,
+   "line": 5.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -27,9 +27,9 @@
    "team": "",
    "side": "under",
    "line": 46.5,
-   "odds": -108,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "season": 0.53,
@@ -44,9 +44,9 @@
    "team": "Nevada Wolf Pack",
    "side": null,
    "line": null,
-   "odds": -250,
+   "odds": -218,
    "book": "DraftKings",
-   "fair": 0.685,
+   "fair": 0.657,
    "books": 1,
    "signals": {
     "season": 0.5,

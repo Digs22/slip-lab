@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Florida Atlantic Owls
+### 2026-10-24: at Florida Atlantic Owls (final: RICE 49, FAU 51)
 
 FAU is 4-2 with a prolific passing attack while 1-6 Rice runs the ball on a QB who barely throws. Most likely to win: Rice +8.5 (-112).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Florida Atlantic Owls -9.5: FAU scores 35 per game with 15 TD from Veltkamp, against a Rice defense allowing 29.
 
 Our bets:
-- straight (lean): Rice Owls +9.5 (-110): pending -> **pending**
+- straight (lean): Rice Owls +9.5 (-110): pending -> **win**

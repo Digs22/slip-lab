@@ -23,9 +23,9 @@ Louisiana Tech scores 33.3 ppg while Old Dominion has the 17.7-ppg offense and h
 Sources: ESPN summary/pickcenter/leaders/predictor, AccuWeather via ESPN, Dimers snippet (via WebSearch).
 
 Legs considered:
-- Over 44.5: Louisiana Tech scores 33 ppg and the teams' averages project about 51 against a 44.5 total.
+- Over 43.5: Louisiana Tech scores 33 ppg and the teams' averages project about 51 against a 43.5 total.
 - Old Dominion Monarchs +13.5: The spread moved 5 points from the open of 8.5, and thirteen-plus is a lot for an offense that scores 17.7.
 - Louisiana Tech Bulldogs -13.5: Louisiana Tech is 4-2 but lost its two road games to LSU and Baylor by 31 and 17.
 
 Our bets:
-- straight (lean): Over 44.5 (-118): pending -> **pending**
+- straight (lean): Over 43.5 (-118): pending -> **pending**

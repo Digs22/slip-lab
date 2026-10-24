@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at TCU Horned Frogs
+### 2026-10-24: at TCU Horned Frogs (final: WVU 24, TCU 20)
 
 TCU has an elite defense (12.2 ppg) while WVU's run game gains 272 yards a game. Most likely to win: West Virginia Mountaineers +10.5 (-112).
 
@@ -28,4 +28,4 @@ Legs considered:
 - TCU Horned Frogs -10.5: TCU's defense is top-tier, but WVU's offense matches up well against it.
 
 Our bets:
-- straight (lean): TCU Horned Frogs -10.5 (-108): pending -> **pending**
+- straight (lean): TCU Horned Frogs -10.5 (-108): pending -> **loss**
