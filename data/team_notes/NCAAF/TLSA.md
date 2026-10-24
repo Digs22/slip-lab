@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Army Black Knights
+### 2026-10-23: vs Army Black Knights (final: ARMY 38, TLSA 35)
 
 Army's 357-yard rushing attack meets a Tulsa run defense ranked 121st, and Tulsa has lost seven straight home conference games. Most likely to win: Army Black Knights +1.5 (-110).
 
@@ -28,4 +28,4 @@ Legs considered:
 
 Our bets:
 - longshot: Army Black Knights +1.5 (-110): pending -> **loss**
-- straight (lean): Army Black Knights +1.5 (-115): pending -> **pending**
+- straight (lean): Army Black Knights +1.5 (-115): pending -> **win**

@@ -37,8 +37,8 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 240.5 (-115): pending -> **loss**
-- best: N. Powell o18.5 points (-110): Active (not on injury report) / T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
-- best: T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **pending**
+- best: N. Powell o18.5 points (-110): Active (not on injury report) / T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **win**
+- best: T. Herro o4.5 rebounds (+123): Active (not on injury report) -> **loss**
 - longshot: Under 240.5 (-115): pending -> **loss**
 
 ### 2026-10-21: at Washington Wizards (final: MIL 116, WSH 128)

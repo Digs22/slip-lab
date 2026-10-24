@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs NC State Wolfpack
+### 2026-10-23: vs NC State Wolfpack (final: NCSU 28, STAN 31)
 
 NC State is off a bye, and Stanford has lost to its FBS opponents by 28, 54 and 51 points. Most likely to win: NC State Wolfpack ML (-260).
 
@@ -28,5 +28,5 @@ Legs considered:
 
 Our bets:
 - longshot: Over 55.5 (-105): pending -> **loss**
-- straight: Over 54.5 (-110): pending -> **pending**
-- straight: Over 54.5 (-110): pending -> **pending**
+- straight: Over 54.5 (-110): pending -> **win**
+- straight: Over 54.5 (-110): pending -> **win**

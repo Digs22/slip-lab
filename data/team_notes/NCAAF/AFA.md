@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: at Wyoming Cowboys
+### 2026-10-23: at Wyoming Cowboys (final: AFA 14, WYO 28)
 
 Air Force is 5-1 and allows 19.7 points a game, but hasn't won in Laramie since 2012, and Wyoming's Tyler Hughes has thrown 7 interceptions. Most likely to win: Air Force Falcons ML (-205).
 
@@ -28,4 +28,4 @@ Legs considered:
 
 Our bets:
 - longshot: Wyoming Cowboys +5.5 (-110): pending -> **loss**
-- straight (lean): Wyoming Cowboys +5.5 (-110): pending -> **pending**
+- straight (lean): Wyoming Cowboys +5.5 (-110): pending -> **win**

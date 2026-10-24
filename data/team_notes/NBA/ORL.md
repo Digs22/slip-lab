@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Minnesota Timberwolves
+### 2026-10-23: vs Minnesota Timberwolves (final: MIN 115, ORL 93)
 
 Total projects 230.3 vs DK 234.5, so the Under is a leg; Edwards and Ball qualify but have no priced points line, so the SGP has no edge. Most likely winner: Under 234.5 (-105).
 
@@ -36,8 +36,8 @@ Legs considered:
 
 Our bets:
 - longshot: Under 234.5 (-105): pending -> **loss**
-- straight (lean): Under 234.5 (-112): pending -> **pending**
-- best: A. Edwards o3.5 threes (-136): Active (not on injury report) / Minnesota Timberwolves ML (-113): pending -> **pending**
+- straight (lean): Under 234.5 (-112): pending -> **win**
+- best: A. Edwards o3.5 threes (-136): Active (not on injury report) / Minnesota Timberwolves ML (-113): pending -> **loss**
 
 ### 2026-10-21: vs Atlanta Hawks (final: ATL 132, ORL 125)
 

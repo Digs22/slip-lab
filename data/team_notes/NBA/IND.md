@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Dallas Mavericks
+### 2026-10-23: vs Dallas Mavericks (final: DAL 121, IND 105)
 
 Total projects 231.8 vs DK 237.5, so the Under is a leg; the Siakam usage SGP has no edge. Most likely winner: C. Flagg u24.5 points (-113).
 
@@ -34,8 +34,8 @@ Legs considered:
 
 Our bets:
 - longshot: Under 237.5 (-105): pending -> **loss**
-- straight (lean): Under 239.5 (-108): pending -> **pending**
-- best: P. Siakam o23.5 points (-114): Active (not on injury report) / C. Flagg u24.5 points (-113): Active (not on injury report) -> **pending**
+- straight (lean): Under 239.5 (-108): pending -> **win**
+- best: P. Siakam o23.5 points (-114): Active (not on injury report) / C. Flagg u24.5 points (-113): Active (not on injury report) -> **loss**
 
 ### 2026-10-21: at New Orleans Pelicans (final: IND 123, NO 120)
 

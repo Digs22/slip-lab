@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Massachusetts Minutemen
+### 2026-10-23: vs Massachusetts Minutemen (final: MASS 16, CONN 35)
 
 UMass is likely on its third-string QB, Logan Inagawa, with Watson (ankle) out, while UConn comes off a bye. Most likely to win: UConn Huskies ML (-575).
 
@@ -28,4 +28,4 @@ Legs considered:
 
 Our bets:
 - longshot: UConn Huskies -13.5 (-108): pending -> **loss**
-- straight (lean): UConn Huskies -12.5 (-112): pending -> **pending**
+- straight (lean): UConn Huskies -12.5 (-112): pending -> **win**

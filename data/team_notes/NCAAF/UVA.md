@@ -10,7 +10,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Duke Blue Devils
+### 2026-10-23: vs Duke Blue Devils (final: DUKE 19, UVA 16)
 
 Both offenses have slumped, Duke's defense allows 16 points a game, and the total has dropped from 53.5 to 46.5. Most likely to win: Under 47.5 (-110).
 
@@ -32,7 +32,7 @@ Legs considered:
 
 Our bets:
 - longshot: Under 47.5 (-110): pending -> **loss**
-- straight (lean): Under 46.5 (-105): pending -> **pending**
+- straight (lean): Under 46.5 (-105): pending -> **win**
 
 ### 2026-10-17: at SMU Mustangs (final: UVA 13, SMU 23)
 

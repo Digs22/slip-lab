@@ -7,7 +7,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: at Golden State Warriors
+### 2026-10-23: at Golden State Warriors (final: MEM 111, GS 108)
 
 Ty Jerome qualifies against GS's PG defense, but the Jerome/Curry points SGP gap is within price noise. Total projects 233.4 vs 234.5. Most likely winner: Warriors -2.5.
 
@@ -33,9 +33,9 @@ Legs considered:
 
 Our bets:
 - longshot: T. Jerome o21.5 points (-105): Active -> **loss**
-- straight: T. Jerome o21.5 points (-105): Active -> **pending**
-- best: T. Jerome o21.5 points (-105): Active / S. Curry o24.5 points (-108): Active (ankle sprain 10/18, played opener) -> **pending**
-- straight: T. Jerome o21.5 points (-105): Active -> **pending**
+- straight: T. Jerome o21.5 points (-105): Active -> **win**
+- best: T. Jerome o21.5 points (-105): Active / S. Curry o24.5 points (-108): Active (ankle sprain 10/18, played opener) -> **loss**
+- straight: T. Jerome o21.5 points (-105): Active -> **win**
 
 ### 2026-10-21: vs Utah Jazz (final: UTAH 103, MEM 123)
 

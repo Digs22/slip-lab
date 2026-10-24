@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: at Boston Celtics
+### 2026-10-23: at Boston Celtics (final: NY 103, BOS 107)
 
 Total projects 223.5 vs 222.5, so it's only a slight Over lean; no player passes the usage/DvP gate. Most likely winner: J. Tatum u25.5 points (-103).
 
@@ -37,9 +37,9 @@ Legs considered:
 
 Our bets:
 - longshot: J. Tatum u25.5 points (-103): Active (not on injury report) -> **loss**
-- straight: J. Tatum u25.5 points (-103): Active (not on injury report) -> **pending**
-- best: J. Tatum u25.5 points (-103): Active (not on injury report) / P. George o17.5 points (-112): Active (not on injury report) -> **pending**
-- straight: P. George o17.5 points (-112): Active (not on injury report) -> **pending**
+- straight: J. Tatum u25.5 points (-103): Active (not on injury report) -> **loss**
+- best: J. Tatum u25.5 points (-103): Active (not on injury report) / P. George o17.5 points (-112): Active (not on injury report) -> **loss**
+- straight: P. George o17.5 points (-112): Active (not on injury report) -> **loss**
 
 ### 2026-10-20: vs Philadelphia 76ers (final: PHI 106, NY 100)
 

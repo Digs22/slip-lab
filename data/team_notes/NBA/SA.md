@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: vs Houston Rockets
+### 2026-10-23: vs Houston Rockets (final: HOU 114, SA 110)
 
 Totals model projects 233.0 vs DK 228.5, so the Over is the lead leg; Wembanyama's SGP has no clear edge. Most likely winner: Over 228.5.
 
@@ -39,10 +39,10 @@ Legs considered:
 - V. Wembanyama o4.5 steals+blocks: Six blocks in the opener and Houston attacks the rim with Durant and Sengun.
 
 Our bets:
-- best: V. Wembanyama o11.5 rebounds (+112): Active -> **pending**
+- best: V. Wembanyama o11.5 rebounds (+112): Active -> **loss**
 - longshot: V. Wembanyama o4.5 steals+blocks (-107): Active -> **loss**
-- straight: V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
-- best: V. Wembanyama o11.5 rebounds (+112): Active / V. Wembanyama o4.5 steals+blocks (-107): Active -> **pending**
+- straight: V. Wembanyama o4.5 steals+blocks (-107): Active -> **loss**
+- best: V. Wembanyama o11.5 rebounds (+112): Active / V. Wembanyama o4.5 steals+blocks (-107): Active -> **loss**
 
 ### 2026-10-20: vs Oklahoma City Thunder (final: OKC 116, SA 104)
 

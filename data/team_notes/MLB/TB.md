@@ -15,7 +15,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-23: at Milwaukee Brewers
+### 2026-10-23: at Milwaukee Brewers (final: TB 2, MIL 3)
 
 World Series Game 1: Misiorowski (1.80 ERA, short postseason leash) vs expected Rasmussen, total 6 with both pens rested. Most likely winner: Milwaukee Brewers ML (-161).
 
@@ -42,7 +42,7 @@ Legs considered:
 
 Our bets:
 - longshot: J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **loss**
-- straight (lean): J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **pending**
+- straight (lean): J. Misiorowski u6.5 strikeouts (-130): Confirmed Game 1 starter (NBC Sports/Rotoworld 10/21); 11 days' rest -> **win**
 
 ### 2026-10-19: vs Cleveland Guardians (final: CLE 3, TB 7)
 
