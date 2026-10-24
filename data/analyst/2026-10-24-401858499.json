@@ -5,10 +5,10 @@
  "extra_legs": [
   {
    "market": "spread",
-   "desc": "Michigan State Spartans +15.5",
+   "desc": "Michigan State Spartans +16.5",
    "team": "Michigan State Spartans",
    "side": null,
-   "line": 15.5,
+   "line": 16.5,
    "odds": -112,
    "book": "DraftKings",
    "fair": 0.504,
@@ -23,13 +23,13 @@
   },
   {
    "market": "total",
-   "desc": "Under 44.5",
+   "desc": "Under 42.5",
    "team": "",
    "side": "under",
-   "line": 44.5,
-   "odds": -118,
+   "line": 42.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.517,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "matchup": 0.55,
@@ -40,10 +40,10 @@
   },
   {
    "market": "spread",
-   "desc": "UCLA Bruins -15.5",
+   "desc": "UCLA Bruins -16.5",
    "team": "UCLA Bruins",
    "side": null,
-   "line": -15.5,
+   "line": -16.5,
    "odds": -108,
    "book": "DraftKings",
    "fair": 0.496,

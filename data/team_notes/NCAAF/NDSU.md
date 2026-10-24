@@ -31,7 +31,3 @@ Legs considered:
 - North Dakota State Bison +4.5: With a 40.5 total in rain and wind, 4.5 points is large for a 6-1 Bison team that allows 11.3 ppg.
 - Under 40.5: Two top-10 defenses and 51% rain with 16 mph gusts help, but both offenses average 29 to 40 points.
 - North Dakota State Bison ML: At +160 the Bison need to win outright; they beat Air Force at altitude 38-32 but lost 13-7 at UNLV.
-
-Our bets:
-- best: North Dakota State Bison ML (+160): pending -> **pending**
-- longshot: North Dakota State Bison ML (+160): pending -> **pending**

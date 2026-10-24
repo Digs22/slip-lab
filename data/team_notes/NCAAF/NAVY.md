@@ -25,9 +25,9 @@ North Texas scores 42.2 a game and is a 3-point road favorite at 2-4 Navy, with 
 Sources: ESPN summary/pickcenter, SportsLine (snippet), Stripes, Action Network.
 
 Legs considered:
-- Under 62.5: Navy runs the ball 298 yards a game and eats clock, and SportsLine shows 77% of the money on the Under.
+- Under 60.5: Navy runs the ball 298 yards a game and eats clock, and SportsLine shows 77% of the money on the Under.
 - Navy Midshipmen +3: Navy's option offense limits possessions for North Texas, and the line moved from +1.5 to +3.
 - North Texas Mean Green ML: North Texas is 4-2 with 534 yards a game, but Navy's defense allows only 99 rushing yards.
 
 Our bets:
-- straight (lean): Under 62.5 (-112): pending -> **pending**
+- straight (lean): Under 60.5 (-108): pending -> **pending**

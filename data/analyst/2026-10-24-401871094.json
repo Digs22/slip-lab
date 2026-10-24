@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Over 49.5",
+   "desc": "Over 50.5",
    "team": "",
    "side": "over",
-   "line": 49.5,
-   "odds": -112,
+   "line": 50.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "season": 0.57,
@@ -19,14 +19,14 @@
     "recent_form": 0.55,
     "weather": 0.5
    },
-   "note": "ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 49.5 by five."
+   "note": "ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 50.5 by five."
   },
   {
    "market": "spread",
-   "desc": "Troy Trojans -11.5",
+   "desc": "Troy Trojans -12.5",
    "team": "Troy Trojans",
    "side": null,
-   "line": -11.5,
+   "line": -12.5,
    "odds": -112,
    "book": "DraftKings",
    "fair": 0.504,
@@ -41,10 +41,10 @@
   },
   {
    "market": "spread",
-   "desc": "UL Monroe Warhawks +11.5",
+   "desc": "UL Monroe Warhawks +12.5",
    "team": "UL Monroe Warhawks",
    "side": null,
-   "line": 11.5,
+   "line": 12.5,
    "odds": -108,
    "book": "DraftKings",
    "fair": 0.496,

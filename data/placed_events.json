@@ -131,5 +131,82 @@
   "at": "2026-10-22T22:18:07.145Z",
   "units": 6,
   "unit": 2
+ },
+ "2026-10-24-POTD-NCAAF": {
+  "id": "2026-10-24-POTD-NCAAF",
+  "on": true,
+  "at": "2026-10-24T15:46:24.482Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-LSUAUB-straight": {
+  "id": "2026-10-24-LSUAUB-straight",
+  "on": true,
+  "at": "2026-10-24T16:26:53.087Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-TENNSC-straight": {
+  "id": "2026-10-24-TENNSC-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:03.023Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-TA&MALA-straight": {
+  "id": "2026-10-24-TA&MALA-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:15.308Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-TTUCIN-straight": {
+  "id": "2026-10-24-TTUCIN-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:26.450Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-VTCLEM-straight": {
+  "id": "2026-10-24-VTCLEM-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:28.156Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-BAYKU-straight": {
+  "id": "2026-10-24-BAYKU-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:43.264Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-PITTMIA-straight": {
+  "id": "2026-10-24-PITTMIA-straight",
+  "on": true,
+  "at": "2026-10-24T16:27:46.985Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-TBMIL-straight": {
+  "id": "2026-10-24-TBMIL-straight",
+  "on": true,
+  "at": "2026-10-24T16:28:05.972Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-BKNCLE-straight": {
+  "id": "2026-10-24-BKNCLE-straight",
+  "on": true,
+  "at": "2026-10-24T16:28:10.752Z",
+  "units": 6,
+  "unit": 10
+ },
+ "2026-10-24-HOUATL-straight": {
+  "id": "2026-10-24-HOUATL-straight",
+  "on": true,
+  "at": "2026-10-24T16:28:13.054Z",
+  "units": 6,
+  "unit": 10
  }
 }

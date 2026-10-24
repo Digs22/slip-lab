@@ -23,13 +23,13 @@
   },
   {
    "market": "spread",
-   "desc": "Boston College Eagles +6",
+   "desc": "Boston College Eagles +6.5",
    "team": "Boston College Eagles",
    "side": null,
-   "line": 6,
-   "odds": -108,
+   "line": 6.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "season": 0.52,

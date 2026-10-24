@@ -43,8 +43,10 @@ def _independent(legs):
     tags = [(l["market"], l.get("player") or l.get("team") or l.get("side")) for l in legs]
     # One result per game-line market: two moneylines (team A, team B or the draw) can't both win.
     lines = [(l.get("event_id"), l["market"]) for l in legs if l["market"] in ("ml", "spread", "total", "h1_ml", "h1_spread", "h1_total")]
+    # A team's moneyline and its spread are one bet twice (2026-10-24: Virginia Tech ML + Virginia Tech +2.5).
+    sides = [(l.get("event_id"), l["team"]) for l in legs if l["market"] in ("ml", "spread") and l.get("team")]
     return (len(set(tags)) == len(tags) and len({l["desc"] for l in legs}) == len(legs)
-            and len(set(lines)) == len(lines))
+            and len(set(lines)) == len(lines) and len(set(sides)) == len(sides))
 
 
 def _coin_flip_side(leg):

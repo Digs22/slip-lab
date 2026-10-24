@@ -26,8 +26,11 @@ Sources: ESPN summary/pickcenter (DraftKings lines open/close), ESPN team stats 
 Legs considered:
 - Kansas State Wildcats ML: Kansas State outscores opponents by 15 a game and runs for 240, while Arizona State allowed 48, 55 and 53 to Power-4 foes.
 - Kansas State Wildcats -1.5: Excluding the FCS blowouts, Kansas State still has the better offense and the line sits at only 1.5.
-- Over 52.5: My projection is about 56 and both defenses are leaky, but the 4-point market drop is a warning sign.
+- Over 51.5: My projection is about 56 and both defenses are leaky, but the 4-point market drop is a warning sign.
 - Arizona State Sun Devils +1.5: Arizona State's passing game is productive (13 TD from Boley), but its defense is among the worst in the Big 12.
 
 Our bets:
+- straight: Kansas State Wildcats ML (-112): pending -> **pending**
 - straight: Kansas State Wildcats -1.5 (-105): pending -> **pending**
+- best: Kansas State Wildcats -1.5 (-105): pending -> **pending**
+- longshot: Kansas State Wildcats ML (-112): pending -> **pending**

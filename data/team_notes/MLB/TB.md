@@ -46,7 +46,6 @@ Legs considered:
 
 Our bets:
 - straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
-- straight: D. Rasmussen u1.5 walks allowed (-125): Confirmed Game 2 starter -> **pending**
 - straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
 - longshot: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
 

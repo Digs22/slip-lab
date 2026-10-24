@@ -30,4 +30,4 @@ Legs considered:
 - Bowling Green Falcons +3: BGSU has the better QB stats, but the Falcons are 2-5 and the line moved from 4.5 to 3 toward them already.
 
 Our bets:
-- straight (lean): Buffalo Bulls -3 (-112): pending -> **pending**
+- straight (lean): Buffalo Bulls -3 (-108): pending -> **pending**

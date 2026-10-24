@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Under 47.5",
+   "desc": "Under 49.5",
    "team": null,
    "side": "under",
-   "line": 47.5,
-   "odds": -105,
+   "line": 49.5,
+   "odds": -115,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.511,
    "books": 2,
    "signals": {
     "season": 0.55,
@@ -23,13 +23,13 @@
   },
   {
    "market": "spread",
-   "desc": "Mississippi State Bulldogs +2.5",
+   "desc": "Mississippi State Bulldogs +1.5",
    "team": "Mississippi State Bulldogs",
    "side": null,
-   "line": 2.5,
-   "odds": -115,
+   "line": 1.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "home": 0.55,
@@ -44,9 +44,9 @@
    "team": "Oklahoma Sooners",
    "side": null,
    "line": null,
-   "odds": -135,
+   "odds": -122,
    "book": "DraftKings",
-   "fair": 0.551,
+   "fair": 0.526,
    "books": 2,
    "signals": {
     "season": 0.56,

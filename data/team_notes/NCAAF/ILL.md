@@ -25,7 +25,8 @@ Sources: ESPN summary/pickcenter, Field Level Media, SI/DraftKings preview, Dime
 
 Legs considered:
 - Illinois Fighting Illini +10: Oregon scored 15 and 17 with backup quarterbacks, so 10 points is steep against an Illini offense scoring 31.8.
-- Under 49.5: Oregon's backup-QB offense has managed 14-17 points, but Illinois allows 27.8 so the number is close to fair.
+- Under 48.5: Oregon's backup-QB offense has managed 14-17 points, but Illinois allows 27.8 so the number is close to fair.
 
 Our bets:
 - straight (lean): Illinois Fighting Illini +10 (-112): pending -> **pending**
+- longshot: Illinois Fighting Illini +10 (-112): pending -> **pending**

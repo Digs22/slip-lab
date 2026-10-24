@@ -24,7 +24,8 @@ Sources: ESPN summary/pickcenter, Dimers, ATS.io, Kalshi, SportsLine (snippet).
 Legs considered:
 - Under 48.5: Hawaii scores 15.7 and NIU 14.2 a game, and the total rose 3 points from the 45.5 open.
 - Hawai'i Rainbow Warriors ML: NIU allows 35.7 points and 228 rushing yards a game, but Hawaii's offense also struggles and the line moved 4 points toward NIU.
-- Northern Illinois Huskies +3.5: The line fell from NIU +7.5 to +3.5 with no news found, so the move may already price in Hawaii's edge.
+- Northern Illinois Huskies +3: The line fell from NIU +7.5 to +3 with no news found, so the move may already price in Hawaii's edge.
 
 Our bets:
-- straight (lean): Under 48.5 (-115): pending -> **pending**
+- straight (lean): Under 48.5 (-112): pending -> **pending**
+- longshot: Under 48.5 (-112): pending -> **pending**

@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "spread",
-   "desc": "Eastern Michigan Eagles +10",
+   "desc": "Eastern Michigan Eagles +9.5",
    "team": "Eastern Michigan Eagles",
    "side": null,
-   "line": 10,
-   "odds": -115,
+   "line": 9.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -40,13 +40,13 @@
   },
   {
    "market": "spread",
-   "desc": "Ohio Bobcats -10",
+   "desc": "Ohio Bobcats -9.5",
    "team": "Ohio Bobcats",
    "side": null,
-   "line": -10,
-   "odds": -105,
+   "line": -9.5,
+   "odds": -115,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.511,
    "books": 1,
    "signals": {
     "home": 0.54,
@@ -61,9 +61,9 @@
    "team": "Eastern Michigan Eagles",
    "side": null,
    "line": null,
-   "odds": 300,
+   "odds": 310,
    "book": "DraftKings",
-   "fair": 0.24,
+   "fair": 0.234,
    "books": 1,
    "signals": {
     "season": 0.26,

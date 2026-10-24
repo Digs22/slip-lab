@@ -23,10 +23,10 @@ Ohio is a 10-point home favorite over an EMU team that lost 10-54 and 7-35 again
 Sources: ESPN summary/pickcenter (DraftKings lines open/close), ESPN team stats and schedule, ESPN matchup predictor, AccuWeather via ESPN. Web previews for 10/24 were not found; only DraftKings pricing was available (books=1), so fair values are no-vig from DK's two sides. ESPN lists no injuries and no coach/QB news; lineups unconfirmed. No team notes exist for these teams yet.
 
 Legs considered:
-- Eastern Michigan Eagles +10: Ohio's run-first offense shortens games, and its three recent MAC wins were by 3, 17 and 41 against varied opposition.
+- Eastern Michigan Eagles +9.5: Ohio's run-first offense shortens games, and its three recent MAC wins were by 3, 17 and 41 against varied opposition.
 - Under 48.5: Ohio runs 207 yards a game and EMU rushes at 3.5 ypc, which keeps the clock moving.
-- Ohio Bobcats -10: Ohio is 3-0 in MAC play and scores 30.4 per game, but 10 is a lot against an EMU defense allowing 25.9.
+- Ohio Bobcats -9.5: Ohio is 3-0 in MAC play and scores 30.4 per game, but 10 is a lot against an EMU defense allowing 25.9.
 - Eastern Michigan Eagles ML: A 9-point projected margin makes EMU a live dog near 26% against a 24% fair price.
 
 Our bets:
-- straight (lean): Under 48.5 (-110): pending -> **pending**
+- straight (lean): Eastern Michigan Eagles +9.5 (-105): pending -> **pending**

@@ -9,9 +9,9 @@
    "team": null,
    "side": "under",
    "line": 48.5,
-   "odds": -115,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.504,
    "books": 2,
    "signals": {
     "season": 0.57,
@@ -26,9 +26,9 @@
    "team": "Hawai'i Rainbow Warriors",
    "side": null,
    "line": null,
-   "odds": -185,
+   "odds": -155,
    "book": "DraftKings",
-   "fair": 0.622,
+   "fair": 0.583,
    "books": 2,
    "signals": {
     "season": 0.6,
@@ -39,20 +39,20 @@
   },
   {
    "market": "spread",
-   "desc": "Northern Illinois Huskies +3.5",
+   "desc": "Northern Illinois Huskies +3",
    "team": "Northern Illinois Huskies",
    "side": null,
-   "line": 3.5,
-   "odds": -108,
+   "line": 3.0,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.5,
    "books": 1,
    "signals": {
     "home": 0.54,
     "matchup": 0.5,
     "season": 0.45
    },
-   "note": "The line fell from NIU +7.5 to +3.5 with no news found, so the move may already price in Hawaii's edge."
+   "note": "The line fell from NIU +7.5 to +3 with no news found, so the move may already price in Hawaii's edge."
   }
  ],
  "totals_projection": {

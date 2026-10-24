@@ -24,9 +24,10 @@ Troy is an 11.5-point home favorite after the spread fell from 17.5, and ULM is 
 Sources: ESPN summary/pickcenter (DraftKings lines open/close), ESPN team stats and schedule, ESPN matchup predictor, AccuWeather via ESPN. Web previews for 10/24 were not found; only DraftKings pricing was available (books=1), so fair values are no-vig from DK's two sides. ESPN lists no injuries and no coach/QB news; lineups unconfirmed. No team notes exist for these teams yet.
 
 Legs considered:
-- Over 49.5: ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 49.5 by five.
-- Troy Trojans -11.5: Troy's FBS margin edge over ULM suggests 14-17 points, but the line fell 6 points, which may signal injury news.
-- UL Monroe Warhawks +11.5: The 6-point drop from 17.5 shows money on the Warhawks, and only 12 of Troy's points came against FBS foes in its last three losses.
+- Over 50.5: ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 50.5 by five.
+- Troy Trojans -12.5: Troy's FBS margin edge over ULM suggests 14-17 points, but the line fell 6 points, which may signal injury news.
+- UL Monroe Warhawks +12.5: The 6-point drop from 17.5 shows money on the Warhawks, and only 12 of Troy's points came against FBS foes in its last three losses.
 
 Our bets:
-- straight (lean): Over 49.5 (-112): pending -> **pending**
+- straight (lean): Over 50.5 (-108): pending -> **pending**
+- longshot: Over 50.5 (-108): pending -> **pending**

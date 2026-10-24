@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Under 62.5",
+   "desc": "Under 60.5",
    "team": null,
    "side": "under",
-   "line": 62.5,
-   "odds": -112,
+   "line": 60.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "season": 0.54,
@@ -25,7 +25,7 @@
    "desc": "Navy Midshipmen +3",
    "team": "Navy Midshipmen",
    "side": null,
-   "line": 3,
+   "line": 3.0,
    "odds": -105,
    "book": "DraftKings",
    "fair": 0.489,

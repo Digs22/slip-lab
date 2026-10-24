@@ -24,8 +24,8 @@ Sources: ESPN summary/pickcenter, Dimers, SportsLine (snippet), Legion Report.
 
 Legs considered:
 - Georgia Tech Yellow Jackets ML: Georgia Tech scores 26.7 a game with a 255-yard passing attack at home, though it is only 2-4.
-- Boston College Eagles +6: Boston College is 3-3 and the line moved 1.5 points toward Georgia Tech; Tech allows 179 rushing yards.
+- Boston College Eagles +6.5: Boston College is 3-3 and the line moved 1.5 points toward Georgia Tech; Tech allows 179 rushing yards.
 - Under 50.5: Season averages blend to about 48.7, and the total rose a point from the open.
 
 Our bets:
-- straight (lean): Boston College Eagles +6 (-108): pending -> **pending**
+- straight (lean): Under 50.5 (-110): pending -> **pending**

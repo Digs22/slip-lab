@@ -23,12 +23,12 @@ Oklahoma is a 2.5-point road favorite, and Mississippi State's QB Kamario Taylor
 Sources: ESPN summary/pickcenter, SaturdayDownSouth, Field Level Media, SI, BetMGM, Kalshi, team notes.
 
 Legs considered:
-- Under 47.5: Oklahoma's offense gains 92 rushing yards a game and its defense allows 18; Mississippi State may start a backup QB.
-- Mississippi State Bulldogs +2.5: Home dog getting a field goal, but it depends on Taylor playing; the backup was 16-of-26 for 121 yards and a pick at LSU.
+- Under 49.5: Oklahoma's offense gains 92 rushing yards a game and its defense allows 18; Mississippi State may start a backup QB.
+- Mississippi State Bulldogs +1.5: Home dog getting a field goal, but it depends on Taylor playing; the backup was 16-of-26 for 121 yards and a pick at LSU.
 - Oklahoma Sooners ML: Oklahoma has the better defense, but Mateer threw 3 INT against Kentucky and the offense is thin on the line.
 
 Our bets:
-- straight (lean): Under 47.5 (-105): pending -> **pending**
+- straight (lean): Under 49.5 (-115): pending -> **pending**
 
 ### 2026-10-17: at LSU Tigers (final: MSST 0, LSU 31)
 
