@@ -14244,63 +14244,6 @@
       "net": null,
       "stake": 18.0,
       "to_win": 16.67
-    },
-    {
-      "id": "2026-10-24-MIACHA-straight",
-      "kind": "sgp",
-      "date": "2026-10-24",
-      "league": "NBA",
-      "event_id": "401909853",
-      "game": "MIA @ CHA",
-      "start": "2026-10-24T22:00Z",
-      "play": "straight",
-      "venue": "Spectrum Center",
-      "city": "Charlotte, NC",
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-      "home_conf": null,
-      "away_conf": null,
-      "odds": -115,
-      "units": 6,
-      "prob": 0.5169,
-      "ev": -0.0336,
-      "provisional": true,
-      "score": 0.0162,
-      "rank": 1,
-      "lean": true,
-      "summary": "Charlotte ruled out Knueppel, Coby White and Grant Williams, so the Over lost its support; no strong play.",
-      "weather": null,
-      "legs": [
-        {
-          "desc": "Charlotte Hornets +3.5",
-          "market": "spread",
-          "side": null,
-          "team": "CHA",
-          "player": null,
-          "stat": null,
-          "line": 3.5,
-          "odds": -115,
-          "book": "DraftKings",
-          "fair": 0.511,
-          "prob": 0.5169,
-          "edge": -0.0336,
-          "signals": {
-            "home": 0.54,
-            "matchup": 0.53,
-            "season": 0.53,
-            "injuries": 0.47,
-            "experts": 0.52
-          },
-          "note": "Both teams are on a back-to-back after bad Friday losses; ratings make this near a pick'em and TheSpread notes reverse line movement against 90% of Miami tickets.",
-          "status": null,
-          "alt": null,
-          "main_line": null
-        }
-      ],
-      "status": "pending",
-      "net": null,
-      "stake": 18.0,
-      "to_win": 15.65
     }
   ]
 }

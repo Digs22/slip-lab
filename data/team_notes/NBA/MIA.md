@@ -31,9 +31,6 @@ PROPS: nothing priced for tonight. Stale: Giannis 28.5 pts (-120/-105, bet365 fo
 CHEMISTRY: Miami is 0-2 learning to play with Giannis (defense gave up 259 in two games); Charlotte lost its three best creators to injury or trades and shot poorly Friday.
 WHY OVER: two defenses that allowed 130-plus, a fast MIA pace and a model 3 above the line; DK's 229.5 is below every other book. The side is a coin flip.
 
-Our bets:
-- straight (lean): Charlotte Hornets +3.5 (-115): pending -> **pending**
-
 ### 2026-10-23: vs Detroit Pistons (final: DET 128, MIA 111)
 
 Cade is the only usage-SGP qualifier (MIA soft on guards); the total projects 232.5 vs DK 235.5. Most likely winner: D. Robinson o15.5 pts+reb+ast.
