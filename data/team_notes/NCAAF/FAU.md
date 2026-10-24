@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Rice Owls +9.5 (-110): pending -> **pending**
-- longshot: Rice Owls +9.5 (-110): pending -> **pending**

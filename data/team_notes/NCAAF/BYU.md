@@ -31,7 +31,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): BYU Cougars -7.5 (-102): pending -> **pending**
-- longshot: BYU Cougars -7.5 (-102): pending -> **pending**
 
 ### 2026-10-17: vs Notre Dame Fighting Irish (final: ND 24, BYU 28)
 

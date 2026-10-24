@@ -30,7 +30,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Michigan State Spartans +15.5 (-112): pending -> **pending**
-- longshot: Michigan State Spartans +15.5 (-112): pending -> **pending**
 
 ### 2026-10-17: vs Wisconsin Badgers (final: WIS 7, UCLA 17)
 

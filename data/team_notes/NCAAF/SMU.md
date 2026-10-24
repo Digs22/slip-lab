@@ -28,7 +28,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): California Golden Bears +18.5 (-108): pending -> **pending**
-- longshot: California Golden Bears +18.5 (-108): pending -> **pending**
 
 ### 2026-10-17: vs Virginia Cavaliers (final: UVA 13, SMU 23)
 

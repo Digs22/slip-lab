@@ -31,7 +31,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Wisconsin Badgers +3 (-115): pending -> **pending**
-- longshot: Wisconsin Badgers +3 (-115): pending -> **pending**
 
 ### 2026-10-17: at UCLA Bruins (final: WIS 7, UCLA 17)
 

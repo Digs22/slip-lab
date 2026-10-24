@@ -29,7 +29,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 47.5 (-105): pending -> **pending**
-- longshot: Under 47.5 (-105): pending -> **pending**
 
 ### 2026-10-17: at LSU Tigers (final: MSST 0, LSU 31)
 

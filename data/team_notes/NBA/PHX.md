@@ -36,7 +36,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Over 219.5 (-108): pending -> **pending**
-- longshot: Over 219.5 (-108): pending -> **pending**
 
 ### 2026-10-21: at Portland Trail Blazers (final: PHX 83, POR 124)
 

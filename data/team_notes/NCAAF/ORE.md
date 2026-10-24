@@ -29,7 +29,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Illinois Fighting Illini +10 (-112): pending -> **pending**
-- longshot: Illinois Fighting Illini +10 (-112): pending -> **pending**
 
 ### 2026-10-17: vs Nebraska Cornhuskers (final: NEB 14, ORE 17)
 

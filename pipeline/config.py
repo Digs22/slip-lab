@@ -29,6 +29,7 @@ PLAYS = {  # play -> units (60/25/10/5 of a 10u game; user 2026-10-14: mostly st
     "longshot": 0.5,
 }
 LONGSHOT_MIN = 1000  # American odds
+LONGSHOT_MIN_LEGS, LONGSHOT_MAX_LEGS = 3, 5  # daily Longshot: the best 3-5 edge straights (user, 2026-10-24)
 TRAD_MAX_PER_GAME = 2  # a Traditional slip may take up to 2 legs from one game when they price well
 STRAIGHT_MAX_FAV = -300  # 2026-10-21: a straight, POTD or Traditional single never lays more than -300 (NBA alt lines at -2000 to -6500 were winning the 'most likely' pick and pay nothing); those legs stay in parlays
 MAX_LEG_REUSE = 2  # a leg may appear in at most 2 of a game's 4 plays

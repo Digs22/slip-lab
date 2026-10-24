@@ -37,7 +37,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 229.5 (-108): pending -> **pending**
-- longshot: Under 229.5 (-108): pending -> **pending**
 
 ### 2026-10-23: at Indiana Pacers (final: DAL 121, IND 105)
 

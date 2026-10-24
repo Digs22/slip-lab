@@ -31,7 +31,6 @@ Legs considered:
 
 Our bets:
 - straight: Over 52.5 (-105): pending -> **pending**
-- longshot: Over 52.5 (-105): pending -> **pending**
 
 ### 2026-10-17: at Oklahoma Sooners (final: UK 21, OU 13)
 

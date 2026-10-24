@@ -33,4 +33,3 @@ Our bets:
 - straight: Virginia Tech Hokies +2.5 (-105): pending -> **pending**
 - best: Virginia Tech Hokies ML (+120): pending / Virginia Tech Hokies +2.5 (-105): pending -> **pending**
 - longshot: Virginia Tech Hokies ML (+120): pending -> **pending**
-- longshot: Virginia Tech Hokies +2.5 (-105): pending -> **pending**

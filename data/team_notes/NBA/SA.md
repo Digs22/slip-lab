@@ -41,7 +41,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 229.5 (-108): pending -> **pending**
-- longshot: Under 229.5 (-108): pending -> **pending**
 
 ### 2026-10-23: vs Houston Rockets (final: HOU 114, SA 110)
 

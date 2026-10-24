@@ -33,4 +33,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Pittsburgh Panthers +20.5 (-112): pending -> **pending**
-- longshot: Pittsburgh Panthers +20.5 (-112): pending -> **pending**

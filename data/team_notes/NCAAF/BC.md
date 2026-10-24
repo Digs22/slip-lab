@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Boston College Eagles +6 (-108): pending -> **pending**
-- longshot: Boston College Eagles +6 (-108): pending -> **pending**

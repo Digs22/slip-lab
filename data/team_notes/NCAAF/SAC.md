@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Sacramento State Hornets +14.5 (-112): pending -> **pending**
-- longshot: Sacramento State Hornets +14.5 (-112): pending -> **pending**

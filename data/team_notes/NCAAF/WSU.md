@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Boise State Broncos -14.5 (-105): pending -> **pending**
-- longshot: Boise State Broncos -14.5 (-105): pending -> **pending**

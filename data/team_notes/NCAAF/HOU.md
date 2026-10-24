@@ -33,4 +33,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Utah Utes ML (-258): pending -> **pending**
-- longshot: Utah Utes ML (-258): pending -> **pending**

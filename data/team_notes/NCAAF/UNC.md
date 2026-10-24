@@ -34,4 +34,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Syracuse Orange +8.5 (-108): pending -> **pending**
-- longshot: Syracuse Orange +8.5 (-108): pending -> **pending**

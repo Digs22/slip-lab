@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): San José State Spartans +6.5 (-110): pending -> **pending**
-- longshot: San José State Spartans +6.5 (-110): pending -> **pending**

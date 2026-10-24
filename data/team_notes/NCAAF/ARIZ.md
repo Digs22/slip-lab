@@ -28,4 +28,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Iowa State Cyclones +10.5 (-108): pending -> **pending**
-- longshot: Iowa State Cyclones +10.5 (-108): pending -> **pending**

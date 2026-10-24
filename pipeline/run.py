@@ -204,29 +204,40 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
 
 
 def record_daily_longshot(date: str, bets: list[dict]) -> list[dict]:
-    """The Longshot section (user, 2026-10-20): one parlay of the day's best pick from every game with picks.
-    Each game's straight is its best pick. Builds once at least 2 games have straights, and rebuilds until
-    an hour before the first game."""
+    """The Longshot section. User, 2026-10-24: "make it a reasonable slip comprised of the best picks", not every
+    game (a 13-game parlay had paid 4,589-to-1 and lost). One parlay of the day's best straights: edge picks only
+    (no Leans), one per game, highest win chance first, from games that haven't locked, adding legs until it pays
+    config.LONGSHOT_MIN, between LONGSHOT_MIN_LEGS and LONGSHOT_MAX_LEGS legs. No such slip, no Longshot.
+    An unplaced Longshot rebuilds each run from whatever is still unlocked."""
     bid = f"{date}-LONG-longshot"
     existing = next((b for b in bets if b["id"] == bid), None)
-    if existing and (existing["status"] != "pending" or existing.get("placed") or (existing.get("start") and locked(existing["start"]))):
+    every_game = existing and len(existing["legs"]) > config.LONGSHOT_MAX_LEGS  # the old every-game slip is replaced
+    if existing and (existing["status"] != "pending" or existing.get("placed")
+                     or (not every_game and any(locked(l["start"]) for l in existing["legs"] if l.get("start")))):
         return []
     straights = sorted((b for b in bets if b.get("kind") == "sgp" and b.get("date") == date and b["play"] == "straight"
-                        and b["status"] == "pending" and b.get("start")), key=lambda b: b["start"])
+                        and b["status"] == "pending" and b.get("start") and not locked(b["start"])
+                        and not b.get("lean") and not b["legs"][0].get("lean")),
+                       key=lambda b: -(b["legs"][0].get("prob") or b.get("prob") or 0))
     if existing:
         bets.remove(existing)
-    if len(straights) < 2:
-        return []
-    legs, dec, prob = [], 1.0, 1.0
+    legs, dec, prob, games = [], 1.0, 1.0, set()
     for b in straights:
+        if b.get("event_id") in games:
+            continue
         l = b["legs"][0]
+        games.add(b.get("event_id"))
         legs.append({k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
                                             "prob", "edge", "signals", "note", "status", "alt", "main_line")}
                     | {"event_id": b.get("event_id"), "league": b["league"], "matchup": b["game"], "start": b["start"], "date": date})
         dec *= 1 + (l["odds"] / 100 if l["odds"] > 0 else 100 / -l["odds"])
         prob *= l.get("prob") or b.get("prob") or 0.5
+        if len(legs) >= config.LONGSHOT_MIN_LEGS and (dec - 1) * 100 >= config.LONGSHOT_MIN or len(legs) == config.LONGSHOT_MAX_LEGS:
+            break
+    if len(legs) < config.LONGSHOT_MIN_LEGS or (dec - 1) * 100 < config.LONGSHOT_MIN:
+        return []
     bet = {"id": bid, "kind": "longshot", "date": date, "league": "MULTI",
-           "game": f"Longshot · {len(legs)} games", "start": straights[0]["start"], "play": "longshot",
+           "game": f"Longshot · {len(legs)} best picks", "start": min(l["start"] for l in legs), "play": "longshot",
            "odds": round((dec - 1) * 100), "units": config.PLAYS["longshot"], "prob": round(prob, 4), "ev": round(prob * dec - 1, 4),
            "legs": legs}
     ledger.add(bets, bet)

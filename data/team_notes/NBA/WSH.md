@@ -35,7 +35,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 245.5 (-112): pending -> **pending**
-- longshot: Under 245.5 (-112): pending -> **pending**
 
 ### 2026-10-21: vs Milwaukee Bucks (final: MIL 116, WSH 128)
 

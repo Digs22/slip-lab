@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): TCU Horned Frogs -10.5 (-108): pending -> **pending**
-- longshot: TCU Horned Frogs -10.5 (-108): pending -> **pending**

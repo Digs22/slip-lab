@@ -39,7 +39,6 @@ Legs considered:
 Our bets:
 - straight: T. Maxey o25.5 points (-104): Active -> **pending**
 - best: T. Maxey o25.5 points (-104): Active / T. Herro o2.5 threes (-132): Active -> **pending**
-- longshot: T. Maxey o25.5 points (-104): Active -> **pending**
 
 ### 2026-10-23: vs Chicago Bulls (final: CHI 132, MIL 125)
 

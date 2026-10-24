@@ -33,7 +33,6 @@ Legs considered:
 
 Our bets:
 - straight: New Orleans Pelicans +11.5 (+100): pending -> **pending**
-- longshot: New Orleans Pelicans +11.5 (+100): pending -> **pending**
 
 ### 2026-10-21: vs Indiana Pacers (final: IND 123, NO 120)
 

@@ -30,4 +30,3 @@ Legs considered:
 
 Our bets:
 - straight: Tennessee Volunteers +2.5 (-112): pending -> **pending**
-- longshot: Tennessee Volunteers +2.5 (-112): pending -> **pending**

@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Miami (OH) RedHawks -3.5 (-110): pending -> **pending**
-- longshot: Miami (OH) RedHawks -3.5 (-110): pending -> **pending**

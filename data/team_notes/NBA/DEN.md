@@ -33,7 +33,6 @@ Legs considered:
 
 Our bets:
 - straight: New Orleans Pelicans +11.5 (+100): pending -> **pending**
-- longshot: New Orleans Pelicans +11.5 (+100): pending -> **pending**
 
 ### 2026-10-22: at Oklahoma City Thunder (final: DEN 84, OKC 96)
 

@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Wisconsin Badgers +3 (-115): pending -> **pending**
-- longshot: Wisconsin Badgers +3 (-115): pending -> **pending**

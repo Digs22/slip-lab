@@ -37,7 +37,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Over 219.5 (-108): pending -> **pending**
-- longshot: Over 219.5 (-108): pending -> **pending**
 
 ### 2026-10-23: vs Memphis Grizzlies (final: MEM 111, GS 108)
 

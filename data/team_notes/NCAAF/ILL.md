@@ -29,4 +29,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Illinois Fighting Illini +10 (-112): pending -> **pending**
-- longshot: Illinois Fighting Illini +10 (-112): pending -> **pending**

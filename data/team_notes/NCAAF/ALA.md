@@ -30,7 +30,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **pending**
-- longshot: Alabama Crimson Tide -13.5 (-108): pending -> **pending**
 
 ### 2026-10-17: at Tennessee Volunteers (final: ALA 10, TENN 26)
 

@@ -35,7 +35,6 @@ Legs considered:
 
 Our bets:
 - straight (lean): Under 42.5 (-105): pending -> **pending**
-- longshot: Under 42.5 (-105): pending -> **pending**
 
 ### 2026-10-17: vs Ohio State Buckeyes (final: OSU 19, IU 15)
 

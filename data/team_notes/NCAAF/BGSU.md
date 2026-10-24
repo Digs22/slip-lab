@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Buffalo Bulls -3 (-112): pending -> **pending**
-- longshot: Buffalo Bulls -3 (-112): pending -> **pending**

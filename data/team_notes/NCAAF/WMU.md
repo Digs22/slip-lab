@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight: Western Michigan Broncos +2.5 (-102): pending -> **pending**
-- longshot: Western Michigan Broncos +2.5 (-102): pending -> **pending**

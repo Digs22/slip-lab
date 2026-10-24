@@ -30,4 +30,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Michigan State Spartans +15.5 (-112): pending -> **pending**
-- longshot: Michigan State Spartans +15.5 (-112): pending -> **pending**

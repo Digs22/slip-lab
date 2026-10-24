@@ -33,4 +33,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Auburn Tigers +7 (-105): pending -> **pending**
-- longshot: Auburn Tigers +7 (-105): pending -> **pending**

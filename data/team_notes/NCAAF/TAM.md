@@ -30,4 +30,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **pending**
-- longshot: Alabama Crimson Tide -13.5 (-108): pending -> **pending**

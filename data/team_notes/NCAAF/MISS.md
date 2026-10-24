@@ -31,7 +31,6 @@ Legs considered:
 
 Our bets:
 - straight: Ole Miss Rebels +3 (-108): pending -> **pending**
-- longshot: Ole Miss Rebels +3 (-108): pending -> **pending**
 
 ### 2026-10-17: vs Missouri Tigers (final: MIZ 3, MISS 31)
 

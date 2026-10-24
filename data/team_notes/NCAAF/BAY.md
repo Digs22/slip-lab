@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): Baylor Bears -1.5 (+100): pending -> **pending**
-- longshot: Baylor Bears -1.5 (+100): pending -> **pending**

@@ -31,4 +31,3 @@ Legs considered:
 
 Our bets:
 - straight (lean): BYU Cougars -7.5 (-102): pending -> **pending**
-- longshot: BYU Cougars -7.5 (-102): pending -> **pending**
