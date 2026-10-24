@@ -203,20 +203,25 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
     return added
 
 
+def _started(game_start: str) -> bool:
+    return datetime.now(ZoneInfo(config.TIMEZONE)) >= datetime.fromisoformat(game_start.replace("Z", "+00:00"))
+
+
 def record_daily_longshot(date: str, bets: list[dict]) -> list[dict]:
     """The Longshot section. User, 2026-10-24: "make it a reasonable slip comprised of the best picks", not every
     game (a 13-game parlay had paid 4,589-to-1 and lost). One parlay of the day's best straights: edge picks only
-    (no Leans), one per game, highest win chance first, from games that haven't locked, adding legs until it pays
+    (no Leans), one per game, highest win chance first, from games that haven't started (user, 2026-10-24: "add noon
+    games if they're better value", so a locked but not yet started game still counts), adding legs until it pays
     config.LONGSHOT_MIN, between LONGSHOT_MIN_LEGS and LONGSHOT_MAX_LEGS legs. No such slip, no Longshot.
     An unplaced Longshot rebuilds each run from whatever is still unlocked."""
     bid = f"{date}-LONG-longshot"
     existing = next((b for b in bets if b["id"] == bid), None)
     every_game = existing and len(existing["legs"]) > config.LONGSHOT_MAX_LEGS  # the old every-game slip is replaced
     if existing and (existing["status"] != "pending" or existing.get("placed")
-                     or (not every_game and any(locked(l["start"]) for l in existing["legs"] if l.get("start")))):
+                     or (not every_game and any(_started(l["start"]) for l in existing["legs"] if l.get("start")))):
         return []
     straights = sorted((b for b in bets if b.get("kind") == "sgp" and b.get("date") == date and b["play"] == "straight"
-                        and b["status"] == "pending" and b.get("start") and not locked(b["start"])
+                        and b["status"] == "pending" and b.get("start") and not _started(b["start"])
                         and not b.get("lean") and not b["legs"][0].get("lean")),
                        key=lambda b: -(b["legs"][0].get("prob") or b.get("prob") or 0))
     if existing:
