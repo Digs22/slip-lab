@@ -1,0 +1,86 @@
+{
+ "summary": "Model projects 232.7 against DK 229.5 and CHA +3.5 is a coin flip the model likes; no priced props found, so no SGP. Most likely winner: Over 229.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Over 229.5",
+   "game": "Miami Heat @ Charlotte Hornets",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 229.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 4,
+   "signals": {
+    "totals_model": 0.57,
+    "pace": 0.5,
+    "injuries": 0.52,
+    "recent_form": 0.52,
+    "experts": 0.46
+   },
+   "note": "Projection 232.7 (MIA 115.7 + CHA 117.1) beats DK 229.5; other books sit at 230.5-232.5, so DK is the soft number."
+  },
+  {
+   "desc": "Charlotte Hornets +3.5",
+   "game": "Miami Heat @ Charlotte Hornets",
+   "market": "spread",
+   "team": "CHA",
+   "side": null,
+   "line": 3.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 4,
+   "signals": {
+    "home": 0.54,
+    "matchup": 0.53,
+    "season": 0.53,
+    "injuries": 0.47,
+    "experts": 0.52
+   },
+   "note": "Both teams are on a back-to-back after bad Friday losses; ratings make this near a pick'em and TheSpread notes reverse line movement against 90% of Miami tickets."
+  },
+  {
+   "desc": "Charlotte Hornets ML",
+   "game": "Miami Heat @ Charlotte Hornets",
+   "market": "ml",
+   "team": "CHA",
+   "side": null,
+   "line": null,
+   "odds": 130,
+   "book": "DraftKings",
+   "fair": 0.417,
+   "books": 3,
+   "signals": {
+    "home": 0.54,
+    "matchup": 0.52,
+    "injuries": 0.46,
+    "experts": 0.46
+   },
+   "note": "Plus-money home dog; Knueppel and White could return, while Miami has allowed 131 and 128 in its 0-2 start."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Usage 24%+ (2025-26 BBR): Giannis 37.0%, Adebayo 25.0%, Miller 28.1%, White 28.8% (DTD), Randle n/a. DvP (own calc, rank 1 = most allowed): CHA vs G 22nd, F 24th, C 24th (fails for Giannis/Adebayo); MIA vs G 3rd (White/Schroder/Miller on paper), F 19th, C 23rd.",
+  "note": "No Giannis, Adebayo, Miller or Reid main-line prop with a price was found for tonight (Covers and StatSniper say props not posted; Dimers' only Giannis item is a Kalshi 1.5 assists contract at 51c that looks mislabeled), so no SGP is built."
+ },
+ "totals_projection": {
+  "possessions": 100.1,
+  "MIA": 115.7,
+  "CHA": 117.1,
+  "total": 232.7,
+  "line": 229.5,
+  "math": "pace avg(103.4 MIA, 96.8 CHA)=100.1; MIA avg(116.7 ORtg, 114.4 CHA DRtg)x1.001=115.7; CHA avg(119.4, 114.5 MIA DRtg)x1.001=117.1; sum 232.7"
+ },
+ "research": "SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), TheSpread, Bleacher Nation, Pick Dawgz, iHeart/The Gambler, Capper's Picks, Dimers, Covers, Field Level Media, Sports Gambling Podcast.\nLINES: DK (ESPN) MIA -3.5 (-110) / CHA +3.5 (-110), ML MIA -155 / CHA +130, total 229.5 (o -115 / u -105). TheSpread MIA -3.5 (-105), ML -145/+125, total 230.5 (-110); Bleacher Nation and Pick Dawgz 231.5; Capper's 232.5. Total is lowest at DK.\nTOTALS (NBA.md): pace avg(103.4, 96.8)=100.1; MIA 115.7, CHA 117.1; projected 232.7 vs 229.5 (3.2 over). Caveat: both 2025-26 ratings predate the Giannis and LaMelo trades.\nMARKET MODEL: neutral margin CHA +1.4, about CHA +3.4 with home court, versus the market MIA -3.5. Ratings are stale, so only a partial weight; ESPN predictor MIA 56%, Dimers MIA 63.9%.\nINJURIES (ESPN, TheSpread): CHA Knueppel (hamstring), Coby White (calf) and Grant Williams (hamstring) are day-to-day with return date Oct 24 (sources split on GTD vs out); Boswell out (knee). MIA nothing listed.\nFORM: CHA beat BKN 110-103 (Reid 20/11/7, Schroder 19, Allen 21 off the bench) then lost 81-128 at ATL on Oct 23 (Miller 2-14, 1-11 from three). MIA lost 106-131 to MIN (Giannis 35) and 111-128 to DET (Giannis 36/12/5, Mitchell 18). Both teams are on the second night of a back-to-back.\nUSAGE (BBR 2025-26): Giannis 37.0%, Adebayo 25.0%, Miller 28.1%, White 28.8%, Reid 22.1%. Giannis scored 35 and 36 in 30-33 min, his assists were 1 and 5.\nDvP (own calc): CHA allows G 22nd, F 24th, C 24th (solid); MIA allows G 3rd. Usage qualifiers vs a bottom-10 defense: White/Schroder/Miller on paper only, but none has a priced prop; no SGP.\nCOACHING: Spoelstra plays the fastest pace in the league (103.4 in 2025-26); Charles Lee's Hornets were bottom-5 in pace (96.8). Charlotte starts Schroder, Miller, O'Neale/James, Reid, Diabate while the guards are out.\nHOME FIELD: Spectrum Center, Charlotte 1-1; Miami was 26-15 at home last year, 0-2 now.\nPUBLIC: TheSpread reports reverse line movement, 90% of spread tickets on Miami while the line sits at -3.5.\nEXPERTS: Bleacher Nation MIA -3.5, Under 231.5, MIA ML -154; TheSpread Hornets +3.5 and Under 230.5; iHeart MIA and Under 231.5; Capper's Picks MIA 118-112; Pick Dawgz no confidence either way. Split on side, lean Under on the total from writers while the pace model leans Over.\nPROPS: nothing priced for tonight. Stale: Giannis 28.5 pts (-120/-105, bet365 for the DET game), Miller o24.5 pts -114 (opener). Not used.\nCHEMISTRY: Miami is 0-2 learning to play with Giannis (defense gave up 259 in two games); Charlotte lost its three best creators to injury or trades and shot poorly Friday.\nWHY OVER: two defenses that allowed 130-plus, a fast MIA pace and a model 3 above the line; DK's 229.5 is below every other book. The side is a coin flip.",
+ "prelock": "ESPN injuries: CHA White, Knueppel, G. Williams day-to-day (return Oct 24), Boswell out; MIA none."
+}

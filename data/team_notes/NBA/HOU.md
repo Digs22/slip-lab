@@ -4,8 +4,42 @@
 
 - 2026-10-23: Usage: Durant 27.4% (2025-26). DvP (Legion 2025-26, rank 1 = most): G 30th, F 26th, C 10th. Udoka's team crashes the offensive glass (Sengun 5 OREB in the opener).
 - 2026-10-23: Totals inputs (USU MACFAX 2025-26): ORtg 115.2, DRtg 112.6, pace 100.4. Houston went 7-2 ATS as a road underdog in 2025-26 (SI).
+- 2026-10-24: Udoka rests VanVleet on one game of each early back-to-back (Smart starts); Reed Sheppard (knee) out 10/24. Beat DAL and SA in the first two games.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Atlanta Hawks
+
+Houston is on a back-to-back and expected to rest VanVleet, which helps Atlanta and Sengun's assists; the total projects 228.3 against 229.5. Most likely winner: Sengun o4.5 assists.
+
+SOURCES: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings, HOU/ATL team notes, Dimers, Covers/OddsShark, RAW CHILI, Pickswise, StatSniper, CBS Sports/Rotoballer/Yahoo on VanVleet, Polymarket (via Dimers).
+Lines: DK ATL -1.5 (-110/-110; opened -1.5 -105/-115), total 229.5 (o-105/u-115; opened 230.5), ML ATL -120 / HOU +100 (opened -115/-105). RAW CHILI has the total at 230.5 (u-115) and ATL -120 / HOU +102. Polymarket ATL 53c / HOU 48c; Dimers' best bet is Hawks ML at 50c. StatSniper HOU -125 / ATL +127 (looks stale).
+Predictors: ESPN ATL 55.5%; Dimers ATL 58.2% (114-116); Covers/OddsShark model HOU 64% but it removes VanVleet and Sheppard; Sports Gambling Podcast takes ATL +1.5 -115 (stale line).
+Schedule: both are on the second night of a back-to-back, but ATL won 128-81 at CHA with starters at 22-29 minutes, while HOU beat SA 114-110 with Durant 37, Sengun 36, Amen 36 and Smith 34.
+Injuries (ESPN): HOU Sheppard (knee) out; ATL Gueye (foot) and Veesaar (ACL) out. VanVleet is not listed, but Udoka said he will skip one game of each early back-to-back (CBS/Rotoballer, Yahoo); he played 32 min last night, so Smart is expected to start tonight. Steven Adams also rests on back-to-backs.
+Form: ATL 2-0 (132-125 at ORL: NAW 31, JJ 20/14/6, Daniels 20; 128-81 at CHA: JJ 19/7/8, Wiggins 19). HOU 2-0 (128-110 over DAL; 114-110 at SA).
+Usage 2025-26: Durant 27.4%, Jalen Johnson 27.0%, McCollum 26.9% (ATL), Sengun ~25% (unconfirmed). DvP (own ESPN-box calc / Legion Report; rank 1 = most allowed): ATL G 16th, F 12th, C 14th; HOU G 30th, F 26th, C 10th. No 24%+ player faces a bottom-10 spot, so no usage SGP qualifies.
+Totals (NBA.md formula, BBR 2025-26): pace avg(96.1 HOU, 101.7 ATL)=98.9. HOU = avg(118.6, 113.7) x 0.989 = 114.9. ATL = avg(116.1, 113.2) x 0.989 = 113.4. Total 228.3 vs 229.5 (-1.2), under the 4-point trigger; a small Under lean given Houston's slow pace.
+Score model: HOU +1.5 neutral; ATL home court +2 and Houston's back-to-back/VanVleet rest swing it to ATL about 2 vs -1.5.
+Props priced today: Sengun o4.5 ast -141 (RAW CHILI; over in 5 straight road games), Amen Thompson o13.5 reb+ast -110 (Pickswise, with a double-double at +180), Durant o5.5 reb +105 (RAW CHILI; not used). No points lines for Durant, Johnson or McCollum were found; Sports Betting Dime had N. Alexander-Walker o18.5 and J. Smith o13.5 for Friday only.
+Coaching: Udoka's Rockets crash the offensive glass and defend with size; Quin Snyder's ATL plays fast (101.7 pace), and ATL is a different team after the Trae Young and Kuminga exits, with Jalen Johnson as the hub.
+Risk: Houston scored 114 on a tired night and Durant/Sengun can still carry them; Covers' model likes HOU; Amen's combo line is barely below his two games.
+Chemistry: HOU kept its core (Durant, Sengun, Amen, Smith) and added Smart/Bogdanovic depth; ATL's roster is new around McCollum, Daniels and NAW.
+Home field: Atlanta hosts at State Farm Arena (24-17 at home in 2025-26); Houston went 22-19 on the road last year and 7-2 ATS as a road underdog.
+Market read: the total fell a point from 230.5 to 229.5 and ATL went from pick-style to -1.5 with the ML -115 to -120, which matches the rest-and-VanVleet story.
+Hit-rate caution: Sengun's and Amen's 2025-26 game logs were not pulled, so their hit rates are estimates from two 2026-27 games plus the RAW CHILI streak note.
+
+Legs considered:
+- A. Sengun o4.5 assists: Main line; VanVleet is expected to rest on the back-to-back, so Sengun runs more of the offense (5 and 7 assists so far).
+- A. Thompson o13.5 rebounds+assists: Main combo line; cleared only by one on 14 both nights, and he played 36 minutes last night.
+- Under 229.5: Projection 228.3; Houston's 96.1 pace, a tired road team and the missing point guard push toward a low score.
+- Atlanta Hawks ML: Hawks are home and lightly used in a 47-point win last night; Houston's VanVleet and Sheppard are likely out.
+
+Our bets:
+- straight: A. Sengun o4.5 assists (-141): Active -> **pending**
+- best: A. Sengun o4.5 assists (-141): Active / A. Thompson o13.5 rebounds+assists (-110): Active -> **pending**
+- straight: A. Sengun o4.5 assists (-141): Active -> **pending**
+- longshot: A. Sengun o4.5 assists (-141): Active -> **pending**
 
 ### 2026-10-23: at San Antonio Spurs (final: HOU 114, SA 110)
 

@@ -7,8 +7,34 @@
 - 2026-10-21: Adebayo missed two late preseason games with right groin tightness; Goldin (ankle) was day-to-day for the opener.
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 3rd (soft on guards), F 19th, C 23rd.
 - 2026-10-23: Opener: Giannis 35/6 in 30 min, D. Mitchell runs point (11 ast); Miami allowed 131 to MIN. Pre-trade 2025-26 ratings are a weak guide.
+- 2026-10-24: 0-2 start (L 106-131 MIN, L 111-128 DET), allowing 131 and 128; Giannis 35 and 36 pts but only 1 and 5 assists. DK -3.5 at CHA on a back-to-back, total 229.5 vs model 232.7.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Charlotte Hornets
+
+Model projects 232.7 against DK 229.5 and CHA +3.5 is a coin flip the model likes; no priced props found, so no SGP. Most likely winner: Over 229.5.
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), TheSpread, Bleacher Nation, Pick Dawgz, iHeart/The Gambler, Capper's Picks, Dimers, Covers, Field Level Media, Sports Gambling Podcast.
+LINES: DK (ESPN) MIA -3.5 (-110) / CHA +3.5 (-110), ML MIA -155 / CHA +130, total 229.5 (o -115 / u -105). TheSpread MIA -3.5 (-105), ML -145/+125, total 230.5 (-110); Bleacher Nation and Pick Dawgz 231.5; Capper's 232.5. Total is lowest at DK.
+TOTALS (NBA.md): pace avg(103.4, 96.8)=100.1; MIA 115.7, CHA 117.1; projected 232.7 vs 229.5 (3.2 over). Caveat: both 2025-26 ratings predate the Giannis and LaMelo trades.
+MARKET MODEL: neutral margin CHA +1.4, about CHA +3.4 with home court, versus the market MIA -3.5. Ratings are stale, so only a partial weight; ESPN predictor MIA 56%, Dimers MIA 63.9%.
+INJURIES (ESPN, TheSpread): CHA Knueppel (hamstring), Coby White (calf) and Grant Williams (hamstring) are day-to-day with return date Oct 24 (sources split on GTD vs out); Boswell out (knee). MIA nothing listed.
+FORM: CHA beat BKN 110-103 (Reid 20/11/7, Schroder 19, Allen 21 off the bench) then lost 81-128 at ATL on Oct 23 (Miller 2-14, 1-11 from three). MIA lost 106-131 to MIN (Giannis 35) and 111-128 to DET (Giannis 36/12/5, Mitchell 18). Both teams are on the second night of a back-to-back.
+USAGE (BBR 2025-26): Giannis 37.0%, Adebayo 25.0%, Miller 28.1%, White 28.8%, Reid 22.1%. Giannis scored 35 and 36 in 30-33 min, his assists were 1 and 5.
+DvP (own calc): CHA allows G 22nd, F 24th, C 24th (solid); MIA allows G 3rd. Usage qualifiers vs a bottom-10 defense: White/Schroder/Miller on paper only, but none has a priced prop; no SGP.
+COACHING: Spoelstra plays the fastest pace in the league (103.4 in 2025-26); Charles Lee's Hornets were bottom-5 in pace (96.8). Charlotte starts Schroder, Miller, O'Neale/James, Reid, Diabate while the guards are out.
+HOME FIELD: Spectrum Center, Charlotte 1-1; Miami was 26-15 at home last year, 0-2 now.
+PUBLIC: TheSpread reports reverse line movement, 90% of spread tickets on Miami while the line sits at -3.5.
+EXPERTS: Bleacher Nation MIA -3.5, Under 231.5, MIA ML -154; TheSpread Hornets +3.5 and Under 230.5; iHeart MIA and Under 231.5; Capper's Picks MIA 118-112; Pick Dawgz no confidence either way. Split on side, lean Under on the total from writers while the pace model leans Over.
+PROPS: nothing priced for tonight. Stale: Giannis 28.5 pts (-120/-105, bet365 for the DET game), Miller o24.5 pts -114 (opener). Not used.
+CHEMISTRY: Miami is 0-2 learning to play with Giannis (defense gave up 259 in two games); Charlotte lost its three best creators to injury or trades and shot poorly Friday.
+WHY OVER: two defenses that allowed 130-plus, a fast MIA pace and a model 3 above the line; DK's 229.5 is below every other book. The side is a coin flip.
+
+Legs considered:
+- Over 229.5: Projection 232.7 (MIA 115.7 + CHA 117.1) beats DK 229.5; other books sit at 230.5-232.5, so DK is the soft number.
+- Charlotte Hornets +3.5: Both teams are on a back-to-back after bad Friday losses; ratings make this near a pick'em and TheSpread notes reverse line movement against 90% of Miami tickets.
+- Charlotte Hornets ML: Plus-money home dog; Knueppel and White could return, while Miami has allowed 131 and 128 in its 0-2 start.
 
 ### 2026-10-23: vs Detroit Pistons (final: DET 128, MIA 111)
 

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:07-04:00",
+ "generated": "2026-10-24T08:16-04:00",
  "games": [
   {
    "id": "401879256",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "venue": "Villa Park",
    "city": "Birmingham",
-   "detail": "35'",
+   "detail": "44'",
    "away_score": 0.0,
    "home_score": 1.0,
    "home_conf": null,
@@ -48,7 +48,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
    "venue": "Estadio de Vallecas",
    "city": "Madrid",
-   "detail": "4'",
+   "detail": "13'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -174,10 +174,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "KOE +105",
+    "spread": "KOE +100",
     "total": 2.5,
-    "home_ml": 105,
-    "away_ml": 220,
+    "home_ml": 100,
+    "away_ml": 235,
     "book": "DraftKings"
    }
   },
@@ -1790,10 +1790,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "PIT -142",
+    "spread": "PIT -135",
     "total": 6.5,
-    "home_ml": -142,
-    "away_ml": 120,
+    "home_ml": -135,
+    "away_ml": 114,
     "book": "DraftKings"
    }
   },
@@ -2030,8 +2030,8 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CLE -10.5",
-    "total": 229.5,
+    "spread": "CLE -11.5",
+    "total": 230.5,
     "home_ml": -500,
     "away_ml": 380,
     "book": "DraftKings"
@@ -2300,7 +2300,7 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "ARIZ -10.5",
+    "spread": "ARIZ -11.5",
     "total": 51.5,
     "home_ml": -345,
     "away_ml": 275,
@@ -2511,7 +2511,7 @@
    "away_conf": null,
    "odds": {
     "spread": "ATL -1.5",
-    "total": 229.5,
+    "total": 228.5,
     "home_ml": -120,
     "away_ml": 100,
     "book": "DraftKings"

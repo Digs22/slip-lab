@@ -5,8 +5,43 @@
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 - 2026-10-22: Misiorowski 2026: 1.80 ERA, 0.80 WHIP, 37.9% K, but postseason starts lasted 12-13 outs at 22 pitches/IP; late-season pitch counts were capped.
 - 2026-10-22: Bullpen (Megill closer, Uribe, Ashby) has a 2.03 team postseason ERA; MIL went 55-26 at home and scored a majors-best 832 runs (.759 OPS vs RHP).
+- 2026-10-24: Logan Henderson (rookie RHP, 2.47 ERA, 0.84 WHIP, 10.1 K/9, 1.28 HR/9) lasts about 4-5 IP in the postseason and had 3, 4 and 2 K in his last three starts; MIL is 16-4 in his starts.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: vs Tampa Bay Rays
+
+Rasmussen (3 postseason starts, 1.29 ERA, 23 K) faces rookie Henderson on a short leash, with the total at 6.5. Most likely to win: Rasmussen 6+ strikeouts (-132).
+
+1. Schedule: World Series Game 2, Sat 10/24 8:00 PM ET on FOX, American Family Field; MIL leads 1-0 after a 3-2 win in Game 1. MIL was 103-59 (55-26 home), TB 98-64 (43-38 road). (ESPN)
+2. Probables (StatsAPI/ESPN): Drew Rasmussen (TB, RHP, 16-5, 2.67 ERA, 0.91 WHIP, 174 K, 11-0 with a 1.73 ERA since the All-Star break) vs Logan Henderson (MIL, RHP, rookie, 11-3, 2.47 ERA, 0.84 WHIP, 110 K in 98.1 IP, 1.28 HR/9). Rasmussen was held back from Game 1 (Nick Martinez started) so he is on normal rest.
+3. Rasmussen postseason: 3 starts, 2-0, 1.29 ERA, 23 K in 21 IP (10 K in 8 IP vs NYY, 7 K in 6 IP and 6 K in 7 IP vs CLE). Last 10 starts K: 5,5,6,7,4,3,11,10,7,6. Walks last 10: 2,0,2,0,0,2,3,2,0,1. Hits allowed last 10: 7,3,4,3,8,4,1,1,8,4. He was drafted by Milwaukee.
+4. Henderson recent starts (StatsAPI): 9/9 CHC 5.0 IP 6 K; 9/16 PIT 5.0 IP 8 K; 9/23 PHI 5.0 IP 3 K 3 BB; 10/4 SD 5.0 IP 4 K 3 BB 72 pitches; 10/12 LAD 4.0 IP 2 K 2 BB 64 pitches. Postseason leash is 4 to 5 innings. MIL has won 16 of his 20 starts.
+5. Lines: ESPN/DraftKings MIL -127 / TB +106, total 6.5 (o-112/u-107). Fox Sports MIL -125 / TB +103; The Lines MIL -122 / TB +104, total 6.5 (o-114/u-106); FanDuel MIL -122. Rotowire's pick is TB ML +106 (bet365, DraftKings) and Under 6.5 -106 (Caesars, FanDuel). Series price MIL -160 / TB +140; Kalshi MIL about 57% for Game 2; ESPN predictor MIL 65.7%.
+6. Props found: Rasmussen 6+ strikeouts -132 (DraftKings, per The Lines). Henderson under 4.5 strikeouts about -123 (Bettors Insider, book not named; Dimers shows +124 at FanDuel for the other side). Rasmussen under 1.5 walks -125 and under 4.5 hits -109, Henderson over 0.5 walks -170 and over 1.5 earned runs +106 (all Dimers model picks). Batter props: Contreras 2+ total bases +172 (DK), Yelich 1+ RBI +285 (DK), Aranda HR +630, Hicks HR +980, Mesa HR +570; Lineups.com best bet is a first-inning run (YRFI) +125.
+7. Game 1 recap: MIL 3, TB 2. Misiorowski 5 IP, 3 K; Uribe 1.1 IP (15 pitches), Ashby 1.2 IP (20), Megill 1.0 IP (20, fifth postseason save). TB: Martinez 5 IP 2 R, Matz 1.2 IP 31 pitches, Kelly 12, Cleavinger 10, Sulser 4. TB's 5-9 hitters were 1-for-17 with six strikeouts. Both bullpens' key arms threw 20 or fewer pitches, so both are available.
+8. Lineups: not posted at time of research. MLB.com projects TB with Diaz, Aranda, Simpson at the top (question whether Caminero or an extra lefty bats between) and MIL with Chourio and Bauers at the top; G1 MIL order was Chourio, Bauers, Yelich, Contreras, Turang. Contreras is hitting .394 in the postseason.
+9. Matchups: MIL lineup .759 OPS vs RHP with a 22.3% K rate (high for a good offense, supports Rasmussen's K prop); TB .752 OPS vs RHP, 19.1% K rate (a drag on Henderson's K count). Caminero (42 HR) has homered in 2 of his last 20 games.
+10. Injuries (ESPN): MIL Anderson (biceps), Fitzpatrick, Priester, Zerpa out; TB McClanahan (forearm), Lux, Heasley, Uceta, Melton, Pepiot out. None affect the starters or the key relievers.
+11. Park/roof: American Family Field has a retractable roof; ESPN/AccuWeather shows 61F, gusts 12 mph, 0% rain, so the roof is likely closed (not confirmed). Roof closed mutes weather; the park plays roughly neutral.
+12. Trends: MIL is 8-1 in the postseason, 5-0 at home, and 9-1 over its last 10 (2.22 ERA); TB is 7-3 over its last 10 (2.66 ERA). MIL is 3-1 in the 2026 season series. TB is 27-15 in one-run games.
+13. Experts: Rotowire TB ML (+106) and Under 6.5; Bettors Insider single-game pick TB ML (Rasmussen) and an SGP of MIL ML, Yelich RBI and Henderson u4.5 K; Lineups.com Brewers 4, Rays 2 with YRFI +125; Dimers props lean Rasmussen unders on walks and hits.
+14. Projection: total 6.3 vs 6.5 (Under 6.5 at -106 is a modest edge); moneyline is near fair, TB +106 and MIL -122 both land close to 50 percent, so I only list MIL (the home favorite with the better pen).
+15. Limits: the web-search budget ran out; I could not confirm which book posts the Henderson and walks prices, so those legs list the source site. No official lineups or roof status yet.
+Sources: ESPN summary/pickcenter/boxscore, MLB StatsAPI (probables, game logs), The Lines, Rotowire, Bettors Insider, Dimers, Lineups.com, MLB.com, SI, Fox Sports, Kalshi (via news.kalshi.com), team notes (TB, MIL).
+
+Legs considered:
+- D. Rasmussen o5.5 strikeouts (6+): Rasmussen had 10, 7 and 6 strikeouts in his three postseason starts and works 6 to 8 innings.
+- D. Rasmussen u1.5 walks allowed: Rasmussen walks 4.8% of batters (32 BB in 172 IP) and allowed 0 or 1 in five of his last ten starts.
+- Under 6.5: Rasmussen (2.67 ERA) and Henderson (2.47) go against two strong bullpens, and my projection is 6.3 runs.
+- L. Henderson u4.5 strikeouts: Henderson had 3, 4 and 2 strikeouts in his last three starts and was pulled after 4 and 5 innings in the playoffs.
+- Milwaukee Brewers ML: Milwaukee is 55-26 at home with an elite bullpen, but Rasmussen (11-0 since the break) is the better starter on the day.
+
+Our bets:
+- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
+- straight: D. Rasmussen u1.5 walks allowed (-125): Confirmed Game 2 starter -> **pending**
+- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
+- longshot: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
 
 ### 2026-10-23: vs Tampa Bay Rays (final: TB 2, MIL 3)
 

@@ -27,3 +27,7 @@ Legs considered:
 - Texas A&M Aggies +13.5: The line fell from the -16.5 opener and Alabama is coming off losses to Georgia and Tennessee, but A&M has lost 27-6 and 35-6.
 - Under 50.5: Texas A&M scored 6 points in two of its last four, and the total fell from the 52 opener.
 - Alabama Crimson Tide -13.5: Alabama scores 39.3 and A&M's offense has 6 turnovers from Reed, but Alabama has dropped two straight.
+
+Our bets:
+- straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **pending**
+- longshot: Alabama Crimson Tide -13.5 (-108): pending -> **pending**

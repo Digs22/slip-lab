@@ -29,6 +29,10 @@ Legs considered:
 - UCF Knights +7.5: UCF is 3-0 at home with a homecoming crowd, and gusty weather shortens the game and helps a dog.
 - Under 43.5: ESPN lists 27 mph gusts and 34% rain, and BYU's defense allows 274 yards, though raw scoring averages sit above the total.
 
+Our bets:
+- straight (lean): BYU Cougars -7.5 (-102): pending -> **pending**
+- longshot: BYU Cougars -7.5 (-102): pending -> **pending**
+
 ### 2026-10-17: vs Notre Dame Fighting Irish (final: ND 24, BYU 28)
 
 No. 2 Notre Dame has won 16 straight by double digits and visits No. 8 BYU, which is without its top running back. Notre Dame has the nation's top-ranked defense.

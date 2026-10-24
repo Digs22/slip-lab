@@ -1,0 +1,68 @@
+{
+ "summary": "Arizona is 5-1 and scores 35.7 ppg but is missing several receivers, and Iowa State is off a bye with a 181.5 ypg ground game. Most likely to win: Iowa State Cyclones +10.5 (-108).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "Iowa State Cyclones +10.5",
+   "team": "Iowa State Cyclones",
+   "side": null,
+   "line": 10.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "season": 0.55,
+    "matchup": 0.56,
+    "situational": 0.56,
+    "injuries": 0.52,
+    "home": 0.46
+   },
+   "note": "Iowa State is off a bye and runs for 181.5 yards a game, which keeps a double-digit margin harder to build."
+  },
+  {
+   "market": "spread",
+   "desc": "Arizona Wildcats -10.5",
+   "team": "Arizona Wildcats",
+   "side": null,
+   "line": -10.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.52,
+    "home": 0.56,
+    "injuries": 0.47
+   },
+   "note": "Arizona is 5-1 with a 19.0 ppg defense, but WRs Richardson and Hunter and TE Rusk are out."
+  },
+  {
+   "market": "total",
+   "desc": "Over 51.5",
+   "team": "",
+   "side": "over",
+   "line": 51.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.483,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.53,
+    "weather": 0.5
+   },
+   "note": "Arizona's 307 passing yards a game and Iowa State's 45-42 win at West Virginia support a total near 53."
+  }
+ ],
+ "totals_projection": {
+  "projection": 53.1,
+  "line": 51.5,
+  "method": "Averaged each offense's points per game with the opponent's points allowed (ARIZ 28.7, ISU 24.4), then trimmed for Iowa State's run-heavy approach",
+  "lean": "none, within 2 points"
+ },
+ "research": "1. Home field: Casino Del Sol Stadium, Tucson, 7:30 PM ET (6:30 CT); Arizona (5-1, ranked No. 25, third year under Brent Brennan) hosts Iowa State (4-2) (Yahoo, Tucson.com).\n2. Bye: both teams are off a bye (Arizona last played 10/10, a 52-31 win over West Virginia; Iowa State last played 10/10, a 10-24 loss to BYU) per ESPN schedules.\n3. QBs: Arizona Noah Fifita is 140/191, 1,756 yds, 16 TD, 4 INT. Iowa State Jaylen Raynor is 85/148, 1,001 yds, 7 TD, 4 INT; coverage notes Matt Campbell has left Iowa State (new staff).\n4. Injuries (Tucson.com, Yahoo availability reports): Arizona WRs Giovanni Richardson and Chris Hunter III, TE Cole Rusk, S Dajon Hinton, CB Swayde Griffin, OL Keona Peat and DL Ezra Funa out, WR Tre Spivey out for the season. Iowa State's leading receiver Dominic Overby (212 yds) is out for the season with a knee injury; DE Trey Verdon and DT Donovan Fitzmaurice are questionable and edge Caden Crawford may return.\n5. Stats (ESPN): Arizona scores 35.7 ppg (456.5 yds, 306.7 pass) and allows 19.0 ppg (330.5 yds, 116.3 rush, 214.2 pass). Iowa State scores 29.7 ppg (359.7 yds, 181.5 rush, 178.2 pass) and allows 21.7 ppg (352.3 yds, 153.8 rush, 198.5 pass).\n6. Skill: Iowa State RB Aiden Flora 90 car, 680 yds, 6 TD; Arizona RB Kedrick Reescano 262 yds, WR Isaiah Mizell 359 yds, 4 TD.\n7. Form: Iowa State beat SE Missouri State 38-10, lost 13-16 to Iowa, beat Bowling Green 55-7, lost 17-31 to Utah, beat WVU 45-42 and lost 10-24 to BYU. Arizona beat NAU 35-7, lost 17-28 to BYU, beat NIU 42-17, WSU 34-24, Cincinnati 34-7 and WVU 52-31.\n8. Weather: 74F, 14 mph gusts, 0% rain; a small passing factor.\n9. Market: DraftKings has ARIZ -10.5 (-112), ISU +10.5 (-108), ML ARIZ -345 / ISU +275, total 51.5 (o-102/u-118); the line opened ARIZ -10 and the total 50.5 (ESPN), so both rose slightly. The ML is shorter than the -300 limit so it is left out. I found no public splits or named expert picks for this game; the searches returned only old basketball and 2025 football previews.\nSources: ESPN summary/pickcenter/schedule/leaders, Tucson.com, Yahoo Sports (Iowa State availability reports and previews), SI Arizona."
+}

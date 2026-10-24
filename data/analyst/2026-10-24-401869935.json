@@ -1,0 +1,68 @@
+{
+ "summary": "Georgia State's run-heavy offense (206 rush ypg) faces an Arkansas State defense allowing 195 rushing yards a game. Most likely to win: Georgia State Panthers ML (-135).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Georgia State Panthers ML",
+   "team": "Georgia State Panthers",
+   "side": null,
+   "line": null,
+   "odds": -135,
+   "book": "DraftKings",
+   "fair": 0.551,
+   "books": 1,
+   "signals": {
+    "season": 0.58,
+    "matchup": 0.6,
+    "experts": 0.6,
+    "recent_form": 0.5,
+    "home": 0.45
+   },
+   "note": "Georgia State rushes for 206 yards a game against an Arkansas State defense allowing 195, and a simulation gives the Panthers about 60%."
+  },
+  {
+   "market": "spread",
+   "desc": "Georgia State Panthers -2.5",
+   "team": "Georgia State Panthers",
+   "side": null,
+   "line": -2.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "season": 0.55,
+    "matchup": 0.57,
+    "experts": 0.55,
+    "home": 0.46
+   },
+   "note": "Most projections have Georgia State winning by 4, a thin cushion over the 2.5 spread."
+  },
+  {
+   "market": "total",
+   "desc": "Under 58.5",
+   "team": "",
+   "side": "under",
+   "line": 58.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.53,
+    "matchup": 0.5,
+    "experts": 0.5
+   },
+   "note": "Points-per-game math projects about 57, and Georgia State's run game drains clock, but both defenses leak in the air."
+  }
+ ],
+ "totals_projection": {
+  "projection": 57.2,
+  "line": 58.5,
+  "method": "Averaged each offense's points per game with the opponent's points allowed (GAST 31.5, ARST 25.7)",
+  "lean": "slight under"
+ },
+ "research": "1. Home field: Centennial Bank Stadium (turf), 7 PM ET on ESPN+; Arkansas State (3-4, 1-2 Sun Belt) is the home underdog (ESPN).\n2. QBs: Arkansas State Trey Owens is 138/201, 1,631 yds, 9 TD, 6 INT. Georgia State Cameran Brown is 102/156, 1,291 yds, 13 TD, 5 INT. No QB injuries found.\n3. Stats (ESPN): GAST scores 36.5 ppg (452.7 yds, 206.0 rush) and allows 24.0 ppg (336.7 yds, 147.5 rush). ARST scores 27.4 ppg (366.0 yds) and allows 26.6 ppg (379.9 yds, 194.7 rush, 185.1 pass).\n4. Skill: GAST RB Lanear McCrary Jr. 385 yds, 4 TD; WR Rodshaun Dorsey 333 yds, 7 TD; edge Xavier Esqillion has 7 sacks. ARST WR Hunter Summers 422 yds, 3 TD; RB Solomon Baggett 287 yds.\n5. Form: GAST beat NC A&T 59-10, Kennesaw 31-17, NIU 35-14, ODU 42-10, lost 30-44 at UCF and 22-49 at JMU on 10/17. ARST lost 24-42 at Memphis and 7-31 to TCU, beat Kennesaw 17-14, lost 20-23 to ULL, lost 49-56 at South Alabama, then beat Southern Miss 23-13.\n6. Injuries (a Pick Dawgz-style listing found by search, may be stale): ARST RB Devin Spencer out (knee), OL Baker North out, DE Sultan Badmus and LB Nigel Nelson questionable; GAST TE Matt Buron, WR Jamari Miller and LB Ryan Green questionable.\n7. Weather: 77F, 6 mph gusts, 0% rain; no effect.\n8. Experts/models: one simulator has GAST 31-27 (60% win probability); an AI pick site favors GAST by 4; a separate analysis calls ARST below average on both sides of the ball (search results from versussportssimulator, capperspicks, docsports).\n9. Market: DraftKings GAST -2.5 (-115), ARST +2.5 (-105), ML GAST -135 / ARST +114, total 58.5 (o-108/u-112). The line opened GAST -1.5 and the total 55.5 (ESPN), so both moved toward GAST and the Over. A second page showed GAST -127 / ARST +104; I did not find a named book for it.\n10. Total check: 36.5 and 24.0 vs 27.4 and 26.6 gives 31.5 plus 25.7, about 57, below the posted 58.5 after a 3-point rise from the open.\nSources: ESPN summary/pickcenter/schedule/leaders, versussportssimulator, capperspicks, docsports, Pick Dawgz."
+}

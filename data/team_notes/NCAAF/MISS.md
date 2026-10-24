@@ -4,7 +4,34 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-24: Offense is elite (37.5 ppg, 291 pass ypg, Chambliss) but the defense allows 153 rush yds and 23.8 ppg; S Edwin Joseph is out for multiple games.
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Texas Longhorns
+
+Texas is without sack leader Colin Simmons and likely RB Hollywood Smothers, and has lost two straight; Ole Miss scores 37.5 ppg. Most likely to win: Ole Miss Rebels +3 (-108).
+
+1. Home field: Darrell K Royal Stadium, 7:30 PM ET, Texas at 4-2 (1-2 SEC) after losing 24-27 to OU on 10/10 and 24-27 to Florida at home on 10/17 as a double-digit favorite (ESPN schedule, my Texas notes).
+2. QBs: Arch Manning is 106/166, 1,295 yds, 11 TD, 5 INT; Sarkisian said before the game that he needs a better version of Manning, and a Field Level Media preview asks about his status after back-to-back losses; no injury designation found (Rotoballer, FLM). Ole Miss's Trinidad Chambliss is 142/210, 1,676 yds, 14 TD, 4 INT.
+3. Injuries (SEC availability report via HottyToddy 10/23, On3, CBS, Yahoo, Statesman): Texas EDGE Colin Simmons (nation-high 10.5 sacks, high ankle sprain) is OUT, Richard Wesley is out and RB Hollywood Smothers (289 yds) is doubtful. Ole Miss RB Kewan Lacy (352 yds, 5 TD) is probable and S Edwin Joseph is out.
+4. Stats (ESPN): Ole Miss scores 37.5 ppg (444.5 yds, 290.7 pass), allows 23.8 ppg (390.0 yds, 153.5 rush, 236.5 pass). Texas scores 30.2 ppg (362.3 yds) and allows 17.8 ppg (272.5 yds, 106.3 rush, 166.2 pass).
+5. Matchup: Texas's strong defense is slightly less so without Simmons; SportsBettingDime cites Texas's 19 sacks and calls this a trench game. Ole Miss's OL allows about 1 sack a game (my Ole Miss notes).
+6. Form: Ole Miss beat Louisville 41-38, Charlotte 41-9, LSU 32-24, lost 28-52 at Florida, beat Vanderbilt 52-17 and Missouri 31-3 (10/17). Texas beat Texas State 59-7, OSU 24-23, UTSA 30-6, Tennessee 20-17, lost to OU and Florida.
+7. Coaching: Sarkisian's Texas was 1-4 ATS before the Florida game (my notes) and is 3-7-1 ATS since 2021 within 5 points; Golding is in his first year at Ole Miss.
+8. Weather: ESPN/AccuWeather 85F, 15 mph gusts, 0% rain; a minor passing factor.
+9. Experts/market: SportsBettingDime takes Ole Miss +3.5 (Kalshi priced it at 53%). The line moved from Texas -3 at open to -3.5 on Covers 10/21 and back to -3 at DraftKings: DraftKings has TEX -3 (-112/-108), ML TEX -155 / MISS +130, total 53.5 (o-115/u-105) (ESPN's own open field showed a stale -9.5). No public splits found.
+10. Total check: 37.5 and 17.8 vs 30.2 and 23.8 gives 27.7 plus 27.0, about 54.7.
+Sources: ESPN summary/pickcenter/schedule/leaders, HottyToddy, On3, CBS Sports, Yahoo Sports, Statesman, Burnt Orange Nation, SportsBettingDime, Covers, Rotoballer, Field Level Media, my Texas/Ole Miss team notes.
+
+Legs considered:
+- Ole Miss Rebels +3: Texas is without Simmons (10.5 sacks) and has lost two straight, while Ole Miss's offense averages 37.5 points and 291 passing yards.
+- Ole Miss Rebels ML: Ole Miss only needs one score more than Texas's inconsistent offense (Arch Manning has 11 TD and 5 INT) to win outright.
+- Over 53.5: Ole Miss's defense gives up 153 rushing yards a game, and Texas's pass rush loses its best player.
+
+Our bets:
+- straight: Ole Miss Rebels +3 (-108): pending -> **pending**
+- longshot: Ole Miss Rebels +3 (-108): pending -> **pending**
 
 ### 2026-10-17: vs Missouri Tigers (final: MIZ 3, MISS 31)
 

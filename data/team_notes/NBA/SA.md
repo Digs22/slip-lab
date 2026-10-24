@@ -9,8 +9,39 @@
 - 2026-10-20: Tobias Harris (left calf strain) and Jayden Quaintance out for the opener.
 - 2026-10-20: Wembanyama held to 27.6 pts+reb per game in five 2025-26 regular-season games vs OKC (Lineups.com).
 - 2026-10-23: Hosts some games at the Moody Center in Austin (smaller home edge). Wembanyama opened 1-13 but with 13 reb and 6 blk; Fox (wrist) day-to-day 10/23.
+- 2026-10-24: Played on 10/23 (L 114-110 vs HOU, Wembanyama 25/13) and again 10/24 at DAL as a 12.5-point favorite. Harris (calf) out per ESPN.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Dallas Mavericks
+
+Flagg is out for Dallas and both teams are on the second night of a back-to-back, so Dallas +12.5 is the lean; the total projects 231.1 against 229.5. Most likely winner: Dallas Mavericks +12.5.
+
+SOURCES: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 team ratings, SA/DAL team notes, AP preview, Yahoo/ESPN/Dallas Sports Journal on Flagg, Dimers, Sports Mole, Pick Dawgz, TheRx, FanDuel Research listing, Covers.
+Lines: DK SA -12.5 (-112) / DAL +12.5 (-108), total 229.5 (o-112/u-108), ML SA -575 / DAL +425. DK opened SA -11.5, 230.5, ML -470/+360, so it moved toward SA after Flagg's injury. FanDuel also SA -12.5 but 231.5 total (ML about -699/+500). Pick Dawgz had DAL +11.5 earlier; Dimers' best-bet card has DAL +11.5 at 51c on Novig. ESPN predictor SA 76.6%.
+Flagg: left late in the first half at IND on 10/23 (Nesmith flagrant foul, landed on left shoulder) after 14/5/6 in 17 min; ESPN lists him Out, Sports Mole GTD. Also out/day-to-day: Aldama (knee), C. Martin (thumb), Biberovic (heel), J. Howard (calf), Lively (foot, AP). SA out Quaintance (knee); Harris (calf) out per ESPN.
+Schedule: both teams played last night. SA lost 114-110 to HOU (Wembanyama 25/13 on 9-21, Fox 19/9 ast, Harper 20, Castle 15/7/5). DAL won 121-105 at IND (Kyrie 24 on 5-10 3s, Washington 20/13, Christie 16, Marshall 15/6 ast).
+SA is 0-2 (lost 116-104 to OKC in the opener). DAL is 1-1 (lost 128-110 at HOU, Flagg 32).
+Usage 2025-26 (BBR/team notes): Wembanyama 32.4%, Flagg 26.9% (out), Fox 25.1%. DvP (own ESPN-box calc, rank 1 = most allowed): DAL G 11th, F 3rd, C 3rd. Only Wembanyama clears both gates.
+Props seen but not usable: Wembanyama u28.5 points -120 (Covers/Hard Rock, date unconfirmed), o26.5 at 1.83 decimal (scores24), Sports Mole o19.5 points (looks stale). Dimers' Kalshi lines (Fox o1.5 ast, Castle o1.5 reb at 51c) are not real main lines. No priced prop met the real-line rule, so none is posted.
+Totals (NBA.md formula, BBR 2025-26): pace avg 100.8. SA = avg(119.6, 116.5) x 1.008 = 119.0. DAL = avg(111.2, 111.3) x 1.008 = 112.1. Total 231.1 vs 229.5 (+1.6, under the 4-point trigger). Removing Flagg from DAL (about -2.5) gives ~228.6, so the total is a small Under lean at best.
+Score model: SA +6.9 neutral; Flagg out about +3 more for SA; DAL home court -2 gives SA about 8 vs the 12.5 line. A rested-starters blowout script helps the dog's cover.
+Coaching: Dusty May's DAL played 135-111 loss to ATL and the HOU loss in the preseason/opener; Mitch Johnson's SA runs a three-guard lineup (Fox, Castle, Harper) with Wembanyama and has shot 10-37 from three in the opener.
+Risk: SA's stars can still run away early; Dallas lost by 18 at HOU. Kyrie's minutes are managed (24-25 min in both games).
+Experts: Sports Mole Spurs and Under 228.5; TheRx lists Under 228.5; Dimers model DAL +11.5 pick; no line-movement or public-split page was reachable.
+Chemistry: DAL has a new core (Flagg, Kyrie, Washington, Christie, Risacher, Gafford) and no Lively; SA added Harper and Castle minutes.
+Home field: Dallas hosts at the American Airlines Center; SA is on the road for the first time this regular season.
+Market read: the 1-point move toward SA at DK after Flagg's injury is small for a player of his weight, and the total barely moved (230.5 to 229.5), so a 12.5-point number leaves room for a garbage-time cover.
+Sample caution: all team ratings are 2025-26 (Dallas went 26-56 and lost its 2025-26 matchup games by double digits); two games of 2026-27 data are not enough to move them.
+
+Legs considered:
+- Dallas Mavericks +12.5: Model has SA by about 8 with Flagg out and home court; both teams played last night, so 12.5 is a lot.
+- Under 229.5: Raw formula says 231.1, but Flagg's 21 ppg is gone and a 12-point favorite will rest starters, so only a small Under lean.
+- Dallas Mavericks ML: Long shot: SA is 0-2 and tired, but Dallas without Flagg is rated about 17% to 25% to win outright.
+
+Our bets:
+- straight (lean): Under 229.5 (-108): pending -> **pending**
+- longshot: Under 229.5 (-108): pending -> **pending**
 
 ### 2026-10-23: vs Houston Rockets (final: HOU 114, SA 110)
 

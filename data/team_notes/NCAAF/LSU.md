@@ -36,7 +36,6 @@ Legs considered:
 Our bets:
 - straight (lean): Auburn Tigers +7 (-105): pending -> **pending**
 - longshot: Auburn Tigers +7 (-105): pending -> **pending**
-- longshot: Auburn Tigers +7 (-105): pending -> **pending**
 
 ### 2026-10-17: vs Mississippi State Bulldogs (final: MSST 0, LSU 31)
 

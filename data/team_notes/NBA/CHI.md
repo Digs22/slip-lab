@@ -5,8 +5,36 @@
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 - 2026-10-23: New coach Tiago Splitter; starters Giddey, Powell, Buzelis, rookie Caleb Wilson, J. Smith while Claxton (hamstring) is out. BBR 2025-26: ORtg 113.0, DRtg 118.1, pace 102.5.
 - 2026-10-23: DvP 2025-26 (own calc; rank 1 = most allowed): G 5th, F 6th, C 5th. Usage: Powell 27.2% (MIA), Giddey 24.4%, Buzelis 22.8%.
+- 2026-10-24: L 92-135 at TOR, W 132-125 at MIL (Powell 25, Wilson 21, Miller 19). Model has CHI about +5 at home vs WSH; Claxton out until about Nov 4.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: vs Washington Wizards
+
+Total projects 236.9 against DK 245.5 (8.6 under) and both teams' 2025-26 defense ranks near the bottom; Under is the play, Bulls ML the side lean. Most likely winner: Under 245.5.
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), FanDuel Research (numberFire), Bleacher Nation, Pick Dawgz, Dimers, StatSniper, Sports Gambling Podcast, Fubo, Yahoo Sports, SIC Score.
+LINES: DK (ESPN) WSH -1.5 (+100) / CHI +1.5 (-120), ML -110/-110, total 245.5 (o -108 / u -112). FanDuel WSH -1.5, total 244.5, ML WSH -112 / CHI -104; Bleacher Nation 244.5, ML -112; Pick Dawgz 243.5 (o -112/u -108), WSH -1.5 (-102) / CHI +1.5 (-118); StatSniper ML WSH +130 / CHI -125; Polymarket WSH +115 / CHI -115. DK has the highest total.
+TOTALS (NBA.md): pace avg(101.4, 102.5)=101.95; WSH 116.8, CHI 120.2; projected 236.9 vs DK 245.5 (8.6 under). Caveat: both rosters were rebuilt, and 2025-26 DRtg (WSH 122.7, CHI 118.1) is the stalest part. Recent totals were 244 (WSH-MIL), 214 (WSH-TOR), 257 (CHI-MIL) and 227 (CHI-TOR).
+MARGIN: CHI +3.4 neutral, about +5.4 with home court versus WSH -1.5; ESPN predictor WSH 52.7%, Dimers WSH 56.7% (120-119), numberFire CHI 66.2%.
+INJURIES (ESPN): CHI Nic Claxton out (hamstring, ~Nov 4); Hawkins and Swain questionable per previews. WSH AJ Dybantsa ankle day-to-day (missed the TOR game; return Oct 24 possible), Vukcevic out (hip), Watkins out (ACL).
+FORM: WSH 1-1: W 128-116 vs MIL (Davis 34/12, George 18, Trae 20/13 ast) and L 102-112 vs TOR (Trae 22/12 ast, Davis 9/9 on 3-12). CHI 1-1: L 92-135 at TOR (Giddey 2/7/6, 1-10) and W 132-125 over MIL (Powell 25, Wilson 21, Miller 19, Giddey 6/4/9).
+USAGE (BBR 2025-26): Trae 28.1% (15 g), Davis 27.5% (20 g), Sarr 25.7%, Powell 27.2% (MIA), Giddey 24.4%, Buzelis 22.8%.
+DvP: WSH allows G 2nd, F 1st, C 2nd; CHI allows G 5th, F 6th, C 5th (own calc). Every starter qualifies on paper; but only Trae o21.5 pts (-110) has a listed price, so no real SGP. Pick Dawgz: Trae 21 pts and 12.5 assists, Davis 21.5 and 10.5.
+PROPS: Trae o21.5 pts -110 (Sports Gambling Podcast); Dimers Trae under 0.5 threes at 50c Kalshi (not used, contradictory text); Lineups.com lists Davis o14.5 points (no price). Stat Sniper and Bleacher say other props not posted.
+COACHING: Brian Keefe's Wizards ran 101.4 pace and the league's worst defense (122.7); Tiago Splitter's Bulls play fast (102.5) and start Giddey, Powell, Buzelis, Wilson, Smith.
+HOME: United Center; Chicago's first home game of the season.
+EXPERTS: Bleacher Nation Wizards -1.5, Under 244.5 and WSH ML; Dimers WSH ML value (4.8%) and Under 243.5 (+100); FanDuel numberFire Bulls; Pick Dawgz Wizards. Split on side, lean Under on the total.
+LESSONS APPLIED: model is 6-0 against the line, but CHI/MIL hit 257 on 10/23, so the Under is the straight and not the parlay anchor; Trae points is fighting the Under so it is a low-signal prop.
+
+Legs considered:
+- Under 245.5: Projection 236.9 (WSH 116.8 + CHI 120.2) is 8.6 under DK, and FanDuel/Bleacher are at 244.5 with Pick Dawgz 243.5.
+- Chicago Bulls ML: Model has CHI by about 5 with home court (neutral 3.4) and numberFire gives the Bulls 66%; Dybantsa's ankle is still unresolved for Washington.
+- T. Young o21.5 points: Main line; Chicago allowed 130 per game, but Young is playing as a distributor and the total projects low.
+
+Our bets:
+- straight (lean): Under 245.5 (-112): pending -> **pending**
+- longshot: Under 245.5 (-112): pending -> **pending**
 
 ### 2026-10-23: at Milwaukee Bucks (final: CHI 132, MIL 125)
 

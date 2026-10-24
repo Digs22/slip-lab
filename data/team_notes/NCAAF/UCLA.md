@@ -26,7 +26,11 @@ Sources: ESPN summary/pickcenter, Spectrum News/ABC7, Field Level Media, SI/BetM
 Legs considered:
 - Michigan State Spartans +15.5: UCLA has scored 17 in each of its last two games with a backup QB, so 15.5 asks for a bigger offense than it shows.
 - Under 44.5: UCLA allows 16.2 points and runs the ball for 231 yards a game, and Michigan State scores only 21.3.
-- UCLA Bruins -15.5: UCLA is 6-0 ATS, but only 15 of its points came against Oregon and the offense has stalled at 17.
+- UCLA Bruins -15.5: UCLA is 6-0 ATS, but the offense has stalled at 17 points in each of its last two games.
+
+Our bets:
+- straight (lean): Michigan State Spartans +15.5 (-112): pending -> **pending**
+- longshot: Michigan State Spartans +15.5 (-112): pending -> **pending**
 
 ### 2026-10-17: vs Wisconsin Badgers (final: WIS 7, UCLA 17)
 

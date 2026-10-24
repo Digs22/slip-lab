@@ -7,8 +7,39 @@
 - 2026-10-21: Herro cleared 14+ pts in 93.6% of games over 2024-25 and 2025-26 (110 g); Rollins (24.2%) lost on-ball minutes in preseason.
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 6th, F 10th, C 28th.
 - 2026-10-23: Opener at WSH: Herro 24/2/9 on 21 FGA as the top option; Jaquez 22; Rollins 24 min. Herro scored 24+ in only 33% of 2025-26 games.
+- 2026-10-24: 0-2 (L 116-128 WSH, L 125-132 CHI); Herro 24 and 34 pts, 9 of 21 from three. Third game in four nights at PHI as a 12.5-point dog; model total 228.1.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Philadelphia 76ers
+
+Total projects 228.1 against DK 234.5 (6.4 under) and MIL +12.5 looks too big for a team the model has near 5. Most likely winner: Under 234.5.
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), TheSpread, Bleacher Nation, FanDuel Research, Dimers, RAW CHILI, Fox Sports/iHeart, TheRX, ClutchPoints, Lineups.com, Sports Gambling Podcast.
+LINES: DK (ESPN) PHI -12.5 (-110) / MIL +12.5 (-110), ML PHI -700 / MIL +500, total 234.5 (o -108 / u -112). TheSpread PHI -12.0 (-115) / MIL +12.0 (-105), ML -600/+425, total 234.5 (-110); Bleacher Nation -12.5, total 233.5, ML -621/+460; FanDuel total 230.5; Fox model 120-109. Spread opened -12.5 and total ranges 226.5-234.5 across books, so DK's 234.5 is the highest.
+TOTALS (NBA.md): pace avg(97.6, 99.4)=98.5; MIL 112.5, PHI 115.6; projected 228.1 vs DK 234.5 (6.4 under). Caveat: PHI's 2025-26 ratings predate LeBron and Brown, though its first two games produced totals of 206 and 220.
+MARGIN: PHI +3.1 neutral, about +5.1 with home court versus -12.5, so the number looks inflated by star names. ESPN predictor PHI 87.4%, Dimers PHI 82.7% (110-122, top play Bucks +12.5 at +100).
+INJURIES (ESPN, ClutchPoints): PHI LeBron James questionable (low back and sciatica management), Dean Wade questionable (ankle); Tacko Fall, Barlow (~Nov 2) and Hukporti (season) out. Embiid not listed, but he said he will play one game of this weekend back-to-back and is expected to sit Oct 25 at DET. MIL nothing listed.
+FORM: PHI is 2-0 (W 106-100 at NYK; W 114-106 over CLE after a 29-point comeback: Maxey 32/3/6 in 42 min, Embiid 24/7, Brown 21/8/4, LeBron 17/10/5, Edgecombe 11/7/6). MIL is 0-2 (L 116-128 at WSH; L 125-132 vs CHI) and this is its third game in four nights; Herro had 24 and 34 points.
+USAGE (BBR 2025-26): Embiid 33.5% (38 g), Maxey 29.4%, LeBron 27.2% (LAL), Brown 36.2% (BOS); Herro 24.7%, Rollins 24.2%, Jaquez 22.3%.
+DvP: PHI allows C 1st, PF 3rd, SG 4th, SF 7th, PG 10th (RotoGrinders); MIL allows G 6th, F 10th, C 28th (own calc). Qualifiers: Maxey, LeBron, Brown, Herro, Rollins; Embiid fails.
+PROPS FOUND: Maxey o25.5 -104 / u25.5 -123 (RAW CHILI, single board); Herro o2.5 threes -132 (Sports Gambling Podcast); Embiid 10+ rebounds +130 (TheSpread, not used because he is managed on the back-to-back); Lineups.com Brown o31.5 PRA (no price). Herro Oct 23 board: 23.5 pts -106/-125 (SportsBettingDime).
+SGP: Maxey pts and Herro threes, about +245 by multiplying prices; true about 0.29, no edge.
+COACHING: Nick Nurse's Sixers play near league-average pace (99.4) and manage Embiid's minutes; Doc Rivers' Bucks were slow (97.6) and are rebuilt around Herro, with Rollins losing on-ball time.
+EXPERTS: Dimers Bucks +12.5, Fox model PHI 120-109 and Under, RAW CHILI Under 233.5 (-110), TheSpread leans PHI -12.0 with LeBron uncertainty; the ones that picked the total mostly lean Under.
+HOME: Xfinity Mobile Arena, Philadelphia 1-0 at home; PHI wins big only when Embiid and LeBron both play.
+LESSONS APPLIED: model has been 6-0 when it disagrees with the line, so the total is the straight; the Maxey Over is weaker in a blowout, so it is not named most likely.
+
+Legs considered:
+- Under 234.5: Projection 228.1 (MIL 112.5 + PHI 115.6) is 6.4 under DK, and FanDuel (230.5) and Bleacher Nation (233.5) already sit lower.
+- Milwaukee Bucks +12.5: Model margin is PHI by about 5 with home court; a third game in four nights and a 12.5 line price in stale star-power.
+- T. Maxey o25.5 points: Main line from one board; Maxey carries the creation with LeBron questionable, but a 12.5-point spread risks fourth-quarter rest.
+- T. Herro o2.5 threes: Herro made 4 and 5 threes in his two games on 21 attempts, and PHI allows the 4th-most to shooting guards.
+
+Our bets:
+- straight: T. Maxey o25.5 points (-104): Active -> **pending**
+- best: T. Maxey o25.5 points (-104): Active / T. Herro o2.5 threes (-132): Active -> **pending**
+- longshot: T. Maxey o25.5 points (-104): Active -> **pending**
 
 ### 2026-10-23: vs Chicago Bulls (final: CHI 132, MIL 125)
 

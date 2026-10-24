@@ -28,6 +28,10 @@ Legs considered:
 - Under 50.5: Texas A&M scored 6 points in two of its last four, and the total fell from the 52 opener.
 - Alabama Crimson Tide -13.5: Alabama scores 39.3 and A&M's offense has 6 turnovers from Reed, but Alabama has dropped two straight.
 
+Our bets:
+- straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **pending**
+- longshot: Alabama Crimson Tide -13.5 (-108): pending -> **pending**
+
 ### 2026-10-17: at Tennessee Volunteers (final: ALA 10, TENN 26)
 
 Alabama visits Tennessee, which starts a young quarterback with one career start and a questionable backup. Models favor Alabama by about 7 points.

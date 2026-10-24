@@ -1,0 +1,66 @@
+{
+ "summary": "New Orleans plays its second game in two nights but the model has Denver by about 8 against an 11.5 line; the total projects 235.1 against 237.5. Most likely winner: New Orleans Pelicans +11.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "New Orleans Pelicans +11.5",
+   "game": "New Orleans Pelicans @ Denver Nuggets",
+   "market": "spread",
+   "team": "NO",
+   "side": null,
+   "line": 11.5,
+   "odds": 100,
+   "book": "Polymarket (50c, via Dimers)",
+   "fair": 0.511,
+   "books": 3,
+   "signals": {
+    "model": 0.6,
+    "experts": 0.57,
+    "recent_form": 0.53,
+    "schedule": 0.45,
+    "home": 0.45
+   },
+   "note": "Model has Denver by about 7 to 8; DK has NO +11.5 at -115 and Polymarket 50c (even money)."
+  },
+  {
+   "desc": "Under 237.5",
+   "game": "New Orleans Pelicans @ Denver Nuggets",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 237.5,
+   "odds": -108,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.496,
+   "books": 3,
+   "signals": {
+    "totals_model": 0.56,
+    "pace": 0.52,
+    "recent_form": 0.45,
+    "experts": 0.5
+   },
+   "note": "Projection 235.1 vs 237.5; NO's two games hit 243 and 239, so the Under is only a small lean."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Jokic (30.4% usage) passes the gate (NO centers 4th-most allowed); Zion (27.6%) passes (DEN forwards 8th, Legion Report 2025-26); Murray (27.9%) misses (NO guards 15th); DeRozan (22.8%) is under 24%.",
+  "note": "No sportsbook price for tonight's Jokic or Zion main lines was found (Dimers' 50c Kalshi lines are not real main lines), so no priced SGP is posted."
+ },
+ "totals_projection": {
+  "possessions": 99.35,
+  "NO": 115.2,
+  "DEN": 120.0,
+  "total": 235.1,
+  "line": 237.5,
+  "math": "pace avg(100.3,98.4)=99.35; NO avg(114.4 ORtg,117.4 DEN DRtg)=115.9*0.9935=115.2; DEN avg(122.6,118.9 NO DRtg)=120.75*0.9935=120.0; sum 235.1"
+ },
+ "research": "SOURCES: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings, DEN/NO team notes, Dimers, Pick Dawgz, VegasInsider consensus, AP preview, Legion Report DvP (from team notes).\nLines: DK DEN -11.5 (-105) / NO +11.5 (-115), total 237.5 (o-112/u-108), ML DEN -485 / NO +370 (flat since the open). Pick Dawgz DEN -11.5 -110/-110, 237.5 o-115/u-105; another site NO +374 / DEN -490; VegasInsider consensus 237.5. Dimers lists NO +11.5 at +100 (Polymarket 50c).\nPredictors: ESPN predictor DEN 78.3%; Dimers DEN 79.3%, 122-113 (total 235); Dimers best bet NO +11.5 (56.5% model, 6.5% edge); Pick Dawgz picks DEN but argues NO covers.\nSchedule: NO lost 123-120 to IND on 10/21 and 120-119 at UTAH last night (Zion 23, Bey 20, Murray 16/6/6; Missi played 9 minutes, knee, day-to-day), so tonight is its second game in two nights. DEN lost 96-84 at OKC on 10/22 and has had a day off.\nInjuries (ESPN): DEN out Cameron Johnson (ankle), Spencer Jones (hamstring), Strawther (knee); Diallo (wrist) day-to-day. NO: Missi (knee) day-to-day, otherwise healthy.\nForm: DEN's opener was ugly (Jokic 13/7/5 on 5-19, Murray 6/10/3 on 2-11, Gordon 20, DeRozan 13, Brazile 12 reb); OKC's No. 1 defense explains much of it. NO scores and allows a lot (123, 120 in two games).\nUsage 2025-26: Jokic 30.4%, Murray 27.9%, Zion 27.6% (36-game snapshot), DeRozan 22.8%. DvP (Legion Report 2025-26; rank 1 = most allowed): NO G 15th, F 4th, C 4th; DEN guards 18th, forwards 8th. Jokic and Zion pass; no price for their main lines.\nTotals (NBA.md formula, BBR 2025-26): pace avg(100.3 NO, 98.4 DEN)=99.35. NO = avg(114.4, 117.4) x 0.9935 = 115.2. DEN = avg(122.6, 118.9) x 0.9935 = 120.0. Total 235.1 vs 237.5 (-2.4), under the 4-point trigger; Dimers' own total is 235.\nScore model: DEN +4.8 neutral, +6.8 with home court; NO's back-to-back may add about 1 more, so Denver about 8 vs -11.5.\nRisk to the NO side: 2025-26 NO had the weaker defense (118.9 DRtg) and Denver's offense was the best in the league (122.6 ORtg); a Jokic rebound night can turn into a 20-point win.\nProps: Jokic points 27.5 (-105/-122 SportsGambler, undated) and Dimers' Jokic o7.5 reb / o5.5 ast at 50c Kalshi were seen but are not credible main lines; nothing posted.\nCoaching: Jamahl Mosley's NO rotation is new and unclear; Denver keeps Jokic at about 35 minutes and slows the game (98.4 pace).\nChemistry: DEN added DeRozan, Cam Johnson, Tyus Jones, Bagley and Whitmore and lost Watson and Valanciunas; NO added Mathurin and Murray around Zion.\nHome field: Ball Arena altitude favors Denver late in games (28-13 at home in 2025-26) and NO is on its second night in two nights, which supports the Denver side and is why NO is only a small model edge.\nMarket read: DEN -11.5 and 237.5 did not move from the open at DK, so there is no sharp signal either way; Dimers' 6.5% edge on NO +11.5 is its own model, not a market read.",
+ "prelock": ""
+}

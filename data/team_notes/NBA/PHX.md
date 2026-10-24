@@ -6,8 +6,37 @@
 - 2026-10-21: Usage 2025-26: Booker 32.2% (26.1/3.9/6.0), J. Green 31.9% (32 g), Brooks 28.6% (inflated by Booker and Green absences; still 9+ pts in 40/42 games with Booker).
 - 2026-10-21: Mark Williams is out (shoulder) for the opener; C depth is Maluach, Ighodaro and Reath. Kennard joined from LAL.
 - 2026-10-21: DvP (Fantasy Team Advice, rank 30 = most allowed): stingy vs PG (7-8), SG (4-8) and SF (6-11).
+- 2026-10-24: Opened with a 124-83 loss at POR; Mark Williams (shoulder) out, Ighodaro (oblique) and Kennard (knee) day-to-day. -9.5 at home vs GS after Curry news (opened -6.5).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: vs Golden State Warriors
+
+Curry said he will 'probably' sit the back-to-back, which moved the line to PHX -9.5 and the total down to 219.5; the formula still projects 225.6 (about 222 without Curry). Most likely winner: Golden State +9.5.
+
+SOURCES: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings, GS/PHX team notes, ESPN's Anthony Slater via Yahoo/Heavy on Curry, Basketnews, FanDuel Research listing, Pick Dawgz, Dimers, TheRx.
+Lines: DK PHX -9.5 (-115) / GS +9.5 (-105), total 219.5 (o-108/u-112), ML PHX -380 / GS +300. DK opened PHX -6.5, total 224.5, ML -205/+170, so the market moved 3 points on the side and 5 on the total. FanDuel PHX -9.5, 219.5, ML -429/+340; Pick Dawgz -9.5, 219.5, -380/+300; Dimers -8.5, 221.5, ML about -355; TheRx -5.5, 226.5 (stale). ESPN predictor PHX 63.3%; FanDuel numberFire PHX 71.6%.
+Curry: said he will 'probably' not play in Phoenix on the first back-to-back (Slater, ESPN); Podziemski also says he will not play. ESPN's injury list does not show Curry yet, so check the final report. Out: Butler (knee), Porzingis (illness), Moody (knee), Bassey (knee).
+GS form: 0-2, lost 127-105 at LAL (Curry 23 in 21 min) and 111-108 to MEM last night (Curry 24 on 5-15 in 30 min, Podziemski 18, Lendeborg 18/13/6, Ike 10). Kerr is managing Curry's load after the 10/18 ankle sprain.
+PHX form: 0-1, lost 124-83 at POR on 10/21 (Booker 23/4/2, Brooks 10 on 4-11, Green 10, Bridges 8), 3 days off since. Out: Mark Williams (shoulder); Ighodaro (oblique) and Kennard (knee) day-to-day.
+Usage 2025-26: Curry 32.5%, Booker 32.2%, J. Green 31.9% (32 g), Brooks 28.6% (inflated), Melton 25.4%. DvP (Rotogrinders/Fantasy Team Advice; rank 1 = most allowed): GS PG 5th, SG 25th; PHX stingy to PG/SG/SF (4th-11th in rank-30 terms). Only a PG-slot Booker would pass; no tonight prop price was found.
+Totals (NBA.md formula, BBR 2025-26): pace avg(99.0 GS, 97.2 PHX)=98.1. GS = avg(115.0, 113.9) x 0.981 = 112.3. PHX = avg(115.4, 115.6) x 0.981 = 113.3. Total 225.6 vs 219.5 (+6.1, over the 4-point trigger), so the Over is a leg. The formula includes Curry at 115.0 ORtg; at roughly 108 without him the total is about 222.1, still 2.6 above the line.
+Score model: PHX +1.0 raw; without Curry about PHX +4.5, +6.5 with home court, vs -9.5. Phoenix's 83-point opener and 1-4 preseason keep the cover from being a lock.
+Recent scoring: GS games totaled 232 and 219; PHX games 207 (opener), 235 and 226 in preseason; both teams are thin and the model has been right when it disagrees with the line.
+Schedule: GS is on the second night of a back-to-back with a long flight; PHX is rested. That is the main case for PHX -9.5; the point spread already includes it.
+Props: no Booker, Green, Brooks or Curry line for tonight was found on a priced page; none posted.
+Coaching: Kerr minute limits for Curry and a thin GS frontcourt (Green, Santos, Niang, Horford); Jordan Ott's Suns start Booker, Green, Brooks, Bridges with Maluach at center.
+Chemistry: PHX is new (Green, Ott, Kennard) and went 1-4 in preseason; GS is without five rotation players plus Curry, so minutes go to Lendeborg, B. Williams, Ike and Richard.
+Home field: Footprint Center (Phoenix 25-16 at home in 2025-26); Golden State went 15-26 on the road last year.
+Market read: the biggest line move on tonight's slate (side -3, total -5), driven by Curry's comments; if Curry plays after all, GS +9.5 and the Over both improve and the lines should move.
+
+Legs considered:
+- Golden State Warriors +9.5: Even without Curry the model has Phoenix by about 6 to 7 and the Suns scored 83 in their opener.
+- Over 219.5: Projection 225.6 (about 222 with Curry out) vs 219.5; the total was cut 5 points from 224.5 on the Curry news.
+
+Our bets:
+- straight (lean): Over 219.5 (-108): pending -> **pending**
+- longshot: Over 219.5 (-108): pending -> **pending**
 
 ### 2026-10-21: at Portland Trail Blazers (final: PHX 83, POR 124)
 

@@ -25,4 +25,8 @@ Sources: ESPN summary/pickcenter/leaders/predictor, AccuWeather via ESPN, Field 
 Legs considered:
 - Under 56.5: Colorado scores 19.5 ppg and the team averages project about 53 against a 56.5 total.
 - Colorado Buffaloes +13.5: The line fell from 14.5, and Colorado lost its last two home games by only 3 and 22 while allowing just 25.7 ppg.
-- Oklahoma State Cowboys -13.5: Oklahoma State's three Big 12 wins were by 17, 13 and 8, so two touchdowns is a stretch for a Cowboys team just off a loss.
+- Oklahoma State Cowboys -13.5: Oklahoma State's FBS wins were by 8, 17 and 14 before a home-field loss, so two touchdowns is a stretch.
+
+Our bets:
+- straight (lean): Under 56.5 (-112): pending -> **pending**
+- longshot: Under 56.5 (-112): pending -> **pending**

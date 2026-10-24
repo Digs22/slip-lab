@@ -6,8 +6,39 @@
 - 2026-10-21: 2025-26: 20-62, BBR ORtg 108.7 (worst), DRtg 119.0, pace 97.1 (slow).
 - 2026-10-21: MPJ got 2+ rebounds in 51 of 52 games and 10+ points in 94% of games in 2025-26.
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 8th, F 15th, C 10th.
+- 2026-10-24: Randle 33/8/7 and MPJ 26 in the 103-110 loss at CHA. At CLE as +10.5 dog; model margin about CLE by 9, total projects 227.5 vs 229.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-24: at Cleveland Cavaliers
+
+Cleveland is -10.5 but the model has the margin near 9, so Nets +10.5 is the researched dog; the SGP is a coin flip with no edge. Most likely winner: Nets +10.5.
+
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings and logs (via team notes), Covers, FanDuel Research, Bleacher Nation, Dimers, Lineups.com, Sportsmole, SportsGambler, iHeart, Pick Dawgz, Yardbarker.
+LINES: DK (ESPN) CLE -10.5 (-118) / BKN +10.5 (-102), ML CLE -500 / BKN +380, total 229.5 (o -115 / u -105). FanDuel CLE -10.5, total 231.5, ML -450; Covers and Bleacher Nation CLE -11.5, total 231-232.5, ML about +400/-455; Sportsmole total 217.5 looks stale. ESPN predictor CLE 80.3%, Dimers CLE 77.2%.
+TOTALS (NBA.md): pace avg(97.1, 99.9)=98.5; BKN 110.2, CLE 117.3; projected 227.5 vs DK 229.5 (2.0 under, 4.0 under the 231.5 at FanDuel/Covers). Margin CLE +7.1 neutral, about +9.1 with home court, inside the 10.5.
+INJURIES (ESPN): BKN Tyler Bilodeau out (shoulder; Sportsmole says GTD). CLE: nothing listed on ESPN (Jarrett Allen was questionable for the opener, and Tomlin is out with a back problem per Sportsmole). Allen played 28 min on Oct 22.
+FORM: CLE lost its opener 106-114 at PHI after Philadelphia came back from 29 down (Mitchell 32/10/3 on 11-19, Mobley 18/8, Harden 16/3/5, Allen 14/7, Watson 8). BKN lost 103-110 at CHA (Randle 33/8/7 in 38 min, MPJ 26/7 on 10-21, Sharpe 8/8).
+USAGE (BBR 2025-26): Mitchell 32.2%, Harden 24.0% at CLE (28.6% season), Mobley 22.6%, Allen 19.9%; Porter Jr. 30.5%, Randle 26.5%, Brown Jr. rookie.
+DvP: BKN allows G 8th, F 15th, C 10th (own calc); CLE allows guards 20th, forwards 10th, C 11th (Legion Report, but the 2nd-most rebounds to C). Qualifiers: Mitchell, Harden (vs BKN G 8th), Porter and Randle (vs CLE F 10th).
+HIT RATES: Mitchell 27.9/4.5/5.7 in 70 games: 14+ pts 94.3%, 27+ 61.4%, 3+ ast 95.7%. MPJ 2+ reb in 51 of 52 games, 10+ pts in 94%. Real lines only, so the 93% rungs are not bet.
+PROPS FOUND: Mitchell o26.5 -105 bet365 / -110 Fanatics / -115 Hard Rock (Covers); Lineups.com best bet Mitchell o26.5 (Cavs implied total just under 122); Harden pts 18.5 -115 and Mobley 15.5 -130 Fanatics / 16.5 -105 bet365 (Covers); SportsGambler Porter o21.5 -111, Randle o19.5 -120, Harden u7.5 ast -125 BetMGM (its Mobley/Harden 17.5 differ from Covers, so treated as unconfirmed).
+COACHING: Cleveland ran 99.9 pace in 2025-26 and defends the paint; Fernandez's Nets were slow (97.1 pace) and worst in offense (108.7 ORtg) in 2025-26, but added Randle and MPJ.
+HOME FIELD: Rocket Arena; Cleveland lost its opener on the road and returns home. CLE added Harden and Watson this offseason, and BKN signed Randle.
+EXPERTS: Dimers flags Nets +11.5 as a 5.3% edge (CLE 123-114); iHeart model Nets +10.5 (110-107); Bleacher Nation CLE -11.5 and Under 231.5 (130-87); SportsGambler Under 231.5; Sportsmole CLE 113-105. Lean CLE straight up, split on the cover, lean Under.
+LESSONS APPLIED: the model's projection margin is inside the number, so the dog is the researched side; the Under is included for the totals model but the star Overs would need a different script, so the SGP is flagged as conflicting.
+CHEMISTRY: Cleveland's Harden-Mitchell backcourt is new this season; Brooklyn's Randle/Porter/Sharpe/Demin group is also new.
+
+Legs considered:
+- Brooklyn Nets +10.5: Model margin is CLE by about 9 with home court, and Randle 33 plus MPJ 26 gave Brooklyn real offense in the opener.
+- Under 229.5: Projection 227.5 (BKN 110.2 + CLE 117.3) is 2.0 under DK; both play below-average pace (97.1, 99.9) and FanDuel/Covers are at 231.5.
+- D. Mitchell o26.5 points: Main line at three books; 32 points in the opener, BKN guards rank 8th most allowed, with a blowout-minutes risk at -10.5.
+- J. Randle o19.5 points: Single-source main line; Brooklyn playing from behind keeps Randle's volume high after 33/8/7 in the opener.
+
+Our bets:
+- straight: D. Mitchell o26.5 points (-105): Active -> **pending**
+- best: D. Mitchell o26.5 points (-105): Active / J. Randle o19.5 points (-120): Active -> **pending**
+- longshot: D. Mitchell o26.5 points (-105): Active -> **pending**
 
 ### 2026-10-21: vs Charlotte Hornets (final: CHA 110, BKN 103)
 

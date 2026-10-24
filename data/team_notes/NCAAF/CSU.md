@@ -26,3 +26,7 @@ Legs considered:
 - Over 59.5: Colorado State allows 43.2 ppg and 530 yards, and the teams' averages project about 68 points.
 - Colorado State Rams +1.5: Money moved CSU from +3 to +1.5, but the Rams have lost three of four and allow 274 rushing yards.
 - San Diego State Aztecs -1.5: SDSU has the weaker offense (23.3 ppg, 149 pass yards) but the market favors it on the road.
+
+Our bets:
+- straight (lean): Over 59.5 (-112): pending -> **pending**
+- longshot: Over 59.5 (-112): pending -> **pending**

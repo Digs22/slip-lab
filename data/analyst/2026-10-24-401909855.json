@@ -1,0 +1,131 @@
+{
+ "summary": "Total projects 228.1 against DK 234.5 (6.4 under) and MIL +12.5 looks too big for a team the model has near 5. Most likely winner: Under 234.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 234.5",
+   "game": "Milwaukee Bucks @ Philadelphia 76ers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 234.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 6,
+   "signals": {
+    "totals_model": 0.6,
+    "pace": 0.55,
+    "experts": 0.55,
+    "recent_form": 0.5
+   },
+   "note": "Projection 228.1 (MIL 112.5 + PHI 115.6) is 6.4 under DK, and FanDuel (230.5) and Bleacher Nation (233.5) already sit lower."
+  },
+  {
+   "desc": "Milwaukee Bucks +12.5",
+   "game": "Milwaukee Bucks @ Philadelphia 76ers",
+   "market": "spread",
+   "team": "MIL",
+   "side": null,
+   "line": 12.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 5,
+   "signals": {
+    "matchup": 0.55,
+    "season": 0.52,
+    "game_script": 0.54,
+    "injuries": 0.5,
+    "experts": 0.53
+   },
+   "note": "Model margin is PHI by about 5 with home court; a third game in four nights and a 12.5 line price in stale star-power."
+  },
+  {
+   "desc": "T. Maxey o25.5 points",
+   "market": "prop",
+   "player": "Tyrese Maxey",
+   "team": "PHI",
+   "stat": "points",
+   "side": "over",
+   "line": 25.5,
+   "odds": -104,
+   "book": "RAW CHILI (under -123)",
+   "fair": 0.48,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 27.0,
+    "sd": 7.5
+   },
+   "hit_rate": {
+    "value": 0.52,
+    "sample": "2025-26: 28.3 ppg in 70 games; 32 pts in 42 min vs CLE on 10/22; no full log reached"
+   },
+   "alt": false,
+   "main_line": 25.5,
+   "signals": {
+    "season": 0.55,
+    "recent_form": 0.56,
+    "matchup": 0.54,
+    "game_script": 0.45
+   },
+   "note": "Main line from one board; Maxey carries the creation with LeBron questionable, but a 12.5-point spread risks fourth-quarter rest."
+  },
+  {
+   "desc": "T. Herro o2.5 threes",
+   "market": "prop",
+   "player": "Tyler Herro",
+   "team": "MIL",
+   "stat": "threes",
+   "side": "over",
+   "line": 2.5,
+   "odds": -132,
+   "book": "Sports Gambling Podcast (listed price)",
+   "fair": 0.55,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 3.1,
+    "sd": 1.5
+   },
+   "hit_rate": {
+    "value": 0.62,
+    "sample": "2026-27: 9 of 21 from three in two games (5 and 4 makes); 2025-26 rate not reached"
+   },
+   "alt": false,
+   "main_line": 2.5,
+   "signals": {
+    "recent_form": 0.6,
+    "season": 0.55,
+    "matchup": 0.57,
+    "experts": 0.55
+   },
+   "note": "Herro made 4 and 5 threes in his two games on 21 attempts, and PHI allows the 4th-most to shooting guards."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "T. Maxey o25.5 points",
+   "T. Herro o2.5 threes"
+  ],
+  "odds": null,
+  "true_prob": 0.29,
+  "implied_prob": 0.29,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Maxey 29.4% vs MIL guards 6th most allowed; LeBron 27.2% and Brown 36.2% (BOS) vs MIL forwards 10th; Herro 24.7% (SG, rising as first option) and Rollins 24.2% vs PHI SG 4th/PG 10th. Embiid 33.5% fails the gate (MIL C 28th).",
+  "note": "Two real main-line props (-104 and -132, multiplied, no quoted SGP). True 0.29 equals implied 0.290, so no edge and no highlight; the blowout script hurts Maxey and the Under mildly."
+ },
+ "totals_projection": {
+  "possessions": 98.5,
+  "MIL": 112.5,
+  "PHI": 115.6,
+  "total": 228.1,
+  "line": 234.5,
+  "math": "pace avg(97.6 MIL, 99.4 PHI)=98.5; MIL avg(112.9 ORtg, 115.5 PHI DRtg)x0.985=112.5; PHI avg(115.4, 119.3 MIL DRtg)x0.985=115.6; sum 228.1"
+ },
+ "research": "SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings (via team notes), TheSpread, Bleacher Nation, FanDuel Research, Dimers, RAW CHILI, Fox Sports/iHeart, TheRX, ClutchPoints, Lineups.com, Sports Gambling Podcast.\nLINES: DK (ESPN) PHI -12.5 (-110) / MIL +12.5 (-110), ML PHI -700 / MIL +500, total 234.5 (o -108 / u -112). TheSpread PHI -12.0 (-115) / MIL +12.0 (-105), ML -600/+425, total 234.5 (-110); Bleacher Nation -12.5, total 233.5, ML -621/+460; FanDuel total 230.5; Fox model 120-109. Spread opened -12.5 and total ranges 226.5-234.5 across books, so DK's 234.5 is the highest.\nTOTALS (NBA.md): pace avg(97.6, 99.4)=98.5; MIL 112.5, PHI 115.6; projected 228.1 vs DK 234.5 (6.4 under). Caveat: PHI's 2025-26 ratings predate LeBron and Brown, though its first two games produced totals of 206 and 220.\nMARGIN: PHI +3.1 neutral, about +5.1 with home court versus -12.5, so the number looks inflated by star names. ESPN predictor PHI 87.4%, Dimers PHI 82.7% (110-122, top play Bucks +12.5 at +100).\nINJURIES (ESPN, ClutchPoints): PHI LeBron James questionable (low back and sciatica management), Dean Wade questionable (ankle); Tacko Fall, Barlow (~Nov 2) and Hukporti (season) out. Embiid not listed, but he said he will play one game of this weekend back-to-back and is expected to sit Oct 25 at DET. MIL nothing listed.\nFORM: PHI is 2-0 (W 106-100 at NYK; W 114-106 over CLE after a 29-point comeback: Maxey 32/3/6 in 42 min, Embiid 24/7, Brown 21/8/4, LeBron 17/10/5, Edgecombe 11/7/6). MIL is 0-2 (L 116-128 at WSH; L 125-132 vs CHI) and this is its third game in four nights; Herro had 24 and 34 points.\nUSAGE (BBR 2025-26): Embiid 33.5% (38 g), Maxey 29.4%, LeBron 27.2% (LAL), Brown 36.2% (BOS); Herro 24.7%, Rollins 24.2%, Jaquez 22.3%.\nDvP: PHI allows C 1st, PF 3rd, SG 4th, SF 7th, PG 10th (RotoGrinders); MIL allows G 6th, F 10th, C 28th (own calc). Qualifiers: Maxey, LeBron, Brown, Herro, Rollins; Embiid fails.\nPROPS FOUND: Maxey o25.5 -104 / u25.5 -123 (RAW CHILI, single board); Herro o2.5 threes -132 (Sports Gambling Podcast); Embiid 10+ rebounds +130 (TheSpread, not used because he is managed on the back-to-back); Lineups.com Brown o31.5 PRA (no price). Herro Oct 23 board: 23.5 pts -106/-125 (SportsBettingDime).\nSGP: Maxey pts and Herro threes, about +245 by multiplying prices; true about 0.29, no edge.\nCOACHING: Nick Nurse's Sixers play near league-average pace (99.4) and manage Embiid's minutes; Doc Rivers' Bucks were slow (97.6) and are rebuilt around Herro, with Rollins losing on-ball time.\nEXPERTS: Dimers Bucks +12.5, Fox model PHI 120-109 and Under, RAW CHILI Under 233.5 (-110), TheSpread leans PHI -12.0 with LeBron uncertainty; the ones that picked the total mostly lean Under.\nHOME: Xfinity Mobile Arena, Philadelphia 1-0 at home; PHI wins big only when Embiid and LeBron both play.\nLESSONS APPLIED: model has been 6-0 when it disagrees with the line, so the total is the straight; the Maxey Over is weaker in a blowout, so it is not named most likely.",
+ "prelock": "ESPN injuries: PHI LeBron (back) and Wade (ankle) day-to-day, Fall/Barlow/Hukporti out; MIL none."
+}

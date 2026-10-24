@@ -32,5 +32,3 @@ Legs considered:
 Our bets:
 - straight (lean): Over 56.5 (-115): pending -> **pending**
 - longshot: Over 56.5 (-115): pending -> **pending**
-- straight: Over 56.5 (-115): pending -> **pending**
-- longshot: Over 56.5 (-115): pending -> **pending**

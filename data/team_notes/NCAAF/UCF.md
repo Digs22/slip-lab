@@ -28,3 +28,7 @@ Legs considered:
 - BYU Cougars -7.5: BYU is 6-0 ATS, but the line already fell from -9.5 to -6.5 at some books so the -7.5 number is fair.
 - UCF Knights +7.5: UCF is 3-0 at home with a homecoming crowd, and gusty weather shortens the game and helps a dog.
 - Under 43.5: ESPN lists 27 mph gusts and 34% rain, and BYU's defense allows 274 yards, though raw scoring averages sit above the total.
+
+Our bets:
+- straight (lean): BYU Cougars -7.5 (-102): pending -> **pending**
+- longshot: BYU Cougars -7.5 (-102): pending -> **pending**

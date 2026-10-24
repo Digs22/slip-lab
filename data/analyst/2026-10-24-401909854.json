@@ -1,0 +1,131 @@
+{
+ "summary": "Cleveland is -10.5 but the model has the margin near 9, so Nets +10.5 is the researched dog; the SGP is a coin flip with no edge. Most likely winner: Nets +10.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Brooklyn Nets +10.5",
+   "game": "Brooklyn Nets @ Cleveland Cavaliers",
+   "market": "spread",
+   "team": "BKN",
+   "side": null,
+   "line": 10.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.483,
+   "books": 4,
+   "signals": {
+    "matchup": 0.54,
+    "season": 0.46,
+    "recent_form": 0.54,
+    "experts": 0.53,
+    "home": 0.46
+   },
+   "note": "Model margin is CLE by about 9 with home court, and Randle 33 plus MPJ 26 gave Brooklyn real offense in the opener."
+  },
+  {
+   "desc": "Under 229.5",
+   "game": "Brooklyn Nets @ Cleveland Cavaliers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 229.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.54,
+    "pace": 0.55,
+    "experts": 0.54,
+    "recent_form": 0.48
+   },
+   "note": "Projection 227.5 (BKN 110.2 + CLE 117.3) is 2.0 under DK; both play below-average pace (97.1, 99.9) and FanDuel/Covers are at 231.5."
+  },
+  {
+   "desc": "D. Mitchell o26.5 points",
+   "market": "prop",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "points",
+   "side": "over",
+   "line": 26.5,
+   "odds": -105,
+   "book": "bet365 (Covers; -110 Fanatics, -115 Hard Rock)",
+   "fair": 0.5,
+   "books": 3,
+   "status": "Active",
+   "projection": {
+    "mu": 27.5,
+    "sd": 8.0
+   },
+   "hit_rate": {
+    "value": 0.61,
+    "sample": "2025-26: 27+ pts in 61.4% of 70 games (27.9 ppg); 32 pts in the 10/22 opener"
+   },
+   "alt": false,
+   "main_line": 26.5,
+   "signals": {
+    "season": 0.58,
+    "recent_form": 0.56,
+    "matchup": 0.55,
+    "home": 0.52
+   },
+   "note": "Main line at three books; 32 points in the opener, BKN guards rank 8th most allowed, with a blowout-minutes risk at -10.5."
+  },
+  {
+   "desc": "J. Randle o19.5 points",
+   "market": "prop",
+   "player": "Julius Randle",
+   "team": "BKN",
+   "stat": "points",
+   "side": "over",
+   "line": 19.5,
+   "odds": -120,
+   "book": "SportsGambler",
+   "fair": 0.52,
+   "books": 1,
+   "status": "Active",
+   "projection": {
+    "mu": 21.0,
+    "sd": 7.0
+   },
+   "hit_rate": {
+    "value": 0.56,
+    "sample": "No full log reached; 33 pts in the 10/21 opener, 26.5% usage in 2025-26"
+   },
+   "alt": false,
+   "main_line": 19.5,
+   "signals": {
+    "recent_form": 0.57,
+    "matchup": 0.54,
+    "season": 0.52,
+    "game_script": 0.54
+   },
+   "note": "Single-source main line; Brooklyn playing from behind keeps Randle's volume high after 33/8/7 in the opener."
+  }
+ ],
+ "sgp": {
+  "legs": [
+   "D. Mitchell o26.5 points",
+   "J. Randle o19.5 points"
+  ],
+  "odds": null,
+  "true_prob": 0.28,
+  "implied_prob": 0.279,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Mitchell 32.2% and Harden 24.0-28.6% (CLE) vs BKN guards 8th most allowed; Porter Jr. 30.5% and Randle 26.5% (BKN) vs CLE forwards 10th. All pass the gate; Mobley 22.6% and Allen 19.9% do not.",
+  "note": "Two real main-line props (about +258 combined by multiplying prices; no quoted SGP). True 0.28 after a blowout haircut equals implied, so no highlight. It also conflicts with the Under leg, so use one script or the other."
+ },
+ "totals_projection": {
+  "possessions": 98.5,
+  "BKN": 110.2,
+  "CLE": 117.3,
+  "total": 227.5,
+  "line": 229.5,
+  "math": "pace avg(97.1 BKN, 99.9 CLE)=98.5; BKN avg(108.7 ORtg, 115.1 CLE DRtg)x0.985=110.2; CLE avg(119.2, 119.0 BKN DRtg)x0.985=117.3; sum 227.5"
+ },
+ "research": "SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, box scores), Basketball-Reference 2025-26 ratings and logs (via team notes), Covers, FanDuel Research, Bleacher Nation, Dimers, Lineups.com, Sportsmole, SportsGambler, iHeart, Pick Dawgz, Yardbarker.\nLINES: DK (ESPN) CLE -10.5 (-118) / BKN +10.5 (-102), ML CLE -500 / BKN +380, total 229.5 (o -115 / u -105). FanDuel CLE -10.5, total 231.5, ML -450; Covers and Bleacher Nation CLE -11.5, total 231-232.5, ML about +400/-455; Sportsmole total 217.5 looks stale. ESPN predictor CLE 80.3%, Dimers CLE 77.2%.\nTOTALS (NBA.md): pace avg(97.1, 99.9)=98.5; BKN 110.2, CLE 117.3; projected 227.5 vs DK 229.5 (2.0 under, 4.0 under the 231.5 at FanDuel/Covers). Margin CLE +7.1 neutral, about +9.1 with home court, inside the 10.5.\nINJURIES (ESPN): BKN Tyler Bilodeau out (shoulder; Sportsmole says GTD). CLE: nothing listed on ESPN (Jarrett Allen was questionable for the opener, and Tomlin is out with a back problem per Sportsmole). Allen played 28 min on Oct 22.\nFORM: CLE lost its opener 106-114 at PHI after Philadelphia came back from 29 down (Mitchell 32/10/3 on 11-19, Mobley 18/8, Harden 16/3/5, Allen 14/7, Watson 8). BKN lost 103-110 at CHA (Randle 33/8/7 in 38 min, MPJ 26/7 on 10-21, Sharpe 8/8).\nUSAGE (BBR 2025-26): Mitchell 32.2%, Harden 24.0% at CLE (28.6% season), Mobley 22.6%, Allen 19.9%; Porter Jr. 30.5%, Randle 26.5%, Brown Jr. rookie.\nDvP: BKN allows G 8th, F 15th, C 10th (own calc); CLE allows guards 20th, forwards 10th, C 11th (Legion Report, but the 2nd-most rebounds to C). Qualifiers: Mitchell, Harden (vs BKN G 8th), Porter and Randle (vs CLE F 10th).\nHIT RATES: Mitchell 27.9/4.5/5.7 in 70 games: 14+ pts 94.3%, 27+ 61.4%, 3+ ast 95.7%. MPJ 2+ reb in 51 of 52 games, 10+ pts in 94%. Real lines only, so the 93% rungs are not bet.\nPROPS FOUND: Mitchell o26.5 -105 bet365 / -110 Fanatics / -115 Hard Rock (Covers); Lineups.com best bet Mitchell o26.5 (Cavs implied total just under 122); Harden pts 18.5 -115 and Mobley 15.5 -130 Fanatics / 16.5 -105 bet365 (Covers); SportsGambler Porter o21.5 -111, Randle o19.5 -120, Harden u7.5 ast -125 BetMGM (its Mobley/Harden 17.5 differ from Covers, so treated as unconfirmed).\nCOACHING: Cleveland ran 99.9 pace in 2025-26 and defends the paint; Fernandez's Nets were slow (97.1 pace) and worst in offense (108.7 ORtg) in 2025-26, but added Randle and MPJ.\nHOME FIELD: Rocket Arena; Cleveland lost its opener on the road and returns home. CLE added Harden and Watson this offseason, and BKN signed Randle.\nEXPERTS: Dimers flags Nets +11.5 as a 5.3% edge (CLE 123-114); iHeart model Nets +10.5 (110-107); Bleacher Nation CLE -11.5 and Under 231.5 (130-87); SportsGambler Under 231.5; Sportsmole CLE 113-105. Lean CLE straight up, split on the cover, lean Under.\nLESSONS APPLIED: the model's projection margin is inside the number, so the dog is the researched side; the Under is included for the totals model but the star Overs would need a different script, so the SGP is flagged as conflicting.\nCHEMISTRY: Cleveland's Harden-Mitchell backcourt is new this season; Brooklyn's Randle/Porter/Sharpe/Demin group is also new.",
+ "prelock": "ESPN injuries: BKN Bilodeau out; CLE none listed."
+}
