@@ -41,13 +41,13 @@
   },
   {
    "market": "total",
-   "desc": "Under 53.5",
+   "desc": "Under 52.5",
    "team": "",
    "side": "under",
-   "line": 53.5,
-   "odds": -110,
+   "line": 52.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "matchup": 0.54,

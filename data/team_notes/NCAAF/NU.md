@@ -23,10 +23,10 @@ Northwestern (5-1, No. 24) has a stout defense and run game, but a 59.5 total lo
 Sources: ESPN summary/pickcenter.
 
 Legs considered:
-- Under 59.5: Northwestern allows 17 points and runs 191 yards a game, so our projection is about 56.
+- Under 58.5: Northwestern allows 17 points and runs 191 yards a game, so our projection is about 56.
 - Rutgers Scarlet Knights +15.5: Rutgers scores 31 per game and KJ Duff has 9 TD, so 15.5 points is a lot against a run-heavy favorite.
 - Northwestern Wildcats -15.5: Rutgers allows 31.8 points and 185 rush yards, while QB Lonergan has 6 INT.
 
 Our bets:
-- straight (lean): Under 59.5 (-115): pending -> **pending**
-- longshot: Under 59.5 (-115): pending -> **pending**
+- straight (lean): Under 58.5 (-105): pending -> **pending**
+- longshot: Under 58.5 (-105): pending -> **pending**

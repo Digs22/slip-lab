@@ -29,7 +29,7 @@ Sources: ESPN summary/pickcenter/leaders/boxscore, SI betting preview (via searc
 
 Legs considered:
 - Pittsburgh Panthers +20.5: Pitt scores 32.9 and allows 16.4 a game, and Miami's wins over FSU (8) and Wake (13) were close.
-- Over 48.5: Miami alone averages 48.5 points, and SI listed the same total at 50.5 earlier in the week.
+- Over 50.5: Miami alone averages 50.5 points, and SI listed the same total at 50.5 earlier in the week.
 
 Our bets:
 - straight (lean): Pittsburgh Panthers +20.5 (-112): pending -> **pending**

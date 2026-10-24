@@ -31,5 +31,4 @@ Legs considered:
 Our bets:
 - straight: Louisiana Ragin' Cajuns -10 (-108): pending -> **pending**
 - longshot: Louisiana Ragin' Cajuns -10 (-108): pending -> **pending**
-- straight: Louisiana Ragin' Cajuns -10 (-108): pending -> **pending**
 - longshot: Louisiana Ragin' Cajuns -10 (-108): pending -> **pending**

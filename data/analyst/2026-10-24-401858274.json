@@ -23,20 +23,20 @@
   },
   {
    "market": "total",
-   "desc": "Over 48.5",
+   "desc": "Over 50.5",
    "team": "",
    "side": "over",
-   "line": 48.5,
-   "odds": -108,
+   "line": 50.5,
+   "odds": -118,
    "book": "DraftKings",
-   "fair": 0.496,
-   "books": 2,
+   "fair": 0.517,
+   "books": 1,
    "signals": {
     "season": 0.56,
     "matchup": 0.55,
     "weather": 0.5
    },
-   "note": "Miami alone averages 48.5 points, and SI listed the same total at 50.5 earlier in the week."
+   "note": "Miami alone averages 50.5 points, and SI listed the same total at 50.5 earlier in the week."
   }
  ],
  "totals_projection": "Miami 35-38, Pitt 17-20: about 54-56 vs 48.5.",

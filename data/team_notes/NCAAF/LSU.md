@@ -30,7 +30,7 @@ Sources: ESPN summary/pickcenter/leaders/boxscore, SI betting preview, Dimers an
 
 Legs considered:
 - Auburn Tigers +7: Auburn won at Georgia and is home; LSU lost at Ole Miss (32-24) and Kentucky (35-34 OT) on the road.
-- Under 51.5: Both starting QBs have 7 or more INT, and ESPN lists 17 mph gusts at Jordan-Hare.
+- Under 52.5: Both starting QBs have 7 or more INT, and ESPN lists 17 mph gusts at Jordan-Hare.
 - LSU Tigers -7: LSU scores 40.4 and allows 15.9, but needs a margin of 8 on the road.
 
 Our bets:

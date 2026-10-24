@@ -27,8 +27,9 @@ Sources: ESPN summary/pickcenter/leaders/boxscore, SI betting preview and Rotowi
 
 Legs considered:
 - Cincinnati Bearcats +11.5: Cincinnati scores 35.2 PPG and rushes for 231 yards, and SI also likes the Bearcats with 10.5 at BetMGM.
-- Over 56.5: Cincinnati allows 26.8 points and 294 pass yards, and Texas Tech's offense scores 37.8 per game.
+- Over 57.5: Cincinnati allows 26.8 points and 294 pass yards, and Texas Tech's offense scores 37.8 per game.
 
 Our bets:
-- straight (lean): Over 56.5 (-115): pending -> **pending**
-- longshot: Over 56.5 (-115): pending -> **pending**
+- straight: Over 57.5 (-105): pending -> **pending**
+- straight: Over 57.5 (-105): pending -> **pending**
+- longshot: Over 57.5 (-105): pending -> **pending**

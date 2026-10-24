@@ -24,9 +24,9 @@ Sources: ESPN summary/pickcenter, Rotowire, Field Level Media, SportsLine.
 
 Legs considered:
 - West Virginia Mountaineers +10.5: WVU scores 37.6 per game, runs for 272 yards and just beat Cincinnati 45-42, so double digits is a lot.
-- Under 57.5: TCU allows 12.2 points and WVU's rushing offense burns clock, so our projection is about 54.
+- Under 58.5: TCU allows 12.2 points and WVU's rushing offense burns clock, so our projection is about 54.
 - TCU Horned Frogs -10.5: TCU's defense is top-tier, but WVU's offense matches up well against it.
 
 Our bets:
-- straight (lean): Under 57.5 (-105): pending -> **pending**
-- longshot: Under 57.5 (-105): pending -> **pending**
+- straight (lean): TCU Horned Frogs -10.5 (-108): pending -> **pending**
+- longshot: TCU Horned Frogs -10.5 (-108): pending -> **pending**

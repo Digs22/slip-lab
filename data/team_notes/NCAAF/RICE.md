@@ -23,10 +23,10 @@ FAU is 4-2 with a prolific passing attack while 1-6 Rice runs the ball on a QB w
 Sources: ESPN summary/pickcenter.
 
 Legs considered:
-- Rice Owls +8.5: Rice runs 239 yards a game with Jacurri Brown, shortening the game, and FAU allows 218 rush yards.
+- Rice Owls +9.5: Rice runs 239 yards a game with Jacurri Brown, shortening the game, and FAU allows 218 rush yards.
 - Under 53.5: Rice scores 17 and throws for 80 yards a game, so possessions are slow and our projection is about 51.
-- Florida Atlantic Owls -8.5: FAU scores 35 per game with 15 TD from Veltkamp, against a Rice defense allowing 29.
+- Florida Atlantic Owls -9.5: FAU scores 35 per game with 15 TD from Veltkamp, against a Rice defense allowing 29.
 
 Our bets:
-- straight (lean): Florida Atlantic Owls -8.5 (-108): pending -> **pending**
-- longshot: Florida Atlantic Owls -8.5 (-108): pending -> **pending**
+- straight (lean): Rice Owls +9.5 (-110): pending -> **pending**
+- longshot: Rice Owls +9.5 (-110): pending -> **pending**

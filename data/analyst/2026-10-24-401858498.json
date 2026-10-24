@@ -5,13 +5,13 @@
  "extra_legs": [
   {
    "market": "total",
-   "desc": "Under 59.5",
+   "desc": "Under 58.5",
    "team": "",
    "side": "under",
-   "line": 59.5,
-   "odds": -115,
+   "line": 58.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.489,
    "books": 1,
    "signals": {
     "season": 0.55,

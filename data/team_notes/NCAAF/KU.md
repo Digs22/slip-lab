@@ -27,7 +27,7 @@ Sources: ESPN summary/pickcenter (DraftKings lines, team stats, leaders, last-fi
 Legs considered:
 - Baylor Bears ML: Baylor allows 14.7 points and 87 rush yards a game, and Kansas is 0-3 in the Big 12.
 - Baylor Bears -1.5: A +100 price on a team that beats Kansas by any margin of 2 or more.
-- Under 53.5: Baylor's defense is elite on the ground, and its last two games went 23-13 and 17-6.
+- Under 52.5: Baylor's defense is elite on the ground, and its last two games went 23-13 and 17-6.
 
 Our bets:
 - straight (lean): Baylor Bears -1.5 (+100): pending -> **pending**
