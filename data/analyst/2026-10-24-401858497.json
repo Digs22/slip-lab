@@ -1,0 +1,84 @@
+{
+ "summary": "Iowa (5-1) allows 14.5 points a game and is a 7.5-point road favorite after the line moved from -4.5. Most likely to win: Iowa Hawkeyes ML (-285).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Iowa Hawkeyes ML",
+   "team": "Iowa Hawkeyes",
+   "side": null,
+   "line": null,
+   "odds": -285,
+   "book": "DraftKings",
+   "fair": 0.71,
+   "books": 2,
+   "signals": {
+    "season": 0.72,
+    "matchup": 0.7,
+    "recent_form": 0.68,
+    "experts": 0.7
+   },
+   "note": "Iowa scores 31 and allows 14.5 a game with a 194-yard rushing offense; Dimers gives it 72%."
+  },
+  {
+   "market": "spread",
+   "desc": "Iowa Hawkeyes -7.5",
+   "team": "Iowa Hawkeyes",
+   "side": null,
+   "line": -7.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.54,
+    "history": 0.53,
+    "experts": 0.5
+   },
+   "note": "Iowa's run game (194 ypg) meets a Gophers run defense allowing 129, but the line already jumped three points."
+  },
+  {
+   "market": "total",
+   "desc": "Over 40.5",
+   "team": null,
+   "side": "over",
+   "line": 40.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.56,
+    "matchup": 0.53,
+    "weather": 0.49
+   },
+   "note": "Season scoring averages point to about 44, but both teams are run-first and slow, and gusts reach 20 mph."
+  },
+  {
+   "market": "spread",
+   "desc": "Minnesota Golden Gophers +7.5",
+   "team": "Minnesota Golden Gophers",
+   "side": null,
+   "line": 7.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "home": 0.54,
+    "history": 0.53,
+    "season": 0.47
+   },
+   "note": "Minnesota's pass defense allows just 160 a game at home, and the line moved 3 points from the +4.5 open."
+  }
+ ],
+ "totals_projection": {
+  "model": "season points scored/allowed blend: Iowa 26.4, Minnesota 21.7",
+  "projection": 44.0,
+  "posted": 40.5,
+  "note": "Blend says 48, shaded down to 44 for slow pace and wind; lean Over only mildly."
+ },
+ "research": "1. QBs/personnel: Minnesota starts Drake Lindsey (2025: 2,382 yds, 18 TD, 6 INT; Gazette preview). SportsLine lists Iowa QB Hank Brown (shoulder) on its injury page and an undisclosed TE; I could not confirm Iowa's starter or Brown's status.\n2. Injuries: ESPN summary lists none for either team. SportsLine shows Iowa TE Mason Woods undisclosed; the Minnesota list was cut off. Not confirmed.\n3. Stats (ESPN team stats): Iowa 31.0 ppg, 403 yds, 194 rush ypg; allows 14.5 ppg, 293 yds, 84.7 rush ypg. Minnesota 28.8 ppg, 341 yds, 104.8 rush; allows 21.8 ppg, 289 yds, 129 rush, 160 pass.\n4. Scheme: Iowa is run-heavy and defense-first under Ferentz; Minnesota's offense leans on the pass (236 ypg) against an Iowa pass defense allowing 209.\n5. Record: Iowa 5-1, Minnesota 4-2 (ESPN).\n6. Home field: Huntington Bank Stadium, 3:30 PM ET kickoff; Floyd of Rosedale rivalry game.\n7. History: Iowa won 41-3 last year (Gazette); Minnesota won 12-10 in 2024.\n8. Weather (ESPN/AccuWeather): 74F, gusts 20 mph, 24% precipitation chance.\n9. Market (ESPN/DraftKings): Iowa -7.5 (-105), Minnesota +7.5 (-115), moved from Iowa -4.5. ML Iowa -285 / Minnesota +230 (opened -185/+154). Total 40.5 (o-112/u-108), down from 42.5. Dimers shows Iowa -7 at -245/+233, 40.5.\n10. Models: Dimers 72.3% Iowa, projects Iowa 24-17. ESPN matchup predictor gives Iowa 80%.\n11. Betting: SportsLine shows heavy public split on the total (details paywalled).\n12. Limits: no named expert picks, QB status or practice reports for this week found; team notes do not exist for either team.\nSources: ESPN summary/pickcenter (DraftKings), Dimers, SportsLine (snippet), The Gazette."
+}

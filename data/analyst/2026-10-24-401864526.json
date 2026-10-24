@@ -1,0 +1,65 @@
+{
+ "summary": "Winless Northern Illinois (0-6) faces Hawaii (1-6) and both score under 16 a game. Most likely to win: Under 48.5 (-115).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "total",
+   "desc": "Under 48.5",
+   "team": null,
+   "side": "under",
+   "line": 48.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 2,
+   "signals": {
+    "season": 0.57,
+    "matchup": 0.55,
+    "experts": 0.54
+   },
+   "note": "Hawaii scores 15.7 and NIU 14.2 a game, and the total rose 3 points from the 45.5 open."
+  },
+  {
+   "market": "ml",
+   "desc": "Hawai'i Rainbow Warriors ML",
+   "team": "Hawai'i Rainbow Warriors",
+   "side": null,
+   "line": null,
+   "odds": -185,
+   "book": "DraftKings",
+   "fair": 0.622,
+   "books": 2,
+   "signals": {
+    "season": 0.6,
+    "matchup": 0.58,
+    "recent_form": 0.5
+   },
+   "note": "NIU allows 35.7 points and 228 rushing yards a game, but Hawaii's offense also struggles and the line moved 4 points toward NIU."
+  },
+  {
+   "market": "spread",
+   "desc": "Northern Illinois Huskies +3.5",
+   "team": "Northern Illinois Huskies",
+   "side": null,
+   "line": 3.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "home": 0.54,
+    "matchup": 0.5,
+    "season": 0.45
+   },
+   "note": "The line fell from NIU +7.5 to +3.5 with no news found, so the move may already price in Hawaii's edge."
+  }
+ ],
+ "totals_projection": {
+  "model": "season points scored/allowed blend: HAW 25.7, NIU 19.6",
+  "projection": 45.3,
+  "posted": 48.5,
+  "note": "Blend is 3 points under the total; both offenses score under 16."
+ },
+ "research": "1. QBs/personnel: no confirmed starter or status found for either team.\n2. Injuries: ESPN lists none; SportsLine shows key injuries as TBD. Not confirmed.\n3. Stats (ESPN): Hawaii 15.7 ppg, 346 yds, 268 pass, 77 rush; allows 25.0 ppg, 383 yds, 181 rush. NIU 14.2 ppg, 308 yds, 101 rush; allows 35.7 ppg, 416 yds, 228.5 rush.\n4. Records: Hawaii 1-6 with four straight losses (ATS.io); NIU 0-6 (ESPN).\n5. Home field: Huskie Stadium, DeKalb, 3:30 PM ET. Hawaii travels from Honolulu (about 6 hours of time change), so kickoff is 9:30 AM body-clock time.\n6. Weather (ESPN): 68F, gusts 17 mph, no precipitation.\n7. Market (ESPN/DraftKings): HAW -3.5 (-112), NIU +3.5 (-108), opened HAW -7.5. ML HAW -185 / NIU +154 (opened -270/+220). Total 48.5 (o-105/u-115), opened 45.5. Dimers showed HAW -4.5, 44.5, ML -182/+178 (second source).\n8. Models: Dimers projects Hawaii 26-23 and splits the win odds near 50/50 in one view; ATS.io projects Hawaii 29-20 (69%); ESPN predictor Hawaii 55.6%; Kalshi has Hawaii about 62%-70%.\n9. Limits: no named expert picks, QB info or betting splits found.\nSources: ESPN summary/pickcenter, Dimers, ATS.io, Kalshi, SportsLine (snippet)."
+}

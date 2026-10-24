@@ -1,0 +1,67 @@
+{
+ "summary": "Northwestern (5-1, No. 24) has a stout defense and run game, but a 59.5 total looks high. Most likely to win: Under 59.5 (-115).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "total",
+   "desc": "Under 59.5",
+   "team": "",
+   "side": "under",
+   "line": 59.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "season": 0.55,
+    "matchup": 0.55,
+    "coaching": 0.53
+   },
+   "note": "Northwestern allows 17 points and runs 191 yards a game, so our projection is about 56."
+  },
+  {
+   "market": "spread",
+   "desc": "Rutgers Scarlet Knights +15.5",
+   "team": "Rutgers Scarlet Knights",
+   "side": null,
+   "line": 15.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "season": 0.52,
+    "matchup": 0.51,
+    "situational": 0.52
+   },
+   "note": "Rutgers scores 31 per game and KJ Duff has 9 TD, so 15.5 points is a lot against a run-heavy favorite."
+  },
+  {
+   "market": "spread",
+   "desc": "Northwestern Wildcats -15.5",
+   "team": "Northwestern Wildcats",
+   "side": null,
+   "line": -15.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "home": 0.53,
+    "matchup": 0.54
+   },
+   "note": "Rutgers allows 31.8 points and 185 rush yards, while QB Lonergan has 6 INT."
+  }
+ ],
+ "totals_projection": {
+  "model": "ppg/allowed blend",
+  "home": 32.6,
+  "away": 24.1,
+  "total": 56.7,
+  "line": 59.5,
+  "edge": -2.8
+ },
+ "research": "1. QBs: NU Aidan Chiles 98/139, 1,398 yds, 9 TD; Rutgers Dylan Lonergan 74/127, 1,066 yds, 10 TD, 6 INT (ESPN). No QB injury news found.\n2. Injuries: ESPN feed empty; search found nothing current.\n3. Stats (ESPN): NU 33.5 ppg, 191.5 rush yds, allows 17.0 ppg; Rutgers 31.2 ppg, 265.8 pass yds, allows 31.8 ppg and 185 rush.\n4. Records: NU 5-1 (No. 24), Rutgers 2-4.\n5. Scheme: NU run-first (Komolafe 401 yds), clock-controlling; Rutgers pass-heavy with KJ Duff 741 yds, 9 TD.\n6. Home: Ryan Field, noon ET.\n7. Market: DraftKings NU -15.5 (-112/-108), 59.5 (o-105/u-115), ML -750/+525. Only one book found.\n8. Experts: ESPN predictor NU 91.1%. No named picks found.\n9. Weather: not listed.\n10. NU ML -750 below -300 limit.\nSources: ESPN summary/pickcenter."
+}

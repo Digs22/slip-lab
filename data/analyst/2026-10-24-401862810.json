@@ -1,0 +1,65 @@
+{
+ "summary": "North Texas scores 42.2 a game and is a 3-point road favorite at 2-4 Navy, with sharp money showing on the Under. Most likely to win: Under 62.5 (-112).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "total",
+   "desc": "Under 62.5",
+   "team": null,
+   "side": "under",
+   "line": 62.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.56,
+    "experts": 0.54
+   },
+   "note": "Navy runs the ball 298 yards a game and eats clock, and SportsLine shows 77% of the money on the Under."
+  },
+  {
+   "market": "spread",
+   "desc": "Navy Midshipmen +3",
+   "team": "Navy Midshipmen",
+   "side": null,
+   "line": 3,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "home": 0.54,
+    "matchup": 0.54,
+    "season": 0.46
+   },
+   "note": "Navy's option offense limits possessions for North Texas, and the line moved from +1.5 to +3."
+  },
+  {
+   "market": "ml",
+   "desc": "North Texas Mean Green ML",
+   "team": "North Texas Mean Green",
+   "side": null,
+   "line": null,
+   "odds": -155,
+   "book": "DraftKings",
+   "fair": 0.583,
+   "books": 2,
+   "signals": {
+    "season": 0.58,
+    "recent_form": 0.57,
+    "matchup": 0.5
+   },
+   "note": "North Texas is 4-2 with 534 yards a game, but Navy's defense allows only 99 rushing yards."
+  }
+ ],
+ "totals_projection": {
+  "model": "season points scored/allowed blend, shaded for Navy clock control",
+  "projection": 58.0,
+  "posted": 62.5,
+  "note": "Blend is 62.7, shaded 4+ points for Navy's pace; supports the Under."
+ },
+ "research": "1. QBs/personnel: North Texas lost 2025 QB Drew Mestemaker, who followed coach Eric Morris to Oklahoma State (search result), so its 2026 starter was not identified. Navy QB not identified either.\n2. Injuries: ESPN lists none. SportsLine shows UNT WR Corri Milliner and TE Drew Clemens undisclosed; Action Network showed none. No Navy report found.\n3. Stats (ESPN): North Texas 42.2 ppg, 534 yds, 347 pass, 187 rush; allows 29.2 ppg, 356 yds. Navy 28.2 ppg, 414 yds, 298.5 rush, 115.5 pass; allows 25.8 ppg, 346.5 yds, 98.8 rush, 247.7 pass.\n4. Scheme: Navy is a triple-option team that shortens games; North Texas plays fast and throws.\n5. Records: UNT 4-2, Navy 2-4.\n6. History: North Texas won 31-17 in Denton in 2025 (Stripes), ending Navy's 10-game win streak.\n7. Home field: Navy-Marine Corps Memorial Stadium, 3:30 PM ET.\n8. Weather (ESPN): 62F, clear, gusts 10 mph.\n9. Market (ESPN/DraftKings): UNT -3 (-115), Navy +3 (-105), opened UNT -1.5. ML UNT -155 / Navy +130 (opened -122/+102). Total 62.5 (o-108/u-112), opened 61.5.\n10. Betting (SportsLine snippet): 75% of bets on one ML side but only 25% of money; 23% of bets and 77% of money on the Under.\n11. Models: ESPN predictor gives UNT 67.7%.\n12. Limits: no expert picks, QB or practice information found.\nSources: ESPN summary/pickcenter, SportsLine (snippet), Stripes, Action Network."
+}

@@ -1,0 +1,61 @@
+{
+ "summary": "Toledo is a 2.5-point home favorite with the better offense, but Western Michigan's defense and run game keep it close. Most likely to win: WMU +2.5 (-102).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "Western Michigan Broncos +2.5",
+   "team": "Western Michigan Broncos",
+   "side": null,
+   "line": 2.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.483,
+   "books": 1,
+   "signals": {
+    "matchup": 0.56,
+    "season": 0.54,
+    "recent_form": 0.55,
+    "coaching": 0.52
+   },
+   "note": "WMU allows 16.9 points a game, is 3-0 in the MAC and runs the ball for 165 yards a game."
+  },
+  {
+   "market": "ml",
+   "desc": "Western Michigan Broncos ML",
+   "team": "Western Michigan Broncos",
+   "side": null,
+   "line": null,
+   "odds": 120,
+   "book": "DraftKings",
+   "fair": 0.437,
+   "books": 1,
+   "signals": {
+    "matchup": 0.5,
+    "recent_form": 0.52,
+    "season": 0.49
+   },
+   "note": "Plus money on a team whose defense has held five of seven opponents under 22."
+  },
+  {
+   "market": "total",
+   "desc": "Under 47.5",
+   "team": "",
+   "side": "under",
+   "line": 47.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "matchup": 0.53,
+    "season": 0.5,
+    "weather": 0.51
+   },
+   "note": "WMU is a run-first, low-possession offense and Toledo scores mostly through the air."
+  }
+ ],
+ "totals_projection": "Toledo 36.3 ppg vs WMU allowing 16.9 -> TOL ~26.6; WMU 25.0 vs TOL allowing 23.6 -> WMU ~24.3. Raw 51, discounted for WMU's slow run-heavy pace (157 pass yds/g) to about 48 vs 47.5, no total edge.",
+ "research": "1. Home field: Glass Bowl, Toledo, noon kickoff, ~56F, 5 mph gusts, 0% precip (ESPN/AccuWeather). Little weather effect.\n2. Records: both 5-2. TOL 2-1 MAC, WMU 3-0 MAC (ESPN).\n3. Toledo offense 36.3 ppg, 458 yds, 273 pass, 185 rush; defense 23.6 ppg, 322 yds. QB John Alan Richter 144/218, 1,853 yds, 14 TD, 1 INT. RB CJ Miller 426 yds 6 TD, WR Adjatay Dabbs 468 yds 5 TD.\n4. WMU offense 25.0 ppg, 322 yds (157.6 pass, 164.7 rush); defense 16.9 ppg, 336 yds. QB Broc Lowry 100/147, 1,044 yds, 8 TD, 1 INT (68%). RB Jalen Buckley 542 yds 7 TD.\n5. Toledo last five: W 34-14 at EMU, L 8-23 vs Buffalo, W 39-24 at Ball St, W 41-16 SDSU, W 49-48 OT Temple (defense leaked 48).\n6. WMU last five: W 21-14 at CMU, W 38-7 Kent, W 20-17 at Buffalo, L 7-32 Boise, W 28-21 at Rice. Three straight wins, two by 7 or fewer.\n7. QB status: both starters listed as leaders, ESPN lists no injuries for either team; no backup-QB concern found.\n8. Scheme: Toledo spreads it out and throws efficiently (14 TD/1 INT); WMU tries to win with run game and defense, which shortens the game.\n9. Market (DraftKings via ESPN): TOL -2.5 (-118), WMU +2.5 (-102), ML TOL -142 / WMU +120, total 47.5 (o-105 / u-115). TOL was favorite at open.\n10. ESPN matchup predictor: TOL 53%, WMU 47%, nearly the market price.\n11. Analysts: no named pick pages for the 2026 game found in search; not claiming consensus.\n12. Read: even game, WMU +2.5 gets a half-point cushion over a field goal and a stingy defense; mild lean only.\nSources: ESPN summary/pickcenter (DraftKings lines, team stats, leaders, last-five, AccuWeather via ESPN). Web searches returned no current-week previews or other books' lines, so every price is DraftKings only (books=1) and fair is DK no-vig."
+}

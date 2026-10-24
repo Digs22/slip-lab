@@ -1,0 +1,88 @@
+{
+ "summary": "No. 2 BYU (6-0) is a 7.5-point favorite at UCF, which starts Keyone Jenkins with Barnett still out, and gusts near 27 mph are forecast. Most likely to win: BYU ML (-290).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "BYU Cougars ML",
+   "team": "BYU Cougars",
+   "side": null,
+   "line": null,
+   "odds": -290,
+   "book": "DraftKings",
+   "fair": 0.714,
+   "books": 1,
+   "signals": {
+    "season": 0.74,
+    "matchup": 0.7,
+    "injuries": 0.66,
+    "recent_form": 0.7,
+    "experts": 0.7
+   },
+   "note": "BYU is 6-0 allowing 15.2 points with a rushing defense giving up 86 yards, against a UCF team with a backup QB."
+  },
+  {
+   "market": "spread",
+   "desc": "BYU Cougars -7.5",
+   "team": "BYU Cougars",
+   "side": null,
+   "line": -7.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.483,
+   "books": 1,
+   "signals": {
+    "season": 0.56,
+    "matchup": 0.55,
+    "injuries": 0.54,
+    "weather": 0.47
+   },
+   "note": "BYU is 6-0 ATS, but the line already fell from -9.5 to -6.5 at some books so the -7.5 number is fair."
+  },
+  {
+   "market": "spread",
+   "desc": "UCF Knights +7.5",
+   "team": "UCF Knights",
+   "side": null,
+   "line": 7.5,
+   "odds": -118,
+   "book": "DraftKings",
+   "fair": 0.517,
+   "books": 1,
+   "signals": {
+    "home": 0.52,
+    "weather": 0.54,
+    "situational": 0.55,
+    "season": 0.45
+   },
+   "note": "UCF is 3-0 at home with a homecoming crowd, and gusty weather shortens the game and helps a dog."
+  },
+  {
+   "market": "total",
+   "desc": "Under 43.5",
+   "team": "",
+   "side": "under",
+   "line": 43.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "weather": 0.56,
+    "matchup": 0.52,
+    "season": 0.46
+   },
+   "note": "ESPN lists 27 mph gusts and 34% rain, and BYU's defense allows 274 yards, though raw scoring averages sit above the total."
+  }
+ ],
+ "totals_projection": {
+  "BYU": 27.0,
+  "UCF": 20.5,
+  "total": 47.5,
+  "line": 43.5,
+  "margin": "BYU by 6.5",
+  "math": "BYU 33.5 ppg vs UCF D 21.7 -> 27.6; UCF 31.7 vs BYU D 15.2 -> 23.5, cut to 20.5 because UCF gains only 355 ypg and Jenkins has 3 INT. Sum 47.5 vs 43.5 favors the Over, but 27 mph gusts and rain offset it; no total edge."
+ },
+ "research": "1. QBs/personnel: BYU QB Bear Bachmeier is 100/152 (65.8%), 1,257 yds, 9 TD, 2 INT with 284 rush yds and 6 rush TD (ESPN, Deseret). UCF's Alonza Barnett III (hamstring since September) is not starting again; Keyone Jenkins makes his fifth straight start, 83/118, 806 yds, 8 TD, 3 INT (Roundtable, Rotoballer, ESPN).\n2. Injuries: BYU RB LJ Martin (44-344-3 on ESPN) was out 4-6 weeks as of 10/17 and I found no return update; ESPN lists no injuries. No UCF injury beyond Barnett found.\n3. Stats (ESPN): BYU 33.5 ppg, 421 ypg (206.7 rush), allows 15.2 ppg, 274.7 ypg and 86 rush yds. UCF 31.7 ppg, 354.8 ypg, allows 21.7 ppg and 355 ypg (237 pass).\n4. Recent form: BYU beat ND 28-24, ISU 24-10, TCU 17-10, CSU 41-23 and Arizona 28-17. UCF lost 42-28 at OKST, 27-17 at HOU, beat TCU 21-13 and GSU 44-30, then lost 12-7 at Pitt.\n5. Scheme: BYU is run-first with Bachmeier's legs and a front that smothers the run; UCF leans on Duke Watson (70-483) and short passing with Jenkins.\n6. Situational: UCF has never hosted a higher-ranked team (Deseret, On3). Frost calls it a shot at a big homecoming upset. BYU is 6-0 ATS, UCF 4-2 ATS (SI).\n7. Weather (ESPN/AccuWeather): 81F, gusts 27 mph, 34% precipitation, thunderstorm code. Not verified by a second source.\n8. Market: ESPN/DraftKings BYU -7.5 (-102)/UCF +7.5 (-118), ML BYU -290/UCF +235, total 43.5 (-110/-110). SI/BetMGM had BYU -6.5 (-112) with 43.5. BettingPros shows DraftKings moving from -9.5 to -6.5 and the total from 45.5 to 43.5. Legion Report: BYU -7.5, 45.5.\n9. Models/experts: ESPN matchup predictor BYU 71%. I found no named expert pick.\n10. History: BYU beat UCF 41-21 last season (3 TD from LJ Martin); BYU was a 17.5-point favorite then.\n11. Lean: BYU ML is the most likely winner. The spread and total are near fair.\nSources: ESPN summary/pickcenter, Deseret News, Roundtable, Rotoballer, SI/BetMGM, BettingPros, Legion Report, team notes (BYU.md)."
+}

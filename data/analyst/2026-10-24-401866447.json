@@ -1,0 +1,84 @@
+{
+ "summary": "Ball State is a -14.5 favorite after a 5-point move, but it is 2-5 and has never beaten an FBS team by 15; Sacramento State is also awful. Most likely to win: Sacramento State +14.5 (-112).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "Sacramento State Hornets +14.5",
+   "team": "Sacramento State Hornets",
+   "side": null,
+   "line": 14.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.56,
+    "matchup": 0.55,
+    "situational": 0.56,
+    "experts": 0.52
+   },
+   "note": "Ball State's best FBS margin is a 1-point OT win and it allows 37.9 a game, so 14.5 is too many."
+  },
+  {
+   "market": "ml",
+   "desc": "Sacramento State Hornets ML",
+   "team": "Sacramento State Hornets",
+   "side": null,
+   "line": null,
+   "odds": 440,
+   "book": "DraftKings",
+   "fair": 0.178,
+   "books": 1,
+   "signals": {
+    "season": 0.2,
+    "matchup": 0.24,
+    "situational": 0.23
+   },
+   "note": "My margin estimate is about 10 points, which makes an upset closer to 23% than the 18% fair price."
+  },
+  {
+   "market": "total",
+   "desc": "Under 51.5",
+   "team": "",
+   "side": "under",
+   "line": 51.5,
+   "odds": -118,
+   "book": "DraftKings",
+   "fair": 0.517,
+   "books": 1,
+   "signals": {
+    "season": 0.52,
+    "matchup": 0.5,
+    "recent_form": 0.52
+   },
+   "note": "Sacramento State scores 15.0 a game, but Ball State games average 58 points, so this is only a small lean."
+  },
+  {
+   "market": "total",
+   "desc": "Over 51.5",
+   "team": "",
+   "side": "over",
+   "line": 51.5,
+   "odds": -102,
+   "book": "DraftKings",
+   "fair": 0.483,
+   "books": 1,
+   "signals": {
+    "season": 0.5,
+    "matchup": 0.5
+   },
+   "note": "Ball State games average 58 points because its defense allows 37.9, though Sacramento State rarely scores."
+  }
+ ],
+ "totals_projection": {
+  "method": "avg(team PPG, opp PPA)",
+  "BALL": 27.0,
+  "SAC": 21.0,
+  "total": 48.0,
+  "line": 51.5,
+  "math": "BALL avg(20.3,32.7)=26.5; SAC avg(15.0,37.9)=26.5, shaded to 21 because SAC's offense only scored 3-17 vs FBS; sum about 48"
+ },
+ "research": "1. Home/environment: Scheumann Stadium in Muncie is turf; 3:30 pm ET, 70F, 7 mph gusts, no rain (AccuWeather via ESPN). Ball State is 2-5, Sacramento State 1-6 (0-4 in conference).\n2. History: no recent series found; SAC beat nobody in FBS this year (lost to EMU 17-28, FRES 3-49, BGSU 10-38, OHIO 7-48). Ball State beat BGSU 32-31 in OT last week at BGSU.\n3. Line movement (ESPN/DraftKings): spread opened BALL -9.5 and closed -14.5 (-108/-112); total 49.5 to 51.5; ML -360/+285 to -600/+440. Older web snapshots (Dimers -9.5, Legion Report -11.5) are stale.\n4. Stats (ESPN): Ball State 20.3 PPG for, 37.9 against (rush 135 ypg at 4.3 ypc); Sacramento State 15.0 PPG for, 32.7 against, 3.5 ypc, 107.6 rush ypg.\n5. QBs: Ball State Keldric Luster 119-184, 1,066 yds, 7 TD, 4 INT; Sacramento State Jackson Sharman 106-191 (55%), 1,070 yds, 6 TD, 6 INT. No backup/injury info found.\n6. Skill players: BALL RB TJ Horton 392 yds, 7 TD; WR Donovan Hamilton 273 yds. SAC WR Matt Coleman 473 yds, 4 TD; RB Isaiah Ene 246 yds.\n7. Results vs FBS: Ball State margins -53, -36, -13, -15, -31, +1 (BGSU); Sacramento State -11, -46, -21, -29, -28, -41. Gap of about 8 neutral plus 2.5 home gives roughly -10.5, not -14.5.\n8. Totals: Ball State games average 58 combined points, Sacramento State games 48; the total is near fair, so no strong total edge. DK shows Under -118 (shaded).\n9. Experts/model: ESPN matchup predictor gives Ball State 87.4%; Kalshi shows 79-83% for Ball State per search snippets; Dimers 84%. Market ML -600 implies about 82% no-vig.\n10. Coaching: no coach news found; both teams are in weak shape, so garbage-time scoring by the dog is plausible.\n11. Verdict: lean Sacramento State +14.5 and the ML as a small-stake value dog; the total is a pass-level lean.\nSources: ESPN summary/pickcenter (DraftKings lines open/close), ESPN team stats and schedule, ESPN matchup predictor, AccuWeather via ESPN. Web previews for 10/24 were not found; only DraftKings pricing was available (books=1), so fair values are no-vig from DK's two sides. ESPN lists no injuries and no coach/QB news; lineups unconfirmed. No team notes exist for these teams yet."
+}

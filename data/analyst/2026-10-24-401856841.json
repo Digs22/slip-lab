@@ -1,0 +1,67 @@
+{
+ "summary": "TCU has an elite defense (12.2 ppg) while WVU's run game gains 272 yards a game. Most likely to win: West Virginia Mountaineers +10.5 (-112).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "West Virginia Mountaineers +10.5",
+   "team": "West Virginia Mountaineers",
+   "side": null,
+   "line": 10.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.49,
+   "books": 2,
+   "signals": {
+    "season": 0.55,
+    "matchup": 0.54,
+    "recent_form": 0.54,
+    "home": 0.46
+   },
+   "note": "WVU scores 37.6 per game, runs for 272 yards and just beat Cincinnati 45-42, so double digits is a lot."
+  },
+  {
+   "market": "total",
+   "desc": "Under 57.5",
+   "team": "",
+   "side": "under",
+   "line": 57.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 2,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.54
+   },
+   "note": "TCU allows 12.2 points and WVU's rushing offense burns clock, so our projection is about 54."
+  },
+  {
+   "market": "spread",
+   "desc": "TCU Horned Frogs -10.5",
+   "team": "TCU Horned Frogs",
+   "side": null,
+   "line": -10.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.51,
+   "books": 2,
+   "signals": {
+    "season": 0.52,
+    "home": 0.53,
+    "matchup": 0.5
+   },
+   "note": "TCU's defense is top-tier, but WVU's offense matches up well against it."
+  }
+ ],
+ "totals_projection": {
+  "model": "ppg/allowed blend",
+  "home": 29.0,
+  "away": 24.9,
+  "total": 53.9,
+  "line": 57.5,
+  "edge": -3.6
+ },
+ "research": "1. QBs: WVU Michael Hawkins Jr. 83/144, 1,519 yds, 10 TD, 1 INT and 14 rush TD (Field Level Media); TCU Jaden Craig 129/193, 1,694 yds, 10 TD, 5 INT (ESPN).\n2. Injuries: SportsLine lists WVU key injuries as TBD; ESPN feed empty.\n3. Stats (ESPN): WVU 37.6 ppg, 497 yds (272 rush), allows 34.0 ppg and 310 pass yds; TCU 24.0 ppg, allows 12.2 ppg, 264 yds, 92 rush.\n4. Records: WVU 4-3 (1-3 Big 12), TCU 3-3.\n5. Scheme: WVU run-heavy with Cam Cook 833 yds; TCU pass-first with a strong front.\n6. Home: Amon G. Carter Stadium, noon ET.\n7. Market: DraftKings TCU -10.5 (-108/-112), 57.5 (o-115/u-105), ML -395/+310; Rotowire TCU -8.5, 56.5, ML -333/+244, so the line is moving toward TCU.\n8. Experts: ESPN predictor TCU 79.8%.\n9. Weather: not listed.\n10. TCU ML -395 below -300 limit.\nSources: ESPN summary/pickcenter, Rotowire, Field Level Media, SportsLine."
+}

@@ -1,0 +1,68 @@
+{
+ "summary": "No. 9 UCLA (6-0, 6-0 ATS) is a 15.5-point favorite using backup QB Ty Dieffenbach, who has scored 17 in each of the last two games. Most likely to win: Michigan State +15.5 (-112).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "spread",
+   "desc": "Michigan State Spartans +15.5",
+   "team": "Michigan State Spartans",
+   "side": null,
+   "line": 15.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "matchup": 0.57,
+    "recent_form": 0.56,
+    "injuries": 0.55,
+    "season": 0.5
+   },
+   "note": "UCLA has scored 17 in each of its last two games with a backup QB, so 15.5 asks for a bigger offense than it shows."
+  },
+  {
+   "market": "total",
+   "desc": "Under 44.5",
+   "team": "",
+   "side": "under",
+   "line": 44.5,
+   "odds": -118,
+   "book": "DraftKings",
+   "fair": 0.517,
+   "books": 1,
+   "signals": {
+    "matchup": 0.55,
+    "season": 0.54,
+    "recent_form": 0.55
+   },
+   "note": "UCLA allows 16.2 points and runs the ball for 231 yards a game, and Michigan State scores only 21.3."
+  },
+  {
+   "market": "spread",
+   "desc": "UCLA Bruins -15.5",
+   "team": "UCLA Bruins",
+   "side": null,
+   "line": -15.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "season": 0.5,
+    "home": 0.54,
+    "recent_form": 0.42
+   },
+   "note": "UCLA is 6-0 ATS, but the offense has stalled at 17 points in each of its last two games."
+  }
+ ],
+ "totals_projection": {
+  "UCLA": 27.0,
+  "MSU": 16.0,
+  "total": 43.0,
+  "line": 44.5,
+  "margin": "UCLA by 11",
+  "math": "UCLA 35.5 ppg vs MSU D 25.4 -> 30.5, cut to 27 after 17-point games with Dieffenbach; MSU 21.3 vs UCLA D 16.2 -> 18.8, cut to 16 (MSU ypg 310). Sum 43.0, 1.5 under; margin 11 vs 15.5."
+ },
+ "research": "1. QBs/personnel: UCLA QB Nico Iamaleava is out (surgery likely, per Chesney). Ty Dieffenbach (former third-string, Cal Poly transfer) went 22/33 for 264 yds in the 17-7 win over Wisconsin (Spectrum/ABC7). MSU QB Alessio Milivojevic is 121/185, 1,263 yds, 7 TD, 3 INT; RB Jaziun Patterson 76-327-5 (ESPN).\n2. Injuries: ESPN lists none. UCLA's earlier OUT list (S Tao Johnson, WR Mikey Matthews) is from the team notes.\n3. Stats (ESPN): UCLA 35.5 ppg, 445.8 ypg (231 rush), allows 16.2 ppg and 97.7 rush yds. MSU 21.3 ppg, 310.7 ypg, allows 25.4 ppg, 342.6 ypg and 140.7 rush yds.\n4. Recent form: UCLA beat SDSU 28-10, Purdue 52-38, Maryland 54-3, Oregon 17-15 (7 Oregon turnovers), Wisconsin 17-7. MSU lost to Northwestern 24-21, Illinois 38-37 OT, Wisconsin 31-3, Nebraska 31-13 and ND 27-10; it is 0-4 in the Big Ten.\n5. Scheme: Chesney's UCLA is run-first and clock-controlling (Wayne Knight 84-571-11 TD); the defense wins with a four-man rush. MSU's run D allows 140.7 yds, so UCLA should control the ground.\n6. Home field: Rose Bowl, 3:30 PM ET on CBS.\n7. Weather (ESPN/AccuWeather): 73F, clear, gusts 6 mph. No effect.\n8. Market: ESPN/DraftKings UCLA -15.5 (-108)/MSU +15.5 (-112), ML -700/+500, total 44.5 (o-102/u-118). SI/BetMGM had UCLA -14 (-108), ML -625/+475, total 44.5. Dimers UCLA -13.5. The line is higher than the other snapshots, so +15.5 is the best number found.\n9. Models/experts: ESPN predictor UCLA 83.6%. Dimers UCLA 82.5%, about 29-16. SI notes UCLA 6-0 ATS and MSU 7-3 ATS in its last 10.\n10. History: UCLA won 38-13 at East Lansing last season (Iamaleava 3 TD).\n11. Lean: MSU +15.5 is the most likely leg to win; UCLA's offense has not scored more than 17 in two games and MSU's loss margins are mostly under 15 except at Wisconsin. Under 44.5 has a market-agreeing -118 price.\nSources: ESPN summary/pickcenter, Spectrum News/ABC7, Field Level Media, SI/BetMGM, Dimers, team notes (UCLA.md)."
+}

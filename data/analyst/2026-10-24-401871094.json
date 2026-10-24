@@ -1,0 +1,68 @@
+{
+ "summary": "Troy is an 11.5-point home favorite after the spread fell from 17.5, and ULM is 0-6 allowing 41 a game. Most likely to win: Over 49.5 (-112).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "total",
+   "desc": "Over 49.5",
+   "team": "",
+   "side": "over",
+   "line": 49.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "season": 0.57,
+    "matchup": 0.58,
+    "recent_form": 0.55,
+    "weather": 0.5
+   },
+   "note": "ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 49.5 by five."
+  },
+  {
+   "market": "spread",
+   "desc": "Troy Trojans -11.5",
+   "team": "Troy Trojans",
+   "side": null,
+   "line": -11.5,
+   "odds": -112,
+   "book": "DraftKings",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "home": 0.55,
+    "season": 0.54,
+    "matchup": 0.54,
+    "situational": 0.48
+   },
+   "note": "Troy's FBS margin edge over ULM suggests 14-17 points, but the line fell 6 points, which may signal injury news."
+  },
+  {
+   "market": "spread",
+   "desc": "UL Monroe Warhawks +11.5",
+   "team": "UL Monroe Warhawks",
+   "side": null,
+   "line": 11.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "situational": 0.54,
+    "season": 0.42
+   },
+   "note": "The 6-point drop from 17.5 shows money on the Warhawks, and only 12 of Troy's points came against FBS foes in its last three losses."
+  }
+ ],
+ "totals_projection": {
+  "method": "avg(team PPG, opp PPA)",
+  "TROY": 32.7,
+  "ULM": 22.8,
+  "total": 55.5,
+  "line": 49.5,
+  "math": "TROY avg(24.3,41.2)=32.7; ULM avg(20.0,25.5)=22.8; sum 55.5 (wind gusts 18 mph may trim passing)"
+ },
+ "research": "1. Home/environment: Veterans Memorial Stadium in Troy, AL (turf); 4:00 pm ET, 75F, wind gusts to 18 mph, no rain (AccuWeather via ESPN). Troy 3-3 (1-1 Sun Belt), ULM 0-6 (0-2).\n2. Line movement (DraftKings via ESPN): spread opened TROY -17.5, now -11.5 (-112/-108); total opened 50.5, now 49.5; ML -1100/+700 to -575/+425. A six-point move toward ULM is unexplained by anything I could find (ESPN lists no injuries); possible Troy QB or lineup news.\n3. Stats (ESPN): Troy 24.3 PPG for, 25.5 against, rush 204.7 ypg at 5.1 ypc. ULM 20.0 PPG for, 41.2 against (62 from MSST, 52 from USA, 45 from FAU), rush 120.5 ypg.\n4. QBs: Troy Goose Crowder 96-169 (57%), 1,112 yds, 9 TD, 4 INT; WR TK Keyes 282 yds, RB Gavin Griffin 359 yds; Donnie Smith 5 sacks. ULM Aidan Armenta 83-131 (63%), 974 yds, 6 TD, 3 INT; WR Marcellus Jackson 265 yds; RB Austin Carlisle 230 yds.\n5. Recent form: Troy beat Alabama State 34-17 and Southern Miss 55-34; lost 17-27 at Missouri, 10-21 at Utah State and 6-33 at Louisiana. ULM lost 20-26 at UAB, 35-38 to SE Louisiana, 17-45 to FAU, 35-52 at South Alabama and 0-24 to Louisiana Tech.\n6. FBS margins: Troy about -7 (MIZ -10, USU -11, USM +21, UL -27); ULM about -21. That gap plus home field is 14-17 points, which agrees with the open of 17.5.\n7. History: ULM hosted Troy in October 2025 (Troy -6, total 45.5, Action Network).\n8. Scheme (from stats): Troy is run-first (205 ypg, 5.1 ypc, 5 sacks from Smith); ULM's defense is the worst of the five teams here at 41.2 allowed.\n9. Experts/model: ESPN matchup predictor gives Troy 91.4%; ML -575 is about 84% no-vig. No named picks found.\n10. Totals: ULM games average about 61 points, Troy games about 50; projection 55.5 vs 49.5. Wind gusts of 18 mph are a mild concern for the Over.\n11. Verdict: Over 49.5 is the researched lean; the spread has uncertainty from the big line move.\nSources: ESPN summary/pickcenter (DraftKings lines open/close), ESPN team stats and schedule, ESPN matchup predictor, AccuWeather via ESPN. Web previews for 10/24 were not found; only DraftKings pricing was available (books=1), so fair values are no-vig from DK's two sides. ESPN lists no injuries and no coach/QB news; lineups unconfirmed. No team notes exist for these teams yet."
+}

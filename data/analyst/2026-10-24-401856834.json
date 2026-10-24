@@ -1,0 +1,62 @@
+{
+ "summary": "Baylor is a 1.5-point road favorite with a strong run defense, but QB DJ Lagway has an ankle issue. Most likely to win: Baylor ML (-115).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Baylor Bears ML",
+   "team": "Baylor Bears",
+   "side": null,
+   "line": null,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "matchup": 0.57,
+    "season": 0.56,
+    "recent_form": 0.52,
+    "injuries": 0.47,
+    "home": 0.46
+   },
+   "note": "Baylor allows 14.7 points and 87 rush yards a game, and Kansas is 0-3 in the Big 12."
+  },
+  {
+   "market": "spread",
+   "desc": "Baylor Bears -1.5",
+   "team": "Baylor Bears",
+   "side": null,
+   "line": -1.5,
+   "odds": 100,
+   "book": "DraftKings",
+   "fair": 0.478,
+   "books": 1,
+   "signals": {
+    "matchup": 0.55,
+    "season": 0.55,
+    "injuries": 0.46
+   },
+   "note": "A +100 price on a team that beats Kansas by any margin of 2 or more."
+  },
+  {
+   "market": "total",
+   "desc": "Under 53.5",
+   "team": "",
+   "side": "under",
+   "line": 53.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "matchup": 0.54,
+    "weather": 0.5,
+    "recent_form": 0.53
+   },
+   "note": "Baylor's defense is elite on the ground, and its last two games went 23-13 and 17-6."
+  }
+ ],
+ "totals_projection": "Baylor 30.0 ppg vs KU allowing 24.0 -> ~27.0; Kansas 32.0 ppg vs BAY allowing 14.7 -> ~23.4. Total ~50 vs 53.5, lean Under about 3.5 points.",
+ "research": "1. Home field: David Booth Kansas Memorial Stadium, noon CT, 71F, 16 mph gusts, 0% precip (ESPN/AccuWeather); wind is a mild drag on deep passing.\n2. Records: BAY 4-2 (2-1 Big 12), KU 2-4 (0-3 Big 12).\n3. Baylor offense 30.0 ppg, 436 yds (286 pass, 150 rush); defense 14.7 ppg, 327 yds, only 86.7 rush yds and 240 pass yds allowed.\n4. Kansas offense 32.0 ppg, 450 yds (207 rush); defense 24.0 ppg, 349 yds, 174 rush yds allowed.\n5. QBs: Baylor DJ Lagway 93/186 (50%), 1,116 yds, 8 TD, 3 INT; SI reports he was still dealing with an ankle injury after the 17-6 TCU loss and missed an earlier game. Kansas Isaiah Marshall 88/167, 1,294 yds, 9 TD, 5 INT.\n6. Skill players: BAY WR Gavin Freeman 555 yds, RB Dawson Pendergrass 327. KU RB Dylan Edwards 375 yds 4 TD, WR Nik McMillan 400 yds.\n7. Baylor last five: L 6-17 TCU, W 55-19 at ASU, W 23-13 Colorado, W 36-19 LT, W 44-3 PV.\n8. Kansas last five: L 24-35 at K-State, L 24-41 at Utah, W 55-0 MTSU, L 17-24 ASU, L 21-38 Missouri. Kansas has lost to every power-conference opponent.\n9. Market (DraftKings via ESPN): BAY -1.5 (+100), KU +1.5 (-120), ML BAY -115 / KU -105, total 53.5 (-110/-110). The ML and spread prices are near a pick-em.\n10. ESPN matchup predictor: Baylor 61.2%, Kansas 38.8%, well above the market's 51%.\n11. Risk: Lagway's ankle is the main uncertainty, and ESPN lists no official injuries; a backup QB would change this.\n12. Analysts: SI game-time article only, no named picks found.\nSources: ESPN summary/pickcenter (DraftKings lines, team stats, leaders, last-five, AccuWeather via ESPN). Web searches returned no current-week previews or other books' lines, so every price is DraftKings only (books=1) and fair is DK no-vig."
+}

@@ -6,6 +6,31 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-24: at Mississippi State Bulldogs
+
+Oklahoma is a 2.5-point road favorite, and Mississippi State's QB Kamario Taylor was still day-to-day this week. Most likely to win: Under 47.5 (-105).
+
+1. QBs/personnel: Mississippi State QB Kamario Taylor (foot injury since Missouri, hobbled vs Alabama) missed the 31-0 loss at LSU. Lebby called him day-to-day and deferred to the SEC availability report (SaturdayDownSouth, Field Level Media). Parker Puckett was 16-of-26 for 121 yards and a pick in his first start. AJ Swann is the other option (team notes). Oklahoma's John Mateer threw 3 INT vs Kentucky (SI). Final status not confirmed.
+2. Injuries: ESPN summary lists none. RB Fluff Bothwell missed LSU and was expected back. Oklahoma's offensive line was thin before this week (three doubtful vs Kentucky); a current report was not found.
+3. Stats (ESPN): Oklahoma 21.3 ppg, 311 yds, 92.5 rush ypg; allows 18.2 ppg, 261 yds, 151 pass. Mississippi State 32.5 ppg, 454 yds, 278 pass; allows 28.5 ppg, 380 yds, 265 pass.
+4. Scheme (team notes): OU defense ranked No. 1 in adjusted EPA/play per SI earlier in the year; offense is bottom tier in success rate. Lebby runs tempo; MSST defense is leaky through the air.
+5. Record: OU 3-3 (lost to Kentucky 21-13 last week), MSST 4-2 (lost 31-0 at LSU).
+6. Home field: Davis Wade Stadium, 3:30 PM ET kickoff.
+7. Weather (ESPN): 77F, clear, gusts 14 mph.
+8. Market (ESPN/DraftKings): OU -2.5 (-105), MSST +2.5 (-115), opened OU -1.5. ML OU -135 / MSST +114. Total 47.5 (o-115/u-105), opened 46.5. SI earlier showed OU -3.5, 46.5; BetMGM OU -2.5 (-165 shown for ML).
+9. Models: Kalshi gives OU 61%; BetMGM model OU 54.8%; ESPN matchup predictor OU 56%. SI said a Taylor return would move the line toward MSST.
+10. Limits: no practice report after Oct 21 and no betting splits found. Everything on Taylor is stale; check the availability report before betting.
+Sources: ESPN summary/pickcenter, SaturdayDownSouth, Field Level Media, SI, BetMGM, Kalshi, team notes.
+
+Legs considered:
+- Under 47.5: Oklahoma's offense gains 92 rushing yards a game and its defense allows 18; Mississippi State may start a backup QB.
+- Mississippi State Bulldogs +2.5: Home dog getting a field goal, but it depends on Taylor playing; the backup was 16-of-26 for 121 yards and a pick at LSU.
+- Oklahoma Sooners ML: Oklahoma has the better defense, but Mateer threw 3 INT against Kentucky and the offense is thin on the line.
+
+Our bets:
+- straight (lean): Under 47.5 (-105): pending -> **pending**
+- longshot: Under 47.5 (-105): pending -> **pending**
+
 ### 2026-10-17: vs Kentucky Wildcats (final: UK 21, OU 13)
 
 Oklahoma's offense is struggling and three offensive linemen are doubtful, but its defense is elite. Kentucky has a strong offense and is missing several defenders.

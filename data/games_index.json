@@ -650,6 +650,114 @@
   "league": "NFL",
   "start": "2026-10-23T00:15Z"
  },
+ "401873011": {
+  "away": "PIT",
+  "away_name": "Pittsburgh Steelers",
+  "date": "2026-10-25",
+  "home": "NO",
+  "home_name": "New Orleans Saints",
+  "league": "NFL",
+  "start": "2026-10-25T13:30Z"
+ },
+ "401873012": {
+  "away": "CIN",
+  "away_name": "Cincinnati Bengals",
+  "date": "2026-10-25",
+  "home": "BAL",
+  "home_name": "Baltimore Ravens",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873013": {
+  "away": "CLE",
+  "away_name": "Cleveland Browns",
+  "date": "2026-10-25",
+  "home": "TEN",
+  "home_name": "Tennessee Titans",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873014": {
+  "away": "IND",
+  "away_name": "Indianapolis Colts",
+  "date": "2026-10-25",
+  "home": "MIN",
+  "home_name": "Minnesota Vikings",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873015": {
+  "away": "MIA",
+  "away_name": "Miami Dolphins",
+  "date": "2026-10-25",
+  "home": "NYJ",
+  "home_name": "New York Jets",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873016": {
+  "away": "NYG",
+  "away_name": "New York Giants",
+  "date": "2026-10-25",
+  "home": "HOU",
+  "home_name": "Houston Texans",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873017": {
+  "away": "SF",
+  "away_name": "San Francisco 49ers",
+  "date": "2026-10-25",
+  "home": "ATL",
+  "home_name": "Atlanta Falcons",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873018": {
+  "away": "TB",
+  "away_name": "Tampa Bay Buccaneers",
+  "date": "2026-10-25",
+  "home": "CAR",
+  "home_name": "Carolina Panthers",
+  "league": "NFL",
+  "start": "2026-10-25T17:00Z"
+ },
+ "401873019": {
+  "away": "DEN",
+  "away_name": "Denver Broncos",
+  "date": "2026-10-25",
+  "home": "ARI",
+  "home_name": "Arizona Cardinals",
+  "league": "NFL",
+  "start": "2026-10-25T20:05Z"
+ },
+ "401873020": {
+  "away": "GB",
+  "away_name": "Green Bay Packers",
+  "date": "2026-10-25",
+  "home": "DET",
+  "home_name": "Detroit Lions",
+  "league": "NFL",
+  "start": "2026-10-25T20:25Z"
+ },
+ "401873021": {
+  "away": "LAR",
+  "away_name": "Los Angeles Rams",
+  "date": "2026-10-25",
+  "home": "LV",
+  "home_name": "Las Vegas Raiders",
+  "league": "NFL",
+  "start": "2026-10-25T20:25Z"
+ },
+ "401873022": {
+  "away": "KC",
+  "away_name": "Kansas City Chiefs",
+  "date": "2026-10-26",
+  "home": "SEA",
+  "home_name": "Seattle Seahawks",
+  "league": "NFL",
+  "start": "2026-10-26T00:20Z"
+ },
  "401908025": {
   "away": "TB",
   "away_name": "Tampa Bay Rays",
@@ -1049,6 +1157,69 @@
   "home_name": "Phoenix Suns",
   "league": "NBA",
   "start": "2026-10-25T02:00Z"
+ },
+ "401909861": {
+  "away": "LAL",
+  "away_name": "Los Angeles Lakers",
+  "date": "2026-10-25",
+  "home": "UTAH",
+  "home_name": "Utah Jazz",
+  "league": "NBA",
+  "start": "2026-10-25T21:00Z"
+ },
+ "401909862": {
+  "away": "IND",
+  "away_name": "Indiana Pacers",
+  "date": "2026-10-25",
+  "home": "BKN",
+  "home_name": "Brooklyn Nets",
+  "league": "NBA",
+  "start": "2026-10-25T22:00Z"
+ },
+ "401909863": {
+  "away": "ORL",
+  "away_name": "Orlando Magic",
+  "date": "2026-10-25",
+  "home": "NY",
+  "home_name": "New York Knicks",
+  "league": "NBA",
+  "start": "2026-10-25T23:00Z"
+ },
+ "401909864": {
+  "away": "TOR",
+  "away_name": "Toronto Raptors",
+  "date": "2026-10-25",
+  "home": "MIN",
+  "home_name": "Minnesota Timberwolves",
+  "league": "NBA",
+  "start": "2026-10-25T23:00Z"
+ },
+ "401909865": {
+  "away": "LAC",
+  "away_name": "LA Clippers",
+  "date": "2026-10-25",
+  "home": "OKC",
+  "home_name": "Oklahoma City Thunder",
+  "league": "NBA",
+  "start": "2026-10-25T23:00Z"
+ },
+ "401909866": {
+  "away": "DET",
+  "away_name": "Detroit Pistons",
+  "date": "2026-10-25",
+  "home": "PHI",
+  "home_name": "Philadelphia 76ers",
+  "league": "NBA",
+  "start": "2026-10-25T23:30Z"
+ },
+ "401909867": {
+  "away": "MEM",
+  "away_name": "Memphis Grizzlies",
+  "date": "2026-10-26",
+  "home": "SAC",
+  "home_name": "Sacramento Kings",
+  "league": "NBA",
+  "start": "2026-10-26T01:00Z"
  },
  "401915392": {
   "away": "ATM",

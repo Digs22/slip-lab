@@ -1,0 +1,66 @@
+{
+ "summary": "Georgia Tech is a 6-point home favorite after the line moved from -4.5, and Boston College allows 160 rushing yards a game. Most likely to win: Georgia Tech Yellow Jackets ML (-238).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "ml",
+   "desc": "Georgia Tech Yellow Jackets ML",
+   "team": "Georgia Tech Yellow Jackets",
+   "side": null,
+   "line": null,
+   "odds": -238,
+   "book": "DraftKings",
+   "fair": 0.675,
+   "books": 2,
+   "signals": {
+    "home": 0.66,
+    "season": 0.62,
+    "matchup": 0.64,
+    "recent_form": 0.5
+   },
+   "note": "Georgia Tech scores 26.7 a game with a 255-yard passing attack at home, though it is only 2-4."
+  },
+  {
+   "market": "spread",
+   "desc": "Boston College Eagles +6",
+   "team": "Boston College Eagles",
+   "side": null,
+   "line": 6,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "season": 0.52,
+    "recent_form": 0.54,
+    "matchup": 0.5
+   },
+   "note": "Boston College is 3-3 and the line moved 1.5 points toward Georgia Tech; Tech allows 179 rushing yards."
+  },
+  {
+   "market": "total",
+   "desc": "Under 50.5",
+   "team": null,
+   "side": "under",
+   "line": 50.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.52,
+    "weather": 0.5
+   },
+   "note": "Season averages blend to about 48.7, and the total rose a point from the open."
+  }
+ ],
+ "totals_projection": {
+  "model": "season points scored/allowed blend: GT 24.9, BC 23.8",
+  "projection": 48.7,
+  "posted": 50.5,
+  "note": "Blend is about 2 points under the posted total."
+ },
+ "research": "1. QBs/personnel: no confirmed starter or status found for either team (searches returned only 2025 items). Georgia Tech's offense throws for 254.7 ypg.\n2. Injuries: ESPN summary lists none. SportsLine shows a Boston College RB and WR on its injury list, names cut off. Not confirmed.\n3. Stats (ESPN): Georgia Tech 26.7 ppg, 382 yds, 127 rush; allows 27.2 ppg, 392 yds, 179 rush, 213 pass. Boston College 20.3 ppg, 355 yds, 145 rush, 210 pass; allows 23.0 ppg, 329 yds, 160 rush, 169 pass.\n4. Records: GT 2-4, BC 3-3 (ESPN).\n5. Home field: Bobby Dodd Stadium, 3:30 PM ET.\n6. Weather (ESPN): 69F, clear, gusts 17 mph.\n7. Market (ESPN/DraftKings): GT -6 (-112), BC +6 (-108), opened GT -4.5. ML GT -238 / BC +195 (opened -192/+160). Total 50.5 (-110/-110), opened 49.5. Dimers had GT -4.5 and 47.5 earlier; Legion Report 49.5.\n8. Models: Dimers 63.9% GT, projects GT 27-23; ESPN predictor GT 67.7%.\n9. Betting (SportsLine snippet): about 72% of bets on the Under but 95% of money on the Over (side not confirmed from the snippet).\n10. Limits: no beat-writer or expert picks found; 2025 and older articles ignored.\nSources: ESPN summary/pickcenter, Dimers, SportsLine (snippet), Legion Report."
+}

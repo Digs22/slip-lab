@@ -1,0 +1,45 @@
+{
+ "summary": "Both MAC teams are struggling (Akron 1-6, Kent 2-5) with turnover-prone QBs and Kent scoring 12 points a game. Most likely to win: Under 47.5 (-105).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "market": "total",
+   "desc": "Under 47.5",
+   "team": "",
+   "side": "under",
+   "line": 47.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "matchup": 0.57,
+    "recent_form": 0.57,
+    "season": 0.54,
+    "weather": 0.5
+   },
+   "note": "Kent has scored 9.6 points a game over its last five and both QBs have 14 combined INT."
+  },
+  {
+   "market": "spread",
+   "desc": "Akron Zips +3",
+   "team": "Akron Zips",
+   "side": null,
+   "line": 3,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "matchup": 0.52,
+    "season": 0.5,
+    "recent_form": 0.46,
+    "home": 0.46
+   },
+   "note": "Kent's offense is 12.0 points a game, so Akron needs only to stay within a field goal."
+  }
+ ],
+ "totals_projection": "Kent 12.0 ppg vs AKR allowing 32.4 -> ~22; Akron 18.9 ppg vs KENT allowing 32.0 -> ~25.5, raw 47.7. Recent form (Kent 9.6 ppg last five, Akron 14.2) puts it near 40, so lean Under 47.5.",
+ "research": "1. Home field: Zoeller Field at Dix Stadium, 1 PM, 61F, 6 mph gusts, 0% precip (ESPN/AccuWeather); no weather impact.\n2. Records: Akron 1-6 (0-3 MAC, five straight losses), Kent State 2-5 (1-2 MAC).\n3. Akron offense 18.9 ppg, 340 yds; defense 32.4 ppg, 418 yds, 200 rush yds allowed. QB Brayden Roggow 92/156, 1,068 yds, 7 TD, 8 INT. RB Jordan Gant 456 yds.\n4. Kent offense 12.0 ppg, 273 yds (171 pass, 103 rush); defense 32.0 ppg, 364 yds. QB Dru DeShields 106/185 (57%), 1,145 yds, 4 TD, 6 INT. WR Wayne Harris 396 yds.\n5. Kent last five: L 3-59 at Ohio State, W 26-13 Ball St, L 10-13 Ohio, L 7-38 at WMU, L 2-29 at USF. Its only win is over Ball State.\n6. Akron last five: L 7-41 at Minnesota, L 10-38 UNLV, L 17-41 at CMU, L 23-25 EMU, L 14-34 at M-OH.\n7. Scheme: both are inefficient, turnover-prone offenses; points mostly come off short fields from turnovers.\n8. Market (DraftKings via ESPN): KENT -3 (-105), AKR +3 (-115), ML KENT -148 / AKR +124, total 47.5 (o-115, u-105). Under is the cheaper price.\n9. ESPN matchup predictor: Kent 54.8%, Akron 45.2%, which is close to the no-vig ML of 57%.\n10. Injuries: ESPN lists none for either team; no backup QB info found.\n11. Analysts: no named 2026 picks found in search, so no consensus is claimed.\n12. Read: neither side is trustworthy for a side bet; the low Kent scoring supports the Under.\nSources: ESPN summary/pickcenter (DraftKings lines, team stats, leaders, last-five, AccuWeather via ESPN). Web searches returned no current-week previews or other books' lines, so every price is DraftKings only (books=1) and fair is DK no-vig."
+}
