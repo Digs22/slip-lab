@@ -31,7 +31,7 @@ SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran ou
 
 Legs considered:
 - Cleveland Browns ML: Models give CLE 55-61% (numberFire 60.8, Dimers 55.3, Covers 59) vs a 53% no-vig price; TEN scores 14 ppg but CLE's Watson has been sacked a league-high 24 times.
-- Cleveland Browns -1.5: The line flipped from TEN -2.5 at the open to CLE -1.5; winning by 2+ is slightly less likely than the ML.
+- Cleveland Browns -2.5: The line flipped from TEN -2.5 at the open to CLE -2.5; winning by 2+ is slightly less likely than the ML.
 - Under 36.5: My projection is 35.3 (TEN 14.0 ppg, CLE 17.7 ppg, CLE 30.8% third down); the total fell from 40.5 to 36.5 so the cheap side is already priced in.
 
 Our bets:

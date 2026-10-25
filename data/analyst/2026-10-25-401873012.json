@@ -10,9 +10,9 @@
    "team": "CIN",
    "side": null,
    "line": null,
-   "odds": -148,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.57,
+   "odds": -155,
+   "book": "DraftKings",
+   "fair": 0.583,
    "books": 3,
    "signals": {
     "injuries": 0.6,

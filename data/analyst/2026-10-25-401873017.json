@@ -11,8 +11,8 @@
    "side": null,
    "line": null,
    "odds": -142,
-   "book": "DraftKings (ESPN, Sun AM)",
-   "fair": 0.564,
+   "book": "DraftKings",
+   "fair": 0.563,
    "books": 1,
    "signals": {
     "matchup": 0.6,
@@ -33,7 +33,7 @@
    "side": null,
    "line": -2.5,
    "odds": -115,
-   "book": "DraftKings (ESPN, Sun AM)",
+   "book": "DraftKings",
    "fair": 0.511,
    "books": 1,
    "signals": {
@@ -47,15 +47,15 @@
    "note": "The line fell from -4.5 (open) and -3.5 (mid-week) to -2.5 while my projection is SF by about 3.3, so only a small lean."
   },
   {
-   "desc": "Over 50.5",
+   "desc": "Over 49.5",
    "game": "San Francisco 49ers @ Atlanta Falcons",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 50.5,
-   "odds": -108,
-   "book": "DraftKings (ESPN, Sun AM)",
-   "fair": 0.496,
+   "line": 49.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
    "books": 1,
    "signals": {
     "matchup": 0.52,

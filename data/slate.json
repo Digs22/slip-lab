@@ -1,72 +1,12 @@
 {
   "date": "2026-10-25",
-  "generated": "2026-10-25T08:15-04:00",
-  "games_scanned": 11,
+  "generated": "2026-10-25T11:43-04:00",
+  "games_scanned": 1,
   "problems": [
     "2026-10-25: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized"
   ],
   "upcoming": [],
   "games": [
-    {
-      "id": "401873022",
-      "league": "NFL",
-      "game": "KC @ SEA",
-      "start": "2026-10-26T00:20Z",
-      "venue": "Lumen Field",
-      "provisional": true,
-      "score": 0.0181,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-      "summary": "Undefeated Kansas City (28.0 ppg, 160 rush ypg) is a +3 dog to Seattle despite the better point differential; the total fell 45.5 to 42.5. Most likely: Chiefs +3 (-118)."
-    },
-    {
-      "id": "401873017",
-      "league": "NFL",
-      "game": "SF @ ATL",
-      "start": "2026-10-25T17:00Z",
-      "venue": "Mercedes-Benz Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-      "summary": "SF is 6-0 with a top-3 EPA defense and Atlanta's line has allowed nine sacks in four Penix starts, but SF is on a short week. Most likely to win: 49ers ML."
-    },
-    {
-      "id": "401873013",
-      "league": "NFL",
-      "game": "CLE @ TEN",
-      "start": "2026-10-25T17:00Z",
-      "venue": "Nissan Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-      "summary": "Cleveland has the better defense and QB play while Tennessee averages 14 ppg, and the total fell two points to 36.5. Most likely to win: Browns ML."
-    },
-    {
-      "id": "401873014",
-      "league": "NFL",
-      "game": "IND @ MIN",
-      "start": "2026-10-25T17:00Z",
-      "venue": "U.S. Bank Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-      "summary": "Minnesota (5-0) has the NFL's best defense at 12.8 ppg allowed, and Indy is missing CB Sauce Gardner and TE Tyler Warren. Most likely to win: Vikings ML."
-    },
-    {
-      "id": "401873015",
-      "league": "NFL",
-      "game": "MIA @ NYJ",
-      "start": "2026-10-25T17:00Z",
-      "venue": "MetLife Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-      "summary": "The Jets' top-4 pass defense faces Malik Willis (153.6 pass ypg, 4 INT) and a winless Miami team, but the offenses are both poor. Most likely to win: Jets ML."
-    },
     {
       "id": "401873018",
       "league": "NFL",
@@ -78,66 +18,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
       "summary": "Carolina is a 3-point home favorite with Egbuka, Winfield and Goedeke out for Tampa and Mayfield (thumb) questionable. Most likely to win: McMillan 20+ yd reception (-270)."
-    },
-    {
-      "id": "401873012",
-      "league": "NFL",
-      "game": "CIN @ BAL",
-      "start": "2026-10-25T17:00Z",
-      "venue": "M&T Bank Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-      "summary": "Lamar Jackson is out so Huntley starts; Cincinnati is a 3-point road favorite coming off a bye with a healthy roster. Most likely to win: Bengals ML (-148)."
-    },
-    {
-      "id": "401873016",
-      "league": "NFL",
-      "game": "NYG @ HOU",
-      "start": "2026-10-25T17:00Z",
-      "venue": "Reliant Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-      "summary": "Houston is a 10.5-point favorite but is 0-3 at home and Giants QB J.J. McCarthy debuts. Most likely to win: Nico Collins o65.5 receiving yards."
-    },
-    {
-      "id": "401873019",
-      "league": "NFL",
-      "game": "DEN @ ARI",
-      "start": "2026-10-25T20:05Z",
-      "venue": "State Farm Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-      "summary": "Denver's league-low-efficiency offense (31st in yards/play) faces a line that fell from -7.5 to -4.5, and the total is 43.5. Most likely winner: Denver ML (-225)."
-    },
-    {
-      "id": "401873020",
-      "league": "NFL",
-      "game": "GB @ DET",
-      "start": "2026-10-25T20:25Z",
-      "venue": "Ford Field",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-      "summary": "Detroit scores 32.8 a game but Green Bay's defense is elite, and DraftKings has the total at 55.5 after it opened 50.5. Most likely winner: Detroit ML (-185)."
-    },
-    {
-      "id": "401873021",
-      "league": "NFL",
-      "game": "LAR @ LV",
-      "start": "2026-10-25T20:25Z",
-      "venue": "Allegiant Stadium",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-      "summary": "Rams are 2-4 without Adams (IR), Garrett and Turner, with Nacua questionable, and the line fell from -7.5 to -3.5. Most likely winner: Rams ML (-180)."
     }
   ]
 }

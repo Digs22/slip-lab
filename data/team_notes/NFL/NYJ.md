@@ -31,11 +31,11 @@ SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran ou
 
 Legs considered:
 - New York Jets ML: Models put NYJ at 64-67% (numberFire 63.8, Stats Insider 64, Dimers 67.1) against a 67% no-vig price, so this is the likeliest leg but with little edge; the Dolphins have won 10 of 12 in the series.
-- New York Jets -4.5: The Jets are 0-7 vs AFC East under Glenn and have not won by 5+ this season, so 4.5 is a coin flip; Covers and Predictem back the Jets.
+- New York Jets -3.5: The Jets are 0-7 vs AFC East under Glenn and have not won by 5+ this season, so 4.5 is a coin flip; Covers and Predictem back the Jets.
 - Under 39.5: MIA scores 14.0 ppg and NYJ 18.7 with the league's worst red-zone rate (37.5%); my projection of 40.7 is slightly above the line so this is a weak lean.
 
 Our bets:
-- straight (lean): Under 39.5 (-112): pending -> **pending**
+- straight (lean): Under 39.5 (-118): pending -> **pending**
 
 ### 2026-10-18: at New England Patriots
 

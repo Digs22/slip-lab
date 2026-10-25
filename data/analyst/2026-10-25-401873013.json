@@ -10,9 +10,9 @@
    "team": "CLE",
    "side": null,
    "line": null,
-   "odds": -130,
-   "book": "DraftKings (ESPN, Sun AM)",
-   "fair": 0.533,
+   "odds": -135,
+   "book": "DraftKings",
+   "fair": 0.551,
    "books": 3,
    "signals": {
     "matchup": 0.58,
@@ -26,15 +26,15 @@
    "note": "Models give CLE 55-61% (numberFire 60.8, Dimers 55.3, Covers 59) vs a 53% no-vig price; TEN scores 14 ppg but CLE's Watson has been sacked a league-high 24 times."
   },
   {
-   "desc": "Cleveland Browns -1.5",
+   "desc": "Cleveland Browns -2.5",
    "game": "Cleveland Browns @ Tennessee Titans",
    "market": "spread",
    "team": "CLE",
    "side": null,
-   "line": -1.5,
-   "odds": -110,
-   "book": "DraftKings (ESPN, Sun AM)",
-   "fair": 0.498,
+   "line": -2.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
    "books": 2,
    "signals": {
     "matchup": 0.55,
@@ -43,7 +43,7 @@
     "home": 0.45,
     "injuries": 0.52
    },
-   "note": "The line flipped from TEN -2.5 at the open to CLE -1.5; winning by 2+ is slightly less likely than the ML."
+   "note": "The line flipped from TEN -2.5 at the open to CLE -2.5; winning by 2+ is slightly less likely than the ML."
   },
   {
    "desc": "Under 36.5",
@@ -53,7 +53,7 @@
    "side": "under",
    "line": 36.5,
    "odds": -102,
-   "book": "DraftKings (ESPN, Sun AM)",
+   "book": "DraftKings",
    "fair": 0.483,
    "books": 1,
    "signals": {

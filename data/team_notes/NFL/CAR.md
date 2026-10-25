@@ -31,10 +31,9 @@ Legs considered:
 - Carolina Panthers ML: Tampa is without Egbuka, Winfield and Goedeke, is 1-5 and 1-9 ATS in its last 10, and models give Carolina 61-69%.
 - B. Young o253.5 pass yds: Young has cleared 281 yards in every game (1,549 in 5, 310 per game) and Winfield is out, but PFF projects only 230.
 - T. McMillan 20+ yd reception: Most likely to win: Carolina's WR1 averages 6 catches at 14.7 per catch against a Tampa defense missing its top safety. Single-book price.
-- B. Irving o65.5 rush yds: Carolina allows 5.1 yards per carry, worst in the NFL, and Tampa's pass game is thin; a trailing script is the risk.
 
 Our bets:
-- straight (lean): Carolina Panthers ML (-155): pending -> **pending**
+- straight (lean): B. Young o253.5 pass yds (-114): Active starter, full practice all week; role locked. WR1 McMillan healthy, no Panthers skill-player designations. -> **pending**
 
 ### 2026-10-18: at Philadelphia Eagles (final: CAR 25, PHI 14)
 

@@ -10,8 +10,8 @@
    "team": "CAR",
    "side": null,
    "line": null,
-   "odds": -155,
-   "book": "DraftKings (ESPN)",
+   "odds": -166,
+   "book": "DraftKings",
    "fair": 0.6,
    "books": 2,
    "signals": {
@@ -100,7 +100,7 @@
     "recent_form": 0.52,
     "injuries": 0.5
    },
-   "note": "Carolina allows 5.1 yards per carry, worst in the NFL, and Tampa's pass game is thin; a trailing script is the risk."
+   "note": ""
   }
  ],
  "totals_projection": {

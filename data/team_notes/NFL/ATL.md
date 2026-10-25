@@ -34,7 +34,7 @@ SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran ou
 Legs considered:
 - San Francisco 49ers ML: SF has the better defense and 29.5 ppg, and models give it 53-79%; the short week and thin WR corps cap the confidence. Price is DK only (other books' -184/-200 were mid-week at -3.5).
 - San Francisco 49ers -2.5: The line fell from -4.5 (open) and -3.5 (mid-week) to -2.5 while my projection is SF by about 3.3, so only a small lean.
-- Over 50.5: No edge: both teams' last five games averaged 50.6 and 52.4 total points but my projection of 50.2 equals the line; Kalshi had Under 49.5 at 50%.
+- Over 49.5: No edge: both teams' last five games averaged 50.6 and 52.4 total points but my projection of 50.2 equals the line; Kalshi had Under 49.5 at 50%.
 
 Our bets:
 - straight (lean): San Francisco 49ers -2.5 (-115): pending -> **pending**
