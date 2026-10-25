@@ -1,0 +1,73 @@
+{
+ "summary": "Pittsburgh is a field-goal favorite in the Paris-site game with the Saints thin at RB and WR. Most likely to win: New Orleans Saints +3 (-108), which covers on any win or a one-score loss.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "New Orleans Saints +3",
+   "game": "Pittsburgh Steelers @ New Orleans Saints",
+   "market": "spread",
+   "team": "NO",
+   "side": null,
+   "line": 3,
+   "odds": -108,
+   "book": "DraftKings (ESPN); FanDuel has NO +2.5 -110",
+   "fair": 0.496,
+   "books": 2,
+   "signals": {
+    "market": 0.5,
+    "injuries": 0.47,
+    "matchup": 0.5,
+    "coaching": 0.5,
+    "situational": 0.52
+   },
+   "note": "NO +3 -108 at DK (FanDuel is +2.5 -110); +3 covers on a field-goal loss, and BetMGM/Covers back PIT, so this is a price play."
+  },
+  {
+   "desc": "Under 43.5",
+   "game": "Pittsburgh Steelers @ New Orleans Saints",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 43.5,
+   "odds": -115,
+   "book": "DraftKings 43.5 -115 (ESPN); FanDuel u44.5 -108",
+   "fair": 0.511,
+   "books": 2,
+   "signals": {
+    "market": 0.51,
+    "injuries": 0.52,
+    "matchup": 0.5,
+    "weather": 0.5
+   },
+   "note": "Covers leans Under (Kalshi 52%) and the wind is a factor; DK 43.5 is a half-point lower than FanDuel 44.5."
+  },
+  {
+   "desc": "Pittsburgh Steelers ML",
+   "game": "Pittsburgh Steelers @ New Orleans Saints",
+   "market": "moneyline",
+   "team": "PIT",
+   "side": null,
+   "line": null,
+   "odds": -142,
+   "book": "FanDuel -142 (DK -162)",
+   "fair": 0.58,
+   "books": 2,
+   "signals": {
+    "market": 0.59,
+    "injuries": 0.54,
+    "matchup": 0.54,
+    "situational": 0.5
+   },
+   "note": "Kalshi has PIT about 54-56%; FanDuel -142 is the best price; Dowdle and Freiermuth carry injury tags."
+  }
+ ],
+ "totals_projection": {
+  "PIT": 23.5,
+  "NO": 20.0,
+  "total": 43.5,
+  "line": 43.5,
+  "math": "Placeholder: no independent projection yet, set equal to the DraftKings line implied by PIT -3 / 43.5 (PIT 23.25, NO 20.25)."
+ },
+ "research": "SEARCH NOTE: First pass built only from the ESPN summary endpoint (event 401873011); no web searches yet. Venue per ESPN is Stade de France (Saint-Denis, Paris), not London; kickoff 13:30Z = 9:30 AM ET, NO is the designated home team.\n1. Lines (ESPN pickcenter, DraftKings only): PIT -3 (-112) / NO +3 (-108); ML PIT -162 / NO +136; total 43.5 (o -105 / u -115). Fair values are the no-vig numbers from this one book, so no edge is claimed.\n2. ESPN matchup predictor: PIT 59.9% / NO 39.8%, in line with the ML no-vig 59.3%.\n3. NO injuries (ESPN): G Cesar Ruiz questionable (knee), DT Nathan Shepherd questionable (illness); WR Jordyn Tyson (hamstring), RB Travis Etienne (hamstring) and OT Kelvin Banks (ankle) on IR.\n4. PIT injuries (ESPN): RB Rico Dowdle questionable (knee), S DeShon Elliott questionable (knee), CB Brandin Echols out (hamstring), WR Ben Skowronek out (calf), DT Sebastian Joseph-Day on IR.\n5. Team notes (prior games): PIT beat TB 26-19 on 10/18 behind Aaron Rodgers; NO (Tyler Shough, Kellen Moore) beat NYG 34-27 on 10/18 despite ranking near the bottom in run defense and pressure rate.\n6. QBs not re-confirmed this pass (Rodgers for PIT, Shough for NO per team notes).\n7. Weather: none returned by ESPN; no forecast gathered, no adjustment.\n8. Props: none included, no listed prop prices gathered yet.\n9. Pass 2 (1 search; SI, Covers, BetMGM, Squawka snippets): FanDuel PIT -2.5 (-110) / ML PIT -142, NO +120 / total 44.5 (o -112 / u -108). Covers picks PIT spread and Under 44.5 (Kalshi PIT 54%, Under 52%); BetMGM picks PIT -3 -108 citing wind; Squawka PIT 27-20, over. QBs: Rodgers (PIT), Shough (NO). PIT WRs Pittman and Wilson on IR (Metcalf, rookie Bernard lead); Dowdle toe, Freiermuth calf per previews. BetMGM preview mentions 16 mph winds with gusts in the low 20s (older; unconfirmed), which favors the Under and QB yardage Unders. No inactives list found; no listed prop prices found."
+}

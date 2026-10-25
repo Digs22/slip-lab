@@ -6,6 +6,29 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-25: vs Pittsburgh Steelers
+
+Pittsburgh is a field-goal favorite in the Paris-site game with the Saints thin at RB and WR. Most likely to win: New Orleans Saints +3 (-108), which covers on any win or a one-score loss.
+
+SEARCH NOTE: First pass built only from the ESPN summary endpoint (event 401873011); no web searches yet. Venue per ESPN is Stade de France (Saint-Denis, Paris), not London; kickoff 13:30Z = 9:30 AM ET, NO is the designated home team.
+1. Lines (ESPN pickcenter, DraftKings only): PIT -3 (-112) / NO +3 (-108); ML PIT -162 / NO +136; total 43.5 (o -105 / u -115). Fair values are the no-vig numbers from this one book, so no edge is claimed.
+2. ESPN matchup predictor: PIT 59.9% / NO 39.8%, in line with the ML no-vig 59.3%.
+3. NO injuries (ESPN): G Cesar Ruiz questionable (knee), DT Nathan Shepherd questionable (illness); WR Jordyn Tyson (hamstring), RB Travis Etienne (hamstring) and OT Kelvin Banks (ankle) on IR.
+4. PIT injuries (ESPN): RB Rico Dowdle questionable (knee), S DeShon Elliott questionable (knee), CB Brandin Echols out (hamstring), WR Ben Skowronek out (calf), DT Sebastian Joseph-Day on IR.
+5. Team notes (prior games): PIT beat TB 26-19 on 10/18 behind Aaron Rodgers; NO (Tyler Shough, Kellen Moore) beat NYG 34-27 on 10/18 despite ranking near the bottom in run defense and pressure rate.
+6. QBs not re-confirmed this pass (Rodgers for PIT, Shough for NO per team notes).
+7. Weather: none returned by ESPN; no forecast gathered, no adjustment.
+8. Props: none included, no listed prop prices gathered yet.
+9. Pass 2 (1 search; SI, Covers, BetMGM, Squawka snippets): FanDuel PIT -2.5 (-110) / ML PIT -142, NO +120 / total 44.5 (o -112 / u -108). Covers picks PIT spread and Under 44.5 (Kalshi PIT 54%, Under 52%); BetMGM picks PIT -3 -108 citing wind; Squawka PIT 27-20, over. QBs: Rodgers (PIT), Shough (NO). PIT WRs Pittman and Wilson on IR (Metcalf, rookie Bernard lead); Dowdle toe, Freiermuth calf per previews. BetMGM preview mentions 16 mph winds with gusts in the low 20s (older; unconfirmed), which favors the Under and QB yardage Unders. No inactives list found; no listed prop prices found.
+
+Legs considered:
+- New Orleans Saints +3: NO +3 -108 at DK (FanDuel is +2.5 -110); +3 covers on a field-goal loss, and BetMGM/Covers back PIT, so this is a price play.
+- Under 43.5: Covers leans Under (Kalshi 52%) and the wind is a factor; DK 43.5 is a half-point lower than FanDuel 44.5.
+- Pittsburgh Steelers ML: Kalshi has PIT about 54-56%; FanDuel -142 is the best price; Dowdle and Freiermuth carry injury tags.
+
+Our bets:
+- straight (lean): Pittsburgh Steelers ML (-142): pending -> **pending**
+
 ### 2026-10-18: at New York Giants (final: NO 34, NYG 27)
 
 Saints (1-4) are without LT Banks, RB Etienne and LBs Elliss and Jennings and rank 30th against the run; the healthier Giants are 4-1 ATS. Most likely to win: New York Giants +1.5.
