@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Houston Rockets
+### 2026-10-24: vs Houston Rockets (final: HOU 121, ATL 114)
 
 Houston is on a back-to-back and expected to rest VanVleet, which helps Atlanta and Sengun's assists; the total projects 228.3 against 229.5. Most likely winner: Sengun o4.5 assists.
 
@@ -38,10 +38,10 @@ Legs considered:
 - Atlanta Hawks ML: Hawks are home and lightly used in a 47-point win last night; Houston's VanVleet and Sheppard are likely out.
 
 Our bets:
-- straight: A. Sengun o4.5 assists (-141): Active -> **pending**
-- longshot: A. Sengun o4.5 assists (-141): Active -> **pending**
-- best: A. Sengun o4.5 assists (-141): Active / A. Thompson o13.5 rebounds+assists (-110): Active -> **pending**
-- straight: A. Sengun o4.5 assists (-141): Active -> **pending**
+- straight: A. Sengun o4.5 assists (-141): Active -> **win**
+- longshot: A. Sengun o4.5 assists (-141): Active -> **loss**
+- best: A. Sengun o4.5 assists (-141): Active / A. Thompson o13.5 rebounds+assists (-110): Active -> **win**
+- straight: A. Sengun o4.5 assists (-141): Active -> **win**
 
 ### 2026-10-21: at Orlando Magic (final: ATL 132, ORL 125)
 

@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Chicago Bulls
+### 2026-10-24: at Chicago Bulls (final: WSH 124, CHI 120)
 
 Total projects 236.9 against DK 245.5 (8.6 under) and both teams' 2025-26 defense ranks near the bottom; Under is the play, Bulls ML the side lean. Most likely winner: Under 245.5.
 
@@ -34,7 +34,7 @@ Legs considered:
 - T. Young o21.5 points: Main line; Chicago allowed 130 per game, but Young is playing as a distributor and the total projects low.
 
 Our bets:
-- straight (lean): Under 244.5 (-110): pending -> **pending**
+- straight (lean): Under 244.5 (-110): pending -> **win**
 
 ### 2026-10-21: vs Milwaukee Bucks (final: MIL 116, WSH 128)
 

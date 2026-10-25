@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Vanderbilt Commodores
+### 2026-10-24: vs Vanderbilt Commodores (final: VAN 17, UK 34)
 
 Kentucky is 6-1 with a 32.7 ppg offense and Vanderbilt is 0-4 in the SEC with a turnover-prone QB, but Kentucky is missing defenders. Most likely to win: Over 52.5 (-105).
 
@@ -30,7 +30,7 @@ Legs considered:
 - Kentucky Wildcats -10.5: Kentucky outscores Vanderbilt's defense and gets RB CJ Baxter back, but it won its last three games by 1, 1 and 8.
 
 Our bets:
-- straight (lean): Over 51.5 (-108): pending -> **pending**
+- straight (lean): Over 51.5 (-108): pending -> **loss**
 
 ### 2026-10-17: at Oklahoma Sooners (final: UK 21, OU 13)
 

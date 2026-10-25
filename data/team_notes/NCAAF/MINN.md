@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Iowa Hawkeyes
+### 2026-10-24: vs Iowa Hawkeyes (final: IOWA 10, MINN 13)
 
 Iowa (5-1) allows 14.5 points a game and is a 7.5-point road favorite after the line moved from -4.5. Most likely to win: Iowa Hawkeyes ML (-285).
 
@@ -31,4 +31,4 @@ Legs considered:
 - Minnesota Golden Gophers +7.5: Minnesota's pass defense allows just 160 a game at home, and the line moved 3 points from the +4.5 open.
 
 Our bets:
-- straight (lean): Over 40.5 (-112): pending -> **pending**
+- straight (lean): Over 40.5 (-112): pending -> **loss**

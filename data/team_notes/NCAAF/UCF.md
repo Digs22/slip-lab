@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs BYU Cougars
+### 2026-10-24: vs BYU Cougars (final: BYU 31, UCF 39)
 
 No. 2 BYU (6-0) is a 7.5-point favorite at UCF, which starts Keyone Jenkins with Barnett still out, and gusts near 27 mph are forecast. Most likely to win: BYU ML (-290).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Under 43.5: ESPN lists 27 mph gusts and 34% rain, and BYU's defense allows 274 yards, though raw scoring averages sit above the total.
 
 Our bets:
-- straight (lean): BYU Cougars -7.5 (-102): pending -> **pending**
+- straight (lean): BYU Cougars -7.5 (-102): pending -> **loss**

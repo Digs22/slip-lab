@@ -13,7 +13,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Dallas Mavericks
+### 2026-10-24: at Dallas Mavericks (final: SA 122, DAL 106)
 
 Flagg is out for Dallas and both teams are on the second night of a back-to-back, so Dallas +12.5 is the lean; the total projects 231.1 against 229.5. Most likely winner: Dallas Mavericks +12.5.
 
@@ -40,7 +40,7 @@ Legs considered:
 - Dallas Mavericks ML: Long shot: SA is 0-2 and tired, but Dallas without Flagg is rated about 17% to 25% to win outright.
 
 Our bets:
-- straight (lean): Under 229.5 (-110): pending -> **pending**
+- straight (lean): Under 229.5 (-110): pending -> **win**
 
 ### 2026-10-23: vs Houston Rockets (final: HOU 114, SA 110)
 

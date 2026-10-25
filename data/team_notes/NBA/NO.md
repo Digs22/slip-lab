@@ -7,7 +7,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Denver Nuggets
+### 2026-10-24: at Denver Nuggets (final: NO 135, DEN 141)
 
 New Orleans plays its second game in two nights but the model has Denver by about 8 against an 11.5 line; the total projects 235.1 against 237.5. Most likely winner: New Orleans Pelicans +11.5.
 
@@ -32,7 +32,7 @@ Legs considered:
 - Under 239.5: Projection 235.1 vs 239.5; NO's two games hit 243 and 239, so the Under is only a small lean.
 
 Our bets:
-- straight (lean): New Orleans Pelicans +11.5 (-115): pending -> **pending**
+- straight (lean): New Orleans Pelicans +11.5 (-115): pending -> **win**
 
 ### 2026-10-21: vs Indiana Pacers (final: IND 123, NO 120)
 

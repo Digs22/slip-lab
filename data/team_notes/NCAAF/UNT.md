@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Navy Midshipmen
+### 2026-10-24: at Navy Midshipmen (final: UNT 49, NAVY 39)
 
 North Texas scores 42.2 a game and is a 3-point road favorite at 2-4 Navy, with sharp money showing on the Under. Most likely to win: Under 62.5 (-112).
 
@@ -30,4 +30,4 @@ Legs considered:
 - North Texas Mean Green ML: North Texas is 4-2 with 534 yards a game, but Navy's defense allows only 99 rushing yards.
 
 Our bets:
-- straight (lean): Under 60.5 (-108): pending -> **pending**
+- straight (lean): Under 60.5 (-108): pending -> **loss**

@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs San Diego State Aztecs
+### 2026-10-24: vs San Diego State Aztecs (final: SDSU 49, CSU 56)
 
 San Diego State at Colorado State is a pick'em with two weak defenses (33.3 and 43.2 ppg allowed); a 23 mph gust is the risk. Most likely to win: Over 59.5 (-112).
 
@@ -28,4 +28,4 @@ Legs considered:
 - San Diego State Aztecs -1.5: SDSU has the weaker offense (23.3 ppg, 149 pass yards) but the market favors it on the road.
 
 Our bets:
-- straight (lean): Over 59.5 (-108): pending -> **pending**
+- straight (lean): Over 59.5 (-108): pending -> **win**

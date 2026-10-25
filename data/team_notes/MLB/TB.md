@@ -16,7 +16,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Milwaukee Brewers
+### 2026-10-24: at Milwaukee Brewers (final: TB 4, MIL 5)
 
 Rasmussen (3 postseason starts, 1.29 ERA, 23 K) faces rookie Henderson on a short leash, with the total at 6.5. Most likely to win: Rasmussen 6+ strikeouts (-132).
 
@@ -45,9 +45,9 @@ Legs considered:
 - Milwaukee Brewers ML: Milwaukee is 55-26 at home with an elite bullpen, but Rasmussen (11-0 since the break) is the better starter on the day.
 
 Our bets:
-- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
-- longshot: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
-- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **pending**
+- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **loss**
+- longshot: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **loss**
+- straight: D. Rasmussen o5.5 strikeouts (6+) (-132): Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5 -> **loss**
 
 ### 2026-10-23: at Milwaukee Brewers (final: TB 2, MIL 3)
 

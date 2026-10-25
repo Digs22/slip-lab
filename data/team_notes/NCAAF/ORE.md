@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Illinois Fighting Illini
+### 2026-10-24: at Illinois Fighting Illini (final: ORE 10, ILL 21)
 
 Oregon is a 10-point road favorite with Dante Moore still out and its offense stuck near 15-17 points with backups. Most likely to win: Illinois +10 (-112).
 
@@ -28,8 +28,8 @@ Legs considered:
 - Under 48.5: Oregon's backup-QB offense has managed 14-17 points, but Illinois allows 27.8 so the number is close to fair.
 
 Our bets:
-- straight (lean): Illinois Fighting Illini +10 (-112): pending -> **pending**
-- longshot: Illinois Fighting Illini +10 (-112): pending -> **pending**
+- straight (lean): Illinois Fighting Illini +10 (-112): pending -> **win**
+- longshot: Illinois Fighting Illini +10 (-112): pending -> **loss**
 
 ### 2026-10-17: vs Nebraska Cornhuskers (final: NEB 14, ORE 17)
 

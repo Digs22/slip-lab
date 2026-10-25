@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Bowling Green Falcons
+### 2026-10-24: vs Bowling Green Falcons (final: BGSU 24, BUFF 31)
 
 Buffalo is a 3-point home favorite on a 4-3 record against a 2-5 Bowling Green; both defenses are middling. Most likely to win: Buffalo ML (-155).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Bowling Green Falcons +3: BGSU has the better QB stats, but the Falcons are 2-5 and the line moved from 4.5 to 3 toward them already.
 
 Our bets:
-- straight (lean): Buffalo Bulls -3 (-108): pending -> **pending**
+- straight (lean): Buffalo Bulls -3 (-108): pending -> **win**

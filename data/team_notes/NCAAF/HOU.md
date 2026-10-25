@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Utah Utes
+### 2026-10-24: at Utah Utes (final: HOU 13, UTAH 21)
 
 Utah (6-0, 14.8 ppg allowed) hosts a Houston team with the nation's 115th-ranked pass defense by EPA but a 39-ppg offense. Most likely to win: Utah ML (-258).
 
@@ -32,4 +32,4 @@ Legs considered:
 - Over 57.5: Both offenses average 39+ ppg, but Utah's defense allows 14.8 ppg and the total sits at my projection.
 
 Our bets:
-- straight (lean): Utah Utes ML (-250): pending -> **pending**
+- straight (lean): Utah Utes ML (-250): pending -> **win**

@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at South Carolina Gamecocks
+### 2026-10-24: at South Carolina Gamecocks (final: TENN 24, SC 27)
 
 No. 11 Tennessee (6-1) is a short road underdog at South Carolina, with George MacIntyre expected to start again and a run game averaging 217 yards. Most likely to win: Tennessee +2.5 (-112).
 
@@ -29,9 +29,9 @@ Legs considered:
 - Under 50.5: Tennessee's run-heavy offense burns clock, but South Carolina scores 37.7, so the total is close to fair.
 
 Our bets:
-- straight: Tennessee Volunteers +2.5 (-112): pending -> **pending**
-- best: Tennessee Volunteers ML (+114): pending -> **pending**
-- longshot: Tennessee Volunteers +2.5 (-110): pending -> **pending**
+- straight: Tennessee Volunteers +2.5 (-112): pending -> **loss**
+- best: Tennessee Volunteers ML (+114): pending -> **loss**
+- longshot: Tennessee Volunteers +2.5 (-110): pending -> **loss**
 
 ### 2026-10-17: vs Alabama Crimson Tide (final: ALA 10, TENN 26)
 

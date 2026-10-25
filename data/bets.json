@@ -10548,16 +10548,18 @@
           "note": "Clemson ranks last in the ACC in passing (187.5 yards per game) with a freshman QB, while VT leads the ACC in passing yards (1,984).",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
       "to_win": 17.14,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "VT 20, CLEM 16"
     },
     {
       "id": "2026-10-24-UTSATULN-straight",
@@ -10609,13 +10611,17 @@
           "note": "Tulane games average 42 points and its offense is 332 ypg, though UTSA games have gone over 51.5 in five of seven.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "UTSA 42, TULN 19",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-TBMIL-straight",
@@ -10667,16 +10673,20 @@
           "note": "Rasmussen had 10, 7 and 6 strikeouts in his three postseason starts and works 6 to 8 innings.",
           "status": "Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5",
           "alt": false,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
       "to_win": 13.64,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "TB 4, MIL 5",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-BKNCLE-straight",
@@ -10727,16 +10737,20 @@
           "note": "Main line at three books; 32 points in the opener, BKN guards rank 8th most allowed, with a blowout-minutes risk at -10.5.",
           "status": "Active",
           "alt": false,
-          "main_line": 26.5
+          "main_line": 26.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
       "to_win": 17.14,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "BKN 121, CLE 125",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-TENNSC-straight",
@@ -10787,16 +10801,20 @@
           "note": "Tennessee allows 14.7 points and held Alabama to 2.1 yards per carry, and Covers backs it on the moneyline.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
       "to_win": 16.07,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "TENN 24, SC 27",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-HOUATL-straight",
@@ -10847,16 +10865,18 @@
           "note": "Main line; VanVleet is expected to rest on the back-to-back, so Sengun runs more of the offense (5 and 7 assists so far).",
           "status": "Active",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 12.77,
       "stake": 18.0,
       "to_win": 12.77,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "HOU 121, ATL 114"
     },
     {
       "id": "2026-10-24-TA&MALA-straight",
@@ -10906,16 +10926,20 @@
           "note": "Alabama scores 39.3 and A&M's offense has 6 turnovers from Reed, but Alabama has dropped two straight.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
       "to_win": 16.67,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "TA&M 20, ALA 31",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-WMUTOL-straight",
@@ -11686,13 +11710,17 @@
           "note": "Kansas State outscores opponents by 15 a game and runs for 240, while Arizona State allowed 48, 55 and 53 to Power-4 foes.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "KSU 17, ASU 28",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-ULMTROY-straight",
@@ -11742,13 +11770,17 @@
           "note": "ULM allows 41.2 a game and Troy's games average about 50, so my projection of 55 clears 50.5 by five.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "ULM 21, TROY 14",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-SACBALL-straight",
@@ -11798,13 +11830,17 @@
           "note": "Ball State's best FBS margin is a 1-point OT win and it allows 37.9 a game, so 14.5 is too many.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "SAC 17, BALL 34",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-OREILL-straight",
@@ -11855,13 +11891,15 @@
           "note": "Oregon scored 15 and 17 with backup quarterbacks, so 10 points is steep against an Illini offense scoring 31.8.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "ORE 10, ILL 21"
     },
     {
       "id": "2026-10-24-HAWNIU-straight",
@@ -11911,13 +11949,17 @@
           "note": "Hawaii scores 15.7 and NIU 14.2 a game, and the total rose 3 points from the 45.5 open.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "HAW 56, NIU 21",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-EMUOHIO-straight",
@@ -11967,13 +12009,15 @@
           "note": "Ohio's run-first offense shortens games, and its three recent MAC wins were by 3, 17 and 41 against varied opposition.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "EMU 20, OHIO 24"
     },
     {
       "id": "2026-10-24-BYUUCF-straight",
@@ -12023,13 +12067,17 @@
           "note": "BYU is 6-0 ATS, but the line already fell from -9.5 to -6.5 at some books so the -7.5 number is fair.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.65
+      "to_win": 17.65,
+      "final": "BYU 31, UCF 39",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-MSUUCLA-straight",
@@ -12078,13 +12126,15 @@
           "note": "UCLA allows 16.2 points and runs the ball for 231 yards a game, and Michigan State scores only 21.3.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "MSU 10, UCLA 28"
     },
     {
       "id": "2026-10-24-IOWAMINN-straight",
@@ -12134,13 +12184,17 @@
           "note": "Season scoring averages point to about 44, but both teams are run-first and slow, and gusts reach 20 mph.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "IOWA 10, MINN 13",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-OUMSST-straight",
@@ -12190,13 +12244,15 @@
           "note": "Oklahoma's offense gains 92 rushing yards a game and its defense allows 18; Mississippi State may start a backup QB.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 15.65,
       "stake": 18.0,
-      "to_win": 15.65
+      "to_win": 15.65,
+      "final": "OU 23, MSST 15"
     },
     {
       "id": "2026-10-24-BCGT-straight",
@@ -12246,13 +12302,17 @@
           "note": "Season averages blend to about 48.7, and the total rose a point from the open.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "BC 49, GT 27",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-UNTNAVY-straight",
@@ -12301,13 +12361,17 @@
           "note": "Navy runs the ball 298 yards a game and eats clock, and SportsLine shows 77% of the money on the Under.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "UNT 49, NAVY 39",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-BGSUBUFF-straight",
@@ -12356,13 +12420,15 @@
           "note": "Home field is worth about 2.5, and my margin estimate is close to 4, so there is only a thin edge on 3.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "BGSU 24, BUFF 31"
     },
     {
       "id": "2026-10-24-LONG-longshot",
@@ -12405,7 +12471,8 @@
           "league": "NBA",
           "matchup": "HOU @ ATL",
           "start": "2026-10-25T00:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "win"
         },
         {
           "desc": "D. Rasmussen o5.5 strikeouts (6+)",
@@ -12436,7 +12503,9 @@
           "league": "MLB",
           "matchup": "TB @ MIL",
           "start": "2026-10-25T00:00Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "D. Mitchell o26.5 points",
@@ -12466,7 +12535,9 @@
           "league": "NBA",
           "matchup": "BKN @ CLE",
           "start": "2026-10-24T23:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Kansas State Wildcats ML",
@@ -12496,13 +12567,17 @@
           "league": "NCAAF",
           "matchup": "KSU @ ASU",
           "start": "2026-10-24T19:45Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 15.15
+      "to_win": 15.15,
+      "final": "HOU 121-114 ATL; TB 4-5 MIL; BKN 121-125 CLE; KSU 17-28 ASU",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-ULUSM-straight",
@@ -12553,13 +12628,17 @@
           "note": "Southern Miss allows 252 rushing yards and 32.7 points a game, and Louisiana runs for 200 yards.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "UL 31, USM 35",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-SJSUNEV-straight",
@@ -12609,13 +12688,17 @@
           "note": "Nevada is 2-4 with a 172-yard passing offense, so a one-score game is the likelier script.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "SJSU 13, NEV 28",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-ODULT-straight",
@@ -12666,13 +12749,17 @@
           "note": "Louisiana Tech scores 33 ppg and the teams' averages project about 51 against a 43.5 total.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.25
+      "to_win": 15.25,
+      "final": "ODU 0, LT 26",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-BOISWSU-straight",
@@ -12722,13 +12809,15 @@
           "note": "The total rose 3 points from 50.5, and the teams' averages project about 52 with Boise's run game eating clock.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "BOIS 31, WSU 10"
     },
     {
       "id": "2026-10-24-SDSUCSU-straight",
@@ -12778,13 +12867,15 @@
           "note": "Colorado State allows 43.2 ppg and 530 yards, and the teams' averages project about 68 points.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "SDSU 49, CSU 56"
     },
     {
       "id": "2026-10-24-MILPHI-straight",
@@ -12834,13 +12925,17 @@
           "note": "Projection 228.1 (MIL 112.5 + PHI 115.6) is 6.4 under DK, and FanDuel (230.5) and Bleacher Nation (233.5) already sit lower.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "MIL 116, PHI 127",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-MILPHI-best",
@@ -12889,7 +12984,8 @@
           "note": "Main line from one board; Maxey carries the creation with LeBron questionable, but a 12.5-point spread risks fourth-quarter rest.",
           "status": "Active",
           "alt": false,
-          "main_line": 25.5
+          "main_line": 25.5,
+          "result": "win"
         },
         {
           "desc": "T. Herro o2.5 threes",
@@ -12913,13 +13009,17 @@
           "note": "Herro made 4 and 5 threes in his two games on 21 attempts, and PHI allows the 4th-most to shooting guards.",
           "status": "Active",
           "alt": false,
-          "main_line": 2.5
+          "main_line": 2.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 7.35
+      "to_win": 7.35,
+      "final": "MIL 116, PHI 127",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-BKNCLE-best",
@@ -12968,7 +13068,9 @@
           "note": "Main line at three books; 32 points in the opener, BKN guards rank 8th most allowed, with a blowout-minutes risk at -10.5.",
           "status": "Active",
           "alt": false,
-          "main_line": 26.5
+          "main_line": 26.5,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "J. Randle o19.5 points",
@@ -12992,13 +13094,16 @@
           "note": "Single-source main line; Brooklyn playing from behind keeps Randle's volume high after 33/8/7 in the opener.",
           "status": "Active",
           "alt": false,
-          "main_line": 19.5
+          "main_line": 19.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 7.74
+      "to_win": 7.74,
+      "final": "BKN 121, CLE 125",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-HOUATL-best",
@@ -13047,7 +13152,8 @@
           "note": "Main line; VanVleet is expected to rest on the back-to-back, so Sengun runs more of the offense (5 and 7 assists so far).",
           "status": "Active",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         },
         {
           "desc": "A. Thompson o13.5 rebounds+assists",
@@ -13071,13 +13177,15 @@
           "note": "Main combo line; cleared only by one on 14 both nights, and he played 36 minutes last night.",
           "status": "Active",
           "alt": false,
-          "main_line": 13.5
+          "main_line": 13.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 6.78,
       "stake": 3.0,
-      "to_win": 6.78
+      "to_win": 6.78,
+      "final": "HOU 121, ATL 114"
     },
     {
       "id": "2026-10-24-USUTXST-straight",
@@ -13129,13 +13237,15 @@
           "note": "Utah State scores 14.5 ppg and every Aggie game has finished below 56, with 21 mph gusts in San Marcos.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "USU 17, TXST 20"
     },
     {
       "id": "2026-10-24-MISSTEX-straight",
@@ -13186,13 +13296,17 @@
           "note": "Texas is without Simmons (10.5 sacks) and has lost two straight, while Ole Miss's offense averages 37.5 points and 291 passing yards.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "MISS 27, TEX 34",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-USCWIS-straight",
@@ -13243,13 +13357,15 @@
           "note": "SI takes Wisconsin +2.5 because USC ranks 118th in opponent rush EPA, and Wisconsin gives up 16.7 points a game.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "USC 7, WIS 24"
     },
     {
       "id": "2026-10-24-WSHCHI-straight",
@@ -13299,13 +13415,15 @@
           "note": "Projection 236.9 (WSH 116.8 + CHI 120.2) is 8.6 under DK, and FanDuel/Bleacher are at 244.5 with Pick Dawgz 243.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "WSH 124, CHI 120"
     },
     {
       "id": "2026-10-24-SADAL-straight",
@@ -13356,13 +13474,15 @@
           "note": "Raw formula says 231.1, but Flagg's 21 ppg is gone and a 12-point favorite will rest starters, so only a small Under lean.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "SA 122, DAL 106"
     },
     {
       "id": "2026-10-24-NODEN-straight",
@@ -13413,13 +13533,15 @@
           "note": "Model has Denver by about 7 to 8; DK has NO +11.5 at -115 and Polymarket 50c (even money).",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 15.65,
       "stake": 18.0,
-      "to_win": 15.65
+      "to_win": 15.65,
+      "final": "NO 135, DEN 141"
     },
     {
       "id": "2026-10-24-GSPHX-straight",
@@ -13470,13 +13592,15 @@
           "note": "Projection 225.6 (about 222 with Curry out) vs 221.5; the total was cut 5 points from 224.5 on the Curry news.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "GS 122, PHX 131"
     },
     {
       "id": "2026-10-24-COLOOKST-straight",
@@ -13526,13 +13650,17 @@
           "note": "Colorado scores 19.5 ppg and the team averages project about 53 against a 54.5 total.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "COLO 24, OKST 57",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-GASTARST-straight",
@@ -13582,13 +13710,17 @@
           "note": "Points-per-game math projects about 57, and Georgia State's run game drains clock, but both defenses leak in the air.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "GAST 32, ARST 38",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-VANUK-straight",
@@ -13638,13 +13770,17 @@
           "note": "Six of Kentucky's seven games have gone over 51.5 and the stats projection is about 56.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "VAN 17, UK 34",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-ISUARIZ-straight",
@@ -13695,13 +13831,17 @@
           "note": "Iowa State is off a bye and runs for 181.5 yards a game, which keeps a double-digit margin harder to build.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "ISU 3, ARIZ 39",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-SYRUNC-straight",
@@ -13752,13 +13892,15 @@
           "note": "Syracuse scores 31.7 and UNC's secondary has multiple starters out, but a 17 mph gust trims the Over.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "SYR 31, UNC 30"
     },
     {
       "id": "2026-10-24-HOUUTAH-straight",
@@ -13809,13 +13951,15 @@
           "note": "Utah is 6-0 with the nation's sixth-best success-rate defense, and Dimers and Kalshi both put its win chance near 68%.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 7.2,
       "stake": 18.0,
-      "to_win": 7.2
+      "to_win": 7.2,
+      "final": "HOU 13, UTAH 21"
     },
     {
       "id": "2026-10-24-POTD-MLB",
@@ -13859,13 +14003,17 @@
           "note": "Rasmussen had 10, 7 and 6 strikeouts in his three postseason starts and works 6 to 8 innings.",
           "status": "Confirmed Game 2 starter (MLB StatsAPI/ESPN probables); 5 days rest after ALCS G5",
           "alt": false,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 9.09
+      "to_win": 9.09,
+      "final": "TB 4, MIL 5",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-POTD-NBA",
@@ -13908,13 +14056,15 @@
           "note": "Main line; VanVleet is expected to rest on the back-to-back, so Sengun runs more of the offense (5 and 7 assists so far).",
           "status": "Active",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 8.51,
       "stake": 12.0,
-      "to_win": 8.51
+      "to_win": 8.51,
+      "final": "HOU 121, ATL 114"
     },
     {
       "id": "2026-10-24-TRAD-straight",
@@ -13956,13 +14106,17 @@
           "league": "NCAAF",
           "matchup": "KSU @ ASU",
           "start": "2026-10-24T19:45Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "KSU 17-28 ASU",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-TRAD-best",
@@ -14004,7 +14158,9 @@
           "league": "NCAAF",
           "matchup": "TENN @ SC",
           "start": "2026-10-24T19:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Kansas State Wildcats -1.5",
@@ -14033,7 +14189,9 @@
           "league": "NCAAF",
           "matchup": "KSU @ ASU",
           "start": "2026-10-24T19:45Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Sacramento State Hornets ML",
@@ -14061,13 +14219,17 @@
           "league": "NCAAF",
           "matchup": "SAC @ BALL",
           "start": "2026-10-24T19:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 64.68
+      "to_win": 64.68,
+      "final": "TENN 24-27 SC; KSU 17-28 ASU; SAC 17-34 BALL",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-TRAD-longshot",
@@ -14109,7 +14271,9 @@
           "league": "NCAAF",
           "matchup": "ULM @ TROY",
           "start": "2026-10-24T20:00Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Tennessee Volunteers +2.5",
@@ -14139,7 +14303,9 @@
           "league": "NCAAF",
           "matchup": "TENN @ SC",
           "start": "2026-10-24T19:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Illinois Fighting Illini +10",
@@ -14169,7 +14335,8 @@
           "league": "NCAAF",
           "matchup": "ORE @ ILL",
           "start": "2026-10-24T19:00Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "win"
         },
         {
           "desc": "Under 48.5",
@@ -14198,13 +14365,17 @@
           "league": "NCAAF",
           "matchup": "HAW @ NIU",
           "start": "2026-10-24T19:30Z",
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -1.5,
       "stake": 1.5,
-      "to_win": 18.25
+      "to_win": 18.25,
+      "final": "ULM 21-14 TROY; TENN 24-27 SC; ORE 10-21 ILL; HAW 56-21 NIU",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-24-POTD-NCAAF",
@@ -14246,16 +14417,18 @@
           "note": "Cincinnati allows 26.8 points and 294 pass yards, and Texas Tech's offense scores 37.8 per game.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 11.43,
       "stake": 12.0,
       "to_win": 11.43,
       "placed": true,
       "placed_units": 6,
-      "placed_unit": 10
+      "placed_unit": 10,
+      "final": "TTU 24, CIN 37"
     }
   ]
 }

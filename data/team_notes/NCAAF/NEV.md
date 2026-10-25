@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs San José State Spartans
+### 2026-10-24: vs San José State Spartans (final: SJSU 13, NEV 28)
 
 Nevada has lost three straight and averages 172 passing yards, while San Jose State is 4-3. Most likely to win: San Jose State Spartans +6.5 (-110).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Nevada Wolf Pack ML: The market has Nevada near 69%, but they are 2-4 and scored 20 or fewer in three of their last five.
 
 Our bets:
-- straight (lean): San José State Spartans +5.5 (-112): pending -> **pending**
+- straight (lean): San José State Spartans +5.5 (-112): pending -> **loss**

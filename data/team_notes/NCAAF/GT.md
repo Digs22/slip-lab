@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Boston College Eagles
+### 2026-10-24: vs Boston College Eagles (final: BC 49, GT 27)
 
 Georgia Tech is a 6-point home favorite after the line moved from -4.5, and Boston College allows 160 rushing yards a game. Most likely to win: Georgia Tech Yellow Jackets ML (-238).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Under 50.5: Season averages blend to about 48.7, and the total rose a point from the open.
 
 Our bets:
-- straight (lean): Under 50.5 (-110): pending -> **pending**
+- straight (lean): Under 50.5 (-110): pending -> **loss**

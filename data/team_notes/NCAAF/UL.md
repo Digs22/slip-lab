@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Southern Miss Golden Eagles
+### 2026-10-24: at Southern Miss Golden Eagles (final: UL 31, USM 35)
 
 Louisiana has the better defense (19.3 ppg allowed) while Southern Miss is 1-5 and allows 252 rushing yards a game. Most likely to win: Louisiana Ragin' Cajuns -10 (-108).
 
@@ -29,4 +29,4 @@ Legs considered:
 - Southern Miss Golden Eagles +10: Backup-level QB play and a 252-yard run defense make this the weaker side; listed for completeness.
 
 Our bets:
-- straight: Louisiana Ragin' Cajuns -10 (-108): pending -> **pending**
+- straight: Louisiana Ragin' Cajuns -10 (-108): pending -> **loss**

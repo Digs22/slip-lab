@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Milwaukee Bucks
+### 2026-10-24: vs Milwaukee Bucks (final: MIL 116, PHI 127)
 
 Total projects 228.1 against DK 234.5 (6.4 under) and MIL +12.5 looks too big for a team the model has near 5. Most likely winner: Under 234.5.
 
@@ -38,8 +38,8 @@ Legs considered:
 - T. Herro o2.5 threes: Herro made 4 and 5 threes in his two games on 21 attempts, and PHI allows the 4th-most to shooting guards.
 
 Our bets:
-- straight: Under 234.5 (-108): pending -> **pending**
-- best: T. Maxey o25.5 points (-104): Active / T. Herro o2.5 threes (-132): Active -> **pending**
+- straight: Under 234.5 (-108): pending -> **loss**
+- best: T. Maxey o25.5 points (-104): Active / T. Herro o2.5 threes (-132): Active -> **loss**
 
 ### 2026-10-22: vs Cleveland Cavaliers (final: CLE 106, PHI 114)
 

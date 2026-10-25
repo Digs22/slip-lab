@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Iowa State Cyclones
+### 2026-10-24: vs Iowa State Cyclones (final: ISU 3, ARIZ 39)
 
 Arizona is 5-1 and scores 35.7 ppg but is missing several receivers, and Iowa State is off a bye with a 181.5 ypg ground game. Most likely to win: Iowa State Cyclones +10.5 (-108).
 
@@ -27,4 +27,4 @@ Legs considered:
 - Over 51.5: Arizona's 307 passing yards a game and Iowa State's 45-42 win at West Virginia support a total near 53.
 
 Our bets:
-- straight (lean): Iowa State Cyclones +12.5 (-112): pending -> **pending**
+- straight (lean): Iowa State Cyclones +12.5 (-112): pending -> **loss**

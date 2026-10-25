@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Mississippi State Bulldogs
+### 2026-10-24: at Mississippi State Bulldogs (final: OU 23, MSST 15)
 
 Oklahoma is a 2.5-point road favorite, and Mississippi State's QB Kamario Taylor was still day-to-day this week. Most likely to win: Under 47.5 (-105).
 
@@ -28,7 +28,7 @@ Legs considered:
 - Oklahoma Sooners ML: Oklahoma has the better defense, but Mateer threw 3 INT against Kentucky and the offense is thin on the line.
 
 Our bets:
-- straight (lean): Under 49.5 (-115): pending -> **pending**
+- straight (lean): Under 49.5 (-115): pending -> **win**
 
 ### 2026-10-17: vs Kentucky Wildcats (final: UK 21, OU 13)
 

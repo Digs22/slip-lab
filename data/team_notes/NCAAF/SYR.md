@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at North Carolina Tar Heels
+### 2026-10-24: at North Carolina Tar Heels (final: SYR 31, UNC 30)
 
 Syracuse's pass offense (31.7 ppg) meets a banged-up UNC secondary, and UNC's wins have been narrow. Most likely to win: Syracuse +8.5 (-108).
 
@@ -33,4 +33,4 @@ Legs considered:
 - North Carolina Tar Heels -9.5: Models like UNC (Dimers 79%, 29-19), but all four of its wins this year were by 4 to 32 and only one by more than 5.
 
 Our bets:
-- straight (lean): Over 49.5 (-108): pending -> **pending**
+- straight (lean): Over 49.5 (-108): pending -> **win**

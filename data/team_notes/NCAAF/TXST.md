@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Utah State Aggies
+### 2026-10-24: vs Utah State Aggies (final: USU 17, TXST 20)
 
 Utah State averages 14.5 points and every one of its games finished under 56, while 21 mph gusts hit San Marcos. Most likely to win: Under 60.5 (-105).
 
@@ -33,4 +33,4 @@ Legs considered:
 - Texas State Bobcats -13.5: Texas State runs for 303 yards and 6.1 per carry, and models project a 14-point win.
 
 Our bets:
-- straight (lean): Under 60.5 (-110): pending -> **pending**
+- straight (lean): Under 60.5 (-110): pending -> **win**

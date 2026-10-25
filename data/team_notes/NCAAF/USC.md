@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Wisconsin Badgers
+### 2026-10-24: at Wisconsin Badgers (final: USC 7, WIS 24)
 
 USC is 6-1 with the Big Ten's top passer, but Wisconsin has a pass defense allowing just 171 yards a game and a home night game. Most likely to win: Wisconsin Badgers +3 (-115).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Under 50.5: Wisconsin's 171 pass yards allowed and slow pace work against USC's passing game, and the total has already fallen 3 points.
 
 Our bets:
-- straight (lean): Wisconsin Badgers +2.5 (-105): pending -> **pending**
+- straight (lean): Wisconsin Badgers +2.5 (-105): pending -> **win**

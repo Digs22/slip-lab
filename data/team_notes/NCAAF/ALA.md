@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Texas A&M Aggies
+### 2026-10-24: vs Texas A&M Aggies (final: TA&M 20, ALA 31)
 
 No. 13 Alabama is a 13.5-point favorite after back-to-back losses, while Texas A&M has a turnover-prone offense (Reed 6 INT). Most likely to win: Texas A&M +13.5 (-112).
 
@@ -29,7 +29,7 @@ Legs considered:
 - Alabama Crimson Tide -13.5: Alabama scores 39.3 and A&M's offense has 6 turnovers from Reed, but Alabama has dropped two straight.
 
 Our bets:
-- straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **pending**
+- straight (lean): Alabama Crimson Tide -13.5 (-108): pending -> **loss**
 
 ### 2026-10-17: at Tennessee Volunteers (final: ALA 10, TENN 26)
 

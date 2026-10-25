@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Old Dominion Monarchs
+### 2026-10-24: vs Old Dominion Monarchs (final: ODU 0, LT 26)
 
 Louisiana Tech scores 33.3 ppg while Old Dominion has the 17.7-ppg offense and has lost five of seven; the spread jumped from 8.5 to 13.5. Most likely to win: Over 44.5 (-118).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Louisiana Tech Bulldogs -13.5: Louisiana Tech is 4-2 but lost its two road games to LSU and Baylor by 31 and 17.
 
 Our bets:
-- straight (lean): Over 43.5 (-118): pending -> **pending**
+- straight (lean): Over 43.5 (-118): pending -> **loss**

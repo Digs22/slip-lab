@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Phoenix Suns
+### 2026-10-24: at Phoenix Suns (final: GS 122, PHX 131)
 
 Curry said he will 'probably' sit the back-to-back, which moved the line to PHX -9.5 and the total down to 219.5; the formula still projects 225.6 (about 222 without Curry). Most likely winner: Golden State +9.5.
 
@@ -36,7 +36,7 @@ Legs considered:
 - Over 221.5: Projection 225.6 (about 222 with Curry out) vs 221.5; the total was cut 5 points from 224.5 on the Curry news.
 
 Our bets:
-- straight (lean): Over 221.5 (-112): pending -> **pending**
+- straight (lean): Over 221.5 (-112): pending -> **win**
 
 ### 2026-10-23: vs Memphis Grizzlies (final: MEM 111, GS 108)
 

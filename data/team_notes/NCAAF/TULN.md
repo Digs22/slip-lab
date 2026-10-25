@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs UTSA Roadrunners
+### 2026-10-24: vs UTSA Roadrunners (final: UTSA 42, TULN 19)
 
 UTSA is only a 3-point road favorite against a Tulane team that is home with extra rest and a 21.7 ppg defense. Most likely to win: Tulane +3 (-118).
 
@@ -31,4 +31,4 @@ Legs considered:
 - Under 51.5: Tulane games average 42 points and its offense is 332 ypg, though UTSA games have gone over 51.5 in five of seven.
 
 Our bets:
-- straight: Under 51.5 (-105): pending -> **pending**
+- straight: Under 51.5 (-105): pending -> **loss**

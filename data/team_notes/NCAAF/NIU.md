@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Hawai'i Rainbow Warriors
+### 2026-10-24: vs Hawai'i Rainbow Warriors (final: HAW 56, NIU 21)
 
 Winless Northern Illinois (0-6) faces Hawaii (1-6) and both score under 16 a game. Most likely to win: Under 48.5 (-115).
 
@@ -27,5 +27,5 @@ Legs considered:
 - Northern Illinois Huskies +3: The line fell from NIU +7.5 to +3 with no news found, so the move may already price in Hawaii's edge.
 
 Our bets:
-- straight (lean): Under 48.5 (-112): pending -> **pending**
-- longshot: Under 48.5 (-112): pending -> **pending**
+- straight (lean): Under 48.5 (-112): pending -> **loss**
+- longshot: Under 48.5 (-112): pending -> **loss**

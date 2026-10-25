@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Ole Miss Rebels
+### 2026-10-24: vs Ole Miss Rebels (final: MISS 27, TEX 34)
 
 Texas is without sack leader Colin Simmons and likely RB Hollywood Smothers, and has lost two straight; Ole Miss scores 37.5 ppg. Most likely to win: Ole Miss Rebels +3 (-108).
 
@@ -30,7 +30,7 @@ Legs considered:
 - Over 54.5: Ole Miss's defense gives up 153 rushing yards a game, and Texas's pass rush loses its best player.
 
 Our bets:
-- straight (lean): Ole Miss Rebels +3 (-108): pending -> **pending**
+- straight (lean): Ole Miss Rebels +3 (-108): pending -> **loss**
 
 ### 2026-10-17: vs Florida Gators (final: FLA 27, TEX 24)
 

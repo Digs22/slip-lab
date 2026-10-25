@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Michigan State Spartans
+### 2026-10-24: vs Michigan State Spartans (final: MSU 10, UCLA 28)
 
 No. 9 UCLA (6-0, 6-0 ATS) is a 15.5-point favorite using backup QB Ty Dieffenbach, who has scored 17 in each of the last two games. Most likely to win: Michigan State +15.5 (-112).
 
@@ -29,7 +29,7 @@ Legs considered:
 - UCLA Bruins -16.5: UCLA is 6-0 ATS, but the offense has stalled at 17 points in each of its last two games.
 
 Our bets:
-- straight (lean): Under 42.5 (-108): pending -> **pending**
+- straight (lean): Under 42.5 (-108): pending -> **win**
 
 ### 2026-10-17: vs Wisconsin Badgers (final: WIS 7, UCLA 17)
 

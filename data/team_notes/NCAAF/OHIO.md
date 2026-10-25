@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Eastern Michigan Eagles
+### 2026-10-24: vs Eastern Michigan Eagles (final: EMU 20, OHIO 24)
 
 Ohio is a 10-point home favorite over an EMU team that lost 10-54 and 7-35 against Power-4 foes but beat Akron and Lindenwood. Most likely to win: Eastern Michigan +10 (-115).
 
@@ -29,4 +29,4 @@ Legs considered:
 - Eastern Michigan Eagles ML: A 9-point projected margin makes EMU a live dog near 26% against a 24% fair price.
 
 Our bets:
-- straight (lean): Eastern Michigan Eagles +9.5 (-105): pending -> **pending**
+- straight (lean): Eastern Michigan Eagles +9.5 (-105): pending -> **win**

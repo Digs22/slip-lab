@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Washington State Cougars
+### 2026-10-24: at Washington State Cougars (final: BOIS 31, WSU 10)
 
 Boise State (5-1, 35 ppg) visits a Washington State team that is 1-6 with a 20-ppg offense; the total jumped 3 points to 53.5. Most likely to win: Under 53.5 (-112).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Boise State Broncos -14.5: Boise rushes for 234 yds and Washington State allows 160 on the ground, but a road team laying two touchdowns is a thin edge.
 
 Our bets:
-- straight (lean): Under 51.5 (-105): pending -> **pending**
+- straight (lean): Under 51.5 (-105): pending -> **win**

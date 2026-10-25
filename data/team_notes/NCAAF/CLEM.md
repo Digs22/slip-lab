@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Virginia Tech Hokies
+### 2026-10-24: vs Virginia Tech Hokies (final: VT 20, CLEM 16)
 
 Virginia Tech's offense (37.1 ppg, 302 pass ypg) faces a Clemson offense that is last in the ACC through the air with a freshman QB. Most likely to win: Virginia Tech Hokies +2.5 (-105).
 
@@ -30,4 +30,4 @@ Legs considered:
 - Under 50.5: VT's top-10 rush defense (87 yards a game) and Clemson's weak offense point to a lower-scoring game, though VT's offense is explosive.
 
 Our bets:
-- straight: Virginia Tech Hokies +2.5 (-105): pending -> **pending**
+- straight: Virginia Tech Hokies +2.5 (-105): pending -> **win**

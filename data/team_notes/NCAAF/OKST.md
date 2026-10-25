@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Colorado Buffaloes
+### 2026-10-24: vs Colorado Buffaloes (final: COLO 24, OKST 57)
 
 Oklahoma State (37.2 ppg, 518 ypg) hosts 2-4 Colorado, which has lost four straight but covered close games. Most likely to win: Under 56.5 (-112).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Oklahoma State Cowboys -13.5: Oklahoma State's FBS wins were by 8, 17 and 14 before a home-field loss, so two touchdowns is a stretch.
 
 Our bets:
-- straight (lean): Under 54.5 (-105): pending -> **pending**
+- straight (lean): Under 54.5 (-105): pending -> **loss**

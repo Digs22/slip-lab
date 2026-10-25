@@ -7,7 +7,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Brooklyn Nets
+### 2026-10-24: vs Brooklyn Nets (final: BKN 121, CLE 125)
 
 Cleveland is -10.5 but the model has the margin near 9, so Nets +10.5 is the researched dog; the SGP is a coin flip with no edge. Most likely winner: Nets +10.5.
 
@@ -33,9 +33,9 @@ Legs considered:
 - J. Randle o19.5 points: Single-source main line; Brooklyn playing from behind keeps Randle's volume high after 33/8/7 in the opener.
 
 Our bets:
-- straight: D. Mitchell o26.5 points (-105): Active -> **pending**
-- longshot: D. Mitchell o26.5 points (-105): Active -> **pending**
-- best: D. Mitchell o26.5 points (-105): Active / J. Randle o19.5 points (-120): Active -> **pending**
+- straight: D. Mitchell o26.5 points (-105): Active -> **loss**
+- longshot: D. Mitchell o26.5 points (-105): Active -> **loss**
+- best: D. Mitchell o26.5 points (-105): Active / J. Randle o19.5 points (-120): Active -> **loss**
 
 ### 2026-10-22: at Philadelphia 76ers (final: CLE 106, PHI 114)
 

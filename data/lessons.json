@@ -29,50 +29,50 @@
     {
       "split": "play",
       "name": "best",
-      "roi": -31.3,
-      "n": 34,
+      "roi": -30.0,
+      "n": 38,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "play",
       "name": "longshot",
       "roi": -100.0,
-      "n": 10,
+      "n": 12,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "market",
       "name": "mixed",
-      "roi": -54.2,
-      "n": 27,
+      "roi": -56.7,
+      "n": 30,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "market",
       "name": "spread",
-      "roi": -21.7,
-      "n": 22,
+      "roi": -22.3,
+      "n": 37,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "market",
       "name": "total",
-      "roi": 39.6,
-      "n": 34,
+      "roi": 18.5,
+      "n": 54,
       "action": "Working: keep full stake"
     },
     {
       "split": "league",
       "name": "MLB",
-      "roi": -15.4,
-      "n": 21,
+      "roi": -25.5,
+      "n": 23,
       "action": "Cut stake in half until ROI recovers"
     },
     {
       "split": "league",
-      "name": "NCAAF",
-      "roi": 26.6,
-      "n": 30,
+      "name": "NBA",
+      "roi": 18.4,
+      "n": 61,
       "action": "Working: keep full stake"
     },
     {
@@ -85,30 +85,30 @@
   ],
   "loss_causes": {
     "untagged": 12,
-    "bad read": 82,
+    "bad read": 117,
     "variance": 1
   },
   "weights": {
-    "projection": 1.25,
-    "recent_form": 0.6,
-    "season": 0.4,
-    "matchup": 0.8,
+    "projection": 1.15,
+    "recent_form": 0.327,
+    "season": 0.133,
+    "matchup": 0.022,
     "home_away": 0.5,
     "rest_travel": 0.55,
-    "weather": 0.9,
-    "injuries": 0.5,
-    "coaching": 0.35,
+    "weather": 0.904,
+    "injuries": 0.67,
+    "coaching": 0.283,
     "postseason": 0.35,
     "news": 0.45,
     "line_move": 0.55,
     "line_movement": 0.5,
-    "experts": 0.75,
-    "home": 0.3,
+    "experts": 0.69,
+    "home": 0.407,
     "trend": 0.45,
     "models": 0.5,
     "history": 0.7,
     "market": 0.55,
-    "situational": 0.45,
+    "situational": 0.35,
     "game_script": 0.45,
     "opponent_defense": 0.55,
     "hook_over_key_number_3": 0.55,
@@ -128,17 +128,19 @@
     "bullpen": 0.55,
     "usage": 0.5,
     "totals_model": 0.75,
-    "market_move": 0.4,
-    "pace": 0.4,
+    "market_move": 0.35,
+    "pace": 0.35,
     "role_change": 0.1,
     "roster": 0.4,
     "role": 0.6,
     "roster_change": 0.45,
     "elite_big": 0.45,
-    "leash": 0.55
+    "leash": 0.5,
+    "schedule": 0.45,
+    "model": 0.55
   },
   "retrain": {
-    "n": 1656,
+    "n": 1915,
     "accepted": true,
     "factors": [
       "coaching",
@@ -150,32 +152,36 @@
       "projection",
       "recent_form",
       "season",
-      "totals_model"
+      "situational",
+      "totals_model",
+      "weather"
     ],
-    "held_out": 497,
-    "logloss_new": 0.6458,
-    "logloss_current": 0.6459,
-    "logloss_market": 0.6462,
+    "held_out": 575,
+    "logloss_new": 0.6492,
+    "logloss_current": 0.6493,
+    "logloss_market": 0.6499,
     "weights": {
-      "coaching": 0.343,
-      "experts": 0.745,
-      "history": 0.698,
-      "home": 0.303,
-      "injuries": 0.507,
-      "matchup": 0.784,
-      "projection": 1.23,
-      "recent_form": 0.588,
-      "season": 0.383,
-      "totals_model": 0.75
+      "coaching": 0.283,
+      "experts": 0.69,
+      "history": 0.7,
+      "home": 0.407,
+      "injuries": 0.57,
+      "matchup": 0.072,
+      "projection": 1.15,
+      "recent_form": 0.227,
+      "season": 0.033,
+      "situational": 0.35,
+      "totals_model": 0.75,
+      "weather": 0.904
     },
     "market_check": {
-      "n": 1656,
-      "model_logloss": 0.6712,
-      "market_logloss": 0.6711,
+      "n": 1915,
+      "model_logloss": 0.6744,
+      "market_logloss": 0.6737,
       "beats_market": false,
-      "picked_n": 130,
-      "picked_hit": 0.462,
-      "picked_expected": 0.48
+      "picked_n": 157,
+      "picked_hit": 0.446,
+      "picked_expected": 0.484
     }
   }
 }

@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Arizona State Sun Devils
+### 2026-10-24: at Arizona State Sun Devils (final: KSU 17, ASU 28)
 
 Kansas State is a 1.5-point road favorite at Arizona State; the total fell from 56.5 to 52.5 without a reason I could find, so injuries are a risk. Most likely to win: Kansas State ML (-118).
 
@@ -30,7 +30,7 @@ Legs considered:
 - Arizona State Sun Devils +1.5: Arizona State's passing game is productive (13 TD from Boley), but its defense is among the worst in the Big 12.
 
 Our bets:
-- straight: Kansas State Wildcats ML (-112): pending -> **pending**
-- longshot: Kansas State Wildcats ML (-112): pending -> **pending**
-- straight: Kansas State Wildcats -1.5 (-105): pending -> **pending**
-- best: Kansas State Wildcats -1.5 (-105): pending -> **pending**
+- straight: Kansas State Wildcats ML (-112): pending -> **loss**
+- longshot: Kansas State Wildcats ML (-112): pending -> **loss**
+- straight: Kansas State Wildcats -1.5 (-105): pending -> **loss**
+- best: Kansas State Wildcats -1.5 (-105): pending -> **loss**

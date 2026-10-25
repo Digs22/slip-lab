@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs Georgia State Panthers
+### 2026-10-24: vs Georgia State Panthers (final: GAST 32, ARST 38)
 
 Georgia State's run-heavy offense (206 rush ypg) faces an Arkansas State defense allowing 195 rushing yards a game. Most likely to win: Georgia State Panthers ML (-135).
 
@@ -28,4 +28,4 @@ Legs considered:
 - Under 58.5: Points-per-game math projects about 57, and Georgia State's run game drains clock, but both defenses leak in the air.
 
 Our bets:
-- straight (lean): Under 58.5 (-112): pending -> **pending**
+- straight (lean): Under 58.5 (-112): pending -> **loss**

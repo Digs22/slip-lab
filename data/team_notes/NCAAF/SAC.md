@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: at Ball State Cardinals
+### 2026-10-24: at Ball State Cardinals (final: SAC 17, BALL 34)
 
 Ball State is a -14.5 favorite after a 5-point move, but it is 2-5 and has never beaten an FBS team by 15; Sacramento State is also awful. Most likely to win: Sacramento State +14.5 (-112).
 
@@ -30,5 +30,5 @@ Legs considered:
 - Over 51.5: Ball State games average 58 points because its defense allows 37.9, though Sacramento State rarely scores.
 
 Our bets:
-- straight (lean): Sacramento State Hornets +14.5 (-112): pending -> **pending**
-- best: Sacramento State Hornets ML (+440): pending -> **pending**
+- straight (lean): Sacramento State Hornets +14.5 (-112): pending -> **loss**
+- best: Sacramento State Hornets ML (+440): pending -> **loss**

@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-24: vs UL Monroe Warhawks
+### 2026-10-24: vs UL Monroe Warhawks (final: ULM 21, TROY 14)
 
 Troy is an 11.5-point home favorite after the spread fell from 17.5, and ULM is 0-6 allowing 41 a game. Most likely to win: Over 49.5 (-112).
 
@@ -29,5 +29,5 @@ Legs considered:
 - UL Monroe Warhawks +12.5: The 6-point drop from 17.5 shows money on the Warhawks, and only 12 of Troy's points came against FBS foes in its last three losses.
 
 Our bets:
-- straight (lean): Over 50.5 (-108): pending -> **pending**
-- longshot: Over 50.5 (-108): pending -> **pending**
+- straight (lean): Over 50.5 (-108): pending -> **loss**
+- longshot: Over 50.5 (-108): pending -> **loss**
