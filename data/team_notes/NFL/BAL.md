@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs Cincinnati Bengals
+### 2026-10-25: vs Cincinnati Bengals (final: CIN 35, BAL 13)
 
 Lamar Jackson is out so Huntley starts; Cincinnati is a 3-point road favorite coming off a bye with a healthy roster. Most likely to win: Bengals ML (-148).
 
@@ -33,7 +33,7 @@ Legs considered:
 - D. Henry o85.5 rush yds: With Huntley under center Baltimore leans on Henry against the league's 23rd-ranked run defense, though he managed only 58 yards last week.
 
 Our bets:
-- straight (lean): D. Henry o85.5 rush yds (-110): Active workhorse: 130 carries / 534 yds (4.1 ypc), 7 TD; no designation. Rush total was 17 for 58 at CLE last week. -> **pending**
+- straight (lean): D. Henry o85.5 rush yds (-110): Active workhorse: 130 carries / 534 yds (4.1 ypc), 7 TD; no designation. Rush total was 17 for 58 at CLE last week. -> **loss**
 
 ### 2026-10-18: at Cleveland Browns (final: BAL 10, CLE 13)
 

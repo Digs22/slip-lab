@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at New York Jets
+### 2026-10-25: at New York Jets (final: MIA 28, NYJ 25)
 
 The Jets' top-4 pass defense faces Malik Willis (153.6 pass ypg, 4 INT) and a winless Miami team, but the offenses are both poor. Most likely to win: Jets ML.
 
@@ -33,4 +33,4 @@ Legs considered:
 - Under 39.5: MIA scores 14.0 ppg and NYJ 18.7 with the league's worst red-zone rate (37.5%); my projection of 40.7 is slightly above the line so this is a weak lean.
 
 Our bets:
-- straight (lean): Under 39.5 (-118): pending -> **pending**
+- straight (lean): Under 39.5 (-118): pending -> **loss**

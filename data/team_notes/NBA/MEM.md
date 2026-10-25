@@ -30,12 +30,12 @@ VENUE: Golden 1 Center, 9:00 PM ET (6:00 PM PT); SAC 0-1 at home this season.
 VERDICT: little separates these rebuilt teams, and the market's 4.5 (up from 3.5) is the full price of MEM's 2-0 start. Lean SAC +4.5 (-115); total lean is thin (1.7 under), so Under 236.5 is a minor play. Single-book prices cap confidence.
 
 Legs considered:
-- Sacramento Kings +4.5: Model has MEM by only 1.5 neutral, so Sacramento is the home dog; DK moved from +3.5 to +4.5.
-- Under 236.5: Projection 234.8 (MEM 118.1 + SAC 116.6) is 1.7 under DK; Edey out and no SAC bigs lower efficiency.
+- Sacramento Kings +3.5: Model has MEM by only 1.5 neutral, so Sacramento is the home dog; DK moved from +3.5 to +3.5.
+- Under 234.5: Projection 234.8 (MEM 118.1 + SAC 116.6) is 1.7 under DK; Edey out and no SAC bigs lower efficiency.
 - Sacramento Kings ML: Same dog view at +145; ESPN BPI gives MEM 60.9%, so the model gap is capped near the market.
 
 Our bets:
-- straight (lean): Under 236.5 (-115): pending -> **pending**
+- straight (lean): Under 234.5 (-112): pending -> **pending**
 
 ### 2026-10-23: at Golden State Warriors (final: MEM 111, GS 108)
 

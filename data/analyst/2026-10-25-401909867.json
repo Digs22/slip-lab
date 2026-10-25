@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Sacramento Kings +4.5",
+   "desc": "Sacramento Kings +3.5",
    "game": "Memphis Grizzlies @ Sacramento Kings",
    "market": "spread",
    "team": "SAC",
    "side": null,
-   "line": 4.5,
-   "odds": -115,
+   "line": 3.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "matchup": 0.55,
@@ -22,18 +22,18 @@
     "market_move": 0.45,
     "experts": 0.45
    },
-   "note": "Model has MEM by only 1.5 neutral, so Sacramento is the home dog; DK moved from +3.5 to +4.5."
+   "note": "Model has MEM by only 1.5 neutral, so Sacramento is the home dog; DK moved from +3.5 to +3.5."
   },
   {
-   "desc": "Under 236.5",
+   "desc": "Under 234.5",
    "game": "Memphis Grizzlies @ Sacramento Kings",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 236.5,
-   "odds": -115,
+   "line": 234.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "totals_model": 0.54,
@@ -50,9 +50,9 @@
    "team": "SAC",
    "side": null,
    "line": null,
-   "odds": 145,
+   "odds": 136,
    "book": "DraftKings",
-   "fair": 0.39,
+   "fair": 0.407,
    "books": 1,
    "signals": {
     "matchup": 0.5,

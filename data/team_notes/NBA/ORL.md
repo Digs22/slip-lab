@@ -33,12 +33,12 @@ Lean summary: Knicks ML is the likely winner; no edge on the spread, a small Ove
 
 Legs considered:
 - New York Knicks ML: Defending champs at home against a 0-2 Orlando without Banchero; the price sits right at the -300 limit.
-- Orlando Magic +7.5: Dimers sees Orlando +7.5 value at 53%, but Banchero and Black are out, so it stays a coin flip.
+- Orlando Magic +6.5: Dimers sees Orlando +6.5 value at 53%, but Banchero and Black are out, so it stays a coin flip.
 - Over 224.5: Projection 227.5 (225.7 with Banchero out) is above 224.5, but NY's slow pace and two sub-210 games cap it at a lean.
 - J. Brunson o25.5 points: Passes the DvP gate (ORL G 10th) but he has shot 13-36 so far; one price, so no edge.
 
 Our bets:
-- straight (lean): New York Knicks ML (-298): pending -> **pending**
+- straight (lean): New York Knicks ML (-270): pending -> **pending**
 
 ### 2026-10-23: vs Minnesota Timberwolves (final: MIN 115, ORL 93)
 

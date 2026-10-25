@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs Cleveland Browns
+### 2026-10-25: vs Cleveland Browns (final: CLE 27, TEN 24)
 
 Cleveland has the better defense and QB play while Tennessee averages 14 ppg, and the total fell two points to 36.5. Most likely to win: Browns ML.
 
@@ -35,7 +35,7 @@ Legs considered:
 - Under 36.5: My projection is 35.3 (TEN 14.0 ppg, CLE 17.7 ppg, CLE 30.8% third down); the total fell from 40.5 to 36.5 so the cheap side is already priced in.
 
 Our bets:
-- straight (lean): Under 36.5 (-102): pending -> **pending**
+- straight (lean): Under 36.5 (-102): pending -> **loss**
 
 ### 2026-10-18: at Indianapolis Colts (final: TEN 26, IND 20)
 

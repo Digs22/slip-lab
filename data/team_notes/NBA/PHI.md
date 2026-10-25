@@ -36,12 +36,12 @@ VENUE: Xfinity Mobile Arena, 7:30 PM ET, PHI 2-0 at home.
 VERDICT: a rested, deeper Detroit getting 2.5 against a back-to-back PHI that is likely without two stars looks mispriced by 2-4 points even after losing Duren. Lean DET +2.5 (-110); DET ML +110 is the same view at higher variance.
 
 Legs considered:
-- Detroit Pistons +2.5: PHI is on a back-to-back and may rest Embiid and LeBron; model has DET by about 2 even at Philadelphia.
+- Detroit Pistons -1.5: PHI is on a back-to-back and may rest Embiid and LeBron; model has DET by about 2 even at Philadelphia.
 - Detroit Pistons ML: Outright DET pays +110; Dimers and BPI side with PHI, but the rest edge and 60-22 record support the dog.
 - Over 227.5: Projection 227.8 (DET 116.0 + PHI 111.8) is level with DK 227.5, so no total edge.
 
 Our bets:
-- straight (lean): Detroit Pistons +2.5 (-110): pending -> **pending**
+- straight (lean): Detroit Pistons -1.5 (-110): pending -> **pending**
 
 ### 2026-10-24: vs Milwaukee Bucks (final: MIL 116, PHI 127)
 

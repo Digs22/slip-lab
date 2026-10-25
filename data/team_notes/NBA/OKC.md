@@ -35,12 +35,12 @@ VENUE: Paycom Center, 7:00 PM ET, a strong home crowd; OKC is 1-0 at home this y
 VERDICT: the 15.5 prices OKC like its 2025 peak against a depleted but still functional LAC. Lean LAC +15.5 (-105); Over 222.5 is a small model lean only. Usage SGP: none qualifies, none priced.
 
 Legs considered:
-- LA Clippers +15.5: Model margin is OKC by about 7 with home court; Dimers and CappersPicks both show the Clippers at +14.5.
-- Over 222.5: Projection 225.2 (OKC 115.0 + LAC 110.1) beats DK 222.5, but a 15.5-point spread invites garbage time.
+- LA Clippers +16.5: Model margin is OKC by about 7 with home court; Dimers and CappersPicks both show the Clippers at +14.5.
+- Over 224.5: Projection 225.2 (OKC 115.0 + LAC 110.1) beats DK 224.5, but a 15.5-point spread invites garbage time.
 - R. Hachimura o14.5 points: Single-source 15+ price; he scored 10 and 16 as the No. 2 option and a blowout cuts his minutes.
 
 Our bets:
-- straight (lean): LA Clippers +15.5 (-105): pending -> **pending**
+- straight (lean): LA Clippers +16.5 (-108): pending -> **pending**
 
 ### 2026-10-22: vs Denver Nuggets (final: DEN 84, OKC 96)
 

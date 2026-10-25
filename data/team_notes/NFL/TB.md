@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Carolina Panthers
+### 2026-10-25: at Carolina Panthers (final: TB 43, CAR 13)
 
 Carolina is a 3-point home favorite with Egbuka, Winfield and Goedeke out for Tampa and Mayfield (thumb) questionable. Most likely to win: McMillan 20+ yd reception (-270).
 
@@ -33,7 +33,7 @@ Legs considered:
 - T. McMillan 20+ yd reception: Most likely to win: Carolina's WR1 averages 6 catches at 14.7 per catch against a Tampa defense missing its top safety. Single-book price.
 
 Our bets:
-- straight (lean): B. Young o253.5 pass yds (-114): Active starter, full practice all week; role locked. WR1 McMillan healthy, no Panthers skill-player designations. -> **pending**
+- straight (lean): B. Young o253.5 pass yds (-114): Active starter, full practice all week; role locked. WR1 McMillan healthy, no Panthers skill-player designations. -> **loss**
 
 ### 2026-10-18: vs Pittsburgh Steelers (final: PIT 26, TB 19)
 

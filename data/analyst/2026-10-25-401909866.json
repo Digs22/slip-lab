@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Detroit Pistons +2.5",
+   "desc": "Detroit Pistons -1.5",
    "game": "Detroit Pistons @ Philadelphia 76ers",
    "market": "spread",
    "team": "DET",
    "side": null,
-   "line": 2.5,
+   "line": -1.5,
    "odds": -110,
-   "book": "Pickswise (book not named)",
-   "fair": 0.518,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 2,
    "signals": {
     "matchup": 0.56,
@@ -31,9 +31,9 @@
    "team": "DET",
    "side": null,
    "line": null,
-   "odds": 110,
+   "odds": -130,
    "book": "DraftKings",
-   "fair": 0.45,
+   "fair": 0.543,
    "books": 3,
    "signals": {
     "matchup": 0.55,
@@ -51,9 +51,9 @@
    "team": null,
    "side": "over",
    "line": 227.5,
-   "odds": -110,
+   "odds": -115,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.511,
    "books": 1,
    "signals": {
     "totals_model": 0.51,

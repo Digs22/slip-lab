@@ -30,7 +30,7 @@ Lean summary: MIN ML is the most likely leg (about 0.57, capped at fair +5); Und
 
 Legs considered:
 - Minnesota Timberwolves ML: Home court, a better 2025-26 net rating and Edwards due to bounce back from 5-23; numberFire has MIN 60.8%.
-- Under 231.5: Projection 230.4 is 1.1 under; both teams average about 221 in their two games, and Dimers, Lineups and iHeart lean Under.
+- Under 228.5: Projection 230.4 is 1.1 under; both teams average about 221 in their two games, and Dimers, Lineups and iHeart lean Under.
 - S. Barnes o5.5 assists: Plus-money main line; the market sits at the coin-flip price, so this is a small play only.
 - R. Barrett o5.5 rebounds: Dimers' Kalshi price; Gobert and McDaniels take MIN's boards, so no more than a coin flip at 44c.
 

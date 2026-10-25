@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs San Francisco 49ers
+### 2026-10-25: vs San Francisco 49ers (final: SF 20, ATL 29)
 
 SF is 6-0 with a top-3 EPA defense and Atlanta's line has allowed nine sacks in four Penix starts, but SF is on a short week. Most likely to win: 49ers ML.
 
@@ -37,7 +37,7 @@ Legs considered:
 - Over 49.5: No edge: both teams' last five games averaged 50.6 and 52.4 total points but my projection of 50.2 equals the line; Kalshi had Under 49.5 at 50%.
 
 Our bets:
-- straight (lean): San Francisco 49ers -2.5 (-115): pending -> **pending**
+- straight (lean): San Francisco 49ers -2.5 (-115): pending -> **loss**
 
 ### 2026-10-18: vs Chicago Bears
 

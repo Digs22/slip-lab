@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Minnesota Vikings
+### 2026-10-25: at Minnesota Vikings (final: IND 10, MIN 16)
 
 Minnesota (5-0) has the NFL's best defense at 12.8 ppg allowed, and Indy is missing CB Sauce Gardner and TE Tyler Warren. Most likely to win: Vikings ML.
 
@@ -35,7 +35,7 @@ Legs considered:
 - Indianapolis Colts +6.5: MIN's last four wins were by 6, 7, 5 and 10 with a 3.8 YPC offense, but the line already moved from 3 to 6.5; price is a near-fair 50/50.
 
 Our bets:
-- straight (lean): Under 41.5 (-112): pending -> **pending**
+- straight (lean): Under 41.5 (-112): pending -> **win**
 
 ### 2026-10-18: vs Tennessee Titans (final: TEN 26, IND 20)
 

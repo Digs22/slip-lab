@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "LA Clippers +15.5",
+   "desc": "LA Clippers +16.5",
    "game": "LA Clippers @ Oklahoma City Thunder",
    "market": "spread",
    "team": "LAC",
    "side": null,
-   "line": 15.5,
-   "odds": -105,
+   "line": 16.5,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.496,
    "books": 3,
    "signals": {
     "matchup": 0.57,
@@ -25,15 +25,15 @@
    "note": "Model margin is OKC by about 7 with home court; Dimers and CappersPicks both show the Clippers at +14.5."
   },
   {
-   "desc": "Over 222.5",
+   "desc": "Over 224.5",
    "game": "LA Clippers @ Oklahoma City Thunder",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 222.5,
-   "odds": -108,
+   "line": 224.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.496,
+   "fair": 0.504,
    "books": 3,
    "signals": {
     "totals_model": 0.55,
@@ -41,7 +41,7 @@
     "game_script": 0.46,
     "experts": 0.5
    },
-   "note": "Projection 225.2 (OKC 115.0 + LAC 110.1) beats DK 222.5, but a 15.5-point spread invites garbage time."
+   "note": "Projection 225.2 (OKC 115.0 + LAC 110.1) beats DK 224.5, but a 15.5-point spread invites garbage time."
   },
   {
    "desc": "R. Hachimura o14.5 points",

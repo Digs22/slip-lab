@@ -36,7 +36,7 @@ Legs considered:
 
 Our bets:
 - best: Kansas City Chiefs ML (+124): pending -> **pending**
-- straight (lean): Under 42.5 (-110): pending -> **pending**
+- straight (lean): Under 42.5 (-102): pending -> **pending**
 
 ### 2026-10-15: at Denver Broncos (final: SEA 14, DEN 17)
 

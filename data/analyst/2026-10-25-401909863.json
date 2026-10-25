@@ -10,9 +10,9 @@
    "team": "NY",
    "side": null,
    "line": null,
-   "odds": -298,
+   "odds": -270,
    "book": "DraftKings",
-   "fair": 0.718,
+   "fair": 0.7,
    "books": 4,
    "signals": {
     "season": 0.62,
@@ -24,15 +24,15 @@
    "note": "Defending champs at home against a 0-2 Orlando without Banchero; the price sits right at the -300 limit."
   },
   {
-   "desc": "Orlando Magic +7.5",
+   "desc": "Orlando Magic +6.5",
    "game": "Orlando Magic @ New York Knicks",
    "market": "spread",
    "team": "ORL",
    "side": null,
-   "line": 7.5,
-   "odds": -110,
+   "line": 6.5,
+   "odds": -105,
    "book": "DraftKings",
-   "fair": 0.5,
+   "fair": 0.489,
    "books": 3,
    "signals": {
     "matchup": 0.5,
@@ -40,7 +40,7 @@
     "experts": 0.53,
     "home": 0.45
    },
-   "note": "Dimers sees Orlando +7.5 value at 53%, but Banchero and Black are out, so it stays a coin flip."
+   "note": "Dimers sees Orlando +6.5 value at 53%, but Banchero and Black are out, so it stays a coin flip."
   },
   {
    "desc": "Over 224.5",
@@ -49,9 +49,9 @@
    "team": null,
    "side": "over",
    "line": 224.5,
-   "odds": -105,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.496,
    "books": 3,
    "signals": {
     "totals_model": 0.54,

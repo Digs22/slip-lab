@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs New York Giants
+### 2026-10-25: vs New York Giants (final: NYG 27, HOU 21)
 
 Houston is a 10.5-point favorite but is 0-3 at home and Giants QB J.J. McCarthy debuts. Most likely to win: Nico Collins o65.5 receiving yards.
 
@@ -32,7 +32,7 @@ Legs considered:
 - N. Collins o65.5 rec yds: Most likely to win: Collins is Stroud's top target and Giants CB Newsome is out and Adebo is questionable. Single-book price.
 
 Our bets:
-- straight (lean): N. Collins o65.5 rec yds (-111): Active WR1 after a hamstring absence: 22-323-3 in 4 games, over 70 yards in 3 of 4, 74 yds on 5 targets last week. No designation. -> **pending**
+- straight (lean): N. Collins o65.5 rec yds (-111): Active WR1 after a hamstring absence: 22-323-3 in 4 games, over 70 yards in 3 of 4, 74 yds on 5 targets last week. No designation. -> **loss**
 
 ### 2026-10-18: at Jacksonville Jaguars (final: HOU 34, JAX 31)
 
