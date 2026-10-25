@@ -34,12 +34,12 @@ Lean summary: Pacers ML is most likely to win (about 0.70); the Under 231.5 is t
 Legs considered:
 - Indiana Pacers ML: Brooklyn is 0-2, on a back-to-back after a 121-125 game at Cleveland, and was the league's worst offense.
 - Under 231.5: Projection 226.5 (IND 113.9 + BKN 112.7 at 99.05 poss) is 5.0 under; the slow Nets and a tired back-to-back help.
-- Brooklyn Nets +7.5: Ratings put IND by only 1 neutral, but Brooklyn's back-to-back and IND's thin guard depth keep it a mild lean.
+- Brooklyn Nets +6.5: Ratings put IND by only 1 neutral, but Brooklyn's back-to-back and IND's thin guard depth keep it a mild lean.
 
 Our bets:
-- straight (lean): Under 231.5 (-112): pending -> **pending**
 - best: Under 231.5 (-112): pending -> **pending**
-- straight: Under 231.5 (-112): pending -> **pending**
+- straight (lean): Under 231.5 (-110): pending -> **pending**
+- straight: Under 231.5 (-110): pending -> **pending**
 
 ### 2026-10-24: at Cleveland Cavaliers (final: BKN 121, CLE 125)
 

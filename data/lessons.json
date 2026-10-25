@@ -140,7 +140,7 @@
     "model": 0.55
   },
   "retrain": {
-    "n": 1915,
+    "n": 1920,
     "accepted": true,
     "factors": [
       "coaching",
@@ -156,26 +156,26 @@
       "totals_model",
       "weather"
     ],
-    "held_out": 575,
-    "logloss_new": 0.6492,
-    "logloss_current": 0.6493,
-    "logloss_market": 0.6499,
+    "held_out": 576,
+    "logloss_new": 0.651,
+    "logloss_current": 0.651,
+    "logloss_market": 0.6519,
     "weights": {
-      "coaching": 0.283,
-      "experts": 0.69,
-      "history": 0.7,
-      "home": 0.407,
-      "injuries": 0.57,
-      "matchup": 0.072,
-      "projection": 1.15,
-      "recent_form": 0.227,
-      "season": 0.033,
+      "coaching": 0.271,
+      "experts": 0.685,
+      "history": 0.702,
+      "home": 0.41,
+      "injuries": 0.679,
+      "matchup": 0.005,
+      "projection": 1.12,
+      "recent_form": 0.308,
+      "season": 0.111,
       "situational": 0.35,
       "totals_model": 0.75,
-      "weather": 0.904
+      "weather": 0.908
     },
     "market_check": {
-      "n": 1915,
+      "n": 1920,
       "model_logloss": 0.6744,
       "market_logloss": 0.6737,
       "beats_market": false,

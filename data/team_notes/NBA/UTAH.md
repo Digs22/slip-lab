@@ -31,7 +31,7 @@ Lean summary: Lakers ML is the safest leg (about 0.69 by my read vs 0.675 fair);
 Legs considered:
 - Los Angeles Lakers ML: Won by 22 and 8 with Doncic, Reaves and Kessler; Utah had the league's worst defense last season and lost by 20 at Memphis.
 - Utah Jazz +6.5: Model margin is LAL +3.3 with Delta Center home court; Dimers also likes Utah +5.5 at +108.
-- Over 237.5: Projection 238.6 (LAL 121.9 + UTA 116.6 at 102.0 poss) is 1.1 over; Dimers and iHeart lean Under, so it is a small lean.
+- Over 236.5: Projection 238.6 (LAL 121.9 + UTA 116.6 at 102.0 poss) is 1.1 over; Dimers and iHeart lean Under, so it is a small lean.
 - A. Reaves o4.5 assists: Low assist rung with room under his 5.5 average; one book only, so no edge is claimed.
 - W. Kessler o14.5 points: Starting C against his old team on 30-35 minutes; one book, and Bleacher lists the main line at 15.5.
 

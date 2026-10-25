@@ -10,9 +10,9 @@
    "team": "LAL",
    "side": null,
    "line": null,
-   "odds": -245,
+   "odds": -250,
    "book": "DraftKings",
-   "fair": 0.675,
+   "fair": 0.685,
    "books": 3,
    "signals": {
     "season": 0.62,
@@ -43,15 +43,15 @@
    "note": "Model margin is LAL +3.3 with Delta Center home court; Dimers also likes Utah +5.5 at +108."
   },
   {
-   "desc": "Over 237.5",
+   "desc": "Over 236.5",
    "game": "Los Angeles Lakers @ Utah Jazz",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 237.5,
-   "odds": -112,
+   "line": 236.5,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "totals_model": 0.54,

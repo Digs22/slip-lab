@@ -10,9 +10,9 @@
    "team": "IND",
    "side": null,
    "line": null,
-   "odds": -270,
+   "odds": -245,
    "book": "DraftKings",
-   "fair": 0.7,
+   "fair": 0.681,
    "books": 4,
    "signals": {
     "season": 0.58,
@@ -30,9 +30,9 @@
    "team": null,
    "side": "under",
    "line": 231.5,
-   "odds": -112,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "totals_model": 0.62,
@@ -43,15 +43,15 @@
    "note": "Projection 226.5 (IND 113.9 + BKN 112.7 at 99.05 poss) is 5.0 under; the slow Nets and a tired back-to-back help."
   },
   {
-   "desc": "Brooklyn Nets +7.5",
+   "desc": "Brooklyn Nets +6.5",
    "game": "Indiana Pacers @ Brooklyn Nets",
    "market": "spread",
    "team": "BKN",
    "side": null,
-   "line": 7.5,
-   "odds": -115,
+   "line": 6.5,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.511,
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "matchup": 0.56,

@@ -36,7 +36,7 @@ Legs considered:
 - Under 55.5: The total rose five points from 50.5 to a number my 52.2 projection and the Dimers/Kalshi scores (51-53) sit below.
 
 Our bets:
-- straight (lean): Green Bay Packers +3.5 (-115): pending -> **pending**
+- straight (lean): Under 55.5 (-110): pending -> **pending**
 
 ### 2026-10-18: vs Dallas Cowboys (final: DAL 13, GB 23)
 
