@@ -4,6 +4,7 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-25: Short-week road favorite (Mon 10/19 game, then 1 PM ET at ATL). Defense is top-3 in EPA/play via simulated pressures while Bosa is out; 15 sacks through 6 games vs 20 all of 2025. Offense 29.5 ppg, only 5 sacks taken.
 - 2026-10-19: Nick Bosa has had a calf/knee injury since before Wk3 (missed Wk3-6). He also had a short 2025 season, so check his status every week. Without him, the rush leans on Odighizuwa, Keion White and blitzes, and they still had 5 sacks at SEA.
 - 2026-10-19: WR depth is fragile: Deebo (hamstring, multi-week), Evans (ribs/Achilles) and Kirk (calf, IR). Shanahan often waits until game day to decide on his receivers.
 - 2026-10-19: Purdy is the engine: an NFL-high 13 TD and 0.31 EPA/play through 5 games. SF's run D ranks top-5 in EPA/rush, so it is a tough matchup for opposing rushing overs.
@@ -11,6 +12,37 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-19: Levi's Stadium night games: it is dry in October, but WNW gusts near 20 mph around a 5pm PT kickoff can affect deep balls and long field goals.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Atlanta Falcons
+
+SF is 6-0 with a top-3 EPA defense and Atlanta's line has allowed nine sacks in four Penix starts, but SF is on a short week. Most likely to win: 49ers ML.
+
+SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran out mid-run); WebFetch and curl are DNS/proxy-blocked for si.com, covers.com, vegasinsider, actionnetwork, so article figures come from search snippets. ESPN summary and scoreboard JSON were read directly (pickcenter with open/close, injuries, weather, AP preview, team season stats). No 2026 player-prop prices were found on any public page, and the only prop snippets found were 2025 articles, so NO prop legs are used (rule: no unpriced props). Final Sunday inactives (11:30 AM ET) were not available; injury status below is the ESPN designation as of Sunday morning.
+1. Game: SF (6-0) at ATL (2-4), Sun 10/25 1:00 PM ET, Mercedes-Benz Stadium (FOX). Line DK (ESPN) SF -2.5 (-115/-105), ML SF -142 / ATL +120, total 50.5 (o-108/u-112). Opened SF -4.5, ML -218/+180, total 47.5: the spread shrank 2 points toward ATL and the total rose 3 (ESPN scoreboard open/close).
+2. Other books earlier in the week (stale): BetMGM/SI SF -3.5 (-108/-110), ML -200/+160, total 50.5; FanDuel SF -3.5 -105, ML -184/+154, total 48.5; Dimers SF -4.5. So the market has moved toward Atlanta since Wed.
+3. QBs: Purdy 119/171, 1,460 yds, 14 TD, 2 INT (ESPN leaders) and an NFL-high TD pace; Penix 71/110, 944 yds, 6 TD, 1 INT, 2-2 as a 2026 starter (missed Wk1-2 after ACL), left the 10/11 BAL game with a rib injury, was sacked 5 times and fumbled twice in the 31-23 CHI loss, 9 sacks in 4 games (AP preview).
+4. Injuries (ESPN Sun AM): SF out: DE Nick Bosa (knee), LB Garret Wallow, LB Luke Gifford, S Marques Sigle; CB Upton Stout questionable. Per search snippets Deebo Samuel is out and Mike Evans (Achilles tendinitis flare-up Monday, ribs earlier) is questionable; Christian Kirk was reported likely activated. ATL: CB Billy Bowman out, CB Avieon Terrell and DE Za'Darius Smith questionable, OT Jerrell and WR Collins on IR.
+5. Short week/travel: SF played Monday night 10/19 (23-17 vs WSH) and travels East for a 1 PM ET game; ATL had the full week after a Sunday loss (Covers noted the short-week spot when leaning ATL +3.5).
+6. Season stats (ESPN team stats): SF 29.5 ppg, 8.5 YPA, 51.5% third down, 6 giveaways, only 5 sacks taken. ATL 23.7 ppg, 5.1 YPC (Bijan Robinson 111 car, 641 yds, 4 TD), 7.6 YPA, 16 sacks taken, 12 giveaways, 38.9% third down.
+7. Defense: The Essential 49ers newsletter (10/15) had SF 3rd in defensive EPA/play and 4th in scoring after 5 games, winning with simulated pressures and a young secondary while Bosa is out; AP says SF has 15 sacks (4+ in each of the last 2 games) after a league-low 20 in 2025. Last five points allowed: SF 20.6 ppg, ATL 26.6 ppg.
+8. Matchup (AP): SF DE Keion White (3.5 sacks) and DT Osa Odighizuwa (3) vs ATL RT Jawaan Taylor and RG Chris Lindstrom; Chicago's blitz-heavy plan hurt Penix, and Penix said avoiding obvious passing downs is the key. The Boston Globe (10/10) had ATL with the lowest pressure rate in the NFL in Penix's first two games (19%), which then reversed vs BAL/CHI.
+9. Coaching: Raheem Morris (ex-ATL head coach, fired Jan 5) is SF's DC and faces his old team; Shanahan was 8-17-1 ATS as a home favorite through 2024 (team notes) but SF is a road favorite here; Stefanski's ATL offense is wide-zone and play-action built around Bijan.
+10. History: SF won 20-10 on 10/19/2025; series SF 49-33-1. SF is 4-2 ATS, ATL 2-4 ATS (AP). ATL is 0-3 at home.
+11. Weather/venue: retractable-roof indoor stadium; ESPN shows 67F with a 21 mph gust outdoors, which only matters if the roof is open. No wind lean.
+12. Models/experts: ESPN matchup predictor SF 79.1%; Dimers SF 66.3% (28-23); numberFire (FanDuel) SF 52.8% at -3.5 and total 48.5; Covers early lean ATL +3.5 (Kalshi ATL +3.5 52%, Under 49.5 50%); Rotowire SF ML with Under 46.5 (SF 20-17); Squawka SF 30-20 and Over 46.5 (editorial); SI picks SF -3.5.
+13. Price check: no-vig SF ML from DK 56.4%; the model range (53-79%) averages above that, which is why the ML is the most likely leg, but only DK's current price was found, so I do not claim a book edge.
+14. Totals: both teams' last five games averaged 50.6 (SF) and 52.4 (ATL) total points; projection 50.2 vs 50.5, so no side of the total is an edge. The total rose 3 points from the open, so a fade of the public is not clearly supported either.
+15. Calibration: SF ML signals 0.52-0.60 (short week and WR injuries are the offset); spread and total near the market's fair price.
+16. Role/prop check: McCaffrey (350 rush yds, 7 TD), Kittle and Bijan are locked roles, but no 2026 prop prices could be found so none are listed.
+
+
+Legs considered:
+- San Francisco 49ers ML: SF has the better defense and 29.5 ppg, and models give it 53-79%; the short week and thin WR corps cap the confidence. Price is DK only (other books' -184/-200 were mid-week at -3.5).
+- San Francisco 49ers -2.5: The line fell from -4.5 (open) and -3.5 (mid-week) to -2.5 while my projection is SF by about 3.3, so only a small lean.
+- Over 50.5: No edge: both teams' last five games averaged 50.6 and 52.4 total points but my projection of 50.2 equals the line; Kalshi had Under 49.5 at 50%.
+
+Our bets:
+- straight (lean): San Francisco 49ers -2.5 (-115): pending -> **pending**
 
 ### 2026-10-19: vs Washington Commanders (final: WSH 17, SF 23)
 

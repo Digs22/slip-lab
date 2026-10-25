@@ -6,8 +6,38 @@
 - 2026-10-21: Simmons is out for the season (Achilles); Raynaud (knee) and Cardwell (calf) are out, so Sabonis is the lone C. Monk (left ankle) missed all of preseason.
 - 2026-10-21: Usage 2025-26: Monk 24.0%, LaVine 23.7%, Sabonis 23.0% (11.4 rpg in 19 g; 13.9 in 2024-25).
 - 2026-10-21: DvP 2025-26 (Rotogrinders FD, rank 1 = most allowed): PG 6th, SG 2nd, SF 9th, PF 1st, C 10th, so the Kings are a soft matchup almost everywhere.
+- 2026-10-25: 0-2 (L 96-121 at LAC, L 120-128 vs POR). Sabonis 14/18/8 and 27/19/10 as the lone C; rookie Acuff took 24 and 26 FGA. Murray ankle day-to-day. Hosted MEM as +4.5 (opened +3.5).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: vs Memphis Grizzlies
+
+Rebuilt teams the model sees within 2 points, and DK has pushed MEM from -3.5 to -4.5. Most likely winner: Sacramento Kings +4.5 (-115).
+
+SOURCES: ESPN summary API (DraftKings pickcenter open/close, injuries, BPI predictor, box scores), Dimers 10/25 (snippet: no pick found for this game), search coverage of the game was empty (no preview, no props), MEM and SAC team notes plus the 10/21 and 10/23 analyst files. Dimers/Covers pages could not be fetched (host blocked).
+LINES: DK MEM -4.5 (-105) / SAC +4.5 (-115), ML MEM -175 / SAC +145, total 236.5 (o -105 / u -115). Opened MEM -3.5 (-115) / SAC +3.5 (-105), ML -162/+136, total 236.5, so the spread and ML moved toward MEM. Only DK found; no second book or prediction market price was reachable.
+FAIR: DK no-vig SAC +4.5 51.1%, MEM -4.5 48.9%, under 51.1%, SAC ML 39.1%. With one book the fair is DK's de-vigged price; no edge is claimed from the price alone. ESPN BPI MEM 60.9%, in line with the ML.
+TOTALS (NBA.md): pace 101.85; MEM 118.1 + SAC 116.6 = 234.8 vs 236.5, 1.7 under. Margin MEM +1.5 neutral, SAC +0.5 with home court, versus MEM -4.5.
+CAVEAT: MEM ratings (110.5 / 117.6 / 104.5, USU) and SAC (111.4 / 121.5 / 99.2, B-Ref) come from different sources, and both rosters changed heavily (MEM traded Morant, Bane, JJJ; SAC lost Simmons for the season). Treat the numbers as a weak guide.
+REST: both teams played Friday night 10/23 (MEM W 111-108 at GS; SAC L 120-128 vs POR), so each has one day off; no back-to-backs.
+MEM: 2-0 (W 123-103 over UTA, W 111-108 at GS). Out: Zach Edey (ankle); Cedric Coward day-to-day (wrist). Jerome 45/7/6 on 17-25 then 28 on 11-22; Boozer 7/11/5 then 25/13/6; Grant 15 and 6; Wells 12 and 17. Edey had 9 and 10 rebounds in 21-22 min, so his absence hurts the glass.
+SAC: 0-2 (L 96-121 at LAC, L 120-128 vs POR). Out: Simmons (Achilles, season), Raynaud (knee), Cardwell (calf); Keegan Murray day-to-day (ankle; shot 1-8 and 4-9). Sabonis is the lone center: 14/18/8 and 27/19/10 (39 min). LaVine 28 and 22, Acuff 12 and 33 on 5-24 and 10-26 FGA, Achiuwa 15 and 14.
+USAGE: Sabonis 23.0% (19 g in 2025-26), LaVine 23.7%, Monk 24.0%, Hunter 22.9%, Jerome likely 28%+ as lead guard (small sample), Acuff took 24 and 26 FGA as a rookie. Cap and DvP: SAC allows PG 6th, SG 2nd, SF 9th, PF 1st, C 10th (Rotogrinders FD); MEM allows G 12th, F 3rd, C 16th (Legion Report).
+SGP: Jerome (pts, ast) and Boozer (reb) pass the DvP gate on paper. Prior MEM lines: Jerome o21.5 pts -105 vs GS; no 10/25 price found for Jerome, Boozer, Sabonis or LaVine, so no SGP is built and nothing is highlighted.
+HISTORY: MEM won the 2025-26 series 3-1; the last meeting 2/23/26 was SAC 123-114. Rosters are mostly different now, so low weight.
+EXPERTS: none found for this game (Dimers snippet shows no pick). ESPN BPI MEM 60.9%; market moved from MEM -3.5 to -4.5, a sign of money on Memphis.
+COACHING: Memphis' young core plays top-5 pace (104.5) and shoots threes; SAC plays slower (99.2) and lean on Sabonis hubs, with LaVine and Acuff as high-volume guards. SAC went 7-34 on the road last year but is at home here.
+CHEMISTRY: MEM is confident after two close/strong wins; SAC is 0-2 with lineup churn, a rookie guard taking 25 shots and no backup center.
+VENUE: Golden 1 Center, 9:00 PM ET (6:00 PM PT); SAC 0-1 at home this season.
+VERDICT: little separates these rebuilt teams, and the market's 4.5 (up from 3.5) is the full price of MEM's 2-0 start. Lean SAC +4.5 (-115); total lean is thin (1.7 under), so Under 236.5 is a minor play. Single-book prices cap confidence.
+
+Legs considered:
+- Sacramento Kings +4.5: Model has MEM by only 1.5 neutral, so Sacramento is the home dog; DK moved from +3.5 to +4.5.
+- Under 236.5: Projection 234.8 (MEM 118.1 + SAC 116.6) is 1.7 under DK; Edey out and no SAC bigs lower efficiency.
+- Sacramento Kings ML: Same dog view at +145; ESPN BPI gives MEM 60.9%, so the model gap is capped near the market.
+
+Our bets:
+- straight (lean): Under 236.5 (-115): pending -> **pending**
 
 ### 2026-10-21: at LA Clippers (final: SAC 96, LAC 121)
 

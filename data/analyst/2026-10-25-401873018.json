@@ -1,0 +1,114 @@
+{
+ "summary": "Carolina is a 3-point home favorite with Egbuka, Winfield and Goedeke out for Tampa and Mayfield (thumb) questionable. Most likely to win: McMillan 20+ yd reception (-270).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Carolina Panthers ML",
+   "game": "Tampa Bay Buccaneers @ Carolina Panthers",
+   "market": "ml",
+   "team": "CAR",
+   "side": null,
+   "line": null,
+   "odds": -155,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.6,
+   "books": 2,
+   "signals": {
+    "home": 0.58,
+    "injuries": 0.6,
+    "experts": 0.6,
+    "season": 0.57,
+    "matchup": 0.55
+   },
+   "note": "Tampa is without Egbuka, Winfield and Goedeke, is 1-5 and 1-9 ATS in its last 10, and models give Carolina 61-69%."
+  },
+  {
+   "desc": "B. Young o253.5 pass yds",
+   "game": "Tampa Bay Buccaneers @ Carolina Panthers",
+   "market": "prop",
+   "player": "Bryce Young",
+   "team": "CAR",
+   "stat": "pass_yds",
+   "side": "over",
+   "line": 253.5,
+   "odds": -114,
+   "book": "DraftKings/BetMGM",
+   "fair": 0.5,
+   "books": 3,
+   "status": "Active starter, full practice all week; role locked. WR1 McMillan healthy, no Panthers skill-player designations.",
+   "projection": {
+    "mu": 268,
+    "sd": 55
+   },
+   "signals": {
+    "recent_form": 0.6,
+    "season": 0.58,
+    "matchup": 0.5,
+    "experts": 0.55,
+    "weather": 0.48
+   },
+   "note": "Young has cleared 281 yards in every game (1,549 in 5, 310 per game) and Winfield is out, but PFF projects only 230."
+  },
+  {
+   "desc": "T. McMillan 20+ yd reception",
+   "game": "Tampa Bay Buccaneers @ Carolina Panthers",
+   "market": "prop",
+   "player": "Tetairoa McMillan",
+   "team": "CAR",
+   "stat": "longest_rec",
+   "side": "over",
+   "line": 19.5,
+   "odds": -270,
+   "book": "FanDuel",
+   "fair": 0.7,
+   "books": 1,
+   "status": "Active WR1, 32 rec / 471 yds in 5 games (14.7 ypr), no injury designation; Winfield Jr. (S) out for Tampa.",
+   "projection": {
+    "mu": 22,
+    "sd": 9
+   },
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.6,
+    "injuries": 0.6,
+    "recent_form": 0.58
+   },
+   "note": "Most likely to win: Carolina's WR1 averages 6 catches at 14.7 per catch against a Tampa defense missing its top safety. Single-book price."
+  },
+  {
+   "desc": "B. Irving o65.5 rush yds",
+   "game": "Tampa Bay Buccaneers @ Carolina Panthers",
+   "market": "prop",
+   "player": "Bucky Irving",
+   "team": "TB",
+   "stat": "rush_yds",
+   "side": "over",
+   "line": 65.5,
+   "odds": -115,
+   "book": "per SI (book not named)",
+   "fair": 0.5,
+   "books": 1,
+   "status": "Active lead back, 96 carries / 452 yds (4.7 ypc, 3 games over 60); Egbuka and Goedeke out, no Irving designation.",
+   "projection": {
+    "mu": 70,
+    "sd": 25
+   },
+   "signals": {
+    "season": 0.57,
+    "matchup": 0.58,
+    "recent_form": 0.52,
+    "injuries": 0.5
+   },
+   "note": "Carolina allows 5.1 yards per carry, worst in the NFL, and Tampa's pass game is thin; a trailing script is the risk."
+  }
+ ],
+ "totals_projection": {
+  "CAR": 23.5,
+  "TB": 20.5,
+  "total": 44.0,
+  "line": 44.5,
+  "math": "Average of named score projections: Dimers 23-20 (43), Squawka 24-20 (44), Kalshi 24-21 (45), Covers lean Under = 44.0 vs 44.5, no edge, so no total leg."
+ },
+ "research": "SEARCH NOTE: about 25 WebSearch queries on this game. WebFetch failed on DNS and curl to covers/fanduel was refused by the proxy, so everything comes from search snippets plus the ESPN summary API. Search budget ran out before I could price more props. Sun 10/25 1:00 PM ET, Bank of America Stadium, FOX. Records: TB 1-5, CAR 3-2.\n1. QBs: Baker Mayfield (right thumb dislocation, missed 3 games) practiced fully Wed, Thu and Fri, officially QUESTIONABLE; Bowles said 'it looks like he's ready to go' and the team discussed carrying a third QB (Tampa Bay Times/buccaneers.com Oct 23, Yahoo). Covers says he was announced as the starter. Backup Jalon Daniels (3 starts, 337 yds). Bryce Young (CAR) is healthy: 121/201, 1,549 yds, 11 TD, 2 INT in 5 games (ESPN), 281+ yds in every game (Sharp Football). \n2. Injuries (buccaneers.com Oct 23, ESPN): TB OUT WR Emeka Egbuka (leads team in catches, yards, TDs), S Antoine Winfield Jr. (ribs), RT Luke Goedeke (calf); LB Rozeboom IR. CAR OUT LB Jaelan Phillips (hamstring, top offseason pass rusher) and LB Incoom (IR); OT Monroe Freeling questionable, 'looked great'; RB Brooks IR.\n3. Stats (ESPN): CAR 29.2 ppg, 418.6 ypg, 309.8 pass ypg, allows 24.6 ppg and 132.2 rush ypg. TB 19.8 ppg, 313.8 ypg, 186.0 pass ypg, allows 23.0 ppg, 237.7 pass ypg but only 75.5 rush ypg (3.4 ypc, 2nd best). Covers: TB offense 29th EPA/play, 25th scoring, 28th red zone. CAR run D allows 5.1 ypc (SI). No 2026 pressure-rate table found; CAR 2025 pass rush was bottom-3.\n4. Scheme: Carolina is Dave Canales' offense with Brad Idzik calling plays this year; Hubbard 89 carries / 426 yds / 4 TD, McMillan 32-471-2. Tampa's OC changed after Grizzard was fired in January; offense has been last-third of the league since.\n5. Coaching/ATS: Bowles' TB is 1-9 ATS in its last 10 (SI); Carolina is 3-2 ATS this year and 3-1 ATS in the last four meetings; Under is 7-3 in CAR's last 10 and 6-4 in TB's.\n6. Situational: divisional, TB desperate at 1-5 after a 26-19 OT loss to PIT; Carolina won 25-14 at PHI. Second meeting in week 12.\n7. History: Panthers lead the all-time series 26-25; Young beat TB 23-20 in 2025 and threw for 282 in an earlier OT game.\n8. Weather (ESPN): 65F, no rain, gusts 20 mph; mild pass-game drag only.\n9. Market: DraftKings CAR -3 (-102) / TB +3 (-118), ML CAR -155 / TB +130, total 44.5 (o -108 / u -112). FanDuel CAR -3.5 (-105) / TB +3.5 (-115), ML -178 / +150 (one snapshot -205 / +170), total 44.5. BetMGM CAR -3 (-118). Opened TB +3, moved to CAR -3.5. Kalshi: CAR -3.5 47%, Under 44.5 51%; Kalshi score CAR 24-21.\n9b. Picks: Covers CAR -2.5/-3.5 and Under 44.5; FanDuel best bets CAR -2.5 (-122); Dimers CAR 61.1-65.8%, 23-20 or 24-19; numberFire CAR 69.4%; Squawka CAR 24-20; SI backs TB +3; Bleacher Report experts lean CAR by a field goal or less; 1 of 5 NFL.com analysts picked TB; Sports Gambling Podcast split. Consensus: Carolina.\n10. Props found: Young pass yds 253.5 (-114/-114, DK/BetMGM, 3 books), Sharp Football over 250.5 (-115), SI Under 256.5, Dimers 256, PFF 230.5. Irving rush yds o65.5 (-115, SI), BettingPros 60+ at -152; Hubbard rush u67.5 (-112 BettingPros, Dimers 71). Hubbard ATD -125 (FanDuel) / -175 (DK); Irving ATD -105 (DK). McMillan 20+ yd reception -270 (FanDuel best bets). Skipped ATDs (coin flips) and Hubbard under (Tampa's 3.4 ypc defense vs his role is a wash).\nRole checks: Young, McMillan and Hubbard have no designations. Irving is the lead back with Mayfield (65 rush yds) possibly sharing designed runs. Daniels fallback would lower Tampa's pass volume but raise Irving's.\nProjection: about CAR 23.5 / TB 20.5 = 44.0 vs 44.5; no edge on the total, and Young over conflicts with an Under so no total leg."
+}

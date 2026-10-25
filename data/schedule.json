@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T08:05-04:00",
+ "generated": "2026-10-25T08:15-04:00",
  "games": [
   {
    "id": "401875036",
@@ -18,7 +18,7 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
    "venue": "San Siro",
    "city": "Milano",
-   "detail": "32'",
+   "detail": "42'",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,
@@ -54,10 +54,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "ATH -175",
+    "spread": "ATH -180",
     "total": 2.5,
-    "home_ml": -175,
-    "away_ml": 500,
+    "home_ml": -180,
+    "away_ml": 550,
     "book": "DraftKings"
    }
   },
@@ -924,10 +924,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BAR -165",
+    "spread": "BAR -175",
     "total": 4.5,
-    "home_ml": -165,
-    "away_ml": 300,
+    "home_ml": -175,
+    "away_ml": 310,
     "book": "DraftKings"
    }
   },
@@ -955,9 +955,9 @@
    "away_conf": null,
    "odds": {
     "spread": "DEN -4.5",
-    "total": 43.5,
-    "home_ml": 185,
-    "away_ml": -225,
+    "total": 42.5,
+    "home_ml": 190,
+    "away_ml": -230,
     "book": "DraftKings"
    }
   },
@@ -4087,7 +4087,7 @@
    "away_conf": "American",
    "odds": {
     "spread": "TULN -13.5",
-    "total": 45.5,
+    "total": 46.5,
     "home_ml": 400,
     "away_ml": -535,
     "book": "DraftKings"
@@ -6614,7 +6614,7 @@
    "away_conf": "ACC",
    "odds": {
     "spread": "MIA -16.5",
-    "total": 50.5,
+    "total": 51.5,
     "home_ml": 550,
     "away_ml": -800,
     "book": "DraftKings"

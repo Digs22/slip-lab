@@ -4,7 +4,39 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-25: Elite recent defense (best defensive DVOA, ~11 ppg over 3 games per Covers) but last in rushing (59.8 ypg); Love 1,684 yds, Watson 538 yds/6 TD. Games run low (totals 31-49). Parsons on PUP, Jacobs back from exempt list.
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Detroit Lions
+
+Detroit scores 32.8 a game but Green Bay's defense is elite, and DraftKings has the total at 55.5 after it opened 50.5. Most likely winner: Detroit ML (-185).
+
+SEARCH NOTE: about 12 WebSearch calls plus the ESPN summary API (WebFetch fails with DNS errors). No Sunday inactives or priced player props for GB/DET were found, so no prop legs are offered. No Detroit team-notes file exists.
+1) Game: Packers (4-2) at Lions (3-2, off a bye), Sunday 4:25 PM ET, Ford Field (dome, 67F listed). ESPN API.
+2) Market (DK via ESPN): DET -3.5 (-105), GB +3.5 (-115), ML DET -185/GB +154, total 55.5 (o-105/u-115). Opened DET -1.5, total 50.5, ML -125/+105. So the total moved five points and the spread two points toward Detroit.
+3) Other books earlier this week: BetMGM DET -3 (via BetMGM blog); Dimers 3.5; SI/FanDuel DET ML about -165 to -172 / GB +140 to +144; FanDuel Research and others total 52.5 (-110/-110). The 55.5 is only confirmed at DraftKings.
+4) No-vig: DK DET ML 0.623, earlier -170/+142 gives 0.604, avg 0.614. DK GB +3.5 0.511; DK Under 55.5 0.511. Single-book: no edge claimed on the spread or total.
+5) Models: numberFire 70% DET (FanDuel Research); Dimers 59.9% DET, score GB 24-27 DET; Kalshi (OddsShopper) DET 28-25, DET -2.5 58 cents.
+6) Experts: Covers (Neil Parker) Packers +3.5 and Under 52.5; SI (Iain Hunt) lays the points with DET citing S Brian Branch's return; Squawka editorial: Goff over 1.5 TD and game Over 47.5.
+7) Trends: SI: Over is 5-0 in Lions games this season and 6-4 in the last 10 meetings; Covers: GB covered 3 straight and allows 11.3 ppg in the span, best defensive DVOA.
+8) Efficiency: Detroit defense ranks 31st in EPA/play and 28th in success rate allowed, 25th in DVOA, 5.6 yds/play; but 4th in pass-rush win rate (ESPN via atozsports). Detroit 3rd down allowed 50.7%, red zone 81% (Squawka). GB offense 21.2 ppg, 280.7 pass ypg, 59.8 rush ypg (last in rushing, AP).
+9) ESPN stats: DET 32.8 ppg, 411 ypg; allows 29.6 ppg, 321 pass ypg. GB allows 20.8 ppg, 209 pass ypg, 114 rush ypg.
+10) QBs: Goff 128/191, 1,485 yds, 12 TD, 0 INT; Love 135/225, 1,684 yds, 11 TD, 4 INT. Both healthy (no designation). GB 57 penalties, most in the NFL (Squawka).
+11) Players: Gibbs 105-504-7; St. Brown 37-372-5; Watson 29-538-6; Jacobs returned from the Commissioner's Exempt List (AP) and is not on the ESPN injury list; MarShawn Lloyd 48-122.
+12) Injuries (ESPN): DET S Kerby Joseph OUT, Branch questionable/first start of the season, C Cade Mays questionable, G Bartch/LB White/WR Kennedy/S Harper on IR. GB LB Zaire Franklin OUT, TE Musgrave OUT, DT Riley/G Banks/WR Melton questionable; Parsons on PUP.
+13) Schedule: Lions' first of six NFC North games (AP); Minnesota is 5-0. Detroit was 2-4 in the division last year. GB 3-game win streak incl. 20-17 OT at NYJ.
+14) Scoring history: DET game totals 61, 72, 55, 58, 66 vs a 55.5 number (4 of 5 over). GB game totals 37, 49, 31, 38, 36 (none close). Average of the two sets ~48.5 and my cross-projection is 52.2.
+15) Calibration: Under 55.5 and GB +3.5 are single-book (DraftKings via ESPN), so fair is set to DK's no-vig and no edge is claimed. DET ML is a favorite-win leg at near market price.
+16) Most likely to win: Detroit ML (-185; market 0.61, my view ~0.62).
+
+Legs considered:
+- Detroit Lions ML: Detroit's 411 yards a game off a bye at Ford Field outweighs a Packers team that has played a soft schedule.
+- Green Bay Packers +3.5: Green Bay has the top-rated defense and has covered three straight, and Detroit's defense ranks 31st in EPA per play.
+- Under 55.5: The total rose five points from 50.5 to a number my 52.2 projection and the Dimers/Kalshi scores (51-53) sit below.
+
+Our bets:
+- straight (lean): Green Bay Packers +3.5 (-115): pending -> **pending**
 
 ### 2026-10-18: vs Dallas Cowboys (final: DAL 13, GB 23)
 

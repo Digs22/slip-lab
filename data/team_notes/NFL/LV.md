@@ -4,7 +4,39 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-25: Rushing offense 30th (79 ypg, Jeanty 3.2 ypc), defense 28th (388 ypg) but offense scores 27 ppg; Cousins 14 TD, Bowers 28-382 back from knee. Went 3 losses by 3 pts (KC, BUF) around a 45-17 NE blowout. Games run high (totals 40-63).
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: vs Los Angeles Rams
+
+Rams are 2-4 without Adams (IR), Garrett and Turner, with Nacua questionable, and the line fell from -7.5 to -3.5. Most likely winner: Rams ML (-180).
+
+SEARCH NOTE: about 13 WebSearch calls plus the ESPN summary API (WebFetch fails with DNS errors). Nacua's final status and the player-prop prices were not found, so no prop legs are offered. Lineups are not confirmed.
+1) Game: Rams (2-4) at Raiders (3-3), Sunday 4:25 PM ET (1:25 PT), Allegiant Stadium (dome-like, 71F).
+2) Market (DK via ESPN): LAR -3.5 (+100), LV +3.5 (-120), ML LAR -180/LV +150, total 48.5 (-110/-110). Opened LAR -7.5, ML -360/+285, total 46.5.
+3) Earlier-week books: FanDuel Rams -4.5 (-108), ML -210/+176, total 48.5 (o-106/u-114); BetMGM via SI Rams -4.5 (-105), ML -210/+175, total 47.5; Dimers -5.5; Stats Insider -6.5; another BetMGM preview -6 or -7. So the market has moved about a point toward Las Vegas, probably on roster news.
+4) No-vig: DK LAR ML 0.616, FD (earlier) 0.652; I used 0.62. LV +3.5 fair 0.522 (single book). Total under/over fair 0.50 at DK; Kalshi over 51%.
+5) Models: numberFire 63.6% LAR; Dimers 70.8%, 26-20 LAR; Stats Insider 73%, 27-23 Squawka LAR; BetMGM model 66.2% LAR; Kalshi (Covers) LAR 66%, Raiders +4.5 52%.
+6) Experts: Covers (Jason Logan) Raiders +4.5, Over 47.5; Pickswise Raiders +5.5; SI (Iain Hunt) Rams -4.5, noting the Raiders' underlying metrics are red flags; Action Network earlier backed the Raiders.
+7) Rams injuries (ESPN): WR Puka Nacua questionable, LB Nate Landman OUT, CB Trent McDuffie questionable; DE Garrett and DE Turner on IR. Rotowire/Raiders.com: WR Davante Adams placed on IR with a ruptured hamstring (6-10 weeks), DT Poona Ford and K Blake Grupe on IR. Rams just lost 18-16 at home as a double-digit favorite to ARI.
+8) Raiders injuries (ESPN): RB Mike Washington Jr. and LB Quay Walker questionable; WR Thornton, TE Runyon, WR Bech on IR; DT Hemingway questionable (SI).
+9) QBs: Stafford 164/249, 1,794 yds, 11 TD, 6 INT, league leader in attempts, completions and yards; Cousins 135/213, 1,582 yds, 14 TD, 5 INT. Both healthy.
+10) Stats (ESPN): LAR 22.5 ppg, 413.8 ypg, 301 pass ypg, 112.7 rush; allows 23.0 ppg, 173.8 pass ypg, 127 rush. LV 27.0 ppg, 350.8 ypg, 79.2 rush ypg (30th); allows 27.0 ppg, 387.8 ypg (28th), 253.5 pass ypg, 134 rush.
+11) Recent form: LV 26-14 at LAC, 35-27 at NO, lost 30-27 to KC and 33-30 to BUF (both by 3) and 45-17 at NE. LAR lost 18-16 to ARI, 37-34 OT to BUF, 30-26 at DEN, beat PHI 24-20 and NYG 28-6.
+12) Players: Jeanty 98-313-1 (3.2 ypc), Bowers 28-382-3, Adams 30-480-4 (now out), Kyren Williams 80-393-4.
+13) Trends: SI: Rams 5-1 ATS in the last six meetings; Raiders 7-3 ATS in their last 10. Coach Klint Kubiak is in year one for LV; McVay's Rams were Super Bowl favorites in August.
+14) Scoring history: LV game totals 63, 62, 57, 62, 40; LAR 34, 71, 44, 56, 34. Cross-projection 49.75 less Adams.
+15) Calibration: LAR ML and total are 2-3 source; LV +3.5 is single-book at -120. No edge claimed on any leg.
+16) Most likely to win: Rams ML (-180, market 0.62).
+
+Legs considered:
+- Los Angeles Rams ML: Stafford leads the league in passing and the Rams' 413 yards a game and 174 pass yards allowed beat the Raiders' 28th-ranked defense.
+- Las Vegas Raiders +3.5: Rams without Adams, Turner, Ford, a kicker and possibly Nacua let the Raiders hang within a field goal.
+- Over 48.5: Both teams allow 27 and 23 points while the Raiders score 27, but Adams's loss trims the Rams.
+
+Our bets:
+- straight (lean): Las Vegas Raiders +3.5 (-120): pending -> **pending**
 
 ### 2026-10-18: vs Buffalo Bills
 

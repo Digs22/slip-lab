@@ -7,8 +7,39 @@
 - 2026-10-21: MPJ got 2+ rebounds in 51 of 52 games and 10+ points in 94% of games in 2025-26.
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 8th, F 15th, C 10th.
 - 2026-10-24: Randle 33/8/7 and MPJ 26 in the 103-110 loss at CHA. At CLE as +10.5 dog; model margin about CLE by 9, total projects 227.5 vs 229.5.
+- 2026-10-25: 0-2 (lost 103-110 CHA, 121-125 at CLE). Back-to-back vs IND with Mikel Brown Jr. resting; Randle 23-33 pts, MPJ 26-28. Slowest pace (97.1) supports Unders.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: vs Indiana Pacers
+
+Brooklyn is on a back-to-back and Mikel Brown Jr. rests, but no props were priced and no usage SGP qualifies. Total projects 226.5 vs 231.5. Most likely winner: Pacers ML -270.
+
+Rest/schedule: BKN played 10/21 (lost 103-110 to CHA) and last night 10/24 at CLE (lost 121-125), so this is their second game in two days; IND played 10/21 (won 123-120 at NO) and 10/23 (lost 105-121 to DAL), one day of rest. Tip 6 PM ET at Barclays Center.
+Injuries (ESPN API): BKN out Mikel Brown Jr. (rest, listed Oct 25, return Oct 27) and Tyler Bilodeau (shoulder); IND out McConnell (hamstring), Sheppard (knee, to Dec 1), Furphy (ACL); Nesmith (hamstring) is day-to-day and expected to play (Picks and Parlays). Haliburton and Siakam are healthy.
+Lines (ESPN/DraftKings): IND -7.5 (-105), BKN +7.5 (-115), ML IND -270 / BKN +220, total 231.5 (o-108/u-112). Another listing IND -7.5, ML -278/+225; BetOnline, Bovada and OddsTrader IND -300; Covers IND -257; Bleacher Nation -260. Public bets 88% on IND (Picks and Parlays).
+Totals (NBA.md method): pace 99.05; IND 113.9 + BKN 112.7 = 226.5 vs 231.5, 5.0 under, which clears the 4-point trigger, so the total is a leg. Caveat: IND's 110.9 ORtg is from 2025-26 without Haliburton (19-63); with him the offense is better. Using ~115 gives 228.6, still under.
+Early totals: IND games 243 and 226; BKN games 213 and 246 (the 246 was a close game at CLE). Both sides play 97-101 possessions; Brooklyn was the slowest team on the slate last year (97.1).
+Margin: model IND +1.2 neutral, BKN +0.8 with home court, against IND -7.5; the stale ratings overstate Brooklyn, and I treat +7.5 only as a mild lean. Dimers has IND 120-113 (72.6%, ML edge 3.7%); Picks and Parlays IND but Under 232.5.
+Back-to-back effect: Randle played 35 min and MPJ 33 min at CLE last night. Brooklyn's second night usually costs 1-1.5 points and shortens the starters' second half; Brown Jr. is already resting.
+Usage (2025-26 via team notes): Porter Jr. 30.5%, Siakam 30.1%, Randle 26.5%, Toppin 24.8%, Nembhard 23.6%; Haliburton had no 2025-26 sample after his Achilles tear. DvP (own calc from ESPN boxes, rank 1 = most allowed): BKN G 8th, F 15th, C 10th; IND G 4th, F 14th, C 16th. No 24%+ player passes the bottom-10 gate except possibly Haliburton at guard.
+2026-27 form: Siakam 30/8 then 23/3/3; Haliburton 23/2/12 then 18/6/7; Nembhard 18/9 ast, 16/5 ast; Zubac 16/15 then 9/11; Toppin 20 then 13. Randle 33/8/7 then 23/6/5; MPJ 26/7 then 28/9; Demin 22 (5-10 3P) at CLE.
+Props seen (Bleacher Nation IND lines only, unpriced): Siakam 23.5 pts / 6.5 reb / 3.5 ast; Haliburton 19.5 / 3.5 / 9.5 ast; Zubac 11.5 reb; Nembhard 6.5 ast; Toppin 12.5 pts / 4.5 reb. Yahoo shows Randle 33 pts and 7.0 ast lines from a different date, so not used. Per the new rule I leave the props out.
+Roster/coaching: IND starts Haliburton, Nembhard, Oubre/Nesmith, Siakam, Zubac with Toppin off the bench (Carlisle, uptempo, deep); BKN added Randle next to MPJ and rookies Demin, Sharpe and Clowney, with a thin guard group.
+Experts: Bleacher Nation Nets +7.5 and Under 231.5; Picks and Parlays IND -2.5 (alt) and Under 232.5 citing the back-to-back; Dimers IND 72.6%, 120-113; Covers model IND 69% (market ~75%). Split on the side, lean Under.
+History/ATS: Pacers 40-42 ATS and Nets 37-42-3 ATS last season (Bleacher Nation); no meaningful 2026-27 ATS sample.
+Pricing check: IND ML at DK -270 with other books -257 to -300 gives no-vig about 0.70. The Under is priced at three sources (231.5-232.5).
+Lean summary: Pacers ML is most likely to win (about 0.70); the Under 231.5 is the model leg and Nets +7.5 a minor lean; no prop is priced. Fetches of ESPN/Covers/Action Network pages were blocked and the search budget ran out, so figures come from ESPN's summary API plus search-result snippets.
+
+Legs considered:
+- Indiana Pacers ML: Brooklyn is 0-2, on a back-to-back after a 121-125 game at Cleveland, and was the league's worst offense.
+- Under 231.5: Projection 226.5 (IND 113.9 + BKN 112.7 at 99.05 poss) is 5.0 under; the slow Nets and a tired back-to-back help.
+- Brooklyn Nets +7.5: Ratings put IND by only 1 neutral, but Brooklyn's back-to-back and IND's thin guard depth keep it a mild lean.
+
+Our bets:
+- straight (lean): Under 231.5 (-112): pending -> **pending**
+- best: Under 231.5 (-112): pending -> **pending**
+- straight: Under 231.5 (-112): pending -> **pending**
 
 ### 2026-10-24: at Cleveland Cavaliers (final: BKN 121, CLE 125)
 

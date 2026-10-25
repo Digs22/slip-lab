@@ -1,0 +1,36 @@
+# Miami Dolphins (NFL)
+
+## Standing notes
+
+_Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
+
+## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at New York Jets
+
+The Jets' top-4 pass defense faces Malik Willis (153.6 pass ypg, 4 INT) and a winless Miami team, but the offenses are both poor. Most likely to win: Jets ML.
+
+SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran out mid-run); WebFetch and curl are DNS/proxy-blocked for si.com, covers.com, vegasinsider, actionnetwork, so article figures come from search snippets. ESPN summary and scoreboard JSON were read directly (pickcenter with open/close, injuries, weather, AP preview, team season stats). No 2026 player-prop prices were found on any public page, and the only prop snippets found were 2025 articles, so NO prop legs are used (rule: no unpriced props). Final Sunday inactives (11:30 AM ET) were not available; injury status below is the ESPN designation as of Sunday morning.
+1. Game: MIA (0-5) at NYJ (2-4), Sun 10/25 1:00 PM ET, MetLife Stadium (CBS). DK (ESPN) NYJ -4.5 (-110/-110), ML NYJ -218 / MIA +180, total 39.5 (o-108/u-112). Open: NYJ -2.5, ML -142/+120, total 41.5 (ESPN scoreboard). FanDuel: NYJ -4.5 (-118) / MIA +4.5 (-104), ML -250/+205, total 39.5 (o-106/u-114). Covers 38.5, Dimers NYJ -5.5 and 38.5, DocSports -5.0 and 38.5.
+2. QBs: NYJ Geno Smith 122/177, 1,336 yds, 7 TD, 1 INT; MIA Malik Willis 73/130, 849 yds, 2 TD, 4 INT, never above 220 yds, but 186 rush yds (74 vs CIN, a franchise QB record). MIA is 31st in passing offense (153.6 ypg); the NYJ pass defense is 4th (185 ypg allowed) per AP.
+3. Injuries (ESPN Sun AM): NYJ RB Breece Hall questionable (quad), RB Kene Nwangwu questionable (knee), OT Max Mitchell out (concussion), DE Joseph Ossai out, LB Kiko Mauigoa on IR. MIA CB Reese Taylor out, DE Robert Beal Jr. doubtful, LB Willie Gay Jr. questionable (illness), RB De'Von Achane on IR (ACL), LB Ronnie Harrison on IR. Final inactives not available.
+4. Offense (ESPN team stats): NYJ 18.7 ppg, 3.6 YPC (Braelon Allen 74 car, 314 yds, 2 TD), 7.5 YPA, 19 sacks taken, 4 giveaways, 447 penalty yards. MIA 14.0 ppg, 4.9 YPC (126.6 rush ypg, 100+ rush yds in each of the last 4 games), 41.3% third down, 8 giveaways, Ollie Gordon II 47 car, 236 yds, 3 TD.
+5. Defense: NYJ pass defense 4th; last-five points allowed NYJ 22.4, MIA 26.4. Jets have given up no points on opponents' opening drives in five straight games, but have been outscored 119-49 in the closing minutes of the 2nd and 4th quarters under Glenn (ESPN Research). NYJ sacks: David Bailey 5. MIA sacks: Zach Sieler 2.
+6. Results: MIA lost @LV 27-13, @SF 35-13, vs KC 24-10, @MIN 15-10, vs CIN 31-24 (then bye); NYJ lost GP 20-17 OT, @DET 31-24, @CHI 23-12, beat CLE 17-12, lost @NE 26-19. ATS: MIA 1-3-1, NYJ 3-2-1 (AP). NYJ is 0-7 vs AFC East under Aaron Glenn.
+7. Coaching: Jeff Hafley (first-year MIA head coach) and Glenn coached together in Cleveland (2014-15). MIA released K Riley Patterson and re-signed Zane Gonzalez this week. MIA had the bye, so extra rest.
+8. History: MIA has won 10 of 12 vs NYJ and beat them 34-10 on 12/7/2025; series MIA 63-57-1.
+9. Weather: ESPN 60F, clear, gusts 6 mph, no precipitation. No wind lean.
+10. Models/experts: numberFire NYJ 63.8%; Dimers NYJ 67.1%, 22-17; Stats Insider NYJ 64% but MIA +4.5 covers 52% and leans Over; Covers backs NYJ -4.5 (Kalshi 51%) and Under 38.5; Predictem NYJ -4.5 (-115 at bet365); Squawka NYJ 20-16, Geno Smith 1+ TD (no price); ESPN predictor NYJ 65.1%.
+11. Price check: NYJ ML no-vig is 65.8% at DK and 68.5% at FanDuel (avg 67.1%); -218 DK is the best price (-250 FanDuel). Spread: NYJ -4.5 fair 50.0% DK / 51.5% FanDuel. Under 39.5 fair 50.4% DK / 50.9% FanDuel.
+12. Totals: projection 40.7 vs 39.5, but Dimers 39 and Squawka 36 are lower, so the net view is neutral; I list the Under only because Covers and Predictem agree and both offenses are bottom-five.
+13. Calibration: ML signals 0.55-0.62 (matchup, experts), spread and total 0.45-0.55; no edge claimed beyond the market's no-vig price.
+14. Role/prop check: Hall is questionable, so Allen's carries are uncertain; MIA's Willis has been the starter all season. No 2026 prop prices were found, so no props.
+
+
+Legs considered:
+- New York Jets ML: Models put NYJ at 64-67% (numberFire 63.8, Stats Insider 64, Dimers 67.1) against a 67% no-vig price, so this is the likeliest leg but with little edge; the Dolphins have won 10 of 12 in the series.
+- New York Jets -4.5: The Jets are 0-7 vs AFC East under Glenn and have not won by 5+ this season, so 4.5 is a coin flip; Covers and Predictem back the Jets.
+- Under 39.5: MIA scores 14.0 ppg and NYJ 18.7 with the league's worst red-zone rate (37.5%); my projection of 40.7 is slightly above the line so this is a weak lean.
+
+Our bets:
+- straight (lean): Under 39.5 (-112): pending -> **pending**

@@ -4,7 +4,38 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-25: Offense is last in yards/game at 14.0 ppg (Ward 4 TD, 4 INT); defense carries them (Simmons 4 sacks). Beat IND 26-20 on 10/18 for their first win (13-51 since Nov 2022). 0-3 at home; ESPN has them 3-3 ATS.
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: vs Cleveland Browns
+
+Cleveland has the better defense and QB play while Tennessee averages 14 ppg, and the total fell two points to 36.5. Most likely to win: Browns ML.
+
+SEARCH NOTE: ~12 WebSearch queries for this game (the shared search quota ran out mid-run); WebFetch and curl are DNS/proxy-blocked for si.com, covers.com, vegasinsider, actionnetwork, so article figures come from search snippets. ESPN summary and scoreboard JSON were read directly (pickcenter with open/close, injuries, weather, AP preview, team season stats). No 2026 player-prop prices were found on any public page, and the only prop snippets found were 2025 articles, so NO prop legs are used (rule: no unpriced props). Final Sunday inactives (11:30 AM ET) were not available; injury status below is the ESPN designation as of Sunday morning.
+1. Game: CLE (4-2) at TEN (1-5), Sun 10/25 1:00 PM ET, Nissan Stadium (CBS). DK (ESPN) CLE -1.5 (-110/-110), ML CLE -130 / TEN +110, total 36.5 (o-118/u-102). Open was TEN -2.5, ML TEN -142, total 40.5 (ESPN scoreboard): a 4-point swing on the side and 4 points off the total.
+2. Other books earlier in the week: FanDuel CLE -1.5 (-108/-112), ML -120/+102, total 38.5 (-110/-110); BetMGM/SI CLE -1.5 -115, ML -125/+105, 38.5; Dimers total 36.5; DocSports 37.5. The 36.5 is the lowest number found.
+3. QBs: Deshaun Watson (CLE) 111/174, 1,174 yds, 7 TD, 2 INT, 69 straight passes without an INT, 4 game-winning drives, but sacked a league-high 24 times (AP). Dillon Gabriel is on IR (back). Cam Ward (TEN) 109/177, 998 yds, 4 TD, 4 INT; TEN is last in the NFL in yards per game and passing yards per game, 14.0 ppg (AP, ESPN).
+4. Injuries (ESPN Sun AM): CLE DT Mike Hall Jr. out, LB Quincy Williams questionable (neck), G Teven Jenkins and DT Kalia Davis on IR. TEN: S Tony Adams and S Kevin Winston Jr. questionable, WR Calvin Ridley (hip, limited per Titans.com) and RB Tyjae Spears (knee) questionable. Final inactives not available.
+5. Defense: CLE ranks 2nd with 19 sacks (11 different players with a sack), 13th in defensive EPA/play vs TEN 23rd (Covers); CLE has not allowed a 300-yard passer in 51 straight games (AP). TEN's Jeffery Simmons has 4 sacks; TEN had 6 sacks, a blocked punt TD and 3 takeaways in last week's 26-20 win at IND.
+6. Offense (ESPN team stats): CLE 17.7 ppg, 3.6 YPC, 6.7 YPA, 30.8% third down (worst in NFL per Squawka), 24 sacks taken; TEN 14.0 ppg, 5.6 YPA, 3.8 YPC, 10 sacks taken. Rookie WRs: CLE Denzel Boston 345 yds, TEN Carnell Tate 344 yds.
+7. Last five: CLE W TB 23-19, W CAR 21-18, W PIT 27-24, L NYJ 17-12, W BAL 13-10; TEN L PHI, L NYG 12-7, L BAL, L HOU 26-3, W IND 26-20. Last-five points allowed: CLE 17.6, TEN 21.2.
+8. Coaching: Todd Monken (CLE) vs Robert Saleh (TEN) are both first-year head coaches with young rosters (Monken 45 first/second-year starters, TEN 36). TEN snapped a 13-51 stretch since Nov 2022 and now tries to win back-to-back games for the first time since then.
+9. Weather: ESPN 71F, partly cloudy, gusts 6 mph, no rain. No wind or weather lean.
+10. History: TEN won 31-29 in Cleveland on 12/7/2025; series CLE 37-33. ATS: CLE 4-2, TEN 3-3 (AP); TEN is 0-3 at home and CLE 1-2 on the road.
+11. Models/experts: Covers leans Browns -1.5 and a low-scoring game (Kalshi CLE -1.5 54%, Under 38.5 51%); numberFire CLE 60.8%; Dimers CLE 55.3%, 19-18; Stats Insider CLE 19-18; Squawka CLE 20-16 and Under 38.5 (4/5 stars), Ward u200 pass yds (no price found); ESPN matchup predictor is a pick'em (TEN 50.1).
+12. Price check: CLE ML no-vig is 54.3% at DK, 52.4% FanDuel and 53.2% BetMGM (average 53.3%, mid-week quotes at -1.5 as well). The spread is -110/-110 at DK. Under 36.5 is only quoted at DK so far (fair 48.3% since the over is -118).
+13. Totals: the market already dropped 4 points, so most of the Under value is gone; I keep it because 35.3 is below 36.5 and CLE/TEN combine for 31.7 ppg. Under 36.5 at -102 is slightly better priced than the over at -118, but this is a single-book number.
+14. Role/prop check: Watson, Judkins (CLE RB, listed questionable mid-week per SI) and Ward are the starters; no 2026 prop prices were found so no props are listed.
+
+
+Legs considered:
+- Cleveland Browns ML: Models give CLE 55-61% (numberFire 60.8, Dimers 55.3, Covers 59) vs a 53% no-vig price; TEN scores 14 ppg but CLE's Watson has been sacked a league-high 24 times.
+- Cleveland Browns -1.5: The line flipped from TEN -2.5 at the open to CLE -1.5; winning by 2+ is slightly less likely than the ML.
+- Under 36.5: My projection is 35.3 (TEN 14.0 ppg, CLE 17.7 ppg, CLE 30.8% third down); the total fell from 40.5 to 36.5 so the cheap side is already priced in.
+
+Our bets:
+- straight (lean): Under 36.5 (-102): pending -> **pending**
 
 ### 2026-10-18: at Indianapolis Colts (final: TEN 26, IND 20)
 

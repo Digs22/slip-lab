@@ -7,8 +7,38 @@
 - 2026-10-21: Opened 2026-27 without Isaac, A. Black (ankle), Penda and Nelson (out to about Nov 18).
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 10th (soft on guards), F 28th (stingy on forwards), C 12th.
 - 2026-10-23: Opener vs ATL: Banchero 35/7/10 in 41 min; F. Wagner played 29 min (shoulder OK). Own DvP calc: G 10th, F 28th, C 12th (soft on guards).
+- 2026-10-25: 0-2; Banchero out 4-6 weeks (high ankle sprain vs MIN 10/23, also Isaac, Penda, Nelson; Black day-to-day). Wagner, Bane, Suggs, Carter Jr. carry usage. At NY +7.5, total 224.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at New York Knicks
+
+Banchero is out (high ankle sprain, 4-6 weeks); Brunson passes DvP but his only priced prop is single-book, so no SGP edge. Total projects 225.7-227.5 vs 224.5. Most likely winner: Knicks ML -298.
+
+Rest/schedule: NY played 10/20 (lost 100-106 to PHI) and 10/23 (lost 103-107 at BOS); ORL played 10/21 (lost 125-132 to ATL) and 10/23 (lost 93-115 to MIN). Both on one day of rest; both 0-2. Tip 7 PM ET at Madison Square Garden.
+Injuries (ESPN API): ORL out Banchero (high ankle sprain suffered Friday vs MIN, 4-6 weeks per Yahoo/Heavy; ESPN return Nov 22), Isaac (knee, to Oct 28), Penda and Nelson (to Nov 18); Anthony Black day-to-day (ankle). NY: Jose Alvarado day-to-day (ankle sprain). SportsMole still lists Banchero as a game-time decision but newer sources (Heavy, Jingletree, Fubo) have him out.
+Lines (ESPN/DraftKings): NY -7.5 (-110/-110), ML NY -298 / ORL +240, total 224.5 (o-105/u-115). Covers NY -300 (best -310 at DK); iHeart -333; Bleacher Nation implies NY 75.6%. Dimers likes ORL +7.5 at 50c on Novig (53.3%, 2.8% edge).
+Totals (NBA.md method): pace 98.4; NY 115.2 + ORL 112.3 = 227.5 vs 224.5, 3.0 over, below the 4-point trigger. Removing Banchero (27.6% usage, 24.5 ppg in two games) takes about 3.5 off ORL's ORtg: 225.7. Early totals: NY games 206 and 210 (pace 96.8, slowest team); ORL games 257 and 208.
+Experts on the total: RAW CHILI Under 224.5 (-115, 53.5%); iHeart model NY 115-105 and Under; Capper's AI ORL 108-105. The model and experts disagree by 1-3 points, so I treat the total as a lean at best.
+Margin: model NY +2.9 neutral, about +4.9 with home court at full strength, closer to +8 without Banchero, against -7.5. That is priced efficiently; no side edge.
+Usage (2025-26 via team notes): Brunson 30.4%, Banchero 27.6% (out), F. Wagner 27.0%, Towns 25.9%, Bane 23.3%. Without Banchero, Wagner, Bane, Suggs and Carter Jr. take more shots; Carter Jr. has played 22 and 20 pts.
+DvP (own calc from 1,231 ESPN 2025-26 boxes, rank 1 = most allowed): ORL G 10th, F 28th, C 12th; NY G 23rd, F 26th, C 29th. Brunson is the only 24%+ usage player who passes; no Orlando player does.
+Props seen: Brunson 25.5 pts (-108 RAW CHILI), 3.5 reb, 6.5 ast (Bleacher Nation; RAW CHILI says he missed 6.5 ast in 8 of his last 10); Wagner o17.5 pts and Towns o9.5 reb (SportsMole, no price). Per the real-lines rule only the Brunson points line has a price.
+2026-27 form: Brunson 21 on 6-19 and 19 on 7-17; Towns 19/12 then 22/10; Anunoby 10 then 20/10/8; McBride 20 (6-8 3P) at BOS; Wagner 22 then 18; Carter Jr. 22 and 20; Bane 18 then 5 on 2-11; Suggs 6 then 14/6/6 ast.
+Roster/coaching: Mike Brown's Knicks (53-29 and the 2026 champions, all five starters back) play slow and rely on starters' minutes; Orlando's new coach Sean Sweeney now runs the offense through Wagner and Bane with Suggs and Carter Jr. up front.
+Lineups: NY expects Brunson, Hart, Bridges, Anunoby, Towns; Alvarado is a bench guard so the impact is small. ORL's projected starters are Suggs, Bane, Wagner, Carter Jr. and a wing (Black questionable).
+History/ATS: no head-to-head or 2026-27 ATS sample found; NY was a 113.3 DRtg, 96.8-pace team in 2025-26.
+Pricing check: NY ML priced at four sources (-298 to -333), no-vig about 0.718; the Brunson prop is a single price, so fair is my estimate.
+Lean summary: Knicks ML is the likely winner; no edge on the spread, a small Over lean on the total, and Brunson o25.5 is a pass-level prop. Fetches of ESPN/Covers/Action Network pages were blocked and the search budget ran out, so figures come from ESPN's summary API plus search-result snippets.
+
+Legs considered:
+- New York Knicks ML: Defending champs at home against a 0-2 Orlando without Banchero; the price sits right at the -300 limit.
+- Orlando Magic +7.5: Dimers sees Orlando +7.5 value at 53%, but Banchero and Black are out, so it stays a coin flip.
+- Over 224.5: Projection 227.5 (225.7 with Banchero out) is above 224.5, but NY's slow pace and two sub-210 games cap it at a lean.
+- J. Brunson o25.5 points: Passes the DvP gate (ORL G 10th) but he has shot 13-36 so far; one price, so no edge.
+
+Our bets:
+- straight (lean): New York Knicks ML (-298): pending -> **pending**
 
 ### 2026-10-23: vs Minnesota Timberwolves (final: MIN 115, ORL 93)
 

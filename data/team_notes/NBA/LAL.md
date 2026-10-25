@@ -6,8 +6,41 @@
 - 2026-10-21: Offseason: Kessler arrived by sign-and-trade from UTA (4 yr/$129.5M) as the starting C; LAL signed Sexton, Grimes and Mamukelashvili, while Kennard went to PHX and Smart to HOU. Redick's offense centers on Doncic, Reaves and Kessler.
 - 2026-10-21: Usage 2025-26: Doncic 38.1% (33.5/7.7/8.3 in 64 g), Reaves 26.7%. Luka hit 22+ pts, 4+ reb and 3+ ast in 94-97% of games.
 - 2026-10-21: DvP 2025-26 (Rotogrinders FD, rank 1 = most allowed): PG 2nd, SG 1st, SF 2nd, C 4th. This predates Kessler.
+- 2026-10-25: Won 127-105 vs GS and 125-117 vs LAC (Kessler 26 and 22 pts, Reaves 28/2/9). Redick runs Doncic 30-37 min; Doncic and Reaves pass DvP vs Utah (G 1st). Lines at UTA: LAL -6.5, 237.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Utah Jazz
+
+Doncic and Reaves clear the DvP gate, but only Reaves' assist line was priced, so the SGP shows no edge. Total projects 238.6 vs 237.5. Most likely winner: Lakers ML -245.
+
+Rest/schedule: ESPN scoreboard shows LAL played 10/21 (beat GS 127-105) and 10/23 (beat LAC 125-117); UTA played 10/21 (lost 103-123 at MEM) and 10/23 (beat NO 120-119). Both on one day of rest, no back-to-back. Tip 5 PM ET, 3 PM MT at Delta Center (altitude, home court).
+Injuries (ESPN API, Oct 24-25): UTA out Nurkic (foot, to Nov 4) and Trey Alexander (knee bruise); LAL out Thiero (knee) and Cameron Carr (oblique). Doncic, Reaves, Kessler, Markkanen, JJJ, George, Peterson are not listed (TheSpread/Bleacher Nation agree).
+Lines (ESPN/DraftKings): LAL -6.5 (-110/-110), ML LAL -245 / UTA +200, total 237.5 (o-112/u-108). TheSpread: LAL -6.5 (-115), ML -250, o237.5 (-110). FanDuel via search: LAL -5.5, ML -230/+190, 237.5. Bleacher Nation: -5.5, 237.5. Dimers total 236.5. Total opened 236.5.
+Totals (NBA.md method): pace 102.0, LAL 121.9 + UTA 116.6 = 238.6 vs 237.5, so +1.1, inside the 4-point trigger. UTA numbers are USU adjusted 112.3/120.9 and pace 105.7 (BBR not reachable); LAL are BBR 2025-26 with LeBron, now gone, so LAL's offense is likely a bit overstated. Early totals: LAL games 232 and 242, UTA 226 and 239.
+Margin: model LAL +5.3 neutral, about +3.3 after ~2 for Delta Center, against -6.5 (DK) and -5.5 (FD). That favors Utah +6.5 by about 3 points but the ratings are last season's, so I rate it a lean, not an edge. Cap is fair +/- 5 points.
+Usage (2025-26 BBR via team notes; 2026-27 sample is 2 games): Doncic 38.1%, George 29.1% (CTG, 46 g), Reaves 26.7%, Sexton 25.9%, JJJ 26.2%, Markkanen 24.1% (CTG) or 28.1% (RotoWire). Kessler is a low-usage C. Lakers lost LeBron (27.2%) to PHI, so Doncic and Reaves absorb more.
+DvP (Legion Report 2025-26, rank 1 = most allowed, via team notes): UTA allows G 1st, F 5th, C 3rd, so Doncic and Reaves qualify. LAL allows PG 2nd, SG 1st, SF 2nd, C 4th (Rotogrinders FD) but that predates Kessler, so George, Markkanen and JJJ nominally qualify too.
+Props seen (Bleacher Nation, no prices): Doncic 31.5 pts / 7.5 reb / 8.5 ast; Reaves 23.5 / 4.5 / 5.5; Kessler 15.5 pts / 10.5 reb; Markkanen 22.5 / 6.5; George 19.5 / 3.5 / 6.5; Peterson 12.5 / 4.5. SportsMole: Doncic o24.5 pts (old), Markkanen u18.5 pts. Priced: Reaves o4.5 ast -116 (Fanatics per Dimers); Kessler 15+ pts -150 (TheSpread); Kalshi Doncic 30+ at 67c came from a different game, so unused.
+Dimers also lists Reaves o14.5 pts at 53c and Kessler o9.5 pts at 39c on Kalshi; both look mislabeled next to 23.5 and 15.5 main lines, so I left them out. Per the 10/22 rule I did not build alt ladders or estimate prices for Doncic's lines.
+2026-27 form: Doncic 28/8/7 (7-18) and 23/6/7 (8-21); Reaves 23/4/6 and 28/2/9 on 10-13 FG; Kessler 26/9 (12-12 FG) and 22/8 (10-14). Utah: George 22/3/5 and 19/1/10, JJJ 15 then 24/10, Markkanen 18/9 (4-13) then 16/6, Peterson 9 then 15.
+Roster/chemistry: LAL starts Doncic, Reaves, Kessler (sign-and-trade from UTA, facing his old team), Thybulle/Z. Williams, Looney/Grimes; Redick runs a Doncic-centered offense. UTA starts Filipowski/Hayes, George, JJJ, Peterson (No. 2 pick), Markkanen; Hardy plays a deep, young rotation and Utah allowed the most points in the league in 2025-26 (SI: 122.7 DRtg, 29th).
+Coaching: Redick keeps Luka near 30-37 minutes; with a +22 and +8 start there is no blowout-rest risk in a 6.5-point game. Hardy has been willing to change rotations and plays fast.
+Experts: Dimers LAL 119-115 (63.3%), best bets Jazz +5.5 (+108, 5.3% edge) and Under 236.5 (+102); iHeart LAL 131-104, LAL ML and Under 236.5; Bleacher Nation leans Lakers cover and Under; Fadeaway World LAL 126-110; TheSpread LAL -6.5 with Kessler 15+; Tony's Picks Kessler points. Consensus: Lakers win, total leans Under.
+History/ATS: a 2025-26 meeting in Salt Lake ended LAL 108-106 (Doncic 33); no 2026-27 ATS sample yet.
+Pricing check: ML has three books (DK -245, FD -230, TheSpread -250), no-vig LAL about 0.675. The two props are single-book, so their fair values are my estimates of the no-vig price.
+Lean summary: Lakers ML is the safest leg (about 0.69 by my read vs 0.675 fair); Utah +6.5 and the Over are near-coin-flip leans; no usage SGP edge. Fetches of ESPN/Covers/Action Network pages were blocked and the search budget ran out, so figures come from ESPN's summary API plus search-result snippets.
+
+Legs considered:
+- Los Angeles Lakers ML: Won by 22 and 8 with Doncic, Reaves and Kessler; Utah had the league's worst defense last season and lost by 20 at Memphis.
+- Utah Jazz +6.5: Model margin is LAL +3.3 with Delta Center home court; Dimers also likes Utah +5.5 at +108.
+- Over 237.5: Projection 238.6 (LAL 121.9 + UTA 116.6 at 102.0 poss) is 1.1 over; Dimers and iHeart lean Under, so it is a small lean.
+- A. Reaves o4.5 assists: Low assist rung with room under his 5.5 average; one book only, so no edge is claimed.
+- W. Kessler o14.5 points: Starting C against his old team on 30-35 minutes; one book, and Bleacher lists the main line at 15.5.
+
+Our bets:
+- straight (lean): A. Reaves o4.5 assists (-116): Active -> **pending**
+- best: A. Reaves o4.5 assists (-116): Active / W. Kessler o14.5 points (-150): Active -> **pending**
 
 ### 2026-10-21: vs Golden State Warriors (final: GS 105, LAL 127)
 

@@ -6,8 +6,38 @@
 - 2026-10-21: Kawhi was traded to TOR and Zubac is gone (IND). Garland (from CLE, Feb 2026) is the primary creator: 29.8% usage, 19.9/2.3/6.4 in 19 LAC games.
 - 2026-10-21: Out for the opener: Ingram (Achilles), Beal (knee), Strus (foot), J. Miller (shoulder), Konan Niederhauser (foot). C depth is Lopez and I. Jackson.
 - 2026-10-21: DvP 2025-26 (Rotogrinders FD, rank 1 = most allowed): PG 26th, SG 26th (stingy vs guards).
+- 2026-10-25: 1-1 (W 121-96 SAC, L 117-125 at LAL). Hachimura is the No. 2 option (10 and 16 pts); Garland 30 and 26. At OKC the line was -15.5 (ML +800), opened -14.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Oklahoma City Thunder
+
+Model has OKC by about 7 against a 15.5 spread, so the Clippers cover is the cleanest number. Most likely winner: LA Clippers +15.5 (-105).
+
+SOURCES: ESPN summary API (DraftKings pickcenter with open/close, injuries, BPI predictor, box scores), Dimers 10/25 best-bets page (search snippet), Bleacher Nation 10/25 preview (snippet), CappersPicks AI pick (snippet), Oddsshark ML (via Pickswise snippet), Pickswise, OKC and LAC team notes. Dimers/Covers/Pickswise pages could not be fetched (host blocked), so only search-snippet content is used.
+LINES: DK OKC -15.5 (-115) / LAC +15.5 (-105), ML OKC -1350 / LAC +800, total 222.5 (o -108 / u -112). Opened OKC -14.5, ML -950/+625, total 221.5, so the market moved toward OKC. Bleacher Nation OKC -15.5, total 220.5; CappersPicks LAC +14.5, ML +693, total 221.5; Dimers LAC +14.5 (+104, 49c); Oddsshark OKC ML -900.
+FAIR: DK no-vig OKC 89.3% ML; spread no-vig LAC +15.5 48.9%; total over 49.6%. ESPN BPI OKC 90.3%. Only DK gives an exact 15.5; the +14.5 quotes are a point worse for the dog, so +15.5 -105 is the best number found.
+TOTALS (NBA.md, B-Ref 2025-26): pace 97.9; OKC 115.0 + LAC 110.1 = 225.2 vs 222.5, 2.7 over. Caveat: LAC lost Kawhi and Zubac, so its 117.3 ORtg is generous; real totals so far: OKC games 220 and 180, LAC games 217 and 242.
+MARGIN: the formula gives OKC +4.9 neutral, about +7 with home court. A straight net-rating gap (OKC +11.2 vs LAC +1.2) gives about +12 with home. Either is under the 15.5 posted.
+REST: OKC played Thursday 10/22 (96-84 over DEN), so 2 days off; LAC played at the Lakers Friday 10/23 (L 117-125), 1 day off. Neither is on a back-to-back.
+OKC: 2-0 (W 116-104 at SA, W 96-84 vs DEN). Out: Sorber (knee), Topic (back), Oweh (Achilles). Holmgren had 17 rebounds vs DEN; Dort, Joe and Wiggins left, so McCain (20 in the opener) and Caruso play wing minutes. SGA scored 32 and 17 on 27 and 19 FGA.
+LAC: 1-1 (W 121-96 over SAC, L 117-125 at LAL). Out: Ingram (heel/Achilles), Beal (knee), Strus (foot), J. Miller (shoulder), Niederhauser (foot) per ESPN. Garland 30 and 26 points; Lopez 17 and 22; Hachimura 10 and 16 on 13-14 FGA; Derrick Jones Jr. starts.
+USAGE (2025-26, team notes): SGA 33.4%, J. Williams 26.2% (33 g), Mitchell ~24%; Garland 29.8% in 19 LAC games. No one passes the DvP gate: LAC allows PG 26th and SG 26th (Rotogrinders FD), OKC allows PG 16th and C 27th.
+PROPS: no 10/25 price found for SGA, Garland or Williams. Only the Pickswise Hachimura 15+ points at -170 (cleared 15 in all four 2026 playoff games vs OKC) is a listed price; one source, so the fair is the book's de-vigged price, no edge claimed.
+HISTORY: The teams met in the 2026 West semifinals (Hachimura scored 21 and 25 in games 3 and 4); OKC lost the WCF to SA. In Dec 2025 OKC was -17.5 vs LAC with a 222.5 total; one preview noted OKC was 0-3 ATS as a favorite of 17.5+.
+EXPERTS: Dimers model LAC +14.5 at 56.8% (7.8% edge), its top play; Pickswise went to a Hachimura prop instead of the side; CappersPicks lists LAC +14.5. Consensus: lean the dog, no one on the favorite at this number.
+COACHING: Daigneault runs a deep, switch-heavy rotation and pulls starters early in blowouts (SGA 35-36 min in both wins); Tyronn Lue's LAC plays slow (96.5 pace) which caps possessions for a favorite to cover.
+CHEMISTRY: LAC is rebuilt around Garland with Dunn, Dick, Wagler and Lopez; OKC returned its core and added McCain. LAC beat SAC by 25 but lost at LAL by 8, so the floor is not a collapse.
+VENUE: Paycom Center, 7:00 PM ET, a strong home crowd; OKC is 1-0 at home this year.
+VERDICT: the 15.5 prices OKC like its 2025 peak against a depleted but still functional LAC. Lean LAC +15.5 (-105); Over 222.5 is a small model lean only. Usage SGP: none qualifies, none priced.
+
+Legs considered:
+- LA Clippers +15.5: Model margin is OKC by about 7 with home court; Dimers and CappersPicks both show the Clippers at +14.5.
+- Over 222.5: Projection 225.2 (OKC 115.0 + LAC 110.1) beats DK 222.5, but a 15.5-point spread invites garbage time.
+- R. Hachimura o14.5 points: Single-source 15+ price; he scored 10 and 16 as the No. 2 option and a blowout cuts his minutes.
+
+Our bets:
+- straight (lean): LA Clippers +15.5 (-105): pending -> **pending**
 
 ### 2026-10-21: vs Sacramento Kings (final: SAC 96, LAC 121)
 

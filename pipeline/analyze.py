@@ -32,7 +32,7 @@ def logit(p):
     return math.log(p / (1 - p))
 
 
-def model_prob(fair: float, signals: dict, weights: dict) -> float:
+def model_prob(fair: float, signals: dict, weights: dict, max_shift: float = config.MAX_MODEL_SHIFT) -> float:
     """Blend the fair market price with factor signals. Each signal's pull is capped by its weight / 4,
     so no one factor can move the price more than a fraction of the gap."""
     base = logit(fair)
@@ -41,7 +41,7 @@ def model_prob(fair: float, signals: dict, weights: dict) -> float:
     # Signals mostly come from one write-up, so they aren't independent, and summing them let the model drift
     # 15-18 points off the market (Snell u14.5 outs: market 40%, model 58%, lost). The market beats the model
     # so far, so never move more than config.MAX_MODEL_SHIFT away from it.
-    return min(max(p, fair - config.MAX_MODEL_SHIFT), fair + config.MAX_MODEL_SHIFT)
+    return min(max(p, fair - max_shift), fair + max_shift)
 
 
 def shrunk_rate(hits: int, n: int, prior: float = 0.5, k: int = 5) -> float:
@@ -260,7 +260,9 @@ def score_game(date: str, game: dict, odds_events: list[dict] | None, injuries: 
         s = overrides.get(leg["desc"], {}).get("signals", {})
         if isinstance(s, dict): sig |= s
         if isinstance(leg.get("signals"), dict): sig |= leg["signals"]
-        p = model_prob(leg["fair"], sig, weights)
+        # One book's price isn't a market (10/24: single-book "edges" went 2-5), so it gets a tighter cap.
+        p = model_prob(leg["fair"], sig, weights,
+                       config.SINGLE_BOOK_SHIFT if (leg.get("books") or 1) <= 1 else config.MAX_MODEL_SHIFT)
         ov = overrides.get(leg["desc"], {})
         leg = leg | {"game": game["id"], "signals": sig, "prob": round(p, 4), "edge": round(edge(p, leg["odds"]), 4),
                      "note": ov.get("note", leg.get("note")),

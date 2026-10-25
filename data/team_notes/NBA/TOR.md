@@ -3,8 +3,41 @@
 ## Standing notes
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
+- 2026-10-25: 2-0 (135-92 CHI, 112-102 at WSH). Kawhi minutes-limited (24 and 28 min, 23 and 16 pts); Barnes 28/14 at WSH. USU adj 113.6/112.4, pace 101.5. At MIN as a +1.5 dog.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Minnesota Timberwolves
+
+Both teams are 2-0 on equal rest and no usage SGP qualifies. Total projects 230.4 vs 231.5. Most likely winner: Timberwolves ML -115.
+
+Rest/schedule: MIN played 10/21 (won 131-106 at MIA) and 10/23 (won 115-93 at ORL); TOR played 10/21 (won 135-92 vs CHI) and 10/23 (won 112-102 at WSH). Both 2-0, both on one day of rest, no back-to-back. Covers: Over is 5-1 in MIN's last 6 on one day of rest. Tip 7 PM ET at Target Center.
+Injuries (ESPN API): MIN out DiVincenzo (Achilles surgery, April 2027); TOR out Nate Bittle (foot fracture, Oct 28). Edwards, Ball, Kuminga, McDaniels, Gobert, Kawhi, Barnes, Barrett, Quickley all healthy.
+Lines (ESPN/DraftKings): MIN -1.5 (-105 MIN / -115 TOR), ML MIN -115 / TOR -105, total 231.5 (o-115/u-105). Dimers MIN -1.5, ML -102/+100, total 233; Covers TOR ML +117, total 231.5; another book MIN -3.5, MIN -155 / TOR +135; others 232.5.
+Totals (NBA.md method): pace 101.0; MIN 115.7 + TOR 114.7 = 230.4 vs 231.5, 1.1 under, below the trigger. TOR ratings are USU adjusted (113.6/112.4, pace 101.5) because BBR was unreachable, and Kawhi (acquired for Ingram) makes last season's offense stale. Early totals: MIN 237 and 208, TOR 227 and 214.
+Margin: model MIN +1.0 neutral, about +3.0 with home court, vs MIN -1.5; Dimers MIN 57.5%, numberFire 60.8%, iHeart MIN 114-107. That supports MIN ML more than the spread.
+Usage (2025-26 via team notes): Ball 32.0% (CHA), Edwards 31.5%, Kawhi 33.5% (CraftedNBA, unconfirmed), Barrett 26.0%, Kuminga 23.4%, Barnes 23.4%, Quickley 21.1%. Two 31%+ guards share the ball in MIN, so both lines drop.
+DvP (own calc / Legion Report 2025-26, rank 1 = most allowed): MIN G 14th, F 23rd, C 17th; TOR G 21st, F 22nd, C 23rd. No 24%+ player passes the bottom-10 gate, so no usage SGP.
+2026-27 form: Edwards 45 (16-29, 9 threes) then 15 (5-23); Ball 21/6 then 12/5/5; Gobert 5/15 then 14/9; Dosunmu 10 ast at ORL; Kawhi 23 then 16 in 24-28 min (minutes-limited); Barnes 23 then 28/14; Barrett 20 then 23/9; Quickley 23/7 ast then 12.
+Props seen: Bleacher Nation Edwards 27.5 pts / 4.5 reb / 3.5 ast, Ball 18.5 / 4.5 / 6.5, Kawhi 24.5 / 5.5 / 3.5, Barnes 19.5 / 7.5 / 5.5, Barrett 18.5 / 5.5 / 3.5 (no prices). Priced: Kawhi o24.5 -120 and Ball o18.5 -125 (Fanatics via Covers); Ball o19.5 -114 (FanDuel); Barnes o5.5 ast 49c and Barrett o5.5 reb 44c (Kalshi via Dimers); Barrett u14.5 pts 33c.
+The Edwards o13.5 -112 FanDuel listing in the Covers snippet does not match a main line, so I ignored it. No Gobert line was found.
+Roster/chemistry: MIN starts Ball, Edwards, Kuminga, McDaniels, Gobert (LaMelo came for Naz Reid; Randle went to BKN); Edwards' usage dips with Ball. TOR starts Quickley, Barrett, Kawhi, Barnes, Poeltl; Kawhi is targeted for about 32 minutes and has been used at 24-28.
+Coaching: Chris Finch plays a defense-first, 100-possession game; Darko Rajakovic uses a 9-10 man rotation. Lineups notes MIN Unders in first-game back-to-backs, which does not apply here.
+Experts: Lineups.com Under 231.5 (-105), MIN 116-114; iHeart MIN 114-107, Under 231.5; Dimers MIN -1.5 (57.5%), Under 231.5 (51%); numberFire MIN 60.8%. Consensus: MIN slightly, lean Under.
+History/ATS: MIN won both 2025-26 meetings (128-126 and 115-107, BetMGM). Covers: Raptors 6-0 ATS in their last 6 as a favorite (not relevant as dogs).
+Pricing check: ML has three books (DK -115, Dimers -102, other -155), no-vig about 0.51-0.60 depending on book; I use the DK pair. The two props are single Kalshi prices, so fair equals the market price.
+Lean summary: MIN ML is the most likely leg (about 0.57, capped at fair +5); Under 231.5 is a small lean and the props are plus-money coin flips. Fetches of ESPN/Covers/Action Network pages were blocked and the search budget ran out, so figures come from ESPN's summary API plus search-result snippets.
+
+Legs considered:
+- Minnesota Timberwolves ML: Home court, a better 2025-26 net rating and Edwards due to bounce back from 5-23; numberFire has MIN 60.8%.
+- Under 231.5: Projection 230.4 is 1.1 under; both teams average about 221 in their two games, and Dimers, Lineups and iHeart lean Under.
+- S. Barnes o5.5 assists: Plus-money main line; the market sits at the coin-flip price, so this is a small play only.
+- R. Barrett o5.5 rebounds: Dimers' Kalshi price; Gobert and McDaniels take MIN's boards, so no more than a coin flip at 44c.
+
+Our bets:
+- straight: S. Barnes o5.5 assists (+104): Active -> **pending**
+- best: S. Barnes o5.5 assists (+104): Active / R. Barrett o5.5 rebounds (+127): Active -> **pending**
+- best: R. Barrett o5.5 rebounds (+127): Active -> **pending**
 
 ### 2026-10-21: vs Chicago Bulls (final: CHI 92, TOR 135)
 

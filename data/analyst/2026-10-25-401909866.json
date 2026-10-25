@@ -1,0 +1,86 @@
+{
+ "summary": "PHI is on a back-to-back and probably without Embiid and LeBron, and the model has Detroit by 2 at Philadelphia. Most likely winner: Detroit Pistons +2.5 (-110).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Detroit Pistons +2.5",
+   "game": "Detroit Pistons @ Philadelphia 76ers",
+   "market": "spread",
+   "team": "DET",
+   "side": null,
+   "line": 2.5,
+   "odds": -110,
+   "book": "Pickswise (book not named)",
+   "fair": 0.518,
+   "books": 2,
+   "signals": {
+    "matchup": 0.56,
+    "season": 0.57,
+    "rest": 0.58,
+    "injuries": 0.52,
+    "home": 0.46,
+    "experts": 0.55
+   },
+   "note": "PHI is on a back-to-back and may rest Embiid and LeBron; model has DET by about 2 even at Philadelphia."
+  },
+  {
+   "desc": "Detroit Pistons ML",
+   "game": "Detroit Pistons @ Philadelphia 76ers",
+   "market": "ml",
+   "team": "DET",
+   "side": null,
+   "line": null,
+   "odds": 110,
+   "book": "DraftKings",
+   "fair": 0.45,
+   "books": 3,
+   "signals": {
+    "matchup": 0.55,
+    "rest": 0.57,
+    "injuries": 0.5,
+    "home": 0.45,
+    "experts": 0.45
+   },
+   "note": "Outright DET pays +110; Dimers and BPI side with PHI, but the rest edge and 60-22 record support the dog."
+  },
+  {
+   "desc": "Over 227.5",
+   "game": "Detroit Pistons @ Philadelphia 76ers",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 227.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.51,
+    "pace": 0.5,
+    "injuries": 0.47
+   },
+   "note": "Projection 227.8 (DET 116.0 + PHI 111.8) is level with DK 227.5, so no total edge."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Cunningham (30.5% usage) vs PHI PG DvP 10th qualifies on paper. Maxey 29.4% vs DET guards (top-4 defense, stingy), Embiid 33.5% (resting) and Brown/LeBron fail or are out.",
+  "note": "Cunningham is the only qualifier, but no 10/25 prop prices were found, so no SGP is built or highlighted."
+ },
+ "totals_projection": {
+  "possessions": 99.65,
+  "DET": 116.0,
+  "PHI": 111.8,
+  "total": 227.8,
+  "line": 227.5,
+  "math": "pace avg(99.9 DET, 99.4 PHI)=99.65; DET avg(117.3 ORtg, 115.5 PHI DRtg)x0.9965=116.0; PHI avg(115.4 ORtg, 108.9 DET DRtg)x0.9965=111.8; sum 227.8 (B-Ref 2025-26)"
+ },
+ "research": "SOURCES: ESPN summary API (DraftKings pickcenter open/close, injuries, BPI predictor, box scores), Dimers 10/25 best-bets and props pages (snippets), Pickswise 10/25 (snippet), Oddsshark (snippet), Yahoo Sports and Heavy (Duren), Sports Mole and Fubo previews (snippets), DET and PHI team notes. Several pages could not be fetched (host blocked).\nLINES: DK PHI -2.5 (-102) / DET +2.5 (-118), ML PHI -130 / DET +110, total 227.5 (o/u -110). Opened the same spread and ML, total 226.5. Pickswise lists DET +2.5 at -110. Dimers PHI ML 56c (61.5% model, 5.5% edge). ESPN BPI PHI 64.4%.\nFAIR: DK no-vig DET +2.5 51.8%, DET ML 45.7%, total 50.0%. Kalshi-style PHI 56c implies DET about 44%. Averaged DET ML fair 0.45.\nTOTALS (NBA.md, B-Ref 2025-26): pace 99.65; DET 116.0 + PHI 111.8 = 227.8 vs 227.5, a 0.3 difference, so no total lean. Margin DET +4.2 neutral, +2.2 at Philadelphia, versus PHI -2.5, a 4.7-point gap on the Detroit side.\nCAVEAT: PHI's 2025-26 ratings predate LeBron and Jaylen Brown (they scored 127 on MIL), and DET lost Harris and Stewart; ratings are a weak guide for both.\nREST/SCHEDULE: PHI played Saturday night (W 127-116 vs MIL; Embiid 36 min, Maxey 36, Brown 35), so this is a true back-to-back. DET played Friday 10/23 at MIA (W 128-111), one day off. Nick Nurse and PHI said Embiid plays one game of the weekend back-to-back and was expected to sit the DET game.\nPHI INJURIES (ESPN): Embiid day-to-day (rest), LeBron James out (back/sciatica), Jabari Walker day-to-day (knee), Barlow, Fall and Hukporti out. Thin frontcourt: Bona and Wade take the center minutes if Embiid sits. Maxey, Brown, Edgecombe, Simons and Caldwell-Pope are healthy.\nDET INJURIES (ESPN, Yahoo, Heavy): Duren out (right hamstring, hurt vs MIA), Ausar Thompson day-to-day (ankle). Cunningham, Collins, Robinson, Reed healthy; Jenkins and Holland II play bench minutes. Duren had 22 and 9 in the opener, so his loss is real; Paul Reed had 19 and 11 at MIA.\nFORM: PHI 3-0 (W 106-100 at NY, W 114-106 over CLE, W 127-116 over MIL). DET 2-0 (W 121-113 over BOS, W 128-111 at MIA). Cunningham 22/4/8 and 16/2/8.\nUSAGE (2025-26 B-Ref): Cunningham 30.5%, Embiid 33.5% (38 g), Maxey 29.4%, Brown 36.2% (BOS), LeBron 27.2% (LAL). Cunningham 6+ assists in 94% of games and 10+ pts in 95%.\nDVP: PHI allows PG 10th, SG 4th, SF 7th, PF 3rd, C 1st (Rotogrinders FD). Cunningham passes the gate. DET's guard defense is a top-4 unit, so Maxey and Brown fail. SGP: Cunningham only; no 10/25 main-line prices found, so no SGP is built.\nPROPS: only Dimers model plays (Maxey o0.5 threes 69.4%, o3.5 assists 61.7%, both quoted at a flat 50c) which are not sportsbook lines, so they are not used. Earlier Maxey o25.5 pts -104 was the 10/24 line, not today.\nEXPERTS: Pickswise DET +2.5 (-110) citing the PHI back-to-back; Dimers model PHI ML; Oddsshark flags Embiid rest uncertainty. Split.\nHISTORY: PHI won 8 of the last 10 meetings, but DET won the 2025-26 East at 60-22 and beat PHI in earlier seasons without the new PHI stars.\nCOACHING: Bickerstaff plays physical, rim-protecting defense and is faster than last year; Nurse manages Embiid and LeBron minutes and has used a deeper Maxey/Brown/Edgecombe lineup.\nVENUE: Xfinity Mobile Arena, 7:30 PM ET, PHI 2-0 at home.\nVERDICT: a rested, deeper Detroit getting 2.5 against a back-to-back PHI that is likely without two stars looks mispriced by 2-4 points even after losing Duren. Lean DET +2.5 (-110); DET ML +110 is the same view at higher variance.",
+ "prelock": "ESPN injuries: PHI Embiid day-to-day (rest), LeBron out, Walker day-to-day, Barlow/Fall out; DET Duren out, A. Thompson day-to-day."
+}

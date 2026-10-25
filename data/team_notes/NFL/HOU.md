@@ -4,7 +4,35 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-25: 2-4, 0-3 at home, 1-3 ATS as favorite; Stroud 286 ypg, run game 3.4 ypc (30th); Montgomery, Fisher, Pitre, Blankenship out wk7; Anderson 7.5 sacks.
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: vs New York Giants
+
+Houston is a 10.5-point favorite but is 0-3 at home and Giants QB J.J. McCarthy debuts. Most likely to win: Nico Collins o65.5 receiving yards.
+
+SEARCH NOTE: about 18 WebSearch queries on this game. WebFetch failed on DNS and curl was refused, so figures come from search snippets plus the ESPN summary API. The search budget ran out before I could look for Marks, Nabers or Skattebo lines. Sun 10/25 1:00 PM ET, NRG Stadium (roof normally closed), FOX. Records: HOU 2-4 (0-3 home), NYG 3-2-1.
+1. QBs: Giants named J.J. McCarthy the starter (Harbaugh Wednesday, 'the plan going forward'), Winston to backup after 2 INT in a 34-27 loss to NO; McCarthy came in down 34-10 and threw 243 yds, 1 TD. McCarthy was acquired from MIN Sept 28 (Dart is out for the season); career 12 games, 10 starts, 57.2%, 1,875 yds, 12 TD, 13 INT; first Giants start. Winston 90/158, 957, 7 TD, 5 INT. Texans: C.J. Stroud 143/219, 1,714 yds, 9 TD, 1 INT, 285.7 ypg.
+2. Injuries (ESPN, giants.com, Yahoo): HOU OUT RB David Montgomery (groin), OT Blake Fisher (thumb), S Jalen Pitre (AC joint), S Reed Blankenship (concussion); Woody Marks (58-205-2, 3.5 ypc) starts at RB; WR Tank Dell returns after 673 days. NYG OUT LB Tremaine Edmunds (IR, chest), S Jevon Holland (concussion), TE Theo Johnson (neck), CB Greg Newsome II (concussion); CB Paulson Adebo and OT Jermaine Eluemunor questionable, OL Marcus Mbow and S Tyler Nubin questionable. Nabers and Skattebo were not on the Giants report (Skattebo back this week per Yahoo).
+3. Stats (ESPN): HOU 24.0 ppg, 285.7 pass / 84.8 rush ypg, allows 23.8 ppg, 264.5 pass / 83.0 rush. NYG 22.7 ppg, 241.7 pass / 104.8 rush, allows 23.3 ppg, 198.7 pass / 135.5 rush. HOU 18 sacks (3rd), Anderson 7.5 sacks / 18 pressures; Giants defense last in pressure rate per a CBS preview and 8 sacks. Giants have allowed only one 200-yard passer (Yahoo/Houston preview). HOU ranks 30th in yards per carry (3.4).
+4. Scheme: Texans run a pass-first offense under Nick Caley that has been criticized all year; Houston backs are hit at or before the line on 52.5% of carries. Giants under Harbaugh want a fuller offense for McCarthy's skill set.
+5. Coaching/ATS: HOU 2-4 ATS (1-3 as favorite, BetMGM); Giants are 0-1-1 on the road this season (ESPN). Under is 3-3 in Texans games.
+6. Situational: Texans won their last two (26-3 at TEN, 34-31 at JAX) after 0-3 at home and an 0-3 start; Giants lost to NO 34-27 as favorites and tied WSH 27-27 in OT.
+7. History: Giants have won five straight vs HOU back to 2006 (one search listing, unverified).
+8. Weather: indoors at NRG (roof normally closed); ESPN shows 78F, gusts 14 mph for outdoors only.
+9. Market: DraftKings HOU -10.5 (-108) / NYG +10.5 (-112), ML HOU -535 / NYG +400, total 42.5 (o -112 / u -108). FanDuel HOU -9.5 (-108) / NYG +9.5 (-112); BetMGM HOU -10; Caesars HOU -480; Fanatics NYG +390. Total opened 43.5, now 42.5. Opened HOU -9.5, bet up to -10.5 (WagerTalk). Giants hold about 80% of tickets and 92% of spread money (WagerTalk, one source) despite the move to HOU, a reverse-line signal toward Houston. Kalshi: NYG +9.5 at 48%; defirate: HOU 79%.
+9b. Picks: Dimers HOU 79.3% / 27-17, NYG +10.5 covers 52.7%, Over 57.3%; ESPN FPI HOU 84.5% by 10.5; numberFire HOU 68.2%; Covers NYG +9.5 and Under 42.5; SI NYG +9.5 spread and Over 42.5; NBC Sports NYG +10.5 and Over; compare.bet NYG +10.5; TheRx HOU -10; Pickswise HOU -10 and Over 42.5; WagerTalk NYG +10.5 and Over; Rotowire Over 42.5. Consensus: Texans win, Giants cover, total split.
+10. Props found: Collins rec yds o65.5 (-111, DraftKings via Rotowire; 72.5 vs JAX), Stroud pass yds 260.5 (-115 SI) with consensus 254.5 (BettingPros) and PFF 240.7, Covers ATD Likely about +200 (28% Kalshi), SI ATD Harrison Jr. +280, McCarthy INT prop exists (no price). Stroud over skipped: Giants allow only 198.7 pass ypg and a blowout hurts volume. No Marks/Nabers lines found.
+Role checks: Collins healthy and the primary target; Marks is the RB1 but Houston runs poorly, so no rush prop. Nabers/Skattebo not priced.
+Projection: HOU 26.0 / NYG 17.0 = 43.0 vs 42.5; no total leg. Texans ML (-535) is shorter than -300 and excluded.
+
+Legs considered:
+- New York Giants +10.5: Houston is 1-3 ATS as a favorite and 0-3 at home; Montgomery is out, but McCarthy faces a talented pass rush.
+- N. Collins o65.5 rec yds: Most likely to win: Collins is Stroud's top target and Giants CB Newsome is out and Adebo is questionable. Single-book price.
+
+Our bets:
+- straight (lean): N. Collins o65.5 rec yds (-111): Active WR1 after a hamstring absence: 22-323-3 in 4 games, over 70 yards in 3 of 4, 74 yds on 5 targets last week. No designation. -> **pending**
 
 ### 2026-10-18: at Jacksonville Jaguars (final: HOU 34, JAX 31)
 

@@ -7,8 +7,39 @@
 - 2026-10-20: Offseason: lost Tobias Harris and Isaiah Stewart; added John Collins, Isaiah Joe, Gary Harris, Taurean Prince; Duren re-signed (reported 5 yr/$200M), Ausar Thompson extended.
 - 2026-10-20: Taurean Prince out for the opener (personal). Bickerstaff: physical, rim-protection defense, faster pace than Boston.
 - 2026-10-23: D. Robinson starts (21 pts, 28 min in the opener); SI lists his PRA at 15.5, a low line. Jalen Green provides bench scoring (19 in 18 min).
+- 2026-10-25: 2-0 (W 121-113 BOS, W 128-111 at MIA). Duren out (hamstring, hurt at MIA) and A. Thompson questionable for PHI; Paul Reed filled in with 19/11. DET +2.5 at PHI on the second night of PHI's back-to-back.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Philadelphia 76ers
+
+PHI is on a back-to-back and probably without Embiid and LeBron, and the model has Detroit by 2 at Philadelphia. Most likely winner: Detroit Pistons +2.5 (-110).
+
+SOURCES: ESPN summary API (DraftKings pickcenter open/close, injuries, BPI predictor, box scores), Dimers 10/25 best-bets and props pages (snippets), Pickswise 10/25 (snippet), Oddsshark (snippet), Yahoo Sports and Heavy (Duren), Sports Mole and Fubo previews (snippets), DET and PHI team notes. Several pages could not be fetched (host blocked).
+LINES: DK PHI -2.5 (-102) / DET +2.5 (-118), ML PHI -130 / DET +110, total 227.5 (o/u -110). Opened the same spread and ML, total 226.5. Pickswise lists DET +2.5 at -110. Dimers PHI ML 56c (61.5% model, 5.5% edge). ESPN BPI PHI 64.4%.
+FAIR: DK no-vig DET +2.5 51.8%, DET ML 45.7%, total 50.0%. Kalshi-style PHI 56c implies DET about 44%. Averaged DET ML fair 0.45.
+TOTALS (NBA.md, B-Ref 2025-26): pace 99.65; DET 116.0 + PHI 111.8 = 227.8 vs 227.5, a 0.3 difference, so no total lean. Margin DET +4.2 neutral, +2.2 at Philadelphia, versus PHI -2.5, a 4.7-point gap on the Detroit side.
+CAVEAT: PHI's 2025-26 ratings predate LeBron and Jaylen Brown (they scored 127 on MIL), and DET lost Harris and Stewart; ratings are a weak guide for both.
+REST/SCHEDULE: PHI played Saturday night (W 127-116 vs MIL; Embiid 36 min, Maxey 36, Brown 35), so this is a true back-to-back. DET played Friday 10/23 at MIA (W 128-111), one day off. Nick Nurse and PHI said Embiid plays one game of the weekend back-to-back and was expected to sit the DET game.
+PHI INJURIES (ESPN): Embiid day-to-day (rest), LeBron James out (back/sciatica), Jabari Walker day-to-day (knee), Barlow, Fall and Hukporti out. Thin frontcourt: Bona and Wade take the center minutes if Embiid sits. Maxey, Brown, Edgecombe, Simons and Caldwell-Pope are healthy.
+DET INJURIES (ESPN, Yahoo, Heavy): Duren out (right hamstring, hurt vs MIA), Ausar Thompson day-to-day (ankle). Cunningham, Collins, Robinson, Reed healthy; Jenkins and Holland II play bench minutes. Duren had 22 and 9 in the opener, so his loss is real; Paul Reed had 19 and 11 at MIA.
+FORM: PHI 3-0 (W 106-100 at NY, W 114-106 over CLE, W 127-116 over MIL). DET 2-0 (W 121-113 over BOS, W 128-111 at MIA). Cunningham 22/4/8 and 16/2/8.
+USAGE (2025-26 B-Ref): Cunningham 30.5%, Embiid 33.5% (38 g), Maxey 29.4%, Brown 36.2% (BOS), LeBron 27.2% (LAL). Cunningham 6+ assists in 94% of games and 10+ pts in 95%.
+DVP: PHI allows PG 10th, SG 4th, SF 7th, PF 3rd, C 1st (Rotogrinders FD). Cunningham passes the gate. DET's guard defense is a top-4 unit, so Maxey and Brown fail. SGP: Cunningham only; no 10/25 main-line prices found, so no SGP is built.
+PROPS: only Dimers model plays (Maxey o0.5 threes 69.4%, o3.5 assists 61.7%, both quoted at a flat 50c) which are not sportsbook lines, so they are not used. Earlier Maxey o25.5 pts -104 was the 10/24 line, not today.
+EXPERTS: Pickswise DET +2.5 (-110) citing the PHI back-to-back; Dimers model PHI ML; Oddsshark flags Embiid rest uncertainty. Split.
+HISTORY: PHI won 8 of the last 10 meetings, but DET won the 2025-26 East at 60-22 and beat PHI in earlier seasons without the new PHI stars.
+COACHING: Bickerstaff plays physical, rim-protecting defense and is faster than last year; Nurse manages Embiid and LeBron minutes and has used a deeper Maxey/Brown/Edgecombe lineup.
+VENUE: Xfinity Mobile Arena, 7:30 PM ET, PHI 2-0 at home.
+VERDICT: a rested, deeper Detroit getting 2.5 against a back-to-back PHI that is likely without two stars looks mispriced by 2-4 points even after losing Duren. Lean DET +2.5 (-110); DET ML +110 is the same view at higher variance.
+
+Legs considered:
+- Detroit Pistons +2.5: PHI is on a back-to-back and may rest Embiid and LeBron; model has DET by about 2 even at Philadelphia.
+- Detroit Pistons ML: Outright DET pays +110; Dimers and BPI side with PHI, but the rest edge and 60-22 record support the dog.
+- Over 227.5: Projection 227.8 (DET 116.0 + PHI 111.8) is level with DK 227.5, so no total edge.
+
+Our bets:
+- straight (lean): Detroit Pistons +2.5 (-110): pending -> **pending**
 
 ### 2026-10-23: at Miami Heat (final: DET 128, MIA 111)
 

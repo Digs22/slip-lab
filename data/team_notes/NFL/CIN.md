@@ -1,0 +1,34 @@
+# Cincinnati Bengals (NFL)
+
+## Standing notes
+
+_Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
+
+## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-25: at Baltimore Ravens
+
+Lamar Jackson is out so Huntley starts; Cincinnati is a 3-point road favorite coming off a bye with a healthy roster. Most likely to win: Bengals ML (-148).
+
+SEARCH NOTE: about 17 WebSearch queries on this game. WebFetch failed on DNS and curl was refused, so figures come from search snippets plus the ESPN summary API. Search budget ran out before I could price more props. Sun 10/25 1:00 PM ET, M&T Bank Stadium, CBS. Records: BAL 4-2, CIN 3-2 (just off a bye).
+1. QBs: Lamar Jackson (left ankle / high sprain) was downgraded to OUT Saturday, third straight miss (ESPN, Ravens.com, Yahoo, Rotowire). Tyler Huntley starts his 3rd straight game: 24/32, 201, 2 TD plus rushing TD in a 30-23 OT win at ATL, then 19/31, 165, 1 TD in a 13-10 loss at CLE; 429 yds, 3 TD, 0 INT, 6.0 Y/A, 35th of 43 in air yards per attempt (NGS). Huntley is 6-8 as a fill-in starter; BAL is 0-3 vs CIN since 2019 without Jackson (Jackson is 11-2 vs CIN). Joe Burrow (CIN): 135/189, 1,361 yds, 11 TD, 3 INT.
+2. Injuries (ESPN, bengals.com): BAL OUT QB Jackson, S Jaylinn Hawkins (knee), EDGE Tavius Robinson (IR, pectoral, team sack leader 3.5), CB T.J. Tampa (IR); DT Broderick Washington questionable. CIN: no game-status concerns, all 53 healthy after the bye; Higgins off the report; IR: TE Hudson, WR Iosivas, LB Bozeman, CB Davis, OT Parker.
+3. Stats (ESPN): CIN 25.6 ppg, 272.2 pass ypg, 82.8 rush ypg; defense 21.8 ppg, 245 pass / 123 rush allowed (23rd vs run). BAL 26.0 ppg (with Jackson), 151.5 rush ypg, 232.7 pass ypg; defense 22.0 ppg, 225.7 pass / 100.5 rush allowed. BAL pass rush win rate 54% (11th) but 4.9% sack rate (23rd), pressure 35.1% (19th); SI says BAL allowed the 5th-most WR yards (1,054).
+4. Scheme: Ravens run-first (Henry 130-534-7, 4.1 ypc) with a less vertical Huntley; Bengals pass-heavy (Chase Brown 71-246, Perine 27-110 split). Hendrickson has the top pressure rate (22.7%) among defenders with 25+ pressures in the early season.
+5. Coaching/ATS: SBD data: CIN has 70% of spread tickets and 82% of handle; Under has 73% of tickets / 66% of handle. Covers leans CIN +2.5 earlier and Under 50.5 (before total dropped).
+6. Situational: CIN rested after a bye; BAL lost 13-10 at CLE as a favorite.
+7. History: Chase averages 7.5 catches / 120.4 yds in 10 career games vs BAL and cleared 77.5 in four straight; Burrow has cleared this passing mark in four straight vs BAL (Rotowire).
+8. Weather (ESPN): 62F, sunny, gusts 5 mph, no impact.
+9. Market: DraftKings CIN -3 (-105) / BAL +3 (-115), ML CIN -148 / BAL +124, total 46.5 (o -105 / u -115). Rotowire: CIN -148 (DK), BAL +140 (BetMGM), CIN -2.5 (bet365), total 46-46.5. CBS/SportsLine CIN -1.5 earlier; Dimers CIN -2.5 (-117). Total opened 52.5 and fell to 46.5-48.5; spread flipped from BAL -3 to CIN -3 (a 6-point swing, 9 with Jackson news).
+9b. Picks: Dimers CIN 61.9%, 24-21; 36 of 47 pundits picked CIN before Jackson was ruled out (Ravens.com); 6 of 7 CBS experts CIN; Covers CIN ML 51-53%; SI Bengals +124; The Banner staff CIN 31-24; NFL.com analysts mostly CIN (25-20 to 28-27); Squawka BAL 27-23 (59% BAL); Athlon BAL 31-23; Bleacher Report and PFT lean BAL; SportsLine model Over 48. Consensus: Cincinnati.
+10. Props found: Burrow pass yds 259.5 (-110, Betting News) / 260.5 (-115, SI); Dimers 269. Henry rush yds o85.5 (-110 DK) / u85.5 (-115 SI); BetMGM 86.5 (-115); he is over 86.5 in 8 of his last 11 (SBD); Dimers 86. Chase rec yds 78.5 (BetMGM, no price seen), SportsLine over 80.5; Chase Brown rush 41.5 (WIN Daily); Higgins ATD +140 (SI). Huntley and Flowers lines not found. Chase/Higgins/Brown not used: no price at 2 books or split backfield.
+Role checks: Burrow, Chase, Higgins all clean; Henry is the unquestioned RB1 with no recent benching, no fumble or benching reports found; Chase Brown shares carries with Perine.
+Projection: CIN 24.5 / BAL 22.5 = 47.0 vs 46.5; no total leg since it conflicts with Burrow over and shows no edge.
+
+Legs considered:
+- Cincinnati Bengals ML: Jackson is out, Baltimore is 0-3 without him vs Cincinnati since 2019, and the Bengals are fully healthy after a bye.
+- J. Burrow o259.5 pass yds: Burrow averages 272 yards, Dimers projects 269, and Baltimore has allowed the fifth-most WR yards; a lead could cut volume.
+- D. Henry o85.5 rush yds: With Huntley under center Baltimore leans on Henry against the league's 23rd-ranked run defense, though he managed only 58 yards last week.
+
+Our bets:
+- straight (lean): D. Henry o85.5 rush yds (-110): Active workhorse: 130 carries / 534 yds (4.1 ypc), 7 TD; no designation. Rush total was 17 for 58 at CLE last week. -> **pending**

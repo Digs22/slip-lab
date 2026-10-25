@@ -35,6 +35,7 @@ STRAIGHT_MAX_FAV = -300  # 2026-10-21: a straight, POTD or Traditional single ne
 MAX_LEG_REUSE = 2  # a leg may appear in at most 2 of a game's 4 plays
 MIN_EDGE = 0.02  # drop legs with less than 2% expected value
 MAX_MODEL_SHIFT = 0.05  # the model may move a leg at most 5 points from the no-vig market (lesson 2026-10-15)
+SINGLE_BOOK_SHIFT = 0.025  # a leg priced at only one book moves at most 2.5 points (lesson 2026-10-24)
 
 SECRETS = ROOT / ".secrets"
 
