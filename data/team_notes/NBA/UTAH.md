@@ -4,8 +4,39 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 - 2026-10-25: 1-1 (lost 103-123 at MEM, beat NO 120-119). Starters George, JJJ, Peterson, Markkanen; Nurkic out to Nov 4. USU adj 112.3/120.9, pace 105.7; 2025-26 DRtg 122.7 (29th). Home +6.5 vs LAL.
+- 2026-10-26: 1-2; lost 132-123 to LAL Sunday (Doncic 52). 2025-26 ORtg 112.8, DRtg 121.9 (28th). Back-to-back vs MEM on Monday, but no travel.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: vs Memphis Grizzlies
+
+Both teams play the second night of a back-to-back; the total projects 246.0 against 237.5, and Utah had no travel. Most likely winner: Over 237.5.
+
+Sources: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), Dimers (game page and best-bets), Bleacher Nation, Pick Dawgz, Predictem, FanDuel Research, Fox Sports/AP preview, SI, CBS, HoopsJunkie, MEM/UTAH team notes. Covers, Action Network and other odds pages were blocked, so prices rest on DK via ESPN plus Dimers/FanDuel/Pick Dawgz snippets.
+Lines (Mon 9 PM ET, Delta Center): DK UTAH -1.5 (-102) / MEM +1.5 (-118); ML UTAH -112 / MEM -108; total 237.5 (o -108 / u -112), opened o -115 / u -105. Pick Dawgz UTAH -1.5 (-105) / MEM +1.5 (-115), 237.5; Dimers and Predictem 238.5. Novig Jazz ML 52c; FanDuel has Utah about 55%.
+Schedule: Memphis won at Sacramento 123-112 on Sunday night (tip 9 PM ET) and flew to Salt Lake City; Utah lost to the Lakers at home Sunday at 5 PM ET (132-123, Doncic 52). Both are on the second night of a back-to-back, but Utah did not travel.
+Records: MEM 3-0 (W 123-103 UTA, W 111-108 at GS, W 123-112 at SAC); UTAH 1-2 (L 103-123 at MEM, W 120-119 NO, L 123-132 LAL). Memphis won the 10/21 opener by 20 in Memphis.
+Injuries (ESPN): MEM Zach Edey out (ankle management), Karim Lopez out (knee bruise); Cedric Coward was questionable with a wrist sprain but played 32 min Sunday. UTAH Jusuf Nurkic out to about Nov 4 and Trey Alexander out. Edey out leaves Post and Boozer at center.
+Usage (2026-27 box scores, 2025-26 where noted): Ty Jerome 35-37% (30 in 3 games: 45, 28, 31 pts), Boozer 22-30%, Keyonte George 26-27%, Markkanen 17-25%, Jaren Jackson Jr. 24-28%, Jerami Grant 17-25%.
+DvP (Legion 2025-26, rank 1 = most allowed): MEM allows G 12th, F 3rd, C 16th. Utah's DvP by position was not found. Forwards Markkanen and Jackson pass the gate on usage and MEM F 3rd, but no 93% alt or two-book prices exist, so no SGP is offered.
+Props seen (Bleacher Nation, no prices): Markkanen 22.5 pts / 6.5 reb, George 19.5 pts / 6.5 ast, Jerome 27.5 pts / 6.5 ast. Dimers model likes Boozer o3.5 reb (Novig 51c). One site per line only, so no prop legs (10/25 lesson).
+Totals (NBA.md formula): pace avg(104.5, 105.7)=105.1; UTAH=avg(112.8, 120.0)x1.051=122.3; MEM=avg(113.4, 121.9)x1.051=123.7; total 246.0 vs DK 237.5 (+8.5), 238.5 elsewhere. Gap is far above the 4-point trigger, so the Over is a total leg.
+Counter-view: Dimers' simulation projects 236 and likes Under 238.5 (54.5%, Polymarket 49c); Predictem has MEM 120-115 (235); fatigue on a back-to-back for both teams can cut pace. Recent totals: MEM/UTA 226, UTA/NO 239, UTA/LAL 255, GS/MEM 219, MEM/SAC 235, so the sample is mixed.
+Defense: Memphis was 26th (DRtg 120.0) and Utah 28th (121.9) in 2025-26; Utah has Nurkic out, Memphis Edey out, so both rim-protection options are thin.
+Experts: Dimers Jazz ML best play (58.3%, 6.4% edge at 52c) and Under 238.5; ESPN predictor UTAH 58.6%; FanDuel Utah about 55%; Predictem MEM +1.5 (-110), 120-115; Pick Dawgz handicapper leans Memphis (favorites covered the last 4 meetings); Tony's Picks says watch Memphis lineups. Consensus: Utah slight favorite, split on the total.
+History: Memphis won 7 of the last 10 meetings and the 10/21 opener 123-103 (Jerome 45 on 17-25). Revenge/home spot plus no travel is the Utah case; Memphis' 3-0 start and Jerome's form is the case against.
+Coaching: Memphis plays fast (104.5 pace) and leans on Jerome's pull-up scoring with Boozer as a rookie rebounder/connector (25/13/6 at GS); Utah runs through Keyonte George (24/9/10 Sunday) and Markkanen with George, Peterson, Markkanen, JJJ in the starting five.
+Chemistry/new additions: Utah added rookie Darryn Peterson and Ace Bailey and Jaren Jackson Jr. (from Memphis); Memphis added rookie Cameron Boozer and Jerami Grant.
+Risk: two tired teams can slow the pace and cool shooting; Memphis' bench scoring is thin without Edey; the Over is a model call, not a market call.
+Single-book caveat: totals and sides are priced at DK with Pick Dawgz/Dimers lines; Utah ML fair .51 averages DK and Novig, so any edge claim is the model's, not a price gap.
+
+Legs considered:
+- Over 237.5: Projection 246.0 (UTAH 122.3 + MEM 123.7) is 8.5 above DK 237.5, with two bottom-6 defenses and 105-pace teams.
+- Utah Jazz ML: Utah was home Sunday while Memphis flew in from Sacramento; ESPN (58.6%) and Dimers (58.3%) both make Utah the better side.
+- Utah Jazz -1.5: Same lean as the ML at a worse number; Memphis is 3-0 with Jerome scoring 45, 28 and 31.
+
+Our bets:
+- straight (lean): Over 237.5 (-108): pending -> **pending**
 
 ### 2026-10-25: vs Los Angeles Lakers (final: LAL 132, UTAH 123)
 

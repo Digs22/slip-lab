@@ -4,8 +4,37 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 - 2026-10-24: Lost opener 106-114 at PHI after PHI erased a 29-point deficit (Mitchell 32/10/3, Harden 16/3/5). Home -10.5 vs BKN; Mitchell o26.5 pts was -105 to -115.
+- 2026-10-26: 1-1 (125-121 over BKN 10/24); home vs MIN on a rest edge, CLE -3.5 (-112), ML -162. CLE ratings 2025-26: ORtg 119.2, DRtg 115.1, pace 99.9.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: vs Minnesota Timberwolves
+
+Minnesota is on a back-to-back at Cleveland, so Cavaliers ML (-162) is the most likely winner. Total projects 232.8 vs 233.5, no real gap.
+
+REST / BACK-TO-BACK: MIN beat TOR 117-94 at Target Center on 10/25 (ESPN) and plays 10/26 at Cleveland, the second night of a back-to-back, with travel. CLE played 10/24 (beat BKN 125-121) and is rested one day. Covers flags the MIN B2B. Tip 7 PM ET at Rocket Arena.
+LINES: ESPN/DraftKings CLE -3.5 (-112) / MIN +3.5 (-108), ML CLE -162 / MIN +136, total 233.5 (o -108 / u -112). VegasInsider consensus identical (MIN +3.5 -108, CLE -162/MIN +136). Other books: CLE ML -155 / MIN +130-133, total 232.5 (-104/+100); Covers CLE ML -150; CLE opened -4.5 and the line has moved toward MIN. Bleacher Nation MIN +3.5 and Under 233.5.
+FAIR: DK ML no-vig CLE 59.3% / MIN 40.7%; Covers model CLE 59%. ESPN predictor MIN 55.7% (favors the road team, discounted: it ignores rest). Polymarket MIN about 52%.
+TOTALS (NBA.md): pace avg(100.5, 99.9)=100.2; MIN 116.2 + CLE 116.6 = 232.8 vs 233.5 (0.7 under); below the 4-point trigger. Ratings are 2025-26 (CLE ORtg 119.2 / DRtg 115.1 from team notes; MIN 116.8 / 113.5); CLE added Harden and Watson, MIN added LaMelo and Kuminga, so both are soft.
+MARGIN: CLE +0.4 neutral, +2.4 with home court, about +3.9 after a B2B adjustment of 1.5, against CLE -3.5 (no edge on the spread).
+INJURIES (ESPN): MIN out Donte DiVincenzo (Achilles). CLE none listed; iHeart/Sportsmole list Khalifa Diop (knee) and Nae'Qwan Tomlin (back) out, both deep reserves.
+FORM: MIN 3-0: 131-106 at MIA, 115-93 at ORL, 117-94 vs TOR (Edwards 26 pts in 28 min, Ball 17/8 ast in 17 min, Gobert 8/13, McDaniels 14, Kuminga 13). Starters played light minutes in blowouts, which softens the B2B. CLE 1-1: L 106-114 at PHI, W 125-121 over BKN (Mitchell 22/5/4, Mobley 20/10, Allen 21/8 on 7-8, Harden 12/8/7 on 1-8).
+USAGE (BBR 2025-26): Ball 32.0% (CHA), Edwards 31.5%, Mitchell 32.2%, Harden 24.0% at CLE, Kuminga 23.4%, Mobley 22.6%.
+DvP (own calc, 2025-26): MIN allows G 14th, F 23rd, C 17th; CLE allows guards 20th, F 10th, C 11th. No qualifier.
+COACHING: Chris Finch's Wolves run 100.5 pace with Gobert in drop; Covers notes Mitchell and Harden can attack the drop. Kenny Atkinson's Cavs run 99.9 and protect the paint. MIN has Edwards and Ball sharing the ball.
+HOME: Rocket Arena; CLE 1-0 at home. Over is 7 of CLE's last 8 at Rocket Arena (per a preview).
+EXPERTS: Covers Cavaliers ML (-150, 59%); Bleacher Nation Timberwolves +3.5 and Under 233.5; Predictem Cavaliers side; TheRx Cavs +2.5 (its own odd line) and Over 223.5; William Hill notes Edwards and Ball are hard to contain. Lean CLE straight up, split on the cover and total.
+PROPS: Bleacher Nation Mitchell 25.5 pts, Harden 16.5 pts (no prices); earlier Mitchell o26.5 -105/-110/-115 at three books was for the BKN game. No current props with 2+ book prices; none listed.
+PICK LOGIC: the rest edge plus home court backs CLE outright; the cover is a coin flip so the ML at -162 (fair 59.3%) is the main read. Under is a small lean only.
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scoreboards, VegasInsider, Covers (via snippet), Bleacher Nation, Predictem, TheRx, iHeart, William Hill, Polymarket, Basketball-Reference 2025-26 ratings (via team notes).
+
+Legs considered:
+- Cleveland Cavaliers ML: Minnesota plays the second night of a back-to-back (beat TOR 117-94 on 10/25) while Cleveland has had a day off at home.
+- Cleveland Cavaliers -3.5: Line moved from CLE -4.5 to -3.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip.
+- Under 233.5: Projection 232.8 vs 233.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home.
+
+Our bets:
+- straight (lean): Cleveland Cavaliers -3.5 (-112): pending -> **pending**
 
 ### 2026-10-24: vs Brooklyn Nets (final: BKN 121, CLE 125)
 

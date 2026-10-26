@@ -13,8 +13,43 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-19: Long-term IL: McClanahan (forearm), Uceta, Lux, Heasley, Melton. The Rays went 5-1 vs CLE in the regular season, and Under 6.5 hit 8 of 11 meetings through ALCS G5.
 - 2026-10-22: Rasmussen is the postseason Game 1 starter (ALDS G1, ALCS G1/G5): 21 IP, 3 ER in October; 26.0% K and 0.91 WHIP in 2026.
 - 2026-10-22: Postseason offense .649 OPS through 9 games; regular-season 19.1% K vs RHP keeps strikeout props against TB low.
+- 2026-10-26: Freddy Peralta (acquired from the Mets at the deadline) is 3.25 ERA with TB, ~4.4 K per home start, 3/6/3 K in the playoffs; TB's bullpen postseason ERA is 3.62 and Kelly/Matz pitched both WS G1 and G2.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: vs Milwaukee Brewers
+
+MIL leads 2-0 and Game 3 is a near coin flip at the Trop (Peralta vs Gasser, total 7). Most likely to win: Tampa Bay Rays +1.5 (-210).
+
+1. Series and schedule: World Series Game 3, Mon 10/26, 8:00 PM ET on FOX at Tropicana Field. MIL leads 2-0 (G1 MIL 3, TB 2; G2 MIL 5, TB 4 after TB led 4-0 early). MIL is 9-1 in the postseason (103-59 regular season, 48-33 road); TB is 98-64 (55-26 home). ESPN, StatsAPI.
+2. Probables (StatsAPI/ESPN, confirmed): Freddy Peralta (TB, RHP) vs Robert Gasser (MIL, LHP). Peralta: 4.42 ERA overall (169 IP, 156 K), 3.25 ERA and 1.01 WHIP in 10 starts with TB (55.1 IP, 43 K), 2-0 and 1.08 ERA in the postseason (3 K in 4.2 IP vs NYY, 6 K in 6.0 vs CLE, 3 K in 5.1 vs CLE on 10/19); ALCS MVP; about 1.45 ERA in 7 starts at the Trop. He is a former Brewer.
+3. Gasser: 3.87 ERA, 1.19 WHIP, 103 K in 109.1 IP, 15 HR; lefties hit .552 OPS against him but righties .765 (13 HR in 74 IP). Postseason 2 starts, 9 IP, 1 ER: 4.0 IP on 56 pitches (SD) and 5.0 IP on 72 pitches (LAD). Last start was 10/14, so 12 days off. Last five starts K: 5, 2, 9, 3, 3.
+4. Strikeout props: Peralta line 4.5 at FanDuel (over -130, under +102), Dimers/Fanatics over -125 (model 63.2%), SportsBookReview/Bettors Insider under +113 (DraftKings). Gasser line 3.5 at FanDuel (over -104, under -122) and BetMGM under -150 (The Lines). I list only the Peralta under because it has two books and my samples (8 of 13 Rays starts at 4 K or fewer) agree. I skipped Gasser: his over is priced at one book only and the under has a 3-of-4 recent hit rate but a 4-of-14 season rate.
+5. Game lines (ESPN/DraftKings): TB -120 / MIL -101 (open TB -121 / MIL +101); run line MIL -1.5 +172 / TB +1.5 -210; total 7 (o-113 / u-107, opened o+102 / u-123). FanDuel: TB -120, MIL +102, run line MIL -1.5 +180 / TB +1.5 -220, total 6.5 with over -152. BetMGM over 7 (+100). BetRivers over 7 -107, MIL -1.5 +175. VSiN shows MIL -101. The total moved toward the over since the open.
+6. No-vig fair: TB ML 52.4% (DK and FD agree), MIL ML 47.6%. TB +1.5 fair 65.3% (64.8% DK, 65.8% FD). Over 7 about 49% (DK 50.6%, BetMGM 47.8%). Peralta under 4.5 fair 46.7% (FanDuel). ESPN predictor has MIL 50.7%; Covers has TB 52% and Over 6.5 at 57%.
+7. Bullpen G1 (10/23): MIL Uribe 15 pitches, Ashby 20, Megill 20; TB Matz 31, Kelly 12, Cleavinger 10, Sulser 4. G2 (10/24): MIL Romero 16, May 12, Hall 11, Uribe 26, Ashby 28 (closed it); Megill did not pitch. TB Rasmussen lasted 3.2 IP (89 pitches), then Booser 13, Seymour 34, Wells 8, Kelly 32, Matz 8. Kelly and Matz worked both games. ESPN box scores.
+8. Rest: Sunday 10/25 was an off day, so Uribe and Ashby (back-to-back) and Kelly and Matz are rested enough for Game 3. Postseason bullpen ERA is 2.03 for MIL and 3.62 for TB (Covers/Rotowire previews), and Ashby has 15.2 scoreless postseason innings. Baker (TB closer) did not appear in G1 or G2 and is fresh.
+9. Lineups: not posted at research time (StatsAPI lineups empty). MLB.com projects TB against the lefty with Diaz at DH, Aranda at 1B, Vilade in RF, Caminero at 3B and Simpson in LF, so more right-handed bats; MIL kept the same lineup in G1 and G2 (Chourio, Bauers, Yelich, Contreras, Turang) so a repeat is likely. Contreras is hitting .395 in the postseason.
+10. Platoon: TB hit .752 OPS vs RHP but only .679 vs LHP (team notes), which Cash will try to fix with right-handed platoon bats against Gasser. MIL was .759 OPS vs RHP with a 22.3% K rate and is left-heavy (Chourio, Bauers, Yelich, Frelick, Mitchell), and StatsAPI shows an .811 OPS allowed to lefties in his Rays split (Mets/Rays splits are mixed in the feed).
+11. Park and roof: Tropicana Field is a fixed-roof dome with turf, so wind, rain and temperature do not matter (ESPN shows 77F). The park plays pitcher-friendly (run index about 94-97, HR roughly neutral; team notes). The one-run profile of this series (3-2, 5-4) fits that.
+12. Coaching: Kevin Cash pulls starters before the third time through (2026 ALCS starts went 12-21 outs) and uses off-day starters in relief. MIL's bullpen is its strength, so a 4 to 5 inning Gasser outing is the expected plan (several previews; his playoff starts were 56 and 72 pitches).
+13. Injuries (ESPN): TB McClanahan, Melton, Uceta, Heasley out and Lux on the 60-day IL with a return date of 10/23, not expected to change the lineup; MIL Priester, Zerpa, Fitzpatrick out. Nothing affects either starter or the key relievers.
+14. Experts: Covers (Rays ML, model 52%), Bettors Insider (Rays ML on Peralta's home record, but its SGP uses MIL ML plus both K unders), SI (Rays ML -120), The Grueling Truth (Rays), The Lines (MIL +102), SportsBookReview (MIL ML and Peralta under +113), Lineups.com (MIL 5, TB 3), VSiN (MIL -101), Dimers model (Peralta over 4.5). Split roughly 4 to 4 on the side.
+15. Series context: MIL series price moved to about -750 after the 2-0 lead (ESPN); Opta had MIL at 61.2% before the series. TB has lost both games in which it led or was close and made several mistakes in G2 (Yahoo/Covers recaps).
+16. Projection: MIL 3.8 runs (Peralta about 5.3 IP at a 4.0 park-adjusted rate, then the TB bullpen), TB 3.3 runs (Gasser about 4.7 IP, then the best bullpen), total 7.1 vs a 7 line. That is under the 4-point trigger for an NBA-style total call, so the Over is a slim lean, not a strong one.
+17. Why TB +1.5 is the most likely leg: the two teams are a coin flip on the moneyline, and each side wins by 2 or more in roughly 35% of coin-flip games, so +1.5 wins roughly 65%, in line with the 65.3% market no-vig. I list it as the safest leg, not an edge.
+18. Limits: WebFetch could not open covers.com, fanduel.com or other betting pages, so prices come from search snippets of FanDuel, DraftKings, BetMGM, BetRivers, Fanatics, The Lines, Bettors Insider and Dimers. Batter props (Chourio RBI +208, Contreras, Caminero) are left out because lineups are not confirmed and I found each at one source.
+Sources: ESPN summary/pickcenter/box scores, MLB StatsAPI (probables, game logs, splits), Covers, FanDuel Research, The Lines, Bettors Insider, Dimers, SportsBookReview, SI, VSiN, Lineups.com, MLB.com, Yahoo Sports, Rotowire, team notes (MIL, TB).
+
+Legs considered:
+- Tampa Bay Rays +1.5: Tampa Bay only loses this if Milwaukee wins by 2 or more, and the game is a near coin flip with a one-run history (G1 3-2, G2 5-4).
+- F. Peralta u4.5 strikeouts: Peralta has 4.4 strikeouts per home start at the Trop, 3 and 6 and 3 in the playoffs, and Cash pulls starters around 15 to 18 outs.
+- Milwaukee Brewers ML: Milwaukee has the deeper bullpen (2.03 postseason ERA) and a left-handed lineup facing Peralta (.811 OPS allowed to lefties in his Rays split), but Peralta is the better starter.
+- Over 7: My projection is 7.1 runs against a 7 line, so this is a coin flip with a push risk and only a slim lean to the over.
+
+Our bets:
+- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **pending**
+- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **pending**
 
 ### 2026-10-24: at Milwaukee Brewers (final: TB 4, MIL 5)
 

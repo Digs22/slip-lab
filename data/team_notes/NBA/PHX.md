@@ -7,8 +7,36 @@
 - 2026-10-21: Mark Williams is out (shoulder) for the opener; C depth is Maluach, Ighodaro and Reath. Kennard joined from LAL.
 - 2026-10-21: DvP (Fantasy Team Advice, rank 30 = most allowed): stingy vs PG (7-8), SG (4-8) and SF (6-11).
 - 2026-10-24: Opened with a 124-83 loss at POR; Mark Williams (shoulder) out, Ighodaro (oblique) and Kennard (knee) day-to-day. -9.5 at home vs GS after Curry news (opened -6.5).
+- 2026-10-26: 1-1 (W 131-122 over GS); at OKC +10.5 (DK), +8.5 to +9.5 elsewhere. OKC on a back-to-back.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: at Oklahoma City Thunder
+
+OKC is on a back-to-back and lost Jalen Williams to a serious left ankle injury Sunday, and 10.5 is the largest number on the board. Most likely winner: Suns +10.5.
+
+Lines: ESPN/DraftKings OKC -10.5 (-108) / PHX +10.5 (-112), ML OKC -410 / PHX +320, total 219.5 (o -105 / u -115). DK opened OKC -9.5, 218.5, ML -380/+300, so it moved toward OKC and Over. FanDuel (FanDuel Research) OKC -8.5, 218.5, ML -375/+300; Pick Dawgz/Bleacher Nation -9.5, 218.5-219.5, ML about -395/+310; Dimers/BetMGM PHX +8.5 (-102). ESPN's DK numbers may be older than FanDuel's, so shop the number.
+Fair prices: DK spread no-vig PHX 50.4%; DK total over 48.9%; ML no-vig PHX 22.9%.
+Totals (NBA.md, BBR 2025-26 via team notes): pace avg 98.25; PHX 109.6 + OKC 114.4 = 224.0 vs 219.5, 4.5 over, which triggers a total leg. Williams's injury (about -2.5) and OKC's defense (96.3 allowed per game) pull it to about 221.5.
+Real 2026-27 totals: OKC games 180 (DEN), 209 (LAC), 220 (SA); PHX games 207 (POR), 253 (GS).
+Rest: OKC played Sunday 10/25 at home (W 108-101 over LAC, 3-0), so this is the second night of a back-to-back; PHX last played Sat 10/24 (W 131-122 over GS, Curry rested), one day of rest.
+Injuries: Jalen Williams left Sunday on a stretcher with a serious left ankle injury (Rotowire/CBS/ClutchPoints: significant, diagnosis pending; ESPN API still shows day-to-day, treat him as out). Cason Wallace (shoulder) and Jaylin Williams (wrist) left the LAC game and are day-to-day; Topic, Oweh, Sorber out. PHX: Mark Williams (shoulder) out, Ighodaro (oblique) day-to-day.
+Form: PHX 1-1 (L 83-124 at POR, W 131-122 over GS), scoring 107.0 and allowing 123.0. OKC 3-0 in the regular season (W 116-104 at SA, W 96-84 DEN, W 108-101 LAC), allowing 96.3.
+Usage 2025-26: SGA 33.4%, Williams 26.2%, Booker 32.2%, Green 31.9%, Brooks 28.6%, Mitchell ~24%. DvP (own calc): OKC PG 16th, SF 21st, C 27th; PHX stingy to PG/SG/SF. No usage qualifier.
+Props: Bleacher Nation lists SGA 31.5 pts / 4.5 reb / 6.5 ast (single source); no 2-book price, so none used.
+Coaching: Mark Daigneault runs a deep rotation and rarely leaves SGA over 34 min in a blowout; Jordan Ott's Suns play slow (97.2).
+History: OKC won the last three meetings by 11.3 on average, including a 119-84 win on 4/19/2026; OKC is 0-3 ATS at 17.5+ in Dec 2025 but this number is smaller.
+Experts: Dimers Suns +8.5 (54.8% model, 4.3% edge, BetMGM -102) and projects OKC 114-106; Picks and Parlays PHX +12.5 or better and Under; iHeart model OKC 120-97 and Under; FanDuel numberFire OKC 71.1%; Bleacher Nation OKC cover; ESPN BPI OKC 80.7%.
+Market read: the line rose a point at DK after opening, but the best number for the dog is DK 10.5; the news of Williams's injury may not be fully priced in at books that updated early.
+Chemistry: OKC lost Dort, Joe and Wiggins this summer and now Williams, leaving SGA with more volume; PHX is thin at center (Williams out).
+
+Legs considered:
+- Phoenix Suns +10.5: OKC played Sunday and lost Jalen Williams (stretchered off), and DK's 10.5 is 1-2 points above FanDuel and Pick Dawgz.
+- Over 219.5: Projection 224.0 beats 219.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5.
+- Phoenix Suns ML: Long shot; the +320 matches market fair after Williams's injury and the back-to-back, so no edge.
+
+Our bets:
+- straight (lean): Over 219.5 (-105): pending -> **pending**
 
 ### 2026-10-24: vs Golden State Warriors (final: GS 122, PHX 131)
 

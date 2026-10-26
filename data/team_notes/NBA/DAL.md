@@ -6,8 +6,36 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-23: Head coach Dusty May. Out to open 2026-27: Lively (foot), Aldama (knee), C. Martin (thumb), Biberovic (heel). BBR 2025-26: ORtg 111.2, DRtg 116.5, pace 101.7.
 - 2026-10-23: Usage 2025-26: Flagg 26.9% (21.0 ppg, 25+ only 30%). Own DvP calc: G 11th, F 3rd, C 3rd (soft on forwards and bigs).
 - 2026-10-24: Flagg left the 10/23 IND win with a left shoulder injury (14/5/6 in 17 min) and is listed Out for SA; Kyrie plays 24-25 min per game early. DK has DAL +12.5 at home.
+- 2026-10-26: At MIA +8.5 (DK); Flagg questionable (mild left shoulder sprain), Marshall out (illness), Kyrie back. Model total 235.3 vs 238.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: at Miami Heat
+
+Miami is 0-3 and giving 8.5 to a Dallas team missing Marshall and likely Flagg, but the number already reflects that. Most likely winner: Dallas Mavericks +8.5.
+
+Lines: ESPN/DraftKings MIA -8.5 (-105) / DAL +8.5 (-115), ML MIA -325 / DAL +260, total 238.5 (o -115 / u -105). DK opened MIA -7.5, 235.5, ML -290/+235, so it moved 1 point on the side and 3 on the total toward Miami/Over. FanDuel (FanDuel Research) MIA -8.5, total 236.5, ML -319/+260. Predictem DAL +8.5 (-110). Dimers DAL +7.5 (+107).
+Fair prices: DK spread no-vig DAL 51.1%; DK total under 48.9%; ML no-vig DAL 26.7% (FanDuel agrees at +260).
+Totals (NBA.md, BBR 2025-26 via team notes): pace avg 102.55; DAL 115.7 + MIA 119.6 = 235.3 vs 238.5, 3.2 under, below the 4-point trigger but a small Under lean; both ratings predate the Giannis trade and Flagg, and Flagg's absence trims Dallas.
+Real 2026-27 totals so far: MIA games 237 (MIN), 239 (DET), 225 (CHA); DAL games 238 (HOU), 226 (IND), 228 (SA).
+Injuries: Flagg questionable (mild left shoulder sprain, MRI Saturday; ESPN API still lists Out; SI/Yardbarker expect game-time decision); Naji Marshall out (illness, Dallas Sports Journal); Aldama, Biberovic, Lively out; Caleb Martin doubtful (thumb). Kyrie Irving off the report after sitting vs SA for knee management. Miami has no one listed.
+Schedule: no back-to-back for either team. DAL last played Sat 10/24 (L 106-122 SA), MIA Sat 10/24 (L 110-115 at CHA).
+Form: MIA is 0-3 (L 106-131 MIN, L 111-128 DET, L 110-115 CHA); Giannis scored 35, 36, then 14 at Charlotte. DAL is 1-2 (L 110-128 at HOU, W 121-105 at IND, L 106-122 SA).
+Usage 2025-26 (BBR/team notes): Giannis 37.0%, Adebayo 25.0%, Flagg 26.9%. DvP (own calc, rank 1 = most allowed): DAL F 3rd, C 3rd, G 11th; MIA G 3rd, F 19th, C 23rd.
+Props: Giannis o26.5 points (BetMGM -115) appeared only in an undated Action Network article; StatSniper says props are not posted yet. No prop has 2 books, so none is listed (10/25 lesson).
+Coaching: Spoelstra plays the league's fastest pace (103.4); Dusty May uses a short rotation with Kyrie playing 24-25 min early.
+Experts: Dimers DAL +7.5 (54% model, 5.7% edge); Predictem DAL +8.5; iHeart model DAL 124-108 (DAL ML/ATS, Under 234); FanDuel numberFire MIA 81.2%; Picks and Parlays MIA; ESPN BPI MIA 69.7%.
+Home/history: first meeting of the season (series starts 10/26; rematch 12/30).
+Market read: public is on Miami's star power while MIA allows 124.7 per game; DK moving the line up a point suggests respected money on Miami, so the dog's value is only the +8.5 key number.
+Chemistry: Miami is integrating Giannis and Mitchell (point guard) after trading away Herro and depth; defense is the problem.
+
+Legs considered:
+- Dallas Mavericks +8.5: Miami is 0-3 allowing 124.7 per game, Kyrie is back, and Dimers/Predictem both take Dallas as the dog.
+- Under 238.5: Projection 235.3 (DAL 115.7 + MIA 119.6) is 3.2 under DK 238.5, and Flagg/Marshall absences cost Dallas points; FanDuel is 236.5.
+- Dallas Mavericks ML: Live dog only if Flagg plays; DK and FanDuel both +260, so the price is fair rather than an edge.
+
+Our bets:
+- straight (lean): Under 238.5 (-105): pending -> **pending**
 
 ### 2026-10-24: vs San Antonio Spurs (final: SA 122, DAL 106)
 

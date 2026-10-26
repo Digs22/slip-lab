@@ -510,6 +510,24 @@
   "league": "NCAAF",
   "start": "2026-10-24T21:00Z"
  },
+ "401871071": {
+  "away": "DEL",
+  "away_name": "Delaware Blue Hens",
+  "date": "2026-10-27",
+  "home": "WKU",
+  "home_name": "Western Kentucky Hilltoppers",
+  "league": "NCAAF",
+  "start": "2026-10-27T23:00Z"
+ },
+ "401871072": {
+  "away": "SHSU",
+  "away_name": "Sam Houston Bearkats",
+  "date": "2026-10-28",
+  "home": "MOST",
+  "home_name": "Missouri State Bears",
+  "league": "NCAAF",
+  "start": "2026-10-28T00:00Z"
+ },
  "401871093": {
   "away": "ODU",
   "away_name": "Old Dominion Monarchs",
@@ -851,6 +869,15 @@
   "home_name": "Tampa Bay Rays",
   "league": "MLB",
   "start": "2026-10-27T00:00Z"
+ },
+ "401908045": {
+  "away": "MIL",
+  "away_name": "Milwaukee Brewers",
+  "date": "2026-10-28",
+  "home": "TB",
+  "home_name": "Tampa Bay Rays",
+  "league": "MLB",
+  "start": "2026-10-28T00:00Z"
  },
  "401909088": {
   "away": "BOS",
@@ -1319,6 +1346,42 @@
   "home_name": "Denver Nuggets",
   "league": "NBA",
   "start": "2026-10-27T02:00Z"
+ },
+ "401909877": {
+  "away": "BKN",
+  "away_name": "Brooklyn Nets",
+  "date": "2026-10-27",
+  "home": "BOS",
+  "home_name": "Boston Celtics",
+  "league": "NBA",
+  "start": "2026-10-27T23:30Z"
+ },
+ "401909878": {
+  "away": "DET",
+  "away_name": "Detroit Pistons",
+  "date": "2026-10-28",
+  "home": "NY",
+  "home_name": "New York Knicks",
+  "league": "NBA",
+  "start": "2026-10-28T00:00Z"
+ },
+ "401909879": {
+  "away": "SAC",
+  "away_name": "Sacramento Kings",
+  "date": "2026-10-28",
+  "home": "SA",
+  "home_name": "San Antonio Spurs",
+  "league": "NBA",
+  "start": "2026-10-28T00:00Z"
+ },
+ "401909880": {
+  "away": "POR",
+  "away_name": "Portland Trail Blazers",
+  "date": "2026-10-28",
+  "home": "LAL",
+  "home_name": "Los Angeles Lakers",
+  "league": "NBA",
+  "start": "2026-10-28T03:00Z"
  },
  "401915392": {
   "away": "ATM",

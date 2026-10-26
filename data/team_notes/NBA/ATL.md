@@ -7,8 +7,41 @@
 - 2026-10-21: Jalen Johnson cleared 6+ rebounds in 93% of 2025-26 games; Gueye (foot) is out to about Nov 20 and Veesaar (ACL) is out for the season.
 - 2026-10-21: DvP 2025-26 (own ESPN-box FanDuel calc; rank 1 = most allowed): G 16th, F 12th, C 14th.
 - 2026-10-24: 2-0 start (132-125 at ORL, 128-81 at CHA on 10/23); Dyson Daniels, NAW and J. Johnson share the load. Hawks are -1.5 at home vs HOU on 10/24.
+- 2026-10-26: Lost 121-114 at HOU 10/24 (J. Johnson 26/9/16); 2-1. 2025-26 ratings ORtg 116.6, DRtg 114.2 (HoopsJunkie).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: at Houston Rockets
+
+Houston is a 5.5-point home favorite after beating Atlanta 121-114 on Saturday, and the total projects 233.4 against 229.5. Most likely winner: Houston ML (-205).
+
+Sources: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), FanDuel Research, Dimers, Bleacher Nation, Capper's Picks, Ultimate Capper, iHeart, NBC Sports/CBS/Rotowire, SI, Fubo, HoopsJunkie, HOU/ATL team notes. Covers, Action Network, VegasInsider and oddsshark pages were blocked here, so prices rest on DraftKings via ESPN plus FanDuel and Dimers snippets.
+Lines (Mon 8:30 PM ET, Toyota Center): DK HOU -5.5 (-105) / ATL +5.5 (-115), opened -5.5 -110/-110; ML HOU -205 / ATL +170 (opened -218/+180); total 229.5 -110/-110. FanDuel HOU -5.5, total 230.5, ML -205/+172. Dimers market -5 and 228.5; Capper's 229.5. Total is 1 point higher at FanDuel than DK.
+Schedule: HOU played Fri 10/23 (at SA) and Sat 10/24 (at ATL); ATL played Fri at CHA and Sat. Tonight both have a day of rest, so there is no back-to-back (the Saturday game was the second night for both).
+Saturday result: HOU 121, ATL 114. Jalen Johnson had 26/9/16, Durant 22, Sengun 17/10/7, Amen 17/11/6. Houston has won the last 3 meetings by an average of 15.7 (Capper's). Series now HOU 1-0 with this the second of two.
+Records: HOU 3-0 (beat DAL 128-110, SA 114-110, ATL 121-114); ATL 2-1 (won 132-125 at ORL, 128-81 at CHA).
+Injuries (ESPN): HOU Steven Adams out (calf, rest), Marcus Smart day-to-day (forearm), Fred VanVleet not listed after sitting Saturday for the back-to-back (NBC Sports, CBS); Udoka rests VanVleet on one end of early back-to-backs. ATL Gueye (foot) and Veesaar (knee) out. Expected starters: HOU Smart/Thompson/Durant/Smith/Sengun; ATL Daniels/McCollum/NAW/J. Johnson/Okongwu.
+Usage (2025-26 plus 2026-27 box scores): Durant 27.4%, J. Johnson 27.0% (27-34% this year), McCollum 26.9%, Sengun ~25% (23-33% this year), NAW 23.9% (22-30% this year).
+DvP (Legion/own ESPN calc, rank 1 = most allowed): HOU allows G 30th, F 26th, C 10th; ATL allows G 16th, F 12th, C 14th. None of the four 24%+ players faces a bottom-10 spot, so no usage SGP qualifies.
+Props seen (Bleacher Nation, no prices): Durant 23.5 pts, Sengun 20.5 pts / 4.5 ast, J. Johnson 21.5 pts / 9.5 reb / 7.5 ast; Covers on Saturday had Johnson ast 5.5 -185 and Durant PRA 34.5. None priced at 2+ books for tonight, so no prop legs (10/25 lesson).
+Totals (NBA.md formula): pace avg(100.4, 101.7)=101.05; HOU=avg(118.5, 114.2)x1.0105=117.6; ATL=avg(116.6, 112.7)x1.0105=115.8; total 233.4 vs DK 229.5 (+3.9) and FanDuel 230.5 (+2.9). Early 2026-27 possessions run about 101-104 for both, which supports the faster read.
+Counter-view on the total: Dimers projects 227 (HOU 116, ATL 111), RAW CHILI likes Under 230.5 (-115, 53.5%), Picks and Parlays Under 226.5; iHeart model has HOU 123-110 (233). Total leg is therefore a small Over, not a strong one.
+Score model: HOU +1.7 neutral plus about 2 for home court is Houston by about 3.7, inside the 5.5 spread, so Atlanta +5.5 has a small cushion; the ML is where the models agree (numberFire HOU 68.1%, ESPN 56.7%).
+Coaching: Udoka's Rockets defend with size and crash the offensive glass; Snyder's ATL plays fast (101.7 pace, top-10), with Jalen Johnson as the hub after Trae Young and Kuminga left.
+Home field: Houston won in Atlanta Saturday and now returns to Toyota Center; Houston went 18-31 ATS as a 5.5+ favorite in 2025-26 (Bleacher Nation, iHeart 19-30), which is why the spread is not the pick.
+Experts: FanDuel/numberFire HOU 68.1%; Ultimate Capper Rockets -5; iHeart HOU 123-110; Dimers HOU 116-111 (-5, total 227); Picks and Parlays ATL +7.5 and Under 226.5; RAW CHILI Under 230.5. Consensus: Houston to win, split on cover and total.
+Ratings (HoopsJunkie 2025-26): HOU ORtg 118.5 (9th), DRtg 112.7 (4th); ATL ORtg 116.6 (13th), DRtg 114.2 (T-9th).
+Chemistry: Houston kept Durant, Sengun, Amen and Smith and added Smart/Bogdanovic depth; Atlanta rebuilt its guard line around McCollum, Daniels, NAW and rookie Flemings.
+Risk: if VanVleet sits again and Smart is out, Houston loses its two guards and ATL +5.5 gets live; a late scratch of Smart is the swing factor for the ML.
+Single-book caveat: HOU ML has DK and FanDuel prices (2 books); ATL +5.5 and the Over rest on DK with Dimers/Capper's lines only, so no edge is claimed beyond the no-vig fair.
+
+Legs considered:
+- Houston Rockets ML: Houston won Saturday's meeting 121-114 in Atlanta and every model (numberFire 68%, ESPN 57%, iHeart, Dimers) has Houston, with Smart day-to-day.
+- Over 229.5: Method projection 233.4 (HOU 117.6 + ATL 115.8) beats DK 229.5 and FanDuel 230.5, and Saturday's game went 235.
+- Atlanta Hawks +5.5: Method score has Houston by about 3.7, and Houston was 18-31 ATS as a 5.5-plus favorite last season.
+
+Our bets:
+- straight (lean): Over 229.5 (-110): pending -> **pending**
 
 ### 2026-10-24: vs Houston Rockets (final: HOU 121, ATL 114)
 

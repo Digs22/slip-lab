@@ -1,0 +1,66 @@
+{
+ "summary": "Boston is -14.5 with the slowest pace in the league; Bulls +14.5 is the most likely winner and the total projects 229.1 vs 232.5. No usage SGP.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Chicago Bulls +14.5",
+   "game": "Chicago Bulls @ Boston Celtics",
+   "market": "spread",
+   "team": "CHI",
+   "side": null,
+   "line": 14.5,
+   "odds": -112,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.504,
+   "books": 5,
+   "signals": {
+    "matchup": 0.56,
+    "pace": 0.55,
+    "coaching": 0.52,
+    "experts": 0.57,
+    "home": 0.42,
+    "injuries": 0.46
+   },
+   "note": "A 14.5 cushion against a Boston team that is 29th in pace, has failed to cover big numbers, and won its opener only 107-103."
+  },
+  {
+   "desc": "Under 232.5",
+   "game": "Chicago Bulls @ Boston Celtics",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 232.5,
+   "odds": -112,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.504,
+   "books": 6,
+   "signals": {
+    "totals_model": 0.58,
+    "pace": 0.56,
+    "experts": 0.55,
+    "recent_form": 0.46
+   },
+   "note": "Projection 229.1 is 3.4 under DK (4.4 under the 233.5 at FanDuel and Bleacher Report); Boston's pace is the slowest in the league."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Only Tatum (30.0% usage) clears 24% against a bottom-10 DvP (CHI allows F 6th, G 5th, C 5th in 2025-26). Bulls players (Powell 27.2%, Giddey 24.4%) face BOS G 27th, F 30th, C 25th and fail.",
+  "note": "No Tatum points, rebounds or assists line was found with a price at 2+ books, so no real-lines SGP exists; he is also the primary handler with 26+ points in only 2 of 16 games in 2025-26."
+ },
+ "totals_projection": {
+  "possessions": 98.65,
+  "BOS": 117.8,
+  "CHI": 111.3,
+  "total": 229.1,
+  "line": 232.5,
+  "math": "pace avg(94.8 BOS, 102.5 CHI)=98.65; BOS avg(120.8 ORtg, 118.1 CHI DRtg)=119.45*.9865=117.8; CHI avg(113.0, 112.7 BOS DRtg)=112.85*.9865=111.3; sum 229.1 (2025-26 BBR; BOS ORtg had Jaylen Brown, now PHI)"
+ },
+ "research": "REST: BOS played 10/23 (beat NY 107-103) and has two days off; CHI played 10/24 (lost 124-120 to WSH) and has one day of rest. No back-to-back for either. Tip 7:30 PM ET at TD Garden. (ESPN scoreboard)\nLINES: ESPN/DraftKings BOS -14.5 (-108) / CHI +14.5 (-112), ML BOS -750 / CHI +525, total 232.5 (o -108 / u -112). FanDuel BOS -13.5, 233.5, ML -820/+570; Bleacher Report -13.5, 233.5, BOS -770; Capper's Picks BOS -14.5, ML -739/+520; Pick Dawgz ML -850/+575; TheRx CHI +14.5 (-110), 233.5; Sports Mole total 232.5. Number ranges -13.5 to -14.5, total 232.5 to 233.5.\nFAIR: DK no-vig BOS 86.5% / CHI 13.5% on the ML; spread is a coin flip (CHI +14.5 about 50.4%). ESPN predictor BOS 84.4%; numberFire BOS 83.3%. Dimers: Bulls +13.5 (-105), 56.5%, a 5.3% edge. BOS ML is shorter than -300 so it is not a straight.\nTOTALS (NBA.md): pace avg(94.8 BOS, 102.5 CHI)=98.65; BOS 117.8 + CHI 111.3 = 229.1 vs 232.5 (3.4 under) and 233.5 (4.4 under). Caveats: BOS lost Jaylen Brown (36.2% usage) and added Paul George and Robinson; CHI has a new coach and rotation. Brief rule: gap near 4 plus a slow-pace team gives the Under leg.\nMARGIN: BOS +6.5 neutral from ratings, about +8.5 with home court, versus -14.5; even with Boston's offense upgrade the market is 5-6 points ahead of the ratings. Predictem projects BOS 118-CHI 109.\nINJURIES (ESPN API Oct 26): BOS Devin Carter out (mononucleosis, several weeks). CHI Nic Claxton out (hamstring, about Nov 4); Patrick Williams (groin/adductor) and Noa Essengue (head contusion) day-to-day on ESPN (Fubo/Sportskeeda questionable, ESPN game page out). Without Claxton the Bulls' interior defense is thin.\nFORM: BOS 1-1: L 113-121 at DET, W 107-103 over NY (George 38 in the opener, Tatum 13/4/11 on 6-23). CHI 1-2: L 92-135 at TOR, W 132-125 at MIL, L 120-124 vs WSH (Wilson 30/14 in 38 min, Buzelis 21/5, Powell 18, Giddey 9/8/10). CHI allowed 135, 125 and 124 and has trailed big in each game (FreeTips). (ESPN boxes)\nUSAGE (BBR 2025-26): Tatum 30.0% (16 g post-Achilles), Powell 27.2% (MIA), Giddey 24.4%, George 23.3% (PHI), White 22.0%, Buzelis 22.8%.\nDvP (own calc 2025-26, rank 1 = most allowed): BOS allows G 27th, F 30th, C 25th (top defense); CHI allows G 5th, F 6th, C 5th. Only Tatum qualifies; no priced props.\nCOACHING: Mazzulla's Celtics had the slowest pace in 2025-26 (95.6; BBR 94.8) and rank 29th again (Predictem); they were 49-33 ATS last year vs CHI 38-44 (Bleacher Nation). Tiago Splitter's Bulls play fast (102.5) and start Giddey, Powell, Buzelis, Wilson, Smith.\nHOME: TD Garden; Boston 1-0 at home. Pick Dawgz notes BOS failed to cover 4 of its last 5 as a favorite; RAW CHILI notes the total has not been covered (Over) in BOS's last six home games.\nEXPERTS: Predictem Bulls +14.5 (would not play below +12.5; BOS 118-109); Dimers Bulls +13.5 56.5%; FreeTips Celtics -14.5 and Over 233.5; RAW CHILI Under 233.5; Pick Dawgz leans Under; Picks and Parlays Celtics win. Consensus: Boston wins, but the number is large and the Under is popular.\nPUBLIC/MOVEMENT: Boston spread sits 13.5 to 14.5 across books; no opening-line history found.\nPROPS: Sports Mole suggests Caleb Wilson o17.5 points (no price, one source); no Tatum or George lines found. No props listed per the 10/25 rule.\nPICK LOGIC: large road dog with fast pace against the slowest team, plus the model Under. Do not pair a Bulls scoring Over with this script.\nSOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scoreboards, FanDuel Research, Bleacher Report, Capper's Picks, Pick Dawgz, Predictem, TheRx, Dimers, FreeTips, RAW CHILI, Sports Mole, Fubo, Sportskeeda, Basketball-Reference 2025-26 ratings (via team notes)."
+}

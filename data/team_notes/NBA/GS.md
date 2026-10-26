@@ -8,8 +8,41 @@
 - 2026-10-21: DvP (Rotogrinders FD, rank 1 = most allowed): PG 5th (47.78), SG 25th (37.22). Fantasy Team Advice has GS 20th of 30 vs PG.
 - 2026-10-23: Curry played only 21 min in the 127-105 opening loss at LAL; Porzingis (illness), Moody, Butler still out for 10/23.
 - 2026-10-24: Curry said he would 'probably' not play the first back-to-back (at PHX 10/24, ESPN Slater); Podziemski also out. Butler, Porzingis, Moody, Bassey out.
+- 2026-10-26: 0-3 start; Curry, Draymond, Horford, Podziemski cleared for DEN. Butler, Porzingis, Moody out; Curry 21-30 min so far. 2025-26 ORtg 114.3, DRtg 115.6.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: at Denver Nuggets
+
+Curry, Draymond, Horford and Podziemski are cleared, Golden State is 0-3 and rested, and Denver is short Cam Johnson. Most likely winner: Warriors +7.5.
+
+Sources: ESPN summary API (DraftKings pickcenter, injuries, predictor, box scores), FanDuel Research, Dimers, Bleacher Nation, Pick Dawgz, Predictem, iHeart, SI/Yahoo/HEAVY injury reports, Hoopshype, HoopsJunkie, GS/DEN team notes. Covers and Action Network pages were blocked; prices rest on DK via ESPN plus FanDuel, Pick Dawgz and Dimers snippets.
+Lines (Mon 10 PM ET, Ball Arena): DK DEN -7.5 (-115) / GS +7.5 (-105), opened -7.5 -110/-110; ML DEN -305 / GS +245 (opened -290/+235); total 234.5 -110/-110, opened 235.5. FanDuel DEN -7.5, 234.5, ML -270/+220. Pick Dawgz DEN -7.5 (-115) and u234.5 (-115). Dimers shows 5.5 and 231.5 (likely an older or different book). Predictem 233.5.
+Curry: ESPN's Slater says Curry, Draymond Green and Al Horford are cleared to play Monday (Hoopshype headline: Curry set to return). Curry played 30 min Friday vs MEM (24 pts) and sat Saturday at PHX on the back-to-back, so he has two days rest. Podziemski also cleared; Brandon Williams (back) and Bassey (knee) probable; Gui Santos questionable (knee).
+Golden State out: Porzingis (illness), Moody (knee), Butler (knee). The Warriors are 0-3 in the regular season (L at LAL 127-105, L vs MEM 111-108, L at PHX 131-122) with a 23.5 ppg Curry and rookie Yaxel Lendeborg (26/9/5 Saturday) the other bright spot.
+Denver injuries: Cam Johnson (ankle) and Alpha Diallo (wrist) day-to-day and doubtful per ESPN; Spencer Jones (hamstring) and Strawther (knee, six weeks) out. Jokic and Murray are healthy: 35/15/10 and 42 in the 141-135 overtime win over New Orleans on Saturday (44 and 43 min).
+Schedule: Denver played Saturday (OT, heavy minutes) and has two days rest; Golden State last played Saturday night at PHX and has the same rest, so no back-to-back for either. Denver 1-1 (L 84-96 at OKC, W 141-135 NO).
+Usage (2025-26 plus early 2026-27): Curry 32.5%, Porzingis 28.3% (out), Melton 25.4% (27% Saturday), Jokic ~28% this year, Murray 21-27%, Lendeborg ~25% rookie.
+DvP (Rotogrinders FD 2025-26, rank 1 = most allowed): GS allows PG 5th, SG 25th; Denver's by position not found. Murray is the only qualifier found (PG vs GS 5th), but no priced props.
+Props seen (Bleacher Nation, no prices): Jokic 26.5 pts / 12.5 reb / 9.5 ast, Curry 24.5 pts / 3.5 reb / 4.5 ast; Tony's Picks has Jokic o26.5 pts. No second book or prices, so no prop legs; Curry's minutes (21-30) are a limiter after the ankle sprain.
+Totals (NBA.md formula): pace avg(99.0, 99.5)=99.25; DEN=avg(122.7, 115.6)x0.9925=118.3; GS=avg(114.3, 117.5)x0.9925=115.0; total 233.3 vs DK/FanDuel 234.5 (-1.2), under the 4-point trigger, so the Under is a lean, not a model call.
+Totals context: iHeart projects 231.3, Dimers 231.5 (GS 112, DEN 118); Bleacher Nation says combined scoring ran above this number in recent seasons; Picks and Parlays says Over 230.5 only if GS gets more of its rotation back. Denver's OKC game was 96-84, but the NO game went 141-135 in OT.
+Score model: DEN +3.3 neutral (118.3 vs 115.0) plus about 2 for home court is Denver by about 5.3, 2.2 inside 7.5; Dimers has DEN 68.1% and still flags GS +7.5 (52.8%, 4.3% edge).
+Coaching: Kerr is managing Curry's minutes (21, 26, 23, 30 min) and has used Ike/Bassey/Horford at center against Jokic; Denver rode Jokic for 44 minutes in close games and leans on Murray.
+Experts: Bleacher Nation GS +7.5 (Warriors weak ATS as 7.5-pt dogs noted); Predictem GS +7.5 and total 233.5; Dimers GS +7.5; iHeart GS 120-111 and GS ML +205 with Under 234.5; Pick Dawgz prefers Denver; Picks and Parlays DEN -9.5 only if GS stays short. Consensus: take the points, lean Under.
+Ratings (HoopsJunkie 2025-26): DEN ORtg 122.7 (1st), DRtg 117.5 (21st); GS ORtg 114.3 (T-20th), DRtg 115.6 (17th); Denver went 54-28 with a 99.5 pace.
+Home field: Ball Arena altitude favors the Nuggets and GS has lost 3 straight; but a rested Curry and a 0-3 team getting 7.5 points is the market's overreaction spot.
+Chemistry: Golden State is still without Butler and Porzingis, so the lineup (Curry, Podz, Green, Lendeborg, Horford/Ike) has little time together; Denver lost Cam Johnson's size and relies on Braun, Gordon, DeRozan, Brazile.
+Risk: the Warriors have lost three straight and Curry could be limited to 24-26 minutes; Denver's offense (122.7 ORtg) can win by 12 if Jokic gets 25-plus shots.
+Single-book caveat: DK is the only price with both sides; FanDuel and Pick Dawgz match the number, so GS +7.5 fair (.489) is DK's no-vig, not a multi-book edge.
+
+Legs considered:
+- Golden State Warriors +7.5: Method score has Denver by about 5.3, Curry is cleared after two rest days, and Dimers, Bleacher Nation and Predictem all take the points.
+- Under 234.5: Projection 233.3 sits just under 234.5 and both teams play near 99 possessions; iHeart projects 231.3 and Dimers 231.5.
+- Golden State Warriors ML: Longshot only: iHeart's model picks Golden State outright, but ESPN gives them 24.5% and FanDuel 30%.
+
+Our bets:
+- straight (lean): Golden State Warriors +7.5 (-105): pending -> **pending**
 
 ### 2026-10-24: at Phoenix Suns (final: GS 122, PHX 131)
 

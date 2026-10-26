@@ -8,8 +8,36 @@
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 6th, F 10th, C 28th.
 - 2026-10-23: Opener at WSH: Herro 24/2/9 on 21 FGA as the top option; Jaquez 22; Rollins 24 min. Herro scored 24+ in only 33% of 2025-26 games.
 - 2026-10-24: 0-2 (L 116-128 WSH, L 125-132 CHI); Herro 24 and 34 pts, 9 of 21 from three. Third game in four nights at PHI as a 12.5-point dog; model total 228.1.
+- 2026-10-26: 0-3, allowing 129.0 per game; hosts IND +4.5 (+140), total 240.5 vs model 229.3 (real games have run 243-257).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: vs Indiana Pacers
+
+Indiana is a back-to-back road favorite with Zubac out, but Milwaukee is 0-3 allowing 129. Most likely winner: Pacers ML -166; total projects 229.3 vs 240.5.
+
+Lines: ESPN/DraftKings IND -4.5 (-108) / MIL +4.5 (-112), ML IND -166 / MIL +140, total 240.5 (o -108 / u -112). DK opened IND -4.5, ML -175/+145, total 239.5. FanDuel (via FanDuel Research/Bleacher Nation) IND -4.5, total 239.5, ML -178/+150; Bleacher Nation IND ML -174; Dimers IND -3.5, ML -150.
+Fair prices: ML no-vig IND about 60.0% (DK 60.0%, FanDuel 61.6%); DK spread IND 49.6%; DK total under 50.4%.
+Totals (NBA.md, BBR 2025-26 via team notes): pace avg 99.3; IND 114.3 + MIL 115.0 = 229.3 vs 240.5, 11.2 under. Haliburton's return (IND 2025-26 ratings were without him) lifts it to about 231, still 9.5 under. Caveat: 2026-27 games have run hot (MIL games 244, 257, 243; IND games 243, 226, 245), the 10/25 IND/BKN Under lost, so the total leg is sized down.
+Rest: Indiana played Sunday 10/25 (W 136-109 at BKN, 6 PM ET) so this is the second night of a back-to-back and a road trip leg; Milwaukee last played Sat 10/24 (L 116-127 at PHI), one day of rest, third game in four nights ended Saturday.
+Injuries: IND Ivica Zubac (left ankle sprain, X-rays negative, left the arena on crutches; NBC Sports/HoopsHype say unlikely to play, ESPN day-to-day), McConnell (hamstring), Sheppard (knee), Furphy (ACL) out; Nesmith reported available. MIL: nothing listed (Fox Sports 1070/Pick Dawgz).
+Form: MIL 0-3 (L 116-128 WSH, L 125-132 CHI, L 116-127 PHI), allowing 129.0 per game. IND 2-1 (W 123-120 NO, L 105-121 DAL, W 136-109 BKN), averaging 121.3.
+Haliburton: 24 pts and 10 ast at BKN, 21.7 pts and 9.7 ast through three games and said he expects to play Monday (NBC Sports/Yardbarker). Siakam 24.7 ppg; Herro 23.7 ppg, 5.3 apg.
+Usage 2025-26 (BBR/team notes): Siakam 30.1%, Toppin 24.8%, Nembhard 23.6%, Herro 24.7%, Rollins 24.2%. DvP (own calc, rank 1 = most allowed): MIL G 6th, F 10th, C 28th; IND G 4th, F 14th, C 16th.
+Props: none priced at 2+ books; Bleacher Nation IND board only (Siakam 23.5 pts, Haliburton 9.5 ast), not used per the 10/25 lesson.
+Coaching: Carlisle's Pacers play fast but are thin at center without Zubac; Milwaukee is slow (97.6) with Herro as the first option after the Giannis trade.
+History: MIL won the 10/16 preseason game 128-127 OT in Indy. More meetings: 1/10, 1/14, 3/21 (ESPN schedule).
+Experts: Bleacher Nation IND -4.5 and the Over 239.5; Fox model (iHeart) IND 131-112 and Over; Dimers IND ML (66.4%, 6.8% edge at 60c); Pick Dawgz/Picks and Parlays MIL +2.5 and Under 229.5 on the back-to-back; FanDuel numberFire MIL 66.9% (odd outlier); ESPN BPI IND 64.1%.
+Market read: books agree on 4.5; public leans Indiana with the best-record narrative, but the back-to-back and Zubac absence argue against laying points. The ML is the cleaner way to take the better team.
+Chemistry: MIL is 0-3 with the new Herro/Rollins core and a bottom defense; IND has Haliburton, Siakam, Nembhard and Zubac (if healthy) as a reshaped lineup.
+
+Legs considered:
+- Indiana Pacers ML: Milwaukee is 0-3 allowing 129 per game and Haliburton is back; Zubac out and the back-to-back keep it near the market.
+- Under 240.5: Projection 229.3 is 11 under; real games so far went 243-257, so I trust the model less than usual and size it down.
+- Indiana Pacers -4.5: Spread needs a five-point win on the second night with Zubac out; only a small lean.
+
+Our bets:
+- straight (lean): Under 240.5 (-112): pending -> **pending**
 
 ### 2026-10-24: at Philadelphia 76ers (final: MIL 116, PHI 127)
 

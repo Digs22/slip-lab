@@ -4,7 +4,40 @@
 
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 
+- 2026-10-26: Schottenheimer is 1-7-1 in primetime; defense allows 0.154 EPA/play (2nd-worst) and a 54.7% third-down rate (worst). Offense 25.2 ppg, Dak 273 pass yds/g, Pickens and Lamb are the locked WR roles. Set to be a 4.5-pt road favorite at PHI.
+
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: at Philadelphia Eagles
+
+Hurts is out for the year and Smith and Wicks are out, so Dallas is a 4.5-point road favorite on a thin Eagles offense. Most likely to win: Dallas Cowboys ML (-218, about 66% fair).
+
+SEARCH NOTE: about 25 searches plus the ESPN summary endpoint (event 401873009); direct page fetches failed (DNS or proxy), so everything below comes from search snippets.
+1. Market (ESPN pickcenter, DraftKings): DAL -4.5 (-108) / PHI +4.5 (-112); ML DAL -218 / PHI +180; total 43.5 (o-112 / u-108). ESPN open: PHI -3, ML PHI -162, total 48.5, so the line swung 7.5 points toward Dallas after the Hurts news.
+2. Other books (Bleacher Nation, SI, Inquirer, VSiN, Sportsgambler): FanDuel DAL -4.5 (-110/-110), ML -230/+190, total 44.5 (-110/-110); DK per VSiN Sunday DAL -4.5 -108, ML -225/+185, total 43.5 (o-118/u-102); BetMGM total 44 (u44.5 -118 per Yahoo/Tenngrand); BetRivers PHI +5 -109 (SI); Novig DAL -4.5 -104 (SBD). Opened DAL -5.5 elsewhere and now -4.5.
+3. No-vig: DAL ML 65.8% (DK) and 66.9% (FD), about 66.4%; Kalshi 64%; numberFire 61.8%; ESPN FPI DAL 69.2% (by 5.1); Stats Insider DAL 68% (52% to cover, Under 54%); SportsLine model leans Under 44.
+4. QBs: Jalen Hurts is out for the season (DVT and bilateral pulmonary emboli, at least 3 months, NBC Sports/ESPN). Tanner McKee starts (third career start): 26/45, 215 yds, 1 TD in the 25-14 loss to CAR. Dak Prescott starts: 163/246, 1,639 yds, 10 TD, 5 INT (273 yds/g); last game 34/54, 258, 1 TD, 2 INT at GB.
+5. PHI injuries (ESPN, BGN, ClutchPoints, Yahoo): OUT DeVonta Smith (hamstring), Dontayvion Wicks (ankle), Nolan Smith Jr. (concussion), Michael Carter II (abdomen). Barkley QUESTIONABLE (hamstring), full practice Saturday, expected back but unconfirmed, so no Barkley props. Greenard (ankle) and Hunt questionable; Goedert cleared; Dickerson on IR-R and questionable; Stowers and Calcaterra on IR. Lane Johnson reported retired. Inactives not out at research time.
+6. DAL injuries (NFL.com, Inside The Star, Yahoo): OUT Turpin (ribs), Shelton (hamstring), Winters (calf); Liufau and Locke questionable/IR. Pickens, Porter, Overshown, Durant, Guyton cleared as full participants; Lamb has no designation.
+7. Team stats (ESPN): DAL 25.2 ppg, 349 yds (273 pass, 76 rush); allows 26.5 ppg, 389 yds, 239 pass, 150 rush. PHI 17.7 ppg, 273.5 yds (191 pass, 82 rush); allows 22.8 ppg, 373 yds, 254 pass, 119 rush.
+8. Advanced (VSiN, Squawka): DAL EPA/play allowed 0.154, second-worst in the league; opponents convert 54.7% on third down (worst) with a 110.2 passer rating. PHI offense: 47% of dropbacks gain zero or less (29th in a SI piece), 18 straight second-half drives without a TD earlier in the skid.
+9. Coaching: Fangio rushes four or fewer 75.9% of the time but blitzed 35.7% last week; Prescott is eighth in EPA vs the blitz (+0.13) but struggled vs TB and GB. Schottenheimer is 1-7-1 in primetime and 9-13-1 overall; Sirianni's Eagles have lost four straight and SI has them 1-5 ATS, 0 home covers; Mannion calls plays.
+10. Recent form (ESPN): DAL 2-4 (W WSH, L BAL 34-31, W HOU 34-30, L TB 24-16, L GB 23-13); PHI 2-4 (W TEN, L CHI 27-7, L LAR 24-20, L JAX 19-17, L CAR 25-14). Both teams are 2-4, DAL scored under 20 in back-to-back games.
+11. Weather (ESPN/AccuWeather): 60F, clear, 0 precip, 12 mph gust; neutral. Grass at Lincoln Financial Field.
+12. Experts on DAL: SBD (-4.5 and Under 44.5), Predictem (27-20), Inquirer Novozinsky (24-14), NBCSP Frank (27-19), Lineups (24-20), Football Nation (24-20), Tenngrand (24-17 Under), Dimers and numberFire (DAL). On PHI: SI MacMillan (+5 -109, PHI 23-20), VSiN (+5 and small ML), Covers Logan (+4.5 as top pick but DAL ML in text), Sportsgambler (+4.5), Squawka (PHI 23-20).
+13. Totals: Covers, Yahoo/Action Network (u44.5 -118), SBD, Tenngrand, Stats Insider and SportsLine lean Under; SI and NBCSP lean Over on Dallas's defense. Public: about 68% of spread money on DAL.
+14. Props found (not used unless 2+ books): Lamb rec yds 78.5 (FD -114; 82.5 BetMGM/BetRivers), rec 6.5 (-152, one source), McKee pass yds 211.5, Barkley rush 68.5 -114 (FD/BetRivers, 70.5-72.5 elsewhere), Dak 268.5 -114 at BetMGM and Betcris. Lamb and Barkley left out: split lines and one book (Lamb), unconfirmed role (Barkley).
+15. Projection: DAL 24.0 (average of 25.2 scored and 22.8 allowed, trimmed for a lead-protecting favorite), PHI 18.5 (McKee offense, 17.7 average and 14 vs CAR, against a 26.5 allowed average), total 42.5 vs 43.5-44.5.
+16. Read: Dallas should win about two thirds of the time; the margin is near the 4.5 number, so the spread is a coin flip and the ML is the likeliest winner. The Under has a 2-point cushion with the wind and weather neutral.
+
+Legs considered:
+- Dallas Cowboys ML: Hurts is done for the season and the Eagles are missing Smith and Wicks, so a 17.7 ppg offense faces a defense that is bad but not Philly-proof; DK -218 is the best price.
+- Under 44.5: My projection is 42.5 (DAL 24.0, PHI 18.5) against 44.5; DK already shaded to 43.5 and Under money is arriving, so the cushion is small but real.
+- Philadelphia Eagles +4.5: Fair coin flip: Covers, SI and VSiN like the home dog, but the offense (14 points vs CAR) and Philly's 1-5 ATS mark argue against paying -110.
+- D. Prescott o268.5 pass yds: Dak averages 273 yards, cleared 276 in four of five games and faces a Philly defense allowing 254 passing yards; script risk is a lead that shifts him to the run.
+
+Our bets:
+- straight (lean): Under 44.5 (-110): pending -> **pending**
 
 ### 2026-10-18: at Green Bay Packers (final: DAL 13, GB 23)
 

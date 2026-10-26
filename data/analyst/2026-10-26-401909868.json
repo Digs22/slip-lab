@@ -1,0 +1,85 @@
+{
+ "summary": "Charlotte is missing three guards and Washington has its stars, so Wizards +2.5 is the most likely winner; total projects 231.7 vs 228.5. No usage SGP: no priced props.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Washington Wizards +2.5",
+   "game": "Washington Wizards @ Charlotte Hornets",
+   "market": "spread",
+   "team": "WSH",
+   "side": null,
+   "line": 2.5,
+   "odds": -118,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.52,
+   "books": 4,
+   "signals": {
+    "matchup": 0.57,
+    "injuries": 0.56,
+    "coaching": 0.5,
+    "experts": 0.55,
+    "home": 0.46,
+    "recent_form": 0.54
+   },
+   "note": "Charlotte is without Knueppel, White and G. Williams while Washington has Trae, Davis and George healthy and scoring 124-128; 2.5 points is a cushion."
+  },
+  {
+   "desc": "Over 228.5",
+   "game": "Washington Wizards @ Charlotte Hornets",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 228.5,
+   "odds": -108,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.496,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.55,
+    "pace": 0.5,
+    "matchup": 0.54,
+    "experts": 0.46
+   },
+   "note": "NBA.md projection 231.7 beats 228.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under."
+  },
+  {
+   "desc": "Washington Wizards ML",
+   "game": "Washington Wizards @ Charlotte Hornets",
+   "market": "ml",
+   "team": "WSH",
+   "side": null,
+   "line": null,
+   "odds": 110,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.465,
+   "books": 4,
+   "signals": {
+    "matchup": 0.54,
+    "injuries": 0.54,
+    "home": 0.45,
+    "experts": 0.52
+   },
+   "note": "Same case as the points, priced at +110 (Pick Dawgz +100, iHeart +109) for a team that has scored 124+ twice."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Only B. Miller (28.1% usage, CHA) clears 24% against a bottom-10 DvP (WSH allows F 1st, G 2nd, C 2nd in 2025-26). Trae (28.1%), Davis (27.5%) and Sarr (25.7%) face CHA G 22nd, F 24th, C 24th, so they fail the gate.",
+  "note": "No Miller points, rebounds or assists line was found at any book, so no real-lines SGP can be built and none is highlighted."
+ },
+ "totals_projection": {
+  "possessions": 99.1,
+  "WSH": 111.7,
+  "CHA": 120.0,
+  "total": 231.7,
+  "line": 228.5,
+  "math": "pace avg(101.4 WSH, 96.8 CHA)=99.1; WSH avg(111.0 ORtg, 114.4 CHA DRtg)=112.7*.991=111.7; CHA avg(119.4, 122.7 WSH DRtg)=121.05*.991=120.0; sum 231.7 (2025-26 BBR ratings, stale: both rosters rebuilt)"
+ },
+ "research": "REST: Both teams played 10/24 (WSH won 124-120 at CHI; CHA beat MIA 115-110) and were off 10/25. Neither is on a back-to-back. CHA played 10/23 and 10/24 earlier (B2B ended). Tip 7 PM ET at Spectrum Center. (ESPN scoreboard)\nLINES: ESPN/DraftKings CHA -2.5 (-102) / WSH +2.5 (-118), ML CHA -130 / WSH +110, total 228.5 (o -108 / u -112). FanDuel (via FanDuel Research) CHA -1.5, total 229.5; Predictem CHA -2 (WSH +2 -112), 229.5; iHeart CHA -2.5, 228.5, WSH ML +109; Pick Dawgz CHA -1.5 (-110), 228.5, ML WSH +100 / CHA -120; Bleacher Nation CHA -1.5, 229.5.\nFAIR: DK no-vig CHA 54.3% / WSH 45.7%; Pick Dawgz WSH 47.8%. ESPN predictor CHA 53.8%; Dimers CHA 57.7% (4.2% edge on CHA ML).\nTOTALS (NBA.md): pace avg(101.4, 96.8)=99.1; WSH 111.7 + CHA 120.0 = 231.7 vs 228.5 (3.2 over, under the 4-point trigger). Caveat: 2025-26 ratings (WSH ORtg 111.0 / DRtg 122.7, CHA 119.4 / 114.4) predate the Trae-Davis-Ayton rebuild and the LaMelo trade, so the projection is soft. Counter-models: iHeart 224.8 (Under), Predictem WSH 117-CHA 108 (225).\nINJURIES (ESPN API Oct 26): CHA out Kon Knueppel (hamstring), Coby White (calf), Grant Williams (hamstring), Kylan Boswell (knee); iHeart/Pick Dawgz list them day-to-day, ESPN lists Out. WSH out AJ Dybantsa (ankle; sources conflict, ESPN Out), Tristan Vukcevic (hip), Jamir Watkins (ACL).\nFORM: WSH 2-1: 128-116 vs MIL, L 102-112 vs TOR, W 124-120 at CHI (Trae 25 pts/9 ast on 4-10 threes, Davis 19/6/4 in 31 min, K. George 22/9/5, Sarr 10, Champagnie 11/14 reb off bench). CHA 2-1: W 110-103 BKN, L 81-128 at ATL, W 115-110 over MIA (Miller 34/8 on 10-29, Reid 23/9, Schroder 25, Allen 20 off bench, Diabate 4 pts in 22 min). (ESPN box scores)\nUSAGE (BBR 2025-26): Miller 28.1%, Trae 28.1% (15 g), Davis 27.5% (20 g), Sarr 25.7%, Reid 22.1%. Trae/Davis health history (15 and 20 games last year) is a risk for Washington props.\nDvP (own calc 2025-26, rank 1 = most allowed): WSH allows G 2nd, F 1st, C 2nd; CHA G 22nd, F 24th, C 24th. Only Miller qualifies; no priced prop found.\nCOACHING: Brian Keefe's Wizards ran 101.4 pace with the league's worst defense (122.7); Charles Lee's Hornets are bottom-5 in pace (96.8) and rank 27th in free-throw rate (Predictem), so Washington's trips to the line help the dog.\nHOME: Spectrum Center; CHA is 1-1 at home. WSH 1-0 on the road.\nEXPERTS: Predictem Wizards +2 (-112); iHeart Wizards ML (+109) and Under 228.5; Bleacher Nation Hornets -1.5 and Under 229.5; Dimers Hornets ML 57.7%; Pick Dawgz Hornets -1.5 (-110). Split on the side; writers lean Under while the pace-adjusted model leans Over.\nPROPS: Bleacher Nation lists Trae 20.5 pts, 2.5 reb, 10.5 ast, but no price; no second book found. Per the 10/25 lesson (prop straights 0-5), no prop is listed.\nCHEMISTRY: Washington's new core (Trae, Davis, Ayton, Middleton) has played three games; Trae has 13, 12 and 9 assists and led the team in scoring the last two (Predictem). Charlotte lost LaMelo and runs Miller and Schroder as creators with Reid and Allen scoring off the bench.\nPICK LOGIC: Dogs and totals were the winners on 10/23. WSH +2.5 gives a cushion for a team with the stronger healthy top-end; ML at +110 is the same read. The Over is the model leg (3.2 gap).\nSOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scoreboards, FanDuel Research, Predictem, iHeart, Pick Dawgz, Bleacher Nation, Dimers, Basketball-Reference 2025-26 ratings (via team notes)."
+}

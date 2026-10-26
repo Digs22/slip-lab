@@ -7,8 +7,37 @@
 - 2026-10-21: Opening line swung from CHA -4.5 to BKN -1.5 on the guard injuries, so the market weighs CHA's creators heavily.
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 22nd, F 24th, C 24th. A solid defense at every position.
 - 2026-10-24: Beat BKN 110-103, then lost 81-128 at ATL (Miller 2-14); Knueppel, White and G. Williams day-to-day for Oct 24. Model has CHA near a pick'em at home vs MIA (total 232.7).
+- 2026-10-26: 2-1 after 115-110 over MIA (Miller 34 on 10-29); Knueppel, White, G. Williams, Boswell out. Home -2.5 vs WSH, total 228.5 (model 231.7).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-26: vs Washington Wizards
+
+Charlotte is missing three guards and Washington has its stars, so Wizards +2.5 is the most likely winner; total projects 231.7 vs 228.5. No usage SGP: no priced props.
+
+REST: Both teams played 10/24 (WSH won 124-120 at CHI; CHA beat MIA 115-110) and were off 10/25. Neither is on a back-to-back. CHA played 10/23 and 10/24 earlier (B2B ended). Tip 7 PM ET at Spectrum Center. (ESPN scoreboard)
+LINES: ESPN/DraftKings CHA -2.5 (-102) / WSH +2.5 (-118), ML CHA -130 / WSH +110, total 228.5 (o -108 / u -112). FanDuel (via FanDuel Research) CHA -1.5, total 229.5; Predictem CHA -2 (WSH +2 -112), 229.5; iHeart CHA -2.5, 228.5, WSH ML +109; Pick Dawgz CHA -1.5 (-110), 228.5, ML WSH +100 / CHA -120; Bleacher Nation CHA -1.5, 229.5.
+FAIR: DK no-vig CHA 54.3% / WSH 45.7%; Pick Dawgz WSH 47.8%. ESPN predictor CHA 53.8%; Dimers CHA 57.7% (4.2% edge on CHA ML).
+TOTALS (NBA.md): pace avg(101.4, 96.8)=99.1; WSH 111.7 + CHA 120.0 = 231.7 vs 228.5 (3.2 over, under the 4-point trigger). Caveat: 2025-26 ratings (WSH ORtg 111.0 / DRtg 122.7, CHA 119.4 / 114.4) predate the Trae-Davis-Ayton rebuild and the LaMelo trade, so the projection is soft. Counter-models: iHeart 224.8 (Under), Predictem WSH 117-CHA 108 (225).
+INJURIES (ESPN API Oct 26): CHA out Kon Knueppel (hamstring), Coby White (calf), Grant Williams (hamstring), Kylan Boswell (knee); iHeart/Pick Dawgz list them day-to-day, ESPN lists Out. WSH out AJ Dybantsa (ankle; sources conflict, ESPN Out), Tristan Vukcevic (hip), Jamir Watkins (ACL).
+FORM: WSH 2-1: 128-116 vs MIL, L 102-112 vs TOR, W 124-120 at CHI (Trae 25 pts/9 ast on 4-10 threes, Davis 19/6/4 in 31 min, K. George 22/9/5, Sarr 10, Champagnie 11/14 reb off bench). CHA 2-1: W 110-103 BKN, L 81-128 at ATL, W 115-110 over MIA (Miller 34/8 on 10-29, Reid 23/9, Schroder 25, Allen 20 off bench, Diabate 4 pts in 22 min). (ESPN box scores)
+USAGE (BBR 2025-26): Miller 28.1%, Trae 28.1% (15 g), Davis 27.5% (20 g), Sarr 25.7%, Reid 22.1%. Trae/Davis health history (15 and 20 games last year) is a risk for Washington props.
+DvP (own calc 2025-26, rank 1 = most allowed): WSH allows G 2nd, F 1st, C 2nd; CHA G 22nd, F 24th, C 24th. Only Miller qualifies; no priced prop found.
+COACHING: Brian Keefe's Wizards ran 101.4 pace with the league's worst defense (122.7); Charles Lee's Hornets are bottom-5 in pace (96.8) and rank 27th in free-throw rate (Predictem), so Washington's trips to the line help the dog.
+HOME: Spectrum Center; CHA is 1-1 at home. WSH 1-0 on the road.
+EXPERTS: Predictem Wizards +2 (-112); iHeart Wizards ML (+109) and Under 228.5; Bleacher Nation Hornets -1.5 and Under 229.5; Dimers Hornets ML 57.7%; Pick Dawgz Hornets -1.5 (-110). Split on the side; writers lean Under while the pace-adjusted model leans Over.
+PROPS: Bleacher Nation lists Trae 20.5 pts, 2.5 reb, 10.5 ast, but no price; no second book found. Per the 10/25 lesson (prop straights 0-5), no prop is listed.
+CHEMISTRY: Washington's new core (Trae, Davis, Ayton, Middleton) has played three games; Trae has 13, 12 and 9 assists and led the team in scoring the last two (Predictem). Charlotte lost LaMelo and runs Miller and Schroder as creators with Reid and Allen scoring off the bench.
+PICK LOGIC: Dogs and totals were the winners on 10/23. WSH +2.5 gives a cushion for a team with the stronger healthy top-end; ML at +110 is the same read. The Over is the model leg (3.2 gap).
+SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scoreboards, FanDuel Research, Predictem, iHeart, Pick Dawgz, Bleacher Nation, Dimers, Basketball-Reference 2025-26 ratings (via team notes).
+
+Legs considered:
+- Washington Wizards +2.5: Charlotte is without Knueppel, White and G. Williams while Washington has Trae, Davis and George healthy and scoring 124-128; 2.5 points is a cushion.
+- Over 228.5: NBA.md projection 231.7 beats 228.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under.
+- Washington Wizards ML: Same case as the points, priced at +110 (Pick Dawgz +100, iHeart +109) for a team that has scored 124+ twice.
+
+Our bets:
+- straight (lean): Washington Wizards +2.5 (-118): pending -> **pending**
 
 ### 2026-10-24: vs Miami Heat
 
