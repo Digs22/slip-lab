@@ -9,7 +9,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Brooklyn Nets
+### 2026-10-25: at Brooklyn Nets (final: IND 136, BKN 109)
 
 Brooklyn is on a back-to-back and Mikel Brown Jr. rests, but no props were priced and no usage SGP qualifies. Total projects 226.5 vs 231.5. Most likely winner: Pacers ML -270.
 
@@ -35,9 +35,9 @@ Legs considered:
 - Brooklyn Nets +6.5: Ratings put IND by only 1 neutral, but Brooklyn's back-to-back and IND's thin guard depth keep it a mild lean.
 
 Our bets:
-- best: Under 231.5 (-112): pending -> **pending**
-- straight (lean): Under 231.5 (-110): pending -> **pending**
-- straight: Under 231.5 (-110): pending -> **pending**
+- best: Under 231.5 (-112): pending -> **loss**
+- straight (lean): Under 231.5 (-110): pending -> **loss**
+- straight: Under 231.5 (-110): pending -> **loss**
 
 ### 2026-10-23: vs Dallas Mavericks (final: DAL 121, IND 105)
 

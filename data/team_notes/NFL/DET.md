@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs Green Bay Packers
+### 2026-10-25: vs Green Bay Packers (final: GB 17, DET 20)
 
 Detroit scores 32.8 a game but Green Bay's defense is elite, and DraftKings has the total at 55.5 after it opened 50.5. Most likely winner: Detroit ML (-185).
 
@@ -34,4 +34,4 @@ Legs considered:
 - Under 55.5: The total rose five points from 50.5 to a number my 52.2 projection and the Dimers/Kalshi scores (51-53) sit below.
 
 Our bets:
-- straight (lean): Under 55.5 (-110): pending -> **pending**
+- straight (lean): Under 55.5 (-110): pending -> **win**

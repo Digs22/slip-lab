@@ -8,7 +8,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Sacramento Kings
+### 2026-10-25: at Sacramento Kings (final: MEM 123, SAC 112)
 
 Rebuilt teams the model sees within 2 points, and DK has pushed MEM from -3.5 to -4.5. Most likely winner: Sacramento Kings +4.5 (-115).
 
@@ -35,7 +35,7 @@ Legs considered:
 - Sacramento Kings ML: Same dog view at +145; ESPN BPI gives MEM 60.9%, so the model gap is capped near the market.
 
 Our bets:
-- straight (lean): Under 234.5 (-112): pending -> **pending**
+- straight (lean): Under 234.5 (-112): pending -> **loss**
 
 ### 2026-10-23: at Golden State Warriors (final: MEM 111, GS 108)
 

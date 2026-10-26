@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at New Orleans Saints
+### 2026-10-25: at New Orleans Saints (final: PIT 16, NO 10)
 
 Pittsburgh is a field-goal favorite in the Paris-site game with the Saints thin at RB and WR. Most likely to win: New Orleans Saints +3 (-108), which covers on any win or a one-score loss.
 
@@ -27,7 +27,7 @@ Legs considered:
 - Pittsburgh Steelers ML: Kalshi has PIT about 54-56%; FanDuel -142 is the best price; Dowdle and Freiermuth carry injury tags.
 
 Our bets:
-- straight (lean): Pittsburgh Steelers ML (-142): pending -> **pending**
+- straight (lean): Pittsburgh Steelers ML (-142): pending -> **win**
 
 ### 2026-10-18: at Tampa Bay Buccaneers (final: PIT 26, TB 19)
 

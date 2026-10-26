@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Arizona Cardinals
+### 2026-10-25: at Arizona Cardinals (final: DEN 30, ARI 16)
 
 Denver's league-low-efficiency offense (31st in yards/play) faces a line that fell from -7.5 to -4.5, and the total is 43.5. Most likely winner: Denver ML (-225).
 
@@ -37,7 +37,7 @@ Legs considered:
 - Under 43.5: Denver's offense scores 19 a game and its defense is No. 9 in EPA; my projection is 42.0 and Covers/Kalshi lean Under.
 
 Our bets:
-- straight (lean): Under 43.5 (-110): pending -> **pending**
+- straight (lean): Under 43.5 (-110): pending -> **loss**
 
 ### 2026-10-15: vs Seattle Seahawks (final: SEA 14, DEN 17)
 

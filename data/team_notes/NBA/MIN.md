@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs Toronto Raptors
+### 2026-10-25: vs Toronto Raptors (final: TOR 94, MIN 117)
 
 Both teams are 2-0 on equal rest and no usage SGP qualifies. Total projects 230.4 vs 231.5. Most likely winner: Timberwolves ML -115.
 
@@ -39,9 +39,9 @@ Legs considered:
 - R. Barrett o5.5 rebounds: Dimers' Kalshi price; Gobert and McDaniels take MIN's boards, so no more than a coin flip at 44c.
 
 Our bets:
-- straight: S. Barnes o5.5 assists (+104): Active -> **pending**
-- best: S. Barnes o5.5 assists (+104): Active / R. Barrett o5.5 rebounds (+127): Active -> **pending**
-- best: R. Barrett o5.5 rebounds (+127): Active -> **pending**
+- straight: S. Barnes o5.5 assists (+104): Active -> **loss**
+- best: S. Barnes o5.5 assists (+104): Active / R. Barrett o5.5 rebounds (+127): Active -> **loss**
+- best: R. Barrett o5.5 rebounds (+127): Active -> **loss**
 
 ### 2026-10-23: at Orlando Magic (final: MIN 115, ORL 93)
 

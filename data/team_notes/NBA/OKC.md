@@ -13,7 +13,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs LA Clippers
+### 2026-10-25: vs LA Clippers (final: LAC 101, OKC 108)
 
 Model has OKC by about 7 against a 15.5 spread, so the Clippers cover is the cleanest number. Most likely winner: LA Clippers +15.5 (-105).
 
@@ -40,7 +40,7 @@ Legs considered:
 - R. Hachimura o14.5 points: Single-source 15+ price; he scored 10 and 16 as the No. 2 option and a blowout cuts his minutes.
 
 Our bets:
-- straight (lean): LA Clippers +16.5 (-108): pending -> **pending**
+- straight (lean): LA Clippers +16.5 (-108): pending -> **win**
 
 ### 2026-10-22: vs Denver Nuggets (final: DEN 84, OKC 96)
 

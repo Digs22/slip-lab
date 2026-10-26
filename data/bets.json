@@ -14479,13 +14479,14 @@
           "status": null,
           "alt": null,
           "main_line": null,
-          "result": "unknown"
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 12.68,
       "stake": 18.0,
-      "to_win": 12.68
+      "to_win": 12.68,
+      "final": "PIT 16, NO 10"
     },
     {
       "id": "2026-10-25-TORMIN-straight",
@@ -14536,13 +14537,17 @@
           "note": "Plus-money main line; the market sits at the coin-flip price, so this is a small play only.",
           "status": "Active",
           "alt": false,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 18.72
+      "to_win": 18.72,
+      "final": "TOR 94, MIN 117",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-TORMIN-best",
@@ -14591,7 +14596,9 @@
           "note": "Plus-money main line; the market sits at the coin-flip price, so this is a small play only.",
           "status": "Active",
           "alt": false,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "R. Barrett o5.5 rebounds",
@@ -14615,13 +14622,17 @@
           "note": "Dimers' Kalshi price; Gobert and McDaniels take MIN's boards, so no more than a coin flip at 44c.",
           "status": "Active",
           "alt": false,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 10.89
+      "to_win": 10.89,
+      "final": "TOR 94, MIN 117",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-TRAD-best",
@@ -14664,7 +14675,9 @@
           "league": "NBA",
           "matchup": "TOR @ MIN",
           "start": "2026-10-25T23:00Z",
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Kansas City Chiefs ML",
@@ -14694,7 +14707,9 @@
           "league": "NFL",
           "matchup": "KC @ SEA",
           "start": "2026-10-26T00:20Z",
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "Under 231.5",
@@ -14723,13 +14738,17 @@
           "league": "NBA",
           "matchup": "IND @ BKN",
           "start": "2026-10-25T22:00Z",
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 25.86
+      "to_win": 25.86,
+      "final": "TOR 94-117 MIN; KC 3-20 SEA; IND 136-109 BKN",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-SFATL-straight",
@@ -15207,13 +15226,17 @@
           "note": "Projection 226.5 (IND 113.9 + BKN 112.7 at 99.05 poss) is 5.0 under; the slow Nets and a tired back-to-back help.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "IND 136, BKN 109",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-DENARI-straight",
@@ -15264,13 +15287,17 @@
           "note": "Denver's offense scores 19 a game and its defense is No. 9 in EPA; my projection is 42.0 and Covers/Kalshi lean Under.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "DEN 30, ARI 16",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-GBDET-straight",
@@ -15321,13 +15348,15 @@
           "note": "The total rose five points from 50.5 to a number my 52.2 projection and the Dimers/Kalshi scores (51-53) sit below.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "GB 17, DET 20"
     },
     {
       "id": "2026-10-25-LARLV-straight",
@@ -15378,13 +15407,17 @@
           "note": "Rams without Adams, Turner, Ford, a kicker and possibly Nacua let the Raiders hang within a field goal.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.0
+      "to_win": 15.0,
+      "final": "LAR 35, LV 21",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-LALUTAH-straight",
@@ -15435,13 +15468,17 @@
           "note": "Low assist rung with room under his 5.5 average; one book only, so no edge is claimed.",
           "status": "Active",
           "alt": true,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.52
+      "to_win": 15.52,
+      "final": "LAL 132, UTAH 123",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-LALUTAH-best",
@@ -15490,7 +15527,9 @@
           "note": "Low assist rung with room under his 5.5 average; one book only, so no edge is claimed.",
           "status": "Active",
           "alt": true,
-          "main_line": 5.5
+          "main_line": 5.5,
+          "result": "loss",
+          "cause": "bad read"
         },
         {
           "desc": "W. Kessler o14.5 points",
@@ -15514,13 +15553,17 @@
           "note": "Starting C against his old team on 30-35 minutes; one book, and Bleacher lists the main line at 15.5.",
           "status": "Active",
           "alt": true,
-          "main_line": 15.5
+          "main_line": 15.5,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -3.0,
       "stake": 3.0,
-      "to_win": 6.3
+      "to_win": 6.3,
+      "final": "LAL 132, UTAH 123",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-POTD-NBA",
@@ -15562,13 +15605,17 @@
           "note": "Projection 226.5 (IND 113.9 + BKN 112.7 at 99.05 poss) is 5.0 under; the slow Nets and a tired back-to-back help.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -12.0,
       "stake": 12.0,
-      "to_win": 10.91
+      "to_win": 10.91,
+      "final": "IND 136, BKN 109",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-KCSEA-straight",
@@ -15619,13 +15666,15 @@
           "note": "Two top defenses, Rice out for KC and 47% rain chance, but my projection (43.5) and recent Seattle games lean the other way.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.65,
       "stake": 18.0,
-      "to_win": 17.65
+      "to_win": 17.65,
+      "final": "KC 3, SEA 20"
     },
     {
       "id": "2026-10-25-ORLNY-straight",
@@ -15676,13 +15725,17 @@
           "note": "Defending champs at home against a 0-2 Orlando without Banchero; the price sits right at the -300 limit.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 6.67
+      "to_win": 6.67,
+      "final": "ORL 111, NY 102",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-25-LACOKC-straight",
@@ -15734,13 +15787,15 @@
           "note": "Model margin is OKC by about 7 with home court; Dimers and CappersPicks both show the Clippers at +14.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.67,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "LAC 101, OKC 108"
     },
     {
       "id": "2026-10-25-DETPHI-straight",
@@ -15792,13 +15847,15 @@
           "note": "PHI is on a back-to-back and may rest Embiid and LeBron; model has DET by about 2 even at Philadelphia.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "DET 106, PHI 93"
     },
     {
       "id": "2026-10-25-MEMSAC-straight",
@@ -15848,13 +15905,17 @@
           "note": "Projection 234.8 (MEM 118.1 + SAC 116.6) is 1.7 under DK; Edey out and no SAC bigs lower efficiency.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "MEM 123, SAC 112",
+      "cause": "bad read"
     }
   ]
 }

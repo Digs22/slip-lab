@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at New York Knicks
+### 2026-10-25: at New York Knicks (final: ORL 111, NY 102)
 
 Banchero is out (high ankle sprain, 4-6 weeks); Brunson passes DvP but his only priced prop is single-book, so no SGP edge. Total projects 225.7-227.5 vs 224.5. Most likely winner: Knicks ML -298.
 
@@ -38,7 +38,7 @@ Legs considered:
 - J. Brunson o25.5 points: Passes the DvP gate (ORL G 10th) but he has shot 13-36 so far; one price, so no edge.
 
 Our bets:
-- straight (lean): New York Knicks ML (-270): pending -> **pending**
+- straight (lean): New York Knicks ML (-270): pending -> **loss**
 
 ### 2026-10-23: vs Minnesota Timberwolves (final: MIN 115, ORL 93)
 

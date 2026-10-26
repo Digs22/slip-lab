@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Seattle Seahawks
+### 2026-10-25: at Seattle Seahawks (final: KC 3, SEA 20)
 
 Undefeated Kansas City (28.0 ppg, 160 rush ypg) is a +3 dog to Seattle despite the better point differential; the total fell 45.5 to 42.5. Most likely: Chiefs +3 (-118).
 
@@ -35,8 +35,8 @@ Legs considered:
 - Under 42.5: Two top defenses, Rice out for KC and 47% rain chance, but my projection (43.5) and recent Seattle games lean the other way.
 
 Our bets:
-- best: Kansas City Chiefs ML (+124): pending -> **pending**
-- straight (lean): Under 42.5 (-102): pending -> **pending**
+- best: Kansas City Chiefs ML (+124): pending -> **loss**
+- straight (lean): Under 42.5 (-102): pending -> **win**
 
 ### 2026-10-18: vs Los Angeles Chargers
 

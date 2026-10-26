@@ -10,7 +10,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Utah Jazz
+### 2026-10-25: at Utah Jazz (final: LAL 132, UTAH 123)
 
 Doncic and Reaves clear the DvP gate, but only Reaves' assist line was priced, so the SGP shows no edge. Total projects 238.6 vs 237.5. Most likely winner: Lakers ML -245.
 
@@ -39,8 +39,8 @@ Legs considered:
 - W. Kessler o14.5 points: Starting C against his old team on 30-35 minutes; one book, and Bleacher lists the main line at 15.5.
 
 Our bets:
-- straight (lean): A. Reaves o4.5 assists (-116): Active -> **pending**
-- best: A. Reaves o4.5 assists (-116): Active / W. Kessler o14.5 points (-150): Active -> **pending**
+- straight (lean): A. Reaves o4.5 assists (-116): Active -> **loss**
+- best: A. Reaves o4.5 assists (-116): Active / W. Kessler o14.5 points (-150): Active -> **loss**
 
 ### 2026-10-21: vs Golden State Warriors (final: GS 105, LAL 127)
 

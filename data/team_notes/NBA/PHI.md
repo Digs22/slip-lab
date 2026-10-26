@@ -13,7 +13,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: vs Detroit Pistons
+### 2026-10-25: vs Detroit Pistons (final: DET 106, PHI 93)
 
 PHI is on a back-to-back and probably without Embiid and LeBron, and the model has Detroit by 2 at Philadelphia. Most likely winner: Detroit Pistons +2.5 (-110).
 
@@ -41,7 +41,7 @@ Legs considered:
 - Over 227.5: Projection 227.8 (DET 116.0 + PHI 111.8) is level with DK 227.5, so no total edge.
 
 Our bets:
-- straight (lean): Detroit Pistons -1.5 (-110): pending -> **pending**
+- straight (lean): Detroit Pistons -1.5 (-110): pending -> **win**
 
 ### 2026-10-24: vs Milwaukee Bucks (final: MIL 116, PHI 127)
 

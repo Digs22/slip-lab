@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-25: at Las Vegas Raiders
+### 2026-10-25: at Las Vegas Raiders (final: LAR 35, LV 21)
 
 Rams are 2-4 without Adams (IR), Garrett and Turner, with Nacua questionable, and the line fell from -7.5 to -3.5. Most likely winner: Rams ML (-180).
 
@@ -36,7 +36,7 @@ Legs considered:
 - Over 48.5: Both teams allow 27 and 23 points while the Raiders score 27, but Adams's loss trims the Rams.
 
 Our bets:
-- straight (lean): Las Vegas Raiders +3.5 (-120): pending -> **pending**
+- straight (lean): Las Vegas Raiders +3.5 (-120): pending -> **loss**
 
 ### 2026-10-18: vs Arizona Cardinals (final: ARI 18, LAR 16)
 
