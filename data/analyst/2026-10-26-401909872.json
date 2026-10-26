@@ -10,9 +10,9 @@
    "team": "IND",
    "side": null,
    "line": null,
-   "odds": -166,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.6,
+   "odds": -175,
+   "book": "DraftKings",
+   "fair": 0.609,
    "books": 3,
    "signals": {
     "matchup": 0.62,
@@ -24,15 +24,15 @@
    "note": "Milwaukee is 0-3 allowing 129 per game and Haliburton is back; Zubac out and the back-to-back keep it near the market."
   },
   {
-   "desc": "Under 240.5",
+   "desc": "Under 238.5",
    "game": "Indiana Pacers @ Milwaukee Bucks",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 240.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.504,
+   "line": 238.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 2,
    "signals": {
     "totals_model": 0.6,
@@ -50,7 +50,7 @@
    "side": null,
    "line": -4.5,
    "odds": -108,
-   "book": "DraftKings (ESPN)",
+   "book": "DraftKings",
    "fair": 0.496,
    "books": 3,
    "signals": {

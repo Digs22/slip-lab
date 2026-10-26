@@ -10,9 +10,9 @@
    "team": "GS",
    "side": null,
    "line": 7.5,
-   "odds": -105,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.504,
    "books": 4,
    "signals": {
     "matchup": 0.54,
@@ -24,12 +24,12 @@
    "note": "Method score has Denver by about 5.3, Curry is cleared after two rest days, and Dimers, Bleacher Nation and Predictem all take the points."
   },
   {
-   "desc": "Under 234.5",
+   "desc": "Under 236.5",
    "game": "Golden State Warriors @ Denver Nuggets",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 234.5,
+   "line": 236.5,
    "odds": -110,
    "book": "DraftKings",
    "fair": 0.5,
@@ -40,7 +40,7 @@
     "injuries": 0.52,
     "experts": 0.55
    },
-   "note": "Projection 233.3 sits just under 234.5 and both teams play near 99 possessions; iHeart projects 231.3 and Dimers 231.5."
+   "note": "Projection 233.3 sits just under 236.5 and both teams play near 99 possessions; iHeart projects 231.3 and Dimers 231.5."
   },
   {
    "desc": "Golden State Warriors ML",
@@ -49,9 +49,9 @@
    "team": "GS",
    "side": null,
    "line": null,
-   "odds": 245,
+   "odds": 220,
    "book": "DraftKings",
-   "fair": 0.285,
+   "fair": 0.3,
    "books": 3,
    "signals": {
     "matchup": 0.3,

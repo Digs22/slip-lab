@@ -36,10 +36,10 @@ Single-book caveat: HOU ML has DK and FanDuel prices (2 books); ATL +5.5 and the
 Legs considered:
 - Houston Rockets ML: Houston won Saturday's meeting 121-114 in Atlanta and every model (numberFire 68%, ESPN 57%, iHeart, Dimers) has Houston, with Smart day-to-day.
 - Over 229.5: Method projection 233.4 (HOU 117.6 + ATL 115.8) beats DK 229.5 and FanDuel 230.5, and Saturday's game went 235.
-- Atlanta Hawks +5.5: Method score has Houston by about 3.7, and Houston was 18-31 ATS as a 5.5-plus favorite last season.
+- Atlanta Hawks +4.5: Method score has Houston by about 3.7, and Houston was 18-31 ATS as a 5.5-plus favorite last season.
 
 Our bets:
-- straight (lean): Over 229.5 (-110): pending -> **pending**
+- straight (lean): Over 229.5 (-112): pending -> **pending**
 
 ### 2026-10-24: at Atlanta Hawks (final: HOU 121, ATL 114)
 

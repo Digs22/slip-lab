@@ -33,11 +33,11 @@ SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scor
 
 Legs considered:
 - Washington Wizards +2.5: Charlotte is without Knueppel, White and G. Williams while Washington has Trae, Davis and George healthy and scoring 124-128; 2.5 points is a cushion.
-- Over 228.5: NBA.md projection 231.7 beats 228.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under.
+- Over 227.5: NBA.md projection 231.7 beats 227.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under.
 - Washington Wizards ML: Same case as the points, priced at +110 (Pick Dawgz +100, iHeart +109) for a team that has scored 124+ twice.
 
 Our bets:
-- straight (lean): Washington Wizards +2.5 (-118): pending -> **pending**
+- straight (lean): Washington Wizards +2.5 (-110): pending -> **pending**
 
 ### 2026-10-24: vs Miami Heat
 

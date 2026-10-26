@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T08:10-04:00",
+ "generated": "2026-10-26T17:42-04:00",
  "games": [
   {
    "id": "401876422",
    "league": "SOCCER",
    "date": "2026-10-26",
    "start": "2026-10-26T19:30Z",
-   "status": "pre",
+   "status": "post",
    "game": "LYON @ PSG",
    "away": "LYON",
    "home": "PSG",
@@ -18,25 +18,19 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "venue": "Parc des Princes",
    "city": "Paris",
-   "detail": "Scheduled",
+   "detail": "FT",
    "away_score": 0.0,
-   "home_score": 0.0,
+   "home_score": 2.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {
-    "spread": "PSG -290",
-    "total": 3.5,
-    "home_ml": -290,
-    "away_ml": 700,
-    "book": "DraftKings"
-   }
+   "odds": {}
   },
   {
    "id": "401882828",
    "league": "SOCCER",
    "date": "2026-10-26",
    "start": "2026-10-26T20:00Z",
-   "status": "pre",
+   "status": "in",
    "game": "OSA @ SEV",
    "away": "OSA",
    "home": "SEV",
@@ -48,16 +42,16 @@
    "home_logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
    "city": "Sevilla",
-   "detail": "Scheduled",
+   "detail": "81'",
    "away_score": 0.0,
-   "home_score": 0.0,
+   "home_score": 1.0,
    "home_conf": null,
    "away_conf": null,
    "odds": {
     "spread": "SEV -115",
     "total": 2.5,
     "home_ml": -115,
-    "away_ml": 360,
+    "away_ml": 340,
     "book": "DraftKings"
    }
   },
@@ -85,9 +79,9 @@
    "away_conf": null,
    "odds": {
     "spread": "CHA -2.5",
-    "total": 228.5,
-    "home_ml": -130,
-    "away_ml": 110,
+    "total": 227.5,
+    "home_ml": -142,
+    "away_ml": 120,
     "book": "DraftKings"
    }
   },
@@ -114,10 +108,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CLE -3.5",
-    "total": 233.5,
-    "home_ml": -162,
-    "away_ml": 136,
+    "spread": "CLE -4.5",
+    "total": 231.5,
+    "home_ml": -175,
+    "away_ml": 145,
     "book": "DraftKings"
    }
   },
@@ -174,7 +168,7 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BOS -14.5",
+    "spread": "BOS -13.5",
     "total": 232.5,
     "home_ml": -750,
     "away_ml": 525,
@@ -204,10 +198,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIA -8.5",
-    "total": 238.5,
-    "home_ml": -325,
-    "away_ml": 260,
+    "spread": "MIA -7.5",
+    "total": 241.5,
+    "home_ml": -285,
+    "away_ml": 230,
     "book": "DraftKings"
    }
   },
@@ -234,9 +228,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TB -120",
+    "spread": "TB -119",
     "total": 7.0,
-    "home_ml": -120,
+    "home_ml": -119,
     "away_ml": -101,
     "book": "DraftKings"
    }
@@ -265,9 +259,9 @@
    "away_conf": null,
    "odds": {
     "spread": "IND -4.5",
-    "total": 240.5,
-    "home_ml": 140,
-    "away_ml": -166,
+    "total": 238.5,
+    "home_ml": 145,
+    "away_ml": -175,
     "book": "DraftKings"
    }
   },
@@ -294,10 +288,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "OKC -10.5",
-    "total": 219.5,
-    "home_ml": -410,
-    "away_ml": 320,
+    "spread": "OKC -8.5",
+    "total": 221.5,
+    "home_ml": -325,
+    "away_ml": 260,
     "book": "DraftKings"
    }
   },
@@ -325,9 +319,9 @@
    "away_conf": null,
    "odds": {
     "spread": "DAL -4.5",
-    "total": 43.5,
-    "home_ml": 180,
-    "away_ml": -218,
+    "total": 44.5,
+    "home_ml": 170,
+    "away_ml": -205,
     "book": "DraftKings"
    }
   },
@@ -354,10 +348,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "HOU -5.5",
+    "spread": "HOU -4.5",
     "total": 229.5,
-    "home_ml": -205,
-    "away_ml": 170,
+    "home_ml": -192,
+    "away_ml": 160,
     "book": "DraftKings"
    }
   },
@@ -384,10 +378,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TOR -162",
+    "spread": "TOR -135",
     "total": 6.5,
-    "home_ml": 136,
-    "away_ml": -162,
+    "home_ml": 114,
+    "away_ml": -135,
     "book": "DraftKings"
    }
   },
@@ -416,8 +410,8 @@
    "odds": {
     "spread": "UTAH -1.5",
     "total": 237.5,
-    "home_ml": -112,
-    "away_ml": -108,
+    "home_ml": -110,
+    "away_ml": -110,
     "book": "DraftKings"
    }
   },
@@ -476,8 +470,8 @@
    "odds": {
     "spread": "DEN -7.5",
     "total": 236.5,
-    "home_ml": -305,
-    "away_ml": 245,
+    "home_ml": -270,
+    "away_ml": 220,
     "book": "DraftKings"
    }
   },
@@ -564,10 +558,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "COMO -140",
+    "spread": "COMO -145",
     "total": 2.5,
-    "home_ml": 350,
-    "away_ml": -140,
+    "home_ml": 360,
+    "away_ml": -145,
     "book": "DraftKings"
    }
   },
@@ -593,7 +587,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "CBJ -120",
+    "total": 5.5,
+    "home_ml": 100,
+    "away_ml": -120,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401871071",
@@ -619,7 +619,7 @@
    "away_conf": "Conference USA",
    "odds": {
     "spread": "WKU -1.5",
-    "total": 55.5,
+    "total": 57.5,
     "home_ml": -115,
     "away_ml": -105,
     "book": "DraftKings"
@@ -743,7 +743,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "CAR -192",
+    "total": 6.5,
+    "home_ml": -192,
+    "away_ml": 160,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892587",
@@ -767,7 +773,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "LA -122",
+    "total": 5.5,
+    "home_ml": 102,
+    "away_ml": -122,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892588",
@@ -791,7 +803,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "STL -118",
+    "total": 6.5,
+    "home_ml": -118,
+    "away_ml": -102,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892589",
@@ -815,7 +833,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "NSH -122",
+    "total": 5.5,
+    "home_ml": -122,
+    "away_ml": 102,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892590",
@@ -839,7 +863,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "DAL -125",
+    "total": 5.5,
+    "home_ml": -125,
+    "away_ml": 105,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892591",
@@ -863,7 +893,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "FLA -130",
+    "total": 5.5,
+    "home_ml": 110,
+    "away_ml": -130,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401871072",
@@ -888,10 +924,10 @@
    "home_conf": "Conference USA",
    "away_conf": "Conference USA",
    "odds": {
-    "spread": "MOST -6.5",
-    "total": 49.5,
-    "home_ml": -230,
-    "away_ml": 190,
+    "spread": "MOST -5.5",
+    "total": 50.5,
+    "home_ml": -218,
+    "away_ml": 180,
     "book": "DraftKings"
    }
   },
@@ -917,7 +953,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "UTAH -125",
+    "total": 6.5,
+    "home_ml": -125,
+    "away_ml": 105,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892593",
@@ -941,7 +983,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "VGK -155",
+    "total": 6.5,
+    "home_ml": -155,
+    "away_ml": 130,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892594",
@@ -965,7 +1013,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "ANA -198",
+    "total": 6.5,
+    "home_ml": -198,
+    "away_ml": 164,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401892595",
@@ -989,7 +1043,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "BUF -135",
+    "total": 6.5,
+    "home_ml": 114,
+    "away_ml": -135,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401909880",
@@ -1098,10 +1158,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "INT -310",
+    "spread": "INT -300",
     "total": 3.5,
     "home_ml": 600,
-    "away_ml": -310,
+    "away_ml": -300,
     "book": "DraftKings"
    }
   },
@@ -1128,10 +1188,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "JUV -160",
+    "spread": "JUV -155",
     "total": 2.5,
     "home_ml": 400,
-    "away_ml": -160,
+    "away_ml": -155,
     "book": "DraftKings"
    }
   },
@@ -1259,7 +1319,13 @@
    "home_score": 0.0,
    "home_conf": null,
    "away_conf": null,
-   "odds": {}
+   "odds": {
+    "spread": "PHI -1.5",
+    "total": 237.5,
+    "home_ml": 105,
+    "away_ml": -125,
+    "book": "DraftKings"
+   }
   },
   {
    "id": "401871058",
@@ -1284,10 +1350,10 @@
    "home_conf": "Conference USA",
    "away_conf": "Conference USA",
    "odds": {
-    "spread": "MTSU -3",
-    "total": 50.5,
-    "home_ml": -155,
-    "away_ml": 130,
+    "spread": "MTSU -2.5",
+    "total": 51.5,
+    "home_ml": -142,
+    "away_ml": 120,
     "book": "DraftKings"
    }
   },
@@ -1392,10 +1458,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIA -190",
+    "spread": "MIA -215",
     "total": 3.5,
-    "home_ml": -190,
-    "away_ml": 370,
+    "home_ml": -215,
+    "away_ml": 425,
     "book": "DraftKings"
    }
   },
@@ -1422,10 +1488,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "NE -105",
+    "spread": "NE -110",
     "total": 3.5,
-    "home_ml": -105,
-    "away_ml": 215,
+    "home_ml": -110,
+    "away_ml": 220,
     "book": "DraftKings"
    }
   },
@@ -1452,10 +1518,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "NYC -125",
+    "spread": "NYC -135",
     "total": 2.5,
-    "home_ml": -125,
-    "away_ml": 285,
+    "home_ml": -135,
+    "away_ml": 300,
     "book": "DraftKings"
    }
   },
@@ -1482,10 +1548,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TOR -105",
+    "spread": "TOR -110",
     "total": 3.5,
-    "home_ml": -105,
-    "away_ml": 230,
+    "home_ml": -110,
+    "away_ml": 250,
     "book": "DraftKings"
    }
   },
@@ -1634,8 +1700,8 @@
    "odds": {
     "spread": "JXST -3",
     "total": 49.5,
-    "home_ml": 130,
-    "away_ml": -155,
+    "home_ml": 136,
+    "away_ml": -162,
     "book": "DraftKings"
    }
   },
@@ -1719,7 +1785,7 @@
     "spread": "CHI -170",
     "total": 3.5,
     "home_ml": -170,
-    "away_ml": 320,
+    "away_ml": 330,
     "book": "DraftKings"
    }
   },
@@ -1836,10 +1902,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "STL -130",
+    "spread": "STL -135",
     "total": 3.5,
-    "home_ml": -130,
-    "away_ml": 275,
+    "home_ml": -135,
+    "away_ml": 280,
     "book": "DraftKings"
    }
   },
@@ -2016,10 +2082,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "SEA -125",
+    "spread": "SEA -130",
     "total": 2.5,
-    "home_ml": -125,
-    "away_ml": 280,
+    "home_ml": -130,
+    "away_ml": 295,
     "book": "DraftKings"
    }
   },
@@ -2046,10 +2112,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "VAN -220",
+    "spread": "VAN -235",
     "total": 3.5,
-    "home_ml": -220,
-    "away_ml": 425,
+    "home_ml": -235,
+    "away_ml": 450,
     "book": "DraftKings"
    }
   },
@@ -2076,10 +2142,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "FRO -150",
+    "spread": "FRO -155",
     "total": 3.5,
-    "home_ml": -150,
-    "away_ml": 330,
+    "home_ml": -155,
+    "away_ml": 340,
     "book": "DraftKings"
    }
   },
@@ -2112,30 +2178,6 @@
     "away_ml": 195,
     "book": "DraftKings"
    }
-  },
-  {
-   "id": "401909893",
-   "league": "NBA",
-   "date": "2026-10-29",
-   "start": "2026-10-29T23:00Z",
-   "status": "pre",
-   "game": "CLE @ ATL",
-   "away": "CLE",
-   "home": "ATL",
-   "away_id": "5",
-   "home_id": "1",
-   "away_name": "Cleveland Cavaliers",
-   "home_name": "Atlanta Hawks",
-   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-   "venue": "State Farm Arena",
-   "city": "Atlanta, GA",
-   "detail": "10/29 - 7:00 PM EDT",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {}
   },
   {
    "id": "401892601",
@@ -2257,9 +2299,9 @@
    "away_conf": "American",
    "odds": {
     "spread": "UNT -13.5",
-    "total": 75.5,
-    "home_ml": -485,
-    "away_ml": 370,
+    "total": 76.5,
+    "home_ml": -520,
+    "away_ml": 390,
     "book": "DraftKings"
    }
   },
@@ -2287,11 +2329,35 @@
    "away_conf": "Sun Belt",
    "odds": {
     "spread": "JMU -21",
-    "total": 52.5,
-    "home_ml": -1450,
-    "away_ml": 850,
+    "total": 49.5,
+    "home_ml": -1600,
+    "away_ml": 900,
     "book": "DraftKings"
    }
+  },
+  {
+   "id": "401909893",
+   "league": "NBA",
+   "date": "2026-10-29",
+   "start": "2026-10-30T00:00Z",
+   "status": "pre",
+   "game": "CLE @ ATL",
+   "away": "CLE",
+   "home": "ATL",
+   "away_id": "5",
+   "home_id": "1",
+   "away_name": "Cleveland Cavaliers",
+   "home_name": "Atlanta Hawks",
+   "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+   "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+   "venue": "State Farm Arena",
+   "city": "Atlanta, GA",
+   "detail": "10/29 - 8:00 PM EDT",
+   "away_score": 0.0,
+   "home_score": 0.0,
+   "home_conf": null,
+   "away_conf": null,
+   "odds": {}
   },
   {
    "id": "401909894",
@@ -2562,10 +2628,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "PSG -425",
+    "spread": "PSG -450",
     "total": 3.5,
-    "home_ml": 850,
-    "away_ml": -425,
+    "home_ml": 900,
+    "away_ml": -450,
     "book": "DraftKings"
    }
   },
@@ -2622,9 +2688,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "VIL -205",
+    "spread": "VIL -215",
     "total": 3.5,
-    "home_ml": -205,
+    "home_ml": -215,
     "away_ml": 500,
     "book": "DraftKings"
    }
@@ -2756,8 +2822,8 @@
    "odds": {
     "spread": "TULN -10",
     "total": 46.5,
-    "home_ml": 320,
-    "away_ml": -410,
+    "home_ml": 310,
+    "away_ml": -395,
     "book": "DraftKings"
    }
   },
@@ -2880,10 +2946,10 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "BAY -1.5",
+    "spread": "UCF -1.5",
     "total": 47.5,
-    "home_ml": -105,
-    "away_ml": -115,
+    "home_ml": -118,
+    "away_ml": -102,
     "book": "DraftKings"
    }
   },
@@ -3083,8 +3149,8 @@
    "odds": {
     "spread": "KENT -10",
     "total": 46.5,
-    "home_ml": 320,
-    "away_ml": -410,
+    "home_ml": 310,
+    "away_ml": -395,
     "book": "DraftKings"
    }
   },
@@ -3114,7 +3180,7 @@
     "spread": "CHE -120",
     "total": 3.5,
     "home_ml": -120,
-    "away_ml": 285,
+    "away_ml": 295,
     "book": "DraftKings"
    }
   },
@@ -3201,10 +3267,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "B04 -135",
+    "spread": "B04 -130",
     "total": 3.5,
-    "home_ml": -135,
-    "away_ml": 260,
+    "home_ml": -130,
+    "away_ml": 255,
     "book": "DraftKings"
    }
   },
@@ -3323,7 +3389,7 @@
    "odds": {
     "spread": "TSG +115",
     "total": 3.5,
-    "home_ml": 180,
+    "home_ml": 175,
     "away_ml": 115,
     "book": "DraftKings"
    }
@@ -3531,10 +3597,10 @@
    "home_conf": "American",
    "away_conf": "FBS Independents",
    "odds": {
-    "spread": "ND -29.5",
-    "total": 54.5,
-    "home_ml": 3000,
-    "away_ml": -10000,
+    "spread": "ND -30.5",
+    "total": 55.5,
+    "home_ml": 2000,
+    "away_ml": -6500,
     "book": "DraftKings"
    }
   },
@@ -3561,10 +3627,10 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "TTU -3.5",
+    "spread": "TTU -3",
     "total": 54.5,
-    "home_ml": -175,
-    "away_ml": 145,
+    "home_ml": -162,
+    "away_ml": 136,
     "book": "DraftKings"
    }
   },
@@ -3593,8 +3659,8 @@
    "odds": {
     "spread": "SMU -9.5",
     "total": 58.5,
-    "home_ml": 280,
-    "away_ml": -355,
+    "home_ml": 270,
+    "away_ml": -340,
     "book": "DraftKings"
    }
   },
@@ -3651,10 +3717,10 @@
    "home_conf": "ACC",
    "away_conf": "ACC",
    "odds": {
-    "spread": "NCSU -8.5",
-    "total": 57.5,
-    "home_ml": -325,
-    "away_ml": 260,
+    "spread": "NCSU -7",
+    "total": 56.5,
+    "home_ml": -278,
+    "away_ml": 225,
     "book": "DraftKings"
    }
   },
@@ -3681,10 +3747,10 @@
    "home_conf": "ACC",
    "away_conf": "ACC",
    "odds": {
-    "spread": "DUKE -7.5",
-    "total": 48.5,
-    "home_ml": -310,
-    "away_ml": 250,
+    "spread": "DUKE -7",
+    "total": 47.5,
+    "home_ml": -278,
+    "away_ml": 225,
     "book": "DraftKings"
    }
   },
@@ -3712,9 +3778,9 @@
    "away_conf": "Big Ten",
    "odds": {
     "spread": "ILL -2.5",
-    "total": 52.5,
-    "home_ml": 114,
-    "away_ml": -135,
+    "total": 54.5,
+    "home_ml": 120,
+    "away_ml": -142,
     "book": "DraftKings"
    }
   },
@@ -3741,7 +3807,7 @@
    "home_conf": "American",
    "away_conf": "American",
    "odds": {
-    "spread": "USF -7.5",
+    "spread": "USF -8.5",
     "total": 42.5,
     "home_ml": -305,
     "away_ml": 245,
@@ -3771,10 +3837,10 @@
    "home_conf": "MAC",
    "away_conf": "MAC",
    "odds": {
-    "spread": "WMU -14",
-    "total": 43.5,
-    "home_ml": -675,
-    "away_ml": 490,
+    "spread": "WMU -13.5",
+    "total": 44.5,
+    "home_ml": -550,
+    "away_ml": 410,
     "book": "DraftKings"
    }
   },
@@ -3832,9 +3898,9 @@
    "away_conf": "Big Ten",
    "odds": {
     "spread": "MICH -14",
-    "total": 47.5,
-    "home_ml": 470,
-    "away_ml": -650,
+    "total": 46.5,
+    "home_ml": 440,
+    "away_ml": -600,
     "book": "DraftKings"
    }
   },
@@ -3993,7 +4059,7 @@
    "home_conf": "Sun Belt",
    "away_conf": "Sun Belt",
    "odds": {
-    "spread": "MRSH -3",
+    "spread": "MRSH -2.5",
     "total": 45.5,
     "home_ml": 120,
     "away_ml": -142,
@@ -4053,10 +4119,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BET -245",
+    "spread": "BET -265",
     "total": 3.5,
-    "home_ml": -245,
-    "away_ml": 550,
+    "home_ml": -265,
+    "away_ml": 600,
     "book": "DraftKings"
    }
   },
@@ -4235,8 +4301,8 @@
    "odds": {
     "spread": "KSU -2.5",
     "total": 47.5,
-    "home_ml": 120,
-    "away_ml": -142,
+    "home_ml": 114,
+    "away_ml": -135,
     "book": "DraftKings"
    }
   },
@@ -4264,7 +4330,7 @@
    "away_conf": "Sun Belt",
    "odds": {
     "spread": "GAST -6.5",
-    "total": 59.5,
+    "total": 57.5,
     "home_ml": -245,
     "away_ml": 200,
     "book": "DraftKings"
@@ -4365,10 +4431,10 @@
    "home_conf": "Mountain West",
    "away_conf": "FBS Independents",
    "odds": {
-    "spread": "AF -3",
+    "spread": "AF -2.5",
     "total": 53.5,
-    "home_ml": -155,
-    "away_ml": 130,
+    "home_ml": -148,
+    "away_ml": 124,
     "book": "DraftKings"
    }
   },
@@ -4427,8 +4493,8 @@
    "odds": {
     "spread": "LT -5.5",
     "total": 57.5,
-    "home_ml": 170,
-    "away_ml": -205,
+    "home_ml": 180,
+    "away_ml": -218,
     "book": "DraftKings"
    }
   },
@@ -4457,8 +4523,8 @@
    "odds": {
     "spread": "LOU -22.5",
     "total": 61.5,
-    "home_ml": -2100,
-    "away_ml": 1100,
+    "home_ml": -1800,
+    "away_ml": 1000,
     "book": "DraftKings"
    }
   },
@@ -4485,8 +4551,8 @@
    "home_conf": "SEC",
    "away_conf": "SEC",
    "odds": {
-    "spread": "UGA -10.5",
-    "total": 56.5,
+    "spread": "UGA -11.5",
+    "total": 55.5,
     "home_ml": -440,
     "away_ml": 340,
     "book": "DraftKings"
@@ -4517,8 +4583,8 @@
    "odds": {
     "spread": "IU -19.5",
     "total": 42.5,
-    "home_ml": -1350,
-    "away_ml": 800,
+    "home_ml": -1450,
+    "away_ml": 850,
     "book": "DraftKings"
    }
   },
@@ -4545,8 +4611,8 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "BYU -15.5",
-    "total": 49.5,
+    "spread": "BYU -16.5",
+    "total": 48.5,
     "home_ml": -750,
     "away_ml": 525,
     "book": "DraftKings"
@@ -4576,7 +4642,7 @@
    "away_conf": "Big Ten",
    "odds": {
     "spread": "ORE -3.5",
-    "total": 49.5,
+    "total": 47.5,
     "home_ml": -175,
     "away_ml": 145,
     "book": "DraftKings"
@@ -4605,10 +4671,10 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "TCU -5.5",
-    "total": 47.5,
-    "home_ml": -205,
-    "away_ml": 170,
+    "spread": "TCU -6",
+    "total": 46.5,
+    "home_ml": -230,
+    "away_ml": 190,
     "book": "DraftKings"
    }
   },
@@ -4637,8 +4703,8 @@
    "odds": {
     "spread": "USU -6.5",
     "total": 63.5,
-    "home_ml": -218,
-    "away_ml": 180,
+    "home_ml": -230,
+    "away_ml": 190,
     "book": "DraftKings"
    }
   },
@@ -4667,8 +4733,8 @@
    "odds": {
     "spread": "NDSU -25.5",
     "total": 43.5,
-    "home_ml": -4000,
-    "away_ml": 1600,
+    "home_ml": -3200,
+    "away_ml": 1400,
     "book": "DraftKings"
    }
   },
@@ -4697,8 +4763,8 @@
    "odds": {
     "spread": "LIB -14",
     "total": 45.5,
-    "home_ml": -625,
-    "away_ml": 455,
+    "home_ml": -600,
+    "away_ml": 440,
     "book": "DraftKings"
    }
   },
@@ -4725,10 +4791,10 @@
    "home_conf": "Sun Belt",
    "away_conf": "Sun Belt",
    "odds": {
-    "spread": "USM -3",
-    "total": 53.5,
-    "home_ml": 130,
-    "away_ml": -155,
+    "spread": "USM -3.5",
+    "total": 55.5,
+    "home_ml": 142,
+    "away_ml": -170,
     "book": "DraftKings"
    }
   },
@@ -4755,7 +4821,11 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "book": "Bet 365"
+    "spread": "INT +105",
+    "total": 2.5,
+    "home_ml": 215,
+    "away_ml": 105,
+    "book": "DraftKings"
    }
   },
   {
@@ -4781,10 +4851,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LOR +140",
+    "spread": "LOR +145",
     "total": 2.5,
-    "home_ml": 140,
-    "away_ml": 180,
+    "home_ml": 145,
+    "away_ml": 185,
     "book": "DraftKings"
    }
   },
@@ -4811,9 +4881,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LYON -265",
+    "spread": "LYON -260",
     "total": 3.5,
-    "home_ml": -265,
+    "home_ml": -260,
     "away_ml": 600,
     "book": "DraftKings"
    }
@@ -4841,10 +4911,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TRY +120",
+    "spread": "TRY +125",
     "total": 2.5,
-    "home_ml": 120,
-    "away_ml": 205,
+    "home_ml": 125,
+    "away_ml": 210,
     "book": "DraftKings"
    }
   },
@@ -4872,7 +4942,7 @@
    "away_conf": "Big 12",
    "odds": {
     "spread": "UTAH -6.5",
-    "total": 57.5,
+    "total": 56.5,
     "home_ml": 210,
     "away_ml": -258,
     "book": "DraftKings"
@@ -4903,8 +4973,8 @@
    "odds": {
     "spread": "WAKE -14",
     "total": 49.5,
-    "home_ml": -650,
-    "away_ml": 470,
+    "home_ml": -625,
+    "away_ml": 455,
     "book": "DraftKings"
    }
   },
@@ -5009,10 +5079,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BAR -750",
-    "total": 3.5,
-    "home_ml": -750,
-    "away_ml": 2000,
+    "spread": "BAR -800",
+    "total": 4.5,
+    "home_ml": -800,
+    "away_ml": 2200,
     "book": "DraftKings"
    }
   },
@@ -5130,9 +5200,9 @@
    "away_conf": "Big Ten",
    "odds": {
     "spread": "PSU -7.5",
-    "total": 53.5,
-    "home_ml": -305,
-    "away_ml": 245,
+    "total": 54.5,
+    "home_ml": -290,
+    "away_ml": 235,
     "book": "DraftKings"
    }
   },
@@ -5232,7 +5302,7 @@
    "away_conf": "Sun Belt",
    "odds": {
     "spread": "GASO -5.5",
-    "total": 54.5,
+    "total": 56.5,
     "home_ml": -205,
     "away_ml": 170,
     "book": "DraftKings"
@@ -5333,10 +5403,10 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "OKST -10",
+    "spread": "OKST -8.5",
     "total": 57.5,
-    "home_ml": 300,
-    "away_ml": -380,
+    "home_ml": 270,
+    "away_ml": -340,
     "book": "DraftKings"
    }
   },
@@ -5393,10 +5463,10 @@
    "home_conf": "Pac-12",
    "away_conf": "Pac-12",
    "odds": {
-    "spread": "SDSU -3",
+    "spread": "SDSU -2.5",
     "total": 48.5,
-    "home_ml": -155,
-    "away_ml": 130,
+    "home_ml": -135,
+    "away_ml": 114,
     "book": "DraftKings"
    }
   },
@@ -5425,8 +5495,8 @@
    "odds": {
     "spread": "MIA -14.5",
     "total": 52.5,
-    "home_ml": 525,
-    "away_ml": -750,
+    "home_ml": 490,
+    "away_ml": -675,
     "book": "DraftKings"
    }
   },
@@ -5454,7 +5524,7 @@
    "away_conf": "Big Ten",
    "odds": {
     "spread": "OSU -7",
-    "total": 50.5,
+    "total": 51.5,
     "home_ml": 215,
     "away_ml": -265,
     "book": "DraftKings"
@@ -5484,7 +5554,7 @@
    "away_conf": "SEC",
    "odds": {
     "spread": "TEX -21",
-    "total": 51.5,
+    "total": 50.5,
     "home_ml": -1450,
     "away_ml": 850,
     "book": "DraftKings"
@@ -5695,8 +5765,8 @@
    "odds": {
     "spread": "NEB -8.5",
     "total": 49.5,
-    "home_ml": -340,
-    "away_ml": 270,
+    "home_ml": -325,
+    "away_ml": 260,
     "book": "DraftKings"
    }
   },
@@ -5723,10 +5793,10 @@
    "home_conf": "American",
    "away_conf": "American",
    "odds": {
-    "spread": "MEM -6.5",
-    "total": 58.5,
-    "home_ml": -258,
-    "away_ml": 210,
+    "spread": "MEM -6",
+    "total": 59.5,
+    "home_ml": -238,
+    "away_ml": 195,
     "book": "DraftKings"
    }
   },
@@ -5827,8 +5897,8 @@
    "odds": {
     "spread": "BOIS -11.5",
     "total": 63.5,
-    "home_ml": -470,
-    "away_ml": 360,
+    "home_ml": -425,
+    "away_ml": 330,
     "book": "DraftKings"
    }
   },
@@ -5885,10 +5955,10 @@
    "home_conf": "Pac-12",
    "away_conf": "Pac-12",
    "odds": {
-    "spread": "ORST -6.5",
-    "total": 56.5,
-    "home_ml": 195,
-    "away_ml": -238,
+    "spread": "ORST -5.5",
+    "total": 58.5,
+    "home_ml": 185,
+    "away_ml": -225,
     "book": "DraftKings"
    }
   },
@@ -5945,10 +6015,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "SEV +155",
+    "spread": "SEV +150",
     "total": 1.5,
-    "home_ml": 200,
-    "away_ml": 155,
+    "home_ml": 210,
+    "away_ml": 150,
     "book": "DraftKings"
    }
   },
@@ -6065,7 +6135,11 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "book": "Bet 365"
+    "spread": "FCU +140",
+    "total": 2.5,
+    "home_ml": 140,
+    "away_ml": 160,
+    "book": "DraftKings"
    }
   },
   {
@@ -6092,7 +6166,7 @@
    "away_conf": null,
    "odds": {
     "spread": "VILL -7.5",
-    "total": 149.5,
+    "total": 148.5,
     "home_ml": -305,
     "away_ml": 245,
     "book": "DraftKings"
@@ -6267,10 +6341,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "ELC +150",
+    "spread": "ELC +145",
     "total": 2.5,
-    "home_ml": 150,
-    "away_ml": 175,
+    "home_ml": 145,
+    "away_ml": 185,
     "book": "DraftKings"
    }
   },
@@ -6299,8 +6373,8 @@
    "odds": {
     "spread": "BUF -3.5",
     "total": 53.5,
-    "home_ml": -192,
-    "away_ml": 160,
+    "home_ml": -185,
+    "away_ml": 154,
     "book": "DraftKings"
    }
   },
@@ -6327,10 +6401,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CIN -10.5",
-    "total": 47.5,
-    "home_ml": -700,
-    "away_ml": 500,
+    "spread": "CIN -10",
+    "total": 46.5,
+    "home_ml": -625,
+    "away_ml": 455,
     "book": "DraftKings"
    }
   },
@@ -6358,9 +6432,9 @@
    "away_conf": null,
    "odds": {
     "spread": "DAL -6.5",
-    "total": 53.5,
-    "home_ml": -290,
-    "away_ml": 235,
+    "total": 54.5,
+    "home_ml": -305,
+    "away_ml": 245,
     "book": "DraftKings"
    }
   },
@@ -6389,8 +6463,8 @@
    "odds": {
     "spread": "DET -3",
     "total": 46.5,
-    "home_ml": -162,
-    "away_ml": 136,
+    "home_ml": -175,
+    "away_ml": 145,
     "book": "DraftKings"
    }
   },
@@ -6417,10 +6491,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LV -1.5",
+    "spread": "NYJ -1.5",
     "total": 44.5,
-    "home_ml": -108,
-    "away_ml": -112,
+    "home_ml": -112,
+    "away_ml": -108,
     "book": "DraftKings"
    }
   },
@@ -6448,7 +6522,7 @@
    "away_conf": null,
    "odds": {
     "spread": "PIT -3.5",
-    "total": 38.5,
+    "total": 39.5,
     "home_ml": -180,
     "away_ml": 150,
     "book": "DraftKings"
@@ -6477,10 +6551,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TB -1.5",
-    "total": 44.5,
-    "home_ml": -125,
-    "away_ml": 105,
+    "spread": "TB -2.5",
+    "total": 46.5,
+    "home_ml": -135,
+    "away_ml": 114,
     "book": "DraftKings"
    }
   },
@@ -6509,8 +6583,8 @@
    "odds": {
     "spread": "JAX -7.5",
     "total": 46.5,
-    "home_ml": -360,
-    "away_ml": 285,
+    "home_ml": -375,
+    "away_ml": 295,
     "book": "DraftKings"
    }
   },
@@ -6624,7 +6698,7 @@
     "spread": "ATH +105",
     "total": 2.5,
     "home_ml": 105,
-    "away_ml": 240,
+    "away_ml": 230,
     "book": "DraftKings"
    }
   },
@@ -6723,10 +6797,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LAR -7",
+    "spread": "LAR -6.5",
     "total": 43.5,
-    "home_ml": -340,
-    "away_ml": 270,
+    "home_ml": -285,
+    "away_ml": 230,
     "book": "DraftKings"
    }
   },
@@ -6983,8 +7057,8 @@
    "odds": {
     "spread": "WSH -3.5",
     "total": 40.5,
-    "home_ml": -185,
-    "away_ml": 154,
+    "home_ml": -192,
+    "away_ml": 160,
     "book": "DraftKings"
    }
   },

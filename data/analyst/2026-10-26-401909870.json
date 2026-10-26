@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Chicago Bulls +14.5",
+   "desc": "Chicago Bulls +13.5",
    "game": "Chicago Bulls @ Boston Celtics",
    "market": "spread",
    "team": "CHI",
    "side": null,
-   "line": 14.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.504,
+   "line": 13.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 5,
    "signals": {
     "matchup": 0.56,
@@ -31,9 +31,9 @@
    "team": null,
    "side": "under",
    "line": 232.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.504,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 6,
    "signals": {
     "totals_model": 0.58,

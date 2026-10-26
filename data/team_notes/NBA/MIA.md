@@ -32,12 +32,12 @@ Market read: public is on Miami's star power while MIA allows 124.7 per game; DK
 Chemistry: Miami is integrating Giannis and Mitchell (point guard) after trading away Herro and depth; defense is the problem.
 
 Legs considered:
-- Dallas Mavericks +8.5: Miami is 0-3 allowing 124.7 per game, Kyrie is back, and Dimers/Predictem both take Dallas as the dog.
-- Under 238.5: Projection 235.3 (DAL 115.7 + MIA 119.6) is 3.2 under DK 238.5, and Flagg/Marshall absences cost Dallas points; FanDuel is 236.5.
+- Dallas Mavericks +7.5: Miami is 0-3 allowing 124.7 per game, Kyrie is back, and Dimers/Predictem both take Dallas as the dog.
+- Under 241.5: Projection 235.3 (DAL 115.7 + MIA 119.6) is 3.2 under DK 241.5, and Flagg/Marshall absences cost Dallas points; FanDuel is 236.5.
 - Dallas Mavericks ML: Live dog only if Flagg plays; DK and FanDuel both +260, so the price is fair rather than an edge.
 
 Our bets:
-- straight (lean): Under 238.5 (-105): pending -> **pending**
+- straight (lean): Dallas Mavericks +7.5 (-105): pending -> **pending**
 
 ### 2026-10-24: at Charlotte Hornets
 

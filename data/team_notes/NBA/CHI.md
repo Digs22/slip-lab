@@ -32,11 +32,11 @@ PICK LOGIC: large road dog with fast pace against the slowest team, plus the mod
 SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scoreboards, FanDuel Research, Bleacher Report, Capper's Picks, Pick Dawgz, Predictem, TheRx, Dimers, FreeTips, RAW CHILI, Sports Mole, Fubo, Sportskeeda, Basketball-Reference 2025-26 ratings (via team notes).
 
 Legs considered:
-- Chicago Bulls +14.5: A 14.5 cushion against a Boston team that is 29th in pace, has failed to cover big numbers, and won its opener only 107-103.
+- Chicago Bulls +13.5: A 14.5 cushion against a Boston team that is 29th in pace, has failed to cover big numbers, and won its opener only 107-103.
 - Under 232.5: Projection 229.1 is 3.4 under DK (4.4 under the 233.5 at FanDuel and Bleacher Report); Boston's pace is the slowest in the league.
 
 Our bets:
-- straight (lean): Under 232.5 (-112): pending -> **pending**
+- straight (lean): Under 232.5 (-105): pending -> **pending**
 
 ### 2026-10-24: vs Washington Wizards (final: WSH 124, CHI 120)
 

@@ -37,7 +37,7 @@ Legs considered:
 - D. Prescott o268.5 pass yds: Dak averages 273 yards, cleared 276 in four of five games and faces a Philly defense allowing 254 passing yards; script risk is a lead that shifts him to the run.
 
 Our bets:
-- straight (lean): Under 44.5 (-110): pending -> **pending**
+- straight (lean): Under 44.5 (-120): pending -> **pending**
 
 ### 2026-10-18: vs Carolina Panthers (final: CAR 25, PHI 14)
 

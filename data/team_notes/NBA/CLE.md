@@ -30,11 +30,11 @@ SOURCES: ESPN summary API (DK pickcenter, injuries, predictor, boxes), ESPN scor
 
 Legs considered:
 - Cleveland Cavaliers ML: Minnesota plays the second night of a back-to-back (beat TOR 117-94 on 10/25) while Cleveland has had a day off at home.
-- Cleveland Cavaliers -3.5: Line moved from CLE -4.5 to -3.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip.
-- Under 233.5: Projection 232.8 vs 233.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home.
+- Cleveland Cavaliers -4.5: Line moved from CLE -4.5 to -4.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip.
+- Under 231.5: Projection 232.8 vs 231.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home.
 
 Our bets:
-- straight (lean): Cleveland Cavaliers -3.5 (-112): pending -> **pending**
+- straight (lean): Cleveland Cavaliers -4.5 (-108): pending -> **pending**
 
 ### 2026-10-24: vs Brooklyn Nets (final: BKN 121, CLE 125)
 

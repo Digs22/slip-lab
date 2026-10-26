@@ -33,11 +33,11 @@ Chemistry: MIL is 0-3 with the new Herro/Rollins core and a bottom defense; IND 
 
 Legs considered:
 - Indiana Pacers ML: Milwaukee is 0-3 allowing 129 per game and Haliburton is back; Zubac out and the back-to-back keep it near the market.
-- Under 240.5: Projection 229.3 is 11 under; real games so far went 243-257, so I trust the model less than usual and size it down.
+- Under 238.5: Projection 229.3 is 11 under; real games so far went 243-257, so I trust the model less than usual and size it down.
 - Indiana Pacers -4.5: Spread needs a five-point win on the second night with Zubac out; only a small lean.
 
 Our bets:
-- straight (lean): Under 240.5 (-112): pending -> **pending**
+- straight (lean): Under 238.5 (-110): pending -> **pending**
 
 ### 2026-10-24: at Philadelphia 76ers (final: MIL 116, PHI 127)
 

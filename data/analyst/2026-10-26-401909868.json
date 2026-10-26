@@ -10,9 +10,9 @@
    "team": "WSH",
    "side": null,
    "line": 2.5,
-   "odds": -118,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.52,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 4,
    "signals": {
     "matchup": 0.57,
@@ -25,15 +25,15 @@
    "note": "Charlotte is without Knueppel, White and G. Williams while Washington has Trae, Davis and George healthy and scoring 124-128; 2.5 points is a cushion."
   },
   {
-   "desc": "Over 228.5",
+   "desc": "Over 227.5",
    "game": "Washington Wizards @ Charlotte Hornets",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 228.5,
-   "odds": -108,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.496,
+   "line": 227.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 5,
    "signals": {
     "totals_model": 0.55,
@@ -41,7 +41,7 @@
     "matchup": 0.54,
     "experts": 0.46
    },
-   "note": "NBA.md projection 231.7 beats 228.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under."
+   "note": "NBA.md projection 231.7 beats 227.5 by 3.2; both defenses are weak, though the iHeart and Predictem models point Under."
   },
   {
    "desc": "Washington Wizards ML",
@@ -50,9 +50,9 @@
    "team": "WSH",
    "side": null,
    "line": null,
-   "odds": 110,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.465,
+   "odds": 120,
+   "book": "DraftKings",
+   "fair": 0.437,
    "books": 4,
    "signals": {
     "matchup": 0.54,

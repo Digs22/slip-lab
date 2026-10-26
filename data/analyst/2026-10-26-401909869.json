@@ -10,9 +10,9 @@
    "team": "CLE",
    "side": null,
    "line": null,
-   "odds": -162,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.593,
+   "odds": -175,
+   "book": "DraftKings",
+   "fair": 0.609,
    "books": 4,
    "signals": {
     "home": 0.6,
@@ -25,15 +25,15 @@
    "note": "Minnesota plays the second night of a back-to-back (beat TOR 117-94 on 10/25) while Cleveland has had a day off at home."
   },
   {
-   "desc": "Cleveland Cavaliers -3.5",
+   "desc": "Cleveland Cavaliers -4.5",
    "game": "Minnesota Timberwolves @ Cleveland Cavaliers",
    "market": "spread",
    "team": "CLE",
    "side": null,
-   "line": -3.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.506,
+   "line": -4.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "fair": 0.496,
    "books": 4,
    "signals": {
     "home": 0.56,
@@ -42,18 +42,18 @@
     "experts": 0.52,
     "recent_form": 0.46
    },
-   "note": "Line moved from CLE -4.5 to -3.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip."
+   "note": "Line moved from CLE -4.5 to -4.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip."
   },
   {
-   "desc": "Under 233.5",
+   "desc": "Under 231.5",
    "game": "Minnesota Timberwolves @ Cleveland Cavaliers",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 233.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.504,
+   "line": 231.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 5,
    "signals": {
     "totals_model": 0.52,
@@ -61,7 +61,7 @@
     "pace": 0.5,
     "experts": 0.52
    },
-   "note": "Projection 232.8 vs 233.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home."
+   "note": "Projection 232.8 vs 231.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home."
   }
  ],
  "sgp": {

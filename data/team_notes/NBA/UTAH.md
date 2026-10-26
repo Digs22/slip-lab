@@ -36,7 +36,7 @@ Legs considered:
 - Utah Jazz -1.5: Same lean as the ML at a worse number; Memphis is 3-0 with Jerome scoring 45, 28 and 31.
 
 Our bets:
-- straight (lean): Over 237.5 (-108): pending -> **pending**
+- straight (lean): Over 237.5 (-110): pending -> **pending**
 
 ### 2026-10-25: vs Los Angeles Lakers (final: LAL 132, UTAH 123)
 

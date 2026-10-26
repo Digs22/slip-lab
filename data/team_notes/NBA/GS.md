@@ -38,11 +38,11 @@ Single-book caveat: DK is the only price with both sides; FanDuel and Pick Dawgz
 
 Legs considered:
 - Golden State Warriors +7.5: Method score has Denver by about 5.3, Curry is cleared after two rest days, and Dimers, Bleacher Nation and Predictem all take the points.
-- Under 234.5: Projection 233.3 sits just under 234.5 and both teams play near 99 possessions; iHeart projects 231.3 and Dimers 231.5.
+- Under 236.5: Projection 233.3 sits just under 236.5 and both teams play near 99 possessions; iHeart projects 231.3 and Dimers 231.5.
 - Golden State Warriors ML: Longshot only: iHeart's model picks Golden State outright, but ESPN gives them 24.5% and FanDuel 30%.
 
 Our bets:
-- straight (lean): Golden State Warriors +7.5 (-105): pending -> **pending**
+- straight (lean): Golden State Warriors +7.5 (-112): pending -> **pending**
 
 ### 2026-10-24: at Phoenix Suns (final: GS 122, PHX 131)
 

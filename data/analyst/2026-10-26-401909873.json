@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Phoenix Suns +10.5",
+   "desc": "Phoenix Suns +8.5",
    "game": "Phoenix Suns @ Oklahoma City Thunder",
    "market": "spread",
    "team": "PHX",
    "side": null,
-   "line": 10.5,
-   "odds": -112,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.504,
+   "line": 8.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 4,
    "signals": {
     "matchup": 0.55,
@@ -24,15 +24,15 @@
    "note": "OKC played Sunday and lost Jalen Williams (stretchered off), and DK's 10.5 is 1-2 points above FanDuel and Pick Dawgz."
   },
   {
-   "desc": "Over 219.5",
+   "desc": "Over 221.5",
    "game": "Phoenix Suns @ Oklahoma City Thunder",
    "market": "total",
    "team": null,
    "side": "over",
-   "line": 219.5,
-   "odds": -105,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.489,
+   "line": 221.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 3,
    "signals": {
     "totals_model": 0.56,
@@ -40,7 +40,7 @@
     "pace": 0.46,
     "experts": 0.46
    },
-   "note": "Projection 224.0 beats 219.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5."
+   "note": "Projection 224.0 beats 221.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5."
   },
   {
    "desc": "Phoenix Suns ML",
@@ -49,9 +49,9 @@
    "team": "PHX",
    "side": null,
    "line": null,
-   "odds": 320,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.229,
+   "odds": 260,
+   "book": "DraftKings",
+   "fair": 0.266,
    "books": 3,
    "signals": {
     "injuries": 0.25,

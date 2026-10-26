@@ -34,12 +34,12 @@ Market read: the line rose a point at DK after opening, but the best number for 
 Chemistry: OKC lost Dort, Joe and Wiggins this summer and now Williams, leaving SGA with more volume; PHX is thin at center (Williams out).
 
 Legs considered:
-- Phoenix Suns +10.5: OKC played Sunday and lost Jalen Williams (stretchered off), and DK's 10.5 is 1-2 points above FanDuel and Pick Dawgz.
-- Over 219.5: Projection 224.0 beats 219.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5.
+- Phoenix Suns +8.5: OKC played Sunday and lost Jalen Williams (stretchered off), and DK's 10.5 is 1-2 points above FanDuel and Pick Dawgz.
+- Over 221.5: Projection 224.0 beats 221.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5.
 - Phoenix Suns ML: Long shot; the +320 matches market fair after Williams's injury and the back-to-back, so no edge.
 
 Our bets:
-- straight (lean): Over 219.5 (-105): pending -> **pending**
+- straight (lean): Over 221.5 (-110): pending -> **pending**
 
 ### 2026-10-25: vs LA Clippers (final: LAC 101, OKC 108)
 

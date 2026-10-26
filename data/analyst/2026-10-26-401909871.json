@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Dallas Mavericks +8.5",
+   "desc": "Dallas Mavericks +7.5",
    "game": "Dallas Mavericks @ Miami Heat",
    "market": "spread",
    "team": "DAL",
    "side": null,
-   "line": 8.5,
-   "odds": -115,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.511,
+   "line": 7.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 3,
    "signals": {
     "matchup": 0.55,
@@ -24,15 +24,15 @@
    "note": "Miami is 0-3 allowing 124.7 per game, Kyrie is back, and Dimers/Predictem both take Dallas as the dog."
   },
   {
-   "desc": "Under 238.5",
+   "desc": "Under 241.5",
    "game": "Dallas Mavericks @ Miami Heat",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 238.5,
-   "odds": -105,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.489,
+   "line": 241.5,
+   "odds": -115,
+   "book": "DraftKings",
+   "fair": 0.511,
    "books": 2,
    "signals": {
     "totals_model": 0.55,
@@ -40,7 +40,7 @@
     "market_move": 0.46,
     "experts": 0.55
    },
-   "note": "Projection 235.3 (DAL 115.7 + MIA 119.6) is 3.2 under DK 238.5, and Flagg/Marshall absences cost Dallas points; FanDuel is 236.5."
+   "note": "Projection 235.3 (DAL 115.7 + MIA 119.6) is 3.2 under DK 241.5, and Flagg/Marshall absences cost Dallas points; FanDuel is 236.5."
   },
   {
    "desc": "Dallas Mavericks ML",
@@ -49,9 +49,9 @@
    "team": "DAL",
    "side": null,
    "line": null,
-   "odds": 260,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.267,
+   "odds": 230,
+   "book": "DraftKings",
+   "fair": 0.29,
    "books": 2,
    "signals": {
     "matchup": 0.28,
