@@ -30,8 +30,8 @@ SEARCH NOTE: about 17 WebSearch calls across the two games plus ESPN summary and
 
 Legs considered:
 - Western Kentucky +1.5: WKU gets 13 days of rest at home against a 0-3 road Delaware team, so the points have value either way.
-- Under 57.5: My cross-ppg projection is 53.5 and WKU's ball-control run game has gone Under in its last three, though Delaware's 61-point game shows the risk.
+- Under 55.5: My cross-ppg projection is 53.5 and WKU's ball-control run game has gone Under in its last three, though Delaware's 61-point game shows the risk.
 - Western Kentucky ML: ESPN's predictor gives WKU 56% and it holds the rest and home edges, but a -105 price on a coin flip is no bargain.
 
 Our bets:
-- straight (lean): Western Kentucky ML (-105): pending -> **pending**
+- straight (lean): Western Kentucky +1.5 (-108): pending -> **pending**

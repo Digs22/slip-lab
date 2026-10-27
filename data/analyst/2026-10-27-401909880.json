@@ -4,14 +4,14 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Under 235.5",
+   "desc": "Under 233.5",
    "game": "Portland Trail Blazers @ Los Angeles Lakers",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 235.5,
+   "line": 233.5,
    "odds": -112,
-   "book": "DraftKings (ESPN); Wagertalk -112",
+   "book": "DraftKings",
    "fair": 0.504,
    "books": 5,
    "signals": {
@@ -20,18 +20,18 @@
     "experts": 0.52,
     "rest": 0.52
    },
-   "note": "Blended projection 232.9 (230.5 on pure 2025-26 ratings) is under 235.5, and both teams' 3-game offenses are running hot above their season norms."
+   "note": "Blended projection 232.9 (230.5 on pure 2025-26 ratings) is under 233.5, and both teams' 3-game offenses are running hot above their season norms."
   },
   {
-   "desc": "Portland Trail Blazers +2.5",
+   "desc": "Portland Trail Blazers +1.5",
    "game": "Portland Trail Blazers @ Los Angeles Lakers",
    "market": "spread",
    "team": "POR",
    "side": null,
-   "line": 2.5,
-   "odds": -110,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.5,
+   "line": 1.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "fair": 0.489,
    "books": 5,
    "signals": {
     "season": 0.52,
@@ -49,9 +49,9 @@
    "team": "POR",
    "side": null,
    "line": null,
-   "odds": 120,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.437,
+   "odds": 105,
+   "book": "DraftKings",
+   "fair": 0.468,
    "books": 4,
    "signals": {
     "season": 0.5,

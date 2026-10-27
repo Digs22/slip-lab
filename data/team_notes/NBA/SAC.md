@@ -33,10 +33,10 @@ Verdict: only a modest lean on the dog; the Spurs blowout is likely but 18.5 is 
 
 Legs considered:
 - Sacramento Kings +18.5: Model margin is only 10 even with Sacramento's lost bigs, SA plays at Utah tomorrow, and Dimers rates Kings +17.5 at 59%.
-- Under 231.5: Projection 230.7 is level with 231.5 (books run 229.5-231.5), so this rests on blowout garbage time and SA's early shooting slump, not the model.
+- Under 232.5: Projection 230.7 is level with 232.5 (books run 229.5-232.5), so this rests on blowout garbage time and SA's early shooting slump, not the model.
 
 Our bets:
-- straight (lean): Under 231.5 (-115): pending -> **pending**
+- straight (lean): Under 232.5 (-112): pending -> **pending**
 
 ### 2026-10-25: vs Memphis Grizzlies (final: MEM 123, SAC 112)
 

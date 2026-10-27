@@ -10,9 +10,9 @@
    "team": "WKU",
    "side": null,
    "line": 1.5,
-   "odds": -112,
+   "odds": -108,
    "book": "DraftKings",
-   "fair": 0.504,
+   "fair": 0.496,
    "books": 1,
    "signals": {
     "home": 0.55,
@@ -23,15 +23,15 @@
    "note": "WKU gets 13 days of rest at home against a 0-3 road Delaware team, so the points have value either way."
   },
   {
-   "desc": "Under 57.5",
+   "desc": "Under 55.5",
    "game": "Delaware Blue Hens @ Western Kentucky Hilltoppers",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 57.5,
-   "odds": -108,
+   "line": 55.5,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.495,
+   "fair": 0.5,
    "books": 1,
    "signals": {
     "totals_model": 0.55,
@@ -47,9 +47,9 @@
    "team": "WKU",
    "side": null,
    "line": null,
-   "odds": -105,
+   "odds": 105,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.468,
    "books": 1,
    "signals": {
     "home": 0.55,

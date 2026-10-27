@@ -4,15 +4,15 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Sam Houston +4.5",
+   "desc": "Sam Houston +6",
    "game": "Sam Houston Bearkats @ Missouri State Bears",
    "market": "spread",
    "team": "SHSU",
    "side": null,
-   "line": 4.5,
-   "odds": -105,
+   "line": 6.0,
+   "odds": -110,
    "book": "DraftKings",
-   "fair": 0.489,
+   "fair": 0.5,
    "books": 1,
    "signals": {
     "matchup": 0.54,
@@ -23,15 +23,15 @@
    "note": "Common-opponent math (WKU beat MOST by 21 on the road and SHSU by 13) rates these teams even, so 4.5 at home is a bit high."
   },
   {
-   "desc": "Under 50.5",
+   "desc": "Under 52.5",
    "game": "Sam Houston Bearkats @ Missouri State Bears",
    "market": "total",
    "team": null,
    "side": "under",
-   "line": 50.5,
-   "odds": -102,
+   "line": 52.5,
+   "odds": -112,
    "book": "DraftKings",
-   "fair": 0.4825,
+   "fair": 0.504,
    "books": 1,
    "signals": {
     "totals_model": 0.54,
@@ -47,9 +47,9 @@
    "team": "SHSU",
    "side": null,
    "line": null,
-   "odds": 180,
+   "odds": 185,
    "book": "DraftKings",
-   "fair": 0.342,
+   "fair": 0.336,
    "books": 1,
    "signals": {
     "matchup": 0.53,

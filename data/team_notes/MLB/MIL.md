@@ -41,7 +41,7 @@ Legs considered:
 - Under 7: Both bullpens are rested and the dome is pitcher-friendly, but Jax's short leash and a MIL bullpen game keep my 6.7 close to 7.
 
 Our bets:
-- straight (lean): Milwaukee Brewers ML (-131): pending -> **pending**
+- straight (lean): Milwaukee Brewers ML (-121): pending -> **pending**
 
 ### 2026-10-26: at Tampa Bay Rays (final: MIL 10, TB 1)
 

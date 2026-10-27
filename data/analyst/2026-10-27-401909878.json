@@ -11,8 +11,8 @@
    "side": null,
    "line": 4.5,
    "odds": -115,
-   "book": "FanDuel (Lineups.com); DK +3.5 -112",
-   "fair": 0.535,
+   "book": "DraftKings",
+   "fair": 0.511,
    "books": 5,
    "signals": {
     "season": 0.57,
@@ -31,9 +31,9 @@
    "team": "DET",
    "side": null,
    "line": null,
-   "odds": 130,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.41,
+   "odds": 142,
+   "book": "DraftKings",
+   "fair": 0.396,
    "books": 5,
    "signals": {
     "season": 0.5,
@@ -51,7 +51,7 @@
    "side": "over",
    "line": 219.5,
    "odds": -108,
-   "book": "DraftKings (ESPN)",
+   "book": "DraftKings",
    "fair": 0.496,
    "books": 5,
    "signals": {

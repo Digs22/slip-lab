@@ -1,162 +1,26 @@
 {
   "date": "2026-10-27",
-  "generated": "2026-10-27T08:29-04:00",
-  "games_scanned": 22,
+  "generated": "2026-10-27T17:47-04:00",
+  "games_scanned": 7,
   "problems": [
     "2026-10-27: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
     "2026-10-27: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
-    "2026-10-27: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized",
-    "2026-10-28: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
-    "2026-10-28: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
-    "2026-10-28: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
+    "2026-10-27: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
   ],
-  "upcoming": [
-    {
-      "id": "401908046",
-      "league": "MLB",
-      "game": "MIL @ TB",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Tropicana Field",
-      "city": "St. Petersburg, Florida",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png"
-    },
-    {
-      "id": "401909881",
-      "league": "NBA",
-      "game": "MIA @ ATL",
-      "start": "2026-10-28T23:00Z",
-      "venue": "State Farm Arena",
-      "city": "Atlanta, GA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png"
-    },
-    {
-      "id": "401909882",
-      "league": "NBA",
-      "game": "WSH @ CLE",
-      "start": "2026-10-28T23:00Z",
-      "venue": "Rocket Arena",
-      "city": "Cleveland, OH",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png"
-    },
-    {
-      "id": "401909883",
-      "league": "NBA",
-      "game": "CHA @ DET",
-      "start": "2026-10-28T23:00Z",
-      "venue": "Little Caesars Arena",
-      "city": "Detroit, MI",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png"
-    },
-    {
-      "id": "401909884",
-      "league": "NBA",
-      "game": "PHI @ IND",
-      "start": "2026-10-28T23:00Z",
-      "venue": "Gainbridge Fieldhouse",
-      "city": "Indianapolis, IN",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png"
-    },
-    {
-      "id": "401909885",
-      "league": "NBA",
-      "game": "ORL @ TOR",
-      "start": "2026-10-28T23:30Z",
-      "venue": "Scotiabank Arena",
-      "city": "Toronto, ON",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png"
-    },
-    {
-      "id": "401909886",
-      "league": "NBA",
-      "game": "NY @ CHI",
-      "start": "2026-10-29T00:00Z",
-      "venue": "United Center",
-      "city": "Chicago, IL",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
-    },
-    {
-      "id": "401909887",
-      "league": "NBA",
-      "game": "HOU @ MIL",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Fiserv Forum",
-      "city": "Milwaukee, WI",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
-    },
-    {
-      "id": "401909888",
-      "league": "NBA",
-      "game": "GS @ MIN",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Target Center",
-      "city": "Minneapolis, MN",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png"
-    },
-    {
-      "id": "401909889",
-      "league": "NBA",
-      "game": "DEN @ NO",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Smoothie King Center",
-      "city": "New Orleans, LA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
-    },
-    {
-      "id": "401909890",
-      "league": "NBA",
-      "game": "SA @ UTAH",
-      "start": "2026-10-29T01:00Z",
-      "venue": "Delta Center",
-      "city": "Salt Lake City, UT",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
-    },
-    {
-      "id": "401909891",
-      "league": "NBA",
-      "game": "OKC @ DAL",
-      "start": "2026-10-29T01:30Z",
-      "venue": "American Airlines Center",
-      "city": "Dallas, TX",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
-    }
-  ],
+  "upcoming": [],
   "games": [
+    {
+      "id": "401909878",
+      "league": "NBA",
+      "game": "DET @ NY",
+      "start": "2026-10-28T00:00Z",
+      "venue": "Madison Square Garden",
+      "provisional": true,
+      "score": 0.0094,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+      "summary": "Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule."
+    },
     {
       "id": "401908045",
       "league": "MLB",
@@ -180,18 +44,6 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
       "summary": "Boston is on the second night of a back-to-back laying 11.5 to a rested Brooklyn; my margin is about 10.5, so Nets +11.5 is the most likely winner (thin edge). No usage SGP qualifies and the total is only 3.4 over."
-    },
-    {
-      "id": "401909878",
-      "league": "NBA",
-      "game": "DET @ NY",
-      "start": "2026-10-28T00:00Z",
-      "venue": "Madison Square Garden",
-      "provisional": true,
-      "score": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-      "summary": "Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule."
     },
     {
       "id": "401909879",

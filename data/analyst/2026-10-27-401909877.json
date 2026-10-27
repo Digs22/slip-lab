@@ -4,14 +4,14 @@
  "legs": [],
  "extra_legs": [
   {
-   "desc": "Brooklyn Nets +11.5",
+   "desc": "Brooklyn Nets +12.5",
    "game": "Brooklyn Nets @ Boston Celtics",
    "market": "spread",
    "team": "BKN",
    "side": null,
-   "line": 11.5,
-   "odds": -105,
-   "book": "TheSpread/Wagertalk consensus (DK -110)",
+   "line": 12.5,
+   "odds": -110,
+   "book": "DraftKings",
    "fair": 0.5,
    "books": 4,
    "signals": {
@@ -30,9 +30,9 @@
    "team": null,
    "side": "over",
    "line": 222.5,
-   "odds": -108,
-   "book": "DraftKings (ESPN)",
-   "fair": 0.496,
+   "odds": -110,
+   "book": "DraftKings",
+   "fair": 0.5,
    "books": 4,
    "signals": {
     "totals_model": 0.55,

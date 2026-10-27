@@ -32,12 +32,9 @@ Chemistry: Portland's Lillard-Morant backcourt is new; LAL lost LeBron and added
 Verdict: the Under is the model-backed leg; the side is a coin flip.
 
 Legs considered:
-- Under 235.5: Blended projection 232.9 (230.5 on pure 2025-26 ratings) is under 235.5, and both teams' 3-game offenses are running hot above their season norms.
-- Portland Trail Blazers +2.5: Portland has three days of rest and a 98.0 DRtg in two games, my margin is about even, but Henderson is questionable and LAL has Doncic at home.
+- Under 233.5: Blended projection 232.9 (230.5 on pure 2025-26 ratings) is under 233.5, and both teams' 3-game offenses are running hot above their season norms.
+- Portland Trail Blazers +1.5: Portland has three days of rest and a 98.0 DRtg in two games, my margin is about even, but Henderson is questionable and LAL has Doncic at home.
 - Portland Trail Blazers ML: Plus-money on a 3-0 team rested three days; Capper's lists +114 and Dimers leans Lakers, so it is a no-edge lean.
-
-Our bets:
-- straight (lean): Under 235.5 (-112): pending -> **pending**
 
 ### 2026-10-21: vs Phoenix Suns (final: PHX 83, POR 124)
 

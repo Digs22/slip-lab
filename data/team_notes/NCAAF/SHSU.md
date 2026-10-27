@@ -29,9 +29,9 @@ SEARCH NOTE: about 16 WebSearch calls across the two games plus ESPN summary and
 16) Conclusion: weak edge. The market already moved toward SHSU, and common-opponent math plus the pass-defense mismatch supports +4.5, but SHSU's offense is among the worst in FBS and a loss by 7-10 is just as plausible. Treat as a lean, not a pick of strength.
 
 Legs considered:
-- Sam Houston +4.5: Common-opponent math (WKU beat MOST by 21 on the road and SHSU by 13) rates these teams even, so 4.5 at home is a bit high.
-- Under 50.5: Sam Houston's No. 3 pass defense and 2-for-13 third-down offense point to about 49, though Missouri State's defense gives up points.
+- Sam Houston +6: Common-opponent math (WKU beat MOST by 21 on the road and SHSU by 13) rates these teams even, so 4.5 at home is a bit high.
+- Under 52.5: Sam Houston's No. 3 pass defense and 2-for-13 third-down offense point to about 49, though Missouri State's defense gives up points.
 - Sam Houston ML: If the teams are about even, +180 (35.7%) pays a bit more than the roughly 38-40% win chance I see.
 
 Our bets:
-- straight (lean): Sam Houston +4.5 (-105): pending -> **pending**
+- straight (lean): Sam Houston +6 (-110): pending -> **pending**

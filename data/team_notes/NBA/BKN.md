@@ -34,11 +34,11 @@ Chemistry: BOS swapped Brown for George and added M. Robinson; Tatum is the prim
 Verdict: no strong edge; Nets +11.5 is a thin back-to-back spot, the total is a lean, and the Randle prop is a low-confidence leg.
 
 Legs considered:
-- Brooklyn Nets +11.5: Boston is on a back-to-back and lays 11.5; my margin is about 10.5, Dimers shows a 6.7% edge, and Nets are 5-3 ATS vs BOS in two years.
+- Brooklyn Nets +12.5: Boston is on a back-to-back and lays 11.5; my margin is about 10.5, Dimers shows a 6.7% edge, and Nets are 5-3 ATS vs BOS in two years.
 - Over 222.5: Blended projection 225.9 is 3.4 over 222.5, but Under is 6-1 in the last seven Boston meetings, so it is only a mild lean.
 
 Our bets:
-- straight (lean): Brooklyn Nets +11.5 (-105): pending -> **pending**
+- straight (lean): Brooklyn Nets +12.5 (-110): pending -> **pending**
 
 ### 2026-10-25: vs Indiana Pacers (final: IND 136, BKN 109)
 
