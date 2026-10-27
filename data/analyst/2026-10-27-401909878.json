@@ -1,0 +1,84 @@
+{
+ "summary": "Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Detroit Pistons +4.5",
+   "game": "Detroit Pistons @ New York Knicks",
+   "market": "spread",
+   "team": "DET",
+   "side": null,
+   "line": 4.5,
+   "odds": -115,
+   "book": "FanDuel (Lineups.com); DK +3.5 -112",
+   "fair": 0.535,
+   "books": 5,
+   "signals": {
+    "season": 0.57,
+    "recent_form": 0.58,
+    "matchup": 0.52,
+    "injuries": 0.47,
+    "experts": 0.54,
+    "history": 0.54
+   },
+   "note": "Detroit is 3-0 with a 102.5 DRtg, swept NY last year and gets 4.5 at FanDuel/BetMGM; Duren out and Thompson questionable are the risks."
+  },
+  {
+   "desc": "Detroit Pistons ML",
+   "game": "Detroit Pistons @ New York Knicks",
+   "market": "ml",
+   "team": "DET",
+   "side": null,
+   "line": null,
+   "odds": 130,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.41,
+   "books": 5,
+   "signals": {
+    "season": 0.5,
+    "recent_form": 0.52,
+    "matchup": 0.48,
+    "experts": 0.48
+   },
+   "note": "Plus money on the better early-season team; DK +130, Bleacher Nation +136, Last Word on Sports +151, so ask for 3 books of agreement."
+  },
+  {
+   "desc": "Over 219.5",
+   "game": "Detroit Pistons @ New York Knicks",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 219.5,
+   "odds": -108,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.496,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.53,
+    "pace": 0.5,
+    "history": 0.46
+   },
+   "note": "Blended projection 221.6 is 2.1 over, but NY's last five games went Under and Duren's absence cuts both ways, so it is a thin lean."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "None: Cunningham (30.5%) faces NY guards allowing 23rd; Brunson (30.4%) faces a DET guard defense ranked top 4 in 2025-26; Towns (25.9%) faces DET's elite rim defense (center is also Duren-less, a small boost).",
+  "note": "Towns o11.5 rebounds appears at -108 (Tony's Picks) and o10.5 at -119 (Last Word on Sports) with different lines and no named books, so it fails the 2-book rule; no SGP built."
+ },
+ "totals_projection": {
+  "possessions": 100.58,
+  "NY": 108.2,
+  "DET": 113.35,
+  "total": 221.55,
+  "line": 219.5,
+  "math": "NY ORtg avg(119.8,99.2)=109.5, DRtg avg(113.3,105.4)=109.35, pace avg(96.8,102.5)=99.65. DET ORtg avg(117.3,114.8)=116.05, DRtg avg(108.9,102.5)=105.7, pace avg(99.9,103.1)=101.5. Pace 100.58. NY avg(109.5,105.7)*1.0058=108.2; DET avg(116.05,109.35)*1.0058=113.35; sum 221.55."
+ },
+ "research": "Sources: ESPN summary API (DK, injuries, predictor, box scores), search snippets from Bleacher Nation, TheSpread, Lineups.com, Capper's Picks, SportsGambler, Last Word on Sports, Dimers, Sports Mole, Las Vegas Sports Betting, ATS.io, Tony's Picks. Direct page fetches were blocked.\nLines (ESPN/DK): NY -3.5 (NY -108 / DET -112), ML NY -155 / DET +130, total 219.5 (o -108 / u -112). Bleacher Nation NY -4.5, 218.5, ML -162/+136; SportsGambler (BetMGM) NY -4.5, 218.5; Lineups.com DET +4.5 (-115, FanDuel); TheSpread DET +4, NY -170, total 219; Capper's NY -3.5, -155/+130; Last Word on Sports NY -2.5, 215.5, -175/+151. Sports Mole's DET -7.5 / 212.5 conflicts with everyone and is ignored.\nFair: DK ML no-vig NY 0.583 / DET 0.417; Dimers NY ML -155 with 64.8% and a 4.0% edge (disagrees with DET); ESPN predictor NY 61.4%.\nRest: NY played 10/25 (L 102-111 ORL) and DET played 10/25 at PHI (W 106-93); both have one day of rest. Tip 8:00 PM ET at Madison Square Garden.\nInjuries (ESPN): DET Jalen Duren out (hamstring, to 11/9); Ausar Thompson (ankle) and Isaiah Joe (hip) day-to-day. NY Jose Alvarado out (ankle sprain, back 10/28). Taurean Prince is not listed.\nForm: DET 3-0 in the regular season (W 121-113 BOS, W 128-111 MIA, W 106-93 PHI): ORtg 114.8, DRtg 102.5. NY 0-3 (L 100-106 PHI, L 103-107 BOS, L 102-111 ORL): ORtg 99.2, DRtg 105.4; Brunson shot 6-19 and 12-28, and NY is 18th in 3P% at 32.4 vs Detroit 42.0 on similar volume.\nPlayer form: Cunningham 22/4/8, 16/2/8, 26/8/8; Collins 6, 23, 16; Reed 19/11 and 8/8 filling for Duren; Robinson 21, 17, 21; Jenkins 18/8/6 started in PHI. Brunson 21, 19, 28; Towns 19/12, 22/10, 22/14; Anunoby 10, 20, 22; Bridges 4, 0, 6.\nUsage (2025-26 BBR via notes): Cunningham 30.5%, Brunson 30.4%, Towns 25.9%. DvP: NY allows G 23rd, F 26th, C 29th (tough everywhere); DET guard defense top 4 in 2025-26. No qualifier.\nTotals (NBA.md method, blend): 221.6 vs 219.5 is 2.1 over, below the 4-point trigger. Pick Dawgz notes NY's last five went Under; Bleacher Nation and Lineups.com lean Under (116-100 and 111-108 projections). Treat as no real edge.\nMargin: pure 2025-26 ratings give NY by about 1.6 at home; blended with current games Detroit is ahead by 2.6. The market (NY -3.5/-4.5) is above both, which is why DET +4.5 is the lean. Bleacher Nation projects DET 116-100 despite taking NY -4.5.\nCoaching: Bickerstaff's Pistons are physical with elite rim protection (60-22 last year, 4th in opp ppg); Mike Brown's champion Knicks all five starters returned, slower pace (96.8) and 53-29 last year with a tough DvP. NY lost Mitchell Robinson to BOS; Drummond is the backup C.\nExperts: Lineups.com DET +4.5 and Under, DET 111-108; SportsGambler Pistons +3.5 (-104); Bleacher Nation NY -4.5, Under 218.5; TheSpread and Brian Bitler NY; Dimers NY ML; Scores24 DET +5.5. Split.\nHistory: Detroit swept the Knicks 3-0 in the 2025-26 regular season; the 2025 playoff series split 3-3 in the first round. NY is 0-3 and cannot afford 0-4 (Bitler), a classic public-side spot.\nProps: Brunson pts 25.5 (-103 o / -125 u; SportsGambler/BetMGM) vs Bleacher Nation 24.5; Cunningham 23.5 pts (BN) vs 22.5 (Sports Mole), assists 8.5 (-133, BetMGM) vs 9.5 (BN); Towns pts 19.5 (-120) vs 18.5, reb 10.5-11.5. Lines conflict between sources and none is confirmed at 2 named books, so no prop is listed.\nChemistry: NY's offense is sputtering early (99 ORtg); DET added Collins, Robinson, Joe and G. Harris and is short at center tonight.\nVerdict: no big edge; Pistons +4.5 is the best number, the ML is a plus-money dog."
+}

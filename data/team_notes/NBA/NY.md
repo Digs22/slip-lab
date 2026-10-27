@@ -8,8 +8,38 @@
 - 2026-10-20: Towns' 2025-26 floors: 7+ reb in 93% of games (11.9 rpg), 10+ pts 93%. Brunson's floors: 12+ pts 96%, 3+ ast 96%, 20+ pts only 80%.
 - 2026-10-23: BBR 2025-26 recheck: ORtg 119.8, DRtg 113.3, pace 96.8. Own DvP calc: G 23rd, F 26th, C 29th (tough everywhere). Towns 11+ reb in 71% of 2025-26 games.
 - 2026-10-25: 0-2 (100-106 PHI, 103-107 at BOS); Brunson shot 13-36. Slow pace (games of 206 and 210). Vs ORL without Banchero: -7.5, ML -298, total 224.5; Alvarado day-to-day.
+- 2026-10-27: 0-3 (L 102-111 ORL); 3-game ORtg 99.2, DRtg 105.4, 3P% 32.4. Alvarado out (ankle, back 10/28). Home vs DET -3.5, total 219.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-27: vs Detroit Pistons
+
+Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule.
+
+Sources: ESPN summary API (DK, injuries, predictor, box scores), search snippets from Bleacher Nation, TheSpread, Lineups.com, Capper's Picks, SportsGambler, Last Word on Sports, Dimers, Sports Mole, Las Vegas Sports Betting, ATS.io, Tony's Picks. Direct page fetches were blocked.
+Lines (ESPN/DK): NY -3.5 (NY -108 / DET -112), ML NY -155 / DET +130, total 219.5 (o -108 / u -112). Bleacher Nation NY -4.5, 218.5, ML -162/+136; SportsGambler (BetMGM) NY -4.5, 218.5; Lineups.com DET +4.5 (-115, FanDuel); TheSpread DET +4, NY -170, total 219; Capper's NY -3.5, -155/+130; Last Word on Sports NY -2.5, 215.5, -175/+151. Sports Mole's DET -7.5 / 212.5 conflicts with everyone and is ignored.
+Fair: DK ML no-vig NY 0.583 / DET 0.417; Dimers NY ML -155 with 64.8% and a 4.0% edge (disagrees with DET); ESPN predictor NY 61.4%.
+Rest: NY played 10/25 (L 102-111 ORL) and DET played 10/25 at PHI (W 106-93); both have one day of rest. Tip 8:00 PM ET at Madison Square Garden.
+Injuries (ESPN): DET Jalen Duren out (hamstring, to 11/9); Ausar Thompson (ankle) and Isaiah Joe (hip) day-to-day. NY Jose Alvarado out (ankle sprain, back 10/28). Taurean Prince is not listed.
+Form: DET 3-0 in the regular season (W 121-113 BOS, W 128-111 MIA, W 106-93 PHI): ORtg 114.8, DRtg 102.5. NY 0-3 (L 100-106 PHI, L 103-107 BOS, L 102-111 ORL): ORtg 99.2, DRtg 105.4; Brunson shot 6-19 and 12-28, and NY is 18th in 3P% at 32.4 vs Detroit 42.0 on similar volume.
+Player form: Cunningham 22/4/8, 16/2/8, 26/8/8; Collins 6, 23, 16; Reed 19/11 and 8/8 filling for Duren; Robinson 21, 17, 21; Jenkins 18/8/6 started in PHI. Brunson 21, 19, 28; Towns 19/12, 22/10, 22/14; Anunoby 10, 20, 22; Bridges 4, 0, 6.
+Usage (2025-26 BBR via notes): Cunningham 30.5%, Brunson 30.4%, Towns 25.9%. DvP: NY allows G 23rd, F 26th, C 29th (tough everywhere); DET guard defense top 4 in 2025-26. No qualifier.
+Totals (NBA.md method, blend): 221.6 vs 219.5 is 2.1 over, below the 4-point trigger. Pick Dawgz notes NY's last five went Under; Bleacher Nation and Lineups.com lean Under (116-100 and 111-108 projections). Treat as no real edge.
+Margin: pure 2025-26 ratings give NY by about 1.6 at home; blended with current games Detroit is ahead by 2.6. The market (NY -3.5/-4.5) is above both, which is why DET +4.5 is the lean. Bleacher Nation projects DET 116-100 despite taking NY -4.5.
+Coaching: Bickerstaff's Pistons are physical with elite rim protection (60-22 last year, 4th in opp ppg); Mike Brown's champion Knicks all five starters returned, slower pace (96.8) and 53-29 last year with a tough DvP. NY lost Mitchell Robinson to BOS; Drummond is the backup C.
+Experts: Lineups.com DET +4.5 and Under, DET 111-108; SportsGambler Pistons +3.5 (-104); Bleacher Nation NY -4.5, Under 218.5; TheSpread and Brian Bitler NY; Dimers NY ML; Scores24 DET +5.5. Split.
+History: Detroit swept the Knicks 3-0 in the 2025-26 regular season; the 2025 playoff series split 3-3 in the first round. NY is 0-3 and cannot afford 0-4 (Bitler), a classic public-side spot.
+Props: Brunson pts 25.5 (-103 o / -125 u; SportsGambler/BetMGM) vs Bleacher Nation 24.5; Cunningham 23.5 pts (BN) vs 22.5 (Sports Mole), assists 8.5 (-133, BetMGM) vs 9.5 (BN); Towns pts 19.5 (-120) vs 18.5, reb 10.5-11.5. Lines conflict between sources and none is confirmed at 2 named books, so no prop is listed.
+Chemistry: NY's offense is sputtering early (99 ORtg); DET added Collins, Robinson, Joe and G. Harris and is short at center tonight.
+Verdict: no big edge; Pistons +4.5 is the best number, the ML is a plus-money dog.
+
+Legs considered:
+- Detroit Pistons +4.5: Detroit is 3-0 with a 102.5 DRtg, swept NY last year and gets 4.5 at FanDuel/BetMGM; Duren out and Thompson questionable are the risks.
+- Detroit Pistons ML: Plus money on the better early-season team; DK +130, Bleacher Nation +136, Last Word on Sports +151, so ask for 3 books of agreement.
+- Over 219.5: Blended projection 221.6 is 2.1 over, but NY's last five games went Under and Duren's absence cuts both ways, so it is a thin lean.
+
+Our bets:
+- straight (lean): Detroit Pistons +4.5 (-115): pending -> **pending**
 
 ### 2026-10-25: vs Orlando Magic (final: ORL 111, NY 102)
 

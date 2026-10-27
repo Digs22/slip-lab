@@ -9,8 +9,37 @@
 - 2026-10-23: BBR 2025-26: ORtg 120.8, DRtg 112.7, pace 94.8 (slowest). Own DvP calc: G 27th, F 30th, C 25th, so opposing stars rarely pass the usage gate.
 - 2026-10-23: Tatum is the primary handler (13 pts on 6-23, 11 ast in the opener; 26+ pts in only 2 of 16 games in 2025-26); Paul George scored 38 in his BOS debut.
 - 2026-10-26: 1-1; home vs CHI -14.5, total 232.5 (model 229.1). Carter out (mono). Pace 29th again; fewer covers as big favorite flagged by Pick Dawgz.
+- 2026-10-27: 2-1; played 10/26 (W 134-99 CHI) then hosts BKN as -11.5 on a back-to-back. Blended 2026-27 sample: ORtg 115.5, DRtg 105.4, pace 102.2 (vs 94.8 in 2025-26).
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-27: vs Brooklyn Nets
+
+Boston is on the second night of a back-to-back laying 11.5 to a rested Brooklyn; my margin is about 10.5, so Nets +11.5 is the most likely winner (thin edge). No usage SGP qualifies and the total is only 3.4 over.
+
+Sources: ESPN summary API (DK pickcenter, injuries, predictor, box scores), search snippets from Bleacher Nation, Wagertalk, TheSpread, Capper's Picks, Pick Dawgz, Sports Mole, Dimers (via Wagertalk/summaries), Fubo, Covers injuries, Tony's Picks, Gambeta, Polymarket. Direct page fetches were blocked (proxy), so figures come from ESPN plus snippets.
+Lines (ESPN/DK): BOS -11.5 (-110 both), ML BOS -575 / BKN +425, total 222.5 (o -108 / u -112). Wagertalk -11.5 (-110) and o222.5 (-108), spread bounced 11.5-12.5, total dipped to 220.5; TheSpread BKN +11.5 (-105), total 221; Pick Dawgz 12.5; Bleacher Nation total 220.5, ML -592; Capper's/Pick Dawgz ML -575. Polymarket BOS 78c / BKN 22c. ESPN predictor BOS 85.1%.
+Fair: DK spread is 50/50; ML no-vig BOS about 0.82. BOS ML is shorter than -300, so it is not a straight.
+Rest: BOS beat CHI 134-99 last night (10/26) and is on a back-to-back; BKN played 10/25 (lost 109-136 at home to IND) and is rested. Tatum played only 28 min in the blowout, but Mazzulla says back-to-back minutes depend on the sports science staff (Fubo/Bleacher Nation). Tip 7:30 PM ET at TD Garden.
+Injuries (ESPN): BOS Devin Carter out (mono, to 11/8). BKN Tyler Bilodeau out (shoulder, 10/30). Mikel Brown Jr. rested Sunday, off the Tuesday report per TheSpread (Pick Dawgz still lists him questionable; Scores24 says out).
+Form: BOS 2-1 (L 113-121 at DET, W 107-103 NY, W 134-99 CHI). BKN 0-3 (L 103-110 CHA, L 121-125 CLE, L 109-136 IND) with ORtg about 104 and DRtg about 116 in those games.
+Player form: Tatum 13/4/11, 36/9/7, 23/7/6; George 38, 15, 16; Pritchard 28 in 22 min last night. Randle 33/8/7, 23/6/5, 10/7/7; Porter Jr. 26, 28, 10 (21 min in the IND blowout).
+Usage (2025-26 BBR via notes): Tatum 30.0%, Porter Jr. 30.5%, Randle 26.5%, George 23.3%, White 22.0%. DvP (own calc, rank 1 = most allowed): BKN G 8th, F 15th, C 10th; BOS G 27th, F 30th, C 25th. No clean qualifier (see sgp).
+Totals (NBA.md method, early-season blend): see totals_projection; 225.9 vs 222.5 is 3.4 over, under the 4-point trigger. Capper's notes Under is 6-1 in the last seven in Boston, and Sports Mole picks the Under; Bleacher Nation and Wagertalk pick the Over, so I list it as a mild lean.
+Margin: BOS blended +10.0 neutral, +2 home, minus about 1.5 for the back-to-back = about 10.5 vs 11.5. Dimers rates Nets +11.5 at 49c with a 6.7% edge. Consensus: Boston wins, split on the cover.
+Coaching: Mazzulla's Celtics were the slowest team in 2025-26 (94.8 pace, 56-26); Pick Dawgz flags BOS failing to cover most big-favorite games. Fernandez's Nets were the worst offense (108.7) but added Randle and Porter's shot volume; Capper's says BKN allows the most 3-point attempts in the NBA, which helps Boston's shooters.
+Experts: Bleacher Nation BOS -11.5 and Over 220.5 (128-103); Wagertalk BOS -11.5 and Over 222.5 (122-106); Capper's BOS -11.5; TheSpread Nets +11.5 and Under 221; Sports Mole Under 222.5; Scores24 BOS -10; Dimers Nets +11.5.
+History: BKN is 5-3 ATS vs BOS over two seasons (Wagertalk). BOS won the Feb 2026 meeting without Tatum.
+Props: Tony's Picks Randle o5.5 ast +115 (Pinnacle) vs DK +110; Gambeta AI leans the Under 5.5 (6 of last 20 games over). No Tatum, George or Porter lines at 2+ books, so none listed.
+Chemistry: BOS swapped Brown for George and added M. Robinson; Tatum is the primary handler now. BKN adds Randle next to Porter with rookies Demin and Brown.
+Verdict: no strong edge; Nets +11.5 is a thin back-to-back spot, the total is a lean, and the Randle prop is a low-confidence leg.
+
+Legs considered:
+- Brooklyn Nets +11.5: Boston is on a back-to-back and lays 11.5; my margin is about 10.5, Dimers shows a 6.7% edge, and Nets are 5-3 ATS vs BOS in two years.
+- Over 222.5: Blended projection 225.9 is 3.4 over 222.5, but Under is 6-1 in the last seven Boston meetings, so it is only a mild lean.
+
+Our bets:
+- straight (lean): Brooklyn Nets +11.5 (-105): pending -> **pending**
 
 ### 2026-10-26: vs Chicago Bulls (final: CHI 99, BOS 134)
 

@@ -1,0 +1,84 @@
+{
+ "summary": "Both teams are 3-0 and the market is near a pick'em; the model projects 2.6 to 5.0 points under 235.5, so the Under is the most likely winner (about 55%). Portland +2.5 is a no-edge lean.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 235.5",
+   "game": "Portland Trail Blazers @ Los Angeles Lakers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 235.5,
+   "odds": -112,
+   "book": "DraftKings (ESPN); Wagertalk -112",
+   "fair": 0.504,
+   "books": 5,
+   "signals": {
+    "totals_model": 0.56,
+    "pace": 0.52,
+    "experts": 0.52,
+    "rest": 0.52
+   },
+   "note": "Blended projection 232.9 (230.5 on pure 2025-26 ratings) is under 235.5, and both teams' 3-game offenses are running hot above their season norms."
+  },
+  {
+   "desc": "Portland Trail Blazers +2.5",
+   "game": "Portland Trail Blazers @ Los Angeles Lakers",
+   "market": "spread",
+   "team": "POR",
+   "side": null,
+   "line": 2.5,
+   "odds": -110,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.5,
+   "books": 5,
+   "signals": {
+    "season": 0.52,
+    "recent_form": 0.52,
+    "rest": 0.54,
+    "injuries": 0.47,
+    "experts": 0.5
+   },
+   "note": "Portland has three days of rest and a 98.0 DRtg in two games, my margin is about even, but Henderson is questionable and LAL has Doncic at home."
+  },
+  {
+   "desc": "Portland Trail Blazers ML",
+   "game": "Portland Trail Blazers @ Los Angeles Lakers",
+   "market": "ml",
+   "team": "POR",
+   "side": null,
+   "line": null,
+   "odds": 120,
+   "book": "DraftKings (ESPN)",
+   "fair": 0.437,
+   "books": 4,
+   "signals": {
+    "season": 0.5,
+    "rest": 0.52,
+    "matchup": 0.48,
+    "experts": 0.47
+   },
+   "note": "Plus-money on a 3-0 team rested three days; Capper's lists +114 and Dimers leans Lakers, so it is a no-edge lean."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Avdija (29.3%, LAL SF allows 2nd), Morant (32.5% with MEM, LAL PG 2nd) and Lillard clear the DvP gate on 2025-26 numbers (they predate Kessler). Doncic 38.1% and Reaves 26.7% face POR PG/SG 14-22 of 30 (middle) so fail; Henderson is questionable.",
+  "note": "Avdija 22.5 pts / 6.5 reb / 4.5 ast and Lillard 19.5 pts appear only on Bleacher Nation, and Doncic o29.5 pts only on Sports Mole (BN lists 32.5), so no prop clears the 2-book rule and no SGP is built."
+ },
+ "totals_projection": {
+  "possessions": 101.65,
+  "LAL": 115.3,
+  "POR": 117.6,
+  "total": 232.9,
+  "line": 235.5,
+  "math": "LAL ORtg avg(118.2,122.8)=120.5, DRtg avg(116.4,110.3)=113.35, pace avg(98.3,104.2)=101.25. POR ORtg avg(114.4,121.6)=118.0, DRtg avg(114.7,98.0)=106.35, pace avg(100.5,103.6)=102.05. Pace 101.65. LAL avg(120.5,106.35)*1.0165=115.3; POR avg(118.0,113.35)*1.0165=117.6; sum 232.9. Pure 2025-26 inputs (pace 99.4) give 230.5."
+ },
+ "research": "Sources: ESPN summary API, search snippets from Bleacher Nation, Wagertalk, Lineups.com, Pickswise, Capper's Picks, Pick Dawgz, Sports Mole, iHeart model, BlazersEdge, Yahoo Sports, RealGM, Kalshi, Dimers, Tony's Picks, Scores24. Direct fetches were blocked.\nLines (ESPN/DK): LAL -2.5 (-110 both), ML LAL -142 / POR +120, total 235.5 (o -108 / u -112). Wagertalk opened LAL -3.5, now POR +2.5 and Under 235.5 (-112); Pickswise LAL -3.5 (-104); Lineups.com LAL -1.5 (-125, BetRivers) and Over 235.5 (-110); Capper's POR +2.5, total 236.5, ML -135/+114; RealGM DK ML -143; iHeart ML -160; Bleacher Nation 236.5; Sports Mole -4.5 / 228.5 and The Rx -6 / 221.5 look stale. Kalshi LAL 50-52%. ESPN predictor LAL 52.4%.\nFair: DK ML no-vig LAL 0.563 / POR 0.437; DK spread is 50/50; total Under no-vig 0.504.\nRest/schedule: LAL played 10/25 afternoon (W 132-123 at UTA) and has two days of rest; POR played 10/23 (W 128-120 at SAC) and has three. Tip 10:00-11:00 PM ET (ESPN lists 03:00Z) at Crypto.com Arena.\nInjuries (ESPN, BlazersEdge): POR Shaedon Sharpe out (meniscus, season), Chris Youngblood out (ankle, 10/29), Scoot Henderson (ankle soreness) and Branden Carlson (concussion protocol) questionable. LAL Adou Thiero out (knee, back 10/28); Kessler has a finger issue but is available (Pick Dawgz). Doncic and Reaves are not listed.\nForm: both 3-0 (ESPN). LAL W 127-105 GS, W 125-117 LAC, W 132-123 at UTA: ORtg 122.8, DRtg 110.3. POR W 124-83 PHX, W 128-120 SAC (plus a 128-118 preseason loss): ORtg 121.6, DRtg 98.0 over two box-score games.\nPlayer form: Doncic 28/8/7, 23/6/7, 52/8/10 (on 17-30); Reaves 23/4/6, 28/2/9, 29/1/4; Kessler 26, 22, 2; Sexton 5, 13. Avdija 18/10/4 and 26/7/6; Lillard 25/3/6 and 19/5/2; Morant 14/5/8 and 12/3/7; Clingan 11/7 and 8/10; Camara 18, 19; Holiday 8, 12.\nUsage (2025-26 BBR via notes): Doncic 38.1%, Morant 32.5% (MEM), Avdija 29.3%, Reaves 26.7%, Henderson 25.0%, Holiday 23.5%. DvP (rank 1 = most allowed): LAL PG 2nd, SG 1st, SF 2nd, C 4th (Rotogrinders FD, pre-Kessler); POR PG 15-18, SG 14-22, SF 22-26 of 30 (Fantasy Team Advice). Portland qualifiers exist, but no priced props.\nTotals (NBA.md method, blend): 232.9 vs 235.5 is 2.6 under (5.0 under on pure 2025-26); with the books at 235.5-236.5 that is the strongest model gap on this slate. Lineups.com (119-117) and Pick Dawgz lean Over, Wagertalk and Bleacher Nation (Under 236.5) lean Under.\nMargin: blended POR by 2.3 neutral, so LAL by about -0.3 with home court; pure 2025-26 inputs give LAL by 3. Market LAL -2.5, so no side edge; iHeart's model has LAL 119-116 but picks POR +3.5, Dimers leans LAL ML.\nCoaching: Redick runs Doncic 30-38 min and uses Kessler/Mamukelashvili at center; the Lakers play 98.3 pace (2025-26). The Blazers added Lillard (back from Achilles) and Morant next to Avdija, Holiday and Clingan; they were 42-40 and ranked 100.5 pace.\nExperts: Lineups.com LAL -1.5 and Over 235.5; Pickswise LAL -3.5; Wagertalk POR +2.5 and Under 235.5; Sports Mole LAL -4.5; Dimers LAL ML (-133); Scores24 LAL; Bleacher Nation Under 236.5. Split on side and total.\nHistory: LAL won four of the last six meetings; POR won the Oct 27, 2025 game 122-108 (as a -2.5 favorite). POR lost the 2026 playoff series to SA.\nProps (not listed, one source each): Doncic pts 29.5 (Sports Mole) vs 32.5 (BN); Doncic o3.5 threes -127 (Tony's); Reaves 23.5, Avdija 22.5/6.5/4.5, Lillard 19.5/3.5/4.5 (BN); Lillard o2.5 threes (Sports Mole).\nChemistry: Portland's Lillard-Morant backcourt is new; LAL lost LeBron and added Kessler, who is producing 22-26 points.\nVerdict: the Under is the model-backed leg; the side is a coin flip."
+}

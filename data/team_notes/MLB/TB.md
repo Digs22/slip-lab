@@ -14,8 +14,41 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-22: Rasmussen is the postseason Game 1 starter (ALDS G1, ALCS G1/G5): 21 IP, 3 ER in October; 26.0% K and 0.91 WHIP in 2026.
 - 2026-10-22: Postseason offense .649 OPS through 9 games; regular-season 19.1% K vs RHP keeps strikeout props against TB low.
 - 2026-10-26: Freddy Peralta (acquired from the Mets at the deadline) is 3.25 ERA with TB, ~4.4 K per home start, 3/6/3 K in the playoffs; TB's bullpen postseason ERA is 3.62 and Kelly/Matz pitched both WS G1 and G2.
+- 2026-10-27: Griffin Jax (RHP, 3.53 ERA, 9.3 K/9, 6.00 postseason ERA) started WS G4 on a short leash (no start over 5 IP since July); G3 pen use: Booser 12, Sulser 32, Cleavinger 11, Wells 16, Matz 17; Kelly, Seymour, Baker rested.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-27: vs Milwaukee Brewers
+
+Rested pens and a Milwaukee bullpen game make this a no-edge number; the safest leg is Rays +1.5 (-156). No Jax strikeout prop, since only unnamed-book prices were found.
+
+1. Schedule: World Series Game 4, Tue 10/27 8:00 PM ET (FOX) at Tropicana Field; MIL leads 3-0 after G1 3-2, G2 5-4, G3 10-1. Sweep game. (ESPN)
+2. Rays starter (ESPN, StatsAPI, NBC Sports, Nightengale): Griffin Jax, RHP, 8-10, 3.53 ERA (some sources 3.28), 1.18 WHIP, 116 K in 112.1 IP (9.3 K/9), 23 GS of 34 G; postseason 6.00 ERA, 3 R in 4 IP in ALCS G3. No outing over 5 IP since July; 6.75 ERA in 12 career games vs MIL. (Rotowire, Pitcher List, ClutchPoints)
+3. Brewers starter: NOT announced at research time (StatsAPI home-only probable, ESPN MIL blank). Expect a bullpen game; Drohan, May and Harrison mentioned; Woodruff threw the 9th in G3 so he is unlikely. (ESPN recap, SI, Yahoo)
+4. Why no props: Jax o3.5 K -115 (Bettors Insider SGP) and u3.5 -102 (Tony's Picks) have no named book, and MIL's plan is unknown, so I left K props out under the 10/25 rule. BettingPros shows the 3.5 line as the consensus.
+5. Lines: ESPN/DK MIL -142 / TB +118 (open -111/-109), run line TB +1.5 -156 / MIL -1.5 +129, total 7 o-113/u-107. SI/DK: MIL -131 / TB +109, RL +140/-169, 7 o-109/u-110. FanDuel MIL -136 / TB +116, RL +140/-170, total 7.5 o+116/u-142. The Lines MIL -139 / TB +115, RL +135/-166, 7 o-120/u+100. TheSpread MIL -142 / TB +119, U7 -105. BetOnline MIL -135 / +122, RL +137; BetRivers TB +123; Caesars U7 -112.
+6. No-vig: MIL ML 55.5-56.1% (DK ESPN 56.1, FD 55.5); TB +1.5 about 60% (FD 60.2, ESPN DK 58.3); Under 7 about 49% (push possible). ESPN matchup predictor MIL 52.3%; numberFire (FanDuel) gives TB 56.3%.
+7. Line movement: MIL opened -128 (ESPN DK -111) and moved to -142; total opened 7.5 at some books and fell to 7. TheSpread: 71% of ML bets and 87% of run line bets on MIL (public side).
+8. MIL bullpen: Gasser 6 IP, Senzatela 2 IP (26 pitches), Woodruff 1 IP (18) in G3; Ashby, Uribe, Megill did not pitch G3. Uribe 26 and Ashby 28 in G2 (10/24), so all have 2 days rest. Romero, May, Hall also rested. MIL pen has a 2.03 postseason ERA; relievers allowed 2 ER in 13 IP this series. (ESPN box scores, previews)
+9. TB bullpen: G3 Peralta 4.2 IP (87), Booser 12 pitches (4 R), Sulser 32, Cleavinger 11, Wells 16, Matz 17. G2: Booser 13, Seymour 34, Wells 8, Kelly 32, Matz 8. Kelly and Seymour are rested; closer Baker has not pitched in the WS. TB relievers allowed 8 ER in 11.2 IP this series.
+10. Cash: expected to give Jax a quick hook; he pulled starters at 12-21 outs all ALCS. Elimination game, so Baker and Seymour may be used early. (Yahoo, Rays notes)
+11. Offense: MIL majors-best 832 R, .759 OPS vs RHP, 22.3% K rate; Contreras hitting about .39 in the postseason; MIL scored 8 in one inning in G3. TB .752 OPS vs RHP in the season but .649 OPS in the postseason; 1 run in G3.
+12. Park/roof: Tropicana Field is a fixed dome on turf, so ESPN's 77F and gust figure do not matter. Plays pitcher-friendly (run index 94-97). Lineups.com has the Trop at 41-44-3 O/U, 8.5 R/G in that sample.
+13. Injuries (ESPN): TB McClanahan, Lux, Melton, Uceta, Heasley out; MIL Priester, Zerpa, Fitzpatrick out. None change the lineups or key relievers. Lineups not posted.
+14. Experts: TheSpread MIL ML (-142) and U7 (-105); The Lines MIL ML; Bettors Insider MIL ML, projects 5-3; Capper's Picks MIL -138; SI Over 7 (-109); TheRx Under 7; Picks and Parlays MIL ML and U7; Predictem 5-2 MIL; numberFire TB 56.3%.
+15. History: only the 2004 Red Sox came back from 0-3 (43 teams have trailed 3-0 in a best-of-seven). Over has hit in 4 of the last 5 meetings and 2 of 3 in this series (Lineups.com, TheSpread).
+16. Projection: MIL 3.8, TB 2.9, total 6.7 vs 7. A 0.3-run gap is no edge, so I list the Under only as a slim lean. Winner odds: MIL about 58% on my numbers vs 55.7% market, no edge either.
+17. Why TB +1.5 is the most likely leg: MIL needs to win by 2+, which the market prices at about 40% (fair 60% for TB +1.5 across DK/FD/The Lines); two of three games were one-run. A safety leg, not an edge.
+18. Limits: WebFetch and curl cannot reach betting sites (proxy blocked), so prices come from WebSearch snippets of SI, FanDuel Research, The Lines, TheSpread, Bettors Insider, TheRx, Tony's Picks and ESPN pickcenter. MIL starter and lineups unconfirmed.
+Sources: ESPN summary/pickcenter/box scores, MLB StatsAPI, SI Betting, FanDuel Research, The Lines, TheSpread, Bettors Insider, TheRx, Predictem, Lineups.com, Tony's Picks, BettingPros, Rotowire, Yahoo, NBC Sports, team notes (MIL, TB).
+
+Legs considered:
+- Tampa Bay Rays +1.5: Milwaukee needs a 2+ run win using a bullpen game, and two of the three games were one-run.
+- Milwaukee Brewers ML: Rested Ashby, Uribe and Megill plus the best lineup beat a short-leash Jax, but the 3-0 price already carries it.
+- Under 7: Both bullpens are rested and the dome is pitcher-friendly, but Jax's short leash and a MIL bullpen game keep my 6.7 close to 7.
+
+Our bets:
+- straight (lean): Milwaukee Brewers ML (-131): pending -> **pending**
 
 ### 2026-10-26: vs Milwaukee Brewers (final: MIL 10, TB 1)
 

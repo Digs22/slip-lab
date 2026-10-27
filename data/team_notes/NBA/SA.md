@@ -10,8 +10,36 @@
 - 2026-10-20: Wembanyama held to 27.6 pts+reb per game in five 2025-26 regular-season games vs OKC (Lineups.com).
 - 2026-10-23: Hosts some games at the Moody Center in Austin (smaller home edge). Wembanyama opened 1-13 but with 13 reb and 6 blk; Fox (wrist) day-to-day 10/23.
 - 2026-10-24: Played on 10/23 (L 114-110 vs HOU, Wembanyama 25/13) and again 10/24 at DAL as a 12.5-point favorite. Harris (calf) out per ESPN.
+- 2026-10-27: 1-2 (W 122-106 DAL); 3-game ORtg 107, DRtg 107. Hosts SAC as -18.5 (total 231.5), then at UTA on 10/28. Harris (calf) out until 10/28.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-27: vs Sacramento Kings
+
+Kings are down four rotation players and 0-3, but SA -18.5 is far above my 10-point margin, so Kings +18.5 is the most likely winner (about 53%). No total edge and no priced props.
+
+Sources: ESPN summary API, search snippets from Bleacher Nation, Wagertalk, TheSpread, iHeart model, SportsGambler, Sports Mole, Dimers, Tony's Picks, Scores24, Pick Dawgz. Direct fetches were blocked.
+Lines (ESPN/DK): SA -18.5 (SA -105 / SAC -115), ML SA -1650 / SAC +950, total 231.5 (o -105 / u -115). Wagertalk opened -18.5 and moved to -17.5; TheSpread -18, total 231; books list 17.5-18.5 and 229.5-231.5; ML range -1400 to -1800; Dimers Kings +17.5 at +102 with a 59.1% model probability and 9.6% edge. ESPN predictor SA 93.4%.
+Fair: DK spread SAC no-vig 0.511; ML no-vig SA about 0.93 (not a straight).
+Rest/schedule: SA played 10/24 at DAL (W 122-106) and has two days of rest; SAC played 10/25 at MEM (L 112-123), one day of rest. SA is at Utah on Wednesday, which Wagertalk flags as a letdown/rest risk for a full-game spread bet. Tip 8:00 PM ET at Frost Bank Center.
+Injuries (ESPN): SAC out Keegan Murray (ankle capsulitis, 10-14 day re-eval), Maxime Raynaud (knee), Dylan Cardwell (calf), Ben Simmons (Achilles, season). Sabonis is the only real center. SA out Tobias Harris (calf, back 10/28) and Jayden Quaintance (knee). Wembanyama and Fox are not listed.
+Form: SA 1-2 (L 104-116 OKC, L 110-114 HOU, W 122-106 DAL) with ORtg 107 and DRtg 107 in those games. SAC 0-3 (L 96-121 LAC, L 120-128 POR, L 112-123 MEM) with ORtg 105 and DRtg 119.
+Player form: Wembanyama 12/13/3, 25/13/2, 23/7/2 (1-13 in the opener); Fox 14/7/7, 19/4/9, 19/3/9; Castle 24, 15, 19; Harper 18, 20, 22; Vassell 7, 10, 11. Sabonis 14/18/8, 27/19/10, 15/15/3; LaVine 28, 22, 37; Acuff 12, 33, 22 on poor shooting (5-24, 10-26, 9-23).
+Usage: Wembanyama 32.4%, Fox 25.1% (2025-26), LaVine 23.7%, Sabonis 23.0%, Monk 24.0% (not in recent boxes). DvP (Rotogrinders FD, rank 1 = most allowed): SAC PG 6th, SG 2nd, SF 9th, PF 1st, C 10th; SA PG 25th, SG 30th, SF 30th, C 28th.
+Totals (NBA.md method, blend): 230.7 vs 231.5 is 0.8 under (1.2 over vs 229.5); no edge. iHeart model projects 122-107 (229) and the Under; Wagertalk 124-109 and lean Over 230.5; SportsGambler Under 229.5; Bleacher Nation Under 229.5.
+Margin: SA blended +8.3 neutral, +2 home = about 10 (pure 2025-26 ratings give about 11). Market 17.5-18.5 is 7-8 points higher. Sacramento is missing three bigs and Murray, and Acuff/LaVine are inefficient, so some of the gap is real, but SA is only 1-2 and shooting poorly. SA beat SAC 126-97 in preseason and by 13+ in the last three meetings (Sports Mole).
+Coaching: Mitch Johnson runs a three-guard lineup (Fox, Castle, Harper) with Vassell and Wembanyama; SA tends to rest starters in blowouts. The Kings are rebuilding with rookie Acuff taking heavy shots and a 22-60 2025-26 record.
+Experts: Dimers Kings +17.5 (+102); Wagertalk lean Kings +17.5, best bet SA first half; iHeart Kings +18.5, Under 230.5; Bleacher Nation Kings +18.5, Under; Tony's Picks panel Kings +16.5; Sports Mole and Scores24 Spurs to win; Sports Gambling Podcast Kings +18.5 (-115). Mostly Kings to cover.
+Props: Wembanyama pts u27.5 -113 (Tony's), -108 (SportsGambler, may be stale) vs Scores24 o19.5; Fox ast 6.5 +104 (Tony's) and 3.5 (Kalshi 50c, Dimers proj 6.6); Sabonis reb 13.5 -103 (Tony's, unverified), LaVine o24.5 pts (Sports Mole, unpriced). Conflicting lines; nothing at 2 named books, so no prop is listed.
+Chemistry: SA is thin on bigs behind Wembanyama only if he sits; SAC has a new roster (LaVine, Sabonis, Hunter, Acuff) and the lowest offense.
+Verdict: only a modest lean on the dog; the Spurs blowout is likely but 18.5 is large.
+
+Legs considered:
+- Sacramento Kings +18.5: Model margin is only 10 even with Sacramento's lost bigs, SA plays at Utah tomorrow, and Dimers rates Kings +17.5 at 59%.
+- Under 231.5: Projection 230.7 is level with 231.5 (books run 229.5-231.5), so this rests on blowout garbage time and SA's early shooting slump, not the model.
+
+Our bets:
+- straight (lean): Under 231.5 (-115): pending -> **pending**
 
 ### 2026-10-24: at Dallas Mavericks (final: SA 122, DAL 106)
 
