@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Washington Wizards
+### 2026-10-26: vs Washington Wizards (final: WSH 103, CHA 110)
 
 Charlotte is missing three guards and Washington has its stars, so Wizards +2.5 is the most likely winner; total projects 231.7 vs 228.5. No usage SGP: no priced props.
 
@@ -37,7 +37,7 @@ Legs considered:
 - Washington Wizards ML: Same case as the points, priced at +110 (Pick Dawgz +100, iHeart +109) for a team that has scored 124+ twice.
 
 Our bets:
-- straight (lean): Washington Wizards +2.5 (-110): pending -> **pending**
+- straight (lean): Washington Wizards +2.5 (-110): pending -> **loss**
 
 ### 2026-10-24: vs Miami Heat
 

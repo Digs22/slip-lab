@@ -15967,13 +15967,15 @@
           "note": "Peralta has 4.4 strikeouts per home start at the Trop, 3 and 6 and 3 in the playoffs, and Cash pulls starters around 15 to 18 outs.",
           "status": "Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 20.34,
       "stake": 18.0,
-      "to_win": 20.34
+      "to_win": 20.34,
+      "final": "MIL 10, TB 1"
     },
     {
       "id": "2026-10-26-WSHCHA-straight",
@@ -16025,13 +16027,17 @@
           "note": "Charlotte is without Knueppel, White and G. Williams while Washington has Trae, Davis and George healthy and scoring 124-128; 2.5 points is a cushion.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "WSH 103, CHA 110",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-26-DALPHI-straight",
@@ -16084,13 +16090,17 @@
           "note": "My projection is 42.5 (DAL 24.0, PHI 18.5) against 44.5; DK already shaded to 43.5 and Under money is arriving, so the cushion is small but real.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.0
+      "to_win": 15.0,
+      "final": "DAL 38, PHI 21",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-26-MINCLE-straight",
@@ -16141,13 +16151,17 @@
           "note": "Line moved from CLE -4.5 to -4.5; model margin is about CLE +3.9 after a rest adjustment, so the cover is near a coin flip.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "final": "MIN 125, CLE 127",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-26-CHIBOS-straight",
@@ -16197,13 +16211,17 @@
           "note": "Projection 229.1 is 3.4 under DK (4.4 under the 233.5 at FanDuel and Bleacher Report); Boston's pace is the slowest in the league.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "CHI 99, BOS 134",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-26-DALMIA-straight",
@@ -16254,13 +16272,15 @@
           "note": "Miami is 0-3 allowing 124.7 per game, Kyrie is back, and Dimers/Predictem both take Dallas as the dog.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 17.14,
       "stake": 18.0,
-      "to_win": 17.14
+      "to_win": 17.14,
+      "final": "DAL 113, MIA 109"
     },
     {
       "id": "2026-10-26-INDMIL-straight",
@@ -16310,13 +16330,15 @@
           "note": "Projection 229.3 is 11 under; real games so far went 243-257, so I trust the model less than usual and size it down.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "IND 102, MIL 110"
     },
     {
       "id": "2026-10-26-PHXOKC-straight",
@@ -16366,13 +16388,15 @@
           "note": "Projection 224.0 beats 221.5 by 4.5, but Williams out and OKC's slow, low-scoring games cut it to about 221.5.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "PHX 114, OKC 125"
     },
     {
       "id": "2026-10-26-ATLHOU-straight",
@@ -16423,13 +16447,15 @@
           "note": "Method projection 233.4 (HOU 117.6 + ATL 115.8) beats DK 229.5 and FanDuel 230.5, and Saturday's game went 235.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "ATL 110, HOU 120"
     },
     {
       "id": "2026-10-26-MEMUTAH-straight",
@@ -16481,13 +16507,17 @@
           "note": "Projection 246.0 (UTAH 122.3 + MEM 123.7) is 8.5 above DK 237.5, with two bottom-6 defenses and 105-pace teams.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "final": "MEM 110, UTAH 105",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-26-GSDEN-straight",
@@ -16538,13 +16568,15 @@
           "note": "Method score has Denver by about 5.3, Curry is cleared after two rest days, and Dimers, Bleacher Nation and Predictem all take the points.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.07,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "final": "GS 134, DEN 114"
     },
     {
       "id": "2026-10-26-POTD-MLB",
@@ -16588,13 +16620,15 @@
           "note": "Peralta has 4.4 strikeouts per home start at the Trop, 3 and 6 and 3 in the playoffs, and Cash pulls starters around 15 to 18 outs.",
           "status": "Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19",
           "alt": false,
-          "main_line": 4.5
+          "main_line": 4.5,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 13.56,
       "stake": 12.0,
-      "to_win": 13.56
+      "to_win": 13.56,
+      "final": "MIL 10, TB 1"
     }
   ]
 }

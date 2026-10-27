@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Memphis Grizzlies
+### 2026-10-26: vs Memphis Grizzlies (final: MEM 110, UTAH 105)
 
 Both teams play the second night of a back-to-back; the total projects 246.0 against 237.5, and Utah had no travel. Most likely winner: Over 237.5.
 
@@ -36,7 +36,7 @@ Legs considered:
 - Utah Jazz -1.5: Same lean as the ML at a worse number; Memphis is 3-0 with Jerome scoring 45, 28 and 31.
 
 Our bets:
-- straight (lean): Over 237.5 (-110): pending -> **pending**
+- straight (lean): Over 237.5 (-110): pending -> **loss**
 
 ### 2026-10-25: vs Los Angeles Lakers (final: LAL 132, UTAH 123)
 

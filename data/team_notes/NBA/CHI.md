@@ -10,7 +10,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: at Boston Celtics
+### 2026-10-26: at Boston Celtics (final: CHI 99, BOS 134)
 
 Boston is -14.5 with the slowest pace in the league; Bulls +14.5 is the most likely winner and the total projects 229.1 vs 232.5. No usage SGP.
 
@@ -36,7 +36,7 @@ Legs considered:
 - Under 232.5: Projection 229.1 is 3.4 under DK (4.4 under the 233.5 at FanDuel and Bleacher Report); Boston's pace is the slowest in the league.
 
 Our bets:
-- straight (lean): Under 232.5 (-105): pending -> **pending**
+- straight (lean): Under 232.5 (-105): pending -> **loss**
 
 ### 2026-10-24: vs Washington Wizards (final: WSH 124, CHI 120)
 

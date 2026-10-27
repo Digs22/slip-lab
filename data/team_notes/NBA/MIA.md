@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Dallas Mavericks
+### 2026-10-26: vs Dallas Mavericks (final: DAL 113, MIA 109)
 
 Miami is 0-3 and giving 8.5 to a Dallas team missing Marshall and likely Flagg, but the number already reflects that. Most likely winner: Dallas Mavericks +8.5.
 
@@ -37,7 +37,7 @@ Legs considered:
 - Dallas Mavericks ML: Live dog only if Flagg plays; DK and FanDuel both +260, so the price is fair rather than an edge.
 
 Our bets:
-- straight (lean): Dallas Mavericks +7.5 (-105): pending -> **pending**
+- straight (lean): Dallas Mavericks +7.5 (-105): pending -> **win**
 
 ### 2026-10-24: at Charlotte Hornets
 

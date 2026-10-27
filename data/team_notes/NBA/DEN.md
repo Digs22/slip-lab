@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Golden State Warriors
+### 2026-10-26: vs Golden State Warriors (final: GS 134, DEN 114)
 
 Curry, Draymond, Horford and Podziemski are cleared, Golden State is 0-3 and rested, and Denver is short Cam Johnson. Most likely winner: Warriors +7.5.
 
@@ -38,7 +38,7 @@ Legs considered:
 - Golden State Warriors ML: Longshot only: iHeart's model picks Golden State outright, but ESPN gives them 24.5% and FanDuel 30%.
 
 Our bets:
-- straight (lean): Golden State Warriors +7.5 (-112): pending -> **pending**
+- straight (lean): Golden State Warriors +7.5 (-112): pending -> **win**
 
 ### 2026-10-24: vs New Orleans Pelicans (final: NO 135, DEN 141)
 

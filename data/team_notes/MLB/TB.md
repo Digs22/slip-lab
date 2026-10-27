@@ -17,7 +17,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Milwaukee Brewers
+### 2026-10-26: vs Milwaukee Brewers (final: MIL 10, TB 1)
 
 MIL leads 2-0 and Game 3 is a near coin flip at the Trop (Peralta vs Gasser, total 7). Most likely to win: Tampa Bay Rays +1.5 (-210).
 
@@ -48,8 +48,8 @@ Legs considered:
 - Over 7: My projection is 7.1 runs against a 7 line, so this is a coin flip with a push risk and only a slim lean to the over.
 
 Our bets:
-- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **pending**
-- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **pending**
+- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **win**
+- straight: F. Peralta u4.5 strikeouts (+113): Confirmed Game 3 starter (MLB StatsAPI/ESPN probables); ALCS MVP, 7 days rest after 5.1 IP on 10/19 -> **win**
 
 ### 2026-10-24: at Milwaukee Brewers (final: TB 4, MIL 5)
 

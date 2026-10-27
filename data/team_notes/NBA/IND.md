@@ -10,7 +10,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: at Milwaukee Bucks
+### 2026-10-26: at Milwaukee Bucks (final: IND 102, MIL 110)
 
 Indiana is a back-to-back road favorite with Zubac out, but Milwaukee is 0-3 allowing 129. Most likely winner: Pacers ML -166; total projects 229.3 vs 240.5.
 
@@ -35,7 +35,7 @@ Legs considered:
 - Indiana Pacers -4.5: Spread needs a five-point win on the second night with Zubac out; only a small lean.
 
 Our bets:
-- straight (lean): Under 238.5 (-110): pending -> **pending**
+- straight (lean): Under 238.5 (-110): pending -> **win**
 
 ### 2026-10-25: at Brooklyn Nets (final: IND 136, BKN 109)
 

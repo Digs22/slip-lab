@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: at Houston Rockets
+### 2026-10-26: at Houston Rockets (final: ATL 110, HOU 120)
 
 Houston is a 5.5-point home favorite after beating Atlanta 121-114 on Saturday, and the total projects 233.4 against 229.5. Most likely winner: Houston ML (-205).
 
@@ -41,7 +41,7 @@ Legs considered:
 - Atlanta Hawks +4.5: Method score has Houston by about 3.7, and Houston was 18-31 ATS as a 5.5-plus favorite last season.
 
 Our bets:
-- straight (lean): Over 229.5 (-112): pending -> **pending**
+- straight (lean): Over 229.5 (-112): pending -> **win**
 
 ### 2026-10-24: vs Houston Rockets (final: HOU 121, ATL 114)
 

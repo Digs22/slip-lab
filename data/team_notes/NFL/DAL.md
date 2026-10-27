@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: at Philadelphia Eagles
+### 2026-10-26: at Philadelphia Eagles (final: DAL 38, PHI 21)
 
 Hurts is out for the year and Smith and Wicks are out, so Dallas is a 4.5-point road favorite on a thin Eagles offense. Most likely to win: Dallas Cowboys ML (-218, about 66% fair).
 
@@ -37,7 +37,7 @@ Legs considered:
 - D. Prescott o268.5 pass yds: Dak averages 273 yards, cleared 276 in four of five games and faces a Philly defense allowing 254 passing yards; script risk is a lead that shifts him to the run.
 
 Our bets:
-- straight (lean): Under 44.5 (-120): pending -> **pending**
+- straight (lean): Under 44.5 (-120): pending -> **loss**
 
 ### 2026-10-18: at Green Bay Packers (final: DAL 13, GB 23)
 

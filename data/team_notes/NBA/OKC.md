@@ -14,7 +14,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Phoenix Suns
+### 2026-10-26: vs Phoenix Suns (final: PHX 114, OKC 125)
 
 OKC is on a back-to-back and lost Jalen Williams to a serious left ankle injury Sunday, and 10.5 is the largest number on the board. Most likely winner: Suns +10.5.
 
@@ -39,7 +39,7 @@ Legs considered:
 - Phoenix Suns ML: Long shot; the +320 matches market fair after Williams's injury and the back-to-back, so no edge.
 
 Our bets:
-- straight (lean): Over 221.5 (-110): pending -> **pending**
+- straight (lean): Over 221.5 (-110): pending -> **win**
 
 ### 2026-10-25: vs LA Clippers (final: LAC 101, OKC 108)
 

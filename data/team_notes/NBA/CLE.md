@@ -8,7 +8,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-26: vs Minnesota Timberwolves
+### 2026-10-26: vs Minnesota Timberwolves (final: MIN 125, CLE 127)
 
 Minnesota is on a back-to-back at Cleveland, so Cavaliers ML (-162) is the most likely winner. Total projects 232.8 vs 233.5, no real gap.
 
@@ -34,7 +34,7 @@ Legs considered:
 - Under 231.5: Projection 232.8 vs 231.5 is only 0.7 under (232.5 at most books); tired legs favor Under but Over is 7 of CLE's last 8 at home.
 
 Our bets:
-- straight (lean): Cleveland Cavaliers -4.5 (-108): pending -> **pending**
+- straight (lean): Cleveland Cavaliers -4.5 (-108): pending -> **loss**
 
 ### 2026-10-24: vs Brooklyn Nets (final: BKN 121, CLE 125)
 
