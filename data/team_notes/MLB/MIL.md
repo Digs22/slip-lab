@@ -8,8 +8,41 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-24: Logan Henderson (rookie RHP, 2.47 ERA, 0.84 WHIP, 10.1 K/9, 1.28 HR/9) lasts about 4-5 IP in the postseason and had 3, 4 and 2 K in his last three starts; MIL is 16-4 in his starts.
 - 2026-10-26: Robert Gasser (LHP, 3.87 ERA, 103 K in 109.1 IP) is limited to 4-5 IP and 56-72 pitches in the postseason; righties hit .765 OPS (13 HR) against him vs .552 for lefties. Uribe and Ashby handled back-to-back WS games and Megill rested in G2.
 - 2026-10-27: WS G4 at the Trop was a bullpen game (no starter named by game day); Ashby, Uribe, Megill, Romero, May, Hall were all rested after the G3 10-1 win (Gasser 6 IP, Senzatela 2, Woodruff 1). MIL pen allowed 2 ER in 13 IP through G3.
+- 2026-10-28: Misiorowski starts WS G5 on 4 days rest (4-5 IP in every October start, 14 K in 13.1 IP); G4 pen used 7 arms (Ashby 31, Hall 24, Uribe 19, Senzatela 18 back-to-back) and lost 4-3 in 12 innings.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-28: at Tampa Bay Rays
+
+Rays bullpen game vs Misiorowski with Milwaukee up 3-1; no real edge anywhere. Most likely to win: Rays +1.5 (-149).
+
+1. Series: MIL leads 3-1 (G1 MIL 3-2, G2 MIL 5-4, G3 MIL 10-1, G4 TB 4-3 in 12 innings on a Williamson walk-off pinch single). Game 5 is Wed 10/28, 8:00 PM ET, FOX, Tropicana Field. TB 98-64, MIL 103-59. (ESPN seasonseries, AP/NPR recaps)
+2. Starters: MIL Jacob Misiorowski confirmed (StatsAPI, ESPN, MLB.com); 4 days rest after G1 (5 IP, 1 R, 3 K); 1.80 ERA, 0.80 WHIP, 37.9% K in the regular season, but only 4 to 5 IP in each of his 4 starts this October (14 K in 13.1 IP). Murphy kept him out of the G4 extra innings. TB starter NOT announced as of Wednesday morning (StatsAPI home probable blank).
+3. Rays plan: Cash said he had not decided; ESPN expects a bullpen game, maybe Rasmussen in bulk on 3 days rest. Martinez (33 pitches in G4 relief) is out. All five rotation arms were used in the past four nights. (ESPN, MLB.com, Yahoo)
+4. TB bullpen workload (ESPN box scores): G4 Jax 4.0 (74), Kelly 12, Martinez 33, Baker 2.0 (21, closer), Wells 24, Booser 9, Seymour 32 (HR allowed). Wells also threw 16 in G3 and Booser 12, so both are back-to-back. Sulser, Matz and Cleavinger did not pitch G4 and are freshest. The pen threw 8 of 12 innings in G4.
+5. MIL bullpen workload: G4 May 3.0 (39, opener), Romero 11, Uribe 2.0 (19), Hall 1.2 (24), Megill 5, Ashby 2.1 (31), Senzatela 18 (26 in G3, back-to-back), Drohan 15 (loss). Pen threw 7 scoreless innings before the 12th and has a 1.33 postseason ERA (some outlets say 2.03). Seven relievers used, but Megill, Uribe and Ashby are all usable.
+6. Lines: ESPN/DraftKings MIL -154 / TB +128, run line TB +1.5 -149 / MIL -1.5 +123 (open TB -196), total 6.5 o-119/u-102 (open o-105/u-115). SI/DraftKings MIL -141 / TB +117, TB +1.5 -180 / MIL -1.5 +148, total 6.5 -110/-110. FanDuel MIL -142 / TB +120, total o-114/u+106. The Lines MIL -142 / TB +120. Another book listed MIL -1.5 +150 / TB +1.5 -125. Bettors Insider cites MIL -142.
+7. No-vig: MIL ML 56.3% (FD and SI-DK) to 58.0% (ESPN-DK), so I use 56.5%. TB +1.5 fair ranges 57% (ESPN-DK) to 61.5% (SI-DK); I use 59%. Under 6.5 fair about 48.5% (the total drifted toward the Over after the open). Spread prices disagree across sources, so verify before betting.
+8. Series price: MIL was -5000 before G4 and fell to about -1400 after the loss; TB ML for G5 about +117 to +128. ESPN matchup predictor gives MIL 62.5%. (SI, ESPN)
+9. Injuries (ESPN): Junior Caminero (TB 3B, 42 HR) hurt his left foot or low back in G4 and is day-to-day; Cash said "he'll play tomorrow on one leg". Lux (60-day IL), McClanahan, Melton, Uceta out for TB. MIL: Priester, Zerpa, Fitzpatrick out. None affect Misiorowski or the key MIL relievers.
+10. Weather/roof: Tropicana Field is a fixed dome on turf, so ESPN's 77F and 33 mph gust are irrelevant. The park plays pitcher-friendly (run index ~94 to 97; team notes). Series scores of 5, 9, 11 and 7 runs.
+11. Experts: Bettors Insider MIL ML (-142) and an SGP with the Over 6.5; The Lines MIL, top prop Misiorowski u1.5 ER -180 (BetMGM); Lineups.com MIL 4-2 and Contreras total-bases prop; Sportsgrid F5 Under 3.5; SI best-bets article leans against Misiorowski strikeouts; Pickswise Misiorowski o5.5 K (-108).
+12. Strikeout prop: Misiorowski line is 5.5 (BettingPros shows 6.5 consensus on a general page). Over -108 is from Pickswise (book unnamed), under -111 at FanDuel. His October K rate is only 25.5% and no MIL starter has more than 4 K this series, against a 37.9% K rate in the regular season. Two sources but opposite sides and no second named book, so no K leg.
+13. Other props seen: Misiorowski u1.5 ER -180 (BetMGM only), o3.5 hits allowed -126 (SI), Contreras 2+ TB +125 (DraftKings; +144 on Kalshi). All single named book, so left out under the 10/25 and 10/24 rules.
+14. Matchup: MIL .759 OPS vs RHP, 22.3% K rate, best-run offense (832 R); Contreras about .38 in the postseason but 0-for-4 in G4. TB .752 OPS vs RHP in the season but .649 in the postseason, and low strikeout rate (19.1%).
+15. Home field and history: TB is 55-26 at home; Trop under trends mixed (Lineups.com 41-44-3 O/U). Only the 2004 Red Sox came back from 0-3; this is 3-1, and 3 of 4 games were decided by one run.
+16. Projection: MIL 3.7, TB 2.7, total 6.4 vs 6.5. A 0.1-run gap is not an edge. The Rays bullpen game is a real handicap, but the market (MIL ~57%) already prices it.
+17. Why Rays +1.5 is the most likely leg: it needs only a one-run loss or a win, about 59% fair; Milwaukee has won by 2+ only once in four games.
+18. Limits: WebFetch is blocked for ESPN, SI and betting sites, so prices come from the ESPN API plus WebSearch snippets (SI, The Lines, Bettors Insider, Pickswise, BettingPros, Lineups.com). TB starter, lineups and final lines are not confirmed; Rays +1.5 prices vary a lot between sources.
+Sources: ESPN summary/pickcenter/box scores, MLB StatsAPI, AP/NPR recaps, SI Betting, The Lines, Bettors Insider, Pickswise, BettingPros, Lineups.com, Sportsgrid, MLB.com, Yahoo, team notes (TB, MIL).
+
+Legs considered:
+- Tampa Bay Rays +1.5: Milwaukee must win by 2+ and three of four games were one-run; Misiorowski's 5 innings then rested relievers keep it tight.
+- Milwaukee Brewers ML: Misiorowski (1.80 ERA) faces a Rays bullpen game with its arms taxed, but the -142 price already carries that.
+- Under 6.5: My projection is 6.4 versus 6.5 with the total moving toward the Over, so there is no real edge either way.
+
+Our bets:
+- straight (lean): Tampa Bay Rays +1.5 (-149): pending -> **pending**
 
 ### 2026-10-27: at Tampa Bay Rays (final: MIL 3, TB 4)
 

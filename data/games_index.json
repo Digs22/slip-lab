@@ -402,6 +402,15 @@
   "league": "NCAAF",
   "start": "2026-10-25T00:00Z"
  },
+ "401862812": {
+  "away": "FAU",
+  "away_name": "Florida Atlantic Owls",
+  "date": "2026-10-29",
+  "home": "UNT",
+  "home_name": "North Texas Mean Green",
+  "league": "NCAAF",
+  "start": "2026-10-29T23:30Z"
+ },
  "401864525": {
   "away": "AFA",
   "away_name": "Air Force Falcons",
@@ -500,6 +509,15 @@
   "home_name": "Arkansas State Red Wolves",
   "league": "NCAAF",
   "start": "2026-10-24T23:00Z"
+ },
+ "401869963": {
+  "away": "TROY",
+  "away_name": "Troy Trojans",
+  "date": "2026-10-29",
+  "home": "JMU",
+  "home_name": "James Madison Dukes",
+  "league": "NCAAF",
+  "start": "2026-10-29T23:30Z"
  },
  "401869967": {
   "away": "UL",
@@ -802,6 +820,15 @@
   "home_name": "Seattle Seahawks",
   "league": "NFL",
   "start": "2026-10-26T00:20Z"
+ },
+ "401873023": {
+  "away": "CAR",
+  "away_name": "Carolina Panthers",
+  "date": "2026-10-30",
+  "home": "GB",
+  "home_name": "Green Bay Packers",
+  "league": "NFL",
+  "start": "2026-10-30T00:15Z"
  },
  "401908025": {
   "away": "TB",
@@ -1517,6 +1544,33 @@
   "home_name": "LA Clippers",
   "league": "NBA",
   "start": "2026-10-29T02:30Z"
+ },
+ "401909893": {
+  "away": "CLE",
+  "away_name": "Cleveland Cavaliers",
+  "date": "2026-10-30",
+  "home": "ATL",
+  "home_name": "Atlanta Hawks",
+  "league": "NBA",
+  "start": "2026-10-30T00:00Z"
+ },
+ "401909894": {
+  "away": "SAC",
+  "away_name": "Sacramento Kings",
+  "date": "2026-10-30",
+  "home": "NO",
+  "home_name": "New Orleans Pelicans",
+  "league": "NBA",
+  "start": "2026-10-30T00:00Z"
+ },
+ "401909895": {
+  "away": "MEM",
+  "away_name": "Memphis Grizzlies",
+  "date": "2026-10-30",
+  "home": "POR",
+  "home_name": "Portland Trail Blazers",
+  "league": "NBA",
+  "start": "2026-10-30T02:00Z"
  },
  "401915392": {
   "away": "ATM",

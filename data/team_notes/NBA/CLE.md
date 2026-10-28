@@ -5,8 +5,36 @@
 _Research adds what stays true across games here: coaching tendencies, home field, key players and depth, injury history, betting trends._
 - 2026-10-24: Lost opener 106-114 at PHI after PHI erased a 29-point deficit (Mitchell 32/10/3, Harden 16/3/5). Home -10.5 vs BKN; Mitchell o26.5 pts was -105 to -115.
 - 2026-10-26: 1-1 (125-121 over BKN 10/24); home vs MIN on a rest edge, CLE -3.5 (-112), ML -162. CLE ratings 2025-26: ORtg 119.2, DRtg 115.1, pace 99.9.
+- 2026-10-28: 2-1 (2-0 at home, both within 4 points); box-score ORtg 107.6, DRtg 108.2, Mitchell 28.4% usage, Harden 22.4%. Wizards game is -10.5 with a 239.5 total.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-28: vs Washington Wizards
+
+Washington's rebuilt defense is far better than last year's ratings, so the total projects 235.4 against 239.5. Most likely winner: Under 239.5 (-110).
+
+Lines (ESPN/DraftKings, Wed 7:00 PM ET, Rocket Arena): CLE -10.5 (-105) / WSH +10.5 (-115), unchanged from the open; ML CLE -395 / WSH +310 (opened -380); total 239.5 (-110/-110), unchanged. DK is the only book reachable (books=1).
+Predictor: ESPN BPI gives CLE 75.7%. No named expert picks were found for tonight (searches returned prior-season pages; Covers/Dimers/Action Network hosts did not resolve from this session).
+Records: CLE 2-1 (L 106-114 at PHI after leading by 29, W 125-121 vs BKN, W 127-125 OT vs MIN on 10/26); WSH 2-2 (W 128-116 vs MIL, L 102-112 vs TOR, W 124-120 at CHI, L 103-110 at CHA on 10/26). Each team played 10/26, so no rest edge.
+Totals method: possessions avg(WSH 101.4, CLE 99.9)=100.65. WSH = avg(111.0, 115.1)x1.0065=113.8; CLE = avg(119.2, 122.7)x1.0065=121.7; total 235.5 vs 239.5 (-4.0). WSH's 122.7 DRtg (29th) is last season's roster; blending 20% of this season's 110.2 DRtg gives 235.4, still 4.1 under.
+Scoring history this season: WSH games finished 244, 214, 244, 213 (average 229); CLE games 220, 246 and 252 (OT). CLE's 110.9 pace in the box-score calc is inflated by the overtime game, so the OT-driven numbers should not be trusted for the total.
+Injuries (ESPN): WSH out AJ Dybantsa (ankle), Champagnie (foot, 18.5 mpg), Vukcevic (hip) and Jamir Watkins (knee); CLE has nobody listed. Trae Young and Anthony Davis are healthy this week; Davis played only 20 games in 2025-26, and the Wizards' depth is thin.
+Usage: Mitchell 28.4% in 3 games; Harden 22.4%, Mobley 18.0%, Allen 17.9%. WSH: Davis 30.9%, K. George 28.8%, Trae 24.8%. Mitchell's 32, 22, 26 points are consistent, but no tonight price for his points line was found at 2+ books, so no prop leg.
+DvP and stat caveat: WSH ranked 2nd-most allowed to guards, 1st to forwards and 2nd to centers in 2025-26, the worst defense in the league (17-65). That roster is gone (Trae, Davis, Ayton, Middleton in), so the DvP rank is probably stale; the team now allows 114.5 ppg.
+Matchup: Mitchell and Harden against a Wizards perimeter of Trae Young and Coulibaly; Mobley and Allen against Davis (34/12 on opening night). Trae's pace: 13, 12, 9 and 10 assists, so he controls tempo and WSH plays 103.9 possessions.
+Coaching: CLE was slow (99.9 pace) with a 119.2 ORtg and 115.1 DRtg in 2025-26; its early 2026-27 ORtg of 107.6 is depressed by the loss at PHI after leading by 29.
+Chemistry: Washington's new group (Trae, Davis, Ayton, Middleton, Sarr, George) is 2-2 with a net rating near zero; Dybantsa, the No. 1 pick, is out with an ankle. Cleveland added Harden and Watson and is still integrating the new lineup.
+Home field: Rocket Arena; CLE is 2-0 at home (W 125-121 BKN, W 127-125 OT MIN), but both were within 4 points, a caution against laying 10.5.
+Line movement: the spread did not move and the total did not move, so the market has no signal beyond the posted lines. DK's opening total of 239.5 is the same as the close.
+Risk: Trae's offense is good enough to run with Mitchell and the Cavs scored 125 and 127 in their last two; a 125-118 game goes Over. The Wizards' defensive projection is the main uncertainty.
+Verdict: the Under is a model play (gap 4.1); +10.5 is a lean with no extra edge. The usage SGP has no priced legs, so edge=false.
+
+Legs considered:
+- Under 239.5: Projection 235.4 (blended) is 4.1 under; WSH games have averaged 229 and CLE's pace spiked only because of an OT game.
+- Washington Wizards +10.5: Score model has CLE by about 8 with home court, so the 10.5 gives about 2 points of cushion; spread has not moved from the open.
+
+Our bets:
+- straight (lean): Under 239.5 (-110): pending -> **pending**
 
 ### 2026-10-26: vs Minnesota Timberwolves (final: MIN 125, CLE 127)
 

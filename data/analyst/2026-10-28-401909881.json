@@ -1,0 +1,86 @@
+{
+ "summary": "Atlanta is the better, healthier team at home against winless Miami, and the total projects 236.9 against 241.5. Most likely winner: Atlanta ML (-162).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 241.5",
+   "game": "Miami Heat @ Atlanta Hawks",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 241.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.58,
+    "recent_form": 0.56,
+    "market_move": 0.46,
+    "pace": 0.46,
+    "injuries": 0.5
+   },
+   "note": "Projection 236.9 (235.9 blended) is 4.6 under the line, and 7 of 8 team-games this season finished below 241.5."
+  },
+  {
+   "desc": "Atlanta Hawks ML",
+   "game": "Miami Heat @ Atlanta Hawks",
+   "market": "ml",
+   "team": "ATL",
+   "side": null,
+   "line": null,
+   "odds": -162,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.593,
+   "books": 1,
+   "signals": {
+    "home": 0.56,
+    "season": 0.58,
+    "recent_form": 0.6,
+    "matchup": 0.55,
+    "experts": 0.6
+   },
+   "note": "Miami is 0-4 allowing 121.8 a game while Atlanta rates 106.3 defensively; ESPN's model gives ATL 66%."
+  },
+  {
+   "desc": "Atlanta Hawks -3.5",
+   "game": "Miami Heat @ Atlanta Hawks",
+   "market": "spread",
+   "team": "ATL",
+   "side": null,
+   "line": -3.5,
+   "odds": -108,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "home": 0.55,
+    "recent_form": 0.56,
+    "matchup": 0.55,
+    "experts": 0.55
+   },
+   "note": "Blended score model has ATL by about 4 with home court; the number sits right on it, so no cushion."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Usage 24%+: Giannis 37.0% (35.4% in 4 games), J. Johnson 27.0%, McCollum 26.9% (21.4% in 4 games), NAW 23.9% (24.5%). DvP (own box-score calc, 2025-26, rank 1 = most allowed): MIA allows G 3rd, F 19th, C 23rd; ATL allows G 16th, F 12th, C 14th. Only McCollum and NAW (vs MIA guards) clear the bottom-10 test; Giannis and J. Johnson do not.",
+  "note": "Best-possible version only: no prop line was priced at 2+ sportsbooks tonight (ESPN's feed carries only DraftKings game lines and the other odds sites were unreachable), so per the 10/25 rule no prop legs are listed."
+ },
+ "totals_projection": {
+  "possessions": 102.55,
+  "MIA": 118.4,
+  "ATL": 118.5,
+  "total": 236.9,
+  "line": 241.5,
+  "blended_total": 235.9,
+  "math": "MIA avg(116.7 ORtg, 114.2 ATL DRtg)*1.0255=118.4; ATL avg(116.6, 114.5 MIA DRtg)*1.0255=118.5; sum 236.9. 80/20 blend with 2026-27 box scores: 235.9. 2026-27 ratings alone: 231.8."
+ },
+ "research": "Lines (ESPN/DraftKings, Wed 7:00 PM ET, State Farm Arena): ATL -3.5 (-108) / MIA +3.5 (-112), opened -3.5 (-115/-105); ML ATL -162 / MIA +136 (unchanged); total 241.5 (o-115/u-105), opened 239.5, so it moved up 2 points. Only DK was reachable; fair prices are DK no-vig (books=1).\nPredictor: ESPN BPI gives ATL 66%, MIA 34%. No named expert picks for tonight were found: web searches returned only prior-season pages and Covers, Dimers, Action Network, VegasInsider and Oddsshark did not resolve from this session.\nRecords and schedule: ATL 2-2 (W 132-125 at ORL, W 128-81 at CHA, L 114-121 vs HOU, L 110-120 at HOU on 10/26); MIA 0-4 (L 106-131 MIN, L 111-128 DET, L 110-115 at CHA, L 109-113 vs DAL on 10/26). Both teams played 10/26, so there is no back-to-back.\nScoring (ESPN box scores): ATL 121.0 ppg for / 111.8 against; MIA 109.0 / 121.8 on 43% FG and 31% from three. 2026-27 per-100 (own calc from box scores, 4 games each): ATL ORtg 115.2 / DRtg 106.3; MIA ORtg 103.3 / DRtg 115.3. Pace 105.1 (ATL) and 105.6 (MIA).\nTotals method (NBA.md): possessions avg(MIA 103.4, ATL 101.7)=102.55 (2025-26 BBR). MIA = avg(116.7, 114.2)x1.0255=118.4 and ATL = avg(116.6, 114.5)x1.0255=118.5, so the total is 236.9 vs 241.5 (-4.6), past the 4-point trigger. Blending 20% of the 2026-27 sample gives 235.9; using 2026-27 ratings alone gives 231.8. Every version is under the posted number.\nGame-total history this season: ATL games 257 (at ORL), 209, 235, 230; MIA games 237, 239, 225, 222. Only one of eight cleared 241.5, which supports the model Under even though both teams run top-5 pace.\nInjuries (ESPN, 10/27-28): ATL Gueye (foot) and Veesaar (knee) out, Aaron Wiggins day-to-day (knee, 27.5 mpg); MIA Pelle Larsson (ankle, 30.8 mpg) and Fontecchio (illness) day-to-day. Giannis, Adebayo and D. Mitchell are not listed. A Wiggins or Larsson scratch moves the spread by under a point.\nUsage (2025-26 BBR via team notes, with the 2026-27 4-game calc in brackets): Giannis 37.0% [35.4%], J. Johnson 27.0% [28.6%], McCollum 26.9% [21.4%], NAW 23.9% [24.5%], Adebayo ~19% [19.4%]. Johnson has 6+ rebounds in 93% of 2025-26 games.\nDvP (own ESPN-box calc, 2025-26, rank 1 = most allowed): MIA G 3rd, F 19th, C 23rd; ATL G 16th, F 12th, C 14th. Giannis (F) and Johnson (F) fail the bottom-10 test; McCollum and NAW (guards vs MIA) pass. No prop line was found at 2+ books tonight, so the usage SGP has no priced legs and no edge.\nMatchup: Giannis averages 28.5 ppg through four games but with 1, 5, 3 and 11 assists, and Miami's ball handling runs through D. Mitchell (10-11 assists twice). Atlanta's J. Johnson (28.6% usage; 26/9/16 on 10/24) is the hub with Daniels, NAW and McCollum around him.\nDefense: Miami allowed 131 (MIN), 128 (DET), 115 (CHA) and 113 (DAL) with Giannis paired with Adebayo; the roster lost Herro, Ware and Jaquez in the Giannis trade. Pre-trade 2025-26 ratings (116.7/114.5) overrate the new group, which is why the blend matters.\nCoaching and pace: Snyder's Hawks play fast (101.7 pace in 2025-26, 105.1 now); MIA led the league in pace (103.4) last year. Atlanta's 106.3 DRtg is inflated by the 128-81 rout of depleted CHA.\nChemistry: Atlanta rebuilt around Johnson after Trae Young (to WSH) and Kuminga left; Daniels, NAW, Dort and McCollum are all new in their roles. Miami has a brand-new core and is 0-4 with a minus-12.8 point margin.\nHome field: State Farm Arena, Atlanta 24-17 at home in 2025-26; MIA 26-15 at home but 0-4 now. Line movement: spread did not move, total rose 2, which is the market leaning Over against our Under.\nRisk: the total moved up 2 against us and both teams play fast, so a 125-120 game clears it. Miami's 0-4 start may also hide real offensive talent (35 and 36 points from Giannis), and the model's pre-trade MIA ratings are noisy.\nVerdict: no sharp edge. Under 241.5 is the model leg (single-book price, no corroboration), and ATL ML is the highest-probability leg at a short price; the usage SGP does not qualify for a highlight."
+}

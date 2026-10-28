@@ -1,0 +1,86 @@
+{
+ "summary": "Indiana's guard line is banged up and the line already moved 3 points to Philadelphia; the total projects 230.8 against 236.5. Most likely winner: Under 236.5 (-105).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 236.5",
+   "game": "Philadelphia 76ers @ Indiana Pacers",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 236.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.58,
+    "recent_form": 0.56,
+    "injuries": 0.54,
+    "pace": 0.46,
+    "market_move": 0.5
+   },
+   "note": "Projection 230.8 (229.6 blended) is 5.7-6.9 under; PHI games average 217 this season and Indiana's guards Nembhard and McConnell are hurt."
+  },
+  {
+   "desc": "Philadelphia 76ers -4.5",
+   "game": "Philadelphia 76ers @ Indiana Pacers",
+   "market": "spread",
+   "team": "PHI",
+   "side": null,
+   "line": -4.5,
+   "odds": -110,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "matchup": 0.55,
+    "injuries": 0.55,
+    "season": 0.54,
+    "market_move": 0.48,
+    "experts": 0.58
+   },
+   "note": "Four-star PHI against Indiana's depleted rotation, but the line already moved 3 points and Haliburton may play."
+  },
+  {
+   "desc": "Philadelphia 76ers ML",
+   "game": "Philadelphia 76ers @ Indiana Pacers",
+   "market": "ml",
+   "team": "PHI",
+   "side": null,
+   "line": null,
+   "odds": -192,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.631,
+   "books": 1,
+   "signals": {
+    "matchup": 0.56,
+    "injuries": 0.55,
+    "season": 0.55,
+    "experts": 0.6
+   },
+   "note": "ESPN's model has PHI at 75.9% against the market's 63% no-vig; a short price with only one book."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Usage 24%+: Maxey 29.7%, Embiid 28.1%, Brown 25.3%, LeBron 25.0% (all 2026-27); Siakam 30.1%, Haliburton 24.6%. DvP (own calc, 2025-26, rank 1 = most allowed): IND allows G 4th, F 14th, C 16th, so Maxey and Brown pass; PHI allows C 1st, PF 3rd, SG 4th, SF 7th, PG 10th, so Siakam (PF) and Haliburton (PG) pass. No tonight prop price at 2+ books, so nothing is priced.",
+  "note": "Best-possible version only: no prop line was priced at 2+ sportsbooks tonight (ESPN's feed carries only DraftKings game lines and the other odds sites were unreachable), so per the 10/25 rule no prop legs are listed."
+ },
+ "totals_projection": {
+  "possessions": 100.2,
+  "PHI": 117.3,
+  "IND": 113.4,
+  "total": 230.8,
+  "line": 236.5,
+  "blended_total": 229.6,
+  "math": "PHI avg(115.4 ORtg, 118.8 IND DRtg)*1.002=117.3; IND avg(110.9, 115.5 PHI DRtg)*1.002=113.4; sum 230.8. IND's 110.9 ORtg is from the 19-63 no-Haliburton season. 80/20 blend with 2026-27 box scores: 229.6."
+ },
+ "research": "Lines (ESPN/DraftKings, Wed 7:00 PM ET, Gainbridge Fieldhouse): PHI -4.5 (-110/-110), opened PHI -1.5 (-115/-105), so it moved 3 points to Philadelphia; ML PHI -192 / IND +160, opened -125/+105; total 236.5 (o-115/u-105), opened 237.5. DK only (books=1).\nPredictor: ESPN BPI gives PHI 75.9%. The market no-vig is 63%, so BPI is more bullish than the line. No named expert picks for tonight were found (searches returned prior-season pages; other odds hosts did not resolve from this session).\nRecords and schedule: PHI 3-1 (W 106-100 at NY, W 114-106 CLE, W 127-116 MIL, L 93-106 vs DET on 10/25); last played 10/25, so three days of rest. IND 2-2 (W 123-120 at NO, L 105-121 DAL, W 136-109 at BKN, L 102-110 at MIL on 10/26), one day of rest.\nInjuries (ESPN): IND Haliburton (hamstring), Nembhard (neck), Toppin (hand) and Nesmith (hamstring) are all day-to-day; McConnell out. Four rotation players are questionable at once; Haliburton plays 33 mpg. PHI is missing Hukporti (Achilles), Barlow (back), Fall (quad) and Walker (knee); LeBron, Embiid, Maxey and Brown are not listed.\nTotals method: possessions avg(PHI 99.4, IND 101.0)=100.2. PHI = avg(115.4, 118.8)x1.002=117.3; IND = avg(110.9, 115.5)x1.002=113.4; total 230.8 vs 236.5 (-5.7). IND's 110.9 ORtg is from the 19-63 season without Haliburton, so it understates them; with the 2026-27 sample at 20% weight the projection is 229.6 because PHI's defense (100.4 DRtg) is elite so far.\nScoring history this season: PHI games went 206, 220, 243 and 199 (average 217) and IND games 243, 226, 245 and 212 (average 231.5). PHI's pace is high (106.6) but its offense is not efficient (103.2 ORtg), a combination that produces low-scoring games.\nUsage: Maxey 29.7%, Embiid 28.1% (33.5% in 2025-26, 38 games), Brown 25.3%, LeBron 25.0%; IND: Siakam 30.1%, Haliburton 24.6%, Toppin 21.9% (24.8% last year). Four-star usage overlap has trimmed everyone's lines. Maxey leads at 28/32/26/29 points.\nDvP (own calc, 2025-26, rank 1 = most allowed): IND allows G 4th, F 14th, C 16th, so Maxey and Brown (guards) qualify for the bottom-10 test; PHI allowed C 1st, PF 3rd, SG 4th, SF 7th, PG 10th, so Siakam and Haliburton qualify too. No 2-book prop price tonight, so no prop legs and the usage SGP has no priced edge.\nMatchup: Embiid (one of the league's best) against IND's thin big rotation (Zubac, Huff); Siakam against Brown/LeBron wings. Maxey 38 min and Brown 37 min carry heavy loads, and Embiid's minutes are managed. Haliburton's return from the Achilles tear shows in 23/12, 18/7, 24/10 lines.\nCoaching and rotation: Indiana plays fast (104.2 pace) and runs a deep rotation, but the guard injuries cap its depth; PHI's rotation is 8 deep with Edgecombe, Simons and Caldwell-Pope as role players. Embiid skipped one game of the Oct 24-25 back-to-back, which fits the expectation that the team rests him with care.\nChemistry: PHI added LeBron and Brown (Paul George went to BOS) and won 106-100 at NY on opening night; they are 3-1 with a +3.0 point margin (110.0 for, 107.0 against). IND has Haliburton back from the Achilles tear plus Siakam, Toppin and Zubac, and is 2-2.\nHome field: Gainbridge Fieldhouse; IND is 0-1 at home this year (L 105-121 vs DAL) and 2-1 away. ATS splits were not in the ESPN feed.\nLine movement: moving from PHI -1.5 to -4.5 is the market pricing IND's guard injuries; the total fell a point. Sharp Under money fits with Haliburton, Nembhard and McConnell all hurt.\nRisk: if Haliburton, Nembhard and Toppin all play, the 4.5 is too high and IND pushes the pace past 105; also, Embiid or LeBron could rest on short notice. Verify the injury report before locking this one.\nVerdict: Under 236.5 is the model-backed leg (5.7 points under, PHI's defense is 100.4 DRtg); the spread has movement against it. Both sides rely on DK only. The usage SGP candidates (Maxey, Brown, Siakam) have no priced lines, so edge=false."
+}

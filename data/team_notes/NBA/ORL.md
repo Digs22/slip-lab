@@ -8,8 +8,37 @@
 - 2026-10-21: DvP 2025-26 (own calc; rank 1 = most allowed): G 10th (soft on guards), F 28th (stingy on forwards), C 12th.
 - 2026-10-23: Opener vs ATL: Banchero 35/7/10 in 41 min; F. Wagner played 29 min (shoulder OK). Own DvP calc: G 10th, F 28th, C 12th (soft on guards).
 - 2026-10-25: 0-2; Banchero out 4-6 weeks (high ankle sprain vs MIN 10/23, also Isaac, Penda, Nelson; Black day-to-day). Wagner, Bane, Suggs, Carter Jr. carry usage. At NY +7.5, total 224.5.
+- 2026-10-28: 1-2; out Banchero (4-6 wk), Suggs, Isaac, Penda, Nelson. Box-score ORtg 103.7, DRtg 110.0; Wagner 32.1% usage. At TOR as a +4.5 dog, total 221.5.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-28: at Toronto Raptors
+
+Both teams are missing stars (Kawhi, Banchero, Suggs), and the total projects 229.3 against 221.5 on last year's ratings but only 221.7 on this season's. Most likely winner: Toronto ML (-192).
+
+Lines (ESPN/DraftKings, Wed 7:30 PM ET, Scotiabank Arena): TOR -4.5 (-115) / ORL +4.5 (-105), unchanged from the open; ML TOR -192 / ORL +160, opened -175/+145; total 221.5 (o-115/u-105), opened 223.5, so it fell 2 points. DK only (books=1).
+Predictor: ESPN BPI gives ORL 53.1% and TOR 46.9%, which contradicts the market (TOR 63% no-vig); BPI probably does not capture Kawhi being out and may use a different roster. No named expert picks for tonight found (prior-season pages only; other odds hosts did not resolve).
+Records and schedule: TOR 2-1 (W 135-92 CHI, W 112-102 at WSH, L 94-117 at MIN on 10/25); ORL 1-2 (L 125-132 ATL, L 93-115 MIN, W 111-102 at NY on 10/25). Both last played 10/25, so each has two days of rest.
+Injuries (ESPN): TOR Kawhi Leonard out (knee; 33.5% usage, played 24 and 28 minutes in his two games), Nate Bittle out; ORL Banchero (ankle, 4-6 weeks), Suggs (knee), Isaac (knee), Penda (hamstring) and Nelson (ankle) all out. Anthony Black is no longer listed.
+Totals method: possessions avg(ORL 100.0, TOR 101.5)=100.75. ORL = avg(114.9, 112.4)x1.0075=114.5; TOR = avg(113.6, 114.3)x1.0075=114.8; total 229.3 vs 221.5 (+7.8). Blended with this season at 20%: 228.0. The line is lower because Kawhi and Banchero are out, which the pure formula cannot see.
+2026-27 evidence cuts the other way: TOR's 96.6 DRtg (opp 103.7 ppg) and ORL's 103.7 ORtg produce 221.7 on this season's ratings alone; game totals were TOR 227, 214, 211 and ORL 257, 208, 213. So the Over has real model support but no market-confirming evidence.
+Usage (2026-27 box scores, last-year numbers in brackets): Wagner 32.1% [27.0%], Barnes 30.4%, Barrett 25.9%, Quickley 24.0%, Bane 23.5%, Banchero 24.5% (out). With Banchero out ORL's usage concentrates on Wagner (22, 18, 23 points) and Bane.
+DvP (2025-26 own calc, rank 1 = most allowed): ORL allows G 10th (soft on guards), F 28th (stingy on forwards), C 12th. Only Quickley (24.0%) qualifies, on the boundary, and no prop price exists at 2+ books tonight, so the usage SGP has no legs.
+Matchup: Toronto's length (Poeltl, Murray-Boyles, Barnes) against Orlando's lack of guard creators (Suggs out); Orlando's perimeter depth (Bane, da Silva, Carter Jr.) faces a Toronto defense that has allowed 103.7 ppg. TOR itself shot 42% FG and 26% from three, which should regress up.
+Coaching: Orlando has a new coach (Sean Sweeney) and rates 110.0 DRtg now (114.3 last year); Toronto's 107.3 box-score pace (101.5 last year) makes the game faster than the 221.5 line suggests. Toronto limits Kawhi's minutes even when he plays.
+Chemistry: Toronto added Kawhi (from LAC) and Bittle; they are 2-1 and held CHI to 92. Orlando is 1-2 with six players out and beat NY without Banchero.
+Home field: Scotiabank Arena; TOR home record 1-0 (135-92). Toronto is a 4.5-point favorite with its best player out.
+Line movement: total 223.5 to 221.5 and TOR ML -175 to -192, no spread move. The market agrees the game is lower scoring and slightly favors Toronto.
+Risk: both teams are short-handed, and the pure formula uses last year's full rosters; the Over is the model side but the 2026-27 data alone puts it on the number. Both team-total ranges are wide.
+Verdict: Toronto ML is the likeliest winner at a steep price; the Over is a thin model lean. No usage SGP.
+
+Legs considered:
+- Toronto Raptors ML: Toronto's DRtg of 96.6 and home court against an Orlando team without Banchero, Suggs and Isaac; BPI oddly favors ORL at 53%.
+- Over 221.5: Projection 229.3 (228.0 blended) is 6.5-7.8 over; 2026-27 numbers alone give 221.7, so the cushion is thin.
+- Orlando Magic +4.5: Orlando won at NY without Banchero, and Toronto also loses Kawhi, so 4.5 is roughly fair.
+
+Our bets:
+- straight (lean): Over 221.5 (-115): pending -> **pending**
 
 ### 2026-10-25: at New York Knicks (final: ORL 111, NY 102)
 

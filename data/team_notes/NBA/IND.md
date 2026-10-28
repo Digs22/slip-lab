@@ -7,8 +7,37 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 - 2026-10-23: Usage 2025-26: Siakam 30.1% (24.0 ppg), Toppin 24.8%, Nembhard 23.6%. Own DvP calc: G 4th, F 14th, C 16th. McConnell (hamstring) and Furphy (ACL) out.
 - 2026-10-25: 1-1 (won 123-120 at NO, lost 105-121 to DAL). At BKN as -7.5 (-270); model total 226.5 vs 231.5 (Under). McConnell out; Nesmith day-to-day.
 - 2026-10-26: Back-to-back at MIL after 136-109 at BKN (Haliburton 24/10); Zubac (left ankle) unlikely to play. -4.5 (-166); model total 229.3 vs 240.5.
+- 2026-10-28: 2-2; box-score ORtg 111.8, DRtg 110.4, pace 104.2. Haliburton 24.6% and Siakam 30.1% usage; Haliburton, Nembhard, Toppin, Nesmith all day-to-day with McConnell out. Home vs PHI as a +4.5 dog.
 
 ## Game log (auto-built from every researched game, newest first)
+
+### 2026-10-28: vs Philadelphia 76ers
+
+Indiana's guard line is banged up and the line already moved 3 points to Philadelphia; the total projects 230.8 against 236.5. Most likely winner: Under 236.5 (-105).
+
+Lines (ESPN/DraftKings, Wed 7:00 PM ET, Gainbridge Fieldhouse): PHI -4.5 (-110/-110), opened PHI -1.5 (-115/-105), so it moved 3 points to Philadelphia; ML PHI -192 / IND +160, opened -125/+105; total 236.5 (o-115/u-105), opened 237.5. DK only (books=1).
+Predictor: ESPN BPI gives PHI 75.9%. The market no-vig is 63%, so BPI is more bullish than the line. No named expert picks for tonight were found (searches returned prior-season pages; other odds hosts did not resolve from this session).
+Records and schedule: PHI 3-1 (W 106-100 at NY, W 114-106 CLE, W 127-116 MIL, L 93-106 vs DET on 10/25); last played 10/25, so three days of rest. IND 2-2 (W 123-120 at NO, L 105-121 DAL, W 136-109 at BKN, L 102-110 at MIL on 10/26), one day of rest.
+Injuries (ESPN): IND Haliburton (hamstring), Nembhard (neck), Toppin (hand) and Nesmith (hamstring) are all day-to-day; McConnell out. Four rotation players are questionable at once; Haliburton plays 33 mpg. PHI is missing Hukporti (Achilles), Barlow (back), Fall (quad) and Walker (knee); LeBron, Embiid, Maxey and Brown are not listed.
+Totals method: possessions avg(PHI 99.4, IND 101.0)=100.2. PHI = avg(115.4, 118.8)x1.002=117.3; IND = avg(110.9, 115.5)x1.002=113.4; total 230.8 vs 236.5 (-5.7). IND's 110.9 ORtg is from the 19-63 season without Haliburton, so it understates them; with the 2026-27 sample at 20% weight the projection is 229.6 because PHI's defense (100.4 DRtg) is elite so far.
+Scoring history this season: PHI games went 206, 220, 243 and 199 (average 217) and IND games 243, 226, 245 and 212 (average 231.5). PHI's pace is high (106.6) but its offense is not efficient (103.2 ORtg), a combination that produces low-scoring games.
+Usage: Maxey 29.7%, Embiid 28.1% (33.5% in 2025-26, 38 games), Brown 25.3%, LeBron 25.0%; IND: Siakam 30.1%, Haliburton 24.6%, Toppin 21.9% (24.8% last year). Four-star usage overlap has trimmed everyone's lines. Maxey leads at 28/32/26/29 points.
+DvP (own calc, 2025-26, rank 1 = most allowed): IND allows G 4th, F 14th, C 16th, so Maxey and Brown (guards) qualify for the bottom-10 test; PHI allowed C 1st, PF 3rd, SG 4th, SF 7th, PG 10th, so Siakam and Haliburton qualify too. No 2-book prop price tonight, so no prop legs and the usage SGP has no priced edge.
+Matchup: Embiid (one of the league's best) against IND's thin big rotation (Zubac, Huff); Siakam against Brown/LeBron wings. Maxey 38 min and Brown 37 min carry heavy loads, and Embiid's minutes are managed. Haliburton's return from the Achilles tear shows in 23/12, 18/7, 24/10 lines.
+Coaching and rotation: Indiana plays fast (104.2 pace) and runs a deep rotation, but the guard injuries cap its depth; PHI's rotation is 8 deep with Edgecombe, Simons and Caldwell-Pope as role players. Embiid skipped one game of the Oct 24-25 back-to-back, which fits the expectation that the team rests him with care.
+Chemistry: PHI added LeBron and Brown (Paul George went to BOS) and won 106-100 at NY on opening night; they are 3-1 with a +3.0 point margin (110.0 for, 107.0 against). IND has Haliburton back from the Achilles tear plus Siakam, Toppin and Zubac, and is 2-2.
+Home field: Gainbridge Fieldhouse; IND is 0-1 at home this year (L 105-121 vs DAL) and 2-1 away. ATS splits were not in the ESPN feed.
+Line movement: moving from PHI -1.5 to -4.5 is the market pricing IND's guard injuries; the total fell a point. Sharp Under money fits with Haliburton, Nembhard and McConnell all hurt.
+Risk: if Haliburton, Nembhard and Toppin all play, the 4.5 is too high and IND pushes the pace past 105; also, Embiid or LeBron could rest on short notice. Verify the injury report before locking this one.
+Verdict: Under 236.5 is the model-backed leg (5.7 points under, PHI's defense is 100.4 DRtg); the spread has movement against it. Both sides rely on DK only. The usage SGP candidates (Maxey, Brown, Siakam) have no priced lines, so edge=false.
+
+Legs considered:
+- Under 236.5: Projection 230.8 (229.6 blended) is 5.7-6.9 under; PHI games average 217 this season and Indiana's guards Nembhard and McConnell are hurt.
+- Philadelphia 76ers -4.5: Four-star PHI against Indiana's depleted rotation, but the line already moved 3 points and Haliburton may play.
+- Philadelphia 76ers ML: ESPN's model has PHI at 75.9% against the market's 63% no-vig; a short price with only one book.
+
+Our bets:
+- straight (lean): Under 236.5 (-105): pending -> **pending**
 
 ### 2026-10-26: at Milwaukee Bucks (final: IND 102, MIL 110)
 

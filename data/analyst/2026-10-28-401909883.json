@@ -1,0 +1,86 @@
+{
+ "summary": "Detroit is on the second night of a back-to-back and Charlotte is rested, while the total projects 226.2 against a low 215.5. Most likely winner: Charlotte +6.5 (-115).",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Charlotte Hornets +6.5",
+   "game": "Charlotte Hornets @ Detroit Pistons",
+   "market": "spread",
+   "team": "CHA",
+   "side": null,
+   "line": 6.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "injuries": 0.52,
+    "matchup": 0.55,
+    "recent_form": 0.55,
+    "market_move": 0.52,
+    "home": 0.46
+   },
+   "note": "Detroit played at NY last night (lost 97-111) without Duren, while Charlotte had a full day off; the line already fell from 7.5."
+  },
+  {
+   "desc": "Over 215.5",
+   "game": "Charlotte Hornets @ Detroit Pistons",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 215.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.58,
+    "recent_form": 0.5,
+    "pace": 0.52,
+    "injuries": 0.46,
+    "market_move": 0.5
+   },
+   "note": "Projection 226.2 (224.5 blended) is 9-11 over the line, but CHA's four missing guards and DET's B2B make this a lean, not a lock."
+  },
+  {
+   "desc": "Charlotte Hornets ML",
+   "game": "Charlotte Hornets @ Detroit Pistons",
+   "market": "ml",
+   "team": "CHA",
+   "side": null,
+   "line": null,
+   "odds": 210,
+   "book": "DraftKings (via ESPN pickcenter)",
+   "fair": 0.309,
+   "books": 1,
+   "signals": {
+    "matchup": 0.52,
+    "injuries": 0.5,
+    "home": 0.45,
+    "season": 0.48
+   },
+   "note": "A small longshot: rested CHA wins outright about one time in three against a tired, thin-frontcourt Detroit."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Usage 24%+: Cunningham 30.5% (28.9% now), Miller 28.1% (35.0% now), Reid 30.0% (2026-27). DvP (2025-26, rank 1 = most allowed): CHA allows G 22nd, F 24th, C 24th, so Cunningham fails. DET's positional DvP was not found, but a 108.9 DRtg (best in the East) makes a bottom-10 rank for Miller and Reid unlikely.",
+  "note": "Best-possible version only: no prop line was priced at 2+ sportsbooks tonight (ESPN's feed carries only DraftKings game lines and the other odds sites were unreachable), so per the 10/25 rule no prop legs are listed."
+ },
+ "totals_projection": {
+  "possessions": 98.35,
+  "CHA": 112.3,
+  "DET": 113.9,
+  "total": 226.2,
+  "line": 215.5,
+  "blended_total": 224.5,
+  "math": "CHA avg(119.4 ORtg, 108.9 DET DRtg)*0.9835=112.3; DET avg(117.3, 114.4 CHA DRtg)*0.9835=113.9; sum 226.2. 80/20 blend with 2026-27 box scores (CHA 103.0/109.9, DET 111.5/105.6): 224.5. 2026-27 alone: about 218."
+ },
+ "research": "Lines (ESPN/DraftKings, Wed 7:00 PM ET, Little Caesars Arena): DET -6.5 (-105) / CHA +6.5 (-115), opened -7.5 (-110/-110); ML DET -258 / CHA +210, opened -305/+245; total 215.5 (o-105/u-115), opened 216.5. Every move is toward Charlotte and toward the Under; DK only (books=1).\nPredictor: ESPN BPI gives DET 67.6%. No named expert picks for tonight were found (searches returned only prior-season Hornets-Pistons previews; other odds hosts did not resolve from this session).\nSchedule: DET played Tue 10/27 at NY (L 97-111) and is on the second night of a back-to-back at home; CHA last played Mon 10/26 (W 110-103 vs WSH) and has had a full day off. Detroit also played at PHI on 10/25, so this is its third game in four nights.\nRecords: DET 3-1 (W 121-113 BOS, W 128-111 at MIA, W 106-93 at PHI, L 97-111 at NY); CHA 3-1 (W 110-103 at BKN, L 81-128 vs ATL, W 115-110 vs MIA, W 110-103 vs WSH) according to ESPN's header. Detroit's 2026-27 DRtg is 105.6 and CHA's ORtg only 103.0.\nInjuries (ESPN): DET Jalen Duren out (hamstring, to about 11/9), Isaiah Joe day-to-day (hip); Ausar Thompson not listed. CHA Knueppel (hamstring), Coby White (calf), Grant Williams (hamstring) and Boswell (knee) all out. Charlotte's rotation is Miller, Schroder, Reid, Allen, Diabate.\nTotals method: possessions avg(CHA 96.8, DET 99.9)=98.35. CHA = avg(119.4, 108.9)x0.9835=112.3; DET = avg(117.3, 114.4)x0.9835=113.9; total 226.2 vs 215.5 (+10.7), the largest gap on the slate. Charlotte's 119.4 ORtg belongs to a roster with Knueppel, White and LaMelo-era creators.\nReality check on the model: this season CHA games finished 213, 209, 225, 213 (average 215) and DET games 234, 239, 199, 208 (average 220). Using only 2026-27 ratings (CHA 103.0 ORtg, DET 105.6 DRtg) projects about 218, so the Over's cushion is 2.5 points, not 10. The model leg is real but smaller than the headline.\nUsage: Cunningham 30.5% in 2025-26 and 28.9% now; Miller 28.1% last year and 35.0% now with 18, 6, 34 and 39 points; Reid 30.0% now as CHA's second scorer (18-23 points); Schroder 21.4%. Duren (22.7%) and Collins fill the bigs for Detroit; Paul Reed and Jenkins are the replacements.\nDvP (2025-26 own calc, rank 1 = most allowed): CHA allows G 22nd, F 24th, C 24th (stingy), so Cunningham fails the bottom-10 test. Detroit's own DvP was not available, but its 108.9 DRtg (best in the East) makes Miller and Reid unlikely qualifiers. No prop prices at 2+ books, so no SGP legs.\nMatchup: Detroit is physical (Bickerstaff), defends the rim, and plays 99.9 pace; Charlotte plays slow (96.8) and has shot 41% FG and 30% from three. Miller's volume (35% usage) and Reid's post scoring give CHA enough offense to reach 100; Cunningham (22, 16, 26, 19 points) controls Detroit's offense.\nCoaching: Cunningham played 36 minutes at NY last night (19/9/8) after 33 and 36 in earlier games, so the starters are carrying heavy minutes into this B2B. The Pistons were 60-22 and 4th in opponent ppg (109.7) in 2025-26.\nChemistry: Detroit's retooled bench (Collins, Joe, G. Harris, Prince, Jalen Green) is a mixed group with Duren out; Charlotte traded LaMelo to MIN for Reid and added Coby White, who has not played yet. Knueppel, White, G. Williams and Boswell remain out.\nHome field: Little Caesars Arena; Detroit's only 2026-27 home game so far was a 121-113 win over BOS, and it was the East's top seed last year. Tonight is a home back-to-back, so the usual home edge is partly offset by fatigue.\nLine movement: spread -7.5 to -6.5, ML -305 to -258, total 216.5 to 215.5. The money is on Charlotte and the Under; the Over at 215.5 therefore goes against the market move, and the model gap is the only reason to take it.\nRisk: the Under is the market's side and the first-four-game team totals back it (CHA 215 average); Detroit also beat MIA 128-111 and BOS 121-113, and a Charlotte offense missing four creators could be held under 100, so the Over can lose by a lot.\nVerdict: CHA +6.5 is the most likely leg on rest and injury grounds (only DK price, books=1); the Over is the model's pick with a much smaller edge than the headline gap. No usage SGP qualifies."
+}
