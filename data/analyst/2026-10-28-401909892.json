@@ -1,0 +1,100 @@
+{
+ "summary": "LAC is without Ingram, Beal, Hachimura and Strus, and the model projects 235.8 vs 229.5 with LAL's offense at 125. Most likely: LAL ML -198; Over 229.5 is the model leg.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Los Angeles Lakers ML",
+   "game": "Los Angeles Lakers @ LA Clippers",
+   "market": "ml",
+   "team": "LAL",
+   "side": null,
+   "line": null,
+   "odds": -198,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.637,
+   "books": 1,
+   "signals": {
+    "injuries": 0.62,
+    "season": 0.6,
+    "matchup": 0.58,
+    "rest": 0.46
+   },
+   "note": "LAC is missing five players including Ingram, Beal and Hachimura; LAL is on a back-to-back but beat them by 8 on 10/23."
+  },
+  {
+   "desc": "Over 229.5",
+   "game": "Los Angeles Lakers @ LA Clippers",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 229.5,
+   "odds": -110,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.56,
+    "pace": 0.52,
+    "history": 0.54,
+    "injuries": 0.46
+   },
+   "note": "Projection 235.8 (LAL 119.1 + LAC 116.7); LAL's 128 ppg offense drives it, while LAC's depleted roster shaves a few points."
+  },
+  {
+   "desc": "Los Angeles Lakers -4.5",
+   "game": "Los Angeles Lakers @ LA Clippers",
+   "market": "spread",
+   "team": "LAL",
+   "side": null,
+   "line": 4.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "injuries": 0.58,
+    "matchup": 0.55,
+    "rest": 0.45
+   },
+   "note": "The line dropped from -9.5 on 10/23 despite more LAC absences, so this looks a bargain, but a LAL back-to-back keeps it from being strong."
+  },
+  {
+   "desc": "LA Clippers +4.5",
+   "game": "Los Angeles Lakers @ LA Clippers",
+   "market": "spread",
+   "team": "LAC",
+   "side": null,
+   "line": 4.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "rest": 0.55,
+    "home": 0.52,
+    "injuries": 0.4
+   },
+   "note": "LAC is rested and at home, but nearly its whole top scoring core is out."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 103.8,
+  "away": 119.1,
+  "home": 116.7,
+  "total": 235.8,
+  "line": 229.5,
+  "math": "LAL avg(ORtg 125.2, LAC DRtg 104.4)=114.8; LAC avg(ORtg 107.5, LAL DRtg 117.4)=112.5; x103.8/100 => 119.1 + 116.7; about 233 with extra LAC absences"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: LAL -4.5 (-115, LAC +4.5 -105), total 229.5 (-110/-110), ML LAL -198 / LAC +164. Earlier snapshots were total 228.5 and the brief had LAL -5.5; the 10/23 game was LAL -9.5. One named book only.\nTotals model: possessions LAL 102.5, LAC 105.1, avg 103.8. LAL 119.1 + LAC 116.7 = 235.8 vs 229.5, 6.3 over; about 233 after the extra LAC injuries.\nLAL season (4 games): 128.3 ppg for / 120.3 against; W GS 127-105, W LAC 125-117, W UTAH 132-123, L POR 129-136 last night (10/27 ET).\nLAC season (3 games): 113.0 for / 109.7 against; W SAC 121-96, L LAL 117-125, L OKC 101-108. Last played 10/25 ET, so well rested.\nInjuries (ESPN): LAC Brandon Ingram, Bradley Beal, Rui Hachimura, Max Strus, Yanic Konan Niederhauser out; LAL Cameron Carr and Adou Thiero out.\nUsage: Doncic 40.6 (36.0 ppg, 8.2 ast), Reaves 23.5 (26.5 ppg), Garland 31.4 (24.0 ppg, 7.0 ast), Brook Lopez 23.6, Hachimura 22.3 (out).\nHead-to-head: LAL won 125-117 on 10/23 ET with Ingram and Beal also out; 242 combined points, which fits the Over.\nRest: LAL played POR last night and gave up 136 in a loss; LAC rested. Pushes the market toward LAC but the roster gap is larger.\nDvP / usage SGP: no DvP table or prop prices reachable, so none qualifies. Doncic and Reaves scoring props were not priced at 2+ books, so none are listed.\nCoaching: LAL leans on Doncic's isolation and pick-and-roll (Kessler 8 reb as rim runner); LAC runs through Garland with Dunn and Lopez, more methodical.\nRisk: LAL is not a good defensive team (117 DRtg) and a back-to-back night; the total could stall if LAL leads big and rests starters.\nBest leg: LAL ML -198 (fair 64.4 percent at DK only). Model leg: Over 229.5. Neither has a verified price edge."
+}

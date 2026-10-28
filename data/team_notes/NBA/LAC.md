@@ -10,6 +10,33 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: vs Los Angeles Lakers
+
+LAC is without Ingram, Beal, Hachimura and Strus, and the model projects 235.8 vs 229.5 with LAL's offense at 125. Most likely: LAL ML -198; Over 229.5 is the model leg.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: LAL -4.5 (-115, LAC +4.5 -105), total 229.5 (-110/-110), ML LAL -198 / LAC +164. Earlier snapshots were total 228.5 and the brief had LAL -5.5; the 10/23 game was LAL -9.5. One named book only.
+Totals model: possessions LAL 102.5, LAC 105.1, avg 103.8. LAL 119.1 + LAC 116.7 = 235.8 vs 229.5, 6.3 over; about 233 after the extra LAC injuries.
+LAL season (4 games): 128.3 ppg for / 120.3 against; W GS 127-105, W LAC 125-117, W UTAH 132-123, L POR 129-136 last night (10/27 ET).
+LAC season (3 games): 113.0 for / 109.7 against; W SAC 121-96, L LAL 117-125, L OKC 101-108. Last played 10/25 ET, so well rested.
+Injuries (ESPN): LAC Brandon Ingram, Bradley Beal, Rui Hachimura, Max Strus, Yanic Konan Niederhauser out; LAL Cameron Carr and Adou Thiero out.
+Usage: Doncic 40.6 (36.0 ppg, 8.2 ast), Reaves 23.5 (26.5 ppg), Garland 31.4 (24.0 ppg, 7.0 ast), Brook Lopez 23.6, Hachimura 22.3 (out).
+Head-to-head: LAL won 125-117 on 10/23 ET with Ingram and Beal also out; 242 combined points, which fits the Over.
+Rest: LAL played POR last night and gave up 136 in a loss; LAC rested. Pushes the market toward LAC but the roster gap is larger.
+DvP / usage SGP: no DvP table or prop prices reachable, so none qualifies. Doncic and Reaves scoring props were not priced at 2+ books, so none are listed.
+Coaching: LAL leans on Doncic's isolation and pick-and-roll (Kessler 8 reb as rim runner); LAC runs through Garland with Dunn and Lopez, more methodical.
+Risk: LAL is not a good defensive team (117 DRtg) and a back-to-back night; the total could stall if LAL leads big and rests starters.
+Best leg: LAL ML -198 (fair 64.4 percent at DK only). Model leg: Over 229.5. Neither has a verified price edge.
+
+Legs considered:
+- Los Angeles Lakers ML: LAC is missing five players including Ingram, Beal and Hachimura; LAL is on a back-to-back but beat them by 8 on 10/23.
+- Over 229.5: Projection 235.8 (LAL 119.1 + LAC 116.7); LAL's 128 ppg offense drives it, while LAC's depleted roster shaves a few points.
+- Los Angeles Lakers -4.5: The line dropped from -9.5 on 10/23 despite more LAC absences, so this looks a bargain, but a LAL back-to-back keeps it from being strong.
+- LA Clippers +4.5: LAC is rested and at home, but nearly its whole top scoring core is out.
+
+Our bets:
+- straight (lean): Over 229.5 (-110): pending -> **pending**
+- longshot (lean): Over 229.5 (-110): pending -> **pending**
+
 ### 2026-10-25: at Oklahoma City Thunder (final: LAC 101, OKC 108)
 
 Model has OKC by about 7 against a 15.5 spread, so the Clippers cover is the cleanest number. Most likely winner: LA Clippers +15.5 (-105).

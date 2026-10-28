@@ -14,6 +14,32 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: at Dallas Mavericks
+
+Holmgren and Caruso are out for OKC, which is on a back-to-back; the total projects 220.2 vs 228.5, so Under 228.5 is the most likely leg.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: OKC -6.5 (-105, DAL +6.5 -115), total 228.5 (o-112/u-108), ML OKC -230 / DAL +190. The brief had OKC -5.5; the line has grown a point. One named book only.
+Totals model: possessions OKC 101.8, DAL 102.3, avg 102.1. OKC 113.6 + DAL 106.6 = 220.2 vs 228.5, 8.3 under. OKC games average 212 combined points.
+OKC season (4 games): 111.3 ppg for / 100.8 against; W SA 116-104, W DEN 96-84, W LAC 108-101, W PHX 125-114 last night (10/27 ET).
+DAL season: 112.5 for / 116.0 against; L HOU 110-128, W IND 121-105, L SA 106-122, W MIA 113-109 (10/26 ET). One day of rest.
+Injuries (ESPN): OKC Chet Holmgren out (12.0 pts/9.3 reb), Alex Caruso out, Thomas Sorber out, Nikola Topic out, Ajay Mitchell day-to-day; DAL Santi Aldama, Tarik Biberovic, Sergio de Larrea, Caleb Martin out, Naji Marshall day-to-day.
+Usage: SGA 32.3 (27.2 ppg), Mitchell 26.1, Flagg 31.7 (25.0 ppg, 6.3 ast), Kyrie Irving 27.1, Marshall 23.1.
+Rest: OKC played PHX last night; DAL last played 10/26 ET. Rest edge to Dallas.
+DvP / usage SGP: no DvP table or prop prices reachable, so no usage SGP qualifies or is highlighted.
+Coaching: OKC rotates deep and switches; with Holmgren out Hartenstein (8.5 reb) plays more center. Dallas is slower (102.3) and relies on Flagg and Irving.
+Context: OKC's three wins by 7, 12 and 13 on defense suggest a low-scoring game; Dallas has allowed 128 and 122 to the Rockets and Spurs, the one counter to the Under.
+Best leg: Under 228.5 (-108), fair 51.1 percent at DK. Model-based lean, single book.
+
+Legs considered:
+- Under 228.5: Projection 220.2 is 8 under the line; OKC allows 100.8 ppg, and the Holmgren absence trims that edge only a little.
+- Dallas Mavericks +6.5: OKC is thin without Holmgren and Caruso and on a back-to-back, while Flagg (25 ppg) is a real scoring threat.
+- Oklahoma City Thunder -6.5: OKC has the best defense in the league, but its offense is 111 ppg and it is short-handed.
+- Oklahoma City Thunder ML: SGA (27.2 ppg) leads a defense that allows 100.8 ppg; ML is a reasonable bet for the best team but at a heavy price.
+
+Our bets:
+- straight (lean): Under 228.5 (-108): pending -> **pending**
+- longshot (lean): Under 228.5 (-108): pending -> **pending**
+
 ### 2026-10-26: vs Phoenix Suns (final: PHX 114, OKC 125)
 
 OKC is on a back-to-back and lost Jalen Williams to a serious left ankle injury Sunday, and 10.5 is the largest number on the board. Most likely winner: Suns +10.5.

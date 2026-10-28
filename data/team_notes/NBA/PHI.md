@@ -40,7 +40,9 @@ Legs considered:
 - Philadelphia 76ers ML: ESPN's model has PHI at 75.9% against the market's 63% no-vig; a short price with only one book.
 
 Our bets:
+- longshot (lean): Philadelphia 76ers -4.5 (-110): pending -> **pending**
 - straight (lean): Under 236.5 (-105): pending -> **pending**
+- longshot (lean): Under 236.5 (-105): pending -> **pending**
 
 ### 2026-10-25: vs Detroit Pistons (final: DET 106, PHI 93)
 

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T08:17-04:00",
+ "generated": "2026-10-28T10:03-04:00",
  "games": [
   {
    "id": "401874993",
@@ -54,10 +54,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "UDI +165",
+    "spread": "PAR +165",
     "total": 2.5,
-    "home_ml": 170,
-    "away_ml": 165,
+    "home_ml": 165,
+    "away_ml": 170,
     "book": "DraftKings"
    }
   },
@@ -84,10 +84,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "INT -285",
+    "spread": "INT -290",
     "total": 3.5,
     "home_ml": 600,
-    "away_ml": -285,
+    "away_ml": -290,
     "book": "DraftKings"
    }
   },
@@ -174,10 +174,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "ATL -3.5",
+    "spread": "ATL -2.5",
     "total": 241.5,
-    "home_ml": -162,
-    "away_ml": 136,
+    "home_ml": -142,
+    "away_ml": 120,
     "book": "DraftKings"
    }
   },
@@ -206,8 +206,8 @@
    "odds": {
     "spread": "CLE -10.5",
     "total": 239.5,
-    "home_ml": -395,
-    "away_ml": 310,
+    "home_ml": -410,
+    "away_ml": 320,
     "book": "DraftKings"
    }
   },
@@ -234,10 +234,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DET -6.5",
+    "spread": "DET -7.5",
     "total": 215.5,
-    "home_ml": -258,
-    "away_ml": 210,
+    "home_ml": -290,
+    "away_ml": 235,
     "book": "DraftKings"
    }
   },
@@ -264,10 +264,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "PHI -4.5",
+    "spread": "PHI -5.5",
     "total": 236.5,
-    "home_ml": 160,
-    "away_ml": -192,
+    "home_ml": 164,
+    "away_ml": -198,
     "book": "DraftKings"
    }
   },
@@ -296,8 +296,8 @@
    "odds": {
     "spread": "MTSU -2.5",
     "total": 50.5,
-    "home_ml": -142,
-    "away_ml": 120,
+    "home_ml": -135,
+    "away_ml": 114,
     "book": "DraftKings"
    }
   },
@@ -325,7 +325,7 @@
    "away_conf": null,
    "odds": {
     "spread": "TOR -4.5",
-    "total": 221.5,
+    "total": 222.5,
     "home_ml": -192,
     "away_ml": 160,
     "book": "DraftKings"
@@ -384,10 +384,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "CLT -185",
+    "spread": "CLT -190",
     "total": 3.5,
-    "home_ml": -185,
-    "away_ml": 380,
+    "home_ml": -190,
+    "away_ml": 390,
     "book": "DraftKings"
    }
   },
@@ -414,9 +414,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIA -215",
+    "spread": "MIA -225",
     "total": 4.5,
-    "home_ml": -215,
+    "home_ml": -225,
     "away_ml": 425,
     "book": "DraftKings"
    }
@@ -447,7 +447,7 @@
     "spread": "NE -110",
     "total": 3.5,
     "home_ml": -110,
-    "away_ml": 230,
+    "away_ml": 225,
     "book": "DraftKings"
    }
   },
@@ -534,10 +534,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "MIL -154",
+    "spread": "MIL -157",
     "total": 6.5,
-    "home_ml": 128,
-    "away_ml": -154,
+    "home_ml": 130,
+    "away_ml": -157,
     "book": "DraftKings"
    }
   },
@@ -565,7 +565,7 @@
    "away_conf": null,
    "odds": {
     "spread": "NY -7.5",
-    "total": 234.5,
+    "total": 231.5,
     "home_ml": 220,
     "away_ml": -270,
     "book": "DraftKings"
@@ -595,7 +595,7 @@
    "away_conf": null,
    "odds": {
     "spread": "HOU -8.5",
-    "total": 227.5,
+    "total": 225.5,
     "home_ml": 275,
     "away_ml": -345,
     "book": "DraftKings"
@@ -625,7 +625,7 @@
    "away_conf": null,
    "odds": {
     "spread": "MIN -3.5",
-    "total": 228.5,
+    "total": 227.5,
     "home_ml": -162,
     "away_ml": 136,
     "book": "DraftKings"
@@ -654,7 +654,7 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DEN -5.5",
+    "spread": "DEN -4.5",
     "total": 241.5,
     "home_ml": 164,
     "away_ml": -198,
@@ -714,10 +714,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "EDM -218",
+    "spread": "EDM -192",
     "total": 6.5,
-    "home_ml": -218,
-    "away_ml": 180,
+    "home_ml": -192,
+    "away_ml": 160,
     "book": "DraftKings"
    }
   },
@@ -804,10 +804,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DAL +110",
+    "spread": "DAL +115",
     "total": 3.5,
-    "home_ml": 110,
-    "away_ml": 195,
+    "home_ml": 115,
+    "away_ml": 190,
     "book": "DraftKings"
    }
   },
@@ -864,10 +864,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "NSH -130",
+    "spread": "NSH -135",
     "total": 2.5,
-    "home_ml": -130,
-    "away_ml": 290,
+    "home_ml": -135,
+    "away_ml": 300,
     "book": "DraftKings"
    }
   },
@@ -924,7 +924,7 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "SA -12.5",
+    "spread": "SA -13.5",
     "total": 233.5,
     "home_ml": 470,
     "away_ml": -650,
@@ -954,10 +954,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "COL -175",
+    "spread": "COL -148",
     "total": 6.5,
-    "home_ml": -175,
-    "away_ml": 145,
+    "home_ml": -148,
+    "away_ml": 124,
     "book": "DraftKings"
    }
   },
@@ -984,7 +984,7 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "OKC -5.5",
+    "spread": "OKC -6.5",
     "total": 228.5,
     "home_ml": 190,
     "away_ml": -230,
@@ -1014,10 +1014,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "TOR -120",
+    "spread": "TOR -142",
     "total": 6.5,
-    "home_ml": 100,
-    "away_ml": -120,
+    "home_ml": 120,
+    "away_ml": -142,
     "book": "DraftKings"
    }
   },
@@ -1044,10 +1044,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "LAL -5.5",
-    "total": 228.5,
-    "home_ml": 170,
-    "away_ml": -205,
+    "spread": "LAL -4.5",
+    "total": 229.5,
+    "home_ml": 164,
+    "away_ml": -198,
     "book": "DraftKings"
    }
   },
@@ -1104,10 +1104,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "SEA -130",
+    "spread": "SEA -135",
     "total": 2.5,
-    "home_ml": -130,
-    "away_ml": 295,
+    "home_ml": -135,
+    "away_ml": 300,
     "book": "DraftKings"
    }
   },
@@ -1134,10 +1134,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "VAN -255",
+    "spread": "VAN -245",
     "total": 3.5,
-    "home_ml": -255,
-    "away_ml": 500,
+    "home_ml": -245,
+    "away_ml": 475,
     "book": "DraftKings"
    }
   },
@@ -2232,7 +2232,7 @@
     "spread": "CHE -130",
     "total": 2.5,
     "home_ml": -130,
-    "away_ml": 310,
+    "away_ml": 320,
     "book": "DraftKings"
    }
   },
@@ -2261,7 +2261,7 @@
    "odds": {
     "spread": "ATM -170",
     "total": 3.5,
-    "home_ml": 380,
+    "home_ml": 390,
     "away_ml": -170,
     "book": "DraftKings"
    }
@@ -2289,9 +2289,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BOL -140",
+    "spread": "BOL -135",
     "total": 2.5,
-    "home_ml": -140,
+    "home_ml": -135,
     "away_ml": 330,
     "book": "DraftKings"
    }
@@ -2859,7 +2859,7 @@
    "home_conf": "American",
    "away_conf": "American",
    "odds": {
-    "spread": "USF -8.5",
+    "spread": "USF -7.5",
     "total": 42.5,
     "home_ml": -305,
     "away_ml": 245,
@@ -3755,8 +3755,8 @@
    "odds": {
     "spread": "NDSU -24.5",
     "total": 42.5,
-    "home_ml": -2400,
-    "away_ml": 1200,
+    "home_ml": -2800,
+    "away_ml": 1300,
     "book": "DraftKings"
    }
   },
@@ -4041,9 +4041,9 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "BAR -900",
+    "spread": "BAR -1000",
     "total": 4.5,
-    "home_ml": -900,
+    "home_ml": -1000,
     "away_ml": 2200,
     "book": "DraftKings"
    }
@@ -4103,8 +4103,8 @@
    "odds": {
     "spread": "UCLA -22.5",
     "total": 44.5,
-    "home_ml": -1800,
-    "away_ml": 1000,
+    "home_ml": -2100,
+    "away_ml": 1100,
     "book": "DraftKings"
    }
   },
@@ -4131,7 +4131,7 @@
    "home_conf": "SEC",
    "away_conf": "SEC",
    "odds": {
-    "spread": "OU -5.5",
+    "spread": "OU -4.5",
     "total": 44.5,
     "home_ml": -198,
     "away_ml": 164,
@@ -4365,7 +4365,7 @@
    "home_conf": "Big 12",
    "away_conf": "Big 12",
    "odds": {
-    "spread": "OKST -8.5",
+    "spread": "OKST -9.5",
     "total": 57.5,
     "home_ml": 270,
     "away_ml": -340,
@@ -5068,7 +5068,7 @@
    "away_conf": null,
    "odds": {
     "spread": "STR -120",
-    "total": 3.5,
+    "total": 2.5,
     "home_ml": -120,
     "away_ml": 290,
     "book": "DraftKings"
@@ -5423,10 +5423,10 @@
    "home_conf": null,
    "away_conf": null,
    "odds": {
-    "spread": "DAL -6.5",
+    "spread": "DAL -7",
     "total": 54.5,
-    "home_ml": -340,
-    "away_ml": 270,
+    "home_ml": -355,
+    "away_ml": 280,
     "book": "DraftKings"
    }
   },
@@ -5851,8 +5851,8 @@
    "odds": {
     "spread": "NE -7",
     "total": 43.5,
-    "home_ml": 260,
-    "away_ml": -325,
+    "home_ml": 250,
+    "away_ml": -310,
     "book": "DraftKings"
    }
   },
@@ -6913,6 +6913,30 @@
    "odds": {}
   },
   {
+   "id": "401926833",
+   "league": "NCAAB",
+   "date": "2026-11-02",
+   "start": "2026-11-02T23:30Z",
+   "status": "pre",
+   "game": "OLDW @ STBK",
+   "away": "OLDW",
+   "home": "STBK",
+   "away_id": "16231",
+   "home_id": "2619",
+   "away_name": "SUNY Old Westbury Panthers",
+   "home_name": "Stony Brook Seawolves",
+   "away_logo": null,
+   "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+   "venue": "Stony Brook Arena",
+   "city": "Stony Brook, NY",
+   "detail": "11/2 - 6:30 PM EST",
+   "away_score": 0.0,
+   "home_score": 0.0,
+   "home_conf": null,
+   "away_conf": null,
+   "odds": {}
+  },
+  {
    "id": "401925857",
    "league": "NCAAB",
    "date": "2026-11-02",
@@ -7002,30 +7026,6 @@
    "venue": "Tudor Fieldhouse",
    "city": "Houston, TX",
    "detail": "11/2 - 6:30 PM EST",
-   "away_score": 0.0,
-   "home_score": 0.0,
-   "home_conf": null,
-   "away_conf": null,
-   "odds": {}
-  },
-  {
-   "id": "401926833",
-   "league": "NCAAB",
-   "date": "2026-11-02",
-   "start": "2026-11-02T23:31Z",
-   "status": "pre",
-   "game": "OLDW @ STBK",
-   "away": "OLDW",
-   "home": "STBK",
-   "away_id": "16231",
-   "home_id": "2619",
-   "away_name": "SUNY Old Westbury Panthers",
-   "home_name": "Stony Brook Seawolves",
-   "away_logo": null,
-   "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
-   "venue": "Stony Brook Arena",
-   "city": "Stony Brook, NY",
-   "detail": "11/2 - 6:31 PM EST",
    "away_score": 0.0,
    "home_score": 0.0,
    "home_conf": null,

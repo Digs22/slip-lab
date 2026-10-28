@@ -32,4 +32,6 @@ Legs considered:
 - Kennesaw State ML: Dimers and ESPN's predictor both give MTSU 51 to 57%, so +120 is roughly the break-even price.
 
 Our bets:
+- longshot (lean): Under 50.5 (-108): pending -> **pending**
+- straight (lean): Under 50.5 (-108): pending -> **pending**
 - straight (lean): Under 50.5 (-108): pending -> **pending**

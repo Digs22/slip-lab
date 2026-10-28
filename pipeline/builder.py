@@ -165,8 +165,22 @@ def _lean(g: dict) -> dict | None:
     if not pool:
         return None
     s = max(pool, key=lambda l: (l["edge"], l["prob"]))
-    return {"straight": {"legs": [s], "odds": s["odds"], "prob": s["prob"], "ev": s["edge"], "lean": True,
-                         "units": config.PLAYS["straight"], "stake": config.PLAYS["straight"] * config.UNIT}}
+    plays = {"straight": {"legs": [s], "odds": s["odds"], "prob": s["prob"], "ev": s["edge"], "lean": True,
+                          "units": config.PLAYS["straight"], "stake": config.PLAYS["straight"] * config.UNIT}}
+    # Same-game parlay (user, 2026-10-28: "make some have same game parlays but with the best possible edge"):
+    # two researched legs from different markets, priced through the correlation simulation, kept only when the
+    # pair's true chance beats its price (a story like dog + Under can, even when neither leg does alone).
+    cands = []
+    for c in combinations([l for l in ev if l.get("odds")], 2):
+        if not _independent(c) or len({l["market"] for l in c}) < 2:
+            continue
+        par = _parlay(c)
+        p = simulate_parlay(list(c))
+        cands.append(par | {"prob": round(p, 4), "ev": round(p * to_decimal(par["odds"]) - 1, 4)})
+    best = max(cands, key=lambda c: c["ev"], default=None)
+    if best and best["ev"] > 0:
+        plays["safer"] = best | {"lean": True, "units": config.PLAYS["safer"], "stake": config.PLAYS["safer"] * config.UNIT}
+    return plays
 
 
 def build_traditional(scored_games: list[dict], sgp_straights: set | None = None, prior_use: Counter | None = None) -> dict | None:
@@ -185,8 +199,14 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
             # Only legs the research wrote up (they carry a note), not the other side of a market it never argued for.
             pool += [l | meta for l in g["legs"][:4] if l.get("note")]
     pool = sorted(pool, key=lambda l: l["edge"] * l["prob"], reverse=True)[:18]
+    lean = False
     if len({l["event_id"] for l in pool}) < 2:
-        return None
+        # User, 2026-10-28 ("Did you just stop doing traditional, pick of the day, and long shots???"): on a day
+        # with no edge legs the slip is still built, from the researched legs closest to an edge, marked a Lean.
+        pool = sorted(_lean_pool(scored_games), key=lambda l: (l["edge"], l["prob"]), reverse=True)[:18]
+        lean = True
+        if len({l["event_id"] for l in pool}) < 2:
+            return None
     used = Counter(prior_use or {})  # legs the day's game slips already use count toward MAX_LEG_REUSE
     theses = Counter()
     for desc, n in (prior_use or {}).items():
@@ -250,7 +270,21 @@ def build_traditional(scored_games: list[dict], sgp_straights: set | None = None
             play.update(priced(play, n=20000))  # final price at full precision
         play["units"] = config.PLAYS[name]
         play["stake"] = play["units"] * config.UNIT
+        play["lean"] = lean
     return plays or None
+
+
+def _lean_pool(scored_games: list[dict]) -> list[dict]:
+    """Every researched, written-up leg of every researched game, edge or not, tagged with its game: what the
+    Traditional slip and the Pick of the Day fall back on when no leg clears the edge bar."""
+    out = []
+    for g in scored_games:
+        if not g.get("analyst"):
+            continue
+        meta = {"event_id": g["game"]["id"], "league": g["game"]["league"], "start": g["game"].get("start"),
+                "matchup": f"{g['game']['away']} @ {g['game']['home']}"}
+        out += [l | meta | {"lean": True} for l in g.get("evaluated", []) if l.get("note")]
+    return out
 
 
 def pick_of_day(scored_games: list[dict]) -> dict:
@@ -270,4 +304,16 @@ def pick_of_day(scored_games: list[dict]) -> dict:
             score = (l["prob"], l["edge"]) if l["prob"] >= 0.5 and _straight_ok(l) else None
             if score and (lg not in best or score > best[lg][0]):
                 best[lg] = (score, leg)
+    # No edge pick in a league: its Pick of the Day is the researched leg closest to an edge among likely
+    # winners, marked a Lean (user, 2026-10-28, and "the best pick is always the Pick of the Day").
+    games = {g["game"]["id"]: g["game"] for g in scored_games}
+    for l in _lean_pool(scored_games):
+        lg = l["league"]
+        if lg in best and not best[lg][1].get("lean"):
+            continue
+        if l["prob"] < 0.5 or not _straight_ok(l):
+            continue
+        score = (l["edge"], l["prob"])
+        if lg not in best or score > best[lg][0]:
+            best[lg] = (score, l | {"_game": games[l["event_id"]]})
     return {lg: leg for lg, (_, leg) in best.items()}

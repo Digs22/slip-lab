@@ -1,0 +1,102 @@
+{
+ "summary": "Holmgren and Caruso are out for OKC, which is on a back-to-back; the total projects 220.2 vs 228.5, so Under 228.5 is the most likely leg.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 228.5",
+   "game": "Oklahoma City Thunder @ Dallas Mavericks",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 228.5,
+   "odds": -108,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.6,
+    "rest": 0.54,
+    "pace": 0.54,
+    "injuries": 0.46
+   },
+   "note": "Projection 220.2 is 8 under the line; OKC allows 100.8 ppg, and the Holmgren absence trims that edge only a little."
+  },
+  {
+   "desc": "Dallas Mavericks +6.5",
+   "game": "Oklahoma City Thunder @ Dallas Mavericks",
+   "market": "spread",
+   "team": "DAL",
+   "side": null,
+   "line": 6.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "rest": 0.55,
+    "injuries": 0.56,
+    "home": 0.52,
+    "matchup": 0.46
+   },
+   "note": "OKC is thin without Holmgren and Caruso and on a back-to-back, while Flagg (25 ppg) is a real scoring threat."
+  },
+  {
+   "desc": "Oklahoma City Thunder -6.5",
+   "game": "Oklahoma City Thunder @ Dallas Mavericks",
+   "market": "spread",
+   "team": "OKC",
+   "side": null,
+   "line": 6.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.5,
+    "injuries": 0.44,
+    "rest": 0.44
+   },
+   "note": "OKC has the best defense in the league, but its offense is 111 ppg and it is short-handed."
+  },
+  {
+   "desc": "Oklahoma City Thunder ML",
+   "game": "Oklahoma City Thunder @ Dallas Mavericks",
+   "market": "ml",
+   "team": "OKC",
+   "side": null,
+   "line": null,
+   "odds": -230,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.669,
+   "books": 1,
+   "signals": {
+    "season": 0.62,
+    "matchup": 0.58,
+    "injuries": 0.52,
+    "rest": 0.5
+   },
+   "note": "SGA (27.2 ppg) leads a defense that allows 100.8 ppg; ML is a reasonable bet for the best team but at a heavy price."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 102.1,
+  "away": 113.6,
+  "home": 106.6,
+  "total": 220.2,
+  "line": 228.5,
+  "math": "OKC avg(ORtg 109.3, DAL DRtg 113.4)=111.3; DAL avg(ORtg 110.0, OKC DRtg 99.0)=104.5; x102.1/100 => 113.6 + 106.6; OKC defense is weaker without Holmgren (about +2) so roughly 222"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: OKC -6.5 (-105, DAL +6.5 -115), total 228.5 (o-112/u-108), ML OKC -230 / DAL +190. The brief had OKC -5.5; the line has grown a point. One named book only.\nTotals model: possessions OKC 101.8, DAL 102.3, avg 102.1. OKC 113.6 + DAL 106.6 = 220.2 vs 228.5, 8.3 under. OKC games average 212 combined points.\nOKC season (4 games): 111.3 ppg for / 100.8 against; W SA 116-104, W DEN 96-84, W LAC 108-101, W PHX 125-114 last night (10/27 ET).\nDAL season: 112.5 for / 116.0 against; L HOU 110-128, W IND 121-105, L SA 106-122, W MIA 113-109 (10/26 ET). One day of rest.\nInjuries (ESPN): OKC Chet Holmgren out (12.0 pts/9.3 reb), Alex Caruso out, Thomas Sorber out, Nikola Topic out, Ajay Mitchell day-to-day; DAL Santi Aldama, Tarik Biberovic, Sergio de Larrea, Caleb Martin out, Naji Marshall day-to-day.\nUsage: SGA 32.3 (27.2 ppg), Mitchell 26.1, Flagg 31.7 (25.0 ppg, 6.3 ast), Kyrie Irving 27.1, Marshall 23.1.\nRest: OKC played PHX last night; DAL last played 10/26 ET. Rest edge to Dallas.\nDvP / usage SGP: no DvP table or prop prices reachable, so no usage SGP qualifies or is highlighted.\nCoaching: OKC rotates deep and switches; with Holmgren out Hartenstein (8.5 reb) plays more center. Dallas is slower (102.3) and relies on Flagg and Irving.\nContext: OKC's three wins by 7, 12 and 13 on defense suggest a low-scoring game; Dallas has allowed 128 and 122 to the Rockets and Spurs, the one counter to the Under.\nBest leg: Under 228.5 (-108), fair 51.1 percent at DK. Model-based lean, single book."
+}

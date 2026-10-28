@@ -8,6 +8,34 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: vs San Antonio Spurs
+
+Both teams played last night, Utah is missing Jackson Jr. and Nurkic, and SA is laying 13.5; Utah +13.5 is the most likely leg. Total projects 230.1 vs 233.5.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: SA -13.5 (-105, UTAH +13.5 -115), total 233.5 (o-108/u-112), ML SA -650 / UTAH +470. The 12:17Z-era number was SA -12.5; this is a one-point move toward SA. One named book only.
+Totals model: possessions SA 104.6, UTAH 102.7, avg 103.7. SA 118.8 + UTAH 111.3 = 230.1 vs 233.5, 3.4 under.
+SA season (4 games): 116.5 ppg for / 109.8 against; L OKC 104-116, L HOU 110-114, W DAL 122-106, W SAC 130-103 last night (10/27 ET).
+UTAH season: 112.8 for / 121.0 against; L MEM 103-123, W NO 120-119, L LAL 123-132, L MEM 105-110 last night. Utah's DRtg ~117.8 is poor.
+Injuries (ESPN): UTAH Jaren Jackson Jr. out, Jusuf Nurkic out, Trey Alexander out, Lauri Markkanen and Jaxson Hayes day-to-day (Markkanen scored 2 pts in his last game); SA Tobias Harris out, Jayden Quaintance out.
+Usage: Wembanyama 31.6, Castle 27.7, Keyonte George 27.3 (22.8 ppg, 7.8 ast), Markkanen 22.1, JJJ 25.9.
+Rest: both teams on the second night of a back-to-back; SA flies in after a 27-point home win and should rest starters in a blowout.
+Spread logic: SA's star minutes are capped at about 30 (Wemby 30.5, Fox 30.0), so a 13.5-point cover needs a runaway while Utah plays at altitude with the home crowd.
+DvP / usage SGP: no DvP or prop prices found, so no usage SGP qualifies.
+Coaching: SA starts Fox, Castle, Harper, Vassell, Wembanyama; Utah plays George and Peterson as the young core.
+If Markkanen is ruled out, the line will move 1-2 points toward SA; re-check at pre-lock.
+Best leg: Utah +13.5 (-115), fair 48.4 percent at DK only; no verified price edge, the case is back-to-back plus big number.
+
+Legs considered:
+- Utah Jazz +13.5: Raw model has SA by about 7-8 on the road; 13.5 is a big number for a back-to-back road favorite.
+- Under 233.5: Projection 230.1 is 3.4 under the line, and SA's defense (105 DRtg) travels.
+- San Antonio Spurs -13.5: SA is 3-1 with elite defense, but a 13.5 spread on a back-to-back leaves little room.
+- Utah Jazz ML: Dog ML +470 needs 17.5 percent; Jackson Jr. and Nurkic out, so it is only a long shot.
+
+Our bets:
+- straight (lean): Under 233.5 (-112): pending -> **pending**
+- safer (lean): Under 233.5 (-112): pending / Utah Jazz ML (+470): pending -> **pending**
+- best: Utah Jazz ML (+470): pending -> **pending**
+
 ### 2026-10-26: vs Memphis Grizzlies (final: MEM 110, UTAH 105)
 
 Both teams play the second night of a back-to-back; the total projects 246.0 against 237.5, and Utah had no travel. Most likely winner: Over 237.5.

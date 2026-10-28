@@ -40,6 +40,9 @@ Legs considered:
 - Atlanta Hawks -3.5: Blended score model has ATL by about 4 with home court; the number sits right on it, so no cushion.
 
 Our bets:
+- straight (lean): Atlanta Hawks ML (-162): pending -> **pending**
+- safer (lean): Atlanta Hawks ML (-162): pending -> **pending**
+- longshot (lean): Atlanta Hawks -3.5 (-108): pending -> **pending**
 - straight (lean): Under 241.5 (-105): pending -> **pending**
 
 ### 2026-10-26: vs Dallas Mavericks (final: DAL 113, MIA 109)

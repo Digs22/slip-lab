@@ -42,6 +42,8 @@ Legs considered:
 - Under 6.5: My projection is 6.4 versus 6.5 with the total moving toward the Over, so there is no real edge either way.
 
 Our bets:
+- safer (lean): Tampa Bay Rays +1.5 (-149): pending -> **pending**
+- straight (lean): Tampa Bay Rays +1.5 (-149): pending -> **pending**
 - straight (lean): Tampa Bay Rays +1.5 (-149): pending -> **pending**
 
 ### 2026-10-27: at Tampa Bay Rays (final: MIL 3, TB 4)

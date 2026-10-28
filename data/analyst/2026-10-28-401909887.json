@@ -1,0 +1,100 @@
+{
+ "summary": "Sengun and Adams are out for HOU, which cuts its 235 projection to about 230, still above 225.5. Over 225.5 is the most likely leg; MIL +8.5 is the other lean.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Over 225.5",
+   "game": "Houston Rockets @ Milwaukee Bucks",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 225.5,
+   "odds": -110,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.57,
+    "pace": 0.54,
+    "injuries": 0.46,
+    "market_move": 0.46
+   },
+   "note": "Raw projection 235.4 includes Sengun; removing him still leaves about 230, and both teams allow 111+ per 100."
+  },
+  {
+   "desc": "Milwaukee Bucks +8.5",
+   "game": "Houston Rockets @ Milwaukee Bucks",
+   "market": "spread",
+   "team": "MIL",
+   "side": null,
+   "line": 8.5,
+   "odds": -110,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "injuries": 0.57,
+    "home": 0.53,
+    "rest": 0.5,
+    "matchup": 0.5
+   },
+   "note": "HOU loses Sengun (24.5 pts, 7 ast) and Adams; HOU is also on a back-to-back, so 8.5 looks a little high."
+  },
+  {
+   "desc": "Houston Rockets -8.5",
+   "game": "Houston Rockets @ Milwaukee Bucks",
+   "market": "spread",
+   "team": "HOU",
+   "side": null,
+   "line": 8.5,
+   "odds": -110,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.5,
+   "books": 1,
+   "signals": {
+    "season": 0.56,
+    "matchup": 0.55,
+    "injuries": 0.42
+   },
+   "note": "HOU is 4-0 with a +9.8 margin, but Sengun is the offensive hub and out."
+  },
+  {
+   "desc": "Milwaukee Bucks ML",
+   "game": "Houston Rockets @ Milwaukee Bucks",
+   "market": "ml",
+   "team": "MIL",
+   "side": null,
+   "line": null,
+   "odds": 275,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.256,
+   "books": 1,
+   "signals": {
+    "injuries": 0.55,
+    "home": 0.53,
+    "season": 0.42
+   },
+   "note": "Dog ML at +275 needs about 26.7 percent; Sengun out and a Houston back-to-back make it live but not strong."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 102.7,
+  "away": 121.6,
+  "home": 113.9,
+  "total": 235.4,
+  "line": 225.5,
+  "math": "HOU avg(ORtg 120.8, MIL DRtg 115.8)=118.3; MIL avg(ORtg 110.6, HOU DRtg 111.0)=110.8; x102.7/100 => 121.6 + 113.9; about 230 after removing Sengun"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: HOU -8.5 (-110/-110), total 225.5 (-110/-110), ML HOU -345 / MIL +275. The 12:17Z snapshot was 227.5, so the total fell 2 points. One named book only; betting pages were blocked.\nTotals model: possessions HOU 100.0, MIL 105.5, avg 102.7. HOU 121.6 + MIL 113.9 = 235.4 vs 225.5. Sengun-out adjustment of about 5 gives roughly 230, still over.\nHOU season (4 games): 120.8 ppg for / 111.0 against; W DAL 128-110, W SA 114-110, W ATL 121-114, W ATL 120-110 (last night, 10/27 ET).\nMIL season: 116.8 for / 122.3 against; L WSH 116-128, L CHI 125-132, L PHI 116-127, W IND 110-102 (last night). MIL games average 239 combined points.\nInjuries (ESPN): HOU Alperen Sengun out, Steven Adams out, Marcus Smart day-to-day; MIL none listed. Sengun is 24.5 pts/9.0 reb/7.0 ast with a 28 percent usage.\nRotation: without Sengun, Durant (24.5 percent usage, 23.5 ppg), Amen Thompson and Reed Sheppard take on more creation; VanVleet runs the offense (7 ast).\nMIL has no injuries listed: Turner and Ware split the middle; Herro leads at 28.8 percent usage, 23.5 ppg.\nRest: both teams played last night, so rest is a wash.\nDvP / usage SGP: no DvP table or prop prices were reachable, so no usage SGP qualifies and none is highlighted.\nCoaching: The Rockets defend hard (111 DRtg) and run through bigs; Milwaukee plays quick (105.5 possessions) but has allowed 122 ppg.\nModel read: HOU is a bigger favorite than their depleted frontcourt supports, but MIL has lost three of four, so I rate the Over above the side.\nBest leg: Over 225.5 (-110), fair 50 percent at DK. No second book, so it is a Lean with a projection edge, not a price edge."
+}

@@ -1,0 +1,99 @@
+{
+ "summary": "Edwards is out for MIN, Butler and Porzingis for GS; MIN projects only 1-3 points better than the line, so no real edge. Most likely: MIN ML -162.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Minnesota Timberwolves ML",
+   "game": "Golden State Warriors @ Minnesota Timberwolves",
+   "market": "ml",
+   "team": "MIN",
+   "side": null,
+   "line": null,
+   "odds": -162,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.593,
+   "books": 1,
+   "signals": {
+    "home": 0.56,
+    "season": 0.57,
+    "injuries": 0.5,
+    "rest": 0.52
+   },
+   "note": "MIN's 99 DRtg and a night of rest outweigh Edwards' absence; GS is on a back-to-back without Butler and Porzingis."
+  },
+  {
+   "desc": "Minnesota Timberwolves -3.5",
+   "game": "Golden State Warriors @ Minnesota Timberwolves",
+   "market": "spread",
+   "team": "MIN",
+   "side": null,
+   "line": 3.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "home": 0.55,
+    "matchup": 0.52,
+    "injuries": 0.44
+   },
+   "note": "Model margin about 4-5 after the Edwards adjustment, right on the number."
+  },
+  {
+   "desc": "Golden State Warriors +3.5",
+   "game": "Golden State Warriors @ Minnesota Timberwolves",
+   "market": "spread",
+   "team": "GS",
+   "side": null,
+   "line": 3.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "injuries": 0.5,
+    "rest": 0.46,
+    "matchup": 0.46
+   },
+   "note": "GS can score without Butler (Curry 28 percent usage), but defense is 120.5 per 100 and it is on a back-to-back."
+  },
+  {
+   "desc": "Under 227.5",
+   "game": "Golden State Warriors @ Minnesota Timberwolves",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 227.5,
+   "odds": -108,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.496,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.5,
+    "injuries": 0.55,
+    "pace": 0.52
+   },
+   "note": "Raw 232.8 includes Edwards (33 ppg); without him MIN's offense drops about 6, putting the projection near 226."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 103.0,
+  "away": 111.4,
+  "home": 121.4,
+  "total": 232.8,
+  "line": 227.5,
+  "math": "GS avg(ORtg 117.0, MIN DRtg 99.3)=108.2; MIN avg(ORtg 115.3, GS DRtg 120.5)=117.9; x103.0/100 => 111.4 + 121.4; about 226 after removing Edwards"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: MIN -3.5 (-115, GS +3.5 -105), total 227.5 (o-112/u-108), ML MIN -162 / GS +136. Earlier snapshots were 229.5 then 228.5, so the total fell 2 points. One named book only.\nTotals model: possessions GS 100.2, MIN 105.8, avg 103.0. Raw GS 111.4 + MIN 121.4 = 232.8 vs 227.5; Edwards (33.2 ppg, 38 percent usage) out drops it to about 226, so no edge.\nMIN season (4 games): 122.0 ppg for / 105.0 against; W MIA 131-106, W ORL 115-93, W TOR 117-94, L CLE 125-127 (10/26 ET). All with Edwards.\nGS season: 117.3 for / 120.8 against; L LAL 105-127, L MEM 108-111, L PHX 122-131, W DEN 134-114 last night. Back-to-back tonight.\nInjuries (ESPN): MIN Edwards out, DiVincenzo out; GS Porzingis out, Moody out, Butler out, Lendeborg day-to-day.\nUsage (4 games): Edwards 38.0, Curry 28.3 (3 games), Lendeborg 26.4, LaMelo Ball 26.5, B. Williams 32.1 in limited minutes. Without Edwards, Ball, Dosunmu and McDaniels take shots.\nGobert 14.2 reb per game keeps MIN on the glass; Lendeborg 9.2 reb is GS's top rebounder.\nRest: MIN last played 10/26 ET (one night off); GS played at DEN last night, so a rest edge to MIN.\nDvP / usage SGP: unreachable data (DvP tables, prop prices), so no usage SGP qualifies.\nCoaching: MIN defends at elite level (99 DRtg) and slows the game; GS is short-handed and plays through Curry with Draymond (7 ast).\nSummary view: Edwards' absence turns a MIN -7 type line into -3.5, which looks about fair. No edge on any leg, so treat this as a Lean at small stake.\nBest leg: MIN ML -162 (fair 58.7 percent at DK). Honest read: no edge."
+}

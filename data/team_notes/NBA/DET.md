@@ -41,6 +41,8 @@ Legs considered:
 
 Our bets:
 - straight (lean): Over 215.5 (-105): pending -> **pending**
+- safer (lean): Over 215.5 (-105): pending / Charlotte Hornets ML (+210): pending -> **pending**
+- best: Charlotte Hornets ML (+210): pending -> **pending**
 
 ### 2026-10-27: at New York Knicks (final: DET 97, NY 111)
 

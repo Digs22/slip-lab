@@ -12,6 +12,32 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: at Minnesota Timberwolves
+
+Edwards is out for MIN, Butler and Porzingis for GS; MIN projects only 1-3 points better than the line, so no real edge. Most likely: MIN ML -162.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: MIN -3.5 (-115, GS +3.5 -105), total 227.5 (o-112/u-108), ML MIN -162 / GS +136. Earlier snapshots were 229.5 then 228.5, so the total fell 2 points. One named book only.
+Totals model: possessions GS 100.2, MIN 105.8, avg 103.0. Raw GS 111.4 + MIN 121.4 = 232.8 vs 227.5; Edwards (33.2 ppg, 38 percent usage) out drops it to about 226, so no edge.
+MIN season (4 games): 122.0 ppg for / 105.0 against; W MIA 131-106, W ORL 115-93, W TOR 117-94, L CLE 125-127 (10/26 ET). All with Edwards.
+GS season: 117.3 for / 120.8 against; L LAL 105-127, L MEM 108-111, L PHX 122-131, W DEN 134-114 last night. Back-to-back tonight.
+Injuries (ESPN): MIN Edwards out, DiVincenzo out; GS Porzingis out, Moody out, Butler out, Lendeborg day-to-day.
+Usage (4 games): Edwards 38.0, Curry 28.3 (3 games), Lendeborg 26.4, LaMelo Ball 26.5, B. Williams 32.1 in limited minutes. Without Edwards, Ball, Dosunmu and McDaniels take shots.
+Gobert 14.2 reb per game keeps MIN on the glass; Lendeborg 9.2 reb is GS's top rebounder.
+Rest: MIN last played 10/26 ET (one night off); GS played at DEN last night, so a rest edge to MIN.
+DvP / usage SGP: unreachable data (DvP tables, prop prices), so no usage SGP qualifies.
+Coaching: MIN defends at elite level (99 DRtg) and slows the game; GS is short-handed and plays through Curry with Draymond (7 ast).
+Summary view: Edwards' absence turns a MIN -7 type line into -3.5, which looks about fair. No edge on any leg, so treat this as a Lean at small stake.
+Best leg: MIN ML -162 (fair 58.7 percent at DK). Honest read: no edge.
+
+Legs considered:
+- Minnesota Timberwolves ML: MIN's 99 DRtg and a night of rest outweigh Edwards' absence; GS is on a back-to-back without Butler and Porzingis.
+- Minnesota Timberwolves -3.5: Model margin about 4-5 after the Edwards adjustment, right on the number.
+- Golden State Warriors +3.5: GS can score without Butler (Curry 28 percent usage), but defense is 120.5 per 100 and it is on a back-to-back.
+- Under 227.5: Raw 232.8 includes Edwards (33 ppg); without him MIN's offense drops about 6, putting the projection near 226.
+
+Our bets:
+- straight (lean): Under 227.5 (-108): pending -> **pending**
+
 ### 2026-10-26: at Denver Nuggets (final: GS 134, DEN 114)
 
 Curry, Draymond, Horford and Podziemski are cleared, Golden State is 0-3 and rested, and Denver is short Cam Johnson. Most likely winner: Warriors +7.5.

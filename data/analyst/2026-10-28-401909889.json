@@ -1,0 +1,100 @@
+{
+ "summary": "DEN is on a back-to-back and these teams scored 276 in OT on Saturday; the model projects 243.7 vs 241.5. Most likely: NO +4.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "New Orleans Pelicans +4.5",
+   "game": "Denver Nuggets @ New Orleans Pelicans",
+   "market": "spread",
+   "team": "NO",
+   "side": null,
+   "line": 4.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "rest": 0.57,
+    "home": 0.53,
+    "matchup": 0.54,
+    "injuries": 0.5
+   },
+   "note": "Denver played last night while NO rested, and the raw model has NO slightly ahead; Jokic still keeps this close."
+  },
+  {
+   "desc": "Over 241.5",
+   "game": "Denver Nuggets @ New Orleans Pelicans",
+   "market": "total",
+   "team": null,
+   "side": "over",
+   "line": 241.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.52,
+    "pace": 0.53,
+    "history": 0.5,
+    "rest": 0.46
+   },
+   "note": "Projection 243.7 and both defenses allow 118-120 per 100; the 276-point first meeting inflates the market."
+  },
+  {
+   "desc": "Denver Nuggets ML",
+   "game": "Denver Nuggets @ New Orleans Pelicans",
+   "market": "ml",
+   "team": "DEN",
+   "side": null,
+   "line": null,
+   "odds": -198,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.637,
+   "books": 1,
+   "signals": {
+    "season": 0.55,
+    "injuries": 0.5,
+    "rest": 0.44
+   },
+   "note": "Jokic has been uneven (13 to 35 points) and Denver is on a back-to-back at 1-2."
+  },
+  {
+   "desc": "New Orleans Pelicans ML",
+   "game": "Denver Nuggets @ New Orleans Pelicans",
+   "market": "ml",
+   "team": "NO",
+   "side": null,
+   "line": null,
+   "odds": 164,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.363,
+   "books": 1,
+   "signals": {
+    "rest": 0.55,
+    "home": 0.53,
+    "season": 0.45
+   },
+   "note": "Dog ML at +164 needs 37.9 percent; NO took Denver to overtime four days ago."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 104.9,
+  "away": 120.4,
+  "home": 123.3,
+  "total": 243.7,
+  "line": 241.5,
+  "math": "DEN avg(ORtg 111.9, NO DRtg 117.7)=114.8; NO avg(ORtg 114.6, DEN DRtg 120.5)=117.6; x104.9/100 => 120.4 + 123.3"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: DEN -4.5 (-115, NO +4.5 -105), total 241.5 (o-115/u-105), ML DEN -198 / NO +164. One named book only.\nTotals model: possessions DEN 101.0, NO 108.8, avg 104.9. DEN 120.4 + NO 123.3 = 243.7 vs 241.5, a 2-point gap, so no strong total signal.\nDEN season (3 games): 113.0 ppg for / 121.7 against; L OKC 84-96, W NO 141-135 (OT, 10/24 ET), L GS 114-134 last night. Denver's defense has been poor (120.5 per 100).\nNO season (3 games): 124.7 for / 128.0 against; L IND 120-123, L UTAH 119-120, L DEN 135-141 OT. NO played 10/24 ET, so it has had three days off.\nInjuries (ESPN): DEN Spencer Jones out, Alpha Diallo out, Julian Strawther out, Cameron Johnson day-to-day; NO Yves Missi out, Jordan Poole day-to-day.\nUsage: Jokic 28.6, Murray 24.2, DeRozan 25.6; NO: Dejounte Murray 26.5, Zion 23.2, Fears 23.9, Bey 23.3. Jokic's 22.3 ppg / 9.7 reb / 8.7 ast is below his usual output.\nHead-to-head: DEN won 141-135 in OT on 10/24 ET, 276 combined points; three more meetings follow this season. Totals regress after an OT outlier.\nRest: DEN on the second night of a back-to-back after a 20-point loss to GS (played in Denver); NO well rested at home.\nDvP / usage SGP: unreachable (DvP and prop prices not found), so no usage SGP qualifies.\nCoaching: Denver rotation shortened (Murray 38.7 min, Jokic 38.0 min) so a back-to-back could mean lighter minutes late; NO pushes pace (108.8 possessions).\nJudgment: a +4.5 dog at home with extra rest against a thin, tired Denver fits the model, but Denver's top-end talent holds it back from a strong lean.\nBest leg: NO +4.5 (-105). DK-only price, so fair is 50.8 percent with no price edge; the case is rest and the raw model margin."
+}

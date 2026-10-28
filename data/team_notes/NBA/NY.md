@@ -12,6 +12,34 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: at Chicago Bulls
+
+Total projects 224.5 vs 231.5 with NY on a back-to-back; Under 231.5 is the most likely leg. Single-book prices only, so no verified edge.
+
+Lines: ESPN pickcenter (DraftKings) at 13:55Z: NY -7.5 (-105 / CHI +7.5 -115), total 231.5 (o-115 / u-105), ML NY -270 / CHI +220. The 12:17Z snapshot had 234.5, so the total has dropped 3 points. Only one named book was reachable (betting sites and Covers blocked, WebSearch returned stale pages).
+Totals model (NBA.md): possessions avg of NY 101.0 and CHI 110.2 = 105.6; NY 116.4 + CHI 108.1 = 224.5 vs 231.5. Samples are 4 games each, so treat it as directional: the model has been 6-0 when it disagrees with the line.
+NY season (4 games): 104.0 ppg for / 105.3 against, ORtg ~103, DRtg ~104. Results: L PHI 100-106, L BOS 103-107, L ORL 102-111, W DET 111-97 (played 10/27 ET, so tonight is a back-to-back).
+CHI season: 110.8 for / 129.5 against, DRtg ~117.5. Results: L TOR 92-135, W MIL 132-125, L WSH 120-124, L BOS 99-134 (last played 10/26 ET). Chicago games average 240 total points; NY games average 209.
+Injuries (ESPN): CHI Nic Claxton out, Patrick Williams and Tobe Awaka day-to-day; NY Jose Alvarado day-to-day. No NY starter out.
+Usage (2026-27 box scores, 4 games): Brunson 31.9, Towns 27.9, Caleb Wilson 28.3, Powell 25.9. Roles are early-season and unverified against last season.
+DvP / usage SGP: FantasyPros/Hashtag DvP pages and any sportsbook prop prices were not reachable, so no usage SGP can be built and none is claimed. Per the 10/25 lesson, no player props are listed without 2+ named books.
+Rest: NY on the second night of a back-to-back (DET at home 10/27 ET); CHI had a night off after BOS. Favors the Under and the Bulls' cover slightly.
+Coaching/pace: NY plays slow (101 possessions) and has struggled to score; Chicago plays fast (110) but has been blown out three of four games.
+Head-to-head: NY and CHI meet three times this regular season (NBA Cup game 10/31/2025 had NY -2.5, 235.5). No 2026-27 meeting yet.
+Home court: CHI at the United Center, a modest 2-point edge; no travel issue for CHI.
+Best leg: Under 231.5 (-105). No second book, so fair is DK's no-vig 48.9 percent, and the case rests on the projection, not a price gap. Leans carry no verified price edge, so stake small.
+
+Legs considered:
+- Under 231.5: Projection 224.5 (NY 116.4 + CHI 108.1) is 7 below the line, and NY plays the second night of a back-to-back.
+- Chicago Bulls +7.5: NY (1-3, 104 ppg) is on a back-to-back, but Chicago allows 129.5 ppg, so the cushion is thin.
+- New York Knicks -7.5: CHI has lost by 43 and 35 and ranks near the bottom on defense, but NY's offense is only 104 ppg and tired.
+- New York Knicks ML: Claxton is out for CHI and the Bulls give up 129.5 ppg; the price is steep for a back-to-back team.
+
+Our bets:
+- straight (lean): Under 231.5 (-105): pending -> **pending**
+- straight (lean): Under 231.5 (-105): pending -> **pending**
+- longshot (lean): Under 231.5 (-105): pending -> **pending**
+
 ### 2026-10-27: vs Detroit Pistons (final: DET 97, NY 111)
 
 Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule.

@@ -12,6 +12,34 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: vs Houston Rockets
+
+Sengun and Adams are out for HOU, which cuts its 235 projection to about 230, still above 225.5. Over 225.5 is the most likely leg; MIL +8.5 is the other lean.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: HOU -8.5 (-110/-110), total 225.5 (-110/-110), ML HOU -345 / MIL +275. The 12:17Z snapshot was 227.5, so the total fell 2 points. One named book only; betting pages were blocked.
+Totals model: possessions HOU 100.0, MIL 105.5, avg 102.7. HOU 121.6 + MIL 113.9 = 235.4 vs 225.5. Sengun-out adjustment of about 5 gives roughly 230, still over.
+HOU season (4 games): 120.8 ppg for / 111.0 against; W DAL 128-110, W SA 114-110, W ATL 121-114, W ATL 120-110 (last night, 10/27 ET).
+MIL season: 116.8 for / 122.3 against; L WSH 116-128, L CHI 125-132, L PHI 116-127, W IND 110-102 (last night). MIL games average 239 combined points.
+Injuries (ESPN): HOU Alperen Sengun out, Steven Adams out, Marcus Smart day-to-day; MIL none listed. Sengun is 24.5 pts/9.0 reb/7.0 ast with a 28 percent usage.
+Rotation: without Sengun, Durant (24.5 percent usage, 23.5 ppg), Amen Thompson and Reed Sheppard take on more creation; VanVleet runs the offense (7 ast).
+MIL has no injuries listed: Turner and Ware split the middle; Herro leads at 28.8 percent usage, 23.5 ppg.
+Rest: both teams played last night, so rest is a wash.
+DvP / usage SGP: no DvP table or prop prices were reachable, so no usage SGP qualifies and none is highlighted.
+Coaching: The Rockets defend hard (111 DRtg) and run through bigs; Milwaukee plays quick (105.5 possessions) but has allowed 122 ppg.
+Model read: HOU is a bigger favorite than their depleted frontcourt supports, but MIL has lost three of four, so I rate the Over above the side.
+Best leg: Over 225.5 (-110), fair 50 percent at DK. No second book, so it is a Lean with a projection edge, not a price edge.
+
+Legs considered:
+- Over 225.5: Raw projection 235.4 includes Sengun; removing him still leaves about 230, and both teams allow 111+ per 100.
+- Milwaukee Bucks +8.5: HOU loses Sengun (24.5 pts, 7 ast) and Adams; HOU is also on a back-to-back, so 8.5 looks a little high.
+- Houston Rockets -8.5: HOU is 4-0 with a +9.8 margin, but Sengun is the offensive hub and out.
+- Milwaukee Bucks ML: Dog ML at +275 needs about 26.7 percent; Sengun out and a Houston back-to-back make it live but not strong.
+
+Our bets:
+- straight (lean): Over 225.5 (-110): pending -> **pending**
+- safer (lean): Over 225.5 (-110): pending / Milwaukee Bucks ML (+275): pending -> **pending**
+- best: Milwaukee Bucks ML (+275): pending -> **pending**
+
 ### 2026-10-26: vs Indiana Pacers (final: IND 102, MIL 110)
 
 Indiana is a back-to-back road favorite with Zubac out, but Milwaukee is 0-3 allowing 129. Most likely winner: Pacers ML -166; total projects 229.3 vs 240.5.

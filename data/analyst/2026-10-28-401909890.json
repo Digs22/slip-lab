@@ -1,0 +1,99 @@
+{
+ "summary": "Both teams played last night, Utah is missing Jackson Jr. and Nurkic, and SA is laying 13.5; Utah +13.5 is the most likely leg. Total projects 230.1 vs 233.5.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Utah Jazz +13.5",
+   "game": "San Antonio Spurs @ Utah Jazz",
+   "market": "spread",
+   "team": "UTAH",
+   "side": null,
+   "line": 13.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "matchup": 0.56,
+    "rest": 0.5,
+    "home": 0.53,
+    "season": 0.45
+   },
+   "note": "Raw model has SA by about 7-8 on the road; 13.5 is a big number for a back-to-back road favorite."
+  },
+  {
+   "desc": "Under 233.5",
+   "game": "San Antonio Spurs @ Utah Jazz",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 233.5,
+   "odds": -112,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.504,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.55,
+    "pace": 0.52,
+    "rest": 0.52,
+    "injuries": 0.46
+   },
+   "note": "Projection 230.1 is 3.4 under the line, and SA's defense (105 DRtg) travels."
+  },
+  {
+   "desc": "San Antonio Spurs -13.5",
+   "game": "San Antonio Spurs @ Utah Jazz",
+   "market": "spread",
+   "team": "SA",
+   "side": null,
+   "line": 13.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "season": 0.54,
+    "matchup": 0.52,
+    "rest": 0.44
+   },
+   "note": "SA is 3-1 with elite defense, but a 13.5 spread on a back-to-back leaves little room."
+  },
+  {
+   "desc": "Utah Jazz ML",
+   "game": "San Antonio Spurs @ Utah Jazz",
+   "market": "ml",
+   "team": "UTAH",
+   "side": null,
+   "line": null,
+   "odds": 470,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.168,
+   "books": 1,
+   "signals": {
+    "injuries": 0.4,
+    "home": 0.52
+   },
+   "note": "Dog ML +470 needs 17.5 percent; Jackson Jr. and Nurkic out, so it is only a long shot."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 103.7,
+  "away": 118.8,
+  "home": 111.3,
+  "total": 230.1,
+  "line": 233.5,
+  "math": "SA avg(ORtg 111.4, UTAH DRtg 117.8)=114.6; UTAH avg(ORtg 109.8, SA DRtg 104.9)=107.4; x103.7/100 => 118.8 + 111.3"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) 13:55Z: SA -13.5 (-105, UTAH +13.5 -115), total 233.5 (o-108/u-112), ML SA -650 / UTAH +470. The 12:17Z-era number was SA -12.5; this is a one-point move toward SA. One named book only.\nTotals model: possessions SA 104.6, UTAH 102.7, avg 103.7. SA 118.8 + UTAH 111.3 = 230.1 vs 233.5, 3.4 under.\nSA season (4 games): 116.5 ppg for / 109.8 against; L OKC 104-116, L HOU 110-114, W DAL 122-106, W SAC 130-103 last night (10/27 ET).\nUTAH season: 112.8 for / 121.0 against; L MEM 103-123, W NO 120-119, L LAL 123-132, L MEM 105-110 last night. Utah's DRtg ~117.8 is poor.\nInjuries (ESPN): UTAH Jaren Jackson Jr. out, Jusuf Nurkic out, Trey Alexander out, Lauri Markkanen and Jaxson Hayes day-to-day (Markkanen scored 2 pts in his last game); SA Tobias Harris out, Jayden Quaintance out.\nUsage: Wembanyama 31.6, Castle 27.7, Keyonte George 27.3 (22.8 ppg, 7.8 ast), Markkanen 22.1, JJJ 25.9.\nRest: both teams on the second night of a back-to-back; SA flies in after a 27-point home win and should rest starters in a blowout.\nSpread logic: SA's star minutes are capped at about 30 (Wemby 30.5, Fox 30.0), so a 13.5-point cover needs a runaway while Utah plays at altitude with the home crowd.\nDvP / usage SGP: no DvP or prop prices found, so no usage SGP qualifies.\nCoaching: SA starts Fox, Castle, Harper, Vassell, Wembanyama; Utah plays George and Peterson as the young core.\nIf Markkanen is ruled out, the line will move 1-2 points toward SA; re-check at pre-lock.\nBest leg: Utah +13.5 (-115), fair 48.4 percent at DK only; no verified price edge, the case is back-to-back plus big number."
+}

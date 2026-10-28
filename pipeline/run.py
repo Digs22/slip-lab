@@ -194,7 +194,7 @@ def record_traditional(date: str, plays: dict | None, bets: list[dict], prune: b
             bets.remove(existing)
         bet = {"id": bid, "kind": "traditional", "date": date, "league": "MULTI",
                "game": f"Multi-game · {len({l.get('event_id') for l in data['legs']})} game{'s' if len({l.get('event_id') for l in data['legs']}) > 1 else ''}", "start": first, "play": play,
-               "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"],
+               "odds": data["odds"], "units": data["units"], "prob": data["prob"], "ev": data["ev"], "lean": bool(data.get("lean")),
                "legs": [{k: l.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
                                                 "prob", "edge", "signals", "note", "status", "alt", "main_line",
                                                 "event_id", "league", "matchup", "start")} | {"date": et_date(l["start"]) if l.get("start") else date}
@@ -223,15 +223,25 @@ def record_daily_longshot(date: str, bets: list[dict]) -> list[dict]:
     if existing and (existing["status"] != "pending" or existing.get("placed")
                      or (not every_game and any(_started(l["start"]) for l in existing["legs"] if l.get("start")))):
         return []
-    straights = sorted((b for b in bets if b.get("kind") == "sgp" and b.get("date") == date and b["play"] == "straight"
-                        and b["status"] == "pending" and b.get("start") and not _started(b["start"])
-                        and not b.get("lean") and not b["legs"][0].get("lean")),
+    open_straights = [b for b in bets if b.get("kind") == "sgp" and b.get("date") == date and b["play"] == "straight"
+                      and b["status"] == "pending" and b.get("start") and not _started(b["start"])]
+    straights = sorted((b for b in open_straights if not b.get("lean") and not b["legs"][0].get("lean")),
                        key=lambda b: -(b["legs"][0].get("prob") or b.get("prob") or 0))
+    lean = False
+    if len({b.get("event_id") for b in straights}) < config.LONGSHOT_MIN_LEGS:
+        # User, 2026-10-28: a day without enough edge picks still gets a Longshot, topped up with the best Leans
+        # (most likely winners first) and marked a Lean.
+        straights += sorted((b for b in open_straights if b not in straights),
+                            key=lambda b: -(b["legs"][0].get("prob") or b.get("prob") or 0))
+        lean = True
     if existing:
         bets.remove(existing)
     legs, dec, prob, games = [], 1.0, 1.0, set()
+    # The day-wide 2-bet cap (user, 2026-10-15) applies here too; Picks of the Day don't count toward it.
+    uses = Counter(l["desc"] for x in bets if x.get("date") == date and x["id"] != bid and "-POTD-" not in x["id"]
+                   for l in x.get("legs", []))
     for b in straights:
-        if b.get("event_id") in games:
+        if b.get("event_id") in games or uses[b["legs"][0]["desc"]] >= config.MAX_LEG_REUSE:
             continue
         l = b["legs"][0]
         games.add(b.get("event_id"))
@@ -247,7 +257,7 @@ def record_daily_longshot(date: str, bets: list[dict]) -> list[dict]:
     bet = {"id": bid, "kind": "longshot", "date": date, "league": "MULTI",
            "game": f"Longshot · {len(legs)} best picks", "start": min(l["start"] for l in legs), "play": "longshot",
            "odds": round((dec - 1) * 100), "units": config.PLAYS["longshot"], "prob": round(prob, 4), "ev": round(prob * dec - 1, 4),
-           "legs": legs}
+           "lean": lean, "legs": legs}
     ledger.add(bets, bet)
     return [bet]
 
@@ -270,7 +280,7 @@ def record_potd(date: str, picks: dict, bets: list[dict], prune: bool = True) ->
         bet = {"id": bid, "kind": "potd", "date": date, "league": league, "event_id": leg["event_id"],
                "game": leg["matchup"], "start": leg.get("start"), "play": "straight", "venue": g.get("venue"), "city": g.get("city"),
                "home_logo": g.get("home_logo"), "away_logo": g.get("away_logo"),
-               "odds": leg["odds"], "units": units, "prob": leg["prob"], "ev": leg["edge"],
+               "odds": leg["odds"], "units": units, "prob": leg["prob"], "ev": leg["edge"], "lean": bool(leg.get("lean")),
                "legs": [{k: leg.get(k) for k in ("desc", "market", "side", "team", "player", "stat", "line", "odds", "book", "fair",
                                                   "prob", "edge", "signals", "note", "status", "alt", "main_line")}]}
         if _duplicate(bets, bet):

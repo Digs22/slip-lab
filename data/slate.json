@@ -1,27 +1,25 @@
 {
   "date": "2026-10-28",
-  "generated": "2026-10-28T08:17-04:00",
-  "games_scanned": 21,
+  "generated": "2026-10-28T10:03-04:00",
+  "games_scanned": 15,
   "problems": [
     "2026-10-28: MLB odds: https://api.the-odds-api.com/v4/sports/baseball_mlb/odds: HTTP Error 401: Unauthorized",
     "2026-10-28: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
-    "2026-10-28: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized",
-    "2026-10-29: NFL odds: https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds: HTTP Error 401: Unauthorized",
-    "2026-10-29: NBA odds: https://api.the-odds-api.com/v4/sports/basketball_nba/odds: HTTP Error 401: Unauthorized",
-    "2026-10-29: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
+    "2026-10-28: NCAAF odds: https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds: HTTP Error 401: Unauthorized"
   ],
-  "upcoming": [
+  "upcoming": [],
+  "games": [
     {
-      "id": "401909886",
+      "id": "401909890",
       "league": "NBA",
-      "game": "NY @ CHI",
-      "start": "2026-10-29T00:00Z",
-      "venue": "United Center",
-      "city": "Chicago, IL",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png"
+      "game": "SA @ UTAH",
+      "start": "2026-10-29T01:00Z",
+      "venue": "Delta Center",
+      "provisional": true,
+      "score": 0.0193,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+      "summary": "Both teams played last night, Utah is missing Jackson Jr. and Nurkic, and SA is laying 13.5; Utah +13.5 is the most likely leg. Total projects 230.1 vs 233.5."
     },
     {
       "id": "401909887",
@@ -29,134 +27,12 @@
       "game": "HOU @ MIL",
       "start": "2026-10-29T00:00Z",
       "venue": "Fiserv Forum",
-      "city": "Milwaukee, WI",
-      "score": 0,
-      "edges": 0,
+      "provisional": true,
+      "score": 0.0151,
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png"
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+      "summary": "Sengun and Adams are out for HOU, which cuts its 235 projection to about 230, still above 225.5. Over 225.5 is the most likely leg; MIL +8.5 is the other lean."
     },
-    {
-      "id": "401909888",
-      "league": "NBA",
-      "game": "GS @ MIN",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Target Center",
-      "city": "Minneapolis, MN",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png"
-    },
-    {
-      "id": "401909889",
-      "league": "NBA",
-      "game": "DEN @ NO",
-      "start": "2026-10-29T00:00Z",
-      "venue": "Smoothie King Center",
-      "city": "New Orleans, LA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png"
-    },
-    {
-      "id": "401909890",
-      "league": "NBA",
-      "game": "SA @ UTAH",
-      "start": "2026-10-29T01:00Z",
-      "venue": "Delta Center",
-      "city": "Salt Lake City, UT",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png"
-    },
-    {
-      "id": "401909891",
-      "league": "NBA",
-      "game": "OKC @ DAL",
-      "start": "2026-10-29T01:30Z",
-      "venue": "American Airlines Center",
-      "city": "Dallas, TX",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png"
-    },
-    {
-      "id": "401909892",
-      "league": "NBA",
-      "game": "LAL @ LAC",
-      "start": "2026-10-29T02:30Z",
-      "venue": "Intuit Dome",
-      "city": "Inglewood, CA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png"
-    },
-    {
-      "id": "401873023",
-      "league": "NFL",
-      "game": "CAR @ GB",
-      "start": "2026-10-30T00:15Z",
-      "venue": "Lambeau Field",
-      "city": "Green Bay, WI",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
-    },
-    {
-      "id": "401909893",
-      "league": "NBA",
-      "game": "CLE @ ATL",
-      "start": "2026-10-30T00:00Z",
-      "venue": "State Farm Arena",
-      "city": "Atlanta, GA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png"
-    },
-    {
-      "id": "401909894",
-      "league": "NBA",
-      "game": "SAC @ NO",
-      "start": "2026-10-30T00:00Z",
-      "venue": "Smoothie King Center",
-      "city": "New Orleans, LA",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png"
-    },
-    {
-      "id": "401909895",
-      "league": "NBA",
-      "game": "MEM @ POR",
-      "start": "2026-10-30T02:00Z",
-      "venue": "Moda Center",
-      "city": "Portland, OR",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png"
-    },
-    {
-      "id": "401862812",
-      "league": "NCAAF",
-      "game": "FAU @ UNT",
-      "start": "2026-10-29T23:30Z",
-      "venue": "DATCU Stadium",
-      "city": "Denton, TX",
-      "score": 0,
-      "edges": 0,
-      "home_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-      "away_logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png"
-    }
-  ],
-  "games": [
     {
       "id": "401909883",
       "league": "NBA",
@@ -168,6 +44,18 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
       "summary": "Detroit is on the second night of a back-to-back and Charlotte is rested, while the total projects 226.2 against a low 215.5. Most likely winner: Charlotte +6.5 (-115)."
+    },
+    {
+      "id": "401909889",
+      "league": "NBA",
+      "game": "DEN @ NO",
+      "start": "2026-10-29T00:00Z",
+      "venue": "Smoothie King Center",
+      "provisional": true,
+      "score": 0.0094,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+      "summary": "DEN is on a back-to-back and these teams scored 276 in OT on Saturday; the model projects 243.7 vs 241.5. Most likely: NO +4.5."
     },
     {
       "id": "401908046",
@@ -228,6 +116,54 @@
       "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
       "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
       "summary": "Both teams are missing stars (Kawhi, Banchero, Suggs), and the total projects 229.3 against 221.5 on last year's ratings but only 221.7 on this season's. Most likely winner: Toronto ML (-192)."
+    },
+    {
+      "id": "401909886",
+      "league": "NBA",
+      "game": "NY @ CHI",
+      "start": "2026-10-29T00:00Z",
+      "venue": "United Center",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+      "summary": "Total projects 224.5 vs 231.5 with NY on a back-to-back; Under 231.5 is the most likely leg. Single-book prices only, so no verified edge."
+    },
+    {
+      "id": "401909888",
+      "league": "NBA",
+      "game": "GS @ MIN",
+      "start": "2026-10-29T00:00Z",
+      "venue": "Target Center",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+      "summary": "Edwards is out for MIN, Butler and Porzingis for GS; MIN projects only 1-3 points better than the line, so no real edge. Most likely: MIN ML -162."
+    },
+    {
+      "id": "401909891",
+      "league": "NBA",
+      "game": "OKC @ DAL",
+      "start": "2026-10-29T01:30Z",
+      "venue": "American Airlines Center",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+      "summary": "Holmgren and Caruso are out for OKC, which is on a back-to-back; the total projects 220.2 vs 228.5, so Under 228.5 is the most likely leg."
+    },
+    {
+      "id": "401909892",
+      "league": "NBA",
+      "game": "LAL @ LAC",
+      "start": "2026-10-29T02:30Z",
+      "venue": "Intuit Dome",
+      "provisional": true,
+      "score": 0,
+      "home_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+      "away_logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+      "summary": "LAC is without Ingram, Beal, Hachimura and Strus, and the model projects 235.8 vs 229.5 with LAL's offense at 125. Most likely: LAL ML -198; Over 229.5 is the model leg."
     },
     {
       "id": "401871058",

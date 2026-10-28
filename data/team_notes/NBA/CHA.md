@@ -40,6 +40,8 @@ Legs considered:
 
 Our bets:
 - straight (lean): Over 215.5 (-105): pending -> **pending**
+- safer (lean): Over 215.5 (-105): pending / Charlotte Hornets ML (+210): pending -> **pending**
+- best: Charlotte Hornets ML (+210): pending -> **pending**
 
 ### 2026-10-26: vs Washington Wizards (final: WSH 103, CHA 110)
 

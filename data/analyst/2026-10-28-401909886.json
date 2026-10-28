@@ -1,0 +1,101 @@
+{
+ "summary": "Total projects 224.5 vs 231.5 with NY on a back-to-back; Under 231.5 is the most likely leg. Single-book prices only, so no verified edge.",
+ "lineups_confirmed": false,
+ "legs": [],
+ "extra_legs": [
+  {
+   "desc": "Under 231.5",
+   "game": "New York Knicks @ Chicago Bulls",
+   "market": "total",
+   "team": null,
+   "side": "under",
+   "line": 231.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "totals_model": 0.58,
+    "rest": 0.54,
+    "pace": 0.54,
+    "recent_form": 0.52
+   },
+   "note": "Projection 224.5 (NY 116.4 + CHI 108.1) is 7 below the line, and NY plays the second night of a back-to-back."
+  },
+  {
+   "desc": "Chicago Bulls +7.5",
+   "game": "New York Knicks @ Chicago Bulls",
+   "market": "spread",
+   "team": "CHI",
+   "side": null,
+   "line": 7.5,
+   "odds": -115,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.511,
+   "books": 1,
+   "signals": {
+    "rest": 0.55,
+    "home": 0.52,
+    "matchup": 0.46,
+    "season": 0.45
+   },
+   "note": "NY (1-3, 104 ppg) is on a back-to-back, but Chicago allows 129.5 ppg, so the cushion is thin."
+  },
+  {
+   "desc": "New York Knicks -7.5",
+   "game": "New York Knicks @ Chicago Bulls",
+   "market": "spread",
+   "team": "NY",
+   "side": null,
+   "line": 7.5,
+   "odds": -105,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.489,
+   "books": 1,
+   "signals": {
+    "matchup": 0.54,
+    "season": 0.55,
+    "rest": 0.44
+   },
+   "note": "CHI has lost by 43 and 35 and ranks near the bottom on defense, but NY's offense is only 104 ppg and tired."
+  },
+  {
+   "desc": "New York Knicks ML",
+   "game": "New York Knicks @ Chicago Bulls",
+   "market": "ml",
+   "team": "NY",
+   "side": null,
+   "line": null,
+   "odds": -270,
+   "book": "DraftKings (via ESPN)",
+   "fair": 0.7,
+   "books": 1,
+   "signals": {
+    "matchup": 0.62,
+    "season": 0.6,
+    "rest": 0.5,
+    "injuries": 0.58
+   },
+   "note": "Claxton is out for CHI and the Bulls give up 129.5 ppg; the price is steep for a back-to-back team."
+  }
+ ],
+ "sgp": {
+  "legs": [],
+  "odds": null,
+  "true_prob": null,
+  "implied_prob": null,
+  "edge": false,
+  "highlight": false,
+  "qualifiers": "Not built: DvP tables and sportsbook prop prices were unreachable today, and prop legs need 2+ named books (10/25 lesson). Usage rates from ESPN box scores (4 games) are in the research.",
+  "note": "No usage SGP posted; no edge claimed."
+ },
+ "totals_projection": {
+  "possessions": 105.6,
+  "away": 116.4,
+  "home": 108.1,
+  "total": 224.5,
+  "line": 231.5,
+  "math": "NY avg(ORtg 103.0, CHI DRtg 117.5)=110.3; CHI avg(ORtg 100.5, NY DRtg 104.2)=102.4; both x105.6/100 => NY 116.4, CHI 108.1; early-season 4-game samples, so the real edge is smaller than 7"
+ },
+ "research": "Lines: ESPN pickcenter (DraftKings) at 13:55Z: NY -7.5 (-105 / CHI +7.5 -115), total 231.5 (o-115 / u-105), ML NY -270 / CHI +220. The 12:17Z snapshot had 234.5, so the total has dropped 3 points. Only one named book was reachable (betting sites and Covers blocked, WebSearch returned stale pages).\nTotals model (NBA.md): possessions avg of NY 101.0 and CHI 110.2 = 105.6; NY 116.4 + CHI 108.1 = 224.5 vs 231.5. Samples are 4 games each, so treat it as directional: the model has been 6-0 when it disagrees with the line.\nNY season (4 games): 104.0 ppg for / 105.3 against, ORtg ~103, DRtg ~104. Results: L PHI 100-106, L BOS 103-107, L ORL 102-111, W DET 111-97 (played 10/27 ET, so tonight is a back-to-back).\nCHI season: 110.8 for / 129.5 against, DRtg ~117.5. Results: L TOR 92-135, W MIL 132-125, L WSH 120-124, L BOS 99-134 (last played 10/26 ET). Chicago games average 240 total points; NY games average 209.\nInjuries (ESPN): CHI Nic Claxton out, Patrick Williams and Tobe Awaka day-to-day; NY Jose Alvarado day-to-day. No NY starter out.\nUsage (2026-27 box scores, 4 games): Brunson 31.9, Towns 27.9, Caleb Wilson 28.3, Powell 25.9. Roles are early-season and unverified against last season.\nDvP / usage SGP: FantasyPros/Hashtag DvP pages and any sportsbook prop prices were not reachable, so no usage SGP can be built and none is claimed. Per the 10/25 lesson, no player props are listed without 2+ named books.\nRest: NY on the second night of a back-to-back (DET at home 10/27 ET); CHI had a night off after BOS. Favors the Under and the Bulls' cover slightly.\nCoaching/pace: NY plays slow (101 possessions) and has struggled to score; Chicago plays fast (110) but has been blown out three of four games.\nHead-to-head: NY and CHI meet three times this regular season (NBA Cup game 10/31/2025 had NY -2.5, 235.5). No 2026-27 meeting yet.\nHome court: CHI at the United Center, a modest 2-point edge; no travel issue for CHI.\nBest leg: Under 231.5 (-105). No second book, so fair is DK's no-vig 48.9 percent, and the case rests on the projection, not a price gap. Leans carry no verified price edge, so stake small."
+}

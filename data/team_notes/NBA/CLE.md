@@ -34,6 +34,7 @@ Legs considered:
 - Washington Wizards +10.5: Score model has CLE by about 8 with home court, so the 10.5 gives about 2 points of cushion; spread has not moved from the open.
 
 Our bets:
+- longshot (lean): Under 239.5 (-110): pending -> **pending**
 - straight (lean): Under 239.5 (-110): pending -> **pending**
 
 ### 2026-10-26: vs Minnesota Timberwolves (final: MIN 125, CLE 127)

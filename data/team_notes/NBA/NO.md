@@ -7,6 +7,32 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
+### 2026-10-28: vs Denver Nuggets
+
+DEN is on a back-to-back and these teams scored 276 in OT on Saturday; the model projects 243.7 vs 241.5. Most likely: NO +4.5.
+
+Lines: ESPN pickcenter (DraftKings) 13:55Z: DEN -4.5 (-115, NO +4.5 -105), total 241.5 (o-115/u-105), ML DEN -198 / NO +164. One named book only.
+Totals model: possessions DEN 101.0, NO 108.8, avg 104.9. DEN 120.4 + NO 123.3 = 243.7 vs 241.5, a 2-point gap, so no strong total signal.
+DEN season (3 games): 113.0 ppg for / 121.7 against; L OKC 84-96, W NO 141-135 (OT, 10/24 ET), L GS 114-134 last night. Denver's defense has been poor (120.5 per 100).
+NO season (3 games): 124.7 for / 128.0 against; L IND 120-123, L UTAH 119-120, L DEN 135-141 OT. NO played 10/24 ET, so it has had three days off.
+Injuries (ESPN): DEN Spencer Jones out, Alpha Diallo out, Julian Strawther out, Cameron Johnson day-to-day; NO Yves Missi out, Jordan Poole day-to-day.
+Usage: Jokic 28.6, Murray 24.2, DeRozan 25.6; NO: Dejounte Murray 26.5, Zion 23.2, Fears 23.9, Bey 23.3. Jokic's 22.3 ppg / 9.7 reb / 8.7 ast is below his usual output.
+Head-to-head: DEN won 141-135 in OT on 10/24 ET, 276 combined points; three more meetings follow this season. Totals regress after an OT outlier.
+Rest: DEN on the second night of a back-to-back after a 20-point loss to GS (played in Denver); NO well rested at home.
+DvP / usage SGP: unreachable (DvP and prop prices not found), so no usage SGP qualifies.
+Coaching: Denver rotation shortened (Murray 38.7 min, Jokic 38.0 min) so a back-to-back could mean lighter minutes late; NO pushes pace (108.8 possessions).
+Judgment: a +4.5 dog at home with extra rest against a thin, tired Denver fits the model, but Denver's top-end talent holds it back from a strong lean.
+Best leg: NO +4.5 (-105). DK-only price, so fair is 50.8 percent with no price edge; the case is rest and the raw model margin.
+
+Legs considered:
+- New Orleans Pelicans +4.5: Denver played last night while NO rested, and the raw model has NO slightly ahead; Jokic still keeps this close.
+- Over 241.5: Projection 243.7 and both defenses allow 118-120 per 100; the 276-point first meeting inflates the market.
+- Denver Nuggets ML: Jokic has been uneven (13 to 35 points) and Denver is on a back-to-back at 1-2.
+- New Orleans Pelicans ML: Dog ML at +164 needs 37.9 percent; NO took Denver to overtime four days ago.
+
+Our bets:
+- straight (lean): New Orleans Pelicans +4.5 (-105): pending -> **pending**
+
 ### 2026-10-24: at Denver Nuggets (final: NO 135, DEN 141)
 
 New Orleans plays its second game in two nights but the model has Denver by about 8 against an 11.5 line; the total projects 235.1 against 237.5. Most likely winner: New Orleans Pelicans +11.5.
