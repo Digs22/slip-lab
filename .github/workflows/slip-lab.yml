@@ -1,37 +1,61 @@
-# Optional: runs the pipeline on GitHub instead of in Claude. Manual-only for now, because Claude's
-# daily 7:59 AM run already makes the picks and pushes them here; running both would log picks twice.
-# To switch it on: add a repo secret named ODDS_API_KEY and uncomment the schedule below. GitHub cron is UTC, so both 11:59 and 12:59 UTC
-# are listed and the job only runs the one that is 7:59 AM in New York.
+# The scripted jobs, run on GitHub for free instead of in Claude: every 15 minutes from noon to 3 AM Eastern it
+# syncs settings and placed bets from ntfy, saves closing lines for games starting within 45 minutes, and grades
+# finished games (pipeline.run auto). It commits only when the ledger changed, then redeploys the website.
+# Research, the 7:59 AM picks, pre-lock checks and post-game reviews stay with Claude, and `daily` never runs on a
+# schedule here, or every pick would be logged twice.
+# Secrets: NTFY_TOPIC (already set for live alerts) and ODDS_API_KEY (closing lines; without it they're skipped).
 name: Sigma Locks
 on:
-  # schedule:
-  #   - cron: "59 11 * * *"
-  #   - cron: "59 12 * * *"
-  #   - cron: "*/30 16-23,0-5 * * *"
+  schedule:
+    - cron: "*/15 16-23,0-7 * * *"
   workflow_dispatch:
+    inputs:
+      cmd:
+        description: "Pipeline command (auto, grade, close, export)"
+        default: auto
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency: { group: pipeline, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.save.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Pick the step for this time
-        id: step
-        run: |
-          H=$(TZ=America/New_York date +%H); M=$(TZ=America/New_York date +%M)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" = "07" ] && [ "$M" -ge 50 ]; }; then echo cmd=daily >> $GITHUB_OUTPUT
-          elif [ "$H" -ge 12 ] || [ "$H" -lt 2 ]; then echo cmd=grade >> $GITHUB_OUTPUT
-          else echo cmd=skip >> $GITHUB_OUTPUT; fi
-      - name: Run pipeline
-        if: steps.step.outputs.cmd != 'skip'
-        env: { ODDS_API_KEY: "${{ secrets.ODDS_API_KEY }}" }
-        run: |
-          python3 -m pipeline.run ${{ steps.step.outputs.cmd }}
-          [ "${{ steps.step.outputs.cmd }}" = grade ] && python3 -m pipeline.run recheck || true
-      - name: Save results
+      - name: Run and save
+        id: save
+        env:
+          ODDS_API_KEY: "${{ secrets.ODDS_API_KEY }}"
+          NTFY_TOPIC: "${{ secrets.NTFY_TOPIC }}"
+          CMD: "${{ inputs.cmd || 'auto' }}"
         run: |
           git config user.name "slip-lab-bot"; git config user.email "actions@users.noreply.github.com"
-          git add data app/data.json app/index.html && git commit -m "Sigma Locks update $(date -u +%F' '%H:%M)" && git push || echo "no changes"
+          # Claude pushes too, so start from the newest main and redo the run if a push lands first.
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 -m pipeline.run "$CMD"
+            git add data app
+            if git diff --cached --quiet; then echo "changed=false" >> $GITHUB_OUTPUT; exit 0; fi
+            git commit -qm "Auto $CMD $(TZ=America/New_York date '+%F %H:%M') ET"
+            if git push -q origin HEAD:main; then echo "changed=true" >> $GITHUB_OUTPUT; exit 0; fi
+            sleep 20
+          done
+          exit 1
+  # A push made with the workflow token doesn't start other workflows, so the website is deployed here.
+  deploy:
+    needs: run
+    if: needs.run.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: app }
+      - id: deploy
+        uses: actions/deploy-pages@v4

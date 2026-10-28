@@ -59,6 +59,7 @@ cd /mnt/project-files/betting-app
 python3 -m pipeline.run daily     # 7:59 AM ET
 python3 -m pipeline.run recheck   # games waiting on lineups or news
 python3 -m pipeline.run grade     # after games end
+python3 -m pipeline.run auto      # GitHub Actions: sync, closing lines, grading
 python3 -m pipeline.run export    # rebuild app/data.json and the app's built-in data
 python3 -m pipeline.run status
 python3 -m unittest tests.test_core
@@ -95,7 +96,7 @@ The preview is a private claude.ai link, so it can't install as a phone app or p
 
 1. Create a free GitHub repo and connect it to this project.
 2. Push this folder. Turn on GitHub Pages for `app/`.
-3. The workflow is already written at `.github/workflows/slip-lab.yml` (`.gitignore` keeps `.secrets/` out of the repo). It runs `daily` at 7:59 AM ET, `recheck` every 30 minutes and `grade` every 30 minutes in the evening, then commits `data/` and `app/data.json`. Store the key as a repo secret named `ODDS_API_KEY`.
+3. `.github/workflows/slip-lab.yml` runs `python3 -m pipeline.run auto` every 15 minutes from noon to 3 AM ET: device sync, closing lines and grading, committing only when the ledger changed and then redeploying the website. Claude keeps the 7:59 AM research and picks, pre-lock checks and post-game reviews; `daily` never runs on a schedule there, or picks would be logged twice. Repo secrets: `NTFY_TOPIC` and `ODDS_API_KEY` (closing lines are skipped without it). Claude's runs pull `main` before they start, since Actions commits grades there.
 
 ## Roadmap (not built)
 
