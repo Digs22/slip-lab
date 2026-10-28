@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-27: at Western Kentucky Hilltoppers
+### 2026-10-27: at Western Kentucky Hilltoppers (final: DEL 35, WKU 21)
 
 Near pick'em with Delaware -1.5 at a rested, home WKU team, and the 57.5 total looks about 3-4 points high. Most likely winner: WKU +1.5 (-112), a one-book DraftKings price with no proven edge.
 
@@ -34,4 +34,4 @@ Legs considered:
 - Western Kentucky ML: ESPN's predictor gives WKU 56% and it holds the rest and home edges, but a -105 price on a coin flip is no bargain.
 
 Our bets:
-- straight (lean): Western Kentucky +1.5 (-108): pending -> **pending**
+- straight (lean): Western Kentucky +1.5 (-108): pending -> **loss**

@@ -215,5 +215,47 @@
   "at": "2026-10-25T14:59:47.035Z",
   "units": null,
   "unit": null
+ },
+ "2026-10-27-DELWKU-straight": {
+  "id": "2026-10-27-DELWKU-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:10.815Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-27-SHSUMOST-straight": {
+  "id": "2026-10-27-SHSUMOST-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:13.544Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-27-DETNY-straight": {
+  "id": "2026-10-27-DETNY-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:19.248Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-27-MILTB-straight": {
+  "id": "2026-10-27-MILTB-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:20.319Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-27-BKNBOS-straight": {
+  "id": "2026-10-27-BKNBOS-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:21.298Z",
+  "units": 6,
+  "unit": 2
+ },
+ "2026-10-27-SACSA-straight": {
+  "id": "2026-10-27-SACSA-straight",
+  "on": true,
+  "at": "2026-10-27T23:38:23.132Z",
+  "units": 6,
+  "unit": 2
  }
 }

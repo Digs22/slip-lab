@@ -6,7 +6,7 @@ _Research adds what stays true across games here: coaching tendencies, home fiel
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-27: at Missouri State Bears
+### 2026-10-27: at Missouri State Bears (final: SHSU 3, MOST 24)
 
 Missouri State is a 2-5 team with the 130th-ranked scoring defense laying 4.5 to a 1-6 Sam Houston team that has the No. 3 pass defense. Most likely winner: Sam Houston +4.5 (-105), one-book price, thin edge.
 
@@ -34,4 +34,4 @@ Legs considered:
 - Sam Houston ML: If the teams are about even, +180 (35.7%) pays a bit more than the roughly 38-40% win chance I see.
 
 Our bets:
-- straight (lean): Sam Houston +6 (-110): pending -> **pending**
+- straight (lean): Sam Houston +6 (-110): pending -> **loss**

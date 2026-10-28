@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-27: at Boston Celtics
+### 2026-10-27: at Boston Celtics (final: BKN 124, BOS 125)
 
 Boston is on the second night of a back-to-back laying 11.5 to a rested Brooklyn; my margin is about 10.5, so Nets +11.5 is the most likely winner (thin edge). No usage SGP qualifies and the total is only 3.4 over.
 
@@ -38,7 +38,7 @@ Legs considered:
 - Over 222.5: Blended projection 225.9 is 3.4 over 222.5, but Under is 6-1 in the last seven Boston meetings, so it is only a mild lean.
 
 Our bets:
-- straight (lean): Brooklyn Nets +12.5 (-110): pending -> **pending**
+- straight (lean): Brooklyn Nets +12.5 (-110): pending -> **win**
 
 ### 2026-10-25: vs Indiana Pacers (final: IND 136, BKN 109)
 

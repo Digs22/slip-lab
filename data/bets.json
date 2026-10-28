@@ -16680,13 +16680,20 @@
           "note": "Detroit is 3-0 with a 102.5 DRtg, swept NY last year and gets 4.5 at FanDuel/BetMGM; Duren out and Thompson questionable are the risks.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 15.65
+      "to_win": 15.65,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "DET 97, NY 111",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-27-MILTB-straight",
@@ -16737,13 +16744,20 @@
           "note": "Rested Ashby, Uribe and Megill plus the best lineup beat a short-leash Jax, but the 3-0 price already carries it.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 14.88
+      "to_win": 14.88,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "MIL 3, TB 4",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-27-BKNBOS-straight",
@@ -16794,13 +16808,18 @@
           "note": "Boston is on a back-to-back and lays 11.5; my margin is about 10.5, Dimers shows a 6.7% edge, and Nets are 5-3 ATS vs BOS in two years.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "win"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "win",
+      "net": 16.36,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "BKN 124, BOS 125"
     },
     {
       "id": "2026-10-27-SACSA-straight",
@@ -16851,13 +16870,20 @@
           "note": "Projection 230.7 is level with 232.5 (books run 229.5-232.5), so this rests on blowout garbage time and SA's early shooting slump, not the model.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.07
+      "to_win": 16.07,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "SAC 103, SA 130",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-27-DELWKU-straight",
@@ -16907,13 +16933,20 @@
           "note": "WKU gets 13 days of rest at home against a 0-3 road Delaware team, so the points have value either way.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.67
+      "to_win": 16.67,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "DEL 35, WKU 21",
+      "cause": "bad read"
     },
     {
       "id": "2026-10-27-SHSUMOST-straight",
@@ -16963,13 +16996,20 @@
           "note": "Common-opponent math (WKU beat MOST by 21 on the road and SHSU by 13) rates these teams even, so 4.5 at home is a bit high.",
           "status": null,
           "alt": null,
-          "main_line": null
+          "main_line": null,
+          "result": "loss",
+          "cause": "bad read"
         }
       ],
-      "status": "pending",
-      "net": null,
+      "status": "loss",
+      "net": -18.0,
       "stake": 18.0,
-      "to_win": 16.36
+      "to_win": 16.36,
+      "placed": true,
+      "placed_units": 6,
+      "placed_unit": 2,
+      "final": "SHSU 3, MOST 24",
+      "cause": "bad read"
     }
   ]
 }

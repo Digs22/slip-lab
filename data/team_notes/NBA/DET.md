@@ -12,7 +12,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-27: at New York Knicks
+### 2026-10-27: at New York Knicks (final: DET 97, NY 111)
 
 Unbeaten Detroit (3-0) is a better team on current form than 0-3 New York, and my margin is about NY by 1.6 to DET by 2.6 against NY -3.5. Pistons +4.5 is the most likely winner; no prop passed the 2-book rule.
 
@@ -39,7 +39,7 @@ Legs considered:
 - Over 219.5: Blended projection 221.6 is 2.1 over, but NY's last five games went Under and Duren's absence cuts both ways, so it is a thin lean.
 
 Our bets:
-- straight (lean): Detroit Pistons +4.5 (-115): pending -> **pending**
+- straight (lean): Detroit Pistons +4.5 (-115): pending -> **loss**
 
 ### 2026-10-25: at Philadelphia 76ers (final: DET 106, PHI 93)
 

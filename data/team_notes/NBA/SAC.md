@@ -11,7 +11,7 @@
 
 ## Game log (auto-built from every researched game, newest first)
 
-### 2026-10-27: at San Antonio Spurs
+### 2026-10-27: at San Antonio Spurs (final: SAC 103, SA 130)
 
 Kings are down four rotation players and 0-3, but SA -18.5 is far above my 10-point margin, so Kings +18.5 is the most likely winner (about 53%). No total edge and no priced props.
 
@@ -36,7 +36,7 @@ Legs considered:
 - Under 232.5: Projection 230.7 is level with 232.5 (books run 229.5-232.5), so this rests on blowout garbage time and SA's early shooting slump, not the model.
 
 Our bets:
-- straight (lean): Under 232.5 (-112): pending -> **pending**
+- straight (lean): Under 232.5 (-112): pending -> **loss**
 
 ### 2026-10-25: vs Memphis Grizzlies (final: MEM 123, SAC 112)
 
